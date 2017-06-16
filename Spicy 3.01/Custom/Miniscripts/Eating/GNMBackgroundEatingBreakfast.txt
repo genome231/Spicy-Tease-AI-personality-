@@ -1,0 +1,90 @@
+@NullResponse @CheckDate(AskedForBreakfast, BreakFast)
+@SystemMessage #GNMVA You allready had breakfast today.. 
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(BreakFast)
+@NullResponse @SetDate(AskedForBreakfast, 16 Hours) @ChangeVar[AskedToEat]=[AskedToEat]-[1]
+@SystemMessage #GNMVA @RT(So its time for breakfast!,So you wanna have breakfast,So you would like to eat breakfast!)
+@SystemMessage #GNMVA #DomName left me a note about what and how you should eat @If[GNMMerits]<=[2]Then(Oatmeal)
+@NullResponse @If[GNMMerits]>=[9]Then(Whatever) @Goto(Meal1,Meal2,Meal3,Meal4,Meal5,Meal6,Meal7,Meal8,Meal9,Meal10)
+(Meal1)
+@SystemMessage #GNMVA #DomHonorific says that your breakfast should be a portion of oatmeal @RT(You may add what you like to it,make it just borring plain oatmeal)
+@Flag(Fat) @SystemMessage #GNMVA Now try not to eat to much fatty
+@SystemMessage #GNMVA @RT(She wants you to eat it from a plate on the floor like a dog - no hands!,You may eat like a person and enjoy it with a spoon)
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal2)
+@SystemMessage #GNMVA #DomName says you may eat whatever you like
+@Flag(Fat) @SystemMessage #GNMVA as long as you dont eat too much
+@SystemMessage #GNMVA @RT(But that just must eat it like a dog from a plate on the floor,And you may even enjoy it however you want..)
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal3)
+@SystemMessage #GNMVA She says that a glas of @RT(milk,juice,water) is enough for you
+@Flag(Fat) #GNMVA You aren't skinny afterall
+@SystemMessage #GNMVA But make sure to eat an early lunch!
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal4)
+@SystemMessage #GNMVA #DomName told me that fruit should be enough for you
+@Flag(Fat) @SystemMessage #GNMVA Be a darling and eat it from a plate on the floor
+@SystemMessage #GNMVA You are allowed to pack a bag with fruits to eat throughout the day
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal5)
+@SystemMessage #GNMVA #DomHonorific said you may eat whatever you want except any kind of bread
+@Flag(Fat) @SystemMessage #GNMVA @RT(Before you eat do 20 push ups,Before you eat do 20 crunches)
+@SystemMessage #GNMVA Also do some exercise today!
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal6)
+@SystemMessage #GNMVA You may eat whatever you want, but you may only drink water with it
+@Flag(Fat) #GNMVA @SystemMessage No juice or anything else for you fatman!
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal7)
+@SystemMessage #GNMVA You may eat whatever you want! But you may not eat more than 200 grams #GNMLol
+@Flag(Fat) #GNMVA @SystemMessage You need to lose weight..
+@SystemMessage #GNMVA I would love if you also did a total of 50 push ups today!
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal8)
+@SystemMessage #GNMVA You may enjoy whatever you want, but you have to eat it naked!
+@Flag(Fat) #GNMVA @SystemMessage That way you'll be concious of your fat belly
+@SystemMessage #GNMVA #GNMEmoteHappy
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal9)
+@NullResponse @CheckFlag(GNMAskedToBuyLingerieAdvanced) 
+@NullResponse @CheckFlag(GNMAskedToBuyLingerieBasic) @Goto(Meal9a)
+(Meal9a)
+@SystemMessage #GNMVA You may enjoy whatever you want.
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(GNMToyLingerieAdvanced) 
+@SystemMessage #GNMVA You may enjoy whatever you want, but you have to wear a full set of spicy lingerie
+@Flag(Fat) @SystemMessage #GNMVA Not that a fat man should be allowed to wear lingerie..
+@SystemMessage #GNMVA Remember to remove it when you're done eating
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(GNMToyLingerieBasic)
+@SystemMessage #GNMVA You may enjoy whatever you want, but you have to wear a pair of panties
+@Flag(Fat) @SystemMessage #GNMVA Not that a fat man should be allowed to wear panties, thats just sad!
+@SystemMessage #GNMVA Remember to remove them when you're done eating
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Meal10)
+@SystemMessage #GNMVA You may enjoy whatever you want, but drink a full liter of water first
+@Flag(Fat) @SystemMessage #GNMVA That should reduce your appetite a little..
+@SystemMessage #GNMVA Drink the water from a bowl on the floor #GNMLol
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Oatmeal)
+@SystemMessage #GNMVA Due to your poor behaviour I think @RT(a portion of oatmeal might be what you need!,Eating nothing is a good idea!) 
+@SystemMessage #GNMVA If you want something to drink you drink water from a bowl on the floor.
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Whatever)
+@SystemMessage #GNMVA You've been a darling recently! Make yourself a feast!
+@Flag(Fat) @SystemMessage #GNMVA I dont care that you're fat! Eat fat man!
+@SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
+@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

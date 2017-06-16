@@ -1,0 +1,96 @@
+@NullResponse @If[FirstMChallenge]>=[10]Then(AllMChallengesDone) @CheckFlag(ChallengeMFirst) @SetVar[FirstMChallenge]=[0] @SetFlag(ChallengeMFirst)
+(ChallengeMFirst)
+@SystemMessage #GNMVA @RT(Lets find something fun for you to do,Lets go ahead and find you a nice little challenge,You've asked for a challenge and here it comes,I love to give you challenges!) 
+@NullResponse @CheckFlag(ChallengeGiven) @SetFlag(ChallengeGiven)
+@NullResponse @CheckFlag(AllMediumCDone)
+@NullResponse @CheckFlag(ChallengeM10)
+@NullResponse @CheckFlag(ChallengeM9)
+@NullResponse @CheckFlag(ChallengeM8)
+@NullResponse @CheckFlag(ChallengeM7)
+@NullResponse @CheckFlag(ChallengeM6)
+@NullResponse @CheckFlag(ChallengeM5)
+@NullResponse @CheckFlag(ChallengeM4)
+@NullResponse @CheckFlag(ChallengeM3)
+@NullResponse @CheckFlag(ChallengeM2)
+(ChallengeM1)
+@NullResponse @CheckFlag(GNMToyParachute)
+@SystemMessage #GNMVA Well since you dont own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeM2) @Goto(ChallengeM2)
+(GNMToyParachute)
+@SystemMessage #GNMVA For this challenge @SetFlag(ChallengeM2)
+@SystemMessage #GNMVA I want you to go for a 40 minute walk while wearing your parachute with spikes
+@SystemMessage #GNMVA Wish I was there to hold you in your hand #GNMGrin
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM2)
+@SystemMessage #GNMVA With this challenge @SetFlag(ChallengeM3)
+@SystemMessage #GNMVA You need to do 2100 strokes within 15 minutes!
+@SystemMessage #GNMVA It must be proper full strokes
+@SystemMessage #GNMVA Use lube
+@SystemMessage #GNMVA You may not cum in any way
+@SystemMessage #GNMVA If you exceed your time limit or cum you have failed the challenge
+@SystemMessage #GNMVA And must redo it at some point..
+@SystemMessage #GNMVA Make sure you enjoy a bit of porn with it #GNMEmoteHappy
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM3)
+@SystemMessage #GNMVA So for this challenge @SetFlag(ChallengeM4)
+@SystemMessage #GNMVA You have to do 300 edges
+@SystemMessage #GNMVA Yea I said 300..
+@SystemMessage #GNMVA Once you start you have to complete the 300 edges within 24 hours..
+@SystemMessage #GNMVA If you cum you fail
+@SystemMessage #GNMVA If you spend more than 24 hours you fail
+@SystemMessage #GNMVA If you fail you will retry until you succeed!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM4)
+@SystemMessage #GNMVA This is gonna be intense #GNMGrin @SetFlag(ChallengeM5)
+@SystemMessage #GNMVA I want you to visit a physical lingerie shop
+@SystemMessage #GNMVA Purchase something sexy for you to wear #GNMLol
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM5)
+@NullResponse @CheckFlag(GNMToyElectro)
+@SystemMessage #GNMVA Well since you dont own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeM6) @Goto(ChallengeM6)
+(GNMToyElectro)
+@SystemMessage #GNMVA This would be fun to videotape! @SetFlag(ChallengeM6)
+@SystemMessage #GNMVA I want you to go a walk
+@SystemMessage #GNMVA About 30 minutes with electrodes on your #GNMCock
+@SystemMessage #GNMVA Keep the stimulator on medium settings..
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM6)
+@SystemMessage #GNMVA Lets see about that stamina! @SetFlag(ChallengeM7)
+@SystemMessage #GNMVA Deny yourself for 14 days straight..
+@SystemMessage #GNMVA If at any point you are told to cum
+@SystemMessage #GNMVA Simply dont..
+@SystemMessage #GNMVA Once you've done it for 14 days
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM7)
+@SystemMessage #GNMVA #GNMSlut @SetFlag(ChallengeM8)
+@SystemMessage #GNMVA For this challenge I want you to wear panties for 3 days straight
+@SystemMessage #GNMVA You sleep in them
+@SystemMessage #GNMVA You eat in them
+@SystemMessage #GNMVA But you dont shower in them...
+@SystemMessage #GNMVA Quite simple actually
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM8)
+@SystemMessage #GNMVA I feel sorry for your #GNMAss #GNMEmoteHappy @SetFlag(ChallengeM9)
+@SystemMessage #GNMVA I want you to place a rubberband arround each asscheek
+@SystemMessage #GNMVA You must pull and release each of them for 150 strikes within 25 minutes
+@SystemMessage #GNMVA No half assed pull backs
+@SystemMessage #GNMVA Each strike should make you scream!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM9)
+@SystemMessage #GNMVA #GNMMoan @SetFlag(ChallengeM10)
+@SystemMessage #GNMVA I want you to smack your #GNMBalls
+@SystemMessage #GNMVA For 100 strikes with a spatula
+@SystemMessage #GNMVA Each strike should be breathtaking
+@SystemMessage #GNMVA But not in a good way #GNMLol
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeM10)
+@NullResponse @CheckFlag(GNMToyButtPlug)
+@SystemMessage #GNMVA Well since you dont own a buttplug, I'll have to find a new challenge.. @SetFlag(AllMediumCDone) @Goto(AllMediumCDone)
+(GNMToyButtPlug)
+@SystemMessage #GNMVA This is a fun one! @SetFlag(AllMediumCDone)
+@SystemMessage #GNMVA All you have to do is wear a medium buttplug for 2 hours straight
+@SystemMessage #GNMVA Enjoy!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeGiven)
+@SystemMessage #GNMVA I cant give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(AllMediumCDone)
+@SystemMessage #GNMVA You've completed all your medium challenges slaves.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
