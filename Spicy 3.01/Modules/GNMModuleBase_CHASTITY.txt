@@ -1,0 +1,128 @@
+@NullResponse @RapidCodeOn
+@Variable[#DateDifference(Devotion, Minutes)]>[DevotionSet] @NullResponse @Goto(EndSession)
+@Flag(Glitter1Bought,Glitter2Bought,Glitter3Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1,Glitter2,Glitter3)
+@Flag(Glitter1Bought,Glitter2Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1,Glitter2)
+@Flag(Glitter1Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1)
+@NullResponse @Goto(Domme)
+(Domme)
+@NullResponse @Goto(ModuleRun)
+(Glitter1)
+@NullResponse @SetFlag(Glitter1Active) @DeleteFlag(DommeActive)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
+@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
+@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
+@NullResponse @AddContact1 #DT
+@NullResponse @RemoveDomme #DT
+@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
+(Glitter2)
+@NullResponse @SetFlag(Glitter2Active) @DeleteFlag(DommeActive)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
+@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
+@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
+@NullResponse @AddContact2 #DT
+@NullResponse @RemoveDomme #DT
+@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) @Goto(ModuleRun)
+(Glitter3)
+@NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
+@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
+@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
+@NullResponse @AddContact3 #DT
+@NullResponse @RemoveDomme #DT
+@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
+(ModuleRun)
+@NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18)
+(a1)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_1Cinema.txt)
+@NullResponse @Goto(End)
+(a2)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_2LineWriting.txt)
+@NullResponse @Goto(End)
+(a3)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_3Slideshow.txt)
+@NullResponse @Goto(End)
+(a4)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_4Gamble.txt)
+@NullResponse @Goto(End)
+(a5)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_5Photoshoot.txt)
+@NullResponse @Goto(End)
+(a6)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_6Story.txt)
+@NullResponse @Goto(End)
+(a7)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_1Spanking.txt)
+@NullResponse @Goto(End)
+(a8)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_2BallCrushing.txt)
+@NullResponse @Goto(End)
+(a9)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_1PositionTraining.txt)
+@NullResponse @Goto(End)
+(a10)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_2RuleTraining.txt)
+@NullResponse @Goto(End)
+(a11)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_3Licking.txt)
+@NullResponse @Goto(End)
+(a12)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_4ServiceTraining.txt)
+@NullResponse @Goto(End)
+(a13)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_6Math.txt)
+@NullResponse @Goto(End)
+(a14)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_1BJTraining.txt)
+@NullResponse @Goto(End)
+(a15)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_2AudioTease.txt)
+@NullResponse @Goto(End)
+(a16)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_3Cuckold.txt)
+@NullResponse @Goto(End)
+(a17)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_4Hypnosis.txt)
+@NullResponse @Goto(End)
+(a18)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_6Anal.txt)
+@NullResponse @Goto(End)
+(a19)
+@NullResponse @CallReturn(CR\Modules\Chastity\.txt)
+@NullResponse @Goto(End)
+(a20)
+@NullResponse @CallReturn(CR\Modules\Chastity\.txt)
+@NullResponse @Goto(End)
+(End)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter1Active)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter2Active)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter3Active)
+@End
+(Glitter1Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter1Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact1
+@End
+(Glitter2Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter2Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact2
+@End
+(Glitter3Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter3Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact3
+@End
+(EndSession)
+@NullResponse @Interrupt(GNMEnd)
+@Info Categories
+@Info Tease: 		(edging, stroking, other forms of stimulation).
+@Info Pain:  		(Anything).
+@Info Sissy: 		(crossdressing, bj training, cuckolding).
+@Info Slave:  	(Position training, servicing exercising)
+@Info Humiliation: 
+@Info 
+@Info 
+@Info Category is currently chosen due 
+@Info 
+@Info 
+@Info 
