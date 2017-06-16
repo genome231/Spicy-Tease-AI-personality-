@@ -1,0 +1,11 @@
+[please let me cum,i want to cum so bad,can i please cum,let me cum,can i cum]
+[All]
+@Flag(Session,End) @NullResponse @CallReturn(CR\Responses\Begging\R1c.txt)
+@Flag(Session) @NullResponse
+@Flag(Session) @NullResponse
+@Flag(Academy) @NullResponse
+@Flag(Academy) @NullResponse
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @NullResponse
+@Flag(Assistant,Busy) @NullResponse
+[All End]

@@ -1,0 +1,11 @@
+[shop]
+[All]
+@Flag(Session,Ready) @NullResponse
+@Flag(Session,Ready) @NullResponse
+@Flag(Session,Busy) @NullResponse 
+@Flag(Academy,Ready) @NullResponse
+@Flag(Academy,Ready) @NullResponse
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant,Ready) @SystemMessage Entering shop @ShowImage[\GNMImages\Shop\Shop.*] @CallReturn(CR\BackgroundMode\Shop\ShopBase.txt)
+@Flag(Assistant,Busy) @NullResponse
+[All End]

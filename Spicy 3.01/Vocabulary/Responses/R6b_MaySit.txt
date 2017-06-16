@@ -1,0 +1,13 @@
+[may i sit please,can i sit please,please let me sit,i want to sit please,may i sit down please,can i sit down please,please let me sit down,i want to sit down please]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\Permission\R6b.txt)
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Session,Busy) @NullResponse
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(Yes go ahead and sit down,Yes you may sit,Yes go ahead and sit down) #DT
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(I dont care,I dont care wether you sit or stand,Thats entirely up to you..)
+@Flag(Assistant,Busy) @NullResponse
+[All End]
+
+

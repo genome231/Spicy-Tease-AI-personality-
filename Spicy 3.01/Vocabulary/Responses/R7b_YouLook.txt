@@ -1,0 +1,11 @@
+[youre hot, your hot, youre beautiful, your beautiful, you are hot, you are beautiful, youre gorgeous, your gorgeous, you are gorgeous, youre incredible, your incredible, you are incredible, stunning, youre sexy, your sexy, you are sexy, your body is, you look great, you look sexy, you look incredible, you look hot, you look beautiful, your looks great, your looks sexy, your looks hot, your looks beautiful, your is great, your is sexy, your is beautiful, hot on you, sexy on you, great on you, incredible on you, amazing on you, you look amazing, you look gorgeous, you look fantastic, you look wonderful, wonderful on you, your wonderful, youre wonderful, you are wonderful, you look great, great on you, your great, youre great, you are great, your looks great, your is great, you look awesome, awesome on you, your awesome, you're awesome, you are awesome]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\WellBeing\R7b.txt)
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Session,Busy) @NullResponse
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(Well #SlaveName thank you!,Thank you #SlaveName,Not the time for compliments #SubName,#Slave this isn't really the time?) #DT
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Ofcourse I look great..,I always look perfect,I'm perfect so yea?,I'm beautiful and I know it)
+@Flag(Assistant,Busy) @NullResponse
+[All End]

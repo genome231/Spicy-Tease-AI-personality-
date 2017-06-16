@@ -1,0 +1,9 @@
+[permission to talk please,permission to speak please,may i talk please,may i speak please,can i please speak,can i please talk,may i please ask something,may i please say something]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\Permission\R6a.txt)
+@Flag(Session,Busy) @NullResponse
+@Flag(Academy) @RT(No you may not #SlaveName,Not right now #SlaveName,Absolutely not #SlaveName) #DT
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Being a virtual assistant I'm not capable of having a conversation,Speak I dont care..,Just speak I dont really care..)
+@Flag(Assistant,Busy) @NullResponse
+[All End]

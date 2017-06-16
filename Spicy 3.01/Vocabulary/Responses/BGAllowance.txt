@@ -1,0 +1,61 @@
+[allowance,money this month,how much may i spend,what is my monthly allowance]
+[Before Tease]
+@Flag(BGBase) @NullResponse @CallReturn(\CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Before Tease End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[First Round]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[First Round End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Stroking]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Stroking End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Not Stroking]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Not Stroking End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Edging]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Edging End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Holding The Edge]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Holding The Edge End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[CBT Cock]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[CBT Cock End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[CBT Balls]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[CBT Balls End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Chastity]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[Chastity End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[After Tease]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[After Tease End]
+@Flag(BGBase) @NullResponse @CallReturn(CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
