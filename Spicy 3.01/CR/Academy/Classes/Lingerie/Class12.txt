@@ -1,0 +1,33 @@
+@RT(I have a little game for us to enjoy,I have a quick game) #DT #GNMGrin
+Its called "Quick Thinking" #DT
+I'll show you a picture #DT
+You have to answer wether its a corselet, corsage, french maid or garterbelt #DT
+But you have to do so within 4 seconds! #DT #GNMGrin @SetVar[LClass6]=[#Random(6,9)]
+As soon as you see the image the timer starts #DT
+(Choose)
+@RT(Hmmm..,Let see..,What to choose..,What to pick..,Hehe..) #DT @Goto(1,2,3,4)
+(1)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*] @Timeout(4,Wrong)
+[corselet]Correct! #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1]
+@AcceptAnswer Wrong! #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+@NullResponse @If[LClass6]<=[0]Then(Checks) @ChangeVar[LClass6]=[LClass6]-[1] @Goto(Choose)
+(2)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.*] @Timeout(4,Wrong)
+[corsage]Correct! #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1]
+@AcceptAnswer Wrong! #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+@NullResponse @If[LClass6]<=[0]Then(Checks) @ChangeVar[LClass6]=[LClass6]-[1] @Goto(Choose)
+(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\FrenchMaid\*.*] @Timeout(4,Wrong)
+[french maid]Correct! #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1]
+@AcceptAnswer Wrong! #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+@NullResponse @If[LClass6]<=[0]Then(Checks) @ChangeVar[LClass6]=[LClass6]-[1] @Goto(Choose)
+(4)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\GarterBelt\*.*] @Timeout(4,Wrong)
+[garter belt]Correct! #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1]
+@AcceptAnswer Wrong! #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+@NullResponse @If[LClass6]<=[0]Then(Checks) @ChangeVar[LClass6]=[LClass6]-[1] @Goto(Choose)
+(Wrong)
+Time's up.. #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+@NullResponse @If[LClass6]<=[0]Then(Checks) @ChangeVar[LClass6]=[LClass6]-[1] @Goto(Choose)
+(Checks)
+@End

@@ -1,0 +1,88 @@
+Class #DT
+I'm gonna describe different lingerie #DT
+And you're gonna tell what kind it is #GNMGrin #DT @SetVar[AClass11Var]=[0] @ChangeVar[AClass11Var]=[AClass11Var]+[#Random(10,20)]
+(Choose)
+@NullResponse @If[AClass11Var]<=[0]Then(End1) @ChangeVar[AClass11Var]=[AClass11Var]-[1] @Goto(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x)
+(a)
+Short, sometimes sleeveless and loose fitting #DT
+Often trimmed with lace, ruffles, appliques, marabou, bows and ribbons #DT
+What am I describing? #DT
+[babydoll]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(b)
+Closely fitted, extending past the waistline over the hips #DT
+"peekaboo design" #DT
+What am I describing? #DT
+[basque]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(c)
+Usually thigh length, fashionable in the 18th century #DT
+Made of study cotton, linnen, wool or linsey-woolsey #DT
+What am I describing? #DT
+[bedjacket]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(d)
+Doesn't involve any straps going over the shoulders #DT
+Will go with any bottom #DT
+What am I describing? #DT
+[bandeaukini]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(e)
+Covers the torso and crotch and can be made from many materials #DT
+Used for all ages.. #DT
+What am I describing? #DT
+[bodysuit]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(f)
+Covers the body from neck to waist #DT
+Common in europe from the 16th to the 18th #DT
+What am I describing? #DT
+[bodice]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(g)
+Form-fitting garment that pushes up the bust #DT
+Has a lot of resemblance with another type of lingerie but is shorter #DT
+What am I describing? #DT
+[bustier]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(h)
+Also known as the shelf bra #DT
+What am I describing? #DT
+[balconette]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(i)
+Loose-fitting, sleeveless undergarment which is loose arround the waist #DT
+Typically it has no bottons or other fasteners #DT
+What am I describing? #DT
+[chemise]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(j)
+Used to hold and train the waist #DT
+What am I describing? #DT
+[corset]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(k)
+It has elements from the bra's and girdles #DT
+May incorporate lace in the front or back #DT
+What am I describing? #DT
+[corselet]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(l)
+Often confused for a corset, but a corset is tigther #DT
+What am I describing? #DT
+[corsage]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(m)
+See-through, loose, including laces and bows #DT
+Is a sexy nightwear #DT
+What am I describing? #DT
+[negligee]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT  @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(Choose)
+@AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT  @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(Choose)
+(End1)
+Class #DT
+I want all of you to go to a corner #DT
+Stay there and think about how you would describe different kinds of lingerie #DT
+Go now and wait for me bell #DT @Wait(120)
+Come back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+This was good practice! #DT
+@End

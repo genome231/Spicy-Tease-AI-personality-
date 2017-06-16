@@ -1,0 +1,10 @@
+#SlaveName #DT @DeleteFlag(HomeWorkActive)
+@RT(Did you complete the homework I assigned you the last time?,Did you remember to do the homework?,Did you do the homework?) #DT
+[yes]#GNMGood #DT #MeritChangePMedium @Goto(End)
+[no]Nautghy boy! #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@Flag(FullTime) @RT(You know you have to complete it..,You very well know that it is mandatory..) #DT #MeritChangeNMedium
+@Flag(PartTime) @RT(I really think you should considder doing them,I do believe you would be pleased about yourself if you were to complete them..) #DT
+@Flag(FullTime) @RT(Do your homework!,Remember to do your homework!,Dont forget to do your homework!) #DT
+(End)
+@End

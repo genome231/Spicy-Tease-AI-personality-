@@ -1,0 +1,55 @@
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Now slaves!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) We want to have a contest! #GNMLol
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You may all unlock your chastity cage, but not the base ring..
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Keep the cage close
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) It's going back on in a moment.. @Wait(15)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Get your dicks ready..
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) We wanna see who can stay on edge for the longest
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Now if you have any form of ejaculation
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) There will be severe consequences..
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Start stroking slowly @Wait(20)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Pick up the pace a little bit @Wait(20)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) In 20 seconds I want you on edge! @Wait(15)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) 3..
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) 2..
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) 1..
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Get on the edge boys and hold it! #GNMGrin
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Let us know when you've stopped stroking #GNMEmoteHappy
+@NullResponse @Timeout(20 ,Continue1)
+[yes,i stopped,i've stopped,no more,couldn't handle more] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore1)
+@AcceptAnswer @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore1)
+(Continue1)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM1 has stopped!
+@NullResponse @Timeout(20,Continue2)
+[yes,i stopped,i've stopped,no more,couldn't handle more] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore2)
+@AcceptAnswer @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore2)
+(Continue2)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM2 has stopped!
+@NullResponse @Timeout(20,Continue3)
+[yes,i stopped,i've stopped,no more,couldn't handle more] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore3)
+@AcceptAnswer @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SubName has stopped! @Goto(StoppedBefore3)
+(Continue3)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM3 has stopped! @Goto(Won)
+(StoppedBefore1)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM1 has also stopped now!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM2 Stopped as well
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Meaning that #SlaveM3 won!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #GNMGrin good job #SlaveM3 @Goto(Lock)
+(StoppedBefore2)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #SlaveM2 Stopped as well
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Meaning that #SlaveM3 won!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #GNMGrin good job #SlaveM3 @Goto(Lock)
+(StoppedBefore3)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Meaning that #SlaveM3 won!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) #GNMGrin good job #SlaveM3 @Goto(Lock)
+(Won)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Meaning #SubName won!
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Good job #SubName
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Your prize is extra frustation
+(Lock)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Now boys 
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Lock up those dicks again
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You dont wanna be unlocked when Miss arrives #GNMLol @Wait(20)
+@NotFlag(HasChastity) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Put those dicks away
+@NotFlag(HasChastity) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You dont wanna have them out when Miss arrives #GNMLol
+@End

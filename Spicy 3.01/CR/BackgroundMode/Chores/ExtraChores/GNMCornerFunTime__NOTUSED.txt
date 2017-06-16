@@ -1,0 +1,26 @@
+@SystemMessage #GNMVA @RT(A slave should always aspire to do a little 'extra',#PetName it makes me happy that you're here to serve,I'm thrilled that you cant seem to get enough #GNMGrin)
+@SystemMessage #GNMVA @RT(Well this is rather simple,This should be simple enough,This shouldn't be too hard)
+@SystemMessage #GNMVA @RT(I want you to stand in the corner,I just want you to stand in the corner,All you have to do is stand in the corner) facing the wall @SetVar[GNMCornerFun2]
+@SystemMessage #GNMVA @RT(For every 15 minutes you stay there I will,At for every quarter I will,And with every passing quarter I will) pay you 20 gold.. #GNMEmoteHappy
+@SystemMessage #GNMVA @RT(Are you sure you want to proceed?,Are you 100 that you want to continue with this?,Are you positive this is want you want?)
+[yes]@SystemMessage #GNMVA #GNMGood
+[no]@SystemMessage #GNMVA I cant help but be a little disappointed.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA @RT(Go to the corner and stay there,Head over in the corner and stay there,Quickly go to the corner and stay there)
+@SystemMessage #GNMVA When you cant take anymore simple come back and write 'done' @CustomMode(done, Goto, Done)
+(Count)
+@NullResponse @ChangeVar[GNMCornerFun2]=[GNMCornerFun2]+[1] @Wait(58) @Goto(Count)
+(Done)
+@SystemMessage #GNMVA @RT(Welcome back #PetName,Hope you enjoyed your own thoughts)
+@SystemMessage #GNMVA You lasted about @ShowVar[GNMCornerFun2] minutes #GNMGrin @If[GNMCornerFun2]<=[14]Then(Short)
+@NullResponse @If[GNMCornerFun2]>[14]Then(Long)
+(Short)
+@SystemMessage #GNMVA @RT(Which is far from impressing,Which is pathetic,Which is beyond bad!)
+@SystemMessage #GNMVA @RT(I mean it wasn't even a quater..,You couldn't even stand still for 15 minutes!)
+@SystemMessage #GNMVA @RT(You need to practice your patience..,You have to improve your patience if you want to be a good slave) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Long)
+@SystemMessage #GNMVA @RT(Which is okay I guess,Which could be a lot better!,I know you could do better) @ChangeVar[GNMCornerFun2]=[GNMCornerFun2]/[15]
+@SystemMessage #GNMVA @RT(At least you've earned a bit of gold,At least you got a little coin out of it) @ChangeVar[GNMCornerFun2]=[GNMCornerFun2]*[20]
+@SystemMessage #GNMVA @ShowVar[GNMCornerFun2] gold to be precise..
+@SystemMessage #GNMVA So let me go ahead and transfer that @ChangeVar[GNMGold]=[GNMGold]+[GNMCornerFun2]
+@SystemMessage #GNMVA Good job! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

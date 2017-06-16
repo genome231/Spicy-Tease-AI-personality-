@@ -1,0 +1,109 @@
+(TeaseBusyMode)
+@SystemMessage #VANC #VANP This is tease busy mode @SetVar[CustomMode]=[0]
+@SystemMessage #VANC #VANP Whenever you hear the bell return for an activity #GNMGrin
+@SystemMessage #VANC #VANP Write 'exit' when you wish to return to tease @CustomMode(exit, Goto, End)
+@SystemMessage #VANC #VANP Do you want the very rare, rare, occasionally or fixed custom interval?
+[very rare]@SystemMessage #VANC #VANP I see @TempFlag(TeaseModeEasy) @Goto(Regular)
+[rare]@SystemMessage #VANC #VANP I see @TempFlag(TeaseModeMedium) @Goto(Regular)
+[occasionally]@SystemMessage #VANC #VANP I see @TempFlag(TeaseModeHard) @Goto(Regular)
+[custom,fixed]@NullResponse @TempFlag(Custom) @Goto(TeaseModeCustom)
+@DifferentAnswer @SystemMessage #VANC #VANP Very rare, rare, occasionally or custom?
+(TeaseModeCustom)
+@SystemMessage #VANC #VANP Give me the number of minutes between each interruption that you would like @InputVar[CustomBusyMode]
+@SystemMessage #VANC #VANP Write 'exit' when you wish to return to tease
+(Custom)
+@NullResponse @SetVar[CustomMode]=[0] @ChangeVar[CustomMode]=[CustomMode]+[CustomBusyMode]
+(Count)
+@NullResponse @If[CustomMode]<=[0]Then(Tease) @ChangeVar[CustomMode]=[CustomMode]-[1] @Wait(55)
+@NullResponse @Goto(Count)
+(Regular)
+@SystemMessage #VANC #VANP Write 'exit' when you wish to return to tease @CustomMode(exit, Goto, End)
+(TeaseModeEasy)
+@NullResponse @Wait(90) @Chance02(Tease)
+(TeaseModeMedium)
+@NullResponse @Wait(85) @Chance05(Tease)
+(TeaseModeHard)
+@NullResponse @Wait(80) @Chance08(Tease)
+(Tease)
+@NullResponse @PlayAudio[GNMSounds\SpecialSounds\Bell.mp3] @Goto(a,b,c,d,e,f,g,h,i,j,k)
+(a)
+@SystemMessage #VANC #VANP @RT(Lets rattle your #GNMCock a little,Lets make your #GNMCock jump a little,Lets see if we can awaken the princess,Lets play a little,I have something fun for you #GNMEmoteHappy)
+@SystemMessage #VANC #VANP @RT(Just watch this little slide show,Just enjoy this little show,Just sit back and relax,Hang back there and watch this) while you fondle your #GNMBalls
+(SlideShow1)
+@NullResponse @ShowImage @Chance90(SlideShow1)
+@NullResponse @ShowImage
+@NullResponse @ShowImage
+@NullResponse @ShowImage
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @CheckFlag(TeaseModeEasy)
+@NullResponse @CheckFlag(TeaseModeMedium)
+@NullResponse @CheckFlag(TeaseModeHard)
+(b)
+@SystemMessage #VANC Get into the Bad Bitch position @ShowImage[GNMImages\Positions\BadBitch2.*] @Wait(10)
+@SystemMessage #VANC #VANP Hold it until you hear my bell again..
+(Wait1)
+@NullResponse @Wait(10) @Chance93(Wait1)
+@NullResponse @Wait(10)
+@NullResponse @Wait(10)
+@NullResponse @Wait(10)
+@NullResponse @Wait(10) @PlayAudio[GNMSounds\SpecialSounds\Bell.mp3]
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @Goto(Return)
+(c)
+@SystemMessage #VANC Get into the Listen position @ShowImage[GNMImages\Positions\Listen1.*]
+@SystemMessage #VANC #VANP Hold it until you hear my bell again.. @Goto(Wait1)
+(d)
+@SystemMessage #VANC Get into the Cum Fuck Me position @ShowImage[GNMImages\Positions\CFM4.*]
+@SystemMessage #VANC #VANP Hold it until you hear my bell again.. @Goto(Wait1)
+(e)
+@NotFlag(ChastityIsOn) @NullResponse @Goto(Tease)
+@SystemMessage #VANC #VANP @RT(Carress your #GNMCock a little,Touch your cage a little,Get a good feel of the cage,Touch yourself,Feel yourself up)
+@SystemMessage #VANC #VANP @RT(Lets see if you can make it hard in that cage..,Lets see if we can the tiny girl fight for freedom,Lets see if you can make the sad tiny penis desperate for freedom) @Wait(15)
+@SystemMessage #VANC #VANP @RT(Is it hard yet,Is it hard,Is it as hard as a caged cock can be)?
+[no]@SystemMessage #VANC #VANP @RT(Lets hope its not dead #GNMLol,Tired I suppose,Maybe its finally understanding that its worthless,Maybe it knows i'm tricking it!)
+[yes]@SystemMessage #VANC #VANP #GNMGood #GNMLol
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@NullResponse @Wait(10)
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @Goto(Return)
+(f)
+@SystemMessage #VANC #VANP @RT(Give your #GNMBalls a few light taps #GNMLol,Hit your #GNMBalls hard just once,Tap hard on your #GNMBalls with 1 finger)
+@SystemMessage #VANC #VANP @RT(Just to remind them who's in charge!,So they wont question who's in charge,So they know who's boss) @Wait(10)
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @Goto(Return)
+(g)
+@SystemMessage #VANC #VANP @RT(Lightly fondle your nipples,Twist your nipples a little,Pinch your nipples,Make circles arround your nipples with your fingers)
+@SystemMessage #VANC #VANP @RT(Make them hard for me,Make them hard)
+@SystemMessage #VANC #VANP Just lightly touch them now @Wait(10)
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @Goto(Return)
+(h)
+@SystemMessage #VANC #VANP Find a mirror and pull your underwear down
+@Flag(ChastityIsOn) @SystemMessage #VANC #VANP Just enjoy watching that encased #GNMCock
+@SystemMessage #VANC #VANP Count to @RT(10,15,20) and then return to whatever you were doing #GNMLol @Wait(30) @Goto(Return)
+(i)
+@SystemMessage #VANC #VANP @RT(Lets rattle your #GNMCock a little,Lets make your #GNMCock jump a little,Lets see if we can awaken the imprisoned princess,Lets play a little,I have something fun for you #GNMEmoteHappy)
+@SystemMessage #VANC #VANP @RT(Just watch this little slideshow while you fondle your #GNMBalls #GNMLol,Fondle your #GNMBalls while you watch this magnificent girl!,Just hang back and watch this sexy slut!)
+(SlideShow1)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Chance90(SlideShow1)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
+@SystemMessage #VANC #VANP @rT(You look sooo hot!,Those pictures are soo hot,I would love to share these pictures with your friends!) #GNMGrin
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your business,thank you for a little attention) @Goto(Return)
+(j)
+@SystemMessage #VANC #VANP @RT(Lets rattle your #GNMCock a little,Lets make your #GNMCock jump a little,Lets see if we can awaken the princess,Lets play a little,I have something fun for you #GNMEmoteHappy)
+@SystemMessage #VANC #VANP Go to a tumblr website with your favorite theme wether it being chastity, femdom or something else
+@SystemMessage #VANC #VANP Look at the first 10 posts and read them #GNMGrin
+@SystemMessage #VANC #VANP Enjoy my little cuckie @Wait(60) @Goto(Return)
+(k)
+@SystemMessage #VANC #VANP @RT(Lets rattle your #GNMCock a little,Lets make your #GNMCock jump a little,Lets see if we can awaken the princess,Lets play a little,I have something fun for you #GNMEmoteHappy)
+@SystemMessage #VANC #VANP Find a few hot images and add them to your huuuge collection #GNMGrin
+@SystemMessage #VANC #VANP Enjoy #GNMSlut @Wait(60) @Goto(Return)
+(Return)
+@NullResponse @CheckFlag(TeaseModeEasy)
+@NullResponse @CheckFlag(TeaseModeMedium)
+@NullResponse @CheckFlag(TeaseModeHard)
+@NullResponse @CheckFlag(Custom)
+(End)
+@NullResponse @RapidCodeOn @CustomMode(ModeText, Normal)
+@NullResponse @DeleteFlag(TeaseModeEasy)
+@NullResponse @DeleteFlag(TeaseModeMedium)
+@NullResponse @DeleteFlag(TeaseModeHard)
+@NullResponse @DeleteFlag(Custom)
+@NullResponse @Interrupt(GNMBackgroundBase)

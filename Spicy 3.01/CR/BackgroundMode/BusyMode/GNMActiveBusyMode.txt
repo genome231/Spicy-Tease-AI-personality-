@@ -1,0 +1,83 @@
+(ActiveBusyMode)
+@SystemMessage #VANC #VANP This is active busy mode @SetVar[CustomMode]=[0]
+@SystemMessage #VANC #VANP Whenever you hear the bell return for an activity #GNMGrin
+@SystemMessage #VANC #VANP Write 'exit' when you wish to return to tease @CustomMode(exit, Goto, End)
+@SystemMessage #VANC #VANP Do you want the very rare, rare, occasionally or fixed custom interval?
+[very rare]@SystemMessage #VANC #VANP I see @TempFlag(ActiveModeEasy) @Goto(ActiveModeEasy)
+[rare]@SystemMessage #VANC #VANP I see @TempFlag(ActiveModeMedium) @Goto(ActiveModeMedium)
+[occasionally]@SystemMessage #VANC #VANP I see @TempFlag(ActiveModeHard) @Goto(ActiveModeHard)
+[custom]@NullResponse @TempFlag(Custom)
+@DifferentAnswer @SystemMessage #VANC #VANP Very rare, rare, occasionally or custom?
+(ActiveModeCustom)
+@SystemMessage #VANC #VANP Give me a number in minutes in which you wish to be interrupted at intervals @InputVar[CustomBusyMode]
+@SystemMessage #VANC #VANP Write 'exit' when you wish to return to the slavehub
+(Custom)
+@NullResponse @SetVar[CustomMode]=[0]
+@NullResponse @ChangeVar[CustomMode]=[CustomMode]+[CustomBusyMode]
+(Count)
+@NullResponse @If[CustomMode]<=[0]Then(Tease) @ChangeVar[CustomMode]=[CustomMode]-[1] @Wait(55)
+@NullResponse @Goto(Count)
+(ActiveModeHard)
+@NullResponse @Wait(600) @Chance15(Tease) @Goto(ActiveModeHard)
+(ActiveModeMedium)
+@NullResponse @Wait(600) @Chance11(Tease) @Goto(ActiveModeMedium)
+(ActiveModeEasy)
+@NullResponse @Wait(600) @Chance07(Tease) @Goto(ActiveModeEasy)
+(Tease)
+@NullResponse @PlayAudio[GNMSounds\SpecialSounds\Bell.mp3] @Wait(7) @Goto(a,b,c,d,e,f,g,h,i,j,k)
+(a)
+@SystemMessage #VANC #VANP #SlaveName right now you're gonna do @RT(20,30,40) push ups with a @RT(narrow,wide,normal,normal,normal) stand
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Goto(Return)
+(b)
+@SystemMessage #VANC #VANP #GNMSlut right now you're gonna do @RT(30,40,60) crunches
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Goto(Return)
+(c)
+@SystemMessage #VANC #VANP #GNMSlut right now you're gonna do @RT(50,60,70) squats
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Goto(Return)
+(d)
+@SystemMessage #VANC #VANP #GNMSlut right now you're gonna spend @RT(3,4,5) minutes stretching whatever you feel like
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Goto(Return)
+(e)
+@SystemMessage #VANC #VANP #GNMSlut take a deep breath and hold it @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Inhale @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Inhale @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Now Just return to whatever you were doing.. @Goto(Return)
+(f)
+@SystemMessage #VANC #VANP #GNMSlut just take a 5 minutes break, look arround yourself
+@SystemMessage #VANC #VANP Is there something you can clean or perhaps something else
+@SystemMessage #VANC #VANP 5 minutes! Then you return to whatever you were doing.. @Wait(300) @Goto(Return)
+(g)
+@SystemMessage #VANC #VANP #GNMSlut go and drink at least 500 mL of water right now!
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Goto(Return)
+(h)
+@SystemMessage #VANC #VANP #SlaveName stand up and shake your body
+@SystemMessage #VANC #VANP shake your arms, your legs, your torso and your head @Wait(10)
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your businuss,thank you for a little attention) @Goto(Return)
+(i)
+@SystemMessage #VANC #VANP #SlaveName just spend a few minutes reading a series newsarticle
+@SystemMessage #VANC #VANP No gossip or anything similar
+@SystemMessage #VANC #VANP A series news article from a series news publisher
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Wait(180) @Goto(Return)
+(j) 
+@SystemMessage #VANC #VANP #SlaveName just close your eyes for 2 minutes
+@SystemMessage #VANC #VANP Just 2 simple minutes @Wait(120)
+@SystemMessage #VANC #VANP @RT(That was it ,Done!,Stop,Just stop,Stop #GNMSlut,Stop #SlaveName), @RT(just return to whatever you we're doing,return to your businuss,thank you for a little attention) @Goto(Return)
+(k)
+@SystemMessage #VANC #VANP #SlaveName put on a piece of classical music
+@SystemMessage #VANC #VANP Just listen to it and let it calm your mind
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Wait(120) @Goto(Return)
+(Return)
+@NullResponse @CheckFlag(ActiveModeEasy)
+@NullResponse @CheckFlag(ActiveModeMedium)
+@NullResponse @CheckFlag(ActiveModeHard)
+@NullResponse @CheckFlag(Custom)
+(End)
+@NullResponse @RapidCodeOn @CustomMode(ModeText, Normal)
+@NullResponse @DeleteFlag(ActiveModeEasy)
+@NullResponse @DeleteFlag(ActiveModeMedium)
+@NullResponse @DeleteFlag(ActiveModeHard)
+@NullResponse @DeleteFlag(Custom)
+@NullResponse @Interrupt(GNMBackgroundBase)

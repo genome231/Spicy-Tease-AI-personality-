@@ -1,0 +1,108 @@
+@NullResponse @Chance75(End) @TempFlag(Busy) @Goto(1,2,3,4,5,6,7,8,9,10)
+(1)
+#SlaveF1 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 1a)
+[yes,me,here,i want]@NullResponse @Chance25(Go1)
+@AcceptAnswer @NullResponse @Chance25(Go1)
+(1a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go1)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play1.txt)
+@NullResponse @Goto(End)
+(2)
+#SlaveF1 needs two slaves @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 2a)
+[yes,me,here,i want]@NullResponse @Chance25(Go2)
+@AcceptAnswer @NullResponse @Chance25(Go2)
+(2a)
+@RT(#SlaveM1 & #SlaveM2,#SlaveM1 & #SlaveM3,#SlaveM2 & #SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go2)
+#SubName & #SlaveM1 @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play2.txt)
+@NullResponse @Goto(End)
+(3)
+#SlaveF1 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 3a)
+[yes,me,here,i want]@NullResponse @Chance25(Go3)
+@AcceptAnswer @NullResponse @Chance25(Go3)
+(3a)
+@RT(#SlaveM1 & #SlaveM2,#SlaveM1 & #SlaveM3,#SlaveM2 & #SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go3)
+@NotFlag(GNMToyDildo) @NullResponse @Goto(3a)
+#SubName & #SlaveM2 @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Lingerie\Play3.txt)
+@NullResponse @Goto(End)
+(4)
+#SlaveF1 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 4a)
+[yes,me,here,i want]@NullResponse @Chance25(Go4)
+@AcceptAnswer @NullResponse @Chance25(Go4)
+(4a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go4)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play4.txt)
+@NullResponse @Goto(End)
+(5)
+The girls needs all of you @RT(for a test,to help with homework,To try something on) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play5.txt)
+@NullResponse @Goto(End)
+(6)
+#SlaveF1 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 6a)
+[yes,me,here,i want]@NullResponse @Chance25(Go6)
+@AcceptAnswer @NullResponse @Chance25(Go6)
+(6a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go6)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play6.txt)
+@NullResponse @Goto(End)
+(7)
+#SlaveF2 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 7a)
+[yes,me,here,i want]@NullResponse @Chance25(Go7)
+@AcceptAnswer @NullResponse @Chance25(Go7)
+(7a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go7)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play7.txt)
+@NullResponse @Goto(End)
+(8)
+#SlaveF2 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 8a)
+[yes,me,here,i want]@NullResponse @Chance25(Go8)
+@AcceptAnswer @NullResponse @Chance25(Go8)
+(8a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go8)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play8.txt)
+@NullResponse @Goto(End)
+(9)
+#SlaveF3 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 9a)
+[yes,me,here,i want]@NullResponse @Chance25(Go9)
+@AcceptAnswer @NullResponse @Chance25(Go9)
+(9a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go9)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play9.txt)
+@NullResponse @Goto(End)
+(10)
+#SlaveF3 needs a slave @RT(for a test,to help with homework,To try something on) #DT
+Any voluntiers here? #DT @Timeout(10, 10a)
+[yes,me,here,i want]@NullResponse @Chance25(Go10)
+@AcceptAnswer @NullResponse @Chance25(Go10)
+(10a)
+@RT(#SlaveM1,#SlaveM2,#SlaveM3) @RT(You can help out,You go,You can go ahead) #DT @Goto(End)
+(Go10)
+#SubName @RT(You can help out,You go,You can go ahead) #DT
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play10.txt)
+@NullResponse @Goto(End)
+(End)
+@NullResponse @DeleteFlag(Busy)
+@End

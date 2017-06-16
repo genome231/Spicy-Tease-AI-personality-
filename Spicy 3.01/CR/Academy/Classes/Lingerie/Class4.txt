@@ -1,0 +1,71 @@
+(Lines)
+This is very simply #DT
+In a moment i'm gonna give you a few minutes to read about the different subjects in your textbook.. #DT
+Corsage, Corselet, french maid or a Garterbelt #DT
+When you're done i'm gonna show a line #DT
+You will, without cheating! #DT
+Tell me if the line is correct or not #DT
+Lets not waste any more time, go ahead and read #DT @Wait(#Random(180,300))
+Done? #DT
+[yes]#GNMGood #DT
+[no]Hurry then! #DT @wait(30)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(1a,1b,1c,1d,1e,1f,1g,1h)
+(1a)
+A corselet, or corselette, is a type of foundation garment, sharing elements of both bras and girdles. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(CorrectLines)
+[no]@NullResponse @Goto(WrongLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1b)
+In the 19th century, corsage was a common term for a woman's bodice or bedjacket. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(WrongLines)
+[no]@NullResponse @Goto(CorrectLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1c)
+The designs of the French maid dress can range widely from a conservative look to revealing. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(CorrectLines)
+[no]@NullResponse @Goto(WrongLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1d)
+These are normally attached to a line of elastic allowing for adjustment.  #DT
+narrow lines of fabric fastened about the leg, used to keep up stockings, and sometimes socks. #DT
+[yes]@NullResponse @Goto(WrongLines)
+[no]@NullResponse @Goto(CorrectLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1e)
+In the 21st century, pantyhose or tights are more widely worn than stockings. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(CorrectLines)
+[no]@NullResponse @Goto(WrongLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1f)
+Many women enjoy 'dressing up' for special occasions in attractive suspender belts. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(WrongLines)
+[no]@NullResponse @Goto(CorrectLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1g)
+Stockings are often considered to be sensual #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(CorrectLines)
+[no]@NullResponse @Goto(WrongLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(1h)
+Kimono is always used in important festival or formal moments. #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(WrongLines)
+[no]@NullResponse @Goto(CorrectLines)
+@DifferentAnswer #GNMYesOrNo #DT
+(CorrectLines)
+@RT(Correct!,Good boy that was right,Correct #SlaveName) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+(WrongLines)
+@RT(Incorrect,Wrong,That wasn't correct,Wrong #SlaveName) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+You know this doesn't help your chances of an orgasm... #DT @Goto(End)
+(End)
+@RT(I'll,I'm gonna,I will) Show you a picture of a Corselet #DT
+Pay attention to every detail! #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*] @Wait(30)
+@End

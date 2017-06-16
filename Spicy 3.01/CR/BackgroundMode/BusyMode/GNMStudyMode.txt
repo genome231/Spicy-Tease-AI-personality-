@@ -1,0 +1,15 @@
+@SystemMessage Study mode is now active @SetFlag(Busy) @LockImages @ShowImage[\GNMImages\GNMBackground\StudyMode.jpg]
+(Work)
+@SystemMessage Report 'exit' when you've finished studying @CustomMode(exit, Goto, End)
+@SystemMessage Report 'break' when you take a break @CustomMode(break, Goto, Break)
+(SelectBonus)
+@NullResponse @Goto(Bonus1,Bonus2)
+(Bonus1)
+@NullResponse @ChangeVar[GNMMerits]=[GNMMerits]+[#Random(0,1)] @Wait(60) @Goto(Bonus1,Bonus2)
+(Bonus2)
+@NullResponse @ChangeVar[GNMGold]=[GNMGold]+[#Random(0,1)] @Wait(60) @Goto(Bonus1,Bonus2)
+(Break)
+@SystemMessage Report 'study' when you're done with your break @CustomMode(study, Goto, Work)
+(End)
+@NullResponse @UnlockImages @DeleteFlag(Busy) @ShowImage[\GNMImages\GNMBackground\StudyMode.jpg]
+@NullResponse @Interrupt(GNMBackgroundBase)

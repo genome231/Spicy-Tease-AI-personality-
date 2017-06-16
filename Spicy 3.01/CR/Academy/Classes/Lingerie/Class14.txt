@@ -1,0 +1,67 @@
+This is very simply #DT
+In a moment i'm gonna give you a few minutes to read the 5 lines about babydolls in your textbook.. #DT
+When you're done i'm gonna show a line #DT
+You will, without cheating! #DT
+Tell me if the line is correct or not #DT
+Lets not waste any more time, go ahead and read about babydolls #DT @Wait(50)
+Done? #DT
+[yes]#GNMGood #DT
+[no]Hurry then! #DT @wait(30)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(1a,1b,1c,1d,1e,1f,1g,1h)
+(1a)
+"A babydoll is a short, sometimes sleeveless, loose-fitting nightgown or negligee intended as nightwear for women." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Correct)
+[no]@NullResponse @Goto(Wrong)
+@DifferentAnswer #GNMYesOrNo #DT
+(1b)
+"A babydoll is a short, sometimes sleeveless, loose fitting nightgown or negligee intended as nightwear for women." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Wrong)
+[no]@NullResponse @Goto(Correct)
+@DifferentAnswer #GNMYesOrNo #DT
+(1c)
+"It sometimes has formed cups called a bralette for cleavage with an attached, loose-fitting skirt falling in length usually between the upper thigh and the belly button." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Correct)
+[no]@NullResponse @Goto(Wrong)
+@DifferentAnswer #GNMYesOrNo #DT
+(1d)
+"It sometimes has formed cups called a bralette for cleavage with an attached, loose-fitting skirt falling in length usually inbetween the upper thigh and the belly button." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Wrong)
+[no]@NullResponse @Goto(Correct)
+@DifferentAnswer #GNMYesOrNo #DT
+(1e)
+"The garment is often trimmed with lace, ruffles, appliques, marabou, bows, and ribbons, optionally with spaghetti straps." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Correct)
+[no]@NullResponse @Goto(Wrong)
+@DifferentAnswer #GNMYesOrNo #DT
+(1f)
+"The garment is often trimmed with lace, ruffles, appliques, marabou, bows, and ribbons, @RT(sometimes,often) with spaghetti straps." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Wrong)
+[no]@NullResponse @Goto(Correct)
+@DifferentAnswer #GNMYesOrNo #DT
+(1g)
+"Sometimes it is made of sheer or translucent fabric such as nylon or chiffon or silk." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Correct)
+[no]@NullResponse @Goto(Wrong)
+@DifferentAnswer #GNMYesOrNo #DT
+(1h)
+"@RT(Often,Consequently) it is made of sheer or translucent fabric such as nylon or chiffon or silk." #DT
+Is this line correct? #DT
+[yes]@NullResponse @Goto(Wrong)
+[no]@NullResponse @Goto(Correct)
+@DifferentAnswer #GNMYesOrNo #DT
+(Correct)
+@RT(Correct!,Good boy that was right,Correct #SlaveName) #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(End)
+(Wrong)
+@RT(Incorrect,Wrong,That wasn't correct,Wrong #SlaveName) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]
+You know this doesn't help your chances of an orgasm... #DT @Goto(End)
+(End)
+It's time for a short recess.. #DT
+@End

@@ -1,0 +1,45 @@
+@RT(Welcome,Greetings,Hello,Good day,Hi) Students #DT
+@RT(Today the subject is,The subject of today is,Today we're studying,In this class today we're studying,We'll be studying,The topic of today is,For today's class we're going to look at) Lingerie #DT
+@RT(Before we start,Before we begin,But first,Well) #DT @Goto(1,2,3,4,5)
+(1)
+Which bra do you think I prefer? #DT @Timeout(10,Other1)
+[balconette]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other1)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) balconette Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(2)
+When did the bullet bra's arrive? #DT @Timeout(10,Other2)
+[1940's]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other2)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) 1940's Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(3)
+Does Male bra's exist? #DT @Timeout(10,Other3)
+[yes]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other3)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) yes Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(4)
+What the name of the bra type used for women breastfeeding? #DT @Timeout(10,Other4)
+[maternity]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other4)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) maternity Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(5)
+Which bra is the best one for breastfeeding? #DT @Timeout(10,Other5)
+[nursing]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other5)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) nursing Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(End)
+@End

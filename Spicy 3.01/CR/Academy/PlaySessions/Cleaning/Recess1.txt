@@ -1,0 +1,87 @@
+@NullResponse @SetVar[RecessChance]=[#Random(1,300)]
+
+(F2b) //Want a contest about which slave can hold a certain position for the longest period and keep balance
+#SlaveF2Chat Slaves!
+#SlaveF2Chat I want to have a little fun #GNMLol
+#SlaveF2Chat In a moment you're each gonna take the  bent over open position
+#SlaveF2Chat Those who manage to hold it for 3 minutes without tripping over once gets 20 gold #GNMLol
+#SlaveF2Chat Get ready! 
+#SlaveF2Chat If you fall just type 'I fell' @Wait(10)
+#SlaveF2Chat Begin! @Timeout(180,MadeIt)
+[i fell]#SlaveF2Chat #GNMGrin better luck next time!
+@AcceptAnswer #SlaveF2Chat #GNMGrin better luck next time!
+@End
+(MadeIt)
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+#SlaveF2Chat Oh my you made it #SubName and @RT(#M1,#M2,#M3)
+#SlaveF2Chat Well here is your gold boys! @ChangeVar[GNMGold]=[GNMGold]+[20]
+@End
+
+
+(F3) //Wanna have some fun with pegs, if you deny playing she will tell the teacher you grabbed her boobs without permission
+Now #SlaveName #F3P
+Since its just you and me right now #F3P
+I wanna have a bit of fun! #F3P
+I want you to fetch 20 pegs #GNMGrin #F3P @Wait(30)
+Now you have 2 options #F3P
+Either you can indulge me in my little play time #F3P
+Or I will tell the teacher you grabbed my boobs without permission.. #F3P
+What will it be? #F3P
+[do as you say,do it,yes]#GNMGood #F3P
+[chance,chances]Aww too bad #GNMGrin #F3P @TempFlag(Recess1Promise3) @End
+@DifferentAnswer Do as I say or taking your chances? #F3P
+Now #SlaveName #F3P
+Place 1 peg on your tounge #F3P
+1 on each eyebrow #F3P
+3 on each nipple #F3P
+5 on your balls #F3P
+3 on each of your inner thighs #F3P
+They has to be placed high and pointing in towards your center #F3P
+This should make it impossible or very painful to not spread your legs #F3P
+Now go to the corner and take the stand open position #F3P @ShowImage[\GNMImages\Positions\StandOpen1.*]
+Wait for my bell #F3P @Wait(#Random(60,180))
+Come back! #F3P @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+#GNMGrin #F3P
+That turned me on a little! #F3P
+@End
+(Da) //Will make you go to the corner and stand there with your parachute #DT4
+@NotFlag(ParachutePlay) @NullResponse @Goto(Normal)
+Slaves fetch your parachutes and put them on #DT4
+You should add at least 1kg to them #GNMGrin #DT4 @Wait(30)
+I want you in the corner #DT4
+And want you all in the stand open position.. #DT4 @ShowImage[\GNMImages\Positions\StandOpen1.*]
+Wait for my bell #DT4 @Wait(#Random(120,240))
+Come back! #DT4 @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@End
+(Db) //Will let you unlock and stroke tortorous slow until the end of recess
+Slaves  #DT4
+@Flag(HasChastity,ChastityIsOn) Unlock your chastity belts and remove the cage #DT4
+@Flag(HasChastity,ChastityIsOn) Keep the base ring on.. #DT4
+@Flag(HasChastity,ChastityIsOn) You wont be having them out for long #DT4
+@NotFlag(HasChastity) Whip your small cocks out.. #DT4
+All you have to do in this recess is just stroke them very slowly #DT4
+Stay on beat the beat.. #DT4 @PlayAudio[\GNMSounds\Stroking\MetronomeSlow\40 bpm.mp3] @Wait(300)
+#GNMLol #DT4
+You guys look a little.. #DT4
+Frustrated? #DT4
+@Flag(HasChastity,ChastityIsOn) Put back on the cages #DT4 @Wait(30)
+@NotFlag(HasChastity) Put your tiny dicks away.. #DT4
+Class is about to continue #DT4
+@End
+(Normal) //Take a position in the corner and wait for the bell
+Slaves #DT4
+I want you all to simply stand against the wall #DT4
+Toes and noes touching it #DT4
+No talking #DT4
+I want all of you #DT4
+Including you girls #DT4
+To stand in complete silence #DT4
+Relax #DT4
+Focus on your breathing #DT4
+Oh #DT4
+And hands behind your head #DT4
+Wait for my bell..  #DT4
+Go ahead! #DT4 @Wait(#Random(120,300))
+Come back! #DT4 @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Class is about to continue.. #DT4
+@End

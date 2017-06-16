@@ -1,0 +1,46 @@
+@RT(Welcome,Greetings,Hello,Good day,Hi) Students #DT
+@RT(Today the subject is,The subject of today is,Today we're studying,In this class today we're studying,We'll be studying,The topic of today is,For today's class we're going to look at) Lingerie #DT
+@RT(Before we start,Before we begin,But first,Well) #DT @Goto(1,2,3,4,5)
+(1)
+What is the most important feature of breasts? #DT @Timeout(10,Other1)
+[lactation]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other1)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) lactation Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(2)
+What is estrogens? #DT @Timeout(10,Other2)
+[hormone]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other2)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) hormone Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(3)
+Finish this sentence: #DT
+Breasts and especially the nipples are an erogonous zone on ... #DT @Timeout(10,Other3)
+[woman]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other3)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) woman Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(4)
+What are montgomery's glands? #DT @Timeout(10,Other4)
+[sweat glands]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other4)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) sweat glands Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(5)
+25% of womens breasts display a visible what? #DT @Timeout(10,Other5)
+[assymetry]@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) @ChangeVar[AcademyRight]=[AcademyRight]+[1] #DT @Goto(End)
+@AcceptAnswer @RT(Wrong,Incorrect,That's not right,That's incorrect,That's wrong) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(Other5)
+Yes @RT(#SlaveM1,#SlaveM2,#SlaveM3,#SlaveF1,#SlaveF2,#SlaveF3)? #DT
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3Chat) @RT(Is it,Could it be,Maybe it's,Perhaps it's,I might be) assymetry Miss?
+@RT(Right,Correct,Right on,Well that's correct,That's correct,That's right,Well you are correct) #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
+(End)
+@End

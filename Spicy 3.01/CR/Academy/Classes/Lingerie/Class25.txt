@@ -1,0 +1,10 @@
+(StartStudy)
+You all now have 3 choices #DT
+You can read about fabrics in your lingerie guide or on the internet #DT
+Or if you feel like you master materials you're welcome to study something else #DT
+In any case I want you all to be quiet and focused until I ring my bell #DT
+You may begin.. #DT
+@NullResponse @Wait(#Random(300,420))
+(Bell)
+Come here #DT @PlayAudio[\GNMSounds\SpecialSounds\Bells.mp3]
+@End

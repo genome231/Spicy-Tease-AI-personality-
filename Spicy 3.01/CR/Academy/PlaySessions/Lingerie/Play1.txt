@@ -1,0 +1,78 @@
+(Fun1)
+#SlaveF1Chat Hi #SubName
+#SlaveF1Chat Remove your chastity device @Wait(60)
+#SlaveF1Chat I have a test coming up #GNMGrin
+#SlaveF1Chat So instead of class today
+#SlaveF1Chat I begged Miss To have you help me studying
+#SlaveF1Chat My exam is in edging @SetVar[FWF1X1]=[0]
+#SlaveF1Chat So what you have to do is edge over and over again
+#SlaveF1Chat While you do
+#SlaveF1Chat I will present you with different visual stimuli and watch your reactions
+#SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days]>=[7]Then(Maybe) @Goto(Continue2)
+(Maybe)
+#SlaveF1Chat I noticed in your records that it's @ShowVar[#DateDifference(DaysSinceE, Days)] days since you last ejaculated
+#SlaveF1Chat If you do good today
+#SlaveF1Chat I will considder reducing that number to 0
+#SlaveF1Chat But it will have to be our little secret
+#SlaveF1Chat Okay?
+[yes]#SlaveF1Chat I thought so #GNMGrin @TempFlag(SecretDeal1) @Goto(SecretDeal1)
+[no]#SlaveF1Chat Loyal to your #DomHonorific huh?
+@DifferentAnswer #SlaveF1Chat Yes or no #SubName?
+#SlaveF1Chat Well I suppose thats admirable even though some might say its stupid
+#SlaveF1Chat Who knows when next time will be..
+#SlaveF1Chat Well since you dont wanna orgasm I wonder if 50 edges might make you regret that decision
+#SlaveF1Chat Let that also be a lesson
+#SlaveF1Chat "Accept whatever is thrown in your direction"
+#SlaveF1Chat Stupid boy.. @SetVar[EdgesDueF1]=[50] @Goto(EdgeSpiral)
+(SecretDeal1)
+#SlaveF1Chat Well let me make this rather simple
+#SlaveF1Chat You can choose to do 20, 30, 40 or 50 edges
+#SlaveF1Chat The more edges you do
+#SlaveF1Chat The higher your chance is to orgasm
+#SlaveF1Chat So how many will it be?
+[20]#SlaveF1Chat Well..  @SetVar[EdgesDueF1]=[20] @Goto(EdgeSpiral)
+[30]#SlaveF1Chat Okay then.. @SetVar[EdgesDueF1]=[30] @Goto(EdgeSpiral)
+[40]#SlaveF1Chat Good.. @SetVar[EdgesDueF1]=[40] @Goto(EdgeSpiral)
+[50]#SlaveF1Chat Solid!.. @SetVar[EdgesDueF1]=[50] @Goto(EdgeSpiral)
+@DifferentAnswer #SlaveF1Chat 20, 30, 40 or 50?
+(Continue2)
+#SlaveF1Chat Lets have you do 30 edges today #GNMGrin @SetVar[EdgesDueF1]=[30]
+(EdgeSpiral)
+#SlaveF1Chat @Edge #F1Edge @ShowImage
+#SlaveF1Chat #F1FadeEdge @Wait(10) @ChangeVar[FWF1X1]=[FWFX1]+[#Random(1, 2)]
+@NullResponse @If[EdgesDueF1]<=[0]Then(End1) @ChangeVar[EdgesDueF1]=[EdgesDueF1]-[1] @Goto(EdgeSpiral)
+(End1)
+@Flag(SecretDeal1) #SlaveF1Chat We're at the end #GNMGrin @If[FWF1X1]>=[65]Then(Cum)
+@Flag(SecretDeal1) #SlaveF1Chat But i'm sorry, I'm not gonna let you cum
+@Flag(SecretDeal1) #SlaveF1Chat Maybe next time *Smile*
+#SlaveF1Chat Thank you for the help with my exam
+#SlaveF1Chat I hope those balls are too heavy #GNMLol
+#SlaveF1Chat Put your chastity device back on @Wait(60)
+#SlaveF1Chat Cya!
+@End
+(Cum)
+#SlaveF1Chat Its your lucky day #SlaveName
+#SlaveF1Chat Because i'm gonna let you Orgasm #GNMGrin
+#SlaveF1Chat But!
+#SlaveF1Chat There's always a "but" isn't there #GNMLol
+#SlaveF1Chat If you cum
+#SlaveF1Chat I want you to do it while looking at a sexy image of yourself @LockImages @ShowImage[\GNMImages\SelfHumiliation\*.*]
+#SlaveF1Chat Deal?
+[yes]#SlaveF1Chat Exelent! @Goto(Accept1)
+[no]#SlaveF1Chat Oh well then.. @UnlockImages
+@DifferentAnswer #SlaveF1Chat Yes or no #SubName?
+#SlaveF1Chat Thats a shame..
+(Accept1)
+#SlaveF1Chat Okay Slave
+#SlaveF1Chat Edge and cum!
+#SlaveF1Chat Enjoy that orgasm!
+#SlaveF1Chat Who knows when next will be! @Wait(30)
+#SlaveF1Chat Done? ;)
+[yes]#SlaveF1Chat Good! @UnlockImages
+[no]#SlaveF1Chat Then stroke away! @Wait(30) @UnlockImages
+@DifferentAnswer #SlaveF1Chat Yes or no?
+#SlaveF1Chat Stop touching your cock
+#SlaveF1Chat I have to return you now..
+#SlaveF1Chat Put your chastity device back on @Wait(60)
+#SlaveF1Chat Cya
+@End

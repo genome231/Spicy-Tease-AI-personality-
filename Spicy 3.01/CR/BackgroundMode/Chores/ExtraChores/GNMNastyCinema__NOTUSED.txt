@@ -1,0 +1,22 @@
+@SystemMessage #GNMVA @RT(I hope you wont enjoy this,Betting on you not enjoying this #GNMGrin)
+@SystemMessage #GNMVA @RT(This little extra chore is all about messing with that dirty mind of yours,This little fun chore is almost freaking you out)
+@SystemMessage #GNMVA @RT(I want you to just watch a porno while sitting on your hands,All you have to do is watch a porno,You only have to watch a porno)
+@SystemMessage #GNMVA BUT!
+@SystemMessage #GNMVA @RT(It wont be a porno that turns you on!,It's not gonna be something you like,You wont like it)
+@SystemMessage #GNMVA @RT(Rather it should be a porno that might even bring a bit of disgust #GNMLol,It should be something that might make your #GNMCock churn a little)
+@SystemMessage #GNMVA Are you positive you want to proceed with this?
+[yes]@SystemMessage #GNMVA @RT(You really are a pig..,Such a nasty slave,Soooo nasty)
+[no]@SystemMessage #GNMVA #GNMLol I get why not @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA @RT(Well then!,Okay then!,I guess we're doing this!)
+@SystemMessage #GNMVA @RT(Here are the rules,These are the rules,This is what you have to do..)
+@SystemMessage #GNMVA The porno has to be at least @RT(20,30,40) minutes long
+@SystemMessage #GNMVA The category today has to @RT(be granny,feature only men,feature only shemales,a solo guy masturbating)
+@SystemMessage #GNMVA @RT(No go find and watch your video,Go ahead search for your movie)
+@SystemMessage #GNMVA Come back when you're done watching it #GNMEmoteHappy @Wait(1200)
+@SystemMessage #GNMVA Done?
+[yes]@SystemMessage #GNMVA #GNMGood
+@DifferentAnswer @SystemMessage #GNMVA I only wanna hear a 'yes #DomHonorific' when you're done
+@SystemMessage #GNMVA I hope you did NOT enjoy that #GNMGrin
+@SystemMessage #GNMVA Well for your trouble i'm gonna give you 40 gold @ChangeVar[GNMGold]=[GNMGold]+[40]
+@SystemMessage #GNMVA #GNMLol @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
