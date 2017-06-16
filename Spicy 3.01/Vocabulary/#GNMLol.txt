@@ -1,0 +1,22 @@
+laugh @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+giggle @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+lol @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+haha @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@SelfYoung hehe @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@SelfYoung xD
+@Crazy lmao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Crazy @Vulgar lmfao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Crazy LOL @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*grins*
+*smile* 
+*wicked grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*smiles innocently*
+*grins at you* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*looks at you and grins* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*looks at you innocently* 
+*evil grin*
+*mischievous grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*innocent grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*naughty grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+*coy smile* 
