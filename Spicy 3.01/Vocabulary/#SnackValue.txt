@@ -1,0 +1,3 @@
+@Flag(Personality1) 500
+@Flag(Personality2) 650
+@Flag(Personality3) 800
