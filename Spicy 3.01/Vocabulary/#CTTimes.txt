@@ -1,0 +1,30 @@
+@Flag(ChastityLevel1) @RT(1 time,2 times)
+@Flag(ChastityLevel2) @RT(1 time,2 times)
+@Flag(ChastityLevel3) @RT(1 time,2 times)
+@Flag(ChastityLevel4) @RT(1 time,2 times)
+@Flag(ChastityLevel5) @RT(1 time,2 times)
+@Flag(ChastityLevel6) @RT(2,3) times
+@Flag(ChastityLevel6) @RT(2,3) times
+@Flag(ChastityLevel6) @RT(2,3) times
+@Flag(ChastityLevel6) @RT(2,3) times
+@Flag(ChastityLevel6) @RT(2,3) times
+@Flag(ChastityLevel6) @RT(2,4) times
+@Flag(ChastityLevel12) @RT(2,4) times
+@Flag(ChastityLevel13) @RT(2,4) times
+@Flag(ChastityLevel14) @RT(2,4) times
+@Flag(ChastityLevel15) @RT(2,4) times
+@Flag(ChastityLevel16) @RT(2,5) times
+@Flag(ChastityLevel17) @RT(2,5) times
+@Flag(ChastityLevel18) @RT(2,5) times
+@Flag(ChastityLevel19) @RT(2,5) times
+@Flag(ChastityLevel20) @RT(2,5) times
+@Flag(ChastityLevel21) @RT(2,5) times
+@Flag(ChastityLevel22) @RT(2,5) times
+@Flag(ChastityLevel23) @RT(2,6) times
+@Flag(ChastityLevel24) @RT(2,6) times
+@Flag(ChastityLevel25) @RT(2,6) times
+@Flag(ChastityLevel26) @RT(2,6) times
+@Flag(ChastityLevel27) @RT(2,6) times
+@Flag(ChastityLevel28) @RT(2,6) times
+@Flag(ChastityLevel29) @RT(2,7) times
+@Flag(ChastityLevel30) @RT(2,7) times

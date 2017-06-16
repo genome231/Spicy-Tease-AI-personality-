@@ -1,0 +1,2 @@
+@PlayAudio[\GNMSounds\Modules\BJTraining\BJLightSucksVaried\12345_1min.mp3] @Wait(60) @ChangeVar[BJTraining]=[BJTraining]-[6]
+@PlayAudio[\GNMSounds\Modules\BJTraining\BJLightSucksVaried\123123_1min.mp3] @Wait(95) @ChangeVar[BJTraining]=[BJTraining]-[9]

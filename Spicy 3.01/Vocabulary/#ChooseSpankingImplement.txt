@@ -1,0 +1,5 @@
+@ShowVar[SpankingImplement1]
+@ShowVar[SpankingImplement2]
+@ShowVar[SpankingImplement3]
+@Flag(BoughtSpankingImplement4) @ShowVar[SpankingImplement4]
+@Flag(BoughtSpankingImplement5) @ShowVar[SpankingImplement5]

@@ -1,0 +1,1 @@
+@Variable[BlowjobLevel]=[1] @PlayAudio[\GNMSounds\Stroking\Metronome2\*.mp3] @Wait(20) @ChangeVar[BJTraining]=[BJTraining]-[2]
