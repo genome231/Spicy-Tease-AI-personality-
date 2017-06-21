@@ -1,0 +1,27 @@
+#SlaveName #DT
+@RT(A girl cant be everywhere at once,But I also have other matters)  #DT
+@RT(Since you're not <i>that</i> much fun,Since you cant stroke it)  #DT
+@RT(I'm gonna put on a little slideshow,I'll be showing you a little slideshow) #DT
+@RT(You're gonne sit there and watch all of it,You'll be watching all of it!) #DT
+@RT(While I'm a be doing something else..,While I gotta go do something else) #DT
+@RT(Sit on those hands!,Hands on your thighs!) #DT @SetVar[ChastityModule3]=[0] @TempFlag(Busy)
+(Prep)
+@Flag(VPleased) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(60,100)]
+@Flag(Pleased) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(55,85)]
+@Flag(Neutral) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(40,70)]
+@Flag(Annoyed) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(30,55)]
+@Flag(VAnnoyed) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(20,40)]
+@Flag(ChastityUpdate2) @NullResponse @ChangeVar[ChastityModule3]=[ChastityModule3]+[#Random(50,100)]
+(SlideShow)
+@Flag(ChastityUpdate2) @NullResponse @ShowImage @Wait(4,9) @ChangeVar[ChastityModule3]=[ChastityModule3]-[1] @If[ChastityModule3]<=[0]Then(End) @Goto(SlideShow)
+@NullResponse @ShowImage @Wait(10,20) @ChangeVar[ChastityModule3]=[ChastityModule3]-[1] @If[ChastityModule3]<=[0]Then(End) @Goto(SlideShow)
+(End)
+@RT(Are you there slave?,Slave are you there?) #DT @Timeout(10, NotThere)
+[yes]#GNMGood #DT
+@DifferentAnswer Hmm? #DT
+@RT(I hope you enjoyed that,I hope that wasn't too much) #GNMGrin #DT @DeleteFlag(Busy)
+@End
+(NotThere)
+@RT(Not answering huh..,Not responding) #DT #MeritChangeNHigh @DeleteFlag(Busy)
+I suppose you're not there then.. #DT
+Lets start over shall we.. #DT @Goto(Prep)

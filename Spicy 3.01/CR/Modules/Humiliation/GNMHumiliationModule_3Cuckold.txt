@@ -1,0 +1,23 @@
+@RT(I want to show you a video!,You're going to watch a video) #DT
+@RT(I wanna drill a message into your mind,I'm gonna slowly drill a message into your soul) #DT
+@RT(You are my cuckold!,Your dick is useless,Your pathetic cock has no you use to me!) #DT @CheckFlag(ChastityIsOn)
+@Flag(HumiliationUpdate2) @RT(You have my permission to stroke slowly..,You may stroke slowly..) #DT
+(ChastityIsOn)
+Now watch this! #DT
+@NullResponse @PlayVideo[\GNM_Videos\Modules\CuckoldAndDenied\*.mp4]
+#GNMGrin #DT @Goto(1,2,3,4,5)
+(1)
+@RT(If you ever get to serve me this will be you!,Should I ever allow you to service me this is you!) #DT
+@End
+(2)
+@RT(LOL! Imagine that!,Gosh that was so hot!) #DT
+@End
+(3)
+@RT(You cant imagine how much pleasure I get daily while you're denied!,Your denied tiny dick doesn't deserve ANY attention!) #DT
+@End
+(4)
+@RT(Hmm I can watch stuff like this all day!,I'll never tire from watching stuff like this!) #DT
+@End
+(5)
+@RT(#GNMGrin,If you complete your slave training we're gonna have some fun!) #DT
+@End
