@@ -1,0 +1,204 @@
+@NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToyChastity)
+@NotFlag(DildoPlay) @NullResponse @Goto(NoToy)
+@Flag(DildoPlay) @NullResponse @CheckFlag(SissyModule1FirstRun) @SetVar[BlowjobLevel]=[1] @SetFlag(SissyModule1FirstRun)
+@Variable[BlowjobLevel]>[50] @SetVar[BlowjobLevel]=[50] @NullResponse 
+Hello #SlaveName #DT
+And welcome to your first blowjob training session #DT
+Today we're gonna practice your cock sucking skills #DT
+If you are ever to serve for real #DT
+It is not uncommen for the domme to sell her slaves services to others #DT
+Since you wouldn't be having a job, this would be your way to earn money for your #DomHonorific #DT
+I cant you tell you how many times before I've rented slaves out to gay clubs #DT
+But before any such things its important that you have some skill in the art of cocksucking.. #DT
+(SissyModule1FirstRun)
+@RT(Go fetch,Go get,Go retrieve,Get,Retrieve,Find) your dildo #SlaveName #DT @TempFlag(Busy) @SetVar[ModuleVariation]=[#Random(1,3)]
+@Variable[ModuleVariation]=[1] @RT(And a condom if you have those lying arround,And a condom if you have any lying arround) #DT @Timeout(10,Continue1)
+[yes,i have]#GNMGood #DT
+[i dont,no condom,no]@RT(Aww well too bad,Oh well next time maybe,Another time perhaps) #DT @SetVar[ModuleVariation]=[2]
+@DifferentAnswer Are you trying to tell me something? #DT
+(Continue1)
+@Variable[ModuleVariation]=[1] @RT(In gay clubs they would wear a condom to prevent you from catching anything,The condom would protect you from diseases you might otherwise get from sucking Cock..,The condom protects against STD's) #DT
+@Variable[ModuleVariation]=[1] @RT(But it also provides a very different feel,But the condom makes the BJ more difficuilt,But the condom doesn't make the BJ easier..) #DT
+@Variable[ModuleVariation]=[1] @RT(I believe its important for you to have tried it beforehand..,So its important you've tried it beforehand,So you need to have tried it before I send you out..) #DT
+@RT(Let me know when you're ready to continue..,Report when you're ready to continue..,Tell me when you're ready) #DT @Timeout(20,MovingOn)
+[ready,done,continue]#GNMGood #DT
+@AcceptAnswer Moving on then.. #DT
+(MovingOn)
+@Variable[ModuleVariation]=[1] @RT(Put the condom over the dildo,place the condom over the plastic cock,Put the condom over all the way to the base of that dildo..) #DT
+Practice makes perfect so before we proceed I'm gonna remind you of all the different sounds #DT
+@Variable[BlowjobLevel]<[40] Notice that due your experience there are some sounds that you might not hear at all because I dont think you're ready #DT
+@Variable[BlowjobLevel]<[40] But that doesn't mean you shouldn't at least hear them.. #DT
+This is how light sucking sounds meaning you must suck the cockhead #DT @PlayAudio[\GNMSounds\Modules\BJTraining\BJLightSucks\MediumSuck15sec.mp3] @Wait(5)
+When you hear something like this.. I want you to swirl your tounge arround the cockhead until I say stop.. #DT @PlayAudio[\GNMSounds\Modules\BJTraining\BJToungeExercise\*.mp3] @Wait(5)
+I might also ask you to put your finger in your mouth and have you trigger the gag reflex.. #DT @PlayAudio[\GNMSounds\Modules\BJTraining\BJFingerGagging\*.mp3] @Wait(5)
+Trigger your gag reflex until I tell you to stop.. #DT
+Its important you learn to control it if you're ever to learn deep throating.. #DT
+This sound you know well, but during BJ training it means to stroke the dildo! #DT @Variable[BlowjobLevel]=[1] @PlayAudio[\GNMSounds\Stroking\Metronome2\*.mp3] @Wait(5)
+This is deepthroat, you will only stop deepthroating when I tell you to stop! #DT @PlayAudio[\GNMSounds\Modules\BJTraining\BJDeepThroatLong\DeepThroat.mp3] @Wait(5)
+If there is no "gagging" it is a deep suck, meaning you have to suck it to the root! Up and down.. #DT @PlayAudio[\GNMSounds\Modules\BJTraining\BJDeepThroat\DeepSlow1min.mp3] @Wait(5)
+That was it.. #GNMLol #DT
+@RT(Now lets see what to make you do..,What to do..,What should I have you do..) #DT 
+@Flag(Personality1) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(20,45)]
+@Flag(Personality2) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(30,60)]
+@Flag(Personality3) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(40,75)]
+@Flag(HumiliationUpdate1) @Variable[BlowjobLevel]>=[40] @NullResponse @Goto(Program3,Program2,Program1)
+@Variable[BlowjobLevel]>=[40] @NullResponse @Goto(Program2,Program1)
+@Variable[BlowjobLevel]<[20] @NullResponse @Goto(Program1)
+@Variable[BlowjobLevel]<[40] @NullResponse @Goto(Program2,Program1)
+(Program1)
+@NullResponse @If[BJTraining]<=[0]Then(EndGood)
+@Flag(HumiliationUpdate1) @Variable[BlowjobLevel]>=[40] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance15(0) @Goto(0,1,2,3,4,5,6,7,8)
+@Flag(HumiliationUpdate1) @Variable[BlowjobLevel]<[10] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance25(0) @Goto(0,1,2,3,4,5)
+@Flag(HumiliationUpdate1) @Variable[BlowjobLevel]<[25] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance20(0) @Goto(0,1,2,3,4,5,6)
+@Flag(HumiliationUpdate1) @Variable[BlowjobLevel]<[40] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance15(0) @Goto(0,1,2,3,4,5,6,7)
+@Variable[BlowjobLevel]>=[40] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance15(0) @Goto(0,1,2,3,4)
+@Variable[BlowjobLevel]<[10] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance25(0) @Goto(0,1,2,3,4)
+@Variable[BlowjobLevel]<[25] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance20(0) @Goto(0,1,2,3,4)
+@Variable[BlowjobLevel]<[40] @NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\GeneralEncourage\*.mp3] @Chance15(0) @Goto(0,1,2,3,4)
+(0) //Varied patterns with light suck
+@RT(Light sucks,Stick with the beat!,Keep the beat,Light sucking to the beat,Suck lightly to the beat,Light sucking - only the cockhead..) #DT #BJLightSucksVaried
+@NullResponse @Goto(Program1)
+(1) //LightSucking
+@RT(Light sucks,Stick with the beat!,Keep the beat,Light sucking to the beat,Suck lightly to the beat,Light sucking - only the cockhead..) #DT #BJLightSucks
+@NullResponse @Goto(Program1)
+(2) //ToungeExercise
+@RT(Tounge swirling,Swirl that tounge arround,Keep swirling until I say stop!,Use your tounge on that cockhead!,Use the tounge!) #DT #BJToungeExercise
+@RT(You can stop now,You may stop,Stop,Stop now,Go ahead and stop..,Stop stop stop..,You can go ahead and stop) #DT #BJStop
+@NullResponse @Goto(Program1)
+(3) //FingerGagging
+@RT(Finger in,Put your finger in,Get that finger in,Use your finger to trigger the gag reflex,Trigger the gag reflex with your finger) #DT #BJFingerGagging
+@RT(Finger out,You can stop now,You may stop,Stop,Stop now,Go ahead and stop..,Stop stop stop..,You can go ahead and stop) #DT #BJStop
+@NullResponse @Goto(Program1)
+(4) //Handstroking
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\BJHandStroking\*.mp3] @Wait(4)
+@RT(Stroke it,Stroke the dildo,Stroke that plastic dick,Stroke that plastic cock,Stroke that huge dildo,Stroke it!,Stroke stroke stroke!) #DT #BJHandStroking
+@NullResponse @Goto(Program1)
+(5) //FastSucking
+@RT(Suck fast!,Fast sucking!,Suck it fast,Suck if swiftly,Suck it fast!,Make sure you suck it fast!) #DT #BJFastSucking
+@NullResponse @Goto(Program1)
+(6) //DeepthroatShort
+@RT(Deep throat!,Deep throat that cock,Deep throat the dildo,Go deep on the deep,All the way to the root!,Suck it to the root!,Suck it to the end!) #DT #BJDeepThroat
+@NullResponse @Goto(Program1)
+(7) //Deepthroatlong
+@Variable[BlowjobLevel]>=[35] @RT(Deep throat and hold!,Hold that deepthroat!,Go down and stay down,Deep throat and hold!,Hold it to the root!,Stay at the root!) #DT #BJDeepThroatLong @Wait(#Random(15,60))
+@Variable[BlowjobLevel]<[35] @RT(Deep throat and hold!,Hold that deepthroat!,Go down and stay down,Deep throat and hold!,Hold it to the root!,Stay at the root!) #DT #BJDeepThroatLong @Wait(#Random(5,20))
+@RT(You can stop now,You may stop,Stop,Stop now,Go ahead and stop..,Stop stop stop..,You can go ahead and stop) #DT #BJStop @Goto(Program1)
+(8) //FastDeepThroat
+@RT(All the way down and up fast!,Deep fast sucks!,Suck if deep and swift,Deep sucks..,Deep suck the dildo,All the way down!) #DT #BJDeepThroatFast
+@NullResponse @Goto(Program1)
+(Program2)
+@NullResponse @TempFlag(BJProgram2)
+In a moment I'm starting a sound clip #DT
+You will have to listen, now remember your different sounds.. #DT
+I guess it could be compared to guitarhero #GNMLol #DT
+But you're only stimuli is sound so deep focus! #DT
+@Variable[DevotionSet]<[15] Enjoy! #DT @Goto(P2a,P2b,P2c,P2d,P2e)
+@Variable[DevotionSet]<[10] Enjoy! #DT @Goto(P2a,P2b,P2c,P2d)
+@Variable[DevotionSet]<[5] Enjoy! #DT @Goto(P2a,P2b,P2c)
+(P2a)
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\SpecialPatterns\BJPattern1_5min.mp3] @Wait(300)
+@NullResponse @Goto(P2End)
+(P2b)
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\SpecialPatterns\BJPattern2_5min.mp3] @Wait(300)
+@NullResponse @Goto(P2End)
+(P2c)
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\SpecialPatterns\BJPattern3_5min.mp3] @Wait(315)
+@NullResponse @Goto(P2End)
+(P2d)
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\SpecialPatterns\BJPattern4_10min.mp3] @Wait(605)
+@NullResponse @Goto(P2End)
+(P2e)
+@NullResponse @PlayAudio[\GNMSounds\Modules\BJTraining\SpecialPatterns\BJPattern5_15min.mp3] @Wait(900)
+@NullResponse @Goto(P2End)
+(P2End)
+@RT(#GNMGrin,#GNMLol) #DT
+@RT(I hope you enjoyed that,That was fun!,I loved watching that,You'll soon be ready to earn me money,You'll be ready for a real cocksucking soon!) #DT
+Did you follow the sound to a satisfactory level? #DT @Timeout(10,Continue2)
+[yes]#GNMGood #DT #MeritChangePMedium @Goto(EndGood)
+[no]Oh then perhaps I expect too much from you.. #DT #MeritChangeNLow @Goto(EndBad)
+@DifferentAnswer #GNMYesOrNo #DT
+(Continue2)
+Silence is never good #SlaveName #DT #MeritChangeNMedium @Goto(EndBad)
+(Program3)
+@NullResponse @TempFlag(BJProgram3)
+@RT(In a moment #Slut,In just a moment,Soon,In a short moment) #DT
+@RT(I'm gonna put on a video of a blowjob,I'm putting on a blowjob video,I'm gonna show you a blowjob video,I'll put on a blowjob video) #DT
+@RT(I want you to mimic the action happening in the video,Everything that happens to that cock / dildo you mimic,You are to mimic the action) #DT
+If there is deepthroat #DT
+You deepthroat #DT
+If there is stroking #DT
+You stroke the dildo #DT
+Not yourself #DT
+@RT(Whatever happens to cock being pleasured,Whatever happens,I dont care what happens but..) #DT
+@RT(You mimic it on the Dildo..,You'll do it to the dildo as well,You have to do it to the dildo too..) #DT
+@RT(Its that simple..,And yes its okay to be jealous of the dildo #GNMGrin,This should prove fun to watch #GNMEmoteHappy) #DT
+@RT(Enjoy,Have fun,Enjoy it #Slut,Have fun #SlaveName) #DT
+@NullResponse @PlayVideo[\GNM_Videos\Modules\Sissy\BJTraining\*.mp4]
+#GNMGrin #DT
+Now.. #DT
+Did you mimic it completely and to my satisfaction? #DT @Timeout(10,Continue2)
+[yes]#GNMGood #MeritChangePMedium #DT @Goto(EndGood)
+[no]Oh then perhaps I expect too much from you.. #DT #MeritChangeNLow @Goto(EndBad)
+@DifferentAnswer #GNMYesOrNo #DT
+(Continue2)
+Silence is never good #SlaveName #DT #MeritChangeNMedium @Goto(EndBad)
+(EndGood)
+@RT(Great progress,Good job,Great work,Good exercise,Perfect job) today #DT #Slut @DeleteFlag(Busy) @ChangeVar[BlowjobLevel]=[BlowjobLevel]+[1]
+@RT(Cant wait till next time!,I'm already looking forward to next time..,Next time is gonna be fun!,Next time should prove a lot of fun)  #DT
+@End
+(EndBad)
+I'm not too happy with this #GNMEmoteSad #DT @DeleteFlag(Busy) @ChangeVar[BlowjobLevel]=[BlowjobLevel]-[3]
+I need you to try harder next time #DT
+@End
+(NoToy)
+We're gonna have a small session of you edging! #DT @TempFlag(Busy)
+It's rather simple #DT
+I'm gonna show you a picture and you're gonna edge to it #DT
+Everytime you've edged #DT
+You're gonna rest for a short moment #DT
+When you think that I think you've had enough then ask me to 'stop'  #DT
+If I disagree #GNMGrin #DT
+We're starting from scrath #GNMLol #DT
+So how many edges should you do? #DT @RapidCodeOn
+@Variable[SubEndurance]>=[7] @NullResponse @SetVar[EdgesToDo]=[#Random(12,15)]
+@Variable[SubEndurance]<=[3] @NullResponse @SetVar[EdgesToDo]=[#Random(3,6)]
+@NullResponse @SetVar[EdgesToDo]=[#Random(6,12)]
+@Flag(Personality2) @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(3,6)]
+@Flag(Personality3) @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(6,9)]
+@NullResponse @SetVar[EdgesToDoMemory]=[0]
+Hmm.. #DT @ChangeVar[EdgesToDoMemory]=[EdgesToDoMemory]+[EdgesToDo]
+#GNMGrin #DT
+I think I know #GNMEmoteHappy #DT @Custom(stop, Goto, StopEdging)
+(Edge)
+#GNMEdge #DT @Edge @ShowImage
+#GNMLetTheEdgeFade #DT @ChangeVar[EdgesToDo]=[EdgesToDo]-[1] @Wait(#Random(7,12)) 
+@NullResponse @ChangeVar[EdgeCounter]=[EdgeCounter]+[1] @Goto(Edge)
+(StopEdging)
+So you think you've had enough #DT #GNMLol
+@Variable[EdgesToDo]>[0] I'm afraid you hadn't had enough so we're starting over! #DT @SetVar[EdgesToDo]=[0] 
+@Variable[EdgesToDo]>[0] @NullResponse @SetVar[EdgesToDo]=[EdgesToDo]+[EdgesToDoMemory] @Goto(Edge)
+Well you're right! #DT
+I'm not gonna tell you how many edges I wanted you to do #DT
+I want that magic number to torment you #GNMGrin #DT
+Who knows.. #DT
+Maybe you did waaaayyy too many edges #DT
+Or exactly right! #DT
+You'll never know #GNMLol @DeleteFlag(Busy) #DT
+@End
+(NoToy)
+@NullResponse @CallReturn(CR\Modules\Alternative_Chastity\*.txt)
+@End
+@Info Light sucking is a simple suck over the head
+@Info Tounge exercise is moving the tounge in circles arround the cockhead
+@Info Finger gagging is placing the finger in your mouth triggering the gag reflex
+@Info Hand stroking is using your hand to stroke the dildo for a few strokes
+@Info Long term deepthroat is deepthroating the cock for more than 30 seconds
+@Info deepthroat a deep throat of less than 10 seconds
+@Info fast sucking applies, is fast light sucks
+@Info fast deepthroating, fast up and down in full sucks
+@Info 
+@Info 
+@Info Full clips, sound files lasting 20 minutes with all the different action
+@Info Video training, follow the action in the movie
+@Info
+@Info

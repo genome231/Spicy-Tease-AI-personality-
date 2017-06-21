@@ -1,0 +1,65 @@
+(O4) //condom and pillow grinding, hands behind head.
+@Flag(SissyMode) @NullResponse @Goto(Sissy1)
+@RT(Do you have a condom,Are you in possesion of a condom) @RT(#SlaveName,#SubName,#Slut) ? #DT
+[yes]#GNMGood @RT(fetch it and put it on..,Retrieve it and put it on your #GNMCock) #DT @Goto(O4Continue)
+[no]@RT(Well then..,Okay then..) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(This might get messy..,This could get a little messy,Perhaps this might get messy) #DT
+@RT(Are you okay with that?,I'd hope you might be okay with that?) #DT
+[yes]#GNMGood #DT
+[no]@RT(Well then..,Perhaps this is for the better..) #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+(O4Continue)
+@RT(You'll also need a pillow and a piece of string,You also have to fetch a string and a pillow)  #DT
+@RT(Go get it now,Get it right away,Go fetch that now..) #DT @Wait(10)
+@RT(This is simple,This is rather simple) #DT
+@RT(I want your #GNMAss to hump a pillow,You're going to hump a pillow) #DT
+@RT(And I want your hands tied behind your back unable to hold it down,With your hands tied behind your back) #GNMGrin #DT @Wait(15)
+@RT(Gosh I love humiliating you,I cant imagine anything much better than humiliating your #GNMAss) #DT
+@RT(I'm gonna put a little piece of <i>music</i> on,I'm gonna play some music for you) #DT
+@RT(While the song plays you can hump away,As long as there is music) #DT
+@RT(When it stops it means that time is up,When it stops playing you stop humping) #DT
+@RT(If you're done before it ends just listen to the rest and calm down,If you're done before it stops playing just calm down) #GNMMoan #DT
+(Understand)
+@RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
+[yes]#GNMGood #DT
+[no]Well then.. #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Enjoy,Have fun) @RT(#GNMLol,#GNMMoan) #DT @Goto(O4a,O4b,O4c)
+(O4a)
+@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\O4\1.mp3] @Wait(200)
+@RT(You should see yourself,You should really have a look at yourself) @RT(#GNMGrin,#GNMMoan,#GNMLol) #DT @Goto(Test)
+(O4b)
+@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\O4\2.mp3] @Wait(270)
+@RT(You should see yourself,You should really have a look at yourself) @RT(#GNMGrin,#GNMMoan,#GNMLol) #DT @Goto(Test)
+(O4c)
+@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\O4\3.mp3] @Wait(230)
+@RT(You should see yourself,You should really have a look at yourself) @RT(#GNMGrin,#GNMMoan,#GNMLol) #DT @Goto(Test)
+(Test)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you orgasm?,Did you manage to orgasm?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]Well too bad #GNMGrin #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+(AteCheck)
+@NullResponse @CallReturn(CR\End\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)
+(Sissy1)
+@NullResponse @CallReturn(CR\GNMChastityOn)
+Fetch your vibrator! #DT @Wait(15)
+Next you need to follow these instructions carefully #DT
+I recommend using tape or string for this  #DT
+I'm gonna assume you have a wand #DT
+If not try your best to assimilate this #DT
+I want the vibrator tied at the top of a chair #DT
+This exercise is all about you having to stand up and press your #Cage into the vibrator #DT
+Hands behind your back preferably tied #DT
+@RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
+[yes]#GNMGood #DT
+[no]Well then.. #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+Go ahead and set it up then! #DT @Wait(45)
+Now #Slut #DT
+I'm putting on a piece of music #DT
+You are to grind yourself while that music plays and try to orgasm #GNMGrin #DT @Goto(Test)

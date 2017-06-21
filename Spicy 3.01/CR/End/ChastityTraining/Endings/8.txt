@@ -1,0 +1,41 @@
+(O3) //Edge ask repeat
+@RT(Now this is a fun little exercise,Well this is a fun game #GNMLol) #DT
+@RT(I'm gonna tell you to edge,You'll be told to edge) #DT
+@RT(You're gonna tell me when you're on the edge,You will tell me when you hit the edge..) #DT
+@RT(You're gonna hold that edge,Then you are to hold the edge..) #DT @SetVar[O3Chances]=[5]
+@RT(When you've think you held that edge for long enough,When you believe you edged enough) #DT
+@RT(You're gonna ask me if you may cum..,You will ask me if you may cum) #DT
+@RT(If I think you've held it for too long or too little,If I wasn't satisfied either because you held it for too long or short) #DT
+@RT(I'm gonna tell you to stop stroking,I will tell you to stop..) #DT
+@RT(You need to try and hit that sweet spot,I want you to aim for the sweet spot!) #GNMGrin #DT
+@RT(I'm gonna give you 5 chances,You're getting 5 chances) #DT
+Miss all 5 chances and you forfeit your chance to cum #GNMMoan #DT
+@RT(Guess what I'm hoping for,Take you're bet at what I hoping for!)
+(O3Routine)
+#GNMEdge #DT
+[edge,on edge,close,brink]@RT(Hold it!,Stay there!,Stay at it!,Stay on edge!) #DT
+@DifferentAnswer Tell me when you're on the edge! #DT
+@NullResponse @Timeout(#Random(5,60),O3R2) 
+[may i cum,can i cum,please let me cum,cum,ejaculate,orgasm]@RT(Stop stroking!,Stop touching yourself!,No more stroking!) #DT @Goto(O3NoOrgasm)
+@DifferentAnswer Just ask me 'May I please cum #DomHonorific?'.. #DT
+(O3R2)
+@NullResponse @Timeout(#Random(3,6),O3R3)
+[may i cum,can i cum,please let me cum,cum,ejaculate,orgasm]@RT(Yes you may! Cum Slave!!,Absolutely yes! Cum hard for me!,Yes #Slut cum for me!!) #DT @Goto(O3Came)
+@DifferentAnswer Just ask me 'May I please cum #DomHonorific?'.. #DT
+(O3R3)
+@NullResponse
+[may i cum,can i cum,please let me cum,cum,ejaculate,orgasm]@RT(Stop stroking!,Stop touching yourself!,No more stroking!) #DT @Goto(O3NoOrgasm)
+@DifferentAnswer Just ask me 'May I please cum #DomHonorific?'.. #DT
+(O3NoOrgasm)
+@NullResponse @ChangeVar[O3Chances]=[O3Chances]-[1] @If[O3Chances]<=[0]Then(O3NoOrgasm2)
+@Variable[O3Chances]>[1] Well @ShowVar[O3Chances] chances to go #DT
+@Variable[O3Chances]=[1] Well @ShowVar[O3Chances] chance to go #DT
+@RT(Good luck!,Best of luck #GNMMoan,May the odds be ever in your favour #GNMGrin,Good luck!,Good luck!,Good luck!,Good luck!) #DT @Goto(O3Routine)
+(O3NoOrgasm2)
+@RT(Aww that was your 5 chances!,Aww that was your 5 changes!,Oh my that was all 5 chances!) #DT #GNMEmoteSad
+@RT(Better luck next time..,Maybe next time right!,Perhaps next time!) #DT @Goto(End)
+(O3Came)
+@RT(You hit the sweet spot #GNMGrin,You got it just right!,You hit the spot exactly!) #DT
+@RT(Good for you!,I'm happy for you!) #GNMEmoteHappy #DT @Goto(End)
+(End)
+@End

@@ -1,0 +1,11 @@
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule1.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule2.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule3.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule4.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule5.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule6.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule7.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule8.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule9.*] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule10.*] @Wait(5)
+@End

@@ -1,0 +1,99 @@
+@SystemMessage #VANC #VANP You have 4 choices
+@SystemMessage #VANC #VANP <Font color="red">1) Pay Attribute</Font> <Font color="green">2) Buy MoodBooster</Font> <Font color="yellow">3) Pay Attonement</Font> 
+@SystemMessage #VANC #VANP <Font color="orange">4) Unlock Denial Settings</Font> <Font color="black">Return) Returns</Font>
+[one,1]@NullResponse @Goto(1)
+[two,2]@NullResponse @Goto(2)
+[three,3]@NullResponse @Goto(3)
+[four,4]@NullResponse @Goto(4)
+[return]@NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3 or 4
+@End
+(1) \\Attribute
+@Variable[GNMGold]<[500] @NullResponse @Goto(Poor)
+@SystemMessage #VANC #VANP You can tribute your #DomHonorific 500 or 1000 gold
+[fivehundred,500]@NullRespose @ChangeVar[GNMGold]=[GNMGold]-[500] @Goto(Attribute2)
+[onethousand,1000]@NullRespose @If[GNMGold]<[1000]Then(PoorG) @ChangeVar[GNMGold]=[GNMGold]-[1000] @Goto(Attribute1)
+@DifferentAnswer @SystemMessage #VANC #VANP 500 or 1000?
+(Attribute1)
+@SystemMessage #VANC #VANP Making the transaction.. @ChangeVar[GNMMerits]=[GNMMerits]+[250]
+@SystemMessage #VANC #VANP Done!
+@SystemMessage #VANC #VANP Your #DomHonorific thanks you!
+@End
+(Attribute2)
+@SystemMessage #VANC #VANP Making the transaction.. @ChangeVar[GNMMerits]=[GNMMerits]+[100]
+@SystemMessage #VANC #VANP Done!
+@SystemMessage #VANC #VANP Your #DomHonorific thanks you!
+@End
+(2) \\MoodBooster
+@Variable[GNMGold]<[1000] @NullResponse @Goto(Poor2)
+@SystemMessage #VANC #VANP The moodbooster lasts a week and costs 1000 gold
+@SystemMessage #VANC #VANP Do you wish to purchase it?
+[yes]@SystemMessage #VANC #VANP Making the transaction.. @ChangeVar[GNMGold]=[GNMGold]-[1000]
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Done! @SetDate(MoodBooster, 0 Days) @SetFlag(MoodBooster)
+@SystemMessage #VANC #VANP The moodbooster now lasts a week
+@End
+(3) \\Attonement
+@Variable[GNMPPoints]<[100] @NullResponse @Goto(FewPP)
+@Variable[GNMGold]<[200] @NullResponse @Goto(Poor3)
+@SystemMessage #VANC #VANP You have @ShowVar[GNMPPoints] punishment points
+@SystemMessage #VANC #VANP It costs 2 gold for each punishment point you with to attone
+@SystemMessage #VANC #VANP Do you wish to attone for any punishment points?
+[yes]@NullResponse
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+(ChooseAttonement)
+@SystemMessage #VANC #VANP How many punishment points do you wish to attone? @InputVar[Attone]
+@NullResponse @SetVar[TempGold]=[0] @ChangeVar[TempGold]=[TempGold]+[Attone]
+@NullResponse @ChangeVar[TempGold]=[TempGold]*[2]
+@Variable[Attone]<[0] @SystemMessage #VANC #VANP You cannot choose a number lower than 0 @Goto(ChooseAttonement)
+@Variable[Attone]<[GNMPPoints] @SystemMessage #VANC #VANP You cannot choose a number higher than your total @Goto(ChooseAttonement)
+@Variable[TempGold]>[GNMGold] @SystemMessage #VANC #VANP You cant afford that many points @Goto(ChooseAttonement)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[TempGold]
+@NullResponse @ChangeVar[TempGold]=[TempGold]/[2]
+@SystemMessage #VANC #VANP Transaction complete @ChangeVar[GNMPPoints]=[GNMPPoints]-[TempGold]
+@End
+(4) \\Denial setting
+@Variable[#DateDifference(LockOut1, Days)]<[Lock1Input] @SystemMessage #VANC #VANP You denial settings aren't locked @Goto(End)
+@Variable[GNMGold]<[2000] @NullResponse @Goto(Poor4)
+@SystemMessage #VANC #VANP It costs 2000 gold to unlock your denial settings
+@SystemMessage #VANC #VANP Do you wish to proceed with the trade?
+[yes]@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[2000] @SetVar[Lock1Input]=[0]
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Transaction Complete @Goto(End)
+(PoorG)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@End
+(Poor1)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 500 to pay attribute
+@End
+(Poor2)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 1000 to for the moodbooster
+@End
+(Poor3)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 200 to pay for attonement
+@End
+(FewPP)
+@SystemMessage #VANC #VANP You dont have enough punishmentpoints 
+@SystemMessage #VANC #VANP You need at least 100 before you can use attonement
+@End
+(Poor3)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 2000 to unlock your denial settings
+@End
+(End)
+@End
+Attribute 500 and 1000 gold
+MoodBoster 1000 gold / Week
+Attonement 200 gold / 100 points
+Unlock denial settings

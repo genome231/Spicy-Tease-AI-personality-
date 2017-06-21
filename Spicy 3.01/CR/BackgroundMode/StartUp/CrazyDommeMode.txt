@@ -1,0 +1,23 @@
+@NullResponse @RapidCodeOn @CheckFlag(FirstCrazyDomme) @SetFlag(FirstCrazyDomme)
+@NullResponse @SetDate(CrazyDommeMode, 0 Days) @SetVar[CrazyDommeModeSet]=[0]
+@NullResponse @ChangeVar[CrazyDommeModeSet]=[CrazyDommeModeSet]+[#Random(4,10)] @Goto(SetModes)
+(FirstCrazyDomme)
+@Variable[#DateDifference(CrazyDommeMode, Days)]>[CrazyDommeModeSet] @NullResponse @Goto(DeleteModes)
+@End
+(DeleteModes)
+@NullResponse @DeleteFlag(SissyMode)
+@NullResponse @DeleteFlag(SlutMode)
+@NullResponse @DeleteFlag(SlaveMode)
+@NullResponse @DeleteFlag(CuckMode)
+@NullResponse @DeleteFlag(LoverMode)
+@NullResponse @DeleteFlag(ChastityMode)
+(SetModes)
+@Flag(VibratorPlay) @Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(SissyMode)
+@Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(SlutMode)
+@Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(SlaveMode)
+@Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(CuckMode)
+@Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(LoverMode)
+@Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(ChastityMode)
+@NullResponse @SetDate(CrazyDommeMode, 0 Days) @SetVar[CrazyDommeModeSet]=[0]
+@NullResponse @ChangeVar[CrazyDommeModeSet]=[CrazyDommeModeSet]+[#Random(4,10)]
+@End

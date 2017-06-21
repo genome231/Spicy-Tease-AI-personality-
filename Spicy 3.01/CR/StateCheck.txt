@@ -1,0 +1,18 @@
+@NullResponse @RapidCodeOn
+@NullResponse @DeleteFlag(VPleased)
+@NullResponse @DeleteFlag(Pleased)
+@NullResponse @DeleteFlag(Neutral)
+@NullResponse @DeleteFlag(Annoyed)
+@NullResponse @DeleteFlag(VAnnoyed)
+@Variable[GNMMerits]>[1000] @NullResponse @SetVar[GNMMerits]=[1000]
+@Variable[GNMMerits]<[1] @NullResponse @SetVar[GNMMerits]=[1]
+@Variable[GNMMerits]>=[DommeContentVPleased] @NullResponse @SetFlag(VPleased) @Goto(Continue1)
+@Variable[GNMMerits]>=[DommeContentPleased] @NullResponse @SetFlag(Pleased) @Goto(Continue1)
+@Variable[GNMMerits]<=[DommeContentVAnnoyed] @NullResponse @SetFlag(VAnnoyed) @Goto(Continue1)
+@Variable[GNMMerits]<=[DommeContentAnnoyed] @NullResponse @SetFlag(Annoyed) @Goto(Continue1)
+@NullResponse @SetFlag(Neutral)
+(Continue1)
+@Variable[GNMMerits]<[DommeContentVAnnoyed] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]+[30]
+@Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[30]
+(End)
+@End

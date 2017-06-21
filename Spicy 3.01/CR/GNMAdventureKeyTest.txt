@@ -1,0 +1,114 @@
+@SystemMessage You are now trying to access a Scenario
+@SystemMessage Which Scenario do you wanna try your keys for?
+@SystemMessage The following inputs are available 
+@SystemMessage a, b, c, d
+[a]@SystemMessage LOADING.. @Goto(AccessA)
+[b]@SystemMessage LOADING.. @Goto(AccessB)
+[c]@SystemMessage LOADING.. @Goto(AccessC)
+[d]@SystemMessage LOADING.. @Goto(AccessD)
+@DifferentAnswer @SystemMessage Unknown Input. Possible Inputs Are: a, b, c, d
+(AccessA)
+@NullResponse @CheckFlag(Key1a)
+@SystemMessage You are missing key 1a
+@SystemMessage Terminating.. @Goto(Denied)
+(Key1a)
+@NullResponse @CheckFlag(Key2a)
+@SystemMessage You are missing key 2a
+@SystemMessage Terminating.. @Goto(Denied)
+(Key2a)
+@NullResponse @CheckFlag(Key3a)
+@SystemMessage You are missing key 3a
+@SystemMessage Terminating.. @Goto(Denied)
+(Key3a)
+@SystemMessage Enter the digit password for key 1a
+[2byxuesdy4]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 2a
+[7dnb83j7lf]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 3a
+[10salbndh3]@SystemMessage All passwords Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Accessing Scenario 1
+@SystemMessage LOADING.. @Interrupt(\GNMInterrupt\GNMScenarioAPre)
+(AccessB)
+@NullResponse @CheckFlag(Key1b)
+@SystemMessage You are missing key 1b
+@SystemMessage Terminating.. @Goto(Denied)
+(Key1b)
+@NullResponse @CheckFlag(Key2b)
+@SystemMessage You are missing key 2b
+@SystemMessage Terminating.. @Goto(Denied)
+(Key2b)
+@NullResponse @CheckFlag(Key3b)
+@SystemMessage You are missing key 3b
+@SystemMessage Terminating.. @Goto(Denied)
+(Key3b)
+@SystemMessage Enter the digit password for key 1b
+[fj28fn39dn]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 2b
+[j1mg86ldu6]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 3b
+[ma05lfqurt]@SystemMessage All passwords Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Accessing Scenario 2
+@SystemMessage LOADING.. @Interrupt(\GNMInterrupt\GNMScenarioBPre)
+(AccessC)
+@NullResponse @CheckFlag(Key1c)
+@SystemMessage You are missing key 1c
+@SystemMessage Terminating.. @Goto(Denied)
+(Key1c)
+@NullResponse @CheckFlag(Key2c)
+@SystemMessage You are missing key 2c
+@SystemMessage Terminating.. @Goto(Denied)
+(Key2c)
+@NullResponse @CheckFlag(Key3c)
+@SystemMessage You are missing key 3c
+@SystemMessage Terminating.. @Goto(Denied)
+(Key3c)
+@SystemMessage Enter the digit password for key 1c
+[9684hgjulo]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 2c
+[1adferth56]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 3c
+[7869lgkjr3]@SystemMessage All passwords Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Accessing Scenario 3
+@SystemMessage LOADING.. @Interrupt(\GNMInterrupt\GNMScenarioCPre)
+(AccessD)
+@NullResponse @CheckFlag(Key1d)
+@SystemMessage You are missing key 1d
+@SystemMessage Terminating.. @Goto(Denied)
+(Key1d)
+@NullResponse @CheckFlag(Key2d)
+@SystemMessage You are missing key 2d
+@SystemMessage Terminating.. @Goto(Denied)
+(Key2d)
+@NullResponse @CheckFlag(Key3d)
+@SystemMessage You are missing key 3d
+@SystemMessage Terminating.. @Goto(Denied)
+(Key3d)
+@SystemMessage Enter the digit password for key 1d
+[098sdfhrgj]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 2d
+[asdwerfgty]@SystemMessage Password Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Enter the digit password for key 3d
+[lkjmnbtyu1]@SystemMessage All passwords Accepted
+@AcceptAnswer @SystemMessage Incorrect @Goto(Denied2)
+@SystemMessage Accessing Scenario 4
+@SystemMessage LOADING.. @Interrupt(\GNMInterrupt\GNMScenarioDPre)
+(Denied)
+@SystemMessage ACCESS DENIED!
+@SystemMessage SLAVE DOES NOT POSSESS THE REQUIRED PASSWORDS!
+@SystemMessage ILLEGAL INTRUSION!
+@systemMessage INITIATING PUNISHMENT @Interrupt(\GNMInterrupt\GNMIllegalAccess)
+(Denied2)
+@SystemMessage ACCESS DENIED!
+@SystemMessage SLAVE FAILED TO ENTER CORRECT PASSWORD!
+@systemMessage INITIATING PUNISHMENT @Interrupt(\GNMInterrupt\GNMIllegalAccess)

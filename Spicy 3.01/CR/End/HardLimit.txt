@@ -1,0 +1,38 @@
+(HardLimit)
+@RT(#SlaveName,#SubName,Slave) #DT
+@RT(We've crossed your hard limit of,It seems we're at your hard limit of) @ShowVar[HardOTimeLimit] days #DT
+@RT(I do respect your limits,Despite what you might think I care about your limits..,I fully respect your limits) #DT
+@RT(Though I like to encourage you to push them,Still I like to push them a little,But I'll never stop trying to push them a little) #DT
+@RT(Now,Meaning..,Well) #DT
+@RT(Do you absolutely need to cum?,Are you so desperate you need to orgasm?) #DT
+[yes]@RT(Okay then,Well then) #DT
+[no]#GNMGood #DT @Goto(PushLimit2)
+@DifferentAnswer #GNMYesOrNo #DT
+(PushLimit1)
+@RT(Before we get to the point of letting you cum,Before I decide wether to let you cum or not) #DT
+@RT(Would it be alright for me to increase your hard limit a little?,Would you be okay with increasing your hard limit?) #DT
+[yes]#GNMGood #DT @Goto(IncreaseLimit1)
+[no]@RT(Thats perfectly fine,Okay then) #GNMEmoteHappy #DT @Goto(End)
+@DifferentAnswer #GNMYesOrNo #DT
+(IncreaseLimit1)
+@RT(So currently your hard limit is,At this moment your hard limit is) @ShowVar[HardOTimeLimit] days #DT
+@RT(What would you like your new limit to be?,Tell me how would your new hard limit should look like) #DT @InputVar[HardOTimeLimitNew]
+@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit)
+@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimit]+[HardOTimeLimitNew]
+#GNMGood #DT @Goto(End)
+(PushLimit2)
+@RT(You make me proud!,That makes me happy!,You make me very proud!) #MeritChangePHigh #DT
+@RT(This brings about the logical question,This begs the question) #DT
+@RT(Would you be okay with me increasing your hard limit?,Would it be alright if we took a look at your hard limit?) #DT
+[yes]#GNMGood #DT
+[no]I see.. #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@End
+(IncreaseLimit2)
+@RT(So currently your hard limit is,Right now your hard limit is) @ShowVar[HardOTimeLimit] days #DT
+What would you like your new limit to be? #DT @InputVar[HardOTimeLimitNew]
+@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit)
+@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimit]+[HardOTimeLimitNew]
+@RT(Well then!,Moving on) #DT @Goto(End)
+(End)
+@NullResponse @CallReturn(CR\End\DecideO.txt)

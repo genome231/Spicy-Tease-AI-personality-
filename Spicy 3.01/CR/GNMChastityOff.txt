@@ -1,0 +1,33 @@
+@NullResponse @CheckFlag(ChastityIsOn)
+@NullResponse @UnlockImages
+@End
+(ChastityIsOn)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) @LockImages @SetVar[PatienceTest]=[0] @ShowImage[\GNMImages\Chastity\ChastityOff\*]
+@RT(Remove your #Cage,Take off your #Cage,Remove the #Cage at once,Hurry up and remove the #Cage,Be quick and remove your #Cage)
+@RT(Let me know when you're done..,Report to me when it's off,Remember to tell me when it's off) @Timeout(#Random(15,20),Hurry)
+[done,its off,off,it's off,removed,remove] #GNMGood @DeleteFlag(ChastityIsOn) @ChastityOff @UnlockImages
+@DifferentAnswer Is it off? @Timeout(#Random(15,20),Hurry)
+@NullResponse @UnlockImages
+@End
+(Hurry)
+@RT(Quicker!,Faster,Be faster,Hurry up!,Be quick,Come on!,Be quick..,Be faster will you?,Be faster!) @If[PatienceTest]>=[3]Then(Stop) @ChangeVar[PatienceTest]=[PatienceTest]+[1]
+@NullResponse #MeritChangeNLow @Timeout(#Random(15,20),Hurry)
+[done,its off,off,it's off,removed,remove]@RT(Finally,About time..,Took you long enough,Be faster next time,Dont waste my time again..) @DeleteFlag(ChastityIsOn) @ChastityOff @UnlockImages
+@DifferentAnswer Is it off? @Timeout(#Random(15,20),Hurry)
+@NullResponse @UnlockImages
+@End
+(Stop)
+@RT(Stop what you're doing..,Stop!,You can stop!,Go ahead and stop!,Just stop..)  @ShowImage[\GNMImages\Chastity\ChastityOn\*]
+@RT(Get the #Cage back on..,Put the #Cage back on,Get the #Cage back on..,Just put the #Cage back on..) @Wait(15)
+(Loop)
+Is it on?
+[yes]#GNMGood #DT @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+[no]Hurry up then.. @Wait(30) @Goto(Loop)
+@DifferentAnswer #GNMYesOrNo
+#SlaveName #DT
+@RT(You've taken way too long to get that #Cage off..,You we're way to long to get that #Cage off,It took you too long to get that cage off..) #DT
+@RT(I suppose that means you dont want to play with me,I can only assume you dont want to play with me,I'm guessing you dont want to play) #DT
+So I'm cutting today's session short and sending you back to your Slave hub.. #DT
+Bye..  #DT
+@NullResponse @UnlockImages
+@NullResponse @Interrupt(GNMBackgroundBase)

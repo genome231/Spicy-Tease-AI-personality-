@@ -1,0 +1,64 @@
+@NullResponse @CheckFlag(FirstTimeFun) @SetFlag(FirstTimeFun)
+@SystemMessage #VANC #VANP #SubName @SetDate(FunBreak, 0 Hours)
+@SystemMessage #VANC #VANP You've requested to have some fun
+@SystemMessage #VANC #VANP Which is something you do when you want to watch tv, play video games, read a book or something else
+@Flag(FullTime) @SystemMessage #VANC #VANP you're serving full so you HAVE to ask permission
+@NotFlag(FullTime) @SystemMessage #VANC #VANP Since you're not serving full time it is not required but appreciated that you ask
+@SystemMessage #VANC #VANP Notice that asking permission to have fun does not include social events
+@SystemMessage #VANC #VANP Social events are encouraged at all times
+@SystemMessage #VANC #VANP They are important to ones health
+@SystemMessage #VANC #VANP Asking permission is only for private occasions
+@SystemMessage #VANC #VANP Also notice this does not apply to relaxing
+@SystemMessage #VANC #VANP Everybody needs a break at occasions
+@SystemMessage #VANC #VANP But if you wish these breaks to include a tv, pc, book or something else
+@SystemMessage #VANC #VANP Then you need to ask @ChangeVar[AskedToFun]=[AskedToFun]+[1]
+@SystemMessage #VANC #VANP Now #SlaveName
+@SystemMessage #VANC #VANP Since this is your first time asking
+@SystemMessage #VANC #VANP I'm gonna reward your fine behaviour with a yes
+@SystemMessage #VANC #VANP Enjoy!
+@End
+(FirstTimeFun)
+@SystemMessage #VANC #VANP @RT(So you want to have a little fun..,So you wanna enjoy yourself a little,So you want some entertainment,So you want a little "me" time)
+(CheckUp1)
+@SystemMessage #VANC #VANP Have you completed the business of today?
+[yes]@SystemMessage #VANC #VANP #GNMGood @Goto(Test1)
+[no]@SystemMessage #VANC #VANP @RT(I see,Well,Hmm)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP @RT(So you're asking for entertainment during your break,So you're asking for a break included entertainment)
+[yes]@SystemMessage #VANC #VANP @RT(Okay then!,Well then,Hmm) @Goto(Test2)
+[no]@SystemMessage #VANC #VANP @RT(Then I'm not sure why you're asking to have fun,I'm not completely sure what you're asking for then..)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP So I'm denying your request
+@SystemMessage #VANC #VANP Get done with the business of today and then come back #SubName
+@End
+(Test1)
+@Flag(VPleased) @SystemMessage #VANC #VANP @RT(Well I no reason to forbid it,I dont see why not,Well sure #SlaveName,Why the heck not..) @Goto(Allow)
+@Flag(Pleased) @SystemMessage #VANC #VANP @RT(Well I no reason to forbid it,I dont see why not,Well sure #SlaveName,Why the heck not..) @Goto(Allow)
+@Flag(Neutral) @SystemMessage #VANC #VANP @RT(Well I no reason to forbid it,I dont see why not,Well sure #SlaveName,Why the heck not..) #SlaveName
+@Flag(Annoyed) @SystemMessage #VANC #VANP @RT(Hmm..,Well..,Perhaps...,Maybe..) @Chance25(MakeOffer) @Goto(Allow)
+@Flag(VAnnoyed) @SystemMessage #VANC #VANP @RT(Hmm..,Well..,Perhaps...,Maybe..) @Chance50(MakeOffer) @Goto(Allow)
+(Test2)
+@Variable[#DateDifference(FunBreak, Hours)]>[BreakPeriod] @NullResponse @Goto(Test2a)
+@SystemMessage #VANC #VANP @RT(You've already had a break recently,You had a break not so long ago,You had a break rather recently) @SetDate(FunBreak, 0 Hours)
+@SystemMessage #VANC #VANP @RT(Enough with the breaks,You've had enough breaks,Its time to work now)
+@SystemMessage #VANC #VANP @RT(Get to work and finish the business of today #SlaveName,So instead of having fun you need to get to work..)
+@End
+(Test2a)
+@SystemMessage #VANC #VANP @RT(I'm gonna allow you a break,Yes you may take a break,A break sounds fair) @SetDate(FunBreak, 0 Hours)
+@SystemMessage #VANC #VANP @RT(Enjoy yourself,Enjoy it!,Enjoy but remember to get back to work) #GNMEmoteHappy @SetVar[BreakPeriod]=[2,5]
+@End
+(Allow)
+@SystemMessage #VANC #VANP @RT(Go ahead and have some fun,Yes you may have fun,I'll allow you to have fun,Yes absoluty have some fun) #GNMEmoteHappy
+@End
+(MakeOffer)
+@SystemMessage #VANC #VANP I'm gonna allow you to have fun on 1 condition,You may have fun with one condition,I will allow it if.. @Goto(Promise1,Promise2)
+(Promise1)
+@SystemMessage #VANC #VANP @RT(You wear a peg on each nipple for the first 10 minutes,You drink a glass of water first) @Goto(Deal)
+(Promise2)
+@SystemMessage #VANC #VANP @RT(You get down on your knees and repeat 5 times that you love to serve,You watch 2 minutes of porn without touching) @Goto(Deal)
+(Deal)
+@SystemMessage #VANC #VANP @RT(Deal?,Do we have a deal?,Is that a deal?,Well.. deal?)
+[yes]@SystemMessage #VANC #VANP #GNMGood - Enjoy!
+[no]@@SystemMessage #VANC #VANP RT(Oh well then no fun for you,Then no fun for you,No fun for you then..)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@End

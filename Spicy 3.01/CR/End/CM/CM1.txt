@@ -1,0 +1,8 @@
+(CM1) //watch video of someone else having fun #DT
+@RT(#SlaveName,#SubName) I have some bad news #DT
+@RT(You will not be releasing,There will be no pressure relief,There will be no ejaculation) today #DT
+#GNMLol #DT
+Instead you're gonna watch a video of someone else cumming #GNMGrin #DT
+@NullResponse @ShowVideo[\GNM_Videos\Endings\CM1\*.mp4]
+@RT(Mhhmm so hot!,God that was perfect!,Mhmm I loved that,#GNMGrin I hope you're cooled down a little) #DT
+@NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

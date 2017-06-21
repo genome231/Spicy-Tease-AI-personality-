@@ -1,0 +1,18 @@
+(R2) //Agree to watch sissy and ruin
+@RT(#SlaveName,#SubName) @RT(I will let you ruin,I'm gonna make you ruin) #DT
+<i>if..</i> #DT
+@RT(You'll do it to a short movie of sissy getting fucked,If you'll do it to a sissy movie) @RT(#GNMGrin,#GNMLol) #DT
+@RT(And I order you to watch it to the end!,And you have to watch it till the end!) #DT
+@RT(So what will it be..,So let me hear what you have to say) #DT
+@RT(Ruining to a sissy,Watch a sissy and ruin) #DT
+@RT(Or yet more denial?,Or would you rather stay denied) #DT
+[ruin,ruining,sissy]#GNMGrin  #DT
+[denial,no]Cant blame you for that! #DT
+@DifferentAnswer Denial or Sissy? #DT
+@RT(As soon as you cross the edge its hands behind your head!,As soon as you cross that nasty edge I want you to put your hands behind your head..) #DT
+(R2MovieStart)
+@RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
+@NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
+@RT(Well then..,Exelent!,#GNMGood) #DT
+(End)
+@End

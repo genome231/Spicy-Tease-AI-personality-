@@ -1,0 +1,53 @@
+@NullResponse @Variable[CEILevel]>=[10] @Goto(9,EndTraining)
+@NullResponse @Variable[CEILevel]>=[9] @Goto(8,9)
+@NullResponse @Variable[CEILevel]>=[8] @Goto(7,8)
+@NullResponse @Variable[CEILevel]>=[7] @Goto(6,7)
+@NullResponse @Variable[CEILevel]>=[6] @Goto(5,6)
+@NullResponse @Variable[CEILevel]>=[5] @Goto(4,5)
+@NullResponse @Variable[CEILevel]>=[4] @Goto(3,4)
+@NullResponse @Variable[CEILevel]>=[3] @Goto(2,3)
+@NullResponse @Variable[CEILevel]>=[2] @Goto(1,2)
+@NullResponse @Variable[CEILevel]>=[1] @Goto(1)
+(1) \\Dap
+#SlaveName put a finger into your cum #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Get just a small ammount of cum on it #DT
+And then suck your finger clean #DT @Goto(Complete)
+(2) \\tounge
+#SlaveName place your tounge in the cum #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Then back into your mouth #DT
+See if you cant handle doing that a few times #DT @Goto(Complete)
+(3) \\tounge and hold
+#SlaveName place your tounge into the cum and hold it there while you count to 15 #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(10) @Goto(Complete)
+(4) \\2 licks
+#SlaveName lick a few drops of the cum up using your tounge #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(10) @Goto(Complete)
+(5) \\lick half
+#SlaveName lick up about half of them cum #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(15) @Goto(Complete)
+(6) \\eat half slowly with a finger
+#SlaveName about half of the cum using your finger #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(15) @Goto(Complete)
+(7) \\Lick some up and hold it in your mouth short
+#SlaveName lick a few drops of the cum up using your tounge @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] #DT
+Each time you do it dont swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
+(8) \\Lick half up and hold it in your mouth medium
+#SlaveName lick a good drops of the cum up using your tounge  #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Each time you do it dont swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
+(9) \\Lick all up, hold it on mouth, twirl it arround
+#SlaveName lick all of the cum up using your tounge  #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Each time you do it dont swallow right away, hold it in your mouth #DT
+Swirl it arround in there while you count to 10 #DT @Wait(20) @Goto(Complete)
+(EndTraining) \\Lick all up, hold it on mouth, twirl it arround
+#SlaveName lick all the of the cum up using your tounge #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Each time you do it dont swallow right away, hold it in your mouth #DT
+Swirl it arround in there while you count to 10 #DT @Wait(30)
+Now #SubName #DT
+We're actually at the end of your cum training #DT
+I hope you feel confident that you're able to eat your cum #GNMGrin #DT
+Because from now on I know you can! #DT
+(Complete)
+#SlaveName Did you manage to do it? #DT
+[yes]#GNMGood #DT @ChangeVar[CEIXP]=[CEIXP]+[25] @Goto(End)
+[no]Well perhaps next time then #GNMEmoteHappy @ChangeVar[CEIXP]=[CEIXP]-[25] #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse #MeritChangeNLow @Goto(End)
+(End)
+@NullResponse @CallReturn(CR\End\CEI\CEILevel.txt)
+@End

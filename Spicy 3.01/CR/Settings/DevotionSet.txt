@@ -1,0 +1,67 @@
+(Reset short medium and long session to 0) <-- (1)
+@NullResponse @RapidCodeOn @SetVar[LongSession]=[0]
+@NullResponse @SetVar[MediumSession]=[0]
+@NullResponse @SetVar[ShortSession]=[0]
+(Session length factors set to 0) <-- (2)
+@NullResponse @SetVar[SessionLengthFactor1]=[0]
+@NullResponse @SetVar[SessionLengthFactor2]=[0]
+@NullResponse @SetVar[SessionLengthFactor3]=[0]
+(Short, medium and long will now be made equal to DevotionSet) <--(3)
+@NullResponse @RapidCodeOn @ChangeVar[LongSession]=[LongSession]+[DevotionSet]
+@NullResponse @ChangeVar[MediumSession]=[MediumSession]+[DevotionSet]
+@NullResponse @ChangeVar[ShortSession]=[ShortSession]+[DevotionSet]
+(Factors are also set to be equal DevotionSet) <--(4)
+@NullResponse @ChangeVar[SessionLengthFactor1]=[SessionLengthFactor1]+[DevotionSet]
+@NullResponse @ChangeVar[SessionLengthFactor2]=[SessionLengthFactor2]+[DevotionSet]
+@NullResponse @ChangeVar[SessionLengthFactor3]=[SessionLengthFactor3]+[DevotionSet]
+(The factors are now set properly) <--(5)
+@NullResponse @ChangeVar[SessionLengthFactor1]=[SessionLengthFactor1]/[10]
+@NullResponse @ChangeVar[SessionLengthFactor2]=[SessionLengthFactor2]/[10]
+@NullResponse @ChangeVar[SessionLengthFactor3]=[SessionLengthFactor3]/[10]
+@NullResponse @ChangeVar[SessionLengthFactor2]=[SessionLengthFactor2]*[4]
+@NullResponse @ChangeVar[SessionLengthFactor3]=[SessionLengthFactor3]*[7]
+(The different sessions lengths are now created) <--(6)
+@NullResponse @ChangeVar[LongSession]=[LongSession]-[SessionLengthFactor1]
+@NullResponse @ChangeVar[MediumSession]=[MediumSession]-[SessionLengthFactor2]
+@NullResponse @ChangeVar[ShortSession]=[ShortSession]-[SessionLengthFactor3]
+@End
+(Info)
+DevotionSet is a value set by the sub defining MAXIMUM SESSION LENGTH
+To explain this I'm giving an example
+By default this value is set at 45:
+(1 & 2)
+The used variables are reset to 0
+[LongSession]=[0]
+[MediumSession]=[0]
+[ShortSession]=[0]
+[SessionLengthFactor1]=[0]
+[SessionLengthFactor2]=[0]
+[SessionLengthFactor3]=[0]
+(3)
+The variables are set to DevotionSet which is 45
+[LongSession]=[45]
+[MediumSession]=[45]
+[ShortSession]=[45]
+(4)
+[SessionLengthFactor1]=[45]
+[SessionLengthFactor2]=[45]
+[SessionLengthFactor3]=[45]
+(5)
+[SessionLengthFactor1]=[45] / [10] = [4.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 4 OR 5 --not sure which--
+[SessionLengthFactor2]=[45] / [10] = [4.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 4 OR 5 --not sure which--
+[SessionLengthFactor3]=[45] / [10] = [4.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 4 OR 5 --not sure which--
+[SessionLengthFactor2]=[4.5] * [4] = [18] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 31 OR 32 --not sure which--
+[SessionLengthFactor3]=[4.5] * [7] = [31.5]
+(6)
+@NullResponse @ChangeVar[LongSession]=[LongSession]-[SessionLengthFactor1] <-- [45]-[4.5] = [41.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 41 OR 42 --not sure which--
+@NullResponse @ChangeVar[MediumSession]=[MediumSession]-[SessionLengthFactor2] <-- [45]-[18] = [27]
+@NullResponse @ChangeVar[ShortSession]=[ShortSession]-[SessionLengthFactor3] <-- [45]-[31.5] = [13.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 32 OR 14 --not sure which--
+(How does this work with #DT) \\#DT decides how "dressed" the domme is in combination with your level of [GNMMerits]
+When you launch a session with the domme a timer starts
+Short session has the value 13.5, meaning that until the timer hits either 13 or 14 minutes, the domme will be fully dressed.
+After 13.5 minutes the domme will get half dressed.
+After 27 minutes the domme will get undress to hear underwear.
+After 42 minutes the domme will show you her boobs or be completely naked depending on your settings.
+NOTICE THAT [GNMMerits] influence her willingsness to undress! Having a low score will likely result in the domme being completely dressed through the session
+Also notice that this is all based on default 45 minutes.
+If you have chosen a different value, these numbers will vary!

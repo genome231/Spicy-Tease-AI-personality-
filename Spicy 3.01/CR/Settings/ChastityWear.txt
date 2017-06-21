@@ -1,0 +1,35 @@
+@SystemMessage Ideally #DomHonorific prefers that you are locked whenever you're not playing @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Meaning you wear it 24/7 @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage And that you will only be released when told so through Tease-AI @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Are you capable or wearing it 24/7? Answer truthfully for your own sake.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage 24/7 includes: Sleeping & exercising with the cage on @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage This should be fun.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(ExerciseQ)
+[no]@SystemMessage Dont be ashamed, we can always work on this. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Well since you cant wear it 24/7 @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage I'm curious to find out how much you can handle @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Are you willing to work towards learning how to wear it 24/7? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage This should be fun.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(ChastityTrainingActive)
+[no]@SystemMessage Its alright @ShowImage[\GNMImages\Settings\Chastity.jpg] @Goto(CRecord)
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Are you willing to learn to sleep with the #Cage or is this a hard limit? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes,sleep]@SystemMessage Good @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CNoSleep)
+[no,hard,limit,hard limit]@SystemMessage  Its alright @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@DifferentAnswer @SystemMessage yes or hard limit? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Are you willing to learn to exercise with #Cage on or is this a hard limit? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes,exercise]@SystemMessage Good @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CNoExercise)
+[no,hard,limit,hard limit]@SystemMessage Its alright @ShowImage[\GNMImages\Settings\Chastity.jpg] @Goto(CRecord)
+@DifferentAnswer @SystemMessage yes or hard limit? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+(CRecord)
+@SystemMessage What is the longest period of concecutive days you've worn a chastity belt? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage In other words.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage What is your lock up record in days? @ShowImage[\GNMImages\Settings\Chastity.jpg] @InputVar[CRecord]
+@SystemMessage And a final question about chastity @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Do you considder chastity to be something used occacionally as a plaything? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Only as a punishment? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Or something one you should try to wear full time 24/7? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[play,plaything]@SystemMessage Okay then! @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPlayActive)
+[punishment]@SystemMessage Okay then! @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPunishmentActive)
+[full time,full,time]@SystemMessage Okay then! @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(C247)
+@DifferentAnswer @SystemMessage Play, punishment or full time? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@End

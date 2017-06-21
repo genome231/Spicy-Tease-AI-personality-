@@ -1,0 +1,22 @@
+@Variable[#DateDifference(TeaseSession,Hours)]>[20] @NullResponse @RapidCodeOn @Goto(TestSession)
+@SystemMessage #VANC #VANP Slave you had a session recently 
+@Variable[#DateDifference(TeaseSession,Hours)]>[17] @SystemMessage #VANC #VANP Try again in a few hours @Goto(Base)
+@SystemMessage #VANC #VANP Try again later @Goto(End)
+(TestSession)
+@NullResponse @If[GNMPPoints]>[400]Then(Deny1)
+@Flag(VAnnoyed) @NullResponse @Goto(Deny2)
+@NullResponse @Goto(StartSession)
+(Deny1)
+@SystemMessage #VANC #VANP Session denied #SlaveName
+@SystemMessage #VANC #VANP You have too many punishment points
+@SystemMessage #VANC #VANP Report for punishment @Goto(End)
+(Deny2)
+@SystemMessage #VANC #VANP Session denied #SlaveName
+@SystemMessage #VANC #VANP Due to recent poor behaviour
+@Variable[GNMPPoints]>=[100] @SystemMessage #VANC #VANP  You should either report for chores or punishment @Goto(End)
+@Variable[GNMPPoints]<[100] @SystemMessage #VANC #VANP  I recommend reporting for chores @Goto(End)
+(StartSession)
+@SystemMessage #VANC #VANP @RT(Launching,Initiating,Starting,Establishing) session with #DomHonorific
+@NullResponse @SetDate(TeaseSession,0 Hours) @Interrupt(GNMStart)
+(End)
+@End

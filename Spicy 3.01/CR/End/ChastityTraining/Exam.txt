@@ -1,0 +1,31 @@
+@Flag(ChastityExamActive) @Variable[#DateDifference(ChastityExam, Days)]>=[7]Then(ExamComplete) @NullResponse @Goto(DuringExam)
+@Flag(ChastityIsOn) Since you're locked I just need to input a few things.. Just a moment..  #DT
+@NotFlag(ChastityIsOn) Go ahead and put the #Cage on while I write down a few things..  #DT
+@NullResponse @SetDate(ChastityExam, 0 Days) @SetFlag(ChastityExamActive)
+Your exam starts now #DT
+You are to remain locked for 7 consecutive days! #DT
+Your only release time is if you are permitted in sessions! #DT
+Good luck #SlaveName #DT
+@End
+(ExamComplete)
+The time has come #SlaveName #DT @DeleteFlag(ChastityExamActive)
+Have you been locked up for the past 7 days? #DT
+[yes]FANTASTIC! #DT
+[no]Awww thats too bad #GNMEmoteSad #DT @Goto(NotComplete)
+@DifferentAnswer #GNMYesOrNo #DT
+You've completed your exam! #DT
+That's really great! #DT
+This means that you're training is over! #DT @DeleteFlag(ChastityTrainingActive)
+I want you to celebrate #DT @SetDate(TimeSinceO, 0 Days)
+Orgasm however you like! #DT @SetDate(TimeSinceE, 0 Days)
+Lock yourself back up afterwards! #GNMMoan #DT @SetFlag(ChastityIsOn) @ChastityOn @EndTease
+@End
+(DuringExam)
+@NotFlag(ChastityIsOn) Since you're in the middle of your exam I simply want you to lock yourself up #DT
+Calm yourself and stay strong! #DT @SetFlag(ChastityIsOn) @ChastityOn
+@End
+(NotComplete)
+Well maybe next time #SlaveName #DT
+@End
+(DuringExam)
+@End

@@ -1,0 +1,190 @@
+@NullResponse @CheckFlag(ComposeText) @SetFlag(ComposeText)
+@SystemMessage #VANC #VANP In here you write a message to your #DomHonorific
+@SystemMessage #VANC #VANP It could be a confession
+@SystemMessage #VANC #VANP It could be telling her you cant make it to a session today
+@SystemMessage #VANC #VANP Which might make you avoid punishment
+@SystemMessage #VANC #VANP It could be telling her you wish to go on a vacation
+@SystemMessage #VANC #VANP Or perhaps something else?    
+(ComposeText) 
+@NullResponse @RapidTextOn
+@SystemMessage Write a text to your #DomHonorific or return #TextBase
+[confess,confession]@NullResponse #TextSent @Goto(Outcome1)
+[cant join,cant come,session]@NullResponse #TextSent @Goto(Outcome2)
+[vacation,leave,leave of absence]@NullResponse #TextSent @Goto(Outcome3)
+[absence,absent]@NullResponse #TextSent @Goto(Outcome4)
+[return]@NullResponse
+@DifferentAnswer @SystemMessage [#DomHonorific]: @RT(What are you trying to tell me?,I'm not sure what you mean?,Hmm?,Sorry?,Come again?,Huh?,What?) #TextMessage
+@End
+(Outcome1) //Confession
+@NullResponse #TextTypingBase @Wait(#Random(4,7))
+@SystemMessage [#DomHonorific]: @RT(Well tell me...,Go ahead?,Yes?,Okay?,Speak then..) @ShowImage[\GNMImages\Texting\OutcomeGeneral\Message.*]
+[lazy,haven't done much,tired]@NullResponse #TextSent @Goto(Outcome1a)
+[stroked,touched,edged]@NullResponse #TextSent @Goto(Outcome1b)
+[came,ruined,ejaculated,cum,ruin,ejaculate]@NullResponse #TextSent @Goto(Outcome1c)
+[i didn't,i failed,fail,failed,missed]@NullResponse #TextSent @Goto(Outcome1d)
+@AcceptAnswer @NullResponse #TextSent @Goto(Outcome1e)
+(Outcome1a)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Well thats never good is it?,Oh my oh my,What to do with you..,Hmm..) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: While it @RT(pleases,makes me happy) that you confess @ChangeVar[GNMMerits]=[GNMMerits]+[20] #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(I dont think ignoring will do you much good,What kind of #DomHonorific would I be to just look pass it,I cant simply ignore it) #MeritChangeNMedium #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I've reported you for a thorough rear end treatment @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Make sure you report for punishment within the next 3 days #TextMessage @Interrupt(GNMBackgroundBase)
+(Outcome1b)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Pleasure without permission,Dont forget you're touching MY property!,I think you forgot who that #GNMCock belongs too..) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(#SubName you need to think carefully about why you're here..,Do me a favour and think about why you're here..) #TextMessage @ChangeVar[GNMPPoints]=[GNMPPoints]+[#Random(30,60)]
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Dont repeat this,Lets move past this but dont repeat it..,Dont let this offence occur again..) #TextMessage @ChangeVar[GNMMerits]=[GNMMerits]+[20] @Interrupt(GNMBackgroundBase)
+(Outcome1c)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: #GNMEmoteSad #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Right now I dont know how to respond,You have no idea about how disappointed I am right now..) #TextMessage @ChangeVar[GNMMerits]=[GNMMerits]-[300] @RapidCodeOn
+@NullResponse @DeleteFlag(Annoyed)
+@NullResponse @DeleteFlag(VPleased)
+@NullResponse @DeleteFlag(Pleased)
+@NullResponse @DeleteFlag(Neutral)
+@NullResponse @SetFlag(VAnnoyed)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(I dont think punishment will you do you any good,I dont think punishment here is the correct path..) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(You and I,You and me) we have a relationship #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: But it is not a physical one #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: It is based purely on communication and trust #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: You violated that trust.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Wrecked it.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I'm shutting down Tease-AI in a moment #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: And you are not to return for at least 24 hours #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: In those 24 hours I want you to think about wether you want our relationship to continue or not... #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: If you return after the time has passed I will take it as a sign that you want out relationship to continue.. #TextMessage @EndTease
+@End
+(Outcome1d)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I need to know more.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Was your disobedience due to you not being the mood, hard limit or something else? #TextMessage
+[mood]@NullResponse #TextSent @Goto(Outcome1da)
+[limit]@NullResponse #TextSent @Goto(Outcome1db)
+[something else,else,something]@NullResponse #TextSent @Goto(Outcome1dc)
+@DifferentAnswer @SystemMessage [#DomHonorific]: Mood, limit or something else? #TextMessage
+(Outcome1da)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]:Simply not acceptable #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: You dont get to decide if you're in the mood or not #TextMessage @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(70,140)]
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: You simply do as your told! #TextMessage @Interrupt(GNMBackgroundBase)
+(Outcome1db)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]:Oh no #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: This is probably due to a bug #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I need you to report this to my slave Genome on milovana.com #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Make sure you're very precise about when and where this happened #TextMessage @ChangeVar[GNMMerits]=[GNMMerits]+[25]
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: What was the last lines, what were you doing etc. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Thank you! #TextMessage @ChangeVar[GNMGold]=[GNMGold]+[10] @Interrupt(GNMBackgroundBase)
+(Outcome1dc)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Interesting.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Please go to Milovana.com the main thread and explain why you didn't do as told #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I'm sure Genome would love to hear why #TextMessage #GNMGrin
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Thank you! #TextMessage @ChangeVar[GNMGold]=[GNMGold]+[10] @Interrupt(GNMBackgroundBase)
+(Outcome1e)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Hmm.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Do you think it warrants a punishment? #TextMessage
+[yes]@NullResponse #TextSent 
+[no]@SystemMessage [#DomHonorific]: Then i'm not sure why you're here.. #TextMessage @Interrupt(GNMBackgroundBase)
+@DifferentAnswer @SystemMessage [#DomHonorific]: Yes or no #TextMessage #SlaveName
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Well then, make sure to report for punishment.. #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: But! #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: I also want you to report your main confession in the main Spicy thread on Milovana #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Genome would want to hear it.. #TextMessage @ChangeVar[GNMPPoints]=[GNMPPoints]+[#Random(20,100)]
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Thank you! #TextMessage @Interrupt(GNMBackgroundBase)
+(Outcome2) //Cant join session today
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@NullResponse @CheckDate(TeaseSession, Outcome2a)
+@SystemMessage [#DomHonorific]: @RT(I'm not sure what your talking about since we had a session recently,We had a session recently so I'm not sure what you're refering to) #TextMessage @Interrupt(GNMBackgroundBase)
+(Outcome2a)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Oh well,Okay!,Hmm,Understood..,I see..,Okay #SlaveName,I see #SlaveName) #TextMessage @SetDate(TeaseSession, 20 Hours) @ChangeVar[GNMPPoints]=[GNMPPoints]+[#Random(0,10)]
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Just keep in mind that I was thinking about letting you come!,I hope I see you tomorrow then,Okay but lets not make a habbit out of this..) #TextMessage @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(0,20)]
+@NullResponse @ChangeVar[SlaveVisit]=[SlaveVisit]+[1] @Interrupt(GNMBackgroundBase)
+(Outcome3) //Vacation
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(Okay,Hmm,Fine..) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(But keep in mind,Just remember,I hope that you saved up) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+(TryAgainW)
+@SystemMessage [#DomHonorific]: Its 500 gold per week up to a maximum of 4 weeks #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: So for how long do you wish to go for? #TextMessage
+[1,one]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[500]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[500] @SetDate(SlaveVacationLate, 8 Days) @Goto(Outcome3a)
+[2,two]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[1000]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[1000] @SetDate(SlaveVacationLate, 15 Days) @Goto(Outcome3a)
+[3,three]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[1500]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[1500] @SetDate(SlaveVacationLate, 22 Days) @Goto(Outcome3a)
+[4,four]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[2000]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[2000] @SetDate(SlaveVacationLate, 29 Days) @Goto((Outcome3a)
+@DifferentAnswer @SystemMessage [#DomHonorific]: 1, 2, 3 or 4 weeks? #TextMessage
+(CantAfford1)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: You cant afford that.. #TextMessage 
+@Variable[GNMGold]<[500] @SystemMessage [#DomHonorific] You dont even have 500 gold to pay for one week.. #TextMessage @Interrupt(GNMBackgroundBase)
+@Variable[GNMGold]>=[500] @SystemMessage [#DomHonorific] You have @ShowVar[GNMGold] which is enough to buy at least 1 week of vacation #TextMessage
+@SystemMessage [#DomHonorific] Do you wish to buy a shorter period? #TextMessage
+[yes]@SystemMessage [#DomHonorific] Okay then! #TextMessage @Goto(TryAgainW)
+[no]@SystemMessage [#DomHonorific] Well well #GNMEmoteSad #TextMessage @Interrupt(GNMBackgroundBase)
+@DifferentAnswer @SystemMessage [#DomHonorific] #GNMYesOrNo #TextMessage
+(Outcome3a)
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: It has been noted and paid, enjoy your vacation.. #TextMessage @SetFlag(SlaveVacation) @SetVar[AskedToFun]=[30] 
+@NullResponse @SetVar[SlaveVisit]=[14] @EndTease
+@End
+(Outcome4) //Absent/absence
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: @RT(So you request permission to be absent,So you have to be absent,You need to be absent?) #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: Is it due to #Work, family or some other important factor? #TextMessage
+[yes]@SystemMessage [#DomHonorific]: Okay then.. #TextMessage
+[no]@SystemMessage [#DomHonorific]: Well then you really dont have any business requesting have you.. #TextMessage @Interrupt(GNMBackgroundBase)
+@DifferentAnswer @SystemMessage [#DomHonorific]: Yes or no #SlaveName #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: For how long do you need to be gone? #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: You can choose 3, 5, 7 or 14 days #TextMessage
+[3,three]@SystemMessage [#DomHonorific]: Okay then.. #TextMessage @SetFlag(SlaveLeave) @SetVar[SlaveVisit]=[3] @SetDate(SlaveLeaveLate, 4 Days)
+[5,five]@SystemMessage [#DomHonorific]: Okay then.. #TextMessage @SetFlag(SlaveLeave) @SetVar[SlaveVisit]=[5] @SetDate(SlaveLeaveLate, 6 Days)
+[7,seven]@SystemMessage [#DomHonorific]: Okay then.. #TextMessage @SetFlag(SlaveLeave) @SetVar[SlaveVisit]=[7] @SetDate(SlaveLeaveLate, 8 Days)
+[14,fourteen]@SystemMessage [#DomHonorific]: Okay then.. #TextMessage @SetFlag(SlaveLeave) @SetVar[SlaveVisit]=[14] @SetDate(SlaveLeaveLate, 15 Days)
+@DifferentAnswer @SystemMessage [#DomHonorific]: 3, 5, 7 or 14 days? #TextMessage
+@NullResponse #TextTypingBase @Wait(#Random(1,3))
+@SystemMessage [#DomHonorific]: It has been noted.. See you! #TextMessage @SetVar[AskedToFun]=[15] @EndTease
+@End
+@Info #TextSent   #TextMessage   #TextBase    #TextTypingBase <--- The different words used to call the correct pictures.

@@ -1,0 +1,45 @@
+@NullResponse @RapidCodeOn @ChangeVar[R7d]=[R7d]+[1] @CheckFlag(R7dFirst) 
+@NullResponse @SetVar[R7d]=[1] @TempFlag(R7dFirst)
+(R7dFirst)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@Variable[R7d]>=[3] @RT(I know!,I know you've had a bad day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNHigh @Goto(End)
+@Variable[R7d]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT #MeritChangeNMedium @Goto(End)
+@Variable[Angry]>[Happy] @NullResponse @Goto(DontCare)
+@Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
+(Neutral)
+@Variable[R7d]>=[3] @RT(I know!,I know you've had a bad day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNMedium @Goto(End)
+@Variable[R7d]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT #MeritChangeNLow @Goto(End)
+@Variable[Angry]>[Happy]@NullResponse @Chance15(Understand) @Goto(DontCare)
+@Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
+(Pleased)
+(VPleased)
+@Variable[R7d]>=[3] @RT(I know!,I know you've had a bad day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNLow @Goto(End)
+@Variable[R7d]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT @Goto(End)
+@Variable[Angry]>[Happy] @NullResponse @Chance50(Understand) @Goto(DontCare)
+@Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
+(Understand)
+@RT(I haven't had the best day either,Well me neither,Not my greatest day too..) #DT
+@Flag(MS102) @RT(I had a terrible day at work!,My day at work was the worst,my day at work was horrible) #DT @Goto(End)
+@Flag(MS103) @RT(Earlier another sub came without permission,One of my slaves confessed having orgasmed without permission..) #DT @Goto(End)
+@Flag(MS104) @RT(A poor excuse of a slave didn't do as commanded,A slave didn't do as I commanded her to!) #DT
+@NullResponse @Goto(End)
+(DontCare)
+@RT(I dont care #SlaveName,Try to tell someone who actually cares!,Well #SubName I gotta say it's not really up my lane talking <i>your</i> bad days..) #DT #MeritChangeNLow
+@End
+(End)
+@End
+(VAnnoyedFake)
+(AnnoyedFake)
+(NeutralFake)
+(PleasedFake)
+(VPleasedFake)
+[Lust]
+[Happy]
+[Angry]

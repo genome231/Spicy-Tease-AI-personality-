@@ -1,0 +1,43 @@
+@NullResponse @CheckFlag(PegsOn)
+@Variable[SubPainTolerance]>=[10] @NullResponse @Goto(p14,p16,p18,p20)
+@Variable[SubPainTolerance]>=[7] @NullResponse @Goto(p10,p12,p14,p16)
+@Variable[SubPainTolerance]>=[4] @NullResponse @Goto(p6,p8,p10,p12)
+@Variable[SubPainTolerance]>=[1] @NullResponse @Goto(p2,p4,p6,p8)
+(p2)
+Fetch 2 pegs #DT
+@RT(Put them on your GNMBalls,Apply them to your nipples) #DT @Wait(15) @Goto(Ready)
+(p4)
+Fetch 4 pegs #DT
+Put 2 on your #GNMBalls and 1 on each nipple #DT @Wait(15) @Goto(Ready)
+(p6)
+Fetch 6 pegs #DT
+Put 4 on your #GNMBalls and 1 on each nipple #DT @Wait(15) @Goto(Ready)
+(p8)
+Fetch 8 pegs #DT
+Put 4 on your #GNMBalls and 2 on each nipple #DT @Wait(15) @Goto(Ready)
+(p10)
+Fetch 10 pegs #DT
+Put 6 on your #GNMBalls and 2 on each nipple #DT @Wait(15) @Goto(Ready)
+(p12)
+Fetch 12 pegs #DT
+Put 6 on your #GNMBalls, 2 on each nipple and 1 to each eyebrow #DT @Wait(15) @Goto(Ready)
+(p14)
+Fetch 14 pegs #DT
+Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 1 to each inner thigh #DT @Wait(15) @Goto(Ready)
+(p16)
+Fetch 16 pegs #DT
+Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 2 to each inner thigh #DT @Wait(15) @Goto(Ready)
+(p18)
+Fetch 18 pegs #DT
+Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 3 to each inner thigh #DT @Wait(15) @Goto(Ready)
+(p20)
+Fetch 20 pegs #DT
+Put 8 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 3 to each inner thigh #DT @Wait(15) @Goto(Ready)
+(Ready)
+Are you ready to proceed? @TempFlag(PegsOn) #DT
+[yes]#GNMGood #DT
+[no]Hurry up then! #DT #MeritChangeNLow @Wait(30)
+@AcceptAnswer Proceeding then #DT
+@End
+(PegsOn)
+@End

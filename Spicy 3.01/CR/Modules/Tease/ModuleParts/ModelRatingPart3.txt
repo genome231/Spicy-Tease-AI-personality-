@@ -1,0 +1,413 @@
+@NullResponse @SetVar[Rounds]=[0]
+(Another)
+@RT(Lets do another,One more,Lets try another one,Lets do it once again!) #DT
+(Choose)
+@NullResponse @Goto(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100)
+(1)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\1.*] @InputVar[Temp]
+@Variable[Model1Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model1Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(2)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\2.*] @InputVar[Temp]
+@Variable[Model2Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model2Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(3)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\3.*] @InputVar[Temp]
+@Variable[Model3Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model3Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(4)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\4.*] @InputVar[Temp]
+@Variable[Model4Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model4Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(5)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\5.*] @InputVar[Temp]
+@Variable[Model5Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model5Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(6)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\6.*] @InputVar[Temp]
+@Variable[Model6Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model6Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(7)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\7.*] @InputVar[Temp]
+@Variable[Model7Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model7Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(8)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\8.*] @InputVar[Temp]
+@Variable[Model8Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model8Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(9)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\9.*] @InputVar[Temp]
+@Variable[Model9Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model9Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(10)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\10.*] @InputVar[Temp]
+@Variable[Model10Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model10Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(11)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\11.*] @InputVar[Temp]
+@Variable[Model11Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model11Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(12)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\12.*] @InputVar[Temp]
+@Variable[Model12Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model12Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(13)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\13.*] @InputVar[Temp]
+@Variable[Model13Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model13Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(14)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\14.*] @InputVar[Temp]
+@Variable[Model14Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model14Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(15)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\15.*] @InputVar[Temp]
+@Variable[Model15Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model15Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(16)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\16.*] @InputVar[Temp]
+@Variable[Model16Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model16Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(17)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\17.*] @InputVar[Temp]
+@Variable[Model17Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model17Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(18)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\18.*] @InputVar[Temp]
+@Variable[Model18Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model18Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(19)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\19.*] @InputVar[Temp]
+@Variable[Model19Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model19Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(20)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\20.*] @InputVar[Temp]
+@Variable[Model20Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model20Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(21)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\21.*] @InputVar[Temp]
+@Variable[Model21Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model21Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(22)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\22.*] @InputVar[Temp]
+@Variable[Model22Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model22Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(23)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\23.*] @InputVar[Temp]
+@Variable[Model23Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model23Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(24)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\24.*] @InputVar[Temp]
+@Variable[Model24Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model24Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(25)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\25.*] @InputVar[Temp]
+@Variable[Model25Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model25Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(26)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\26.*] @InputVar[Temp]
+@Variable[Model26Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model26Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(27)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\27.*] @InputVar[Temp]
+@Variable[Model27Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model27Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(28)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\28.*] @InputVar[Temp]
+@Variable[Model28Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model28Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(29)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\29.*] @InputVar[Temp]
+@Variable[Model29Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model29Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(30)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\30.*] @InputVar[Temp]
+@Variable[Model30Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model30Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(31)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\31.*] @InputVar[Temp]
+@Variable[Model31Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model31Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(32)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\32.*] @InputVar[Temp]
+@Variable[Model32Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model32Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(33)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\33.*] @InputVar[Temp]
+@Variable[Model33Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model33Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(34)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\34.*] @InputVar[Temp]
+@Variable[Model34Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model34Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(35)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\35.*] @InputVar[Temp]
+@Variable[Model35Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model35Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(36)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\36.*] @InputVar[Temp]
+@Variable[Model36Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model36Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(37)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\37.*] @InputVar[Temp]
+@Variable[Model37Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model37Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(38)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\38.*] @InputVar[Temp]
+@Variable[Model38Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model38Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(39)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\39.*] @InputVar[Temp]
+@Variable[Model39Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model39Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(40)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\40.*] @InputVar[Temp]
+@Variable[Model40Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model40Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(41)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\41.*] @InputVar[Temp]
+@Variable[Model41Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model41Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(42)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\42.*] @InputVar[Temp]
+@Variable[Model42Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model42Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(43)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\43.*] @InputVar[Temp]
+@Variable[Model43Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model43Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(44)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\44.*] @InputVar[Temp]
+@Variable[Model44Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model44Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(45)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\45.*] @InputVar[Temp]
+@Variable[Model45Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model45Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(46)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\46.*] @InputVar[Temp]
+@Variable[Model46Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model46Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(47)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\47.*] @InputVar[Temp]
+@Variable[Model47Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model47Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(48)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\48.*] @InputVar[Temp]
+@Variable[Model48Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model48Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(49)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\49.*] @InputVar[Temp]
+@Variable[Model49Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model49Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(50)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\50.*] @InputVar[Temp]
+@Variable[Model50Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model50Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(51)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\51.*] @InputVar[Temp]
+@Variable[Model51Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model51Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(52)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\52.*] @InputVar[Temp]
+@Variable[Model52Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model52Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(53)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\53.*] @InputVar[Temp]
+@Variable[Model53Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model53Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(54)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\54.*] @InputVar[Temp]
+@Variable[Model54Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model54Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(55)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\55.*] @InputVar[Temp]
+@Variable[Model55Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model55Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(56)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\56.*] @InputVar[Temp]
+@Variable[Model56Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model56Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(57)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\57.*] @InputVar[Temp]
+@Variable[Model57Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model57Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(58)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\58.*] @InputVar[Temp]
+@Variable[Model58Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model58Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(59)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\59.*] @InputVar[Temp]
+@Variable[Model59Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model59Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(60)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\60.*] @InputVar[Temp]
+@Variable[Model60Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model60Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(61)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\61.*] @InputVar[Temp]
+@Variable[Model61Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model61Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(62)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\62.*] @InputVar[Temp]
+@Variable[Model62Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model62Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(63)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\63.*] @InputVar[Temp]
+@Variable[Model63Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model63Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(64)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\64.*] @InputVar[Temp]
+@Variable[Model64Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model64Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(65)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\65.*] @InputVar[Temp]
+@Variable[Model65Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model65Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(66)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\66.*] @InputVar[Temp]
+@Variable[Model66Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model66Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(67)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\67.*] @InputVar[Temp]
+@Variable[Model67Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model67Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(68)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\68.*] @InputVar[Temp]
+@Variable[Model68Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model68Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(69)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\69.*] @InputVar[Temp]
+@Variable[Model69Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model69Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(70)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\70.*] @InputVar[Temp]
+@Variable[Model70Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model70Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(71)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\71.*] @InputVar[Temp]
+@Variable[Model71Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model71Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(72)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\72.*] @InputVar[Temp]
+@Variable[Model72Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model72Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(73)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\73.*] @InputVar[Temp]
+@Variable[Model73Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model73Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(74)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\74.*] @InputVar[Temp]
+@Variable[Model74Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model74Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(75)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\75.*] @InputVar[Temp]
+@Variable[Model75Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model75Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(76)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\76.*] @InputVar[Temp]
+@Variable[Model76Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model76Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(77)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\77.*] @InputVar[Temp]
+@Variable[Model77Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model77Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(78)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\78.*] @InputVar[Temp]
+@Variable[Model78Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model78Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(79)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\79.*] @InputVar[Temp]
+@Variable[Model79Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model79Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(80)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\80.*] @InputVar[Temp]
+@Variable[Model80Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model80Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(81)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\81.*] @InputVar[Temp]
+@Variable[Model81Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model81Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(82)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\82.*] @InputVar[Temp]
+@Variable[Model82Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model82Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(83)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\83.*] @InputVar[Temp]
+@Variable[Model83Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model83Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(84)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\84.*] @InputVar[Temp]
+@Variable[Model84Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model84Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(85)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\85.*] @InputVar[Temp]
+@Variable[Model85Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model85Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(86)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\86.*] @InputVar[Temp]
+@Variable[Model86Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model86Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(87)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\87.*] @InputVar[Temp]
+@Variable[Model87Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model87Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(88)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\88.*] @InputVar[Temp]
+@Variable[Model88Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model88Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(89)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\89.*] @InputVar[Temp]
+@Variable[Model89Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model89Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(90)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\90.*] @InputVar[Temp]
+@Variable[Model90Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model90Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(91)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\91.*] @InputVar[Temp]
+@Variable[Model91Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model91Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(92)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\92.*] @InputVar[Temp]
+@Variable[Model92Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model92Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(93)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\93.*] @InputVar[Temp]
+@Variable[Model93Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model93Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(94)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\94.*] @InputVar[Temp]
+@Variable[Model94Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model94Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(95)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\95.*] @InputVar[Temp]
+@Variable[Model95Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model95Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(96)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\96.*] @InputVar[Temp]
+@Variable[Model96Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model96Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(97)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\97.*] @InputVar[Temp]
+@Variable[Model97Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model97Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(98)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\98.*] @InputVar[Temp]
+@Variable[Model98Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT #DT @Goto(Correct)
+@Variable[Model98Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(99)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\99.*] @InputVar[Temp]
+@Variable[Model99Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model99Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(100)
+@NullResponse @ShowImage[\GNMImages\Games\ModelGame\100.*] @InputVar[Temp]
+@Variable[Model100Value]=[Temp] @RT(Correct,Correct!,That is correct!,Wauv you guessed it,Believe it or not that was correct,Right,Right on,Well correct,Well right on) #DT @Goto(Correct)
+@Variable[Model100Value]<>[Temp] @RT(Wrong,Wrong!,Incorrect,Thats wrong,That's wrong,That is wrong,Which is incorrect,That isn't correct,Nope it's not right,Nope,Not right,Not correct) #DT @Goto(Wrong)
+(Correct)
+@NullResponse @ChangeVar[Rounds]=[Rounds]+[1] @If[Rounds]>=[5]Then(End)
+(Wrong)
+@NullResponse @ChangeVar[Rounds]=[Rounds]+[1] @If[Rounds]>=[5]Then(End)
+(End)
+We're at an end! #GNMGrin #DT
+I hope you had fun! #SlaveName #DT
+@End

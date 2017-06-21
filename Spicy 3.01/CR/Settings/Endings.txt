@@ -1,0 +1,271 @@
+@NullResponse @RapidCodeOn 
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@NullResponse @SetFlag(Standard)
+(NewMode)
+@RapidTextOn @SystemMessage Which of the following modes/games do wish to learn more about? @LockImages @ShowImage[\GNMImages\Settings\Denial.jpg]
+@SystemMessage 1) Denial Traning 2) Beads Deep 3) Valley of Darkness
+@SystemMessage 4) Edge of desperation 5) Frequent Flyer 6) Training Mode
+@SystemMessage 7) Orgasm Roulette 8) Financial Domination 9) Treasure Hunt
+@SystemMessage 10) Authors Game 11) Window Of Opportunity 12) Standard @RapidTextOff
+[10]@NullResponse @Goto(10)
+[11]@NullResponse @Goto(11)
+[12]@NullResponse @Goto(12)
+[1]@NullResponse @Goto(1)
+[2]@NullResponse @Goto(2)
+[3]@NullResponse @Goto(3)
+[4]@NullResponse @Goto(4)
+[5]@NullResponse @Goto(5)
+[6]@NullResponse @Goto(6)
+[7]@NullResponse @Goto(7)
+[8]@NullResponse @Goto(8)
+[9]@NullResponse @Goto(9)
+@DifferentAnswer @SystemMessage 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 or 12?
+(1)
+@SystemMessage Denial Training is an Activate training session following a program that lasts
+@SystemMessage At least 60 days depending on progression and level of activity with Tease-AI
+@SystemMessage This can only be completed once
+@SystemMessage But may be paused and started again
+@NotFlag(EndGame1) @SystemMessage You need to buy Denial Training in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes? 
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(DenialTraining) @DeleteFlag(Standard) @Goto(LockPeriod)
+(2)
+@SystemMessage Beads deep is game
+@SystemMessage After every normal session you draw 1 bead
+@SystemMessage The bead can have a variety of different colors each representing different outcomes
+@SystemMessage Ultimately you have to draw x number of white beads before you may ejaculate
+@SystemMessage This games denial period ranges from medium to long depending on chosen number of white beads required
+@NotFlag(EndGame2) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes? 
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(BeadsDeep) @DeleteFlag(Standard)
+@SystemMessage How many white beads should you need to collect?
+(NewBeadGame)
+@SystemMessage Choose between 5 and 15 @InputVar[RequiredBeads]
+@Variable[RequiredBeads]>[15]@SystemMessage That number is too high, you can't choose more than 15.. @Goto(NewBeadGame)
+@Variable[RequiredBeads]<[5]@SystemMessage That number is too low, you must choose a number higher than 4.. @Goto(NewBeadGame)
+@Variable[RequiredBeads]>[9]@SystemMessage Wow going with a high number huh.. Nice! #MeritChangePMedium
+@SystemMessage Perfect! @SetVar[WhiteBeads]=[0]
+@NullResponse @Goto(LockPeriod)
+(3)
+@SystemMessage Valley of Darkness is a mind game
+@SystemMessage A timer is set after which you may cum
+@SystemMessage The timer could be short or long
+@SystemMessage You wont know
+@SystemMessage After each session you will be given the chance to say if this is your lucky day or not
+@SystemMessage If you are correct you will be allowed to cum
+@SystemMessage If the timer hasn't expired yet it will be prolonged by a secret ammount
+@SystemMessage This games denial period ranges from short to long
+@SystemMessage But is considdered a hard game only for those able to handle long term denial
+@NotFlag(EndGame3) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes? 
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(ValleyOfDarkness)  @DeleteFlag(Standard)
+@SystemMessage @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
+(Random1VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(11,14)] 
+@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(15,18)] @Chance60(Orgasm) @Goto(Ruined)
+(Random2VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(8,11)]
+@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(12,15)] @Chance60(Orgasm) @Goto(Ruined)
+(Random3VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(5,8)]
+@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(9,12)]
+@NullResponse @Goto(LockPeriod)
+(4)
+@SystemMessage Is a frustrating mind game
+@SystemMessage A secret goal of edges is set
+@SystemMessage Everytime you edge it gets counted
+@SystemMessage After each session you will be asked if you think you've done enough edges to get your orgasm
+@SystemMessage If this is true you will get to cum
+@SystemMessage If not a secret number of edges is added to the goal
+@SystemMessage The game is considdered very hard
+@SystemMessage Only for Tease and denial experts
+@NotFlag(EndGame4) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes? 
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(EdgeOfDesperation) @DeleteFlag(Standard) @SetVar[EoDMagic]=[#Random(150,500)]
+@NullResponse @Goto(LockPeriod)
+(5) 
+@SystemMessage Is a mind game
+@SystemMessage Where you have to do X regular sessions
+@SystemMessage After each session you are asked if you think you have done enough sessions
+@SystemMessage If true you will get to cum
+@SystemMessage If false a secret number of sessions is added to the goal
+@SystemMessage This game is considdered to be medium difficuilty
+@NotFlag(EndGame5) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes? 
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(FrequentFlyer) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[#Random(4,16)]
+@NullResponse @Goto(LockPeriod)
+(6) 
+@SystemMessage Training mode is if you wish to Activately push your denial limits @DeleteFlag[TMSmall]
+@SystemMessage You choose a minimum number of denial days @DeleteFlag[TMMedium]
+@SystemMessage Then you choose wether you want a small, medium or hard challenge @DeleteFlag[TMHigh]
+@SystemMessage Depending on your choice the domme will set a specific number of denial days
+@SystemMessage Next you choose how many rounds you wish for this "game" to last
+@SystemMessage Say I were to choose a minimum of 5 days of denial
+@SystemMessage I then choose medium challenge
+@SystemMessage The domme secretly changes my days of denial to 7
+@SystemMessage I then choose I want to play this for 3 round
+@SystemMessage After 7 days I get to cum
+@SystemMessage The domme will then set a new date, she chooses 8 days this time
+@SystemMessage After 8 days I get to cum
+@SystemMessage The dommes set a new date, this time she chooses 10 days
+@SystemMessage After 10 days I get to cum
+@SystemMessage But that was my third round and the training mode is over
+@NotFlag(EndGame6) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it..
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetFlag(TrainingMode) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[#Random(4,16)]
+@SystemMessage How many days do you wish to be your minimum limit? @InputVar[DTrainingSessionsMinimum]
+@SystemMessage Do you want an easy, medium or hard challenge?
+[easy]@SystemMessage Noted.. @SetFlag(TMSmall)
+[medium]@SystemMessage Noted.. @SetFlag(TMMedium)
+[hard]@SystemMessage Noted.. @SetFlag(TMHigh)
+@DifferentAnswer @SystemMessage Easy, Medium or Hard?
+@SystemMessage Changing the number of days you get to stay denied..
+@Flag(TMSmall) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,3)]
+@Flag(TMMedium) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(1,5)]
+@Flag(TMHigh) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(1,7)]
+(7)
+@SystemMessage Orgasm Roulette is a game of chance
+@SystemMessage After each session you are allowed to spin the wheel once
+@SystemMessage Each spin has multiple outcomes
+@SystemMessage The different outcomes are for you to explore
+@NotFlag(EndGame7) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage ctivating it.. @SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+(8)
+@SystemMessage Financial Domination is a fictional game
+@SystemMessage It's designed to bring you the feeling of lacking money and having to pay for an orgasm
+@SystemMessage After each session you are given an offer for an ejaculation
+@SystemMessage You can take it or continue your denial
+@SystemMessage Do notice that this is based on your gold
+@SystemMessage Meaning you'll have less gold to spend in the shop
+@NotFlag(EndGame8) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it.. @SetFlag(FinancialDomination) @DeleteFlag(Standard) @Goto(LockPeriod)
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+(9)
+@SystemMessage Treasure Hunt isn't a game
+@SystemMessage But a mode for those who craves extreme denial
+@SystemMessage Your only way to get an ejaculation is through the shop
+@SystemMessage Chests have a small chance of giving you an ejaculation pass
+@SystemMessage These passes are the only way that you'll be allowed to cum
+@NotFlag(EndGame9) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it.. @SetFlag(TreasureHunt) @DeleteFlag(Standard) @Goto(LockPeriod)
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+(10) 
+@SystemMessage Authors game is reserved for those writing scripts for Tease-AI
+@SystemMessage After each session you will be asked about the number of hours spent writing scripts
+@SystemMessage So on day 1 you report having spent 2 hours
+@SystemMessage Between day 1 and 2 you spent 1 hour
+@SystemMessage On day 3 you didn't have a session
+@SystemMessage Between day 2 and 4 you spent 3 hours
+@SystemMessage The #DomHonorific will count your total hours
+@SystemMessage When she believes you've spent enough time @SetVar[AGHoursTotal]=[0]
+@SystemMessage You will be granted an ejaculation and your total count is reset to 0
+@NotFlag(EndGame10) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it.. @SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+(11)
+@SystemMessage Window of Opportunity is a dice game
+@SystemMessage You have a total number of strokes starting at 0
+@SystemMessage After each session you will roll two 6 sided dices
+@SystemMessage The number rolled gets added to your total number of strokes
+@SystemMessage Besides that you have windows of opportunity
+@SystemMessage There is a 12 hour interval within an interval of 2 to 5 days
+@SystemMessage If you roll the dices in that interval you will be asked if you wish to try your luck
+@SystemMessage If you try your luck you will stroke a number of times equal to your total number
+@SystemMessage Fail to cum with the given number of strokes and you wont cum
+@SystemMessage You may not decide the pace yourself
+@SystemMessage If you try your luck you will roll a final die that decies the pace for you
+@FlagOr(Personality1,Personality2) @SystemMessage Fridays are special days, the number you roll with the dices on fridays will get tripled
+@Flag(Personality3) @SystemMessage Fridays are special days, the number you roll with the dices on fridays will get doubled
+@SystemMessage This game is considder VERY hard and NOT recommended for beginners!
+@NotFlag(EndGame11) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
+@NullResponse @SetVar[WOOMax]=[0] @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
+@NullResponse @Goto(LockPeriod)
+(12) 
+@SystemMessage Standard mode is what was set the first time you started Tease-AI
+@SystemMessage Standard isn't a game
+@SystemMessage The #DomHonorific chooses wether you may ejaculate or not
+@SystemMessage Your behaviour, actions, days since last ejaculation and denial experience is all carefully weighted
+@SystemMessage Do you wish to activate this or look at the other modes?
+[Activate]@SystemMessage Activating it.. @SetFlag(Standard) @DeleteFlag(Standard) @Goto(LockPeriod)
+[return]@NullResponse @Goto(NewMode)
+@DifferentAnswer @SystemMessage Activate or return?
+(LockPeriod)
+@SystemMessage Your mode/game has been set
+@SystemMessage Now #SubName
+@SystemMessage There is only 1 final question
+@SystemMessage It is highly recommended for a better experience that you lock these settings
+@SystemMessage You can lock them for as long as you choose
+@SystemMessage Wether it being 1 day
+@SystemMessage Or 99999 days
+@SystemMessage Keep in mind though that you cannot change the settings until the lockout period has run out
+@SystemMessage Some game ends at some point, after they end you will be asked wether you want to play again
+@SystemMessage Should you choose not to, Tease-AI will return to standard mode and this will remain your primary mode until your lock out ends
+@SystemMessage Do you wish to lock yourself from changing mode/game?
+[yes]@SystemMessage #GNMGood @SetDate[LockOut1, 0 Days] @Goto(LockPeriod2)
+[no]@SystemMessage Understood 
+@DifferentAnswer @SystemMessage Yes or no?
+@NullResponse @UnlockImages
+@End
+(LockPeriod2)
+@SystemMessage Now
+@SystemMessage In days rounded up
+@SystemMessage Ex. 5
+@SystemMessage Or 20
+@SystemMessage How many days do you wish to have the game/mode locked? @InputVar[Lock1Input]
+@Variable[Lock1Input]>=[1] @NullResponse @Goto(Check)
+@SystemMessage You either chose 0, a negative number of made an input that doesn't make sense
+@SystemMessage You cannot write '10 Days'
+@SystemMessage You cannot write '-5'
+@SystemMessage You cannot write '5,5' or '10.6'
+@SystemMessage You can write '6' or '10' or '99999999'
+@SystemMessage Try again @Goto(LockPeriod2)
+(Check)
+@SystemMessage You have chosen @ShowVar[Lock1Input] days
+@SystemMessage Are you sure?
+[yes]@SystemMessage Saving settings..
+[no]@SystemMessage Returning to value input @Goto(LockPeriod2)
+@DifferentAnswer @SystemMessage #GNMYesOrNo
+@NullResponse @UnlockImages
+@End

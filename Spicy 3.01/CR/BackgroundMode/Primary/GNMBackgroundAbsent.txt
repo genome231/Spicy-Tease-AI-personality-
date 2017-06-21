@@ -1,0 +1,65 @@
+@SystemMessage #VANC #VANP Do you need to leave for a brief period or do you want to pay me for vacation?
+[leave]@SystemMessage #GNMVA #VANC @RT(I see,Hmm..,Well..) @Goto(Leave)
+[vacation]@SystemMessage #GNMVA #VANC @RT(I see,Hmm..,Well..) @Goto(Vacation)
+@DifferentAnswer @SystemMessage #VANC #VANP  Leave or vacation?
+(Leave)
+@SystemMessage #VANC #VANP You do realize the only acceptable reasons for a leave is if the subject is
+@SystemMessage #VANC #VANP Job, family or friends related..
+@SystemMessage #VANC #VANP @RT(Do your reason for leaving fall under any of these categories?,Does your reason belong to any of these categories?)
+[yes]@SystemMessage #GNMVA #VANC @RT(Okay then,I see,Well then) @Goto(Reason)
+[no]@SystemMessage #GNMVA #VANC @RT(Then its quite simple..,Then its rather simple,Well that makes it easy) -No leave for you..
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@End
+(Reason)
+@SystemMessage #VANC #VANP Tell me the exact reason for leaving in short.. @InputVar[ShortLeave]
+(Reason1a)
+@SystemMessage #VANC #VANP For how many days to expect to be gone? @InputVar[LeaveAgreed]
+@Variable[LeaveAgreed]>[0] @NullResponse @Goto(Reason2)
+@SystemMessage #VANC #VANP You didn't input a numer of days that makes sense?
+@SystemMessage #VANC #VANP You cant write '5 days'
+@SystemMessage #VANC #VANP You cant write '2 weeks'
+@SystemMessage #VANC #VANP You can only write a number refering to days
+@SystemMessage #VANC #VANP '6'
+@SystemMessage #VANC #VANP Or '9' @Goto(Reason1a)
+(Reason2)
+@SystemMessage #VANC #VANP @RT(Well then,Okay then,Well,Hmm) #SlaveName @ChangeVar[SlaveVisit]=[SlaveVisit]+[LeaveAgreed]
+@SystemMessage #VANC #VANP I have you registered as leaving me for @ShowVar[LeaveAgreed] days @ChangeVar[AskedToFun]=[AskedToFun]+[LeaveAgreed]
+@SystemMessage #VANC #VANP See you when you get back! @ChangeVar[LeaveAgreed]=[LeaveAgreed]*[24]
+@NullResponse @ChangeVar[LeaveAgreed]=[LeaveAgreed]+[12] @SetDate(SlaveLeave, 0 Hours) @EndTease
+@End
+(Vacation)
+@SystemMessage #VANC #VANP So you want a vacation huh?
+@SystemMessage #VANC #VANP Its 200 gold per day of vacation 
+@SystemMessage #VANC #VANP You have @ShowVar[GNMGold] gold @If[GNMGold]<[200]Then(FastEnd)
+(Vacation2)
+@SystemMessage #VANC #VANP How many days of vacation do you wish to buy? @InputVar[VacationAgreed]
+@Variable[VacationAgreed]>[0] @NullResponse @Goto(TestPrice)
+@SystemMessage #VANC #VANP You didn't input a numer of days that makes sense?
+@SystemMessage #VANC #VANP You cant write '5 days'
+@SystemMessage #VANC #VANP You cant write '2 weeks'
+@SystemMessage #VANC #VANP You can only write a number refering to days
+@SystemMessage #VANC #VANP '6'
+@SystemMessage #VANC #VANP Or '9' @Goto(Vacation2)
+(TestPrice)
+@NullResponse @RapidCodeOn @SetVar[Price]=[0]
+@NullResponse @ChangeVar[Price]=[Price]+[VacationAgreed] 
+@NullResponse @ChangeVar[Price]=[Price]*[200]
+@SystemMessage #VANC #VANP The price for the asked amount of vacation days is @ShowVar[Price] @If[Price]>[GNMGold]Then(CantAfford)
+@SystemMessage #VANC #VANP Do you wish to buy @ShowVar[VacationAgreed] days of vacation?
+[yes]@NullResponse @ChangeVar[GNMGold]=[GNMGold]-[Price] @Goto(SetVacation)
+[no]@SystemMessage #VANC #VANP Well then
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@End
+(SetVacation)
+@SystemMessage #VANC #VANP @RT(Well then,Okay then,Well,Hmm) #SlaveName @ChangeVar[SlaveVisit]=[SlaveVisit]+[VacationAgreed]
+@SystemMessage #VANC #VANP I have registered you for @ShowVar[VacationAgreed] days @ChangeVar[AskedToFun]=[AskedToFun]+[VacationAgreed]
+@SystemMessage #VANC #VANP See you when you get back! @ChangeVar[VacationAgreed]=[VacationAgreed]*[24]
+@NullResponse @ChangeVar[VacationAgreed]=[VacationAgreed]+[12] @SetDate(SlaveVacation, 0 Hours) @EndTease
+@End
+(CantAfford)
+@SystemMessage #VANC #VANP I'm sorry but you dont have the gold
+@SystemMessage #VANC #VANP Earn some money, then ask again
+@End
+(FastEnd)
+@SystemMessage #VANC #VANP Meaning you cant afford a single day of vacation
+@End

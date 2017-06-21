@@ -1,0 +1,124 @@
+(Personal)
+@RapidTextOn @SystemMessage You can change the following stats @LockImages @ShowImage[\GNMImages\Settings\Sub.jpg]
+@SystemMessage 1) Pain treshhold 2) Pain endurance 3) Endurace
+@SystemMessage 4) Strictness 5) Devotion 6) Info on the above
+@SystemMessage 7) Part/full time <Font color="red">Return) Returns</Font> @RapidTextOff
+[1]@NullResponse @Goto(P1)
+[2]@NullResponse @Goto(P2)
+[3]@NullResponse @Goto(P3)
+[4]@NullResponse @Goto(P4)
+[5]@NullResponse @Goto(P5)
+[6]@NullResponse @Goto(P6)
+[7]@NullResponse @Goto(P7)
+[return]@NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage 1, 2, 3, 4, 5, 6, 7 or x?
+@NullResponse @UnlockImages
+@End
+(P1)
+@SystemMessage You currently have Pain treshhold set at @ShowVar[SubPain]
+@SystemMessage Input a new value, it must be between 1-10 @InputVar[SubPain]
+@Variable[SubPain]>[10] @SystemMessage The value chosen is higher than 10 @Goto(P1)
+@Variable[SubPain]<[1] @SystemMessage  The value chosen is lower than 1 @Goto(P1)
+@SystemMessage New value accepted.. @Goto(Personal)
+(P2)
+@SystemMessage You currently have Pain endurance set at @ShowVar[SubPainTolerance]
+@SystemMessage Input a new value, it must be between 1-10 @InputVar[SubPainTolerance]
+@Variable[SubPainTolerance]>[10] @SystemMessage The value chosen is higher than 10 @Goto(P1)
+@Variable[SubPainTolerance]<[1] @SystemMessage  The value chosen is lower than 1 @Goto(P1)
+@SystemMessage New value accepted.. @Goto(Personal)
+(P3)
+@SystemMessage You currently have Endurance set at @ShowVar[SubEndurance]
+@SystemMessage Input a new value, it must be between 1-10 @InputVar[SubEndurance]
+@Variable[SubEndurance]>[10] @SystemMessage The value chosen is higher than 10 @Goto(P1)
+@Variable[SubEndurance]<[1] @SystemMessage  The value chosen is lower than 1 @Goto(P1)
+@SystemMessage New value accepted.. @Goto(Personal)
+(P4)
+@SystemMessage You currently have Strictness set at @ShowVar[SubStrictness]
+@SystemMessage Input a new value, it must be between 1-10 @InputVar[SubStrictness]
+@Variable[SubStrictness]>[10] @SystemMessage The value chosen is higher than 10 @Goto(P1)
+@Variable[SubStrictness]<[1] @SystemMessage The value chosen is lower than 1 @Goto(P1)
+@SystemMessage New value accepted.. @Goto(Personal)
+(P5)
+@SystemMessage You currently have Devotion set at @ShowVar[DevotionSet]
+@SystemMessage Input a new value, it must be between 30-90 @InputVar[DevotionSet]
+@Variable[DevotionSet]>[90] @SystemMessage The value chosen is higher than 90 @Goto(P1)
+@Variable[DevotionSet]<[30] @SystemMessage The value chosen is lower than 30 @Goto(P1)
+@SystemMessage New value accepted, making changes - please wait
+@NullResponse @CallReturn(CR\Settings\DevotionSet.txt)
+@SystemMessage Devotion is fully set
+@Goto(Personal)
+(P6)
+@SystemMessage Pain treshhold is your ability to handle pain from strikes
+@SystemMessage Ex. spanking, slapping, ball slapping etc.
+@SystemMessage Pain Endurance is your ability to handle pain over time
+@SystemMessage Ex. pegs, use of hotsauce, parachute etc.
+@SystemMessage Endurance is your ability to handle time consuming tasks
+@SystemMessage Ex. When told to stand in the corner.
+@SystemMessage Strictness helps determine how strict the domme will be with you
+@SystemMessage Notice that strictness is first at foremost based on the personality chosen
+@Flag(Personality1) @SystemMessage You have personality 1 active, which is normal
+@Flag(Personality2) @SystemMessage You have personality 2 active, which is tough
+@Flag(Personality3) @SystemMessage You have personality 3 active, which is extreme
+@SystemMessage A more strict domme is less forgiven and generally expects more
+@SystemMessage Devotion is the value used to determine the length of your sessions
+@SystemMessage Note that all variables ranged from 1-10
+@SystemMessage 10 being the highest/hardest
+@SystemMessage Except devotion that ranges from 30-90
+@SystemMessage Ex. a devotion value of 40; the domme will try to end your session after 40 minutes
+@SystemMessage Notice.
+@SystemMessage The domme may choose to change these variables over time
+@SystemMessage She will try to push your limits
+@SystemMessage It is possible for devotion to be pushed higher than 90
+@SystemMessage But only the domme may do this
+@SystemMessage It is also possible for the other variables to be pushed higher than 10
+@SystemMessage Again it is only the domme that may do this
+@SystemMessage Returning.. @Goto(Personal)
+(P7)
+@flag(FullTimeTrial) @SystemMessage You are currently doing a trial of full time @Goto(P7a)
+@Flag(FullTime) @SystemMessage You are currently full time @Goto(P7b)
+@Flag(PartTime) @SystemMessage You are currently part time @Goto(P7c)
+
+(P7a)
+@SystemMessage Do you wish to end the trial, go full time permanently or return
+[end]@SystemMessage Ending.. @DeleteFlag(FullTime) @SetFlag(PartTime)
+[full]@SystemMessage Changing settings @DeleteFlag(FullTimeTrial) @SetFlag(FullTime) @Goto(Personal)
+[return]@NullResponse @Goto(Personal)
+@DifferentAnswer @SystemMessage End, full time or return?
+@NullResponse @DeleteFlag(FullTimeTrial) @Goto(Personal)
+
+(P7b)
+@SystemMessage Do you wish to return to part time or return
+[part]@NullResponse @If[GNMGold]<[2000]Then(Poor1)
+[return]@NullResponse @Goto(Personal)
+@DifferentAnswer @SystemMessage Part time or return?
+@SystemMessage Changing settings.. @ChangeVar[GNMGold]=[GNMGold]-[2000] @DeleteFlag(FullTime) @SetFlag(PartTime) @Goto(Personal)
+
+(P7c)
+@SystemMessage Do you wish to change to full time, try full time or return?
+[full]@SystemMessage Changing settings @DeleteFlag(PartTime) @SetFlag(FullTime) @Goto(Personal)
+[try]@NullResponse @CheckFlag(FirstFullTrial) @SetFlag(FirstFullTrial) @Goto(P7d)
+[return]@NullResponse @Goto(Personal)
+@DifferentAnswer @SystemMessage Full time, try or return?
+(FirstFullTrial)
+@SystemMessage You've already tried the free trial
+@SystemMessage If you wish to do so again the price is 200 gold @If[GNMGold]<[200]Then(Poor2)
+@SystemMessage Do you wish to do a trial period again?
+[yes]@SystemMessage Changing settings..
+[no]@NullResponse @Goto(Personal)
+@DifferentAnswer @SystemMessage Yes or no?
+(P7d)
+@NullResponse @SetFlag(FullTimeTrial) @DeleteFlag(PartTime)
+@NullResponse @SetFlag(FullTime)
+@NullResponse @SetVar[SlaveVisit]=[0] @ChangeVar[SlaveVisit]=[SlaveVisit]+[1]
+@NullResponse @SetVar[AskedToFun]=[0]
+@NullResponse @SetVar[GNMChoresDone]=[0]
+@NullResponse @SetDate(TrialPeriod, 0 Days)
+@NullResponse @SetDate(RoutineCheck, 20 Hours)
+@NullResponse @SetDate(WeekCheck, 168 Hours)
+@SystemMessage Your trial period is now set @Goto(Personal)
+(Poor1)
+@SystemMessage The price to return to part time is 2000 gold
+@SystemMessage You only have @ShowVar[GNMGold] gold @Goto(Personal)
+(Poor1)
+@SystemMessage The price to try full time again is 200 gold
+@SystemMessage You only have @ShowVar[GNMGold] gold @Goto(Personal)

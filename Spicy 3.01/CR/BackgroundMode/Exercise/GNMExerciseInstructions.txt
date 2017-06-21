@@ -1,0 +1,37 @@
+@NullResponse @CheckFlag(ExerciseInDone) @SetFlag(ExerciseInDone)
+Here you can find instructions and general advice regarding exercise 
+(Start)
+@NullResponse @ShowImage[\GNMImages\GNMBackground\ExerciseBase3.jpg]
+[1]@NullResponse @Goto(Run)
+[2]@NullResponse @Goto(Swim)
+[3]@NullResponse @Goto(Bicycle)
+[4]@NullResponse @Goto(Gym)
+[5]@NullResponse @MiniScript(GNMBackgroundExerciseBase)
+@DifferentAnswer 1, 2, 3, 4 or 5?
+(Run)
+This part needs writing
+Coming later!
+@NullResponse @MiniScript(GNMBackgroundExerciseBase)
+(Swim)
+This part needs writing
+Coming later!
+@NullResponse @MiniScript(GNMBackgroundExerciseBase)
+(Bicycle)
+This part needs writing
+Coming later!
+@NullResponse @MiniScript(GNMBackgroundExerciseBase)
+(Gym)
+This part needs writing
+Coming later!
+@NullResponse @MiniScript(GNMBackgroundExerciseBase)
+Hi #SlaveName
+With running all you really need is a pair of running shoes
+You might want to invest in a runners watch in order to better track your practice
+I assume you're a beginner since you've asked for instructions
+So here are a few tips..
+First you gotta arm yourself with patience
+The first 8 weeks are tough
+After 8 weeks you should start to feel more comfortable running
+This is sometimes refered to as beginners hill
+Its gonna feel like you're running up hill
+Give it time..
