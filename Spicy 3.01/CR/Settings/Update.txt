@@ -1,0 +1,5 @@
+(Update)
+@SystemMessage You are up to date @ShowImage[\GNMImages\Settings\Update.jpg]
+@SystemMessage CURRENT VERSION: @ShowImage[\GNMImages\Settings\Update.jpg]
+@SystemMessage *** Spicy Version 3.00 by Genome231 *** @ShowImage[\GNMImages\Settings\Update.jpg]
+@End

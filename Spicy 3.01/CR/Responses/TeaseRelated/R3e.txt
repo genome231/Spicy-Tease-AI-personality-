@@ -1,0 +1,6 @@
+@NullResponse @RapidCodeOn @ChangeVar[R3e]=[R3e]+[1] @CheckFlag(R3eFirst) 
+@NullResponse @SetVar[R3e]=[1] @TempFlag(R3eFirst)
+(R3eFirst)
+ #DT
+(End)
+@End

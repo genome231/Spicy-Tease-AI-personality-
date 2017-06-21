@@ -1,0 +1,81 @@
+@NullResponse @RapidCodeOn @ChangeVar[R1d]=[R1d]+[1] @CheckFlag(R1dFirst) 
+@NullResponse @SetVar[R1d]=[1] @TempFlag(R1dFirst)
+(R1dFirst)
+@NullResponse @Goto(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+(1)
+Funny #M1 said the same thing yesterday #DT
+Except he had been edging for hours #GNMGrin #DT
+I doubt you're as desperate as #M1 #DT
+@End
+(2)
+My lover said the exact same thing yesterday! #DT
+But I had been riding him for hours #DT
+Stopping everytime he got close #GNMLol #DT
+@End
+(3)
+desperate already? #DT
+I cant wait until later #DT
+You're going to be a wreck! #DT
+@End
+(4)
+Auch that was early #GNMGrin #DT
+Perhaps you need to cool down #DT
+Perhaps not #GNMLol #DT
+@End
+(5)
+Tease tease tease #DT
+Deny deny deny #DT
+Hour after hour #GNMLol #DT
+@End
+(6)
+Desperation is for the weak! #DT
+I love it when you're weak #GNMGrin #DT
+You sweet thing #DT
+@End
+(7)
+Carefull #DT
+I might just make you edge #DT
+Until the end of <i>next</i> month #GNMMoan #DT
+@End
+(8)
+#GNMMoan #DT
+I love it when you turn me on with your cries #DT
+*Blows you a kiss* #DT
+@End
+(9)
+Stay strong #SlaveName #DT
+Because it's only gonna get worse! #DT
+A lot worse.. #DT
+@End
+(10)
+Enjoy it #DT
+Doesn't the attention feel like #DT
+Because we can just stop #GNMLol #DT
+@End
+(11)
+#GNMGood #DT
+I assume you wanted to be a slave because you wanted to be desperate #DT
+Enjoy it! #DT
+@End
+(12)
+Savor it #DT
+Let it fuel that #GNMCock #DT
+#GNMLol #DT
+@End
+(13)
+Whats pleasure without a little desperation #DT
+That feeling you have in your stomach when your head is just spinning #GNMGrin #DT
+Amazing isn't it? #DT
+@End
+(14)
+Good good #DT
+Let the desperation flow through you #DT
+#GNMGrin #DT
+@End
+(15)
+Exelent #DT
+Finally you've started crying #GNMEmoteHappy #DT
+ #DT
+@End
+(End)
+@End

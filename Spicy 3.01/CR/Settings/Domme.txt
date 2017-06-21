@@ -1,0 +1,109 @@
+(Domme)
+@RapidTextOn @SystemMessage You can access the following @LockImages @ShowImage[\GNMImages\Settings\Domme.jpg]
+@SystemMessage 1) Tags 2) DommeMode <Font color="red">Return) Returns</Font> @RapidTextOff
+[1]@NullResponse @Goto(P1)
+[2]@NullResponse @Goto(P2)
+[return]@NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage 1, 2 or return?
+@NullResponse @UnlockImages
+@End
+(P1)
+@SystemMessage Your images of #DomHonorific should be tagged with these tags @ShowImage[\GNMImages\Settings\Domme.jpg]
+@SystemMessage Fully dressed, half dressed, Garments covering and boobs @ShowImage[\GNMImages\Settings\Domme.jpg]
+@SystemMessage These tags are used to choose what images you get to view during your sessions
+@SystemMessage Images are chosen based on time passed in session and your behaviour
+@SystemMessage The tags enables Tease-AI to choose correcly
+@SystemMessage Notice that boobs cover 'nudity'
+@SystemMessage But you also have the option of adding naked to the list of possible tags @ShowImage[\GNMImages\Settings\Domme.jpg]
+@SystemMessage Do you wish to have naked added as a possible tag? @ShowImage[\GNMImages\Settings\Domme.jpg]
+[yes]@SystemMessage Accessing settings.. @SetFlag(Naked) @ShowImage[\GNMImages\Settings\Domme.jpg]
+[no]@SystemMessage Accessing settings.. @DeleteFlag(Naked) @ShowImage[\GNMImages\Settings\Domme.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Domme.jpg]
+@SystemMessage Done.. @ShowImage[\GNMImages\Settings\Domme.jpg]
+@NullResponse @UnlockImages @Goto(Domme)
+(P2)
+@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage Your mode settings are locked
+@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage They have been locked for @ShowVar[#DateDifference(ModeLocked, Days)] Days and will remain locked for @ShowVar[ModeLockedSet] @Goto(Domme)
+@SystemMessage You have the following modes active: @RapidTextOn
+@Flag(SissyMode) @SystemMessage Sissy Mode
+@Flag(SlutMode) @SystemMessage Slut Mode
+@Flag(SlaveMode) @SystemMessage Slave Mode
+@Flag(CuckMode) @SystemMessage Cuck Mode
+@Flag(LoverMode) @SystemMessage Lover Mode
+@Flag(ChastityMode) @SystemMessage Chastity Mode
+@Flag(CrazyDommeMode) @SystemMessage Crazy Domme Mode
+(P2a)
+@SystemMessage You have the following options @ShowImage[\GNMImages\Settings\Domme.jpg] @RapidTextOn
+@SystemMessage 1) Mode Info 2) De/Activate Sissy Mode 3) De/Active Slut Mode
+@SystemMessage 4) De/Activate Slave Mode 5) De/Activate Cuck Mode 6) De/Activate Lover Mode
+@SystemMessage 7) De/Activate Chastity Mode 8) De/Activate Crazy Domme Mode 9) Lock current modes
+@SystemMessage Return) Return @RapidTextOff
+[1]@NullResponse @Goto(ModeInfo)
+[2]@NullResponse @Goto(P22)
+[3]@NullResponse @Goto(P23)
+[4]@NullResponse @Goto(P24)
+[5]@NullResponse @Goto(P25)
+[6]@NullResponse @Goto(P26)
+[7]@NullResponse @Goto(P27)
+[8]@NullResponse @Goto(P28)
+[9]@NullResponse @Goto(LockModes)
+[return]@NullResponse @Goto(Domme)
+@DifferentAnswer @SystemMessage 1, 2, 3, 4, 5, 6, 7, 8 or x?
+(ModeInfo)
+@SystemMessage Sissy Mode: You will never Ruin/Orgasm by stroking your cock
+@SystemMessage Sissy Mode: This mode can only be activated if you own a vibrator
+@SystemMessage Slut Mode: You are expected to swallow whenever you cum
+@SystemMessage Slave Mode: The ratio between ruined and orgasms will increase
+@SystemMessage Slave Mode: Notice this mode only applies if you're not active with a game
+@SystemMessage Cuck Mode: Gives your ruined orgasms and orgasm an element of cuckold
+@SystemMessage Lover Mode: Increases the dommes willingness towards giving you an ejaculation
+@SystemMessage Lover Mode: Notice this mode only applies if you're not active with a game
+@SystemMessage Chastity Mode: You will spend more sessions locked up
+@SystemMessage Crazy Domme Mode: With crazy domme mode you never know
+@SystemMessage Each 5 - 10 days the domme will choose a random mode of the above mentioned
+@SystemMessage She might choose none, a single mode or none at all @Goto(P2a)
+(P22)
+@NotFlag(VibratorPlay) @SystemMessage You dont have a vibrator, this mode cant be activated without @Goto(P2a)
+@Flag(SissyMode) @SystemMessage Deactivating Sissy Mode @DeleteFlag(SissyMode) @Goto(P2a)
+@NotFlag(SissyMode) @SystemMessage Activating Sissy Mode @SetFlag(SissyMode) @Goto(P2a)
+(P23)
+@Flag(SlutMode) @SystemMessage Deactivating Slut Mode @DeleteFlag(SlutMode) @Goto(P2a)
+@NotFlag(SlutMode) @SystemMessage Activating Slut Mode @SetFlag(SlutMode) @Goto(P2a)
+(P24)
+@Flag(SlaveMode) @SystemMessage Deactivating Slave Mode @DeleteFlag(SlaveMode) @Goto(P2a)
+@NotFlag(SlaveMode) @SystemMessage Activating Slave Mode @SetFlag(SlaveMode) @Goto(P2a)
+(P25)
+@Flag(CuckMode) @SystemMessage Deactivating Cuck Mode @DeleteFlag(CuckMode) @Goto(P2a)
+@NotFlag(CuckMode) @SystemMessage Activating Cuck Mode @SetFlag(CuckMode) @Goto(P2a)
+(P26)
+@Flag(LoverMode) @SystemMessage Deactivating Lover Mode @DeleteFlag(LoverMode) @Goto(P2a)
+@NotFlag(LoverMode) @SystemMessage Activating Lover Mode @SetFlag(LoverMode) @Goto(P2a)
+(P27)
+@Flag(ChastityMode) @SystemMessage Deactivating Chastity Mode @DeleteFlag(ChastityMode) @Goto(P2a)
+@NotFlag(ChastityMode) @SystemMessage Activating Chastity Mode @SetFlag(ChastityMode) @Goto(P2a)
+(P28)
+@Flag(CrazyDommeMode) @SystemMessage Deactivating Crazy Domme Mode @DeleteFlag(CrazyDommeMode) @Goto(P2a)
+@NotFlag(CrazyDommeMode) @SystemMessage Activating Crazy Domme Mode @SetFlag(CrazyDommeMode) @Goto(P2a)
+(LockModes)
+@SystemMessage Do you wish to lock your active modes for a certain period?
+@SystemMessage Warning there will be no going back once locked until the duration has passed
+[yes]@NullResponse
+[no]@NullResponse @Goto(P2a)
+@DifferentAnswer @SystemMessage Yes or no?
+(Loop1)
+@SystemMessage For how many days do you wish for your mode settings to be locked? @InputVar[ModeLockedSet]
+@Variable[ModeLockedSet]>[0] @SystemMessage Locking mode settings.. @SetDate(ModeLocked, 0 Days) @Goto(Domme)
+@SystemMessage You have to type a simple number higher than 0 like
+@SystemMessage 5
+@SystemMessage 10
+@SystemMessage or 2000
+@SystemMessage You cant type
+@SystemMessage five, ten or similar @Goto(Loop1)
+(Info)
+Modes that needs to be implemented
+Sissy Mode (Never by stroking your cock)
+Slut Mode (Must always eat after)
+Slave Mode (higher chance of ruined)
+Cuck Mode (Ejaculation will be done often while watching cocks)
+Lover Mode (High chance of being allowed to cum)
+Chastity Mode (Increases the chances for a no)

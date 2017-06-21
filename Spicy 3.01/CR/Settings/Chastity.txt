@@ -1,0 +1,26 @@
+@Flag(HasChastity) @NullResponse @Goto(C1)
+@SystemMessage You aren't registered as having a device @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Have you aquired a chastity device? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage Noted @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(HasChastity)
+[no]@SystemMessage Returning.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @Goto(Menu)
+@DifferentAnswer @SystemMessage Yes or No? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Loading chastity intro @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@NullResponse @CallReturn(CR\Settings\ChastityIntro.txt)
+@NullResponse @Goto(Menu)
+(C1)
+@SystemMessage You have the following options @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage 1) You have aquired a new belt? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage 2) You need to change settings involving wear @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage <Font color="red">Return) Returns</Font> @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[1]@NullResponse @Goto(C2)
+[2]@NullResponse @Goto(C3)
+[return]@NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage 1 or 2 @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@NullResponse @UnlockImages
+@End
+(C2)
+@NullResponse @CallReturn(CR\Settings\CageConfigure.txt)
+@End
+(C3)
+@NullResponse @CallReturn(CR\Settings\ChastityWear.txt)
+@End

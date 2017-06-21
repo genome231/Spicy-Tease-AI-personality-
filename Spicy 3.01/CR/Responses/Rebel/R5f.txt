@@ -1,0 +1,41 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5f]=[R5f]+[1] @CheckFlag(R5fFirst) 
+@NullResponse @SetVar[R5f]=[1] @TempFlag(R5fFirst)
+(R5fFirst)
+@Variable[R5f]>=[2] @NullResponse @Goto(Second)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@RT(Well,Hmm,#SubName) #DT #MeritChangeNLow
+@RT(You wanted to serve,You requested to serve,This is what service is about) #DT
+@RT(We do whatever <i>I</i> want,It's about <i>me</i> and what <i>I</i> want) #DT
+@RT(You should want to please me,A slave wants to please his mistress) #DT
+Or rather @RT(<i>need</i>,<i>desire</i>,<i>crave</i>) to please me #DT
+@RT(It should make you happy,Pleasing me should make you happy)  #DT
+@NullResponse @CallReturn(CR\Punishment\QuickCorner.txt)
+@End
+(Neutral)
+@RT(#GNMGrin,#GNMLol,#GNMEmoteHappy) #DT
+@RT(Lets see if this suits you better than!,Lets see how you feel about this then!) #DT @Goto(1,2,3)
+(Pleased)
+(VPleased)
+@RT(#GNMGrin,#GNMLol,#GNMEmoteHappy) #DT
+@RT(Lets see if this suits you better than!,Lets see how you feel about this then!) #DT @Goto(1,2,3)
+(1)
+@NullResponse @CallReturn(CR\Punishment\ParachuteOrBallBusting.txt)
+@End
+(2)
+@NullResponse @CallReturn(CR\Punishment\SitOnHandsBlack.txt)
+@End
+(3)
+@NullResponse @CallReturn(CR\Punishment\SitOnHandsSlide.txt)
+@End
+(Second)
+@RT(I'm getting tired of your complaining,Stop complaing,Stop whining!) #DT #MeritChangeNMedium
+@End
+(End)
+@End

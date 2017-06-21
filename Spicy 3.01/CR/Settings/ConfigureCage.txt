@@ -1,0 +1,26 @@
+@SystemMessage Is it made of plastic or metal? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[plastic]@SystemMessage  Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPlastic)
+[metal]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(Metal)
+@DifferentAnswer @SystemMessage Metal or plastic? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Is it a full belt or a ball trap device? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[full,belt]@SystemMessage Full belt.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(FullBelt)
+[ball trap,ball,trap]@SystemMessage Ball trap.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(BallTrap)
+@DifferentAnswer @SystemMessage full or ball trap? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Are you pierced as a mean to secure the device? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage This should be fun.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPiercing)
+[no]@SystemMessage To bad..  @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Do you use a metal or plastic numbered lock to lock it? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[metal]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CMetalLock)
+[plastic]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPlasticLock)
+@DifferentAnswer @SystemMessage  Metal or plastic? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Do you own a timed lockbox? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CTimedLockBoxActive)
+[no]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage If you have it, I might considder using spikes as a means of punishment.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@SystemMessage Do you have a set of spike attachments to your belt? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+[yes]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CSpikesActive)
+[no]@SystemMessage Noted.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+@End

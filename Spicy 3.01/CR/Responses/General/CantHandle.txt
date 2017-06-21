@@ -1,0 +1,10 @@
+You cant handle it? #DT
+[yes] @RT(Then why say you cant?,Then why are you saying you cant..) #DT #MeritChangeNLow @Goto(End)
+[no] @RT(Hmm,Well,Okay then) #DT #MeritChangeNLow
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Remember that you can change stuff inside settings,Remember that you can use settings to sort of set the upper limits) #DT
+@RT(To my knowledge we were playing within safe limits,I thought we were playing within your limits..) #DT
+@RT(But then again there might be a bug,But there could be a bug) #DT
+If you think so report it to my slave Genome #DT @Interrupt(EndPlay)
+(End)
+@End

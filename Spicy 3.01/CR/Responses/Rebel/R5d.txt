@@ -1,0 +1,22 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5d]=[R5d]+[1] @CheckFlag(R5dFirst) 
+@NullResponse @SetVar[R5d]=[1] @TempFlag(R5dFirst)
+(R5dFirst)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@RT(Stop that!,Why are you writing that?,Unhappy are we..,Well well..) #MeritChangeNLow
+@End
+(Neutral)
+@RT(Stop that!,Why are you writing that?,Unhappy are we..,Well well..) #MeritChangeNLow
+@End
+(Pleased)
+(VPleased)
+@RT(Stop that!,Why are you writing that?,Unhappy are we..,Well well..) #MeritChangeNLow
+@End
+(End)
+@End

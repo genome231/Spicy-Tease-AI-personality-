@@ -1,0 +1,67 @@
+(Menu)
+@NullResponse @RapidTextOn @RapidCodeOn
+@SystemMessage 1) Background 2) Chastity 3) Domme @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage 4) Denial 5) Toys 6) Slave @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage 7) Audio 8) Update Return) Returns @ShowImage[\GNMImages\Settings\SettingsBase.jpg] @RapidTextOff
+[1,background]@NullResponse @Goto(Background)
+[2,chastity,key]@NullResponse @Goto(Chastity)
+[3,domme,mistress,dominatrix]@NullResponse @Goto(Domme)
+[4,denial,cumming,orgasm]@NullResponse @Goto(Denial)
+[5,toys,handcuff,toy,handcuffs]@NullResponse @Goto(Toys)
+[6,sub,slave]@NullResponse @Goto(Sub)
+[7,audio]@NullResponse @Goto(Audio)
+[8,update]@NullResponse @Goto(Update)
+[return]@NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage 1, 2, 3, 4, 5, 6 or 7? @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@End
+(Background)
+@NullResponse @CallReturn(CR\Settings\Background.txt)
+@NullResponse @Goto(Menu)
+(Chastity)
+@NullResponse @CallReturn(CR\Settings\Chastity.txt)
+@NullResponse @Goto(Menu)
+(Domme)
+@NullResponse @CallReturn(CR\Settings\Domme.txt)
+@NullResponse @Goto(Menu)
+(Denial)
+@Variable[#DateDifference(LockOut1, Days)]<[Lock1Input] @SystemMessage You are currently locked from changing any settings regarding endings @ShowImage[\GNMImages\Settings\SettingsBase.jpg] @Goto(Menu)
+@SystemMessage #SubName @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage You are currently active with: @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(DenialTraining) @SystemMessage Denial Training @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(BeadsDeep) @SystemMessage Beads Deep game @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(ValleyOfDarkness) @SystemMessage Valley of Darkness game @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(EdgeOfDesperation) @SystemMessage Edge of Desperation game @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(FrequentFlyer) @SystemMessage Frequent Flyer game @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(TrainingMode) @SystemMessage Training Mode @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(OrgasmRoulette) @SystemMessage Orgasm Roulette @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(FinancialDomination) @SystemMessage Financial Domination @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(TreasureHunt) @SystemMessage Treasure Hunt @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(AuthorsGame) @SystemMessage Authors Game @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@Flag(Standard) @SystemMessage Standard mode @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage Do you wish to change? @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage Notice you wont return until you've completed with the setup @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+[yes]@SystemMessage Initiating Clean up @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+[no]@NullResponse @Goto(Menu)
+@DifferentAnswer @SystemMessage Yes or No @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@NullResponse @CallReturn(CR\Settings\Endings.txt)
+@NullResponse @Goto(Menu)
+(Toys)
+@SystemMessage Launching toys will iniate a wipe of current settings @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage Then launch the same setup file from into @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@SystemMessage Are you sure you wish to continue? @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+[yes]@SystemMessage Launching.. @ShowImage[\GNMImages\Settings\SettingsBase.jpg] @Goto(Toys2)
+[no]@SystemMessage Returning.. @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\SettingsBase.jpg]
+@NullResponse @Goto(Menu)
+(Toys2)
+@NullResponse @CallReturn(CR\Settings\Toys.txt)
+@NullResponse @Goto(Menu)
+(Sub)
+@NullResponse @CallReturn(CR\Settings\Personal.txt)
+@NullResponse @Goto(Menu)
+(Audio)
+@NullResponse @CallReturn(CR\Settings\Audio.txt)
+@NullResponse @Goto(Menu)
+(Update)
+@NullResponse @CallReturn(CR\Settings\Update.txt)
+@NullResponse @Goto(Menu)

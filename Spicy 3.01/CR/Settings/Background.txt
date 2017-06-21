@@ -1,0 +1,107 @@
+@SystemMessage You have the following options @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage 1) Change background image @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage 2) FullTime slave requirements @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage <Font color="red">Return) Returns</Font> @ShowImage[\GNMImages\Settings\Background.jpg]
+[1]@NullResponse @Goto(B1)
+[2]@NullResponse @Goto(B2)
+[return]@NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage 1, 2 or 3 @ShowImage[\GNMImages\Settings\Background.jpg]
+@End
+(B1)
+@SystemMessage You currently have this image active @ShowImage[\GNMImages\Settings\Background.jpg]
+@Flag(BGImage1Active) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase1.jpg]
+@Flag(BGImage1NNActive) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase1NN.jpg]
+@Flag(BGImage2Active) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase2.jpg]
+@Flag(BGImage2NNActive) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase2NN.jpg]
+@Flag(BGImage3Active) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase3.jpg]
+@Flag(BGImage3NNActive) @NullResponse @ShowImage[\GNMImages\GNMBackground\BackgroundBase3NN.jpg]
+@SystemMessage This is image nr. 1 @ShowImage[\GNMImages\GNMBackground\BackgroundBase1.jpg]
+@SystemMessage This is image nr. 2 @ShowImage[\GNMImages\GNMBackground\BackgroundBase2.jpg]
+@SystemMessage This is image nr. 3 @ShowImage[\GNMImages\GNMBackground\BackgroundBase3.jpg]
+@SystemMessage You may choose another @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Write 2nn if you wish image nr. 2 with No Numbers like this @ShowImage[\GNMImages\GNMBackground\BackgroundBase1NN.jpg]
+[1]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(1)
+[1nn]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(1nn)
+[2]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(2)
+[2nn]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(2nn)
+[3]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(3)
+[3nn]@SystemMessage  Setting new picture.. @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(3nn)
+(1)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage3Active)
+@NullResponse @DeleteFlag(BGImage1NNActive)
+@NullResponse @DeleteFlag(BGImage2Active)
+@NullResponse @DeleteFlag(BGImage2NNActive)
+@NullResponse @DeleteFlag(BGImage3NNActive)
+@NullResponse @SetFlag(BGImage1Active)
+@End
+(1nn)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage1Active)
+@NullResponse @DeleteFlag(BGImage2Active)
+@NullResponse @DeleteFlag(BGImage2NNActive)
+@NullResponse @DeleteFlag(BGImage3Active)
+@NullResponse @DeleteFlag(BGImage3NNActive)
+@NullResponse @SetFlag(BGImage1NNActive)
+@End
+(2)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage1Active)
+@NullResponse @DeleteFlag(BGImage1NNActive)
+@NullResponse @DeleteFlag(BGImage2NNActive)
+@NullResponse @DeleteFlag(BGImage3Active)
+@NullResponse @DeleteFlag(BGImage3NNActive)
+@NullResponse @SetFlag(BGImage2Active) 
+@End
+(2nn)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage1Active)
+@NullResponse @DeleteFlag(BGImage1NNActive)
+@NullResponse @DeleteFlag(BGImage2Active)
+@NullResponse @DeleteFlag(BGImage3Active)
+@NullResponse @DeleteFlag(BGImage3NNActive)
+@NullResponse @SetFlag(BGImage2NNActive) 
+@End
+(3)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage1Active)
+@NullResponse @DeleteFlag(BGImage1NNActive)
+@NullResponse @DeleteFlag(BGImage2Active)
+@NullResponse @DeleteFlag(BGImage2NNActive)
+@NullResponse @DeleteFlag(BGImage3NNActive)
+@NullResponse @SetFlag(BGImage3Active) 
+@End
+(3nn)
+@NullResponse @RapidCodeOn @DeleteFlag(BGImage1Active)
+@NullResponse @DeleteFlag(BGImage1NNActive)
+@NullResponse @DeleteFlag(BGImage2Active)
+@NullResponse @DeleteFlag(BGImage2NNActive)
+@NullResponse @DeleteFlag(BGImage3Active)
+@NullResponse @SetFlag(BGImage3NNActive) 
+@End
+(B2)
+@NotFlag(FullTime) @SystemMessage This settings is only for full time slaves @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Currently you must complete @ShowVar[ChoresAgreed] chores per week @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Do you wish to change this? @ShowImage[\GNMImages\Settings\Background.jpg]
+[yes]@NullResponse
+[no]@NullResponse @Goto(B2a)
+@DifferentAnswer @SystemMessage #GNMYesOrNo @ShowImage[\GNMImages\Settings\Background.jpg]
+(Repeat1)
+@SystemMessage How many chores per week must you complete? @InputVar[ChoresAgreed] @ShowImage[\GNMImages\Settings\Background.jpg]
+@Variable[ChoresAgreed]>[3] @SystemMessage Number accepted @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(B2a)
+@SystemMessage You must choose at least 4 @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage You cannot write '4 chores' or 'three' @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Input a simple number @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(Repeat1)
+(B2a)
+@SystemMessage Currently you must visit Tease-AI @ShowVar[WeeklyVisits] times per week @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Do you wish to change this? @ShowImage[\GNMImages\Settings\Background.jpg]
+[yes]@NullResponse @Goto(Repeat2)
+[no]@NullResponse
+@DifferentAnswer @SystemMessage #GNMYesOrNo @ShowImage[\GNMImages\Settings\Background.jpg]
+@End
+(Repeat2)
+@SystemMessage How many visits per week must you complete? @ShowImage[\GNMImages\Settings\Background.jpg] @InputVar[WeeklyVisits]
+@Variable[ChoresAgreed]>[2] @SystemMessage Number accepted @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(B2b)
+@SystemMessage You must choose at least 3 @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage You cannot write '4 chores' or 'three' @ShowImage[\GNMImages\Settings\Background.jpg]
+@SystemMessage Input a simple number @ShowImage[\GNMImages\Settings\Background.jpg] @Goto(Repeat2)
+(B2b)
+@NullResponse @SetVar[AskedToFunRequirement]=[0]
+@NullResponse @ChangeVar[AskedToFunRequirement]=[AskedToFunRequirement]+[WeeklyVisits]
+@NullResponse @ChangeVar[AskedToFunRequirement]=[AskedToFunRequirement]*[2]
+@End
