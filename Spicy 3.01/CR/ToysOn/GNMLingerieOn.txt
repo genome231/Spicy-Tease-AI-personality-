@@ -1,0 +1,51 @@
+@NullResponse @CheckFlag(LingerieIsOn)
+@Flag(GNMToyLingerieAdvanced) @NullResponse @Goto(1,2,3,4)
+@Flag(GNMToyLingerieBasic) @NullResponse @Goto(1,2)
+@NullResponse @Goto(LingerieIsOn)
+(1)
+#Slut
+@RT(I want you to wear,Go ahead and put on,I need you to put on,Go ahead and put on,I need you to put on)
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(15)
+Are they on?
+[yes]#GNMGood @Goto(End)
+@DifferentAnswer Just say 'yes' when they are on..
+(2)
+#Slut
+@RT(I want you to wear,Go ahead and put on,I need you to put on,Go ahead and put on,I need you to put on)
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(5)
+And this bra @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(15)
+Are they on?
+[yes]#GNMGood @Goto(End)
+@DifferentAnswer Just say 'yes' when they are on..
+(3)
+#Slut
+@RT(I want you to wear,Go ahead and put on,I need you to put on,Go ahead and put on,I need you to put on)
+This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg] @Wait(5)
+And these stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
+Are they on?
+[yes]#GNMGood @Goto(End)
+@DifferentAnswer Just say 'yes' when they are on..
+(4)
+#Slut
+@RT(I want you to wear,Go ahead and put on,I need you to put on,Go ahead and put on,I need you to put on)
+This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg] @Wait(5)
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(5)
+And these stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
+Are they on?
+[yes]#GNMGood @Goto(End)
+@DifferentAnswer Just say 'yes' when they are on..
+(5)
+#Slut
+@RT(I want you to wear,Go ahead and put on,I need you to put on,Go ahead and put on,I need you to put on)
+This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg] @Wait(5)
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(5)
+This bra @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(5)
+And these stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
+Are they on?
+[yes]#GNMGood @Goto(End)
+@DifferentAnswer Just say 'yes' when they are on..
+(End)
+@NullResponse @SetFlag(LingerieIsOn)
+@End
+(LingerieIsOn)
+@NullResponse @End
