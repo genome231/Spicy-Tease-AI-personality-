@@ -1,0 +1,25 @@
+(EdgeOfDesperation)
+@RT(So,Well,Hmm) #DT
+@RT(It's time for our little mind game,It's time for our little game,Time to play our game,Time to play our little mind game,Hope you're ready for today's mind game) #GNMGrin #DT
+So today you've done @ShowVar[EdgesDoneToday] edges #DT @ChangeVar[EoD]=[EoD]+[EdgesDoneToday]
+@RT(Bringing your total number of edges to,Giving you a new total of,Meaning there is a new total of,Which means that the total is now) #DT @ShowVar[EoD]
+@RT(Do you believe this number higher than the magical number?,Do you think this is enough,Do you believe this is enough?,Is this enough #SlaveName?) #GNMLol #DT
+[yes]@RT(You do huh!,Oh my you do!,Well you do!,Great you do!,Fantastic!,Interesting) #DT
+[no]@RT(Well then I guess you'll have to wait just a little longer,Perhaps tomorrow then,Maybe tomorrow then,Maybe tomorrow I suppose,Well there is always tomorrow) #DT #GNMGrin @Goto(Deny)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Lets check!,Lets have a look,Well lets see,Lets see then,Lets check it shall we) #DT @If[EoDMagic]<[EoD]Then(EoDGo)
+@RT(Aww it wasn't,Oh my it wasn't,Oh its not,Well its not,Oh my its not,Sorry but its not..) #DT
+Well to prevent from just guessing yes everytime I'm increasing the magical number #GNMGrin #DT @ChangeVar[EoDMagic]=[EoDMagic]+[#Random(50,250)] @Goto(Deny)
+(EoDGo)
+@RT(It was a magic number!,Right on!,My goodness its correct!,Oh my it was correct!,Oh perfect it was correct!,#GNMGrin you're bloody right!) #DT
+@RT(Before I choose wether to,Before i decide to,Just before I make my decision about having you) ruin or make you orgasm #DT
+@RT(Do you want to play our little game again?,Would you like to play our game again?,Do you feel like playing our game again?) #DT
+[yes]#GNMGood #DT @SetVar[EoDMagic]=[#Random(150,500)] @Chance60(Orgasm) @Goto(Ruined)
+[no]@RT(Well then,Oh well,Too bad) #DT @DeleteFlag(EdgeOfDesperation) @SetFlag(Standard) @Chance60(Ruined) @Goto(Orgasm)
+@DifferentAnswer #GNMYesOrNo #DT
+(Orgasm)
+@NullResponse @CallReturn(CR\End\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\DecideD.txt)

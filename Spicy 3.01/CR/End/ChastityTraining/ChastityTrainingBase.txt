@@ -1,0 +1,26 @@
+#SlaveName #DT
+We're at the end mark of today's session #DT
+@NullResponse @CheckFlag(FirstTimeChastityTraining) @SetFlag(FirstTimeChastityTraining)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ChastityTrainingFirst.txt)
+@NullResponse @Goto(First)
+(FirstTimeChastityTraining)
+@Flag(ChastityExamActive) @NullResponse @Goto(Exam)
+@Variable[#Random(1,100)]>[75] @NullResponse @CallReturn(CR\End\ChastityTraining\Advice.txt)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ExercisesCheck.txt)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ChastityLevel.txt)
+@Variable[ChastityLevel]>=[30] @NullResponse @Goto(Exam)
+@NullResponse @CheckFlag(CAssignmentDone)
+@End
+(First)
+(CAssignmentDone)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ExercisesSet.txt)
+@NullResponse @CallReturn(CR\End\ChastityTraining\Roll.txt)
+(End)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+Cya #SlaveName #DT @EndTease
+@End
+(Exam)
+@NullResponse @CallReturn(CR\End\ChastityTraining\Exam.txt)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@EndTease
+@End

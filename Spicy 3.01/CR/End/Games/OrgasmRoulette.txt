@@ -1,0 +1,91 @@
+(OrgasmRoulette)
+Its time for some wheel spinning! #GNMEmoteHappy #DT
+Are you ready? #DT @Timeout(10,ORNo)
+[yes]#GNMGood #DT @Goto(Spin)
+[no]Well well then I guess we'll just skip it today #DT
+@DifferentAnswer #GNMYesOrNo #DT
+(ORNo)
+Maybe you're ready tomorrow huh #GNMGrin #DT @Goto(Deny)
+(Spin)
+Spinning it! #DT @SetVar[WheelSpin]=[#Random(1,100)] @RapidCodeOn
+@Flag(Personality1) @NullResponse @Chance01(WSNo) @If[WheelSpin]>[85]Then(WSGay)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>[70]Then(WS1)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>[65]Then(WS2)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>[60]Then(WSGo)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>[55]Then(WSGoEat)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>[50]Then(WSVibe)
+@Flag(Personality1) @NullResponse @If[WheelSpin]>=[1]Then(WSNo)
+@Flag(Personality2) @NullResponse @Chance05(WSNo) @If[WheelSpin]>[90]Then(WSGay)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>[70]Then(WS1)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>[63]Then(WS2)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>[59]Then(WSGo)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>[56]Then(WSGoEat)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>[50]Then(WSVibe)
+@Flag(Personality2) @NullResponse @If[WheelSpin]>=[1]Then(WSNo)
+@Flag(Personality3) @NullResponse @Chance15(WSNo) @If[WheelSpin]>[95]Then(WSGay)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>[70]Then(WS1)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>[60]Then(WS2)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>[57]Then(WSGo)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>[55]Then(WSGoEat)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>[51]Then(WSVibe)
+@Flag(Personality3) @NullResponse @If[WheelSpin]>=[1]Then(WSNo)
+(WSGay)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\CuckOld.mp4]
+#GNMLol #DT
+I will let you ejaculate if you're willing to do it to sissy porn? #DT
+I require that the sound is clear and that you're watching #DT
+Its forbidden to look away or to turn down the volume #DT
+Do we have a deal? #DT
+[yes]#GNMGood #DT
+[no]Then I guess you're not horny enough #DT @Goto(Deny) 
+@DifferentAnswer #GNMYesOrNo #DT
+Give me just a moment #GNMGrin #DT @Goto(R2MovieStart)
+(WS1)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Cage.mp4]
+Ufff straigth denial for a full day! #DT
+@Flag(HasChastity) Meaning that tomorrow you'll spend all day in your #Cage, no release! #DT 
+@NotFlag(HasChastity) So tomorrow is a no touch day! #DT 
+@Variable[#DateDifference(PDenial, Hours)]>[PDenialSet] @SetVar[PDenialSet]=[24] @SetDate(PDenial, 0 Days)
+@Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+@NullResponse @Goto(Deny)
+(WS2)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Cagex2.mp4]
+Ufff straigth denial for 2 days!  #DT
+@Flag(HasChastity) Meaning that tomorrow you'll spend the next 2 days in your #Cage, no release! #DT
+@NotFlag(HasChastity) So tomorrow is a no touch day! #DT
+@Variable[#DateDifference(PDenial, Hours)]>[PDenialSet] @SetVar[PDenialSet]=[24] @SetDate(PDenial, 0 Days)
+@Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+@NullResponse @Goto(Deny)
+(WSGo)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Orgasm.mp4]
+Oh my we landed on your lucky number! #DT
+Lets not waste any time then! #DT @Goto(Ruined,Orgasm)
+(WSGoEat)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Slut.mp4]
+#GNMGrin #DT
+I will let you ejaculate if you promise to consume your cum after #DT
+Deal? #DT
+[yes]I trust your word then! #DT @TempFlag(PromisedEat) @Goto(Ruined,Orgasm)
+[no]Not desperate yet huh? #DT @Goto(Deny)
+@DifferentAnswer #GNMYesOrNo
+(WSVibe)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Sissy.mp4]
+Well well! #DT
+I'm gonna let you play with your vibrator #DT
+But! #DT
+@Flag(HasChastity)It will be while your caged.. #DT
+@NotFlag(HasChastity)But your fingers may not touch your #GNMCock #DT
+I'm only giving you 2 minute to enjoy it #DT
+If you're able to ejaculate in that timeframe you have my permission #DT
+But as soon as you hear my bell its hands off! #DT @Goto(CM2Continue1)
+(WSNo)
+@NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Denial.mp4]
+#GNMGrin #DT
+It was a <i>no no</i>  #DT
+Better luck tomorrow! #DT @Goto(Deny)
+(Orgasm)
+@NullResponse @CallReturn(CR\End\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\DecideD.txt)

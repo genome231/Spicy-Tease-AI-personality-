@@ -1,0 +1,14 @@
+@NullResponse @RapidCodeOn
+@Variable[CEIXP]>=[1000] @NullResponse @SetVar[CEILevel]=[10] @Goto(Inform)
+@Variable[CEIXP]>=[850] @NullResponse @SetVar[CEILevel]=[9] @Goto(Inform)
+@Variable[CEIXP]>=[700] @NullResponse @SetVar[CEILevel]=[8] @Goto(Inform)
+@Variable[CEIXP]>=[600] @NullResponse @SetVar[CEILevel]=[7] @Goto(Inform)
+@Variable[CEIXP]>=[500] @NullResponse @SetVar[CEILevel]=[6] @Goto(Inform)
+@Variable[CEIXP]>=[400] @NullResponse @SetVar[CEILevel]=[5] @Goto(Inform)
+@Variable[CEIXP]>=[300] @NullResponse @SetVar[CEILevel]=[4] @Goto(Inform)
+@Variable[CEIXP]>=[200] @NullResponse @SetVar[CEILevel]=[3] @Goto(Inform)
+@Variable[CEIXP]>=[100] @NullResponse @SetVar[CEILevel]=[2] @Goto(Inform)
+@Variable[CEIXP]>=[0] @NullResponse @SetVar[CEILevel]=[1] @Goto(Inform)
+(Inform)
+Your CEI level is @ShowVar[CEILevel] #DT
+@End

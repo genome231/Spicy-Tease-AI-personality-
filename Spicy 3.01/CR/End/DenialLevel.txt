@@ -1,0 +1,111 @@
+@NullResponse @RapidCodeOn @CheckFlag(FirstDenialUpdate) @SetFlag(FirstDenialUpdate)
+@NullResponse @SetVar[UpdateDenialLevel]=[#Random(5,15)]
+@NullResponse @SetVar[TimeToUpdate]=[0]
+@CallReturn(CR\End\Farewell.txt)
+(FirstDenialUpdate)
+@NullResponse @ChangeVar[TimeToUpdate]=[TimeToUpdate]+[1]
+@Variable[#DateDifference(TimeSinceO,Days)]>=[3] @NullResponse @Goto(End)
+@NullResponse @If[UpdateDenialLevel]>[TimeToUpdate]Then(Update)
+@CallReturn(CR\End\Farewell.txt)
+(Update)
+@NullResponse @SetVar[UpdateDenialLevel]=[#Random(5,15)]
+@NullResponse @SetVar[TimeToUpdate]=[0]
+@NullResponse @If[DenialLevelNr]=[15]Then(Level15)
+@NullResponse @If[DenialLevelNr]=[14]Then(Level14)
+@NullResponse @If[DenialLevelNr]=[13]Then(Level13)
+@NullResponse @If[DenialLevelNr]=[12]Then(Level12)
+@NullResponse @If[DenialLevelNr]=[11]Then(Level11)
+@NullResponse @If[DenialLevelNr]=[10]Then(Level10)
+@NullResponse @If[DenialLevelNr]=[9]Then(Level9)
+@NullResponse @If[DenialLevelNr]=[8]Then(Level8)
+@NullResponse @If[DenialLevelNr]=[7]Then(Level7)
+@NullResponse @If[DenialLevelNr]=[6]Then(Level6)
+@NullResponse @If[DenialLevelNr]=[5]Then(Level5)
+@NullResponse @If[DenialLevelNr]=[4]Then(Level4)
+@NullResponse @If[DenialLevelNr]=[3]Then(Level3)
+@NullResponse @If[DenialLevelNr]=[2]Then(Level2)
+@NullResponse @If[DenialLevelNr]=[1]Then(Level1)
+@NullResponse @If[DenialLevelNr]>[15]Then(Fix1)
+@NullResponse @If[DenialLevelNr]<[1]Then(Fix2)
+(Fix1)
+@NullResponse @SetVar[DenialLevelNr]=[15] @Goto(End)
+(Fix2)
+@NullResponse @SetVar[DenialLevelNr]=[1] @Goto(End)
+(Level1)
+@Variable[#Random(1,100)]>[25] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance50(Ask) @Goto(End)
+(Level2)
+@Variable[#Random(1,100)]>[25] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance55(Ask) @Goto(End)
+(Level3)
+@Variable[#Random(1,100)]>[30] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance55(Ask) @Goto(End)
+(Level4)
+@Variable[#Random(1,100)]>[30] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance60(Ask) @Goto(End)
+(Level5)
+@Variable[#Random(1,100)]>[35] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance60(Ask) @Goto(End)
+(Level6)
+@Variable[#Random(1,100)]>[35] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance70(Ask) @Goto(End)
+(Level7)
+@Variable[#Random(1,100)]>[40] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance70(Ask) @Goto(End)
+(Level8) 
+@Variable[#Random(1,100)]>[40] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance80(Ask) @Goto(End)
+(Level9)
+@Variable[#Random(1,100)]>[45] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance80(Ask) @Goto(End)
+(Level10)
+@Variable[#Random(1,100)]>[45] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance90(Ask) @Goto(End)
+(Level11)
+@Variable[#Random(1,100)]>[50] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance25(End) @Goto(Ask)
+(Level12)
+@Variable[#Random(1,100)]>[50] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance30(End) @Goto(Ask)
+(Level13)
+@Variable[#Random(1,100)]>[50] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance35(End) @Goto(Ask)
+(Level14)
+@Variable[#Random(1,100)]>[50] @NullResponse @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[1]
+@NullResponse @Chance40(End) @Goto(Ask)
+(Level15)
+@NullResponse @Chance50(End) @Goto(Ask)
+(Ask)
+#SlaveName #DT
+@RT(Once in a while I feel it's important to discuss denial with you,As you know its important to discuss your denial practice with you..) #DT
+@RT(Today is one of those days,And today we'll do just that!) #DT
+Currently your denial level is @ShowVar[DenialLevelNr] #DT
+@RT(Just to remind you,Let me remind you that..)  #DT
+Level 1 to 5 is for Beginners #DT
+Level 6 to 8 is for the trained #DT
+Level 9 to 11 is for the Advanced #DT
+Level 12 to 15 is for the High skilled #DT
+@RT(I try to constantly adjust you level to be appropriate to what I think you can handle,Often I try to adjust this little by little to keep you at your limit) #DT
+@RT(But..,But its not that easy..) #DT
+@RT(What I want to ask you is,What I simply have to ask is) #DT
+@RT(Do you think you're placed at an appropriate level?,Do you feel your current level of denial to be appropriate?) #DT
+[yes]#GNMGood #DT @Goto(End)
+[no]Well #DT @Goto(HighLow)
+@DifferentAnswer #GNMYesOrNo #DT
+(HighLow)
+@RT(Are you set at a too low or too high level?,Is your current level too high or too low) #DT
+[low]Well then! #DT @Goto(BumpUp)
+[high]Oh! #DT @Goto(BumpDown)
+@DifferentAnswer High or low? #DT
+(BumpUp)
+@Variable[DenialLevelNr]>=[15] You cant be at a level higher than 15 #DT @Goto(End)
+@Variable[DenialLevelNr]>=[10] @RT(Bumping you up a bit,Increasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[#Random(1,2)] @Goto(End)
+@Variable[DenialLevelNr]>=[5] @RT(Bumping you up a bit,Increasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[#Random(1,2)] @Goto(End)
+@Variable[DenialLevelNr]>=[1] @RT(Bumping you up a bit,Increasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]+[#Random(1,2)] @Goto(End)
+(BumpDown)
+@Variable[DenialLevelNr]<=[1] You cant be at a lower level than 1.. #DT @Goto(End)
+@Variable[DenialLevelNr]>=[15] @RT(Bumping you down a bit,Decreasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]-[#Random(2,4)] @Goto(End)
+@Variable[DenialLevelNr]>=[5] @RT(Bumping you down a bit,Decreasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]-[#Random(1,2)] @Goto(End)
+@Variable[DenialLevelNr]>=[2] @RT(Bumping you down a bit,Decreasing it then,Adjusting it a little then) #DT @ChangeVar[DenialLevelNr]=[DenialLevelNr]-[1] @Goto(End)
+(End)
+@CallReturn(CR\End\Farewell.txt)

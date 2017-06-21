@@ -1,0 +1,9 @@
+(R3) //Watch a video cum when sub comes
+@RT(You're gonna ruin to a short video,I want you to ruin it while watching a short video) #SlaveName #DT
+@RT(When you see the sub getting ruined,When you see the slave getting ruined) #DT
+@RT(So may you..,You have my permission as well) #DT
+@RT(When you cross the edge then it's hands behind your head,Right after you cross the edge I want you to sit on your hands!) #DT
+@RT(Enjoy,"Blows a kiss") #GNMLol #DT
+@NullResponse @ShowVideo[\GNM_Videos\Endings\R3\*.mp4]
+@RT(Well then..,#GNMLol) #DT
+(End)

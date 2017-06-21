@@ -1,0 +1,40 @@
+(RuinOCheck)
+@RT(I cant decide if I should have you dripple it out,I dont know wether to ruin or let you orgasm,Ruin or orgasm..,What to do.. What to do..,Hmm,This is a hard decision) #DT @RapidCodeOn
+@Flag(Personality1) @NullResponse @Goto(Standard1)
+@Flag(Personality2) @NullResponse @Goto(Standard2)
+@Flag(Personality3) @NullResponse @Goto(Standard3)
+(Standard1)
+@Flag(VAnnoyed) @NullResponse @Chance40(MindChange) @Goto(Ruined)
+@Flag(Annoyed) @NullResponse @Chance30(MindChange) @Goto(Ruined)
+@Flag(Neutral) @Variable[GoodDays]<[BadDays] @NullResponse @Chance40(Ruined)
+@Variable[Angry]>[28] @NullResponse @Chance65(MindChange) @Goto(Ruined)
+@NullResponse @If[RORatio]>=[#Random(1,100)]Then(Orgasm) @Goto(Ruined)
+(Standard2)
+@Flag(VAnnoyed) @NullResponse @Chance50(MindChange) @Goto(Ruined)
+@Flag(Annoyed) @NullResponse @Chance40(MindChange) @Goto(Ruined)
+@Flag(Neutral) @Variable[GoodDays]<[BadDays] @NullResponse @Chance50(Ruined)
+@Variable[Angry]>[28] @NullResponse @Chance70(MindChange) @Goto(Ruined)
+@NullResponse @If[RORatio]>=[#Random(1,100)]Then(Orgasm) @Goto(Ruined)
+(Standard3)
+@Flag(VAnnoyed) @NullResponse @Chance60(MindChange) @Goto(Ruined)
+@Flag(Annoyed) @NullResponse @Chance50(MindChange) @Goto(Ruined)
+@Flag(Neutral) @Variable[GoodDays]<[BadDays] @NullResponse @Chance60(Ruined)
+@Variable[Angry]>[28] @NullResponse @Chance80(MindChange) @Goto(Ruined)
+@NullResponse @If[RORatio]>=[#Random(1,100)]Then(Orgasm) @Goto(Ruined)
+(Orgasm)
+@NullResponse @SetDate(TimeSinceO, 0 Days) 
+@NullResponse @SetDate(TimeSinceE, 0 Days)
+@Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]-[25]
+@Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]-[35]
+@Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]-[50]
+@Flag(SlaveMode) @NullResponse @ChangeVar[RORatio]=[RORatio]-[15]
+@NullResponse @CallReturn(CR\End\DecideO.txt)
+(Ruined)
+@NullResponse @SetDate(TimeSinceR, 0 Days) 
+@NullResponse @SetDate(TimeSinceE, 0 Days)
+@Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]+[9]
+@Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]+[8]
+@Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]+[6]
+@NullResponse @CallReturn(CR\End\DecideR.txt)
+(ChangedMind)
+@NullResponse @CallReturn(CR\End\DecideCM.txt)

@@ -1,0 +1,38 @@
+(Rx)
+Explain conditions
+(Understand)
+@RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
+[yes]#GNMGood #DT
+[no]Well then.. #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+(Game)
+Game
+
+
+
+(Test)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you ruin?,Did you ruin yourself?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]@RT(No?,What do you mean no?) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Did you orgasm or did you simply not make it?,Did you have an orgasm or nothing at all?) #DT
+[orgasm,i came]@RT(What!?,Oh my..) #DT #MeritChangeNHigh @Goto(Bad)
+[nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
+@DifferentAnswer Did you cum or nothing? #DT
+(Bad)
+@RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
+@RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
+
+
+(AteCheck)
+@NullResponse @CallReturn(CR\End\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)
+
+
+(Commands)
+@CustomMode(I saw boobs, Video, Video Closed) Stops video and goes to (Video Closed) if I saw boobs is typed in chat.
+@CustomMode(ModeText, Normal) Clears all @CustomMode
+@Flag(CuckMode)
+@Flag(SissyMode)

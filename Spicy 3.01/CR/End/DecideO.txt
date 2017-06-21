@@ -1,0 +1,22 @@
+@NullResponse @Chance50(OBase) @Goto(O1,O2,O3,O4,O5,O6)
+(OBase)
+@NullResponse @CallReturn(CR\End\O\OBase.txt)
+(O1)
+@NullResponse @CallReturn(CR\End\O\O1.txt)
+(O2)
+@NullResponse @CallReturn(CR\End\O\O2.txt)
+(O3)
+@NullResponse @CallReturn(CR\End\O\O3.txt)
+(O4)
+@NullResponse @CallReturn(CR\End\O\O4.txt)
+(O5)
+@NullResponse @CallReturn(CR\End\O\O5.txt)
+(O6)
+@NullResponse @CallReturn(CR\End\O\O6.txt)
+(Info)
+1 watch x minutes of porn of your own choice, return within time or forfeit
+2 //Watch a video and cum when the sub does
+3 //Edge ask repeat
+4 //condom and pillow grinding, hands behind head.
+5 //red light green light slide show, you are shown 50 images
+6 //orgasm in cow position
