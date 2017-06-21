@@ -1,0 +1,80 @@
+#SlaveName #DT
+I want to use you electro toy #DT
+But before we begin I need some additional information about your system #DT
+Also it's important that we establish a few terms to make sure we speak the same language #DT
+Output channel - A channel from where you can plug in a stimulator #DT
+Stimulator - A reference to <i>one</i> "toy"  #DT
+Toy could be: 2 electrodes, an electric buttplug or perhaps penis straps #DT
+Modes - Some electric toys have different modes, modes being the "pattern" of an electric current #DT
+Level - Used to regulate the intensity of the modes #DT
+@SystemMessage Notice that your toy may wary some from this #DT
+@SystemMessage Try your best to make these terms work with your toy #DT
+First.. #DT
+I'm willing to use up to three different modes #DT
+How many modes ranging from 1 to 3 do you want to use? #DT
+[one,1]#GNMGood #DT @SetVar[ElectroModes]=[1] @Goto(1Mode)
+[two,2]#GNMGood #DT @SetVar[ElectroModes]=[2] @Goto(2Mode)
+[three,3]#GNMGood #DT @SetVar[ElectroModes]=[3] @Goto(3Mode)
+@DifferentAnswer one, two or three? #DT
+(1Mode)
+Can the mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode1Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode1Punishment)
+[both]#GNMGood #DT @SetFlag(Mode1Both)
+@Different Pleasure, punishment or both? #DT
+@NullResponse @Goto(Continue)
+(2Mode)
+Can the first mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode1Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode1Punishment)
+[both]#GNMGood #DT @SetFlag(Mode1Both)
+@Different Pleasure, punishment or both? #DT
+Can the second mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode2Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode2Punishment)
+[both]#GNMGood #DT @SetFlag(Mode2Both)
+@Different Pleasure, punishment or both? #DT
+@NullResponse @Goto(Continue)
+(3Mode)
+Can the first mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode1Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode1Punishment)
+[both]#GNMGood #DT @SetFlag(Mode1Both)
+@Different Pleasure, punishment or both? #DT
+Can the second mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode2Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode2Punishment)
+[both]#GNMGood #DT @SetFlag(Mode2Both)
+@Different Pleasure, punishment or both? #DT
+Can the third mode be used for pleasure, punishment or both? #DT
+[pleasure]#GNMGood #DT @SetFlag(Mode3Pleasure)
+[punishment]#GNMGood #DT @SetFlag(Mode3Punishment)
+[both]#GNMGood #DT @SetFlag(Mode3Both)
+@Different Pleasure, punishment or both? #DT
+@NullResponse @Goto(Continue)
+(Continue)
+How many levels does your device use? #DT @InputVar[ElectroMaxLevel]
+@Variable[ElectroMaxLevel]>[0] Okay #DT @Goto(Continue2)
+Your answer doesn't make any sense, please input a simple number #DT @Goto(Continue)
+(Continue2)
+At what level does it start to hurt? #DT @InputVar[ElectroPain]
+@Variable[ElectroPain]>[ElectroMaxLevel] Your input doesn't make any sense since it's higher than your maximum level #DT @Goto(Continue)
+@Variable[ElectroPain]>[1] Okay #DT @Goto(Continue3)
+Your answer doesn't make any sense, please input a simple number #DT @Goto(Continue2)
+(Continue3)
+A few final questions #DT
+Do you a set of penis straps.. #DT
+Straps that can be connected to your electro set and used as a stimulator? #DT
+[yes]#GNMGood #DT @SetFlag(ElectroPenisStraps)
+[no]Too bad #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Do you have simple electro pads? #DT
+[yes]#GNMGood #DT @SetFlag(ElectroPads)
+[no]Too bad #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Do you have an anal plug? #DT
+[yes]#GNMGood #DT @SetFlag(ElectroPlug)
+[no]Too bad #DT
+@DifferentAnswer #GNMYesOrNo #DT
+This was all I needed to know #GNMGrin #DT
+@End

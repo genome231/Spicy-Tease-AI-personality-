@@ -1,0 +1,215 @@
+@NullResponse @Chance80(1Chest) @SetFlag(AnotherChest) @Goto(2Chest)
+(1Chest)
+Uhh look at this! @ShowImage[\GNMImages\Adventure\TreasureChest\TreasureChestUnopened.*]
+(ReadyToOpen)
+Ready to open it? @ShowImage[\GNMImages\Adventure\TreasureChest\TreasureChestUnopened.*]
+[ready] Bet you cant wait!
+[yes] #GNMGood @Goto(OpenChest)
+[no] Oh..
+@DifferentAnswer #GNMYesOrNo
+Tell me when you're ready @Goto(ReadyToOpen)
+(2Chest)
+Uhh look at this! @ShowImage[\GNMImages\Adventure\TreasureChest\2TreasureChestUnopened.*]
+(ReadyToOpen2)
+Ready to open them? @ShowImage[\GNMImages\Adventure\TreasureChest\2TreasureChestUnopened.*]
+[ready] #GNMGood
+[yes] #GNMGood @Goto(OpenChest)
+[no] Oh..
+@DifferentAnswer #GNMYesOrNo
+Tell me when you're ready @Goto(ReadyToOpen2)
+(AnotherChest)
+Well you got lucky and got 2 chests! @DeleteFlag(AnotherChest)
+(OpenChest)
+Lets have a look inside! @ShowImage[\GNMImages\Adventure\TreasureChest\TreasureChestUnopened.*]
+@NullResponse @Chance03(Legendary)
+@NullResponse @Chance10(Epic)
+@NullResponse @Chance25(Rare) @Goto(Common)
+(Common)
+Oh.. @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+I'm sorry it was just a common chest #GNMEmoteSad @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*] @Goto(Empty,Edge,Tokens,Gold1)
+(Empty)
+Oh my and it gets even worse.. @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+It was empty #GNMEmoteSad @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+Better luck next time! @Goto(ChestEnd)
+(Edge)
+Oh @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+Theres an edge inside! @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+#GNMEdge @Edge @ShowImage
+#GNMLetTheEdgeFade
+Well at least you got something!
+It could have been empty #GNMLol @Goto(ChestEnd)
+(Tokens)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+Theres tokens inside! @AddTokens(50 Silver) @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+Lucky you! @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+It could have been empty! @Goto(ChestEnd)
+(Gold1)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+20 gold to use in the shop! @ChangeVar[GNMGold]=[GNMGold]+[30] @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+You now have a total of @ShowVar[GNMGold] gold @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+Lucky you! @ShowImage[\GNMImages\Adventure\TreasureChest\NormalTreasure.*]
+It could have been empty! @Goto(ChestEnd)
+(Rare)
+Uhh.. @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+Its a rare chest! #GNMEmoteHappy @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*] @Goto(FreeRuin,Key,Edges,Gold2)
+(FreeRuin)
+You got a free ruined orgasm!! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*] @ChangeVar[FreeRuin]=[FreeRuin]+[1]
+Whenever you wanna have a ruined orgasm @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+I will give it to you
+Once
+Just ask for "please give me free a ruined orgasm" ! @Goto(ChestEnd)
+(Key)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+Exciting! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+You got a key! @ShowImage[\GNMImages\Adventure\TreasureChest\key.*] @Goto(KeyRoulette)
+(Edges)
+Oh my @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+You got 5 edges! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+@NullResponse @MiniScript(GNMRandomEdge)
+@NullResponse @MiniScript(GNMRandomEdge)
+@NullResponse @MiniScript(GNMRandomEdge)
+@NullResponse @MiniScript(GNMRandomEdge)
+@NullResponse @MiniScript(GNMRandomEdge)
+I bet those felt good! @Goto(ChestEnd)
+(Gold2)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*]
+50 gold to use in the shop! @ChangeVar[GNMGold]=[GNMGold]+[50] @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+You now have a total of @ShowVar[GNMGold] gold @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+Lucky you! @ShowImage[\GNMImages\Adventure\TreasureChest\RareTreasure.*] @Goto(ChestEnd)
+(Epic)
+Oh wauw!! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Its an Epic chest!!!!! #GNMEmoteHappy @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*] @Goto(FreeOrgasm,Key,Gold3,UnlockScript4,UnlockScript5,UnlockScript6,UnlockScript7)
+(FreeOrgasm)
+You got a free orgasm!!! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*] @ChangeVar[FreeOrgasm]=[FreeOrgasm]+[1]
+Whenever you wanna have a orgasm @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+I will give it to you
+Once
+Just ask for "please give me free a orgasm" ! @Goto(ChestEnd)
+(Key)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Exciting! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+You got a key! @ShowImage[\GNMImages\Adventure\TreasureChest\key.*] @Goto(KeyRoulette)
+(Gold3)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+100 gold to use in the shop! @ChangeVar[GNMGold]=[GNMGold]+[100] @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+You now have a total of @ShowVar[GNMGold] gold @ShowImage[\GNMImages\Adventure\TreasureChest\Coins.*]
+Lucky you! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*] @Goto(ChestEnd)
+(UnlockScript4)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+@SystemMessage Unlocked GNMBlowjobFantasy module @SetFlag(KeyGNMBlowjobFantasy)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(UnlockScript5)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+@SystemMessage Unlocked GNMBound module @SetFlag(KeyGNMBound)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(UnlockScript6)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+@SystemMessage Unlocked GNMFuckingMachine module @SetFlag(KeyGNMFuckingMachine)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(UnlockScript7)
+Oh my! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+@SystemMessage Unlocked GNMMilking_CHASTITY module @SetFlag(KeyGNMMilkingCHASTITY)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\EpicTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(Legendary)
+OH MY GOD!!! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+ITS A LEGENDARY CHEST!!! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+I CANT BELIEVE IT! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*] @Goto(FreeMultipleOrgasm,UnlockScript1,UnlockScript2,UnlockScript3)
+(FreeMultipleOrgasm)
+You got 3 free orgasms!!! @ChangeVar[FreeOrgasm]=[FreeOrgasm]+[3] @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+Whenever you wanna have a orgasm @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+I will give it to you
+Just ask for "please give me free a orgasm" ! @Goto(ChestEnd)
+(UnlockScript1)
+I cant believe it #SlaveName.. @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+@SystemMessage Unlocked GNMGlitterOrgasm module @SetFlag(KeyGNMGlitterOrgasm)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(UnlockScript2)
+I cant believe it #SlaveName.. @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+@SystemMessage Unlocked GNMHypnosis module @SetFlag(KeyGNMHypnosis)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(UnlockScript3)
+I cant believe it #SlaveName.. @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+@SystemMessage Unlocked GNMGNMHypnosis_CHASTITY module @SetFlag(KeyGNMHypnosisChastity)
+You just unlocked a brand new module! @ShowImage[\GNMImages\Adventure\TreasureChest\LegendaryTreasure.*]
+Cant wait to try that out with you one of these days! @Goto(ChestEnd)
+(KeyRoulette)
+@NullResponse @CheckFlag(KeyIntro) @setFlag(KeyIntro)
+I bet you're wondering what this key is and what you can use it for..
+Well let me tell you!
+In total there are 12 different keys
+Since this is your first key I can garantie that you dont already have it.
+If this wasn't your first key
+You could be unlucky and get the same key twice
+Well the keys are special #GNMEmoteHappy
+They are a 10 digit combination of letters and numbers
+3 unique keys are used to unlock a scenario
+A scenario is a VERY special day with me #GNMMoan
+There are 4 different scenarios so that's 12 keys in total for you to collect
+There are the a, b, c and d keys
+Once you have the 3 different keys of a certain letter
+You will have access to one of my scenarios #GNMLol
+I recommend you write the keys down on a piece of paper and save that piece of paper
+Unless you have an extreme memory #GNMGrin
+Once your confident you have 3 keys of the same letter
+All you have to do is write:
+"I wanna try open a scenario" at the beginning of a session
+(KeyIntro)
+Well #SlaveName @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Lets see what key you got #GNMLol @ShowImage[\GNMImages\Adventure\TreasureChest\key.*] @Goto(1a,2a,3a,1b,2b,3b,1c,2c,3c,1d,2d,3d)
+(1a)
+You got a 1a key! @SetFlag(Key1a) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 2byxuesdy4 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(2a)
+You got a 2a key! @SetFlag(Key2a) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 7dnb83j7lf --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(3a)
+You got a 3a key! @SetFlag(Key3a) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 10salbndh3 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(1b)
+You got a 1b key! @SetFlag(Key1b) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- fj28fn39dn --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(2b)
+You got a 2b key! @SetFlag(Key2b) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- j1mg86ldu6 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(3b)
+You got a 3b key! @SetFlag(Key3b) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- ma05lfqurt --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(1c)
+You got a 1c key! @SetFlag(Key1c) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 9684hgjulo --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(2c)
+You got a 2c key! @SetFlag(Key2c) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 1adferth56 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(3c)
+You got a 3c key! @SetFlag(Key3c) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 7869lgkjr3 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(1d)
+You got a 1d key! @SetFlag(Key1d) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- 098sdfhrgj --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(2d)
+You got a 2d key! @SetFlag(Key2d) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- asdwerfgty --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(3d)
+You got a 3d key! @SetFlag(Key3d) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+The code for this key is: --- lkjmnbtyu1 --- @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+Write it down and lets move on #GNMLol @Goto(ChestEnd) @ShowImage[\GNMImages\Adventure\TreasureChest\key.*]
+(ChestEnd)
+@NullResponse @CheckFlag(AnotherChest)
+@End

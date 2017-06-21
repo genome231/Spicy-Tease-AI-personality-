@@ -1,0 +1,34 @@
+@NullResponse @CheckFlag(ChastityIsOn) @Goto(Continue)
+(ChastityIsOn)
+@NullResponse @UnlockImages
+@End
+(Continue)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) @LockImages @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3] @SetVar[PatienceTest]=[0] @ShowImage[\GNMImages\Chastity\ChastityOn\*]
+@RT(Put on your #Cage,Get your #Cage on,Put on the #Cage at once,Hurry up and get the #Cage back on,Be quick and get your #Cage back on)
+@RT(Let me know when you're done..,Report to me when it's on,Remember to tell me when it's on) @Timeout(#Random(15,20),Hurry)
+[done,its on,on,it's on,back on,caged,i'm caged,cage] #GNMGood @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+@DifferentAnswer Is it on?
+@NullResponse @UnlockImages
+@End
+(Hurry)
+@RT(Quicker!,Faster,Be faster,Hurry up!,Be quick,Come on!,Be quick..,Be faster will you?,Be faster!) @If[PatienceTest]>=[3]Then(Stop) @ChangeVar[PatienceTest]=[PatienceTest]+[1]
+@NullResponse #MeritChangeNLow @Timeout(#Random(15,20),Hurry)
+[done,its on,on,it's on,back on,caged,i'm caged,cage] @RT(Finally,About time..,Took you long enough,Be faster next time,Dont waste my time again..) @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+@DifferentAnswer Is it on?
+@NullResponse @UnlockImages
+@End
+(Stop)
+@RT(Get the #Cage back on..,Put the #Cage back on,Get the #Cage back on..,Just put the #Cage back on..) @Wait(15)
+(Loop)
+Is it on?
+[yes]#GNMGood @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+[no]Hurry up then.. @Wait(30) @Goto(Loop)
+@DifferentAnswer #GNMYesOrNo
+#SlaveName #DT
+@RT(You've taken way too long to get that #Cage on..,You we're way to long to get that #Cage on,It took you too long to get that cage on..) #DT
+@RT(I dont like when you make me wait,I dont like to wait,I dont care about waiting) #DT
+@Variable[#DateDifference(PDenial,Hours)]>[PDenialSet] So as a punishment I'm placing you in the #Cage for the next 24 hours.. #DT @SetDate(PDenial, 0 Days) @SetVar[PDenialSet]=[24]
+@Variable[#DateDifference(PDenial,Hours)]<=[PDenialSet] So as a punishment I'm increasing your denial period by 24 hours.. #DT @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+Bye..  #DT
+@NullResponse @UnlockImages
+@End
