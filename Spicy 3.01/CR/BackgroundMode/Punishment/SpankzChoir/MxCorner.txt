@@ -1,0 +1,20 @@
+@NullResponse @CheckFlag(FirstCornerMx) 
+(Setup)
+@NullResponse @SetVar[CornerTimes]=[0] @TempFlag(FirstCornerMx)
+(FirstCornerMx)
+@NullResponse @If[CornertimeLimit]<=[CornerTimes]Then(Spanking)
+@SystemMessage #MxChat2 @RT(Go to the corner,To the corner slave!,Go to the corner right now!,Go on,, to the corner you go,Off into the corner with you,Go to the corner,Go to the corner) #MxPoint
+@SystemMessage #MxChat2 @RT(Stay,stay there) until @RT(you hear the bell,you hear my bell,you hear a bell) #MxPoint
+(Timer)
+@NullResponse @ChangeVar[CornerTimes]=[CornerTimes]+[1]
+@NullResponse @SetVar[CornerTimer]=[0]
+(Timer2)
+@NullResponse @Wait(60) @ChangeVar[CornerTimer]=[CornerTimer]+[1]
+@NullResponse @If[CornerTimer]>=[CornertimeTimeLimit]Then(EndBell) @Chance10(EndBell) @Goto(Timer2)
+(EndBell)
+@SystemMessage #MxChat2 Get back here slave #MxChat @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+(End)
+@End
+(Spanking)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxSpanking.txt)
+@End

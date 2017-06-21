@@ -1,0 +1,86 @@
+@NullResponse
+(Base)
+@NullResponse @ShowImage[@ShowImage[\GNMImages\GNMBackground\ExerciseBase1.jpg]
+[1]@NullResponse @Goto(BeginPractice)
+[2]@NullResponse @Goto(Report)
+[3]@NullResponse @Goto(FunExercise)
+[4]@NullResponse @Goto(CheckUp)
+[5]@NullResponse @Goto(Instructions)
+[6]@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer 1, 2, 3, 4 or 6?
+(BeginPractice)
+@NullResponse @ShowImage[@ShowImage[\GNMImages\GNMBackground\ExerciseBase2.jpg]
+[1]@NullResponse @CheckFlag(ExerciseActive) @Goto(Running)
+[2]@NullResponse @CheckFlag(ExerciseActive) @Goto(Swimming)
+[3]@NullResponse @CheckFlag(ExerciseActive) @Goto(Bicycle)
+[4]@NullResponse @CheckFlag(ExerciseActive) @Goto(Gym)
+[5]@NullResponse @CheckFlag(ExerciseActive) @Goto(Base)
+@DifferentAnswer 1, 2, 3, 4 or 5?
+(Report)
+@SystemMessage #GNMVA Lets check! @MiniScript(GNMExerciseReport)
+(CheckUp)
+@SystemMessage #GNMVA So you wanna do a checkup..
+@SystemMessage #GNMVA Well then
+@SystemMessage #GNMVA Tell me your weight rounded to nearest kg? @InputVar[SlaveWeight]
+@SystemMessage #GNMVA Lets Calculate @ChangeVar[SlaveWeight]=[SlaveWeight]*[100000]
+@NullResponse @ChangeVar[SlaveBMI]=[SlaveWeight]/[SlaveHeight]
+@NullResponse @If[SlaveBMI]>[249]Then(Fat) @Goto(NotFat)
+@SystemMessage #GNMVA Well it seems it would do you good to lose some weight! @SetFlag(SlaveFat) 
+@SystemMessage #GNMVA I will see to that.. @Goto(Base)
+(NotFat)
+@SystemMessage #GNMVA Well it seems you aren't overweight! @DeleteFlag(SlaveFat) 
+@SystemMessage #GNMVA Good..  @Goto(Base)
+(Instructions)
+@NullResponse @MiniScript(GNMExerciseInstructions)
+(Running)
+@SystemMessage #GNMVA Going for a distance or interval run?
+[interval]@SystemMessage #GNMVA Okay, enjoy! @SetFlag(IntervalRunning) @SetFlag(ExerciseActive)
+[distance]@SystemMessage #GNMVA Okay, enjoy! @SetFlag(DistanceRunning) @SetFlag(ExerciseActive)
+@DifferentAnswer @SystemMessage #GNMVA Distance or interval run?
+@SystemMessage #GNMVA Remember to report to when you've completed it! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Swimming)
+@SystemMessage #GNMVA Going for medleys or just distance swimming?
+[medley]@SystemMessage #GNMVA Okay, enjoy! @SetFlag(distanceSwimming) @SetFlag(ExerciseActive)
+[distance]@SystemMessage #GNMVA Okay, enjoy! @SetFlag(medleySwimming) @SetFlag(ExerciseActive)
+@DifferentAnswer @SystemMessage #GNMVA Medley or distance?
+@SystemMessage #GNMVA Remember to report to when you've completed it! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Bicycle)
+@SystemMessage #GNMVA Okay enjoy! @SetFlag(BicycleTraining) @SetFlag(ExerciseActive)
+@SystemMessage #GNMVA Remember to report to when you've completed it! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(Gym)
+@SystemMessage #GNMVA Okay enjoy! @SetFlag(GymTraining) @SetFlag(ExerciseActive)
+@SystemMessage #GNMVA Remember to report to when you've completed it! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(FunExercise)
+@SystemMessage #GNMVA So slave!
+@SystemMessage #GNMVA You wanna commit to a little fun #GNMGrin @Goto(1,2,3,4)
+(1)
+@SystemMessage #GNMVA You can run 5 km's wearing panties
+@SystemMessage #GNMVA Not only panties ofcourse
+@SystemMessage #GNMVA But I bet you would become very selfconcious! #GNMLol
+@SystemMessage #GNMVA Willing to do it?
+[yes]@SystemMessage #GNMVA #GNMGood! @SetFlag(PantyRun) @SetFlag(ExerciseActive) @SetFlag(SexyExercise) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+[no]@SystemMessage #GNMVA Well then.. @Goto(Base)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(2)
+@SystemMessage #GNMVA Would you be willing to run 5 km's wearing a buttplug?
+[yes]@SystemMessage #GNMVA #GNMGood! @SetFlag(PlugRun) @SetFlag(ExerciseActive) @SetFlag(SexyExercise) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+[no]@SystemMessage #GNMVA Well then.. @Goto(Base)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(3)
+@SystemMessage #GNMVA Would you be willing to run 5 km's wearing a bra?
+@SystemMessage #GNMVA I bet you would become very selfconcious! #GNMLol
+@SystemMessage #GNMVA Willing to do it?
+[yes]@SystemMessage #GNMVA #GNMGood! @SetFlag(BraRun) @SetFlag(ExerciseActive) @SetFlag(SexyExercise) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+[no]@SystemMessage #GNMVA Well then.. @Goto(Base)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(4)
+@SystemMessage #GNMVA Would you be willing to run 5 km's with a hot sauce filled condom arround your #GNMCock?
+@SystemMessage #GNMVA #GNMLol
+@SystemMessage #GNMVA I'm picturing you running very fast! #GNMGrin
+@SystemMessage #GNMVA Willing to do it?
+[yes]@SystemMessage #GNMVA #GNMGood! @SetFlag(HotRun) @SetFlag(ExerciseActive) @SetFlag(SexyExercise) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+[no]@SystemMessage #GNMVA Well then.. @Goto(Base)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(ExerciseActive)
+@SystemMessage #GNMVA You already have one exercise active..
+@SystemMessage #GNMVA Complete it before starting another @Goto(Base)

@@ -1,0 +1,86 @@
+@SystemMessage #VANC Welcome to the shop @ShowImage[\GNMImages\Shop\Shop.jpg]
+(Base)
+@SystemMessage #VANC You have the following options @RapidTextOn @ShowImage[\GNMImages\Shop\Shop.jpg]
+@SystemMessage <Font color="red">1) Treasurechest</Font> <Font color="green">2) Services</Font> <Font color="yellow">3) Modules</Font> @ShowImage[\GNMImages\Shop\Shop.jpg]
+@SystemMessage <Font color="darkred">4) Endings</Font> <Font color="orange">5) Punishments</Font> <Font color="darkyellow">6) Pictures</Font> @ShowImage[\GNMImages\Shop\Shop.jpg]
+@SystemMessage <Font color="pink">7) Academy</Font> <Font color="blue">8) Lottery</Font> <Font color="purple">9) Chores</Font> @RapidTextOff @ShowImage[\GNMImages\Shop\Shop.jpg]
+@SystemMessage <Font color="black">Return) Returns</Font> @ShowImage[\GNMImages\Shop\Shop.jpg]
+[one,1] @NullResponse @Goto(1)
+[two,2] @NullResponse @Goto(2)
+[three,3] @NullResponse @Goto(3)
+[four,4] @NullResponse @Goto(4)
+[five,5] @NullResponse @Goto(5)
+[six,6] @NullResponse @Goto(6)
+[seven,7] @NullResponse @Goto(7)
+[eight,8] @NullResponse @Goto(8)
+[nine,9] @NullResponse @Goto(9)
+[return] @NullResponse @RapidCodeOn
+@DifferentAnswer @SystemMessage #VANC 1, 2, 3, 4, 5, 6, 7, 8, 9 or return @ShowImage[\GNMImages\Shop\Shop.jpg]
+@End
+(1) \\TreasureChest
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\1-TreasureChest.txt)
+@NullResponse @Goto(Base)
+(2) \\Servides
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\2-Services.txt)
+@NullResponse @Goto(Base)
+(3) \\Modules
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\3-Modules.txt)
+@NullResponse @Goto(Base)
+(4) \\Ends
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\4-Endings.txt)
+@NullResponse @Goto(Base)
+(5) \\Punishments
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\5-Punishments.txt)
+@NullResponse @Goto(Base)
+(6) \\pictures
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\6-Pictures.txt)
+@NullResponse @Goto(Base)
+(7) \\Academy
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\7-Academy.txt)
+@NullResponse @Goto(Base)
+(8) \\Lottery
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\8-Lottery.txt)
+@NullResponse @Goto(Base)
+(9) \\Chores
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\9-Chores.txt)
+@NullResponse @Goto(Base)
+(Treasurechest)
+200 gold
+	+ Chance for a key
+	+ Chance for merits
+	+ Reduced PPoints
+	+ Chance for orgasmpass
+	+ Chance for adventure stuff
+	+ 
+(Service)
+Attribute 500 and 1000 gold
+MoodBoster 1000 gold / Week
+Attonement 200 gold / 100 points
+Unlock denial settings
+(Modules)
+New modules 1000 gold
+Modules update pack 500 gold
+Glitter x, 2500 gold
+(Ends)
+New end game 750 gold
+(Punishments)
+Toys: Spanking implement 4 & 5
+Spankz choir subscribtion, 250 gold / month
+SelfBondage scenario 1000 gold
+New punishments: 500 gold
+(Pictures)
+Virtual assistant update 1000 gold
+Miss A update
+Chastity off on pictures
+(Academy)
+Closed
+(Lottery)
+Every friday a random number between 1 and 100 is chosen
+If you have the correct number you get a prize
+Prices: Orgasm, 2000 gold
+Ticket price 50 gold
+(Chores)
+New chores chores 300 gold each
+Adventure journal
+	Encountering monters
+	Encountering events

@@ -1,0 +1,100 @@
+@SystemMessage #VANC #VANP Treasure chests are not yet implemented
+@SystemMessage #VANC #VANP They will arrive soon..
+@End
+
+
+
+@Variable[TreasureChests]>[1] @SystemMessage #VANC #VANP You have @ShowVar[TreasureChests] treasure chests, lets open them! @Goto(OpenChest)
+@Variable[TreasureChests]>[0] @SystemMessage #VANC #VANP You have @ShowVar[TreasureChests] treasure chest, lets open it! @Goto(OpenChest)
+@SystemMessage #VANC #VANP Do you wish to purchase a treasurechest?
+[yes]@NullResponse @If[GNMGold]<[200]Then(NoEnoughGold) @Goto(Buy)
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no
+(Buy)
+@SystemMessage #VANC #VANP Transfering the gold.. @ChangeVar[GNMGold]=[GNMGold]-[200]
+@SystemMessage #VANC #VANP Successful!
+@SystemMessage #VANC #VANP Here is your chest! @Goto(OpenChest)
+(NotEnoughGold)
+@SystemMessage #VANC #VANP You dont have enough gold slave
+@SystemMessage #VANC #VANP You need 200
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@End
+(OpenChest)
+@SystemMessage #VANC Lets see what kind of chest it is @ShowImage[\GNMImages\Shop\TreasureChest\TreasureChestUnopened.jpg] @SetVar[Chest]=[0] @ChangeVar[Chest]=[Chest]+[#Random(1,1000)]
+@Variable[Chest]>[975] @SystemMessage #VANC <Font color="orange">LEGENDARY CHEST</Font> @ShowImage[\GNMImages\Shop\TreasureChest\LegendaryChest.jpg] @Wait(7) @Goto(LegendaryChest)
+@Variable[Chest]>[930] @SystemMessage #VANC <Font color="purple">EPIC CHEST</Font> @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Wait(7) @Goto(EpicChest)
+@Variable[Chest]>[700] @SystemMessage #VANC <Font color="blue">RARE CHEST</Font> @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Wait(7) @Goto(RareChest)
+@Variable[Chest]>=[1] @SystemMessage #VANC <Font color="grey">NORMAL CHEST</Font> @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Wait(7) @Goto(NormalChest)
+(NormalChest)
+@SystemMessage #VANC Lets have a look inside! @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Wait(7) @SetVar[ChestRoll]=[0] @ChangeVar[ChestRoll]=[ChestRoll]+[#Random(1,1000)]
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\NormalChest.jpg] @Goto()
+
+(RareChest)
+@SystemMessage #VANC Lets have a look inside! @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Wait(7) @SetVar[ChestRoll]=[0] @ChangeVar[ChestRoll]=[ChestRoll]+[#Random(1,1000)]
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\RareChest.jpg] @Goto()
+
+(EpicChest)
+@SystemMessage #VANC Lets have a look inside! @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Wait(7) @SetVar[ChestRoll]=[0] @ChangeVar[ChestRoll]=[ChestRoll]+[#Random(1,1000)]
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+
+(LegendaryChest)
+@SystemMessage #VANC Lets have a look inside! @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Wait(7) @SetVar[ChestRoll]=[0] @ChangeVar[ChestRoll]=[ChestRoll]+[#Random(1,1000)]
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+@Variable[ChestRoll]>[] @SystemMessage #VANC  @ShowImage[\GNMImages\Shop\TreasureChest\EpicChest.jpg] @Goto()
+
+(End)
+@End
+
+
+
+
+
+
+
+
+
+[NormalChest]
+Can reward with adventure stuff
+Can reward orgasm part (15 needed in total)
+Small merit boost (25 points)
+Reduced PPoints (25)
+
+[Rare chest]
+Orgasm parts (2-3)
+Medium merit boost (100 merits)
+Reduce ppoints (100)
+
+[Epic chest]
+Gold (400)
+Key
+Orgasm parts (4-5)
+Large merit boost (300 merits)
+
+[Legendary chest]
+Special chest only modules
+Adventure stuff
+Key
+Glitter house part invitation
+Orgasm pass
+
+
+

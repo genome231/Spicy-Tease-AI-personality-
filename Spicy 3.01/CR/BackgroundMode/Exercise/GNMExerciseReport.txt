@@ -1,0 +1,90 @@
+@NullResponse @RapidCodeOn @SetVar[GoldEarned]=[0] @CheckFlag(DistanceRunning)
+@NullResponse @CheckFlag(IntervalRunning)
+@NullResponse @CheckFlag(MedleySwimming)
+@NullResponse @CheckFlag(DistanceSwimming)
+@NullResponse @CheckFlag(BicycleTraining)
+@NullResponse @CheckFlag(GymTraining)
+@NullResponse @CheckFlag(SexyExercise)
+@SystemMessage #GNMVA You need to report for exercise before doing it slave.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(DistanceRunning)
+@NullResponse @DeleteFlag(DistanceRunning) @DeleteFlag(ExerciseActive)
+@SystemMessage #GNMVA So tell me slave
+@SystemMessage #GNMVA How far did you run in km? @InputVar[DistanceRan]
+@SystemMessage #GNMVA How long did you run for in minutes? @InputVar[TimeRan]
+@SystemMessage #GNMVA Okay.. @ChangeVar[GoldEarned]=[DistanceRan]*[10]*[DistanceRan]/[TimeRan]
+@SystemMessage #GNMVA Lets see how much gold you've earned then! @ChangeVar[GoldEarned]=[GoldEarned]*[2] @Wait(5)
+@SystemMessage #GNMVA You've earned @ShowVar[GoldEarned] gold @ChangeVar[GNMGold]=[GNMGold]+[GoldEarned]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(IntervalRunning)
+@NullResponse @DeleteFlag(IntervalRunning) @DeleteFlag(ExerciseActive)
+@SystemMessage #GNMVA So tell me slave
+@SystemMessage #GNMVA How far was an interval in m? @InputVar[DistanceRan]
+@SystemMessage #GNMVA How many intervals did you do? @InputVar[TimesRan]
+@SystemMessage #GNMVA How many minutes did you "Run" for
+@SystemMessage #GNMVA Dont add the time you were walking or standing @InputVar[TimeRan]
+@SystemMessage #GNMVA Okay.. @ChangeVar[GoldEarned]=[DistanceRan]*[TimesRan]/[TimeRan]
+@SystemMessage #GNMVA You've earned @ShowVar[GoldEarned] gold @ChangeVar[GNMGold]=[GNMGold]+[GoldEarned]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(MedleySwimming)
+@NullResponse @DeleteFlag(MedleySwimming) @DeleteFlag(ExerciseActive)
+@SystemMessage #GNMVA How many medleys did you complete? @InputVar[MedleysDone]
+@SystemMessage #GNMVA Okay Then @ChangeVar[MedleysDone]=[MedleysDone]*[4]
+@SystemMessage #GNMVA Thats worth @ShowVar[MedleysDone] Gold @ChangeVar[GNMGold]=[GNMGold]+[MedleysDone]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(DistanceSwimming)
+@NullResponse @DeleteFlag(DistanceSwimming) @DeleteFlag(ExerciseActive)
+@SystemMessage #GNMVA So tell me slave
+@SystemMessage #GNMVA How far did you swim in m's? @InputVar[DistanceSwam]
+@SystemMessage #GNMVA How long did you swim for in minutes? @InputVar[TimeSwam]
+@SystemMessage #GNMVA Okay.. @ChangeVar[GoldEarned]=[DistanceSwam]/[50]*[DistanceSwam]/[50]/[TimeSwam]
+@SystemMessage #GNMVA Lets see how much gold you've earned then! @ChangeVar[GoldEarned]=[GoldEarned]*[2] @Wait(5)
+@SystemMessage #GNMVA You've earned @ShowVar[GoldEarned] gold @ChangeVar[GNMGold]=[GNMGold]+[GoldEarned]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(BicycleTraining)
+@NullResponse @DeleteFlag(BicycleTraining) @DeleteFlag(ExerciseActive)
+@SystemMessage #GNMVA So tell me slave
+@SystemMessage #GNMVA How far did you ride in km's? @InputVar[DistanceRode]
+@SystemMessage #GNMVA How long did you ride for in minutes? @InputVar[TimeRode]
+@SystemMessage #GNMVA Okay.. @ChangeVar[GoldEarned]=[DistanceRode]*[50]/[TimeRode]
+@SystemMessage #GNMVA Lets see how much gold you've earned then! @ChangeVar[GoldEarned]=[GoldEarned]*[2] @Wait(5)
+@SystemMessage #GNMVA You've earned @ShowVar[GoldEarned] gold @ChangeVar[GNMGold]=[GNMGold]+[GoldEarned]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(GymTraining)
+@NullResponse @DeleteFlag(GymTraining) @DeleteFlag(ExerciseActive) 
+@SystemMessage #GNMVA How long did you workout in minutes? @InputVar[GymTime]
+@SystemMessage #GNMVA Okay then! @ChangeVar[GymTime]=[GymTime]/[2]
+@SystemMessage #GNMVA Thats worth @ShowVar[GymTime] Gold @ChangeVar[GNMGold]=[GNMGold]+[GymTime]
+@SystemMessage #GNMVA Good job slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(SexyExercise)
+@NullResponse @CheckFlag(HotRun)
+@NullResponse @CheckFlag(BraRun)
+@NullResponse @CheckFlag(PlugRun)
+@NullResponse @CheckFlag(PantyRun)
+(HotRun)
+@SystemMessage #GNMVA Did you complete the exercise?
+[yes]@SystemMessage #GNMVA Fantastic! @DeleteFlag(HotRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive)
+[no]@SystemMessage #GNMVA Oh well.. @DeleteFlag(HotRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA You deserve a reward!
+@SystemMessage #GNMVA Heres 75 gold! @ChangeVar[GNMGold]=[GNMGold]+[75] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(BraRun)
+@SystemMessage #GNMVA Did you complete the exercise?
+[yes]@SystemMessage #GNMVA Fantastic! @DeleteFlag(BraRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive)
+[no]@SystemMessage #GNMVA Oh well.. @DeleteFlag(BraRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA You deserve a reward!
+@SystemMessage #GNMVA Heres 75 gold! @ChangeVar[GNMGold]=[GNMGold]+[75] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(PlugRun)
+@SystemMessage #GNMVA Did you complete the exercise?
+[yes]@SystemMessage #GNMVA Fantastic! @DeleteFlag(PlugRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive)
+[no]@SystemMessage #GNMVA Oh well.. @DeleteFlag(PlugRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA You deserve a reward!
+@SystemMessage #GNMVA Heres 60 gold! @ChangeVar[GNMGold]=[GNMGold]+[60] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(PantyRun)
+@SystemMessage #GNMVA Did you complete the exercise?
+[yes]@SystemMessage #GNMVA Fantastic! @DeleteFlag(PantyRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive)
+[no]@SystemMessage #GNMVA Oh well.. @DeleteFlag(PantyRun) @DeleteFlag(SexyExercise) @DeleteFlag(ExerciseActive) @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA You deserve a reward!
+@SystemMessage #GNMVA Heres 20 gold! @ChangeVar[GNMGold]=[GNMGold]+[20] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

@@ -1,0 +1,28 @@
+@SystemMessage #VANC #VANP Tell me #SlaveName
+@SystemMessage #VANC Does any of these reasons match your transgression? @ShowImage[\GNMImages\GNMBackground\Confession.*]
+[1]@SystemMessage #VANC #VANP Oh no.. @Goto(1)
+[2]@SystemMessage #VANC #VANP This is bad @Goto(2)
+[3]@SystemMessage #VANC #VANP Oh my.. @Goto(3)
+[4]@SystemMessage #VANC #VANP I see @Goto(4)
+[5]@SystemMessage #VANC #VANP Hmm.. @Goto(5)
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3, 4 or 5?
+(1)
+@SystemMessage #VANC #VANP @RT(This is bad slave..,This is unforgivable,This is not okay!,You deserve to be permanently locked up!,I feel like whipping you for hours!)
+@SystemMessage #VANC #VANP @RT(When you have time for it,When you feel like you have time for it,When you have a moment,When its possible,When you can)
+@SystemMessage #VANC #VANP @RT(Report for punishment..,Report for a nasty well deserved punishment!,Report for a series punishment,Report for a tremendous punishment!) @ChangeVar[GNMPPoints]=[GNMPPoints]+[300] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(2)
+@SystemMessage #VANC #VANP @RT(This is bad slave..,This is unforgivable,This is not okay!,You deserve to be permanently locked up!,I feel like whipping you for hours!)
+@SystemMessage #VANC #VANP @RT(When you have time for it,When you feel like you have time for it,When you have a moment,When its possible,When you can)
+@SystemMessage #VANC #VANP @RT(Report for punishment..,Report for a nasty well deserved punishment!,Report for a series punishment,Report for a tremendous punishment!) @ChangeVar[GNMPPoints]=[GNMPPoints]+[200] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(3)
+@SystemMessage #VANC #VANP @RT(This is bad slave..,This is unforgivable,This is not okay!,You deserve to be permanently locked up!,I feel like whipping you for hours!)
+@SystemMessage #VANC #VANP @RT(When you have time for it,When you feel like you have time for it,When you have a moment,When its possible,When you can)
+@SystemMessage #VANC #VANP @RT(Report for punishment..,Report for a nasty well deserved punishment!,Report for a series punishment,Report for a tremendous punishment!) @ChangeVar[GNMPPoints]=[GNMPPoints]+[300] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@SystemMessage #VANC #VANP Well okay then..
+@SystemMessage #VANC #VANP I'm not gonna stop yourself from a little punishment
+@SystemMessage Just report for punishment @ChangeVar[GNMPPoints]=[GNMPPoints]+[50] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(5)
+@SystemMessage #VANC #VANP I'm not sure what else there is to punish for
+@SystemMessage #VANC #VANP Write on the forum on Milovana.com
+@SystemMessage #VANC #VANP I'm sure we can add it #GNMLol @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@End

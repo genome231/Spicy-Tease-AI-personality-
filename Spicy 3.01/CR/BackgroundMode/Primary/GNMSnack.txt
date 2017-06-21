@@ -1,0 +1,68 @@
+@NullResponse @CheckFlag(FirstSnack) @SetFlag(FirstSnack)
+@SystemMessage #VANC #VANP Well #SubName
+@SystemMessage #VANC #VANP This is the first time you're asking for a snack
+@Flag(FullTime) @SystemMessage #VANC #VANP Serving full time you are required to ask for snacks
+@Flag(FullTime) @SystemMessage #VANC #VANP Snacks like so much else is a privelege that must be asked for politely
+@Flag(PartTime) @SystemMessage #VANC #VANP Since you aren't here full time, its not required but appreciated if you asked for snacks
+@Flag(PartTime) @SystemMessage #VANC #VANP They are afterall a privelege
+@SystemMessage #VANC #VANP You will never have to ask about meals @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP At least you would never be denied one @SetVar[SetSnackHealthy]=[#Random(1,3)]
+@SystemMessage #VANC #VANP But you are expected to maintain a healthy diet @SetVar[SetSnackUnhealthy]=[#Random(4,12)]
+@SystemMessage #VANC #VANP I trust that you know what a healthy diet is
+@SystemMessage #VANC #VANP Most people deep down do actually know, but few actually have one
+@SystemMessage #VANC #VANP For instance far too many eat a lot more meat than recommended
+@SystemMessage #VANC #VANP And too few veggies
+@SystemMessage #VANC #VANP A common male problem actually..
+@SystemMessage #VANC #VANP If you wanted to ask me for a snack right now
+@SystemMessage #VANC #VANP I'm gonna be nice and let you have one #SlaveName
+@SystemMessage #VANC #VANP Enjoy
+@End
+(FirstSnack)
+@SystemMessage #VANC #VANP @RT(So you would like a snack,I see you want a snack,I hear you would like a snack,So you're craving a snack)
+@SystemMessage #VANC #VANP @RT(Is it a healthy or unhealthy snack?,Asking for a healthy or an unhealthy snack?)
+[healthy]@NullResponse @Goto(HealthySnack)
+[unhealthy]@NullResponse @Goto(UnhealthySnack)
+@DifferentAnswer @SystemMessage #VANC #VANP Healthy or unhealthy #SlaveName ?
+(HealthySnack)
+@Variable[#DateDifference(LastSnack, Hours)]>[SetSnackHealthy] @NullResponse @Goto(Continue1)
+@SystemMessage #VANC #VANP @RT(You had a snack recently..,You basicly just had a snack..,You know that snacking cant happen too often..) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP @RT(So ofcourse I'm gonna say no,So it's a no no,So no snack for you..)
+@End
+(Continue1)
+@FlagOr(VPleased,Pleased,Neutral) @Variable[Happy]>[Angry] @NullResponse @Goto(Continue2)
+@SystemMessage #VANC #VANP @RT(I'm sorry,Sorry,Well,Hmm) @RT(#SlaveName,Slave,#Slut) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP @RT(It's gonna be a no,Not right now you cant,The answer is no) @SetVar[SetSnackHealthy]=[#Random(1,3)]
+@SystemMessage #VANC #VANP @RT(Maybe later,Perhaps later,I might let you have one later..)
+@End
+(Continue2)
+@SystemMessage #VANC #VANP @RT(Sure,Yes you may,I'm gonna let you have one this time,Well today I'm saying yes) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP Go with a piece of fruit, nuts, salad or something other healthy @SetVar[SetSnackHealthy]=[#Random(1,6)]
+@End
+(UnhealthySnack)
+@DayOfWeek(Friday) @NullResponse @Goto(Continue3)
+@DayOfWeek(Saturday) @NullResponse @Goto(Continue3)
+@SystemMessage #VANC #VANP @RT(#SlaveName,#SubName,Slave)
+@SystemMessage #VANC #VANP @RT(Why are you bothering asking for that..,Why are you asking me for that,Why do ask about that..)
+@SystemMessage #VANC #VANP @RT(You know,You very well know,You should know,You ought to know)
+@SystemMessage #VANC #VANP @RT(Unhealthy snacks are only allowed,You cant have sweets unless it's,There are no sweets allowed unless it's) friday or saturday #MeritChangeNLow
+@End
+(Continue3)
+@Variable[#DateDifference(LastSnack, Hours)]>[SetSnackUnhealthy] @NullResponse @Goto(Continue4)
+@SystemMessage #VANC #VANP @RT(You had a snack recently..,You basicly just had a snack..,You know that snacking cant happen too often..) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP @RT(So ofcourse I'm gonna say no,So it's a no no,So no snack for you..)
+@End
+(Continue4)
+@FlagOr(VPleased,Pleased,Neutral) @Variable[Happy]>[Angry] @NullResponse @Goto(Continue5)
+@SystemMessage #VANC #VANP @RT(I'm sorry,Sorry,Well,Hmm) @RT(#SlaveName,Slave,#Slut) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP @RT(It's gonna be a no,Not right now you cant,The answer is no) @SetVar[SetSnackUnhealthy]=[#Random(4,12)]
+@SystemMessage #VANC #VANP @RT(Maybe later,Perhaps later,I might let you have one later..)
+@End
+(Continue5)
+@Flag(SlaveFat) @SystemMessage #VANC #VANP @RT(You're fat,You're overweight,You're simply fat) @RT(#SlaveName,#SubName,Slave,#Slut) @SetDate(LastSnack, 0 Hours)
+@Flag(SlaveFat) @SystemMessage #VANC #VANP @RT(No snack for you,So dont ask for sweets..,So you need to stop asking for sweets until you lose weight) @Goto(End)
+@SystemMessage #VANC #VANP @RT(Well it is the weekend afterall,Since it's weekend,Well..,Hmm..) @SetDate(LastSnack, 0 Hours)
+@SystemMessage #VANC #VANP @RT(I suppose there's no harm in letting you have a sweet today,Yes you may enjoy some sweets,I'm gonna allow it) @SetVar[SetSnackUnhealthy]=[#Random(4,12)]
+@SystemMessage #VANC #VANP @RT(But be moderate,But stay moderate,But make sure to keep it moderate)
+@End
+(End)
+@End

@@ -1,0 +1,2 @@
+@SystemMessage #VANC #VANP At this moment there are no purchases related to academy
+@End
