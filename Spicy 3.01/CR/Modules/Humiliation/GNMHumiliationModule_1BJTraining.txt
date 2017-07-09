@@ -1,4 +1,4 @@
-@NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToy)
+@NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToy2)
 @NotFlag(DildoPlay) @NullResponse @Goto(NoToy)
 @Flag(DildoPlay) @NullResponse @CheckFlag(SissyModule1FirstRun) @SetVar[BlowjobLevel]=[1] @SetFlag(SissyModule1FirstRun)
 @Variable[BlowjobLevel]>[50] @SetVar[BlowjobLevel]=[50] @NullResponse 
@@ -183,7 +183,7 @@ Maybe you did waaaayyy too many edges #DT
 Or exactly right! #DT
 You'll never know #GNMLol @DeleteFlag(Busy) #DT
 @End
-(NoToy)
+(NoToy2)
 @NullResponse @CallReturn(CR\Modules\Alternative_Chastity\*.txt)
 @End
 @Info Light sucking is a simple suck over the head
