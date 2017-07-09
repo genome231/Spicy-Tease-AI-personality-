@@ -151,7 +151,7 @@
 [1,one]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[500]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[500] @SetDate(SlaveVacationLate, 8 Days) @Goto(Outcome3a)
 [2,two]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[1000]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[1000] @SetDate(SlaveVacationLate, 15 Days) @Goto(Outcome3a)
 [3,three]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[1500]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[1500] @SetDate(SlaveVacationLate, 22 Days) @Goto(Outcome3a)
-[4,four]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[2000]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[2000] @SetDate(SlaveVacationLate, 29 Days) @Goto((Outcome3a)
+[4,four]@SystemMessage [#DomHonorific]: Checking your balance.. #TextMessage @If[GNMGold]<[2000]Then(CantAfford1) @ChangeVar[GNMGold]=[GNMGold]-[2000] @SetDate(SlaveVacationLate, 29 Days) @Goto(Outcome3a)
 @DifferentAnswer @SystemMessage [#DomHonorific]: 1, 2, 3 or 4 weeks? #TextMessage
 (CantAfford1)
 @NullResponse #TextTypingBase @Wait(#Random(1,3))

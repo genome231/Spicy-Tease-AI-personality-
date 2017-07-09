@@ -62,7 +62,7 @@ Cya #SlaveName #DT4 @DeleteFlag(D4Punisher)
 @NullResponse @DeleteFlag(KymWon)
 @NullResponse @DeleteFlag(SadieWon)
 @NullResponse @DeleteFlag(SarahWon)
-@NullResponse @DeleteFlag(SpankzChoirLate@DeleteFlag(SpankzChoirLate) 
+@NullResponse @DeleteFlag(SpankzChoirLate)
 @NullResponse @DeleteFlag(SpankzChoirSafeword)
 @End
 (PunishmentComplete)

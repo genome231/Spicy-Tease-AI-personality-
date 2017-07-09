@@ -1,4 +1,4 @@
-@NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToyChastity)
+@NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToy2)
 @NotFlag(DildoPlay) @NullResponse @Goto(NoToy)
 @Flag(DildoPlay) @NullResponse @CheckFlag(SissyModule1FirstRun) @SetVar[BlowjobLevel]=[1] @SetFlag(SissyModule1FirstRun)
 @Variable[BlowjobLevel]>[50] @SetVar[BlowjobLevel]=[50] @NullResponse 
@@ -117,8 +117,6 @@ Did you follow the sound to a satisfactory level? #DT @Timeout(10,Continue2)
 [yes]#GNMGood #DT #MeritChangePMedium @Goto(EndGood)
 [no]Oh then perhaps I expect too much from you.. #DT #MeritChangeNLow @Goto(EndBad)
 @DifferentAnswer #GNMYesOrNo #DT
-(Continue2)
-Silence is never good #SlaveName #DT #MeritChangeNMedium @Goto(EndBad)
 (Program3)
 @NullResponse @TempFlag(BJProgram3)
 @RT(In a moment #Slut,In just a moment,Soon,In a short moment) #DT
@@ -185,7 +183,7 @@ Maybe you did waaaayyy too many edges #DT
 Or exactly right! #DT
 You'll never know #GNMLol @DeleteFlag(Busy) #DT
 @End
-(NoToy)
+(NoToy2)
 @NullResponse @CallReturn(CR\Modules\Alternative_Chastity\*.txt)
 @End
 @Info Light sucking is a simple suck over the head

@@ -126,14 +126,27 @@
 @RandomContact Cya #SubName #DT4
 @End
 (NoChance)
-@RandomContact @RT(Which ofcourse means that you have 0 chance of cumming today,no cumming today) #DT4
+@RandomContact @RT(Which of course means that you have 0 chance of cumming today,no cumming today) #DT4
 @RandomContact @RT(But we can still have fun,But lets have some fun) #GNMGrin #DT4
 @RandomContact Pick up the stroking pace a little bit #SlaveName #DT4
 @RandomContact I think we'll just reward you with some edges #GNMGrin #DT4
 @MultipleEdges(4,#Random(5,10))
 @RandomContact #GNMGrin #DT4
-@RandomContact @RT(I hope you're alright,I do hope you're okay) #SlaveName #DT4
+@RandomContact @RT(I hope you're alright,I hope you're okay) #SlaveName #DT4
 @NullResponse @CallReturn(CR\GNMChastityOn.txt)
-@RandomContact Well this fun #DT4
+@RandomContact Well this was fun #DT4
+@RandomContact Cya #SubName #DT4
+@End
+(NoChance2)
+@RandomContact But it was the wrong answer #DT4
+@RandomContact You missed your chance of cumming today #SlaveName #DT4
+@RandomContact Pick up the stroking pace a little bit #SlaveName #DT4
+@RandomContact I think we'll just continue with some edges #GNMGrin #DT4
+@MultipleEdges(4,#Random(5,10))
+@RandomContact #GNMGrin #DT4
+@RandomContact @RT(I hope you're alright, I hope you're okay) #SlaveName #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Well this was fun #DT4
+@RandomContact Better luck next time #SubName #DT4
 @RandomContact Cya #SubName #DT4
 @End

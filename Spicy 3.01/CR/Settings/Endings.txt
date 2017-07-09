@@ -80,10 +80,12 @@
 @SystemMessage @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
 (Random1VoD)
 @NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(11,14)] 
-@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(15,18)] @Chance60(Orgasm) @Goto(Ruined)
+@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(15,18)]
+@NullResponse @Goto(LockPeriod)
 (Random2VoD)
 @NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(8,11)]
-@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(12,15)] @Chance60(Orgasm) @Goto(Ruined)
+@NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(12,15)]
+@NullResponse @Goto(LockPeriod)
 (Random3VoD)
 @NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(5,8)]
 @NullResponse @SetVar[ValleyOfDarknessSet]=[#Random(9,12)]

@@ -79,8 +79,8 @@
 (i)
 @SystemMessage #VANC #VANP @RT(Lets rattle your #GNMCock a little,Lets make your #GNMCock jump a little,Lets see if we can awaken the imprisoned princess,Lets play a little,I have something fun for you #GNMEmoteHappy)
 @SystemMessage #VANC #VANP @RT(Just watch this little slideshow while you fondle your #GNMBalls #GNMLol,Fondle your #GNMBalls while you watch this magnificent girl!,Just hang back and watch this sexy slut!)
-(SlideShow1)
-@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Chance90(SlideShow1)
+(SlideShow1Self)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Chance90(SlideShow1Self)
 @NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
 @NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
 @NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg]

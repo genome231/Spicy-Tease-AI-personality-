@@ -6,7 +6,7 @@ I want all of you to spend some time reading or searching online about bra's #DT
 If any of you feel like you already know quite a lot about bra's then feel free to study/read up on something else #DT
 You may begin.. #DT
 @NullResponse @Wait(#Random(210,330))
-Look up slaves #DT @PlayAudio[\GNMSounds\SpecialSounds\Bells.mp3]
+Look up slaves #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 Right now I want all of you to study pictures online #DT
 It shouldn't take too long to read about the different panties #DT
 But go ahead and google the different sorts #DT
@@ -16,5 +16,5 @@ Continue to read and study the different lingerie brands #DT
 You are expected to know those a well.. #DT
 Begin #DT
 @NullResponse @Wait(#Random(210,330))
-Look up slaves #DT @PlayAudio[\GNMSounds\SpecialSounds\Bells.mp3]
+Look up slaves #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @End

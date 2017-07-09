@@ -65,7 +65,7 @@
 (c)
 @Variable[SissyModuleModule]>=[ModuleChooser] @NullResponse @Goto(Select) //Sissy Modules
 @NullResponse @Goto(c1,c2,c3,c4,c5,c6)
-(c)
+(d)
 @Variable[SissyModuleModule]>=[ModuleChooser] @NullResponse @Goto(Select) //Pain Modules
 @NullResponse @Goto(d1,d2,d3,d4,d5,d6)
 (a1)

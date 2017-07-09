@@ -66,7 +66,7 @@ Enjoy! #DT
 (h5)
 #SpankPlacingRight50 #DT 
 @NullResponse @ChangeVar[Strikes]=[Strikes]-[50] @Goto(Count)
-(Count2))
+(Count2)
 @NullResponse @If[Strikes]<=[0]Then(Test)
 @Variable[Strikes]>[20] @NullResponse @Goto(C1,C2)
 @Variable[Strikes]>[10] @NullResponse @Goto(C1)

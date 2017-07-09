@@ -185,7 +185,7 @@ Make me proud #SlaveName #DT
 (ChangeBeat12)
 @NullResponse @ShowImage @ChangeVar[TimeToIncreaseLevel]=[TimeToIncreaseLevel]+[#Random(0,10)] @Goto(Level12)
 (Level13)
-@NullResponse @ShowImage @If[TimetoIncreaseLevel]>=[50]Then(IncreaseLevel3) #PlayStrokeTraining @Wait(#Random(5,10)) @Chance10(ChangeBeat13)
+@NullResponse @ShowImage @If[TimetoIncreaseLevel]>=[50]Then(IncreaseLevel) #PlayStrokeTraining @Wait(#Random(5,10)) @Chance10(ChangeBeat13)
 @NullResponse @ShowImage @Wait(#Random(5,10)) @Chance20(ChangeBeat13)
 @NullResponse @ShowImage @Wait(#Random(5,10)) @Chance30(ChangeBeat13)
 @NullResponse @ShowImage @Wait(#Random(5,10)) 
@@ -329,7 +329,7 @@ Make me proud #SlaveName #DT
 @NullResponse @ShowImage @Wait(#Random(5,10)) @Chance20(ChangeBeat33)
 @NullResponse @ShowImage @Wait(#Random(5,10)) @Chance30(ChangeBeat33)
 @NullResponse @ShowImage @Wait(#Random(5,10)) 
-(ChangeBeat3)
+(ChangeBeat33)
 @NullResponse @ShowImage @ChangeVar[TimeToIncreaseLevel]=[TimeToIncreaseLevel]+[#Random(0,10)] @Goto(Level33)
 (Level34)
 @NullResponse @ShowImage @If[TimetoIncreaseLevel]>=[50]Then(IncreaseLevel) #PlayStrokeTraining @Wait(#Random(5,10)) @Chance10(ChangeBeat34)
@@ -471,7 +471,7 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @NullResponse @If[StrokeLevel]>[40]Then(40End)
 @NullResponse @If[StrokeLevel]>[30]Then(30End)
 @NullResponse @If[StrokeLevel]>[20]Then(20End)
-@NullResponse @If[StrokeLevel]>[10]Then(10End) @Goto(LowEnd)
+@NullResponse @If[StrokeLevel]>[10]Then(10End) @Goto(0End)
 (50End)
 @Flag(Personality1) @RT(I guess I cant expect more from you when you're at level 50 #GNMLol,I suppose I shouldn't expect more since 50 is the very top #GNMGrin,Bravo level 50!,Good job level 50!,Oh my level 50) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[35]
 @Flag(Personality2) @RT(Level 50.. Good!,There is hope for you slave,You did good #SlaveName,You should feel a little proud slave) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[30]
@@ -497,6 +497,12 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
 @End
 (10End)
+@Flag(Personality1) @RT(I did expect much more..,Below 20 is for cuckold..,Below 20 isn't worth anything..,You went below 20 you lousy fuck..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[10]
+@Flag(Personality2) @RT(Going below 20 makes me considder permanent chastity for you..,Below 20 does make me think about locking you up..,With a low score like that I feel sad for you..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[15]
+@Flag(Personality3) @RT(By the Goddess your score is ridicouless!,I guess your #GNMCock is crying for the #Cage with such a low score..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[25]
+@NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
+@End
+(0End)
 Oh well that was it for your stroke training today! #DT @ChangeVar[GNMMerits]=[GNMMerits]-[35]
-Since you're pathetic and hasn't gone above level 10 I'm not decreasing your level.. #DT
+Since you're pathetic and haven't gone above level 10 I'm not decreasing your level.. #DT
 @End

@@ -1,4 +1,4 @@
-@NullResponse @Goto(1,2,3,4,5)
+@NullResponse @Goto(Advice1,Advice2,Advice3,Advice4,Advice5)
 (Advice1)
 @RT(Remember it's a good idea to use moisterizer cream,I strongly recommend using a moisterizer,Dont forget using moisterizer!) #DT
 @RT(It protects against chafing/friction and overall provides with a better experience,It protects against chafing,It will greatly enhance your lock up time #GNMGrin) #DT

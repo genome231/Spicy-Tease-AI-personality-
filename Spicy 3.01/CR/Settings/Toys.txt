@@ -54,7 +54,7 @@
 @SystemMessage You will respond with yes if you have it
 @SystemMessage You can also say yes if you have something similar that will work fine
 @SystemMessage Respond with no if you have nothing similar
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\BallCrusher.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\BallCrusher.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyBallCrusher)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy2)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -64,7 +64,7 @@
 [both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy2)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\ButtPlugs.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\ButtPlugs.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyButtPlug)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy3)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -74,7 +74,7 @@
 [both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy3)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Dildo.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\Dildo.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyDildo)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy4)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -84,7 +84,7 @@
 [both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy4)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\EStim.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\EStim.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyElectro)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy5)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -97,7 +97,7 @@
 @SystemMessage Tell me what level of shock you considder to be somehwat @InputVar[ElectroPMedium]
 @SystemMessage Tell me what level of shock you considder to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
 (Toy5)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Gag.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\Gag.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyGag)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy6)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -107,20 +107,20 @@
 [both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy6)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Girlfriend.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\Girlfriend.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToySetupGirlFriend)
 [no]@SystemMessage #GNMEmoteSad
 @DifferentAnswer @SystemMessage #GNMYesOrNo
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\LingerieSet.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\LingerieSet.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyLingerieBasic)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy7)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\LingerieSet2.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\LingerieSet2.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyLingerieAdvanced)
 [no]@SystemMessage #GNMEmoteSad
 @DifferentAnswer @SystemMessage #GNMYesOrNo
 (Toy7)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Parachute.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\Parachute.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyParachute)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy8)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -130,7 +130,7 @@
 [both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy8)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Tabasco.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\HotSauce.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyHotSauce)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy9)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -140,7 +140,7 @@
 [both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy9)
-@NullResponse @ShowImage[\GNMImages\ToySetup\ToyPictures\Vibrator.jpg]
+@NullResponse @ShowImage[\GNMImages\ToySetup\Vibrator.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyVibrator)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy10)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
@@ -150,8 +150,8 @@
 [both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
 @DifferentAnswer @SystemMessage Play, punishment or both?
 (Toy10)
-@SystemMessage #VANC Do have either of these? @ShowImage[\GNMImages\ToySetup\ToyPictures\Collar.jpg]
-@SystemMessage #VANC Remember that a belt can also work as a collar @ShowImage[\GNMImages\ToySetup\ToyPictures\Collar.jpg]
+@SystemMessage #VANC Do have either of these? @ShowImage[\GNMImages\ToySetup\Collar.jpg]
+@SystemMessage #VANC Remember that a belt can also work as a collar @ShowImage[\GNMImages\ToySetup\Collar.jpg]
 [yes]@SystemMessage #GNMGood @SetFlag(GNMToyCollar)
 [no]@SystemMessage #GNMEmoteSad @Goto(Toy11)
 @DifferentAnswer @SystemMessage #GNMYesOrNo
