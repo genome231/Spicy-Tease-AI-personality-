@@ -62,12 +62,13 @@
 @SystemMessage #VANC Also notice how 3 rooms have the same number because they were added together.. @ShowImage[\GNMImages\Home\*.*]
 (Rooms)
 @SystemMessage #VANC #VANP How many rooms in your #Home are you responsible for cleaning?
-[1]@SystemMessage #VANC #VANP Okay.. @SetFlag(1Room) @Goto(1Room)
-[2]@SystemMessage #VANC #VANP Okay.. @SetFlag(2Room) @Goto(2Room)
-[3]@SystemMessage #VANC #VANP Okay.. @SetFlag(3Room) @Goto(3Room)
-[4]@SystemMessage #VANC #VANP Okay.. @SetFlag(4Room) @Goto(4Room)
-[5]@SystemMessage #VANC #VANP Okay.. @SetFlag(5Room) @Goto(5Room)
+[1]@SystemMessage #VANC #VANP Okay.. @SetFlag(1Room) @Goto(Kinky)
+[2]@SystemMessage #VANC #VANP Okay.. @SetFlag(2Room) @Goto(Kinky)
+[3]@SystemMessage #VANC #VANP Okay.. @SetFlag(3Room) @Goto(Kinky)
+[4]@SystemMessage #VANC #VANP Okay.. @SetFlag(4Room) @Goto(Kinky)
+[5]@SystemMessage #VANC #VANP Okay.. @SetFlag(5Room) @Goto(Kinky)
 @DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3, 4 or 5? It cannot be more than 5 rooms
+(Kinky)
 @SystemMessage #VANC #VANP Next..
 @SystemMessage #VANC #VANP Do like getting kinky while cleaning?
 @SystemMessage #VANC #VANP This might include having you clean on all fours, using some sort of toys while cleaning

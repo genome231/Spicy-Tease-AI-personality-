@@ -1,1 +1,1 @@
-@PlayAudio[\GNMSounds\Modules\BJTraining\BJDeepThroatLong\DeepSlow1min.mp3] @Wait(60) @ChangeVar[BJTraining]=[BJTraining]-[6]
+@PlayAudio[\GNMSounds\Modules\BJTraining\BJDeepThroat\DeepSlow1min.mp3] @Wait(60) @ChangeVar[BJTraining]=[BJTraining]-[6]

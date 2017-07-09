@@ -20,7 +20,7 @@
 (FlatterGame3)
 #SlaveName #DT
 @RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT
-[eyelashes] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[eyelashes] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(RightAnswer)
 [feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
 [eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
 [boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
@@ -29,7 +29,7 @@
 (FlatterGame2)
 #SlaveName #DT
 @RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT
-[eyebrows] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[eyebrows] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(RightAnswer)
 [feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
 [eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
 [boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
@@ -38,7 +38,7 @@
 (FlatterGame1)
 #SlaveName #DT
 @RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT @Goto(ButWhy)
-[nose] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[nose] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(RightAnswer)
 [feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
 [eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
 [boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
@@ -48,7 +48,7 @@
 @RT(I guess you have a fetish,I suppose that might be a fetish of yours) #DT
 @RT(Compliments need to be thought of carefully,Compliments should not be given lightly!) #DT
 @End
-(Pleased)
+(RightAnswer)
 @RT(Well done #SlaveName,I'm impressed #SlaveName) #DT #GNMEmoteHappy
 @End
 (Angered)

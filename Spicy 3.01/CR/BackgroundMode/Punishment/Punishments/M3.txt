@@ -46,15 +46,15 @@ Well @RT(hello,hi) #SlaveName  #DT4 @Goto(Start)
 @RT(Discipline can never be cruel enough,Discipline is all about being cruel,Discipline is about showing no mercy!,No mercy for the bad ones..) #DT4
 @NullResponse @If[SubEndurance]>[2]AND[SubEndurance]<[6]Then(PM3Medium)
 @NullResponse @If[SubEndurance]>=[6]Then(PM3Hard) @Goto(PM3Easy)
-(PS3Easy)
+(PM3Easy)
 Setting up your punishment #DT4 @SetVar[CornerTimeLife]=[8]
 Just a moment.. #DT4 @SetVar[CornerTimeCounter]=[#Random(660,1080)]
 @NullResponse @SetVar[CornerTimeCounter2]=[0] @Goto(Info,RegularCornerTime)
-(PS3Medium)
+(PM3Medium)
 Setting up your punishment #DT4 @SetVar[CornerTimeLife]=[6]
 Just a moment.. #DT4 @SetVar[CornerTimeCounter]=[#Random(960,1380)]
 @NullResponse @SetVar[CornerTimeCounter2]=[0] @Goto(Info,RegularCornerTime)
-(PS3Hard)
+(PM3Hard)
 Setting up your punishment #DT4 @SetVar[CornerTimeLife]=[4]
 Just a moment.. #DT4 @SetVar[CornerTimeCounter]=[#Random(1260,1680)]
 @NullResponse @SetVar[CornerTimeCounter2]=[0] @Goto(Info,RegularCornerTime)

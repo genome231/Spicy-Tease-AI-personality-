@@ -7,7 +7,7 @@ So make sure your speaker is turned on #GNMMoan #DT
 @Flag(SissyMode) Fetch your vibrator #DT @Wait(15)
 @Flag(SissyMode) Green means to apply the vibrator and try to cum #DT
 @NotFlag(SissyMode) Green means stroke and try to cum #DT
-Red means hands behind your head no touching #DT @SetVar[O5Images]=[#Random(35,65]
+Red means hands behind your head no touching #DT @SetVar[O5Images]=[#Random(35,65)]
 @RT(And its no touching even if you're mid orgasm!,And red means no touching even if you're mid orgasm) #DT
 @RT(Try your best to cum and <i>enjoy</i> it,Try to enjoy it #SlaveName) @RT(#GNMMoan,#GNMGrin) #DT
 (O5Images)

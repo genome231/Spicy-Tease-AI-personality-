@@ -18,3 +18,5 @@
 (VPleased)
 @Variable[Angry]<[Happy] 
 @Variable[Angry]>=[Happy] 
+(End)
+@End

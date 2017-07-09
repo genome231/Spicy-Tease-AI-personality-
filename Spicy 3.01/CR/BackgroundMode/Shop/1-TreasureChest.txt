@@ -7,7 +7,7 @@
 @Variable[TreasureChests]>[1] @SystemMessage #VANC #VANP You have @ShowVar[TreasureChests] treasure chests, lets open them! @Goto(OpenChest)
 @Variable[TreasureChests]>[0] @SystemMessage #VANC #VANP You have @ShowVar[TreasureChests] treasure chest, lets open it! @Goto(OpenChest)
 @SystemMessage #VANC #VANP Do you wish to purchase a treasurechest?
-[yes]@NullResponse @If[GNMGold]<[200]Then(NoEnoughGold) @Goto(Buy)
+[yes]@NullResponse @If[GNMGold]<[200]Then(NotEnoughGold) @Goto(Buy)
 [no]@NullResponse @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no
 (Buy)

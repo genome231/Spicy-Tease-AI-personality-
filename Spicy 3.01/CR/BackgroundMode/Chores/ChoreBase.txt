@@ -83,7 +83,7 @@
 @NullResponse @CallReturn(CR\BackgroundMode\Chores\ChoreFinances.txt)
 @NullResponse @Goto(FirstChoreRun)
 (ChoreActive)
-@SystemMessage #VANC #VANP I allready gave you a chore..
+@SystemMessage #VANC #VANP I already gave you a chore..
 @SystemMessage #VANC #VANP You haven't completed it yet.. @CallReturn(CR\BackgroundMode\Chores\ChoreNotComplete.txt)
 @NullResponse @Goto(FirstChoreRun)
 (1)

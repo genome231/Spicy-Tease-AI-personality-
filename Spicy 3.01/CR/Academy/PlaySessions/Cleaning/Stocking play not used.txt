@@ -83,10 +83,10 @@ I bet your #GNMCock is all tingly after this
 Maybe its even craving a bit of touching but we're not doing that #GNMGrin
 Noo actually
 I want you to fetch your chastity device and with a minimum of touching I want you to put your cock inside of it and lock it away @ShowImage[\GNMImages\Chastity\ChastityOn\*.*] @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3] @Wait(20)
-(Question1)
+(Question1Advanced)
 Is it on? @ShowImage[\GNMImages\Chastity\ChastityOn\*.*]
 [yes]#GNMGood @ChastityOn @SetFlag(ChastityIsOn)
-[no]Hurry then! @Wait(10) @Goto(Question1)
+[no]Hurry then! @Wait(10) @Goto(Question1Advanced)
 @DifferentAnswer #GNMYesOrNo
 A little play - a lot of lock up #GNMLol
 @End

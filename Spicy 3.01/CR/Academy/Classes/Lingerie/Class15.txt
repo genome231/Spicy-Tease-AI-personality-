@@ -2,7 +2,7 @@ Class #DT
 I'm gonna describe different lingerie #DT
 And you're gonna tell what kind it is #GNMGrin #DT @SetVar[AClass11Var]=[0] @ChangeVar[AClass11Var]=[AClass11Var]+[#Random(10,20)]
 (Choose)
-@NullResponse @If[AClass11Var]<=[0]Then(End1) @ChangeVar[AClass11Var]=[AClass11Var]-[1] @Goto(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x)
+@NullResponse @If[AClass11Var]<=[0]Then(End1) @ChangeVar[AClass11Var]=[AClass11Var]-[1] @Goto(a,b,c,d,e,f,g,h,i,j,k,l,m)
 (a)
 Short, sometimes sleeveless and loose fitting #DT
 Often trimmed with lace, ruffles, appliques, marabou, bows and ribbons #DT

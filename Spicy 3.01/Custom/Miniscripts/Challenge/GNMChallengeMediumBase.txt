@@ -1,4 +1,4 @@
-@NullResponse @If[FirstMChallenge]>=[10]Then(AllMChallengesDone) @CheckFlag(ChallengeMFirst) @SetVar[FirstMChallenge]=[0] @SetFlag(ChallengeMFirst)
+@NullResponse @If[FirstMChallenge]>=[10]Then(AllMediumCDone) @CheckFlag(ChallengeMFirst) @SetVar[FirstMChallenge]=[0] @SetFlag(ChallengeMFirst)
 (ChallengeMFirst)
 @SystemMessage #GNMVA @RT(Lets find something fun for you to do,Lets go ahead and find you a nice little challenge,You've asked for a challenge and here it comes,I love to give you challenges!) 
 @NullResponse @CheckFlag(ChallengeGiven) @SetFlag(ChallengeGiven)

@@ -17,8 +17,8 @@
 (IncreaseLimit1)
 @RT(So currently your hard limit is,At this moment your hard limit is) @ShowVar[HardOTimeLimit] days #DT
 @RT(What would you like your new limit to be?,Tell me how would your new hard limit should look like) #DT @InputVar[HardOTimeLimitNew]
-@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit)
-@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimit]+[HardOTimeLimitNew]
+@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit1)
+@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimitNew]
 #GNMGood #DT @Goto(End)
 (PushLimit2)
 @RT(You make me proud!,That makes me happy!,You make me very proud!) #MeritChangePHigh #DT
@@ -31,8 +31,8 @@
 (IncreaseLimit2)
 @RT(So currently your hard limit is,Right now your hard limit is) @ShowVar[HardOTimeLimit] days #DT
 What would you like your new limit to be? #DT @InputVar[HardOTimeLimitNew]
-@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit)
-@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimit]+[HardOTimeLimitNew]
+@Variable[HardOTimeLimitNew]<=[HardOTimeLimit] You didn't choose a higher limit #DT @Goto(IncreaseLimit2)
+@Variable[HardOTimeLimitNew]>[HardOTimeLimit] Setting your new hard limit #DT @SetVar[HardOTimeLimit]=[0] @ChangeVar[HardOTimeLimit]=[HardOTimeLimitNew]
 @RT(Well then!,Moving on) #DT @Goto(End)
 (End)
 @NullResponse @CallReturn(CR\End\DecideO.txt)

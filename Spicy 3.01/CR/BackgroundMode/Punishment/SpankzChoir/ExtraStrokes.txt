@@ -20,7 +20,7 @@
 @Variable[Choice]>[450] @NullResponse @ChangeVar[Factor]=[Factor]+[#Random(7,14)] @Goto(Add)
 @Variable[Choice]>=[1] @NullResponse @ChangeVar[Factor]=[Factor]+[#Random(1,7)] @Goto(Add)
 @End
-(M2) \\ Hard
+(Hard) \\ Hard
 @Variable[Choice]>[900] @NullResponse @ChangeVar[Factor]=[Factor]+[#Random(40,50)] @Goto(Add)
 @Variable[Choice]>[700] @NullResponse @ChangeVar[Factor]=[Factor]+[#Random(30,40)] @Goto(Add)
 @Variable[Choice]>[500] @NullResponse @ChangeVar[Factor]=[Factor]+[#Random(20,30)] @Goto(Add)
