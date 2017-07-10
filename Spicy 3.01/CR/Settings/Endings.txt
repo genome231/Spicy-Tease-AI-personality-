@@ -1,16 +1,4 @@
 @NullResponse @RapidCodeOn 
-@NullResponse @DeleteFlag(DenialTraining)
-@NullResponse @DeleteFlag(BeadsDeep)
-@NullResponse @DeleteFlag(ValleyOfDarkness)
-@NullResponse @DeleteFlag(EdgeOfDesperation)
-@NullResponse @DeleteFlag(FrequentFlyer)
-@NullResponse @DeleteFlag(TrainingMode)
-@NullResponse @DeleteFlag(OrgasmRoulette)
-@NullResponse @DeleteFlag(FinancialDomination)
-@NullResponse @DeleteFlag(TreasureHunt)
-@NullResponse @DeleteFlag(AuthorsGame)
-@NullResponse @DeleteFlag(WindowOfOpportunity)
-@NullResponse @SetFlag(Standard)
 (NewMode)
 @RapidTextOn @SystemMessage Which of the following modes/games do wish to learn more about? @LockImages @ShowImage[\GNMImages\Settings\Denial.jpg]
 @SystemMessage 1) Denial Traning 2) Beads Deep 3) Valley of Darkness
@@ -40,6 +28,16 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
 @NullResponse @SetFlag(DenialTraining) @DeleteFlag(Standard) @Goto(LockPeriod)
 (2)
 @SystemMessage Beads deep is game
@@ -52,6 +50,16 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
 @NullResponse @SetFlag(BeadsDeep) @DeleteFlag(Standard)
 @SystemMessage How many white beads should you need to collect?
 (NewBeadGame)
@@ -76,7 +84,17 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
-@NullResponse @SetFlag(ValleyOfDarkness)  @DeleteFlag(Standard)
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@NullResponse @SetFlag(ValleyOfDarkness) @DeleteFlag(Standard)
 @SystemMessage @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
 (Random1VoD)
 @NullResponse @SetDate(ValleyOfDarkness, 0 Days) @SetVar[ValleyOfDarknessSessions]=[#Random(11,14)] 
@@ -104,6 +122,16 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
 @NullResponse @SetFlag(EdgeOfDesperation) @DeleteFlag(Standard) @SetVar[EoDMagic]=[#Random(150,500)]
 @NullResponse @Goto(LockPeriod)
 (5) 
@@ -118,6 +146,16 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
 @NullResponse @SetFlag(FrequentFlyer) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[#Random(4,16)]
 @NullResponse @Goto(LockPeriod)
 (6) 
@@ -141,6 +179,16 @@
 [Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
 @NullResponse @SetFlag(TrainingMode) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[#Random(4,16)]
 @SystemMessage How many days do you wish to be your minimum limit? @InputVar[DTrainingSessionsMinimum]
 @SystemMessage Do you want an easy, medium or hard challenge?
@@ -159,9 +207,20 @@
 @SystemMessage The different outcomes are for you to explore
 @NotFlag(EndGame7) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage ctivating it.. @SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
+[Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
 (8)
 @SystemMessage Financial Domination is a fictional game
 @SystemMessage It's designed to bring you the feeling of lacking money and having to pay for an orgasm
@@ -171,9 +230,20 @@
 @SystemMessage Meaning you'll have less gold to spend in the shop
 @NotFlag(EndGame8) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage Activating it.. @SetFlag(FinancialDomination) @DeleteFlag(Standard) @Goto(LockPeriod)
+[Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@SetFlag(FinancialDomination) @DeleteFlag(Standard) @Goto(LockPeriod)
 (9)
 @SystemMessage Treasure Hunt isn't a game
 @SystemMessage But a mode for those who craves extreme denial
@@ -182,9 +252,20 @@
 @SystemMessage These passes are the only way that you'll be allowed to cum
 @NotFlag(EndGame9) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage Activating it.. @SetFlag(TreasureHunt) @DeleteFlag(Standard) @Goto(LockPeriod)
+[Activate]@SystemMessage Activating it.. 
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@SetFlag(TreasureHunt) @DeleteFlag(Standard) @Goto(LockPeriod)
 (10) 
 @SystemMessage Authors game is reserved for those writing scripts for Tease-AI
 @SystemMessage After each session you will be asked about the number of hours spent writing scripts
@@ -197,9 +278,20 @@
 @SystemMessage You will be granted an ejaculation and your total count is reset to 0
 @NotFlag(EndGame10) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage Activating it.. @SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
+[Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
 (11)
 @SystemMessage Window of Opportunity is a dice game
 @SystemMessage You have a total number of strokes starting at 0
@@ -217,9 +309,20 @@
 @SystemMessage This game is considder VERY hard and NOT recommended for beginners!
 @NotFlag(EndGame11) @SystemMessage You need to buy this game in the shop before you can activate it @Goto(NewMode)
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage Activating it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
+[Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
 @NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
 @NullResponse @SetVar[WOOMax]=[0] @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
 @NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
@@ -230,9 +333,21 @@
 @SystemMessage The #DomHonorific chooses wether you may ejaculate or not
 @SystemMessage Your behaviour, actions, days since last ejaculation and denial experience is all carefully weighted
 @SystemMessage Do you wish to activate this or look at the other modes?
-[Activate]@SystemMessage Activating it.. @SetFlag(Standard) @DeleteFlag(Standard) @Goto(LockPeriod)
+[Activate]@SystemMessage Activating it..
 [return]@NullResponse @Goto(NewMode)
 @DifferentAnswer @SystemMessage Activate or return?
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@SetFlag(Standard) @Goto(LockPeriod)
 (LockPeriod)
 @SystemMessage Your mode/game has been set
 @SystemMessage Now #SubName
@@ -242,7 +357,7 @@
 @SystemMessage Wether it being 1 day
 @SystemMessage Or 99999 days
 @SystemMessage Keep in mind though that you cannot change the settings until the lockout period has run out
-@SystemMessage Some game ends at some point, after they end you will be asked wether you want to play again
+@SystemMessage Some game ends at some point, after they end you will be asked whether you want to play again
 @SystemMessage Should you choose not to, Tease-AI will return to standard mode and this will remain your primary mode until your lock out ends
 @SystemMessage Do you wish to lock yourself from changing mode/game?
 [yes]@SystemMessage #GNMGood @SetDate(LockOut1, 0 Days) @Goto(LockPeriod2)
@@ -257,7 +372,7 @@
 @SystemMessage Or 20
 @SystemMessage How many days do you wish to have the game/mode locked? @InputVar[Lock1Input]
 @Variable[Lock1Input]>=[1] @NullResponse @Goto(Check)
-@SystemMessage You either chose 0, a negative number of made an input that doesn't make sense
+@SystemMessage You either choose 0, a negative number doesn't make sense
 @SystemMessage You cannot write '10 Days'
 @SystemMessage You cannot write '-5'
 @SystemMessage You cannot write '5,5' or '10.6'

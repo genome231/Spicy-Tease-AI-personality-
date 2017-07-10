@@ -10,8 +10,8 @@
 (FirstTimeTeachersLounge)
 @NullResponse @CallReturn(CR\GNMChastityOff.txt)
 @RandomContact @RT(Start stroking it slowly,Start off with some slow stroking..) #DT4 @Wait(30)
-@RandomContact @RT(It's been,It has been,It is) @ShowVar[#DateDifference(DaysSinceE,Days)] days @RT(since you last came,Since you last relieve some pressure) #DT4
-@Variable[#DateDifference(DaysSinceO,Days)]<[5] @NullResponse @Goto(NoChance)
+@RandomContact @RT(It's been,It has been,It is) @ShowVar[#DateDifference(TimeSinceE,Days)] days @RT(since you last came,Since you last relieve some pressure) #DT4
+@Variable[#DateDifference(TimeSinceO,Days)]<[5] @NullResponse @Goto(NoChance)
 @RandomContact @RT(Would you like to cum #SlaveName?,Do you want to orgasm #SubName?) #DT4
 @RandomContact @RT(Right here in front of us?,Right here with us?) #DT4
 [yes]@RandomContact #GNMGrin @RT(ofcourse you would,I bet you would..) #DT4 @Goto(Chance)
@@ -62,8 +62,8 @@
 @RandomContact It's that simple! #DT4
 @RandomContact @RT(Now slave!,Well slave..,Hmm slave..) #DT4
 @RandomContact #GNMEdge #DT4 @Edge
-@RandomContact @RT(Cum!,Orgasm!) #DT4 @SetDate(DaysSinceO, 0 Days)
-@RandomContact Cum into those panties! #DT4 @SetDate(DaysSinceE, 0 Days) @Wait(10)
+@RandomContact @RT(Cum!,Orgasm!) #DT4 @SetDate(TimeSinceO, 0 Days)
+@RandomContact Cum into those panties! #DT4 @SetDate(TimeSinceE, 0 Days) @Wait(10)
 @RandomContact @RT(In your mouth!,Now put them in your mouth!) #DT4
 @RandomContact @RT(Dont think,Dont look) just do it #DT4
 @RandomContact @RT(Keep them in there!,They stay inside your mouth!) #DT4 @Wait(5)
@@ -92,7 +92,7 @@
 @RandomContact @RT(You'll definetly know when you have my permission,Listen for when I give you the permission to cum) #DT4
 @RandomContact @RT(Try to really scatter your cum all over the bed!,Try to shoot that cum all over the bed) #DT4
 @RandomContact @RT(Now go and get edging!,Now go ahead and edge over at your bed!) #DT4 @Wait(20,30)
-@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\CumForMe\cum.mp3] @SetDate(DaysSinceO, 0 Days) @Wait(26)
+@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\CumForMe\cum.mp3] @SetDate(TimeSinceO, 0 Days) @Wait(26)
 @RandomContact Come back to me #GNMGrin #DT4
 @RandomContact I hope it was worth it #DT4
 @RandomContact At least you'll think of us tonight #GNMGrin #DT4
@@ -117,7 +117,7 @@
 @RandomContact @RT(And simply let it dripple out..,Let go and make it dripple out) #DT4
 @RandomContact #GNMEdge #DT4 @Edge
 @NullResponse @Wait(3)
-@RandomContact @RT(Now let the cum dripple out!,Make it drip!) #DT4 @SetDate(DaysSinceR, 0 Days)
+@RandomContact @RT(Now let the cum dripple out!,Make it drip!) #DT4 @SetDate(TimeSinceR, 0 Days)
 @RandomContact @RT(No stroking,Absolutely no stroking!) #DT4
 @RandomContact @RT(No pleasure,No sweet pleasure) #DT4
 @RandomContact #GNMGrin #DT4
