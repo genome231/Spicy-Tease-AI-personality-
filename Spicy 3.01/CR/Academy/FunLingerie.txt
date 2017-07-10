@@ -31,7 +31,7 @@ Any voluntiers here? #DT @Timeout(10, 3a)
 (Go3)
 @NotFlag(GNMToyDildo) @NullResponse @Goto(3a)
 #SubName & #SlaveM2 @RT(You can help out,You go,You can go ahead) #DT
-@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Lingerie\Play3.txt)
+@NullResponse @CallReturn(CR\Academy\PlaySessions\Lingerie\Play3.txt)
 @NullResponse @Goto(End)
 (4)
 #SlaveF1 needs a slave @RT(for a test,to help with homework,To try something on) #DT

@@ -13,6 +13,7 @@
 (R2MovieStart)
 @RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
 @NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
-@RT(Well then..,Exelent!,#GNMGood) #DT
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
+@RT(Well then..,Excellent!,#GNMGood) #DT
 (End)
 @End

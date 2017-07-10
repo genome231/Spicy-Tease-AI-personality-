@@ -36,6 +36,7 @@ Did that vibrator touch the #Cage? #DT
 [yes]Ouch thats bad! #DT @ChangeVar[GNMMerits]=[GNMMerits]-[25]
 [no]#GNMGood, then I suppose this was <i>your</i> day then #DT
 @DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (SimpleChange)
 @RT(I have a bit of bad news,A few bad news)

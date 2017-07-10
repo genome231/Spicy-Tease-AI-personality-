@@ -7,5 +7,14 @@
 @RT(Might make you enjoy the video a little more,Perhaps you'll enjoy the video a little more!) #GNMMoan #DT
 @RT(Enjoy!,Have fun,Get at it!) #DT
 @NullResponse @PlayVideo[\GNM_Videos\Endings\O2\*.mp4]
-(@End)
+Write 'done' when you are done #SlaveName #DT
+[done, finished, came]#GNMGood #DT @Goto(End)
+@DifferentAnswer Are you done? #DT
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you come?,Did you enjoy an orgasm?) #DT
+[yes]@RT(Good for you!,That's good for you!,I hope you're happy then!) #DT
+[no]@RT(Aww,Well too bad #SlaveName) #GNMLol #DT @Goto(End)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
+(End)
 @End

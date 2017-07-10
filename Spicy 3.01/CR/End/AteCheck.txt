@@ -5,7 +5,7 @@
 @NullResponse @Goto(End)
 (CEIFirst)
 @Flag(CEITrainingComplete) @NullResponse @Goto(Continue1)
-@NullResponse @CallReturn(CR\End\CEI\CEITrainig.txt)
+@NullResponse @CallReturn(CR\End\CEI\CEITraining.txt)
 @NullResponse @Goto(End)
 (PromisedEat)
 @Goto(1,3)

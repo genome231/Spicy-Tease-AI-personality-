@@ -36,6 +36,7 @@ Miss all 5 chances and you forfeit your chance to cum #GNMMoan #DT
 @RT(Better luck next time..,Maybe next time right!,Perhaps next time!) #DT @Goto(End)
 (O3Came)
 @RT(You hit the sweet spot #GNMGrin,You got it just right!,You hit the spot exactly!) #DT
-@RT(Good for you!,I'm happy for you!) #GNMEmoteHappy #DT @Goto(End)
+@RT(Good for you!,I'm happy for you!) #GNMEmoteHappy #DT 
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 (End)
 @End

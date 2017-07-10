@@ -27,6 +27,8 @@ A mirror if possible #DT @CustomMode(done, Goto, R6Done)
 #GNMGrin #DT @CustomMode(ModeText, Normal)
 @RT(I love this little exercise,I love enforcing myself on you..) #GNMEmoteHappy  #DT
 @RT(In case you were wondering..,FYI) #DT
-@RT(This is the cow position,This is called the milking cow..) #GNMGrin #DT @Goto(End)
+@RT(This is the cow position,This is called the milking cow..) #GNMGrin #DT 
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
+@Goto(End)
 (End)
 @End

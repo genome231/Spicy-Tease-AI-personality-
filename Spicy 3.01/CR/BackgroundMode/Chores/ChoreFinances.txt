@@ -69,7 +69,7 @@
 @SystemMessage #VANC #VANP Write 'done' when you're done.. @CustomMode(done, Goto, Done) 
 @NullResponse @Wait(99999)
 (Done)
-@SystemMessage #VANC #VANP Exelent @CustomMode(Modetext, Normal)
+@SystemMessage #VANC #VANP Excellent @CustomMode(Modetext, Normal)
 @SystemMessage #VANC #VANP I'm gonna ask you for a few numbers
 @SystemMessage #VANC #VANP They might take a moment to find
 @SystemMessage #VANC #VANP Take your time

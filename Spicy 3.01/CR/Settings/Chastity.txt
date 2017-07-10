@@ -19,7 +19,7 @@
 @NullResponse @UnlockImages
 @End
 (C2)
-@NullResponse @CallReturn(CR\Settings\CageConfigure.txt)
+@NullResponse @CallReturn(CR\Settings\ChastityIntro.txt)
 @End
 (C3)
 @NullResponse @CallReturn(CR\Settings\ChastityWear.txt)

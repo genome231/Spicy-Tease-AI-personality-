@@ -30,6 +30,7 @@
 @RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
 @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

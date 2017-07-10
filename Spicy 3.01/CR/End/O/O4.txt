@@ -42,11 +42,12 @@
 [no]Well too bad #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer #GNMYesOrNo #DT
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)
 (Sissy1)
-@NullResponse @CallReturn(CR\GNMChastityOn)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
 Fetch your vibrator! #DT @Wait(15)
 Next you need to follow these instructions carefully #DT
 I recommend using tape or string for this  #DT

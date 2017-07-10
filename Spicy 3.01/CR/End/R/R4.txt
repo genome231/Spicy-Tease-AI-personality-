@@ -31,6 +31,7 @@ If you manage to do it I will reward you with gold #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(AteCheck)
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)
