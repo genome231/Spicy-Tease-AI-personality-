@@ -77,3 +77,5 @@ Perfect!
 @NullResponse @CallReturn(CR\End\DecideR.txt)
 (Deny)
 @NullResponse @CallReturn(CR\End\DecideD.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

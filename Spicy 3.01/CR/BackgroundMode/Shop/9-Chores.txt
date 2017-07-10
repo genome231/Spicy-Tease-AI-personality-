@@ -42,10 +42,3 @@
 (Poor)
 @SystemMessage #VANC #VANP You need at least 2000 gold to buy a set of extra chores
 @End
-@SystemMessage #VANC #VANP You have 4 choices
-@SystemMessage #VANC #VANP <Font color="red">1) Pay Attribute</Font> <Font color="green">2) Buy MoodBooster</Font> <Font color="yellow">3) Pay Attonement</Font> <Font color="orange">4) Unlock Denial Settings</Font>
-[one,1]@NullResponse @Goto(1)
-[two,2]@NullResponse @Goto(2)
-[three,3]@NullResponse @Goto(3)
-[four,4]@NullResponse @Goto(4)
-@DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3 or 4

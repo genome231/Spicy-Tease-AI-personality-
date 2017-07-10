@@ -105,7 +105,7 @@
 @Info
 @Info After determining wether you should ruin or orgasm a new base is set
 @Info If Stair mode is active this will grow slowly (Can not rise above +500) (Reserved for hardcore)
-@Info If Divinity mode is active this will be a high value (Reserved for extreme
+@Info If Divinity mode is active this will be a high value (Reserved for extreme)
 @Info If you ate your last orgasm the next ejaculation will come faster
 @Info 
 @Info Clean up resets todays bonus from good/bad behaviour, and what else might need.

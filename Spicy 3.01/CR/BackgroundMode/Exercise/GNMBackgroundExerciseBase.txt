@@ -1,6 +1,6 @@
 @NullResponse
 (Base)
-@NullResponse @ShowImage[@ShowImage[\GNMImages\GNMBackground\ExerciseBase1.jpg]
+@NullResponse @ShowImage[\GNMImages\GNMBackground\ExerciseBase1.jpg]
 [1]@NullResponse @Goto(BeginPractice)
 [2]@NullResponse @Goto(Report)
 [3]@NullResponse @Goto(FunExercise)
@@ -9,7 +9,7 @@
 [6]@NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 @DifferentAnswer 1, 2, 3, 4 or 6?
 (BeginPractice)
-@NullResponse @ShowImage[@ShowImage[\GNMImages\GNMBackground\ExerciseBase2.jpg]
+@NullResponse @ShowImage[\GNMImages\GNMBackground\ExerciseBase2.jpg]
 [1]@NullResponse @CheckFlag(ExerciseActive) @Goto(Running)
 [2]@NullResponse @CheckFlag(ExerciseActive) @Goto(Swimming)
 [3]@NullResponse @CheckFlag(ExerciseActive) @Goto(Bicycle)

@@ -8,7 +8,6 @@ And while you're at it a condom #DT @Wait(20) @TempFlag(CondomOn)
 @Flag(PainUpdate3) @NullResponse @Goto(Corner,Stroking,SlideShow,Video)
 @NullResponse @Goto(Corner,SlideShow)
 (b) \\Balls
-@NullResponse @Goto(15)
 @RT(Apply some to those #GNMBalls,Apply some it to your #GNMBalls) #DT
 @RT(Massage it into them,Give them a nice rubbing,Really try to rub - massage it into your Balls #GNMGrin) #DT @Wait(10) @Goto(Corner,Stroking,SlideShow,Video)
 (Corner)
@@ -21,7 +20,7 @@ You may stroke slowly to it! #DT @SetVar[SlideShow]=[0] @Goto(SlideShow2)
 (SlideShow)
 I'm putting on a slideshow, just sit there and enjoy it #GNMGrin #DT @SetVar[SlideShow]=[0]
 (SlideShow2)
-@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]+[1] @If[SlideShow]>=[240]Then(End) @Wait(3) @Goto(slideshow2)
+@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]+[1] @If[SlideShow]>=[240]Then(End) @Wait(3) @Goto(SlideShow2)
 (Video)
 I'm putting on a video for you @RT(No touching,, just watch it,You may stroke slowly - no edging ofcourse..) #DT
 @NullResponse @PlayVideo

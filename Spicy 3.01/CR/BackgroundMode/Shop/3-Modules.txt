@@ -168,7 +168,7 @@
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 500 to update modules
 @End
-(Poor1)
+(Poor2)
 @SystemMessage #VANC #VANP You dont have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 2500 to open up for glitter module control

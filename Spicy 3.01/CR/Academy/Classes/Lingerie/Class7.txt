@@ -11,10 +11,10 @@ So what image was a chemise? #DT
 [3]Wrong.. #DT
 @DifferentAnswer 1, 2 or 3? #DT
 @RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselette\*.*]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*]
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.*]
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Basque\*.*]
-So what image was a corselette? #DT
+So what image was a corselet? #DT
 [1]Correct! #DT
 [2]Wrong.. #DT
 [3]Wrong.. #DT
@@ -40,8 +40,8 @@ So what image was a chemise? #DT
 @RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Teddy\*.*]
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.*]
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselette\*.*]
-So what image was a corselette? #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*]
+So what image was a corselet? #DT
 [1]Wrong.. #DT
 [2]Wrong.. #DT
 [3]Correct! #DT
@@ -58,8 +58,8 @@ So what image was a basque? #DT
 @RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.*]
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.*]
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselette\*.*]
-So what image was a corselette? #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*]
+So what image was a corselet? #DT
 [1]Wrong.. #DT
 [2]Wrong.. #DT
 [3]Correct! #DT

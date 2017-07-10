@@ -111,11 +111,11 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
-(Count1)
-@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1)
+(Count1Will)
+@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1Will)
 @NullResponse @ChangeVar[MxTime]=[MxTime]+[#Random(1,7)]
-@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1)
-(Stop1) 
+@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1Will)
+(Stop1Will) 
 @RT(Get ready boys!,Get ready sluts,Get ready losers,At your marks..) #DT
 Say 'soft' when you're done.. #DT @CountVar[Timer]
 @RT(Go,Start,Get going!,Begin!) #DT
@@ -148,11 +148,11 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
-(Count1)
-@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1)
+(Count1Marcelo)
+@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1Marcelo)
 @NullResponse @ChangeVar[MxTime]=[MxTime]+[#Random(2,6)]
-@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1)
-(Stop1) 
+@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1Marcelo)
+(Stop1Marcelo) 
 @RT(Get ready boys!,Get ready sluts,Get ready losers,At your marks..) #DT
 Say 'soft' when you're done.. #DT @CountVar[Timer]
 @RT(Go,Start,Get going!,Begin!) #DT
@@ -185,11 +185,11 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
-(Count1)
-@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1)
+(Count1Lance)
+@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop1Lance)
 @NullResponse @ChangeVar[MxTime]=[MxTime]+[#Random(2,5)]
-@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1)
-(Stop1) 
+@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count1Lance)
+(Stop1Lance) 
 @RT(Get ready boys!,Get ready sluts,Get ready losers,At your marks..) #DT
 Say 'soft' when you're done.. #DT @CountVar[Timer]
 @RT(Go,Start,Get going!,Begin!) #DT

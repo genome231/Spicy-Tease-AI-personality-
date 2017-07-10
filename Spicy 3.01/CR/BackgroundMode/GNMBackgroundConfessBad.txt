@@ -21,6 +21,9 @@
 @SystemMessage #VANC #VANP Well okay then..
 @SystemMessage #VANC #VANP I'm not gonna stop yourself from a little punishment
 @SystemMessage Just report for punishment @ChangeVar[GNMPPoints]=[GNMPPoints]+[50] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(4)
+@SystemMessage #VANC #VANP @RT(I don't know what 4 or any of those numbers is because there is no picutre. Just adding this pointer though to remove errors)
+@SystemMessage Just report for punishment @ChangeVar[GNMPPoints]=[GNMPPoints]+[50] @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (5)
 @SystemMessage #VANC #VANP I'm not sure what else there is to punish for
 @SystemMessage #VANC #VANP Write on the forum on Milovana.com

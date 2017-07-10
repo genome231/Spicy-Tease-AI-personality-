@@ -2,7 +2,7 @@ Slaves #DT
 I'm gonna describe different lingerie #DT
 And you're gonna tell what kind it is #GNMGrin #DT @SetVar[AClass11Var]=[3]
 (Choose)
-@NullResponse @If[AClass11Var]<=[0]Then(End1) @ChangeVar[AClass11Var]=[AClass11Var]-[1] @Goto(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,x)
+@NullResponse @If[AClass11Var]<=[0]Then(End1) @ChangeVar[AClass11Var]=[AClass11Var]-[1] @Goto(a,b,c,d,e,f,g,h,i,j,k,l,m)
 (a)
 Short, sometimes sleeveless and loose fitting #DT
 Often trimmed with lace, ruffles, appliques, marabou, bows and ribbons #DT
@@ -82,7 +82,7 @@ What am I describing? #DT
 Slaves #DT
 I want you to go to a corner #DT
 Stay there and think about how you would describe different kinds of lingerie #DT
-Go now and wait for me bell #DT @Wait(#Random(120,180)
+Go now and wait for me bell #DT @Wait(#Random(120,180))
 Come back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 This was good practice #DT @Chance25(HomeWork)
 @End

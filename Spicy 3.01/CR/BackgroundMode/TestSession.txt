@@ -1,6 +1,6 @@
 @Variable[#DateDifference(TeaseSession,Hours)]>[20] @NullResponse @RapidCodeOn @Goto(TestSession)
 @SystemMessage #VANC #VANP Slave you had a session recently 
-@Variable[#DateDifference(TeaseSession,Hours)]>[17] @SystemMessage #VANC #VANP Try again in a few hours @Goto(Base)
+@Variable[#DateDifference(TeaseSession,Hours)]>[17] @SystemMessage #VANC #VANP Try again in a few hours @Goto(End)
 @SystemMessage #VANC #VANP Try again later @Goto(End)
 (TestSession)
 @NullResponse @If[GNMPPoints]>[400]Then(Deny1)

@@ -1,4 +1,4 @@
-@NullResponse @If[FirstHChallenge]>=[10]Then(AllHChallengesDone) @CheckFlag(ChallengeHFirst) @SetVar[FirstHChallenge]=[0] @SetFlag(ChallengeHFirst)
+@NullResponse @If[FirstHChallenge]>=[10]Then(AllHardCDone) @CheckFlag(ChallengeHFirst) @SetVar[FirstHChallenge]=[0] @SetFlag(ChallengeHFirst)
 (ChallengeHFirst)
 @SystemMessage #GNMVA @RT(Lets find something fun for you to do,Lets go ahead and find you a nice little challenge,You've asked for a challenge and here it comes,I love to give you challenges!)
 @NullResponse @CheckFlag(ChallengeGiven) @SetFlag(ChallengeGiven)
@@ -93,5 +93,5 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeGiven)
 @SystemMessage #GNMVA I cant give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
-(AllMediumCDone)
+(AllHardCDone)
 @SystemMessage #GNMVA You've completed all your hard challenges slaves.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

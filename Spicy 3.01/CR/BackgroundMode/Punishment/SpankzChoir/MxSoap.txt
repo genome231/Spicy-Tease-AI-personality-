@@ -1,4 +1,4 @@
-@NullResponse @Goto(1,2,3,4,5)
+@NullResponse @Goto(1,2)
 (1) \\Lick
 @SystemMessage #MxChat2 @RT(Slave,Slave,Slave,Slave,#SlaveName,#SubName) Lick that bar of soap @RT(once,once,twice) #MxChat @Wait(10)
 @SystemMessage #MxChat2 @RT(#GNMLol,#GNMGrin,#GNMEmoteHappy) #MxChat @Wait(10)

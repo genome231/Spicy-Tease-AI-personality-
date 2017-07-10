@@ -1,4 +1,4 @@
-@RT(I'll,I'm gonna,I will) Show you a few pictures of babydolls #DT
+@RT(I'll,I'm gonna,I will) show you a few pictures of babydolls #DT
 Pay attention to every detail! #DT @LockImages
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Babydoll\1.*] @Wait(#Random(30,60))
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Babydoll\2.*] @Wait(#Random(30,60))
@@ -8,6 +8,6 @@ Pay attention to every detail! #DT @LockImages
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Babydoll\6.*] @Wait(#Random(30,60))
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Babydoll\7.*] @Wait(#Random(30,60))
 @NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Babydoll\8.*] @Wait(#Random(30,60))
-@NullResponse @UnlockImages @Goto(Checks)
+@NullResponse @UnlockImages
 Time for a recess #DT
 @End

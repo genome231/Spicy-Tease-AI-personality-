@@ -9,7 +9,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3 or 4
 @End
 (1) \\Attribute
-@Variable[GNMGold]<[500] @NullResponse @Goto(Poor)
+@Variable[GNMGold]<[500] @NullResponse @Goto(Poor1)
 @SystemMessage #VANC #VANP You can tribute your #DomHonorific 500 or 1000 gold
 [fivehundred,500]@NullRespose @ChangeVar[GNMGold]=[GNMGold]-[500] @Goto(Attribute2)
 [onethousand,1000]@NullRespose @If[GNMGold]<[1000]Then(PoorG) @ChangeVar[GNMGold]=[GNMGold]-[1000] @Goto(Attribute1)
@@ -86,7 +86,7 @@
 @SystemMessage #VANC #VANP You dont have enough punishmentpoints 
 @SystemMessage #VANC #VANP You need at least 100 before you can use attonement
 @End
-(Poor3)
+(Poor4)
 @SystemMessage #VANC #VANP You dont have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 2000 to unlock your denial settings

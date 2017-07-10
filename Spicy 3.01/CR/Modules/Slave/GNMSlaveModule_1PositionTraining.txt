@@ -11,7 +11,7 @@ A quick reminder of all the positions.. #DT
 Attention @ShowImage[\GNMImages\Positions\Attention1.*] @Wait(3)
 Bad bitch @ShowImage[\GNMImages\Positions\BadBitch2.*] @Wait(3)
 Bent over @ShowImage[\GNMImages\Positions\BentOver1.*] @Wait(3)
-Bent over open @ShowImage[\GNMImages\Positions\BentOverOpen2.*] @Wait(3)
+Bent over open @ShowImage[\GNMImages\Positions\bentOverOpen2.*] @Wait(3)
 Box @ShowImage[\GNMImages\Positions\Box1.*] @Wait(3)
 Come fuck me @ShowImage[\GNMImages\Positions\CFM1.*] @Wait(3)
 Dog @ShowImage[\GNMImages\Positions\Dog1.*] @Wait(3)
@@ -69,17 +69,17 @@ Take the position #Timer #DT @Goto(aTimer)
 This is the Bent over position @ShowImage[\GNMImages\Positions\BentOver1.*] @TempFlag(PTa3)
 It gives the sub a feeling of submission @ShowImage[\GNMImages\Positions\BentOver2.*]
 Even though it on this pictures has the heels touching the ground @ShowImage[\GNMImages\Positions\BentOver1.*]
-I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\BentOver3.*]
+I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\bentOver3.*]
 Legs straigth! @ShowImage[\GNMImages\Positions\BentOver2.*]
 Fingers touching the top of your toes @ShowImage[\GNMImages\Positions\BentOver2.*]
 Head down #GNMGrin @ShowImage[\GNMImages\Positions\BentOver1.*]
 Take the position #Timer #DT @Goto(aTimer)
 (a4)
-This is the Bent over open position @ShowImage[\GNMImages\Positions\BentOverOpen2.*] @TempFlag(PTa4)
-It's a lot like the bent over with the obvious exception of the legs spread @ShowImage[\GNMImages\Positions\BentOverOpen2.*]
-Heels lifted from the ground, head down @ShowImage[\GNMImages\Positions\BentOverOpen3.*]
-It's a nice position for humiliation, punishment or both @ShowImage[\GNMImages\Positions\BentOverOpen1.*]
-Balance is quite a 'bitch' #GNMGrin @ShowImage[\GNMImages\Positions\BentOverOpen1.*]
+This is the Bent over open position @ShowImage[\GNMImages\Positions\bentOverOpen2.*] @TempFlag(PTa4)
+It's a lot like the bent over with the obvious exception of the legs spread @ShowImage[\GNMImages\Positions\bentOverOpen2.*]
+Heels lifted from the ground, head down @ShowImage[\GNMImages\Positions\bentOverOpen3.*]
+It's a nice position for humiliation, punishment or both @ShowImage[\GNMImages\Positions\bentOverOpen1.*]
+Balance is quite a 'bitch' #GNMGrin @ShowImage[\GNMImages\Positions\bentOverOpen1.*]
 Take the position #Timer #DT @Goto(aTimer)
 (a5)
 This is the Box position @ShowImage[\GNMImages\Positions\Box1.*] @TempFlag(PTa5)
@@ -190,7 +190,7 @@ We're doing 1 position more.. #DT
 @RT(It's time for some real fun!,Time for some fun,Lets have a little fun,I'm gonna make things interesting,This should be quite interesting) #DT
 @RT(A real challenge,A bit of a challenge,A fun challenge,An exciting challenge,Definetly a challenge) #GNMLol #DT @SetVar[RandomValue]=[#Random(1,20)]
 @Variable[ToyUsage]<=[RandomValue] @NullResponse @RapidCodeOn @Goto(UseToy)
-@Variable[ToyUsage]>[RandomValue] @NullResponse @Goto(NoToy)
+@Variable[ToyUsage]>[RandomValue] @NullResponse @Goto(c14)
 (UseToy)
 @NullResponse @Chance25() @Goto(b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12)
 (b1) //Gag + pegs
@@ -305,7 +305,6 @@ This should prove fun #GNMGrin #DT
 #Ready #DT
 [yes]#GNMGood #DT @Goto(c13)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
-(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16)
 (c1) //Attention /ButtPlug + gag + nipple +
 With all your gear I want you to take the attention position @ShowImage[GNMImages\Positions\Attention1.*]
 Do not change position until I tell you otherwise @ShowImage[GNMImages\Positions\Attention1.*]
@@ -335,12 +334,12 @@ Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOver2.*]
 (c4) //Bent over Open /PArachute + gag + pegs +
 #GNMGrin #DT
 This should prove fun to watch! #DT
-I want you in the Bent over open position #DT @ShowImage[GNMImages\Positions\BentOverOpen2.*]
-Head down #DT @ShowImage[GNMImages\Positions\BentOverOpen2.*]
-Stay there until you hear my bell #DT @ShowImage[GNMImages\Positions\BentOverOpen2.*]
-I want you to count everytime you lose your balance #DT @ShowImage[GNMImages\Positions\BentOverOpen2.*]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOverOpen2.*]
-Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOverOpen2.*]
+I want you in the Bent over open position #DT @ShowImage[GNMImages\Positions\bentOverOpen2.*]
+Head down #DT @ShowImage[GNMImages\Positions\bentOverOpen2.*]
+Stay there until you hear my bell #DT @ShowImage[GNMImages\Positions\bentOverOpen2.*]
+I want you to count everytime you lose your balance #DT @ShowImage[GNMImages\Positions\bentOverOpen2.*]
+If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\bentOverOpen2.*]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\bentOverOpen2.*]
 #Timer #DT @TempFlag(cBalance) @Goto(cTimer)
 (c5) //box /rice + pegs +
 #GNMGrin  #DT
@@ -569,14 +568,14 @@ Which number belongs to position bent over? #DT
 @NullResponse @Goto(ChoosePosition)
 (Position3c)
 Take position nr. 3 #DT @Wait(10)
-Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/bentOver2.*]
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/BentOver2.*]
 [yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
 [no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
 @DifferentAnswer #GNMYesOrNo #DT
 @NullResponse @Goto(ChoosePosition)
 (Position3d)
 Take position bent over #DT @Wait(5)
-Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/bentOver2.*]
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/BentOver2.*]
 [yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
 [no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
 @DifferentAnswer #GNMYesOrNo #DT
@@ -595,14 +594,14 @@ Which number belongs to the bent over open #DT
 @NullResponse @Goto(ChoosePosition)
 (Position4c)
 Take position nr. 4 #DT @Wait(10)
-Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BentOverOpen1.*]
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/bentOverOpen1.*]
 [yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
 [no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
 @DifferentAnswer #GNMYesOrNo #DT
 @NullResponse @Goto(ChoosePosition)
 (Position4d)
 Take the bent over open position #DT @Wait(5)
-Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BentOverOpen2.*]
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/bentOverOpen2.*]
 [yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
 [no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
 @DifferentAnswer #GNMYesOrNo #DT
