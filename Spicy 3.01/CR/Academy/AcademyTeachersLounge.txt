@@ -63,7 +63,7 @@
 @RandomContact @RT(Now slave!,Well slave..,Hmm slave..) #DT4
 @RandomContact #GNMEdge #DT4 @Edge
 @RandomContact @RT(Cum!,Orgasm!) #DT4 @SetDate(DaysSinceO, 0 Days)
-@RandomContact Cum into those panties! #DT4 @SetDate(DaysSinceE) @Wait(10)
+@RandomContact Cum into those panties! #DT4 @SetDate(DaysSinceE, 0 Days) @Wait(10)
 @RandomContact @RT(In your mouth!,Now put them in your mouth!) #DT4
 @RandomContact @RT(Dont think,Dont look) just do it #DT4
 @RandomContact @RT(Keep them in there!,They stay inside your mouth!) #DT4 @Wait(5)

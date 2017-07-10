@@ -28,7 +28,7 @@
 @SystemMessage And that you will only be released when told so through Tease-AI @ShowImage[\GNMImages\Settings\Chastity.jpg]
 @SystemMessage Are you capable or wearing it 24/7? Answer truthfully for your own sake.. @ShowImage[\GNMImages\Settings\Chastity.jpg]
 @SystemMessage 24/7 includes: Sleeping & exercising with the cage on @ShowImage[\GNMImages\Settings\Chastity.jpg]
-[yes]@SystemMessage This should be fun.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(ExerciseQ)
+[yes]@SystemMessage This should be fun.. @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(End)
 [no]@SystemMessage Dont be ashamed, we can always work on this. @ShowImage[\GNMImages\Settings\Chastity.jpg]
 @DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Settings\Chastity.jpg]
 @SystemMessage Well since you cant wear it 24/7 @ShowImage[\GNMImages\Settings\Chastity.jpg]
@@ -57,4 +57,5 @@
 [punishment]@SystemMessage Okay then! @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(CPunishmentActive)
 [full time,full,time]@SystemMessage Okay then! @ShowImage[\GNMImages\Settings\Chastity.jpg] @SetFlag(C247)
 @DifferentAnswer @SystemMessage Play, punishment or full time? @ShowImage[\GNMImages\Settings\Chastity.jpg]
+(End)
 @End

@@ -245,7 +245,7 @@
 @SystemMessage Some game ends at some point, after they end you will be asked wether you want to play again
 @SystemMessage Should you choose not to, Tease-AI will return to standard mode and this will remain your primary mode until your lock out ends
 @SystemMessage Do you wish to lock yourself from changing mode/game?
-[yes]@SystemMessage #GNMGood @SetDate[LockOut1, 0 Days] @Goto(LockPeriod2)
+[yes]@SystemMessage #GNMGood @SetDate(LockOut1, 0 Days) @Goto(LockPeriod2)
 [no]@SystemMessage Understood 
 @DifferentAnswer @SystemMessage Yes or no?
 @NullResponse @UnlockImages

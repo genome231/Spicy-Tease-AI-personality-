@@ -1,5 +1,5 @@
 @Flag(ToySub) 50
-@Flag(ToyDomme) @Variable[Lust]>[Anger] #Random(60,100)
+@Flag(ToyDomme) @Variable[Lust]>[Angry] #Random(60,100)
 @Flag(ToyDomme) @Variable[Lust]>[45] #Random(90,100)
 @Flag(ToyDomme) @Variable[Lust]>[35] #Random(70,80)
 @Flag(ToyDomme) @Variable[Lust]>[25] #Random(50,60)

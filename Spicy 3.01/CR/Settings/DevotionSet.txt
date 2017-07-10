@@ -2,11 +2,11 @@
 @NullResponse @RapidCodeOn @SetVar[LongSession]=[0]
 @NullResponse @SetVar[MediumSession]=[0]
 @NullResponse @SetVar[ShortSession]=[0]
-(Session length factors set to 0) <-- (2)
+@Info(Session length factors set to 0) <-- (2)
 @NullResponse @SetVar[SessionLengthFactor1]=[0]
 @NullResponse @SetVar[SessionLengthFactor2]=[0]
 @NullResponse @SetVar[SessionLengthFactor3]=[0]
-(Short, medium and long will now be made equal to DevotionSet) <--(3)
+@Info(Short, medium and long will now be made equal to DevotionSet) <--(3)
 @NullResponse @RapidCodeOn @ChangeVar[LongSession]=[LongSession]+[DevotionSet]
 @NullResponse @ChangeVar[MediumSession]=[MediumSession]+[DevotionSet]
 @NullResponse @ChangeVar[ShortSession]=[ShortSession]+[DevotionSet]
@@ -53,7 +53,7 @@ The variables are set to DevotionSet which is 45
 [SessionLengthFactor2]=[4.5] * [4] = [18] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 31 OR 32 --not sure which--
 [SessionLengthFactor3]=[4.5] * [7] = [31.5]
 (6)
-@NullResponse @ChangeVar[LongSession]=[LongSession]-[SessionLengthFactor1] <-- [45]-[4.5] = [41.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 41 OR 42 --not sure which--
+@NullResponse @ChangeVar[LongSession]=[LongSession]-[SessionLengthFactor1] <-- [45]-[4.5] = [41.5] @Info(NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 41 OR 42 --not sure which--
 @NullResponse @ChangeVar[MediumSession]=[MediumSession]-[SessionLengthFactor2] <-- [45]-[18] = [27]
 @NullResponse @ChangeVar[ShortSession]=[ShortSession]-[SessionLengthFactor3] <-- [45]-[31.5] = [13.5] <-- NOTICE THAT TEASE-AI DOES NOT DEAL WITH DECIMALS SO THIS IS EITHER TURNED INTO 32 OR 14 --not sure which--
 (How does this work with #DT) \\#DT decides how "dressed" the domme is in combination with your level of [GNMMerits]

@@ -38,8 +38,8 @@
 (Continue2)
 #SlaveF1Chat Lets have you do 30 edges today #GNMGrin @SetVar[EdgesDueF1]=[30]
 (EdgeSpiral)
-#SlaveF1Chat @Edge #F1Edge @ShowImage
-#SlaveF1Chat #F1FadeEdge @Wait(10) @ChangeVar[FWF1X1]=[FWFX1]+[#Random(1, 2)]
+#SlaveF1Chat @Edge #GNMEdge @ShowImage
+#SlaveF1Chat #GNMLetTheEdgeFade @Wait(10) @ChangeVar[FWF1X1]=[FWFX1]+[#Random(1, 2)]
 @NullResponse @If[EdgesDueF1]<=[0]Then(End1) @ChangeVar[EdgesDueF1]=[EdgesDueF1]-[1] @Goto(EdgeSpiral)
 (End1)
 @Flag(SecretDeal1) #SlaveF1Chat We're at the end #GNMGrin @If[FWF1X1]>=[65]Then(Cum)

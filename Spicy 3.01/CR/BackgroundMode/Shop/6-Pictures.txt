@@ -19,7 +19,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP 1, 2 or x
 (1)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[1000]
-@SystemMessage #VANC #VANP Transaction Complete @SetFlag(PictureBought2)
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(PictureBought1)
 @SystemMessage #VANC #VANP This is the other half of the link: 
 @End
 (2)
