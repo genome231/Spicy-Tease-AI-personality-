@@ -23,10 +23,17 @@ If you manage to do it I will reward you with gold #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Enjoy #SlaveName,Have fun little one!) #DT
 @NullResponse @ShowVideo[\GNM_Videos\Endings\R4\*.mp4]
-@RT(Did you succeed slave?,Now did you make it slave?) #DT
-[yes]@RT(Transfering some gold then,Sending you gold!) #GNMGrin #DT #GoldMedium @Goto(End)
+@RT(Did you watch the whole video slave?,Now did you make it through the video slave?) #DT
+[yes]@RT(Transfering some gold then,Sending you gold!) #GNMGrin #DT #GoldMedium @Goto(CheckOrgasm)
 [no]Well well.. #DT
 @DifferentAnswer #GNMYesOrNo #DT
-@RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(End)
+@RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] 
+(CheckOrgasm)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you come?,Did you enjoy an orgasm?) #DT
+[yes]@RT(Good for you!,That's good for you!,I hope you're happy then!) #DT
+[no]@RT(Aww,Well too bad #SlaveName) #GNMLol #DT @Goto(End)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 (End)
 @End

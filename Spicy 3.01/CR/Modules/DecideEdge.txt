@@ -12,7 +12,7 @@
 @NullResponse @Goto(Maybe)
 (MaybeStrokeEdge)
 @NullResponse @DeleteFlag(MaybeStrokeEdge)
-@Variable[Lust]>[21] @NullResponse @If[Lust]>[#Random(20,30))]Then(DontCare) @Goto(Maybe)
+@Variable[Lust]>[21] @NullResponse @If[Lust]>[#Random(20,30)]Then(DontCare) @Goto(Maybe)
 @Variable[Angry]>[25] @NullResponse @If[Angry]>[#Random(20,30)]Then(NotAllowed) @Goto(Maybe)
 @Variable[Happy]>[21] @NullResponse @Chance25(Maybe) @Goto(DontCare)
 @NullResponse @Goto(Maybe)

@@ -54,8 +54,11 @@
 @SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)
 @NullResponse @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (Meal9)
-@NullResponse @CheckFlag(GNMAskedToBuyLingerieAdvanced) 
-@NullResponse @CheckFlag(GNMAskedToBuyLingerieBasic) @Goto(Meal9a)
+@NullResponse @CheckFlag(GNMToyLingerieBasic)
+@NullResponse @CheckFlag(GNMToyLingerieAdvanced)
+@NullResponse @CallReturn(Custom\Miniscripts\BGToys\GNMBGToyLingerie.txt)
+@NullResponse @CheckFlag(GNMToyLingerieAdvanced) @Goto(Meal9a)
+@NullResponse @CheckFlag(GNMToyLingerieBasic) @Goto(Meal9a)
 (Meal9a)
 @SystemMessage #GNMVA You may enjoy whatever you want.
 @SystemMessage #GNMVA @RT(Bon appetité,Enjoy,Hope you'll like it,Enjoy your meal)

@@ -16,7 +16,7 @@ Go, retrieve your high heels and put them on *Wink* #DT
 Well next I want you to get some sort of recording device ready #DT @Wait(20)
 @RT(Thats right!,Thats correct!,Right on!) #DT
 We're gonna film you #GNMGrin #DT @CheckFlag(LingerieOn)
-@NullResponse @CallReturn(CR\GNMLingerieOn.txt) @Goto(Walk)
+@NullResponse @CallReturn(CR\ToysOn\GNMLingerieOn.txt) @Goto(Walk)
 (LingerieOn)
 And I see you're already wearing your lovely lingerie #GNMGrin #DT
 (Walk)

@@ -1,0 +1,4 @@
+@RapidCodeOn
+@NullResponse @SetDate(TimeSinceR, 0 Days)
+@NullResponse @SetDate(TimeSinceE, 0 Days)
+@End

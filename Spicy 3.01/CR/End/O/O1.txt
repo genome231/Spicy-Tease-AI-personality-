@@ -28,6 +28,7 @@ Did you cum? #DT
 @RT(Well well,Wauv that was quick!) #DT @CustomMode(ModeText, Normal)
 @RT(I hope you enjoyed it!,I do hope you managed to enjoy it!) #GNMEmoteHappy #DT @Goto(AteCheck)
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

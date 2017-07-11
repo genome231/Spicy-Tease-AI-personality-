@@ -5,5 +5,6 @@
 @RT(When you cross the edge then it's hands behind your head,Right after you cross the edge I want you to sit on your hands!) #DT
 @RT(Enjoy,"Blows a kiss") #GNMLol #DT
 @NullResponse @ShowVideo[\GNM_Videos\Endings\R3\*.mp4]
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
 @RT(Well then..,#GNMLol) #DT
 (End)

@@ -40,6 +40,14 @@ Do we have a deal? #DT
 [no]Then I guess you're not horny enough #DT @Goto(Deny) 
 @DifferentAnswer #GNMYesOrNo #DT
 Give me just a moment #GNMGrin #DT @Goto(R2MovieStart)
+(R2MovieStart)
+@RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
+@NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
+@RT(Well then..,Excellent!,#GNMGood) #DT
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you cum?,Did you orgasm?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
 (WS1)
 @NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Cage.mp4]
 Ufff straigth denial for a full day! #DT
@@ -77,7 +85,28 @@ But! #DT
 @NotFlag(HasChastity)But your fingers may not touch your #GNMCock #DT
 I'm only giving you 2 minute to enjoy it #DT
 If you're able to ejaculate in that timeframe you have my permission #DT
-But as soon as you hear my bell its hands off! #DT @Goto(CM2Continue1)
+But as soon as you hear my bell it's hands off! #DT 
+@RT(You're gonna fetch your vibrator now,Retrieve your vibrator now,Go ahead and get your vibrator) #DT @Wait(10)
+Got it? #DT
+[yes]#GNMGood #DT
+[no]Hurry up then.. #DT @Wait(25)
+Write 'I came' if you manage to vibrate those balls to bliss #DT @CustomMode(i came, Goto, CM2Came)
+Turn on and apply the vibrator @RT(#SlaveName,#Slut) @LockImages @ShowImage @Wait(30)
+@RT(I hope you can handle the intense sensations,Enjoy it while it lasts!) #GNMMoan @Wait(30)
+Are you getting close slave? @Timeout(20, TimesUp)
+[yes]Oh wauv then you might actually be desperate #GNMLol @Wait(60)
+[no]#GNMGrin I suppose thats no wonder #GNMEmoteHappy @Wait(60)
+(TimesUp)
+@RT(Times up slave!,Stop!,You can stop now!) @UnlockImages #DT @CustomMode(ModeText, Normal)
+@RT(Turn off the vibrator and put it away..,Put the vibrator away for now) #DT @Wait(10) @Goto(ChastityCheck)
+(CM2Came)
+I cant believe it! #DT @SetDate(TimeSinceE, 0 Days) @CustomMode(ModeText, Normal)
+Be honest #DT @SetDate(TimeSinceR, 0 Days)
+Did that vibrator touch the #Cage? #DT
+[yes]Ouch thats bad! #DT @ChangeVar[GNMMerits]=[GNMMerits]-[25]
+[no]#GNMGood, then I suppose this was <i>your</i> day then #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\AteCheck.txt)
 (WSNo)
 @NullResponse @PlayVideo[\GNM_Videos\Endings\Roulette\Denial.mp4]
 #GNMGrin #DT
@@ -89,3 +118,7 @@ Better luck tomorrow! #DT @Goto(Deny)
 @NullResponse @CallReturn(CR\End\DecideR.txt)
 (Deny)
 @NullResponse @CallReturn(CR\End\DecideD.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\AteCheck.txt)

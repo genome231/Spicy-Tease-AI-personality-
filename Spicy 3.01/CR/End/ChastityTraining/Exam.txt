@@ -27,5 +27,3 @@ Calm yourself and stay strong! #DT @SetFlag(ChastityIsOn) @ChastityOn
 (NotComplete)
 Well maybe next time #SlaveName #DT
 @End
-(DuringExam)
-@End

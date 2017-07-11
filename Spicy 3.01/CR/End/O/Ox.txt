@@ -19,6 +19,7 @@ Game
 
 
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

@@ -6,5 +6,5 @@ In any case I want you all to be quiet and focused until I ring my bell #DT
 You may begin.. #DT
 @NullResponse @Wait(#Random(300,420))
 (Bell)
-Come here #DT @PlayAudio[\GNMSounds\SpecialSounds\Bells.mp3]
+Come here #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @End

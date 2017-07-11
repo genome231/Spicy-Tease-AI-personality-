@@ -4,17 +4,20 @@
 @RT(You'll have between 5 and 15 minutes to cum,You'll be given 5-15 minutes to ejaculate) #DT
 @RT(Exactly how much time I wont tell you,You wont know exactly how much time..) #DT
 @RT(When you hear the bell I want you to stop if you're still stroking,You will hear a bell when I want you to stop) #DT
-@RT(You may cum only once..,Ofcourse you can only cum once) #DT
+@RT(You may cum only once..,Of course you can only cum once) #DT
 @RT(The clock is ticking,Tick tock!) @RT(#SlaveName,#SubName) #DT
 Write 'done' when you're done #DT @CustomMode(done, Goto, O1Done) @Wait(#Random(300,1500))
 @RT(Get back here and stop stroking!,Stop stroking right now!) #DT @CustomMode(ModeText, Normal) @PlayAudio[\GNMSounds\Stroking\StopStroking\StopStroking.mp3]
 @RT(I hope you made it,I do hope you made it..) #DT
 @RT(If not then there's always next time,If not well then next time..) @RT(#GNMGrin,#GNMMoan) #DT
 Did you cum? #DT
-[yes]@RT(Good for you!,Thats good for you!,I hope you're happy then!) #DT @Goto(End)
+[yes]@RT(Good for you!,Thats good for you!,I hope you're happy then!) #DT
 [no]@RT(Aww,Well too bad #SlaveName) #GNMLol #DT @Goto(End)
 @DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
+@NullResponse @Goto(End)
 (O1Done)
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @RT(Well well,Wauv that was quick!) #DT @CustomMode(ModeText, Normal)
 @RT(I hope you enjoyed it!,I do hope you managed to enjoy it!) #GNMEmoteHappy #DT @Goto(End)
 (End)

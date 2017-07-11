@@ -2,11 +2,11 @@
 @NullResponse @RapidCodeOn @SetVar[LongSession]=[0]
 @NullResponse @SetVar[MediumSession]=[0]
 @NullResponse @SetVar[ShortSession]=[0]
-(Session length factors set to 0) <-- (2)
+@Info(Session length factors set to 0) <-- (2)
 @NullResponse @SetVar[SessionLengthFactor1]=[0]
 @NullResponse @SetVar[SessionLengthFactor2]=[0]
 @NullResponse @SetVar[SessionLengthFactor3]=[0]
-(Short, medium and long will now be made equal to DevotionSet) <--(3)
+@Info(Short, medium and long will now be made equal to DevotionSet) <--(3)
 @NullResponse @RapidCodeOn @ChangeVar[LongSession]=[LongSession]+[DevotionSet]
 @NullResponse @ChangeVar[MediumSession]=[MediumSession]+[DevotionSet]
 @NullResponse @ChangeVar[ShortSession]=[ShortSession]+[DevotionSet]

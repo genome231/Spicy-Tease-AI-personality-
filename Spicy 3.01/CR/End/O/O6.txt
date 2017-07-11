@@ -1,5 +1,5 @@
 (O6) //orgasm in cow position
-@Flag(SissyMode) @NullResponse @CallReturn(CR\GNMChastityOn)
+@Flag(SissyMode) @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @RT(I love nothing more than humiliating a #SlaveName when he is most vulnerable,It's the best thing in the world to humiliate #SlaveName) #DT
 @RT(I considder that moment to be when you're about to cum..,And I cant imagine a better momment than when you're cumming) #DT
 @RT(For your next orgasm I want you on all fours,For this next orgasm of yours you're gonna get on all fours) #DT
@@ -16,7 +16,7 @@ Not a moment before.. #DT @Timeout(#Random(550,600),continue)
 @AcceptAnswer @RT(I told you not to move before the timer was up..,I gave you strict orders now to move before the bell!) #MeritChangeNMedium #DT
 I'm assigning you punishment points.. #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[40] @Goto(AteCheck)
 (continue)
-@RT(Come back here..,Get back here!) #DT @PlayAudio[\GNMSounds\Audio\GNMSounds\SpecialSounds\Bell.mp3]
+@RT(Come back here..,Get back here!) #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @RT(I hope you <i>enjoyed</i> that you miserable fuck..,I hope you had fun #SlaveName) #GNMLol #DT
 (Test)
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT
@@ -25,6 +25,7 @@ I'm assigning you punishment points.. #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[4
 [no]Well too bad #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer #GNMYesOrNo #DT
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

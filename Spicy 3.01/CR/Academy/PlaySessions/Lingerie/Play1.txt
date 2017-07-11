@@ -8,7 +8,7 @@
 #SlaveF1Chat So what you have to do is edge over and over again
 #SlaveF1Chat While you do
 #SlaveF1Chat I will present you with different visual stimuli and watch your reactions
-#SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days]>=[7]Then(Maybe) @Goto(Continue2)
+#SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days)]>=[7]Then(Maybe) @Goto(Continue2)
 (Maybe)
 #SlaveF1Chat I noticed in your records that it's @ShowVar[#DateDifference(DaysSinceE, Days)] days since you last ejaculated
 #SlaveF1Chat If you do good today
@@ -38,8 +38,8 @@
 (Continue2)
 #SlaveF1Chat Lets have you do 30 edges today #GNMGrin @SetVar[EdgesDueF1]=[30]
 (EdgeSpiral)
-#SlaveF1Chat @Edge #F1Edge @ShowImage
-#SlaveF1Chat #F1FadeEdge @Wait(10) @ChangeVar[FWF1X1]=[FWFX1]+[#Random(1, 2)]
+#SlaveF1Chat @Edge #GNMEdge @ShowImage
+#SlaveF1Chat #GNMLetTheEdgeFade @Wait(10) @ChangeVar[FWF1X1]=[FWF1X1]+[#Random(1, 2)]
 @NullResponse @If[EdgesDueF1]<=[0]Then(End1) @ChangeVar[EdgesDueF1]=[EdgesDueF1]-[1] @Goto(EdgeSpiral)
 (End1)
 @Flag(SecretDeal1) #SlaveF1Chat We're at the end #GNMGrin @If[FWF1X1]>=[65]Then(Cum)

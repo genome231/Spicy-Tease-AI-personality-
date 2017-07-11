@@ -6,7 +6,7 @@ Well we can still do it #DT
 You'll just look a little less lovely #GNMLol #DT @Goto(Photoshoot)
 (GNMToyLingerieBasic)
 (GNMToyLingerieAdvanced)
-@NullResponse @CallReturn(CR\GNMLingerieOn.txt)
+@NullResponse @CallReturn(CR\ToysOn\GNMLingerieOn.txt)
 (Photoshoot)
 @RT(It's time for a photoshoot!,Lets do a photoshoot!,I want to do a photoshoot!) #DT
 #GNMEmoteHappy  #DT

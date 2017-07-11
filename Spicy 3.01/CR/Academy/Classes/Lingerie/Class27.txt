@@ -30,7 +30,7 @@ Correct! @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] #DT @Goto(End)
 (3ba)
 When was the first example of nylon produced? #DT
 1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late3)
-[1]Wrong.. #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1]) @Goto(End)
+[1]Wrong.. #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
 [2]Wrong.. #DT @ChangeVar[AcademyWrong]=[AcademyWrong]+[1] @Goto(End)
 [3]Correct.. #DT @ChangeVar[AcademyRight]=[AcademyRight]+[1] @Goto(End)
 @DifferentAnswer 1, 2 or 3? #DT

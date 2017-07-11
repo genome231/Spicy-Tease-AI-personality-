@@ -1,4 +1,4 @@
-@NullResponse @CheckFlag(ExerciseInDone) @SetFlag(ExerciseInDone)
+@NullResponse @NotFlag(ExerciseInDone) @SetFlag(ExerciseInDone)
 Here you can find instructions and general advice regarding exercise 
 (Start)
 @NullResponse @ShowImage[\GNMImages\GNMBackground\ExerciseBase3.jpg]

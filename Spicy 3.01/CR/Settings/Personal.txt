@@ -119,6 +119,6 @@
 (Poor1)
 @SystemMessage The price to return to part time is 2000 gold
 @SystemMessage You only have @ShowVar[GNMGold] gold @Goto(Personal)
-(Poor1)
+(Poor2)
 @SystemMessage The price to try full time again is 200 gold
 @SystemMessage You only have @ShowVar[GNMGold] gold @Goto(Personal)

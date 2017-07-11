@@ -15,7 +15,7 @@
 @RT(Oh..,And..) You have my permission to ruin it #GNMGrin
 @RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
 @NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
-@RT(Well then..,Exelent!,#GNMGood) #DT
+@RT(Well then..,Excellent!,#GNMGood) #DT
 (Test)
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT
 @RT(Did you ruin?,Did you ruin yourself?) #DT
@@ -30,6 +30,7 @@
 @RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
 @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
 (AteCheck)
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

@@ -25,15 +25,19 @@
 @NullResponse @ShowImage @Wait(#Random(3,7))
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT
 @RT(Did you ruin?,Did you ruin yourself?) #DT
-[yes]#GNMGood #DT @Goto(End)
+[yes]#GNMGood #DT @Goto(Ruin)
 [no]@RT(No?,What do you mean no?) #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Did you orgasm or did you simply not make it?,Did you have an orgasm or nothing at all?) #DT
 [orgasm,i came]@RT(What!?,Oh my..) #DT @Goto(Bad)
 [ruin,ruined,make it,didn't make it,nothing]Well better luck next time #GNMGrin #DT @Goto(End)
 @DifferentAnswer Did you cum or didn't you make it? #DT
+(Ruin)
+@NullResponse @CallReturn(CR\End\SetTimeR.txt)
+@NullResponse @Goto(End)
 (Bad)
 @RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT
 @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250]
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 (End)
 @End

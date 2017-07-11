@@ -9,27 +9,27 @@
 @SystemMessage #GNMVA If you cant do what is being asked of you then say 'stop' @CustomMode(stop, Goto, Stop)
 (Pushups)
 @SystemMessage #GNMVA @RT(Get ready for some push ups!,Get ready to do some push ups!,Starting with some pushups!)
-@Flag(EasySporty) @SystemMessage #GNMVA Do #Random[20, 40]! @Wait(20)
-@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random[50, 80] @Wait(30)
-@Flag(HardSporty) @SystemMessage #GNMVA Do #Random[100, 130]! @Wait(75)
+@Flag(EasySporty) @SystemMessage #GNMVA Do #Random(20, 40)! @Wait(20)
+@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random(50, 80) @Wait(30)
+@Flag(HardSporty) @SystemMessage #GNMVA Do #Random(100, 130)! @Wait(75)
 @SystemMessage #GNMVA #GNMReady
 [yes]@SystemMessage #GNMVA #GNMGood
 [no]@SystemMessage #GNMVA Hurry up then! @Wait(30)
 @DifferentAnswer @SystemMessage #GNMVA Yes or no?
 (Crunches)
 @SystemMessage #GNMVA @RT(Lets do some crunches,Next we're gonna do some crunches,Prepare to do some crunches)
-@Flag(EasySporty) @SystemMessage #GNMVA Do #Random[20, 40]! @Wait(20)
-@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random[50, 80] @Wait(30)
-@Flag(HardSporty) @SystemMessage #GNMVA Do #Random[100, 130]! @Wait(75)
+@Flag(EasySporty) @SystemMessage #GNMVA Do #Random(20, 40)! @Wait(20)
+@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random(50, 80) @Wait(30)
+@Flag(HardSporty) @SystemMessage #GNMVA Do #Random(100, 130)! @Wait(75)
 @SystemMessage #GNMVA #GNMReady
 [yes]@SystemMessage #GNMVA #GNMGood
 [no]@SystemMessage #GNMVA Hurry up then! @Wait(30)
 @DifferentAnswer @SystemMessage #GNMVA Yes or no?
 (Squat)
 @SystemMessage #GNMVA @RT(Its time for some squating,Next we're gonna do some squats!,Time to work on some squats!)
-@Flag(EasySporty) @SystemMessage #GNMVA Do #Random[20, 40]! @Wait(20)
-@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random[50, 80] @Wait(30)
-@Flag(HardSporty) @SystemMessage #GNMVA Do #Random[100, 130]! @Wait(75)
+@Flag(EasySporty) @SystemMessage #GNMVA Do #Random(20, 40)! @Wait(20)
+@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random(50, 80)! @Wait(30)
+@Flag(HardSporty) @SystemMessage #GNMVA Do #Random(100, 130)! @Wait(75)
 @SystemMessage #GNMVA #GNMReady
 [yes]@SystemMessage #GNMVA #GNMGood
 [no]@SystemMessage #GNMVA Hurry up then! @Wait(30)
@@ -52,9 +52,9 @@
 @Flag(HardSporty) @SystemMessage #GNMVA Stop! @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 (Lunge)
 @SystemMessage #GNMVA @RT(Lets do some lunges,Time for some lunges)
-@Flag(EasySporty) @SystemMessage #GNMVA Do #Random[20, 40]! @Wait(20)
-@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random[50, 80] @Wait(30)
-@Flag(HardSporty) @SystemMessage #GNMVA Do #Random[100, 130]! @Wait(75)
+@Flag(EasySporty) @SystemMessage #GNMVA Do #Random(20, 40)! @Wait(20)
+@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random(50, 80) @Wait(30)
+@Flag(HardSporty) @SystemMessage #GNMVA Do #Random(100, 130)! @Wait(75)
 @SystemMessage #GNMVA #GNMReady
 [yes]@SystemMessage #GNMVA #GNMGood
 [no]@SystemMessage #GNMVA Hurry up then! @Wait(30)
@@ -62,9 +62,9 @@
 (CalfRaise)
 @SystemMessage #GNMVA You should probably find some stairs or similar for this next on
 @SystemMessage #GNMVA I want you doing calf raises
-@Flag(EasySporty) @SystemMessage #GNMVA Do #Random[20, 40]! @Wait(20)
-@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random[50, 80] @Wait(30)
-@Flag(HardSporty) @SystemMessage #GNMVA Do #Random[100, 130]! @Wait(75)
+@Flag(EasySporty) @SystemMessage #GNMVA Do #Random(20, 40)! @Wait(20)
+@Flag(MediumSporty) @SystemMessage #GNMVA Do #Random(50, 80) @Wait(30)
+@Flag(HardSporty) @SystemMessage #GNMVA Do #Random(100, 130)! @Wait(75)
 @SystemMessage #GNMVA #GNMReady
 [yes]@SystemMessage #GNMVA #GNMGood
 [no]@SystemMessage #GNMVA Hurry up then! @Wait(30)

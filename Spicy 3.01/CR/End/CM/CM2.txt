@@ -9,7 +9,6 @@ Got it? #DT
 [yes]#GNMGood #DT
 [no]Hurry up then.. #DT @Wait(25)
 @DifferentAnswer #GNMYesOrNo #DT
-@NullResponse @CallReturn(CR\GNMChastityOn.txt)
 (CM2Continue1)
 @RT(Well here is how this goes,So here is how we'll proceed,Here are the rules..) #DT
 @RT(I'm gonna show you <i>one</i> image,I'm gonna put one image on display) #DT
@@ -37,8 +36,10 @@ Did that vibrator touch the #Cage? #DT
 [yes]Ouch thats bad! #DT @ChangeVar[GNMMerits]=[GNMMerits]-[25]
 [no]#GNMGood, then I suppose this was <i>your</i> day then #DT
 @DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\SetTimeO.txt)
 @NullResponse @CallReturn(CR\End\AteCheck.txt)
 (SimpleChange)
 @RT(I have a bit of bad news,A few bad news)
 @RT(You're not cumming today,No ejaculation today anyway) #GNMMoan
+(ChastityCheck)
 @NullResponse @CallReturn(CR\End\GNMChastityIsOn.txt)

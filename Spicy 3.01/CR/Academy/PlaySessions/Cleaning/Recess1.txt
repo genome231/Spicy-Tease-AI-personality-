@@ -1,5 +1,5 @@
 @NullResponse @SetVar[RecessChance]=[#Random(1,300)]
-
+@NullResponse @Goto(F2b, F3, Da, Db)
 (F2b) //Want a contest about which slave can hold a certain position for the longest period and keep balance
 #SlaveF2Chat Slaves!
 #SlaveF2Chat I want to have a little fun #GNMLol
