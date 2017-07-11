@@ -20,11 +20,11 @@
 [yes]@SystemMessage #GNMVA Fantastic! @SetFlag(GNMToyLingerieBasic)
 [no]@SystemMessage #GNMVA Oh... #GNMEmoteSad @Goto(ConvinceBasic)
 @DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
-@SystemMessage #GNMVA You wouldn't happen to have also bought a set of stockings and a garter belt would you?
+@SystemMessage #GNMVA You wouldn't happen to have also bought a set of stockings and a garter belt would you? @DeleteFlag(GNMAskedToBuyLingerieBasic)
 [yes]@SystemMessage #GNMVA YAA! @SetFlag(GNMToyLingerieAdvanced)
 [no]@SystemMessage #GNMVA Aww #GNMEmoteSad @SetFlag(GNMAskedToBuyLingerieAdvanced) @Goto(ConvinceAdvanced)
 @DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
-@SystemMessage #GNMVA This is gonna be so much fun!
+@SystemMessage #GNMVA This is gonna be so much fun! @DeleteFlag(GNMAskedToBuyLingerieAdvanced)
 @End
 (GNMAskedToBuyLingerieAdvanced)
 @SystemMessage #GNMVA I previously asked you to buy a set of stockings and a garter belt
@@ -32,7 +32,7 @@
 [yes]@SystemMessage #GNMVA YAA! @SetFlag(GNMToyLingerieAdvanced)
 [no]@SystemMessage #GNMVA Aww #GNMEmoteSad @Goto(ConvinceAdvanced)
 @DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
-@SystemMessage #GNMVA This is gonna be so much fun!
+@SystemMessage #GNMVA This is gonna be so much fun! @DeleteFlag(GNMAskedToBuyLingerieBasic, GNMAskedToBuyLingerieAdvanced)
 @End
 (ConvinceBasic)
 @SystemMessage #GNMVA Maybe this will convince you to buy a pair of panties and a sexy bra!
