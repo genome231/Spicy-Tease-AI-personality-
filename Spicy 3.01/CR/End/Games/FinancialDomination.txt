@@ -1,6 +1,6 @@
 (FinancialDomination)
 So #SlaveName #DT
-You have @ShowVar[GNMGold] gold #DT @If[GNMGold]<[200](FDRange)
+You have @ShowVar[GNMGold] gold #DT @If[GNMGold]<[200]Then(FDRange)
 Let see what a price for your release is at today #GNMGrin #DT @RapidCodeOn
 @Flag(Personality1, VPleased) @NullResponse @SetVar[FDOffer]=[#Random(200, 300)]
 @Flag(Personality1, Pleased) @NullResponse @SetVar[FDOffer]=[#Random(200, 400)]
