@@ -209,7 +209,7 @@ So tell me #SlaveName #DT
 How much water is there left? #DT @InputVar[SumOfWater2]
 @NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]*[100]
 @NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]/[SumOfWater]
-@NullResponse @If[SumOfWater2]>=[25] @NullResponse @Goto(Bad1)
+@NullResponse @If[SumOfWater2]>=[25]Then(Bad1)
 You lost @ShowVar[SumOfWater2] % water #DT
 Which I can tolerate.. #DT @Goto(Continue3)
 (Bad1)

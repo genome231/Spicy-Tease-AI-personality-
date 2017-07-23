@@ -8,7 +8,7 @@
 #SlaveF1Chat So what you have to do is edge over and over again
 #SlaveF1Chat While you do
 #SlaveF1Chat I will present you with different visual stimuli and watch your reactions
-#SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days]>=[7]Then(Maybe) @Goto(Continue2)
+#SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days)]>=[7]Then(Maybe) @Goto(Continue2)
 (Maybe)
 #SlaveF1Chat I noticed in your records that it's @ShowVar[#DateDifference(DaysSinceE, Days)] days since you last ejaculated
 #SlaveF1Chat If you do good today
