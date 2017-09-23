@@ -1,0 +1,42 @@
+This class #SubName is a one on one session #DT
+I have disconnected the others.. #DT
+@RT(Lets have a bit of fun!,Lets have a little fun,Lets make you "walk") #DT @CheckFlag(HasHeels)
+But first.. #DT
+Do you have a pair of high heels? #DT
+[yes]Exelent! #DT #GNMGood @SetFlag(HasHeels) @Goto(HasHeels)
+[no]Oh well.. Maybe next time then #DT @Goto(Fun)
+@DifferentAnswer #GNMYesOrNo #DT
+(HasHeels)
+Go, retrieve your high heels and put them on *Wink* #DT
+@RT(You have 10 seconds..,10 seconds to do it!) #DT
+(Fun)
+@RT(First off I'm gonna show you a little video,Let me show you a video first..) #DT
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\Class9\*.mp4]
+@RT(#GNMLol,#GNMGrin) #DT
+Well next I want you to get some sort of recording device ready #DT @Wait(20)
+@RT(Thats right!,Thats correct!,Right on!) #DT
+We're gonna film you #GNMGrin #DT @CheckFlag(LingerieOn)
+@NullResponse @CallReturn(CR\ToysOn\GNMLingerieOn.txt) @Goto(Walk)
+(LingerieOn)
+And I see you're already wearing your lovely lingerie #GNMGrin #DT
+(Walk)
+@RT(Okay then..,Right then..,Okay..) #DT
+@RT(I want you to turn on your device,Turn on your recording device) #DT
+@RT(Walk back and fourth at least 5 times,Do the catwalk at least 10 times) #DT
+Giving the catwalk ALL you got! #DT
+Do something sexy at each turn #DT
+Remember to look at the camera a little #DT
+And most importantly! #DT
+Remember to store the video inside your "SelfHumiliation" folder inside GNM_Videos #DT #GNMGrin
+Now get those legs to work #GNMSlut and come back when you're done.. #DT @Wait(120)
+Done? #DT
+[yes]#GNMGood #DT
+[no]What!?.. #DT @Goto(Walk)
+@AcceptAnswer #GNMGood #DT
+Well this was fun! #DT @Chance50(Extra)
+@End
+(Extra)
+Lets have a look at one of your selfhumiliation videos #GNMGrin  #DT
+@NullResponse @PlayVideo[\GNM_Videos\SelfHumiliation\*.mp4]
+#GNMLol #DT
+@End

@@ -1,0 +1,31 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5e]=[R5e]+[1] @CheckFlag(R5eFirst) 
+@NullResponse @SetVar[R5e]=[1] @TempFlag(R5eFirst)
+(R5eFirst)
+@Variable[R5e]>=[2] @NullResponse @Goto(OhNo)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@RT(I really think you should,Just eat 1 fingertip of cum,just eat a little of it)
+@End
+(Neutral)
+@RT(I really think you should,Just eat 1 fingertip of cum,just eat a little of it)
+@End
+(Pleased)
+(VPleased)
+@RT(I really think you should,Just eat 1 fingertip of cum,just eat a little of it)
+@End
+(OhNo)
+@RT(Well then!,You know how I feel about that!,Hmm) #DT #MeritChangeNMedium @CheckFlag(ChastityIsOn)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Then you can enjoy the inside of the #Cage for a few days,Then stay in your #Cage !!) #DT @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
+(ChastityIsOn)
+@Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @RT(Have fun inside your #Cage,Enjoy that #Cage!,Enjoy your #Cage) #DT @ChangeVar[PDenialSet]=[PDenialSet]+[48] @Goto(End)
+@RT(A few days inside the #Cage should soften you a little,I'm gonna let the #Cage work on you a little..) #DT @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
+@End
+(End)
+@End

@@ -1,0 +1,28 @@
+We're gonna look into posing and lights #DT
+Girls and sissys this is important because you wanna look sexy #DT
+And guys this is important because... #DT
+The pictures used to blackmail and humiliate you has to be good #DT
+#GNMLol #DT
+@RT(Oh well..,Hmm) #DT
+Lets watch a video #DT @PlayVideo[\GNM_Videos\Academy\Lingerie\Class10\*.mp4]
+#GNMEmoteHappy #DT
+@RT(Now class,Class,girls and slaves) #DT
+I want you to spend a little moment googling about different poses #DT
+Learn about light #DT
+And what it takes to make good pictures.. #DT
+(Timer)
+You may begin.. #DT
+Return when you hear the bell #DT @Wait(#Random(180,300))
+Come back! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+(Poses)
+@RT(Well I hope you've learned something,That you've picked up something)  #DT
+@RT(Because right now you're all gonna pose for me!,Because I wanna see some posing!) #DT
+@RT(I want you get in front of a mirror,Go in front of a mirror) #DT
+And do at least 10 different feminine poses #DT
+#GNMGrin #DT
+You have 1 minute starting now! #DT @Wait(70)
+Come back! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Remember those poses slaves! #DT
+As a finale I have a little video to show #DT
+Enjoy #DT @PlayVideo[\GNM_Videos\Academy\Lingerie\Class102\*.mp4]
+@End

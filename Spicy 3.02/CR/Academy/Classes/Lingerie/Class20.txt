@@ -1,0 +1,6 @@
+Now slaves #DT
+I want you to read, google or whatever and study up on @RT(babydolls,basques,breasts,breasts) #DT
+Return when you hear my bell #DT @Wait(#Random(300,600))
+Come back #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Its time for a recess #DT
+@End

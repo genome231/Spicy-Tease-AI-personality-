@@ -1,0 +1,14 @@
+@RT(Well little slut!,Well #SlaveName,Well my little denied slave) #DT4
+@Flag(ChastityUpdate1) @NullResponse @If[#ToyRoll]>[#ToyChance]Then(Pegs) @Goto(Continue)
+(Pegs)
+Fetch @RT(2,4,6) pegs and attach them to your nipples #DT @TempFlag(ChastityModule1) @Wait(20)
+(Continue) 
+@Flag(HasChastity) @RT(Due to your predicament,Because of that #Cage between your legs,Since you're locked) #DT4
+@NotFlag(HasChastity) @RT(Since you're not allowed to touch,Since you may not fiddle yourself)
+@RT(And I have other business as well,And I have better thing to do,And my lover wants attention too) #DT4
+@RT(I'm putting on a little movie for you to watch,I'll tease you by showing you a video,You'll be teased through a video) #DT3
+@RT(Enjoy,Have fun,Pretend you're actually stroking!) #GNMGrin #DT3 @TempFlag(Busy)
+@NullResponse @PlayVideo[\GNM_Videos\Modules\CuckoldAndDenied\*.mp4]
+@RT(Oh my that was hot!,Is your face reddish?,You seem to be a little hmm frustrated?) @DeleteFlag(Busy) #DT2 #GNMMoan
+@Flag(ChastityModule1) You may remove the pegs now.. @DeleteFlag(ChastityModule1) #DT
+@End

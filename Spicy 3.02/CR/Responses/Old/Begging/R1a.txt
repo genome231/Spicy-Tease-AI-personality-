@@ -1,0 +1,51 @@
+@NullResponse @RapidCodeOn @ChangeVar[R1a]=[R1a]+[1] @CheckFlag(R1aFirst) 
+@NullResponse @SetVar[R1a]=[1] @TempFlag(R1aFirst)
+(R1aFirst)
+@Variable[R1a]>=[2] @NullResponse @Goto(Angry)
+@NullResponse @CheckFlag(ChastityIsOn)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@Variable[Angry]>=[Happy] @NullResponse @Goto(DontCare1,DontCare2,DontCare3,Angry)
+@Variable[Angry]<[Happy] @NullResponse @Goto(DontCare1,DontCare2,DontCare3,Edging)
+(Neutral)
+@Variable[Angry]>=[Lust] @NullResponse @Goto(DontCare1,DontCare2,DontCare3)
+@Variable[Angry]<[Lust] @NullResponse @Goto(DontCare1,DontCare2,DontCare3,Edging)
+(Pleased)
+(VPleased)
+@Variable[Angry]<[Happy] @NullResponse @Goto(DontCare2,DontCare3,Edging)
+@Variable[Angry]>=[Happy] @NullResponse @Goto(DontCare2,DontCare3,Edging)
+(DontCare1)
+@RT(I dont really care,not my problem,You whiny fuckface..) #DT
+@RT(Do I look like the mercifull type?,Do I really look mericfull to you..) #DT
+@RT(I'm not,Trust me I'm not..) #DT
+@End
+(DontCare2)
+@RT(My lover begged me like that yesterday,A slave begged my like that yesterday) #DT
+@RT(But years of practice has made me immune,But years of cockteasing makes you deaf #GNMLol) #DT
+@End
+(DontCare3)
+@RT(The louder you cry the higher I moan,Crying like that only turns me on!) #GNMMoan #DT
+@RT(Stop being a pussy or I will treat you like one,Stop acting like a faggot or I will treat you like one..) #DT
+@End
+(Edging)
+#GNMGrin #DT
+(Edging2)
+@Edge #GNMEdge #DT
+#GNMLetTheEdgeFade #DT @Wait(5,7) @Chance90(Edging2) 
+@RT(I could edge you over and over again,I will never get tired of destroying that #GNMCock,Cockteasing never gets borring #GNMMoan) #DT
+@End
+(ChastityIsOn)
+@RT(You're caged,You're in the Cage) #DT
+@RT(And it's not going anywhere,And that #Cage stays on) #DT
+@End
+(Angry)
+@RT(STOP begging!,Stop whining!,Stop crying #SlaveName,Stop it you idiot) #MeritChangeNMedium #DT
+@End
+(End)
+@End

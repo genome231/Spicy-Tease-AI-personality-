@@ -1,0 +1,44 @@
+(CM2) //only if you can do it with a vibrator to the balls for 2 min #DT
+@NotFlag(VibratorPlay) @NullResponse @Goto(SimpleChange)
+@RT(I have good news,There is good news,I have a bit of good news) @RT(and bad news,but also some bad news,But not so good news too) #DT
+@RT(The bad news are that I'm not <i>just</i> gonna let you cum,The bad news are that you might not orgasm afterall,Bad news are that you may not cum after all) #GNMLol #DT
+@RT(The good news are,The better news are,The teeny tiny better news are) that @RT(you still have a chance for a release,There is still a small chance) #DT
+A <i>slim</i> one.. #DT
+@RT(You're gonna fetch your vibrator,Retrieve your vibrator,Go ahead and get your vibrator) #DT @Wait(10)
+Got it? #DT
+[yes]#GNMGood #DT
+[no]Hurry up then.. #DT @Wait(25)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(CM2Continue1)
+@RT(Well here is how this goes,So here is how we'll proceed,Here are the rules..) #DT
+@RT(I'm gonna show you <i>one</i> image,I'm gonna put one image on display) #DT
+@RT(You may use that vibrator on your BALLS only,You get to use the vibrator on your #GNMBalls only) #DT
+@Flag(HasChastity) Under no circumstance may you apply the vibrator to your cage #DT
+@NotFlag(HasChastity) The vibrator cannot touch your penis! #DT
+@RT(Nor may your hands touch your genitals at all..,Nothing may touch your #GNMCock at all!) #DT
+@RT(Now if you're desperate the vibrations may be enough to get you off,If you're as desperate as you claim this might be enough) #DT
+@RT(If not?,If you're not that desperate)  #DT
+@RT(Well,Hmm,#GNMGrin) @RT(Then there's tomorrow,Then tomorrow comes another day) #DT @Wait(5)
+Tell me if you manage to vibrate those balls to bliss #DT @CustomMode(#ICame, Goto, CM2Came)
+Turn on and apply the vibrator @RT(#SlaveName,#Slut) @LockImages @ShowImage @Wait(30)
+@RT(I hope you can handle the intense sensations,Enjoy it while it lasts!) #GNMMoan @Wait(30)
+Are you getting close slave? @Timeout(20,TimesUp)
+[yes]Oh wauv then you might actually be desperate #GNMLol @Wait(60)
+[no]#GNMGrin I suppose thats no wonder #GNMEmoteHappy @Wait(60)
+@DifferentAnswer #GNMYesOrNo
+(TimesUp)
+@RT(Times up slave!,Stop!,You can stop now!) @UnlockImages #DT @CustomMode(ModeText, Normal)
+@RT(Turn off the vibrator and put it away..,Put the vibrator away for now) #DT @Wait(10)
+(CM2Came)
+I cant believe it! #DT @SetDate(TimeSinceE, 0 Days) @CustomMode(ModeText, Normal)
+Be honest #DT @SetDate(TimeSinceR, 0 Days)
+Did that vibrator touch the #Cage? #DT
+[yes]Ouch thats bad! #DT #MeritChangeNHigh
+[no]#GNMGood, then I suppose this was <i>your</i> day then #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(SimpleChange)
+@RT(I have a bit of bad news,A few bad news)
+@RT(You're not cumming today,No ejaculation today anyway) #GNMMoan
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

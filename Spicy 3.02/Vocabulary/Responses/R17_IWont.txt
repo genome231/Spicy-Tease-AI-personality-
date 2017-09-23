@@ -1,0 +1,5 @@
+[will not,wont,refuse,cant ask]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R17_IWont.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

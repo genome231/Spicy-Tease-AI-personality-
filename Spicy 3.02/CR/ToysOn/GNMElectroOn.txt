@@ -1,0 +1,35 @@
+@NullResponse @CheckFlag(ElectroOn)
+@NullResponse @CheckFlag(GNMToyElectro)
+@End
+(GNMToyElectro)
+@NullResponse @CheckFlag(FirstElectro) @SetFlag(FirstElectro)
+@NullResponse @CallReturn(CR\ElectroIntro.txt)
+(FirstElectro)
+@Variable[Happy]>[Angry] @NullResponse @Goto(PenisN,BallsN,MixN)
+@Variable[Happy]<=[Angry] @NullResponse @Goto(PenisP,BallsP,MixP)
+(PenisN)
+@RT(Apply,Put,Place) stimulators at the bottum and the top of your penis #DT @Goto(LevelN)
+(BallsN)
+@RT(Apply,Put,Place) stimulators to your #GNMBalls #DT @Goto(LevelN)
+(MixN)
+@RT(Apply,Put,Place) a stimulator at the top of your penis and another at your #GNMBalls #DT @Goto(LevelN)
+(LevelN)
+You can choose whatever mode you like #DT
+Set the intensity-level right below level @ShowVar[ElectroPain] #DT @Goto(Ready)
+(PenisP)
+@RT(Apply,Put,Place) stimulators at the bottum and the top of your penis #DT @Goto(LevelP)
+(BallsP)
+@RT(Apply,Put,Place) stimulators to your #GNMBalls #DT @Goto(LevelP)
+(MixP)
+@RT(Apply,Put,Place) a stimulator at the top of your penis and another at your #GNMBalls #DT @Goto(LevelP)
+(LevelP)
+You can choose whatever mode you like #DT
+Set the intensity-level right above level @ShowVar[ElectroPain] #DT @Goto(Ready)
+(Ready)
+Are you ready to proceed? @TempFlag(ElectroOn) #DT
+[yes]#GNMGood #DT
+[no]Hurry up then! #DT #MeritChangeNLow @Wait(30)
+@AcceptAnswer Proceeding then #DT
+@End
+(ElectroOn)
+@End

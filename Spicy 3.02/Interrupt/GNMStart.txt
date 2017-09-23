@@ -1,0 +1,117 @@
+(FirstMeeting)
+@NullResponse @RapidCodeOn
+@NullResponse @SetDate(Devotion, 0 Minutes) 
+@NullResponse @SetFlag(DommeActive)
+@NullResponse @SetFlag(Session) 
+@NullResponse @DeleteFlag(Assistant) 
+@NullResponse @SetVar[ForgotCap]=[0]
+@NullResponse @UnlockImages
+@NullResponse @CallReturn(CR\SpecialDays\SpecialDayTest.txt)
+@NotFlag(FirstSessionD) @NullResponse @SetFlag(FirstSessionD) @Goto(Unlock)
+@NotFlag(HasChastity) @NullResponse @Goto(End)
+@Flag(CPlayActive) @NullResponse @Goto(PlayTest)
+@FlagOr(CPunishmentActive,C247) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
+@NullResponse @RapidCodeOn
+@NullResponse @SetVar[Choice]=[0]
+@NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
+@Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
+@Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
+@Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
+@Flag(LockedYesterday) @DeleteFlag(LockedYesterday) @Goto(Unlock)
+@Flag(Personality1) @NullResponse @Goto(Standard1)
+@Flag(Personality2) @NullResponse @Goto(Standard2)
+@Flag(Personality3) @NullResponse @Goto(Standard3)
+@NullResponse @Goto(Standard1)
+************************************************************************ Personality choice ***********************************************
+(Standard1)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[30]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[35]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[45]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[50]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[55]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[60]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[65]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[75]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[1]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[5]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[5]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[10]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[10]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[15]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[25]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[30]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[35]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+(Standard2)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[35]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[45]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[50]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[55]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[60]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[65]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[75]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[80]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[5]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[10]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[10]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[15]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[15]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[20]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[30]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[35]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[50]Then(Unlock) @Goto(Denial2)
+(Standard3)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[45]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[50]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[55]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[60]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[75]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[80]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[85]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed,ChastityMode) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[90]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[10]Then(Unlock) @Goto(Denial2)
+@Flag(VPleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[15]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[15]Then(Unlock) @Goto(Denial2)
+@Flag(Pleased) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[20]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[20]Then(Unlock) @Goto(Denial2)
+@Flag(Neutral) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[30]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[40]Then(Unlock) @Goto(Denial2)
+@Flag(Annoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[50]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[60]Then(Unlock) @Goto(Denial2)
+@Flag(VAnnoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
+(Unlock)
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
+@NullResponse @CallReturn(CR\GNMChastityOff.txt)
+@End
+(Denial1)
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
+@RT(As you well know,As you know,As you should know,Oh well,Oh my,Poor you) @LockImages #ChastityOffDenied @Wait(5)
+@RT(You're under strict lockdown,You're strictly locked,You're not to be released,You are still being punished,You're serving a punishment) @Wait(5)
+@RT(Meaning there will be no release from that #Cage..,Meaning you wont be released for this session,So there wont be any release) @UnlockImages @Wait(5)
+@End
+(Denial2)
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
+@RT(I dont think you should be unlocked,You wont be unlocked today,There wont any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
+@RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) #DT @Wait(5)
+@RT(Enjoy,Maybe its better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
+@End
+(PlayTest)
+@NullResponse @SetVar[Choice]=[0]
+@Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,150)]
+@Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,120)]
+@Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
+@Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
+@Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
+@Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
+@Variable[Choice]<[20] @NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@End
+(End)
+@End

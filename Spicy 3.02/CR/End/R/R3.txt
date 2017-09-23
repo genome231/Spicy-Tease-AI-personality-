@@ -1,0 +1,25 @@
+(R3) //Watch a video cum when sub comes
+@RT(You're gonna ruin to a short video,I want you to ruin it while watching a short video) #SlaveName #DT
+@RT(When you see the sub getting ruined,When you see the slave getting ruined) #DT
+@RT(So may you..,You have my permission as well) #DT
+@Flag(SissyMode) Ofcourse you may only use your vibrator #DT..
+@RT(When you cross the edge then it's hands behind your head,Right after you cross the edge I want you to sit on your hands!) #DT
+@RT(Enjoy,"Blows a kiss") #GNMLol #DT
+@NullResponse @ShowVideo[\GNM_Videos\Endings\R3\*.mp4]
+(Test)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you ruin?,Did you ruin yourself?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]@RT(No?,What do you mean no?) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Did you orgasm or did you simply not make it?,Did you have an orgasm or nothing at all?) #DT
+[orgasm,i came]@RT(What!?,Oh my..) #DT #MeritChangeNHigh @Goto(Bad)
+[nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
+@DifferentAnswer Did you cum or nothing? #DT
+(Bad)
+@RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
+@RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

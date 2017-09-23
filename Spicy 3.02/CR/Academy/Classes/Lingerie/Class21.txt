@@ -1,0 +1,7 @@
+This class isn't gonna be much fun #DT
+All I want you to do is read about the different lingerie brands #DT
+Use the guide, the internet or whatever #DT
+Just be back when you hear my bell #DT
+Enjoy! #DT @Wait(#Random(300,600))
+Get back here #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(5)
+@End

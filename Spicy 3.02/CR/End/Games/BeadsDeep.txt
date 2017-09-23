@@ -1,0 +1,81 @@
+(BeadsDeep)
+@Flag(SkipNextBead) @RT(Well you drew a red bead the last time,You drew a red bead the last time,Last time you drew a red bead) #DT
+@Flag(SkipNextBead) @RT(So no draw today,So there wont be a draw today,So no drawing today) @RT(#GNMLol,#GNMGrin) #DT @DeleteFlag(SkipNextBead) @Goto(ChastityCheck)
+@RT(Its time to draw a bead,Lets draw a bead!,Time to draw a bead,Time for you to draw a bead..) @RT(#SlaveName,#SubName) #DT
+@Variable[WhiteBeads]>[1] @RT(You have,Currently you have,At this point you have) @ShowVar[WhiteBeads] white beads #DT
+@Variable[WhiteBeads]=[1] @RT(You have,Right now you have,Currently you have) @ShowVar[WhiteBeads] white bead #DT
+@RT(You need,You require,You have to have) @ShowVar[RequiredBeads] white beads to @RT(cum,ejaculate,release some tension) #DT
+@RT(Lets see if the Mistress of Luck is on your side today,Lets test your luck,Time to see if you get lucky,Lets test your luck) @RT(#GNMGrin,#GNMLol) #DT
+@RT(Drawing a bead from the bag..,Drawing a bead..,Pulling out a bead..,Taking a bead from the bag..) #DT @RapidCodeOn @SetVar[DrawBead]=[#Random(1,30)]
+@Variable[DrawBead]>[WhiteBeads] @NullResponse @ChangeVar[DrawBead]=[DrawBead]-[WhiteBeads] 
+@Variable[DrawBead]>=[16] @NullResponse @Goto(WhiteBead)
+@Variable[DrawBead]>=[10] @NullResponse @Goto(Orange)
+@Variable[DrawBead]>=[6] @NullResponse @Goto(Yellow)
+@Variable[DrawBead]>=[4] @NullResponse @Goto(Red)
+@Variable[DrawBead]>=[2] @NullResponse @Goto(Black)
+@Variable[DrawBead]=[1] @NullResponse @Goto(Green)
+(WhiteBead)
+A white bead! @ShowImage[\GNMImages\Ends\BeadGame\WhiteBead.*] @ChangeVar[WhiteBeads]=[WhiteBeads]+[1]
+@RT(Lucky you!,Good for you,Damn #GNMGrin,Luck was with you today,Lucky today huh..) #DT @If[WhiteBeads]>=[RequiredBeads]Then(BeadGameEnd)
+@RT(But still not enough #GNMGrin,But not quite there yet..,But still not there,But you're not at the finish line yet) #DT
+@RT(I was really hoping for a,I was trying to get a,I thought that it would be a) @RT(black,orange,yellow,red) bead! #DT
+(Orange)
+Orange! @ShowImage[\GNMImages\Ends\BeadGame\OrangeBead.*]
+@RT(Well well,Interesting,#GNMGrin,#GNMLol) #DT
+@RT(This means that we'll just skip today,So today we'll just skip,So nothing happens today,Well a useless bead for you) #DT
+@RT(Lets just put the bead back in bag,Back in the bag it goes,Back to the bag,Lets not forget to put it back) #GNMLol #DT @Goto(Deny)
+(Yellow)
+Yellow! @ShowImage[\GNMImages\Ends\BeadGame\YellowBead.*] @ChangeVar[YellowBeads]=[YellowBeads]+[1]
+@RT(Well well,Interesting,#GNMGrin,#GNMLol) #DT
+@RT(This is your yellow bead nr.,This was the yellow bead nr.,Yellow bead nr.,) #DT @ShowVar[YellowBeads] @If[YellowBeads]>=[3]Then(Denial)
+@RT(If you get 3 then you will completely denied for 2 days,Dont forget that getting 3 means 2 days of denial,Remember that you're getting denial if you get 3 of these..) #GNMGrin #DT
+@Flag(HasChastity) @RT(Locked up in your #Cage,Locked in your #Cage,Securely locked in your #Cage) #DT
+@NotFlag(HasChastity) @RT(2 days of no touch!,Two full days of no touching!,Absolutely no touching for 2 days..) #DT
+@RT(Well lets put the bead back in bag huh,Lets put the bead back in the bag..,Better remember to put the bead back in the bag) #GNMGrin #DT @Goto(Deny)
+(Denial)
+@NullResponse @SetVar[YellowBeads]=[0] @SetDate(PDenial, 0 Hours)
+@NullResponse @SetVar[PDenialSet]=[48]
+@Flag(HasChastity) Meaning that you will starting now spend the next few days in chastity #GNMGrin #DT @Goto(Deny)
+Meaning that starting now and for the next 2 sessions aren't allowed to touch your #GNMCock at all! #DT @Goto(Deny)
+(Red)
+Red! @ShowImage[\GNMImages\Ends\BeadGame\RedBead.*]
+@RT(So this means we'll skip this and the next draw,Meaning nothing happens today and the next draw is also cancelled!) #GNMGrin #DT @SetFlag(SkipNextBead) @Goto(ChastityCheck)
+(Black)
+Black! @ShowImage[\GNMImages\Ends\BeadGame\BlackBead.*]
+@RT(Oh my this has to feel like a blow,Auch that has to sting..,Gosh that is a blow huh!,Oh my you should see your face) #GNMGrin #DT @SetVar[WhiteBeads]=[0]
+@RT(Well lets hurry and put all your white beads back into the bag,All the white bead you <i>had</i> goes back in the bag) #GNMGrin #DT @Goto(Deny)
+(Green)
+@RT(Well well,Interesting,#GNMGrin,#GNMLol) @ShowImage[\GNMImages\Ends\BeadGame\GreenBead.*]
+Green! @ShowImage[\GNMImages\Ends\BeadGame\GreenBead.*]
+@RT(So you'll get a free ruined orgasm,Which is worth a free ruined orgasm,Which gives you an empty ejaculation..) #GNMEmoteHappy #DT @Goto(Ruined)
+(BeadGameEnd)
+@RT(Well you made it to the very end of the bead game,Well we're at the end!,This is the end!,You made it through the bead game!) #GNMGrin #DT @SetVar[WhiteBeads]=[0]
+@RT(And you know what this means!,And we both know what this entails,And I bet you know what that means!,And I bet you're cock is just at the brink right now!) #DT
+But you know that simply because you reach this part doesn't mean you'll have an orgasm #GNMLol #DT @SetVar[YellowBeads]=[0]
+@RT(It only guaranties an ejaculation..,Its my decision how you get to cum..,It's still in the hands of luck,Luck was never really your best friend!) #DT
+@RT(I'm going to roll the die,I'm rolling the die,I'm gonna roll the die,I will get the die) in just a second #DT
+But first.. #DT
+Do wish to play this again or go back to just me deciding? #DT
+[play again,play,again]Another round it is then! #DT
+[you,deciding]Me deciding okay then #SlaveName #DT @DeleteFlag(BeadsDeep) @SetFlag(Standard) @Goto(BeadDieRoll)
+@DifferentAnswer play again or me deciding? #DT
+(NewBeadGame)
+How many white beads should you collect before rolling the die? #DT @InputVar[RequiredBeads]
+@Variable[RequiredBeads]>[15]That number is too high, you can't choose more than 15.. #DT @Goto(NewBeadGame)
+@Variable[RequiredBeads]<[5]That number is too low, you must choose a number higher than 4.. #DT @Goto(NewBeadGame)
+@Variable[RequiredBeads]>[9]Wow going with a high number huh.. Nice! #MeritChangePMedium #DT
+Perfect!
+(BeadDieRoll)
+@Flag(Personality1) @RT(Now lets roll the die then!,Rolling the die!,I'm rolling the die!,Let me just roll the die..) #DT @SetVar[DieRoll]=[#Random(1,10)]
+@Flag(Personality2) @RT(Now lets roll the die then!,Rolling the die!,I'm rolling the die!,Let me just roll the die..) #DT @SetVar[DieRoll]=[#Random(1,9)]
+@Flag(Personality3) @RT(Now lets roll the die then!,Rolling the die!,I'm rolling the die!,Let me just roll the die..) #DT @SetVar[DieRoll]=[#Random(1,8)]
+@Variable[DieRoll]>[7] @ShowVar[DieRoll]! @RT(Meaning you get to orgasm!,So you'll get that sweet orgasm!,So you'll actually get an orgasm!) #GNMEmoteHappy #DT @Goto(Orgasm)
+@Variable[DieRoll]<[7] @ShowVar[DieRoll]! @RT(Meaning its a ruin!,So only a ruin after all this time,So you'll get a lousy ruined!) #GNMLol #DT @Goto(Ruined)
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

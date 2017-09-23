@@ -1,0 +1,1 @@
+@PlayAudio[\GNMSounds\Modules\BJTraining\BJFingerGagging\*.mp3] @Wait(5) @ChangeVar[BJTraining]=[BJTraining]-[1]

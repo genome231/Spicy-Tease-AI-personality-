@@ -1,0 +1,58 @@
+(Standard)
+@NullResponse @RapidCodeOn 
+@Variable[OrgasmPass]>[0] @NullResponse @Goto(FreeOrgasm)
+@Flag(Personality1) @NullResponse @Goto(Standard1)
+@Flag(Personality2) @NullResponse @Goto(Standard2)
+@Flag(Personality3) @NullResponse @Goto(Standard3)
+(Standard1)
+@Flag(VPleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(5,15)]
+@Flag(Pleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(4,13)]
+@Flag(Neutral) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(3,10)]
+@Flag(Annoyed) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(0,5)]
+@Flag(VAnnoyed) @NullResponse @ChangeVar[OTime]=[OTime]-[#Random(1,5)]
+@Flag(LoverMode) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(2,20)]
+@NullResponse @ChangeVar[Otime]=[Otime]+[#OFrequency]
+@Variable[GoodDays]>=[20] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(7,15)]
+@Variable[Lust]>=[28] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(15,40)]
+@Variable[#DateDifference(TimeSinceE, Days)]>=[DenialLevelNr] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(5,15)]
+@NullResponse @Goto(OTimeCheck)
+(Standard2)
+@Flag(VPleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(3,13)]
+@Flag(Pleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(2,11)]
+@Flag(Neutral) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,8)]
+@Flag(Annoyed) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(0,4)]
+@Flag(VAnnoyed) @NullResponse @ChangeVar[OTime]=[OTime]-[#Random(2,6)]
+@Flag(LoverMode) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,17)]
+@NullResponse @ChangeVar[Otime]=[Otime]+[#OFrequency]
+@Variable[GoodDays]>=[24] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(6,12)]
+@Variable[Lust]>=[28] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(10,30)]
+@Variable[#DateDifference(TimeSinceE, Days)]>=[DenialLevelNr] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(3,12)]
+@NullResponse @Goto(OTimeCheck)
+(Standard3)
+@Flag(VPleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(2,10)]
+@Flag(Pleased) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,8)]
+@Flag(Neutral) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(0,6)]
+@Flag(Annoyed) @NullResponse @ChangeVar[OTime]=[OTime]-[#Random(1,3)]
+@Flag(VAnnoyed) @NullResponse @ChangeVar[OTime]=[OTime]-[#Random(3,7)]
+@Flag(LoverMode) @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(0,14)]
+@NullResponse @ChangeVar[Otime]=[Otime]+[#OFrequency]
+@Variable[GoodDays]>=[28] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(5,10)]
+@Variable[Lust]>=[28] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(5,25)]
+@Variable[#DateDifference(TimeSinceE, Days)]>=[DenialLevelNr] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,9)]
+@NullResponse @Goto(OTimeCheck)
+(OTimeCheck)
+@NullResponse @If[OTime]>=[OTimeSet]Then(RuinOCheck)
+@RT(#SlaveName,Slave,Slave,Slave) @RT(I dont feel like letting you ejaculate today,There will no ejaculating today,No ball emptying today,There will be no load blowing today) #DT @Chance50(QuickEnd)
+@RT(#GNMGrin,#GNMLol,#GNMEmoteHappy,#GNMEmoteSexy) #DT @Chance50(QuickEnd)
+@RT(Maybe tomorrow..,Perhaps tomorrow,Maybe next time,Who knows maybe next time,If you're lucky next time,Maybe in a few days,Maybe tomorrow if I feel kind) #DT @Chance50(QuickEnd)
+@RT(Maybe..,Again maybe,once more.. Maybe,If you're lucky..) #DT @Chance50(QuickEnd)
+(QuickEnd)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)
+(RuinOCheck)
+@NullResponse @SetVar[OTime]=[0] 
+@NullResponse @SetVar[OTimeSet]=[#DenialLevel] @CallReturn(CR\End\Decide\DecideORStandard.txt)
+@End
+(FreeOrgasm)
+#SlaveName #DT
+I see you have an Orgasm pass #DT
+Lets see to it #DT @CallReturn(CR\End\O\O1.txt)

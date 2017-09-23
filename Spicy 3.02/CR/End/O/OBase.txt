@@ -1,0 +1,45 @@
+(OBase)
+@NullResponse @CheckFlag(SissyMode)
+#SlaveName #DT @CustomMode(#MayOrgasm, Goto, OrgasmFalse)
+@RT(The magical moment has arrived,We're at your favorite moment,I bet you love this,This is right up your alley) #DT
+@RT(Today you get to enjoy a orgasm,Today you're scheduled for a orgasm,Today you've earned a orgasm,Today you get to orgasm) #DT
+@RT(So start stroking yourself slowly,So begin stroking,So go ahead and start stroking,So you may begin with a slow stroking pace) #DT @Wait(#Random(10,25))
+@RT(Increase your pace a little,Stroke a little faster,You can go ahead and stroke a tad faster,A bit faster) #DT @Wait(#Random(10,25))
+@RT(Now stick with a solid medium pace,Go with a solid medium pace,Get to a medium pace,Give it a medium pace!) #DT @Wait(#Random(10,25))
+@RT(Go ahead and stroke fast!,You can start stroking fast,Give me a good fast pace,Faster,Stroke faster) #DT @Wait(#Random(10,25)) @SetVar[Rounds]=[0]
+@NullResponse @ChangeVar[Rounds]=[Rounds]+[#Random(5,10)] @CustomMode(#MayOrgasm, Goto, Orgasm) @Goto(Stroking)
+(SissyMode)
+#SlaveName #DT @CustomMode(#MayOrgasm, Goto, OrgasmFalse)
+@RT(The magical moment has arrived,We're at your favorite moment,I bet you love this,This is right up your alley) #DT
+@RT(Today you get to enjoy a orgasm,Today you're scheduled for a orgasm,Today you've earned a orgasm,Today you get to orgasm) #DT
+Fetch your vibrator #Slut #DT @Wait(15)
+@RT(Your hands are not allowed to touch that #GNMCock,You may not use your hands to touch your #GNMCock) #DT
+Only the vibrator may! #DT
+@RT(Turn it on a low setting,Turn the vibrator on low) #Slut #DT @Wait(20,40)
+@RT(Turn on a nice medium setting,Turn it to a nice medium setting) #DT @Wait(20,40) 
+@RT(Switch freely to whatever works best on your clit,Switch the vibrator to whatever has the best effect on your #GNMCock) #DT @Wait(20,40) 
+@NullResponse @ChangeVar[Rounds]=[Rounds]+[#Random(5,10)] @CustomMode(#MayOrgasm, Goto, Orgasm) @Goto(Stroking)
+(Stroking)
+@Flag(CuckMode) @RT(Enjoy this,Enjoy,Mhmm hot,That is hot,That is good,You wont mind this,I bet you wont mind this,Some eye candy,Mhmm,#GNMMoan,#GNMEmoteHappy) @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @ChangeVar[Rounds]=[Rounds]-[1] @Wait(#Random(5,10)) @Goto(Stroking2)
+@NotFlag(CuckMode) @RT(Enjoy this,Enjoy,Mhmm hot,That is hot,That is good,You wont mind this,I bet you wont mind this,Some eye candy,Mhmm,#GNMMoan,#GNMEmoteHappy) @ShowImage @ChangeVar[Rounds]=[Rounds]-[1] @Wait(#Random(5,10))
+(Stroking2)
+@NullResponse @If[Rounds]<=[0]Then(EndSlow) @Goto(Stroking)
+(OrgasmFalse)
+What? #DT @CustomMode(ModeText, Normal)
+Are you already asking me for that? #GNMEmoteSad #DT
+We've barely begun! The answer is no! #DT
+In fact.. #DT @Goto(ChastityCheck)
+(Orgasm)
+@RT(Yes!,You have my permission!,Yes go ahead and ruin!,Yes you may ruin it!,Yes go ahead and ruin #SlaveName!,Ruin it #SlaveName) #DT @CustomMode(ModeText, Normal) @Wait(10)
+#GNMMoan #DT @Goto(AteCheck)
+(EndSlow)
+Stop all stimulation #DT @CustomMode(ModeText, Normal)
+This is taking too long #SlaveName #DT
+I dont have all day.. #DT @Goto(ChastityCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(Commands)
+@CustomMode(I saw boobs, Video, Video Closed) Stops video and goes to (Video Closed) if I saw boobs is typed in chat.
+@CustomMode(ModeText, Normal) Clears all @CustomMode

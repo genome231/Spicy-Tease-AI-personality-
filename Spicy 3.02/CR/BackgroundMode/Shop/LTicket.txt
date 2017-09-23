@@ -1,0 +1,11 @@
+@NullResponse @DeleteFlag(LotteryTicket)
+@SystemMessage #VANC #VANP This weeks lottery number is.. @SetVar[LuckyNumber]=[#Random(1,100)]
+@SystemMessage #VANC #VANP @ShowVar[LuckyNumber]!
+@Variable[LotteryTicket]=[LuckyNumber] @SystemMessage #VANC #VANP Meaning you won! @Goto(Winner)
+@SystemMessage #VANC #VANP Meaning that you didn't win anything this week I'm afraid
+@SystemMessage #VANC #VANP Better luck next time! 
+@End
+(Winner)
+@SystemMessage #VANC #VANP So it makes me happy to tell you that you've won 2500 gold!
+@SystemMessage #VANC #VANP Congratulations slave! @ChangeVar[GNMGold]=[GNMGold]+[2500]
+@End

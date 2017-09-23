@@ -1,0 +1,14 @@
+#SlaveName #DT @SetVar[Timer]=[0]
+@RT(You're gonna sit on your hands,You will sit on your hands) #DT
+@RT(And simply watch this slideshow,And just watch a slideshow) #DT @ShowImage
+@Flag(Personality1) @SetVar[Timer2]=[#Random(300,600)]
+@Flag(Personality2) @SetVar[Timer2]=[#Random(400,700)]
+@Flag(Personality3) @SetVar[Timer2]=[#Random(500,800)]
+(Counter)
+@NullResponse @CountVar[Timer]
+(Counter2)
+@NullResponse @If[Timer]>=[Timer2]Then(End)
+@NullResponse @ShowImage @Wait(#Random(5,10)) @Goto(Counter2)
+(End)
+@RT(Good boy,Good slave,Good slut,Good girl) #DT
+@End

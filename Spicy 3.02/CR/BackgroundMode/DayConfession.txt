@@ -1,0 +1,43 @@
+@NullResponse @CheckFlag(FirstConfession)
+@NullResponse @SetFlag(FirstConfession)
+#VANC #VANP Today it's tuesday
+#VANC #VANP Tuesdays are special
+#VANC #VANP Tuesdays are confession days
+#VANC #VANP Since you're full time it is required that you at least launch Tease-AI for a weekly confession
+#VANC #VANP I dont wanna hear anything about not having anything to confess either
+#VANC #VANP I simply dont believe that you lead the perfect "slave" life without an actual domme..
+#VANC #VANP I only wanna hear 1 confession as well
+#VANC #VANP So choose whatever you believe to be most severe
+#VANC #VANP Wether that is cumming without permission
+#VANC #VANP Or some other violation of the rules
+@NullResponse @SetDate(RecentConfession, 0 Hours)
+@NullResponse @Goto(Continue)
+(FirstConfession)
+@Variable[#DateDifference(RecentConfession, Hours)]<[20] @NullResponse @Goto(End)
+@Variable[#DateDifference(RecentConfession, Hours)]>[168] @NullResponse @Goto(Skipped)
+@Variable[#DateDifference(RecentPDay, Hours)]>[145] @NullResponse @Goto(Skipped2)
+@NullResponse @SetDate(RecentConfession, 0 Hours)
+(Continue)
+#VANC #VANP Now slave tell me..
+#VANC #VANP Confess!
+[came,orgasm,cum,cumming] #VANC #VANP Cumming without permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[400]
+[ruin,ruined] #VANC #VANP Ruining without permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[250]
+[stroke,stroked,stroking,touched,pleasured] #VANC #VANP Stroking with permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+[lazy] #VANC #VANP Lazy behaviour.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+[unhealthy] #VANC #VANP Eating unhealthy.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+@AcceptAnswer #VANC #VANP This isn't good slave! @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+#VANC #VANP I've added punishment points matching the crime!
+#VANC #VANP Make sure you report for punishment soon! @Goto(End)
+(Skipped)
+#VANC #VANP You've been skipping confession day #SlaveName!
+#VANC #VANP I've added a healthy dose of punishment points for that! @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+#VANC #VANP You are expected to report on tuesdays! @SetDate(RecentConfession, 0 Hours)
+#VANC #VANP This will serve as your confession for today!
+#VANC #VANP Make sure you report next Tuesday! @Goto(End)
+(Skipped2)
+#VANC #VANP You've been skipping punishment day #SlaveName!  @SetDate(RecentPDay, 0 Hours)
+#VANC #VANP I've added a healthy dose of punishment points for that! @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+#VANC #VANP You are expected to report on thursdays!
+#VANC #VANP Make sure you report next thursday!
+(End)
+@End

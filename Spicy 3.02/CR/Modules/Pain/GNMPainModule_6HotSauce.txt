@@ -1,0 +1,35 @@
+@NotFlag(HotSaucePlay) @NullResponse @CallReturn(CR\Modules\Alternative\*.txt)
+@NotFlag(HotSaucePlay) @NullResponse @Goto(End2)
+#Fetch Hot-sauce, icy-hot, tiger balm, toothpaste or similar #GNMGrin #DT @Goto(a,b)
+(a) \\Condom
+And while you're at it a condom #DT @Wait(20) @TempFlag(CondomOn)
+@RT(Depending on how brave you are apply some of it to the condom,Put some of it into the condom,Put a generous ammount inside the condom) #DT
+@RT(Put the condom on,Then put the condom on,Then when you ready put the condom on) #DT @Wait(10) 
+@Flag(PainUpdate3) @NullResponse @Goto(Corner,Stroking,SlideShow,Video)
+@NullResponse @Goto(Corner,SlideShow)
+(b) \\Balls
+@NullResponse @Wait(15)
+@RT(Apply some to those #GNMBalls,Apply some it to your #GNMBalls) #DT
+@RT(Massage it into them,Give them a nice rubbing,Really try to rub - massage it into your Balls #GNMGrin) #DT @Wait(10) @Goto(Corner,Stroking,SlideShow,Video)
+(Corner)
+@RT(Now go to the corner and stay there,Find your way to the corner) #DT
+@RT(Hands above your head,Keep your hands down your side,Hands behind your back), stay there until you hear my bell #DT @Wait(#Random(240,300))
+Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Goto(End)
+(Stroking)
+I'm putting on a slideshow #DT
+You may stroke slowly to it! #DT @SetVar[SlideShow]=[0] @Goto(Slideshow2)
+(SlideShow)
+I'm putting on a slideshow, just sit there and enjoy it #GNMGrin #DT @SetVar[SlideShow]=[0]
+(Slideshow2)
+@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]+[1] @If[SlideShow]>=[240]Then(End) @Wait(3) @Goto(slideshow2)
+(Video)
+I'm putting on a video for you @RT(No touching,, just watch it,You may stroke slowly - no edging ofcourse..) #DT
+@NullResponse @PlayVideo
+@NullResponse @Goto(End)
+(End)
+#GNMLol #DT
+Cant say I dont love this #GNMLol #DT
+@Flag(CondomOn) You can remove the condom, but dont clean your #GNMCock #DT @DeleteFlag(CondomOn)
+Lets get on #DT
+(End2)
+@End

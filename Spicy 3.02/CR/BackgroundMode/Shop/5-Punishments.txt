@@ -1,0 +1,43 @@
+@SystemMessage #VANC #VANP You have 4 choices
+@SystemMessage #VANC #VANP <Font color="red">1) Buy spanking implements</Font> <Font color="green">2) Pay SpankzChoir Subscribtion</Font> <Font color="yellow">3) Buy a selfbondage scenario</Font> 
+@SystemMessage #VANC #VANP <Font color="orange">4) Buy new punishments</Font> <Font color="black">Return) Returns</Font>
+[one,1] @NullResponse @Goto(1)
+[two,2] @NullResponse @Goto(2)
+[three,3] @NullResponse @Goto(3)
+[four,4] @NullResponse @Goto(4)
+[return] @NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3 or 4
+@End
+(1)\\Spanking implement 4 & 5 = 500 gold
+@SystemMessage #VANC #VANP Here you have the option you expand the implements used in Spicy
+@Variable[GNMGold]<[500] @SystemMessage #VANC #VANP But the price is 500 gold per spanking implement
+@Variable[GNMGold]<[500] @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold @Goto(End)
+@NotFlagOr(BoughtSpankingImplement4,BoughtSpankingImplement5) @SystemMessage #VANC #VANP Currently you have 3 different spanking implements @Goto(Purchase1)
+@NotFlag(BoughtSpankingImplement5) @SystemMessage #VANC #VANP Currently you have 4 different spanking implements @Goto(Purchase1)
+@Flag(BoughtSpankingImplement5) @SystemMessage #VANC #VANP Currently you have all 5 different spanking implements @Goto(End)
+(Purchase1)
+@SystemMessage #VANC #VANP Do you wish to expand your collection?
+[yes] @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500] @CheckFlag(BoughtSpankingImplement4)
+[no] @NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(BoughtSpankingImplement4)
+@SystemMessage #VANC #VANP What is the name of your fourth spanking implement? @InputVar[SpankingImplement4]
+@SystemMessage #VANC #VANP Noted.. @Goto(End)
+(BoughtSpankingImplement4)
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(BoughtSpankingImplement5)
+@SystemMessage #VANC #VANP What is the name of your fifth spanking implement? @InputVar[SpankingImplement5]
+@SystemMessage #VANC #VANP Noted.. @Goto(End)
+(2)\\Spankz choir subscribtion, 250 gold / month
+@Variable[#DateDifference(SpankzChoirSubscribtion, Days)]<=[30] @SystemMessage #VANC #VANP You have an active subscribtion with SpankzChoir.com @Goto(End)
+@Variable[GNMGold]<[250] @SystemMessage #VANC #VANP You dont have the 250 gold needed for a SpankzChoir subscribtion
+@SystemMessage #VANC #VANP Do you wish to pay for subscribtion to SpankzChoir?
+[yes]@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[250]
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Transaction Complete @SetDate(SpankzChoirSubscribtion, 0 Days) @Goto(End)
+(3)\\SelfBondage scenario 1000 gold
+@SystemMessage #VANC #VANP Right now you cant buy any selfbondage scenario @Goto(End)
+(4)\\New punishments: 500 gold
+@SystemMessage #VANC #VANP Right now you cant buy any new punishments @Goto(End)
+(End)
+@End

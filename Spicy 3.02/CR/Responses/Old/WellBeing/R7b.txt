@@ -1,0 +1,77 @@
+@NullResponse @RapidCodeOn @ChangeVar[R7b]=[R7b]+[1] @CheckFlag(R7bFirst) 
+@NullResponse @SetVar[R7b]=[1] @TempFlag(R7bFirst)
+(R7bFirst)
+@Variable[R7b]>=[3] @RT(This is getting old #SlaveName,Stop with the flattering #SlaveName,Stop #SubName) #DT #MeritChangeNLow @Goto(End)
+@Variable[R7b]=[2] @RT(When you just flatter me like that it makes it sound a little fake,Flatter is best given in moderation,I do love a bit of flatter but dont exaggerate it) #DT @Goto(End)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+(VAnnoyed)
+(Annoyed)
+@RT(I'm not in the mood for your compliments,Not today Bitch..,Nice try slut..) #DT
+@End
+(Neutral)
+@NullResponse @Goto(FlatterGame1,FlatterGame2,FlatterGame3)
+(Pleased)
+(VPleased)
+@NullResponse @Goto(FlatterGame1,FlatterGame2,FlatterGame3)
+(FlatterGame3)
+#SlaveName #DT
+@RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT
+[eyelashes] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
+[eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
+[boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
+[pussy] @RT(Typically man..,Are you fucking kidding me?) #DT #MeritChangeNHigh @Goto(Angered)
+@AcceptAnswer @RT(Better luck next time #GNMGrin,Nooot exactly,Not that nope) #DT #MeritChangeNLow @Goto(ButWhy)
+(FlatterGame2)
+#SlaveName #DT
+@RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT
+[eyebrows] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
+[eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
+[boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
+[pussy] @RT(Typically man..,Are you fucking kidding me?) #DT #MeritChangeNHigh @Goto(Angered)
+@AcceptAnswer @RT(Better luck next time #GNMGrin,Nooot exactly,Not that nope) #DT #MeritChangeNLow @Goto(ButWhy)
+(FlatterGame1)
+#SlaveName #DT
+@RT(Can you guess what I like the most about my self?,What do you think is my favorite part of myself?) #DT @Goto(ButWhy)
+[nose] @RT(How did you know that!?,How the f..?) #DT #MeritChangePHigh @Goto(Pleased)
+[feet] @RT(Why would it be my feet?,What?) #DT #MeritChangeNLow @Goto(ButWhy)
+[eyes,lips,mouth,ears,legs] @RT(Tshh I'm not one of those girls..,Absolutely not #GNMLol) #DT #MeritChangeNLow @Goto(ButWhy)
+[boobs,boob,breast,breasts] @RT(Is that all you think about?,Dont you think about anything else?) #DT #MeritChangeNHigh @Goto(Angered)
+[pussy] @RT(Typically man..,Are you fucking kidding me?) #DT #MeritChangeNHigh @Goto(Angered)
+@AcceptAnswer @RT(Better luck next time #GNMGrin,Nooot exactly,Not that nope) #DT #MeritChangeNLow @Goto(ButWhy)
+(ButWhy)
+@RT(I guess you have a fetish,I suppose that might be a fetish of yours) #DT
+@RT(Compliments need to be thought of carefully,Compliments should not be given lightly!) #DT
+@End
+(Pleased)
+@RT(Well done #SlaveName,I'm impressed #SlaveName) #DT #GNMEmoteHappy
+@End
+(Angered)
+@NotFlag(HasChastity) @RT(Since all you think about is pussy,, boobs etc.,Since you dont know how to act properly)  #DT
+@NotFlag(HasChastity) All I can think about is ending this session.. #DT @Goto(EndBad)
+@NullResponse @CheckFlag(ChastityIsOn)
+@RT(I'm glad you're locked securely away..,I'm glad you're in the #Cage) #DT
+@RT(Assigning you punishment points for not speaking properly,I'm giving you punishment points for acting like that!) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[50]
+@End
+(ChastityIsOn)
+@RT(Since you lack behaviour,Since you dont know how to behave) #DT
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(That was much better!,Think before you speak next time..) #DT @Interrupt(LockedAway)
+(End)
+@End
+(EndBad)
+Bye! @EndTease
+@End
+(VAnnoyedFAKE)
+(AnnoyedFAKE)
+(NeutralFAKE)
+(PleasedFAKE)
+(VPleasedFAKE)
+[Lust]
+[Happy]
+[Angry]

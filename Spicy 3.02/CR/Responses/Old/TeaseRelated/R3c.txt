@@ -1,0 +1,6 @@
+@NullResponse @RapidCodeOn @ChangeVar[R3c]=[R3c]+[1] @CheckFlag(R3cFirst) 
+@NullResponse @SetVar[R3c]=[1] @TempFlag(R3cFirst)
+(R3cFirst)
+@RT(You'll stroke whenever I tell you,You'll get to stroke when I feel like,You can stroke when I say you can stroke..) #DT #MeritChangeNLow
+(End)
+@End

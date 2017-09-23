@@ -1,0 +1,105 @@
+(M8)
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: You wanted a safeword #ReceptionChat
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you cant handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
+@SystemMessage [Miss A]: Miss Sarah is ready to see you.. #ReceptionChat 
+(CheckStatus1)
+@NullResponse @CheckFlag(M8FirstVisit) @SetFlag(M8FirstVisit)
+@SystemMessage [Miss Sarah]: This is your first time with me @SetVar[M8Visit]=[1] #M8Chat
+@SystemMessage [Miss Sarah]: You only need to know one thing.. #M8Chat
+@SystemMessage [Miss Sarah]: I do accept apologies.. #M8Chat
+@SystemMessage [Miss Sarah]: But only those made in cries of pain.. 'Evil Laugh' #M8Chat
+@Flag(SpankzChoirLate) @NullResponse @Goto(SpankzChoirLate2)
+@NullResponse @Goto(Start)
+(M8FirstVisit)
+@NullResponse @ChangeVar[M8Visit]=[M8Visit]+[1] @CheckFlag(SpankzChoirSkipped)
+@NullResponse @CheckFlag(SpankzChoirLate) @Goto(Start)
+(SpankzChoirSkipped)
+@SystemMessage [Miss Sarah]: It's not a popular thing trying to quit..
+@SystemMessage [Miss Sarah]: Dont do it again.. @Goto(Start)
+(SpankzChoirLate)
+@SystemMessage [Miss Sarah]: @RT(Well hello there mr. late,Hi little late slut,Gretting #SlaveName) #M8Chat 
+(SpankzChoirLate2)
+@SystemMessage [Miss Sarah]: @RT(If there is one thing I love more than a good spanking,One of the few things I enjoy more than spanking) #M8Chat
+@SystemMessage [Miss Sarah]: It's an ass paying to be spanked #GNMLol #M8Chat
+@SystemMessage [Miss Sarah]: This is your @ShowVar[M8Visit] time with me #M8Chat
+(Start)
+@SystemMessage [Miss Sarah]: @RT(I see no reason to waste any time..,Lets not drag this out..,Lets not delay this..)
+@Flag(GagPunishment) @SystemMessage [Miss Sarah]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I dont want too much noise from you #GNMGrin,No screaming..) @Wait(15)
+@SystemMessage [Miss Sarah]: I need you to @RT(fetch,retrieve,find,get) your @RT(#ChooseSpankingImplement) #M8Chat
+@SystemMessage [Miss Sarah]: When you have it just kneel down and present it with open hands #M8Chat
+(SetVars)
+@NullResponse @RapidCodeOn
+@NullResponse @SetVar[StrokesPerRound]=[0] @ChangeVar[StrokesPerRound]=[StrokesPerRound]+[AuctionStrokes] //Defines an approximate of strokes per round
+@NullResponse @ChangeVar[StrokesPerRound]=[StrokesPerRound]/[CornertimeLimit]
+@NullResponse @SetVar[TotalSpanking]=[0]
+@NullResponse @SetVar[SpankingCount]=[0]
+@NullResponse @RapidCodeOff @Wait(#Random(20,55))
+(M8PunishmentSpanking)
+@NullResponse @ChangeVar[TotalSpanking]=[TotalSpanking]+[SpankingCount]
+(M8PunishmentSpankingOver)
+@NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(M8End)
+@NotFlag(M8FirstRound) @SystemMessage [Miss Sarah]: #M8S1 @TempFlag(M8FirstRound) #M8Chat @Goto(M8PunishmentSpankinga)
+@Flag(M8FirstRound) @SystemMessage [Miss Sarah]: #M8S2 @TempFlag(M8SecondRound) @DeleteFlag(M8FirstRound) #M8Chat @Goto(M8PunishmentSpankinga)
+@Flag(M8SecondRound) @SystemMessage [Miss Sarah]: #M8S3 @TempFlag(M8ThirdRound) @DeleteFlag(M8SecondRound) #M8Chat @Goto(M8PunishmentSpankinga)
+@Flag(M8ThirdRound) @SystemMessage [Miss Sarah]: #M8S4 @TempFlag(M8FutureRound) @DeleteFlag(M8ThirdRound) #M8Chat @Goto(M8PunishmentSpankinga)
+@Flag(M8FutureRound) @SystemMessage [Miss Sarah]: #M8S5 #M8Chat @Goto(M8PunishmentSpankinga)
+(M8PunishmentSpankinga)
+@SystemMessage [Miss Sarah]: #SlaveName get over my lap and be ready.. #M8Lap @Wait(#Random(3,7))
+@NullResponse @SetVar[SpankingCount]=[0]
+(SpankingM8)
+@NullResponse @If[SpankingCount]>[StrokesPerRound]Then(M8Count) @Goto(10,20,30,40,50)
+(10)
+@SystemMessage [Miss Sarah]: #SpankPlacingRight10 #M8OverLap 
+@SystemMessage [Miss Sarah]: #SpankPlacingLeft10 #M8OverLap @Goto(SpankingM8)
+(20)
+@SystemMessage [Miss Sarah]: #SpankPlacingRight20 #M8OverLap 
+@SystemMessage [Miss Sarah]: #SpankPlacingLeft20 #M8OverLap @Goto(SpankingM8)
+(30)
+@SystemMessage [Miss Sarah]: #SpankPlacingRight30 #M8OverLap 
+@SystemMessage [Miss Sarah]: #SpankPlacingLeft30 #M8OverLap @Goto(SpankingM8)
+(40)
+@SystemMessage [Miss Sarah]: #SpankPlacingRight40 #M8OverLap 
+@SystemMessage [Miss Sarah]: #SpankPlacingLeft40 #M8OverLap @Goto(SpankingM8)
+(50)
+@SystemMessage [Miss Sarah]: #SpankPlacingRight50 #M8OverLap 
+@SystemMessage [Miss Sarah]: #SpankPlacingLeft50 #M8OverLap @Goto(SpankingM8)
+(M8Count)
+@SystemMessage [Miss Sarah]: How many strokes was that #SlaveName? #M8Chat @InputVar[SpankedCount]
+@NullResponse @If[SpankedCount]=[SpankingCount]Then(M8Correct)
+(M8Wrong)
+@SystemMessage [Miss Sarah]: @RT(Thats wrong,Wrong,Incorrect,Thats incorrect,Nope,Sorry but that's not right..) #M8Chat
+@SystemMessage [Miss Sarah]: The correct number was @ShowVar[SpankingCount] #M8Chat @If[SubStrictness]<[#Random(1,15)]Then(M8Forgive)
+@SystemMessage [Miss Sarah]: I guess we have to start the round over #M8Chat @Goto(M8PunishmentSpankingOver)
+(M8Forgive)
+@SystemMessage [Miss Sarah]: Next time count correctly.. #M8Chat #MeritChangeNLow @Goto(M8PunishmentCorner)
+(M8Correct)
+@SystemMessage [Miss Sarah]: @RT(Correct!,Thats correct,Right!,Right on!,Thats right) #M8Chat @Goto(M8PunishmentCorner)
+(M8PunishmentCorner)
+@NotFlag(M8FirstRound) @SystemMessage [Miss Sarah]: #M8S1a #M8Chat @Goto(M8PunishmentCornera)
+@Flag(M8FirstRound) @SystemMessage [Miss Sarah]: #M8S2a #M8Chat @Goto(M8PunishmentCornera)
+@Flag(M8SecondRound) @SystemMessage [Miss Sarah]: #M8S3a #M8Chat @Goto(M8PunishmentCornera)
+@Flag(M8ThirdRound) @SystemMessage [Miss Sarah]: #M8S4a #M8Chat @Goto(M8PunishmentCornera)
+@Flag(M8FutureRound) @SystemMessage [Miss Sarah]: #M8S5a #M8Chat @Goto(M8PunishmentCornera)
+(M8PunishmentCornera)
+@SystemMessage [Miss Sarah]: Go to the corner #SlaveName #M8Chat
+@SystemMessage [Miss Sarah]: Stay there until you hear my bell #M8Chat @SetVar[CornerM8]=[0]
+(M8CornerTime)
+@NullResponse @If[CornerM8]>=[CornertimeTimeLimit]Then(M8EndCorner) @Wait(#Random(25,70))
+@NullResponse @ChangeVar[CornerM8]=[CornerM8]+[1] @Goto(M8CornerTime)
+(M8EndCorner)
+@SystemMessage [Miss Sarah]: Get back here! #M8Chat @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Goto(M8PunishmentSpanking)
+(M8End)
+@SystemMessage [Miss Sarah]: #SlaveName ..
+@SystemMessage [Miss Sarah]: I enjoyed our time together #M8Chat
+@SystemMessage [Miss Sarah]: Though I'm not sure your #GNMAss did #GNMLol #M8Chat
+@SystemMessage [Miss Sarah]: I'm sure it would make your #DomHonorific happy  #M8Chat
+@SystemMessage [Miss Sarah]: If you took a photo of your #GNMAss and placed it in your humiliation folder #GNMGrin #M8Chat @TempFlag(SpankzChoirComplete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
+@End
+(Safeword)
+@SystemMessage [Miss Sarah]: Oh my oh my @CustomMode(ModeText, Normal) #M8Chat
+@SystemMessage [Miss Sarah]: Couldn't handle anymore huh? #M8Chat
+@SystemMessage [Miss Sarah]: Well.. #M8Chat
+@SystemMessage [Miss Sarah]: You used your safeword and that has meaning #GNMGrin #M8Chat
+@SystemMessage [Miss Sarah]: First of all you now owe me a lot of gold #GNMGrin #M8Chat @TempFlag(SpankzChoirComplete)
+@SystemMessage [Miss Sarah]: Cya slave #M8Chat @TempFlag(SpankChoirSafeword) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
+@End

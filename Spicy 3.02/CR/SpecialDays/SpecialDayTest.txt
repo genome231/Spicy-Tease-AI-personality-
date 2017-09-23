@@ -1,0 +1,18 @@
+@NullResponse @RapidCodeOn
+@DomBirthday @NullResponse @Goto(Birthday2)
+@SubBirthday @NullResponse @Goto(Birthday)
+@Day(31) @Month(10) @NullResponse @Goto(Halloween)
+@NullResponse @Goto(End)
+(Birthday)
+@NullResponse @CallReturn(CR\SpecialDays\SubBirthday.txt)
+(Birthday2)
+@NullResponse @CallReturn(CR\SpecialDays\DomBirthday.txt)
+(Halloween)
+It's Halloween! #DT
+I have som fun planned for us! #DT
+@NullResponse @CallReturn(CR\SpecialDays\Halloween.txt)
+(End)
+@NullResponse
+@End
+(End2)
+@NullResponse @Interrupt(GNMBackgroundBase)

@@ -1,0 +1,538 @@
+@SystemMessage Initial start up.. @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@SystemMessage First session is very important and a long due to first time setup @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@SystemMessage Do you have about 1 - 1.5 hours? @ShowImage[\GNMImages\Intro\GNMLoading.*]
+[yes]@SystemMessage Commencing.. @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(Sub3.0) 
+[no]@SystemMessage Return when you have sufficient time.. @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(End)
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Intro\GNMLoading.*]
+(End)
+@SystemMessage Exiting.. - Return when you have time @DeleteFlag(SpicyIntro) @ShowImage[\GNMImages\Intro\GNMLoading.*] @EndTease
+@End
+(Sub3.0)
+@SystemMessage Setting up @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@SystemMessage This might take a few minutes.. @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@NullResponse @RapidCodeOn @SetVar[SubPain]=[3]
+@NullResponse @SetVar[SubPainTolerance]=[3]
+@NullResponse @SetVar[SubEndurance]=[3]
+@NullResponse @SetVar[SubStrictness]=[3]
+@NullResponse @SetVar[DevotionSet]=[45]
+@NullResponse @CallReturn(CR\Settings\DevotionSet.txt)
+(Base)
+@NullResponse @SetVar[RORatio]=[50]
+@NullResponse @SetVar[LockUpPoints]=[0]
+@NullResponse @SetVar[GNMMerits]=[500] @SetFlag(Neutral)
+@NullResponse @SetDate(StartOfService, 0 Days)
+@NullResponse @SetVar[GNMPPoints]=[0]
+@NullResponse @SetVar[AskedToFun]=[0]
+@NullResponse @SetVar[ChoresAgreed]=[5]
+@NullResponse @SetFlag(MetronomeOn)
+@NullResponse @SetVar[TeaseModule]=[60]
+@NullResponse @SetVar[SlaveModule]=[60]
+@NullResponse @SetVar[SissyModuleModule]=[60]
+@NullResponse @SetVar[PainModule]=[60]
+@NullResponse @SetVar[OTime]=[0]
+@NullResponse @SetVar[X]=[0]
+@NullResponse @SetVar[Y]=[0]
+@NullResponse @SetVar[CleaningTimeTemp]=[0]
+@NullResponse @SetVar[SlaveWeight]=[0]
+@NullResponse @SetVar[R1a]=[0]
+@NullResponse @SetVar[R1b]=[0]
+@NullResponse @SetVar[R1c]=[0]
+@NullResponse @SetVar[R1d]=[0]
+@NullResponse @SetVar[R2a]=[0]
+@NullResponse @SetVar[R2b]=[0]
+@NullResponse @SetVar[R4a]=[0]
+@NullResponse @SetVar[R6a]=[0]
+@NullResponse @SetVar[R6b]=[0]
+@NullResponse @SetVar[R5a]=[0]
+@NullResponse @SetVar[R5b]=[0]
+@NullResponse @SetVar[R5c]=[0]
+@NullResponse @SetVar[R5d]=[0]
+@NullResponse @SetVar[R5e]=[0]
+@NullResponse @SetVar[R5f]=[0]
+@NullResponse @SetVar[R5g]=[0]
+@NullResponse @SetVar[R3a]=[0]
+@NullResponse @SetVar[R3b]=[0]
+@NullResponse @SetVar[R3c]=[0]
+@NullResponse @SetVar[R3d]=[0]
+@NullResponse @SetVar[R3e]=[0]
+@NullResponse @SetVar[R7a]=[0]
+@NullResponse @SetVar[R7b]=[0]
+@NullResponse @SetVar[R7c]=[0]
+@NullResponse @SetVar[R7d]=[0]
+@NullResponse @SetVar[R7e]=[0]
+@NullResponse @SetFlag(Standard)
+@NullResponse @SetDate(PDenial, 0 Hours)
+@NullResponse @SetVar[PDenialSet]=[0]
+@NullResponse @SetDate(SpankzChoirSubscribtion, 0 Days)
+@NullResponse @SetVar[ChoresBought]=[0]
+@NullResponse @SetDate(Spoken, 0 Minutes)
+@NullResponse @SetDate(Speak, 0 Seconds)
+@NullResponse @SetVar[ForgotCap]=[0]
+(F1)
+@NullResponse @SetVar[SlaveF1Endurance]=[8]
+@NullResponse @SetVar[SlaveF1PainTolerance]=[3]
+@NullResponse @SetVar[SlaveF1PainEndurance]=[2]
+@NullResponse @SetVar[SlaveF1HumiliationCheck]=[1]
+@NullResponse @SetVar[SlaveF1DildoPussy]=[1]
+@NullResponse @SetVar[SlaveF1DildoAss]=[2]
+@NullResponse @SetVar[SlaveF1Personality]=[1]
+@NullResponse @SetVar[SlaveF1Orgasm]=[0]
+(F2)
+@NullResponse @RapidCodeOn @SetVar[SlaveF2Endurance]=[6]
+@NullResponse @SetVar[SlaveF2PainTolerance]=[6]
+@NullResponse @SetVar[SlaveF2PainEndurance]=[5]
+@NullResponse @SetVar[SlaveF2HumiliationCheck]=[5]
+@NullResponse @SetVar[SlaveF2DildoPussy]=[2]
+@NullResponse @SetVar[SlaveF2DildoAss]=[1]
+@NullResponse @SetVar[SlaveF2Personality]=[3]
+@NullResponse @SetVar[SlaveF2Orgasm]=[0]
+(F3)
+@NullResponse @RapidCodeOn @SetVar[SlaveF3Endurance]=[4]
+@NullResponse @SetVar[SlaveF3PainTolerance]=[9]
+@NullResponse @SetVar[SlaveF3PainEndurance]=[8]
+@NullResponse @SetVar[SlaveF3HumiliationCheck]=[10]
+@NullResponse @SetVar[SlaveF3DildoPussy]=[3]
+@NullResponse @SetVar[SlaveF3DildoAss]=[3]
+@NullResponse @SetVar[SlaveF3Personality]=[5]
+@NullResponse @SetVar[SlaveF3Orgasm]=[0]
+(M1)
+@NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[3]
+@NullResponse @SetVar[SlaveM1PainTolerance]=[8]
+@NullResponse @SetVar[SlaveM1PainEndurance]=[2]
+@NullResponse @SetVar[SlaveM1HumiliationCheck]=[4]
+@NullResponse @SetVar[SlaveM1DildoAss]=[3]
+@NullResponse @SetVar[SlaveM1Personality]=[5]
+@NullResponse @SetVar[SlaveM1Orgasm]=[0]
+(M2)
+@NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[5]
+@NullResponse @SetVar[SlaveM1PainTolerance]=[5]
+@NullResponse @SetVar[SlaveM1PainEndurance]=[5]
+@NullResponse @SetVar[SlaveM1HumiliationCheck]=[3]
+@NullResponse @SetVar[SlaveM1DildoAss]=[2]
+@NullResponse @SetVar[SlaveM1Personality]=[3]
+@NullResponse @SetVar[SlaveM2Orgasm]=[0]
+(M3)
+@NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[7]
+@NullResponse @SetVar[SlaveM1PainTolerance]=[2]
+@NullResponse @SetVar[SlaveM1PainEndurance]=[8]
+@NullResponse @SetVar[SlaveM1HumiliationCheck]=[2]
+@NullResponse @SetVar[SlaveM1DildoAss]=[1]
+@NullResponse @SetVar[SlaveM1Personality]=[1]
+@NullResponse @SetVar[SlaveM3Orgasm]=[0]
+(Glitter1)
+@NullResponse @SetVar[Glitter1Score]=[5]
+(Glitter2)
+@NullResponse @SetVar[Glitter2Score]=[3]
+(Glitter3)
+@NullResponse @SetVar[Glitter3Score]=[1]
+(GoodBadDays)
+@NullResponse @SetFlag(Day1Good)
+@NullResponse @SetFlag(Day2Good) @SetVar[GoodDays]=[20]
+@NullResponse @SetFlag(Day3Good) @SetVar[BadDays]=[11]
+@NullResponse @SetFlag(Day4Good) @SetVar[OTime]=[0]
+@NullResponse @SetFlag(Day5Good)
+@NullResponse @SetFlag(Day6Good)
+@NullResponse @SetFlag(Day7Good)
+@NullResponse @SetFlag(Day8Good)
+@NullResponse @SetFlag(Day9Good)
+@NullResponse @SetFlag(Day10Good)
+@NullResponse @SetFlag(Day11Good)
+@NullResponse @SetFlag(Day12Good)
+@NullResponse @SetFlag(Day13Good)
+@NullResponse @SetFlag(Day14Good)
+@NullResponse @SetFlag(Day15Good)
+@NullResponse @SetFlag(Day16Good)
+@NullResponse @SetFlag(Day17Good)
+@NullResponse @SetFlag(Day18Good)
+@NullResponse @SetFlag(Day19Good)
+@NullResponse @SetFlag(Day20Good)
+@NullResponse @SetFlag(Day21Bad)
+@NullResponse @SetFlag(Day22Bad)
+@NullResponse @SetFlag(Day23Bad)
+@NullResponse @SetFlag(Day24Bad)
+@NullResponse @SetFlag(Day25Bad)
+@NullResponse @SetFlag(Day26Bad)
+@NullResponse @SetFlag(Day27Bad)
+@NullResponse @SetFlag(Day28Bad)
+@NullResponse @SetFlag(Day29Bad)
+@NullResponse @SetFlag(Day30Bad)
+@NullResponse @SetFlag(Day31Bad) 
+@NullResponse @RapidCodeOff
+(General)
+@NullResponse @ShowImage[\GNMImages\Intro\Disclaimer.*] @Wait(18) 
+@NullResponse @ShowImage[\GNMImages\Intro\Tribute.*] @Wait(13)
+@NullResponse @ShowImage[\GNMImages\Intro\BugFeedback.*] @Wait(18)
+@NullResponse @ShowImage[\GNMImages\Intro\SpicyGif1.gif] @Wait(6)
+@SystemMessage Setting up first time.. @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@SystemMessage #VANC #VANP Welcome #SubName
+@SystemMessage #VANC #VANP My name is #DomHonorific #VAN @SetFlag(BGImage1Active)
+@SystemMessage #VANC #VANP I am #DomHonorific #DomName's virtual assistant @Wait(5)
+@SystemMessage #VANC #VANP You are here because you sent a request to become the property of #DomHonorific #DomName
+@SystemMessage #VANC #VANP As you probably read before sending the application there is a 6 month trial period
+@SystemMessage #VANC #VANP The trial period is designed to see if you're fit to serve..
+@SystemMessage #VANC #VANP Many men <i>and</i> women arround the world claim that they want to be slaves
+@SystemMessage #VANC #VANP Most of these people doesn't truely understand what it means to serve
+@SystemMessage #VANC #VANP Tease-AI was designed to simulate the realities of being a slave
+@SystemMessage #VANC #VANP Through this program you will meet your perhaps future #DomHonorific
+@SystemMessage #VANC #VANP You will be played with, tested and trained
+@SystemMessage #VANC #VANP You will also meet other applicants both female and male
+@SystemMessage #VANC #VANP And you will meet the #DomHonorific's friends
+@SystemMessage #VANC #VANP At the end of the trial there will be a quite extensive report on you
+@SystemMessage #VANC #VANP As well as a final exam
+@SystemMessage #VANC #VANP Pass both and you will be accepted as the property of #DomHonorific #DomName
+@SystemMessage #VANC #VANP Now there are 2 types of slaves
+@SystemMessage #VANC #VANP Those who serve full time and some who serve part time
+@SystemMessage #VANC #VANP In case you forgot
+@SystemMessage #VANC #VANP Full time means that you are expected to visit often as well as complete chores
+@SystemMessage #VANC #VANP Part time means that you're only here to play arround
+@SystemMessage #VANC #VANP You also have the option of trying fulltime for a trial period of 10 days
+@SystemMessage #VANC #VANP This is done inside the shop
+@SystemMessage #VANC #VANP Your first trial is free
+@SystemMessage #VANC #VANP After that the price to do the trial is 200 gold 
+@SystemMessage #VANC #VANP After 10 days you would then have to make a decision wether you want to continue full time
+@SystemMessage #VANC #VANP Or revert back to part-time
+@SystemMessage #VANC #VANP Notice!
+@SystemMessage #VANC #VANP It is possible to go from part time to full time
+@SystemMessage #VANC #VANP But if you at any point wish to return to serve part time 
+@SystemMessage #VANC #VANP There is a fee of 2000 gold
+@SystemMessage #VANC #VANP Well..
+@SystemMessage #VANC #VANP Unfortunately I have misplaced your application #GNMEmoteSad
+@SystemMessage #VANC #VANP So I need you to refresh my memory
+@SystemMessage #VANC #VANP Are you here to serve full or part time?
+[part time,part]@SystemMessage #VANC #VANP #GNMGood @SetFlag(PartTime)
+[full time,full]@SystemMessage #VANC #VANP #GNMGood @SetFlag(FullTime)
+@DifferentAnswer @SystemMessage #VANC #VANP Full time or part time slave?
+@SystemMessage #VANC #VANP #DomHonorific would prefer it if you are able to handle wearing a chastity device at all time.
+@SystemMessage #VANC #VANP But she also understands that it takes practice to learn
+@SystemMessage #VANC #VANP Do you own a chastity device?
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(HasChastity)
+[no]@SystemMessage #VANC #VANP You should considder buying one for the full experience @Goto(Denial)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
+@SystemMessage #VANC #VANP Is it made of plastic or metal?
+[plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlastic)
+[metal]@SystemMessage #VANC #VANP Noted.. @SetFlag(Metal)
+@DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
+@SystemMessage #VANC #VANP Is it a full belt or a ball trap device?
+[full,belt]@SystemMessage #VANC #VANP Full belt.. @SetFlag(FullBelt)
+[ball trap,ball,trap]@SystemMessage #VANC #VANP Ball trap.. @SetFlag(BallTrap)
+@DifferentAnswer @SystemMessage #VANC #VANP full or ball trap?
+@SystemMessage #VANC #VANP Are you pierced as a mean to secure the device?
+[yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CPiercing)
+[no]@SystemMessage #VANC #VANP Too bad.. 
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Do you use a metal lock or plastic numbered lock to lock it?
+[metal]@SystemMessage #VANC #VANP Noted.. @SetFlag(CMetalLock)
+[plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlasticLock)
+@DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
+@SystemMessage #VANC #VANP Do you own a timed lockbox?
+[yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CTimedLockBoxActive)
+[no]@SystemMessage #VANC #VANP Noted..
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP If you have it, I might considder using spikes as a means of punishment..
+@SystemMessage #VANC #VANP Do you have a set of spike attachments to your belt?
+[yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CSpikesActive)
+[no]@SystemMessage #VANC #VANP Noted..
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Ideally #DomHonorific prefers that you are locked whenever you're not playing
+@SystemMessage #VANC #VANP Meaning you wear it 24/7
+@SystemMessage #VANC #VANP And that you will only be released when told so through Tease-AI
+@SystemMessage #VANC #VANP Are you capable or wearing it 24/7? I suggest you answer truthfully for your own sake..
+[yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(CRecord)
+[no]@SystemMessage #VANC #VANP Dont be ashamed, we can always work on this.
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Well since you cant wear it 24/7
+@SystemMessage #VANC #VANP I'm curious to find out how much you can handle
+@SystemMessage #VANC #VANP Are you willing to work towards learning how to wear it 24/7?
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetVar[ChastityLevel]=[1] @SetFlag(ChastityTrainingActive)
+[no]@SystemMessage #VANC #VANP It's alright @Goto(CRecord)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Slave I dont care if you sleep with your cage
+@SystemMessage #VANC #VANP I think you should since it would constantly remind you who you belong to
+@SystemMessage #VANC #VANP But you wont be forced to
+@SystemMessage #VANC #VANP When it comes to exercise I understand that performing it while caged isn't easy
+@SystemMessage #VANC #VANP So I'm not gonna force this on you either
+@SystemMessage #VANC #VANP But again it would make me and your #DomHonorific happy if you did
+(CRecord)
+@SystemMessage #VANC #VANP And a final question about chastity
+@SystemMessage #VANC #VANP Do you considder chastity to be something used occacionally as a plaything?
+@SystemMessage #VANC #VANP Only as a punishment?
+@SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
+[play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
+[punishment]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
+[full time,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
+(Denial)
+@SystemMessage #VANC #VANP Slave I dont know how well you handle denial
+@SystemMessage #VANC #VANP And neither does your #DomHonorific
+@SystemMessage #VANC #VANP So I need you to tell me on a scale..
+@SystemMessage #VANC #VANP How well you handle denial
+@SystemMessage #VANC #VANP Your ability to handle denial is defined by your denial level
+@SystemMessage #VANC #VANP Denial Level ranges from 1 to 15
+@SystemMessage #VANC #VANP Level 1 to 5 is for Beginners
+@SystemMessage #VANC #VANP Level 6 to 8 is for the trained
+@SystemMessage #VANC #VANP Level 9 to 11 is for the Advanced
+@SystemMessage #VANC #VANP Level 12 to 15 is for the High skilled
+@SystemMessage #VANC #VANP The higher your level is the less messy ejaculations you will receive
+@SystemMessage #VANC #VANP Which is good since we basicly want you horny..
+@SystemMessage #VANC #VANP A horny sub is an obediant sub
+@SystemMessage #VANC #VANP Now I recommend choosing your level with care!
+@SystemMessage #VANC #VANP Once in a while your #DomHonorific will bring about this topic
+@SystemMessage #VANC #VANP So what you choose now isn't final or unchangable
+(DenialLevel)
+@SystemMessage #VANC #VANP At what level do you think you belong? @InputVar[DenialLevelNr]
+@Variable[DenialLevelNr]<=[0] @SystemMessage #VANC #VANP You cant choose a number equal to 0 or lower @Goto(DenialLevel)
+@Variable[DenialLevelNr]>=[16] @SystemMessage #VANC #VANP You cant choose a number higher than 15 @Goto(DenialLevel)
+@Variable[DenialLevelNr]>=[1]And[DenialLevelNr]<=[15] @SystemMessage #VANC #VANP Proceeding @Goto(Continue1)
+@SystemMessage #VANC #VANP You chose a number that doesn't make sense
+@SystemMessage #VANC #VANP You cant write 'level 1' or similar
+@SystemMessage #VANC #VANP Only input a simple number like '3' or '9' @Goto(DenialLevel)
+(Continue1)
+@SystemMessage #VANC #VANP As you should know
+@SystemMessage #VANC #VANP A slave doesn't have "personal" information since a slave isn't really a person..
+@SystemMessage #VANC #VANP As a token of complete surrender I need the phonenumber and name of 3 people
+@SystemMessage #VANC #VANP Preferably girls that dont know about your fetish
+(InputBlackmail)
+@SystemMessage #VANC #VANP So tell me the full name of the first person @InputVar[BlackmailName1]
+@SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone1]
+@SystemMessage #VANC #VANP tell me the full name of the second person @InputVar[BlackmailName2]
+@SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone2]
+@SystemMessage #VANC #VANP Tell me the full name of the third person @InputVar[BlackmailName3]
+@SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone3]
+@SystemMessage #VANC #VANP Lets confirm
+@SystemMessage #VANC #VANP So the first person is: @ShowVar[BlackmailName1] with the corressponding phonenumber: @ShowVar[BlackmailPhone1]
+@SystemMessage #VANC #VANP The second person is: @ShowVar[BlackmailName2] with the corressponding phonenumber: @ShowVar[BlackmailPhone2]
+@SystemMessage #VANC #VANP The third person is: @ShowVar[BlackmailName3] with the corressponding phonenumber: @ShowVar[BlackmailPhone3]
+@SystemMessage #VANC #VANP Is this information correct?
+[yes]@SystemMessage #VANC #VANP #GNMGood
+[no]@SystemMessage #VANC #VANP Lets try again then.. @Goto(InputBlackmail)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave..
+@SystemMessage #VANC #VANP One more thing! #GNMGrin
+@SystemMessage #VANC #VANP Inside the image folders you'll find a folder named 'FFriends'
+@SystemMessage #VANC #VANP "Female Friends" in case you were wondering
+@SystemMessage #VANC #VANP Inside it you'll find three folders named 1, 2 and 3
+@SystemMessage #VANC #VANP Inside the folders I want pictures of those contacts you just provided me with
+@SystemMessage #VANC #VANP Folder 1 is for @ShowVar[BlackmailName1]
+@SystemMessage #VANC #VANP Folder 2 is for @ShowVar[BlackmailName2]
+@SystemMessage #VANC #VANP Folder 3 is for @ShowVar[BlackmailName3]
+
+@SystemMessage #VANC #VANP Should you ever think of quiting your service to the #DomHonorific
+@SystemMessage #VANC #VANP This will make sure you dont #GNMLol
+@SystemMessage #VANC #VANP Dont worry you'll be reminded to serve properly!
+@SystemMessage #VANC #VANP Or else.. 
+@SystemMessage #VANC #VANP Well as a final check I need to know what toys you have
+@SystemMessage #VANC #VANP Do note!
+@SystemMessage #VANC #VANP You are expected to have basic items such as pegs, rope and other common household items
+@SystemMessage #VANC #VANP Ofcourse I recommend that you have all the different toys for the full experience
+@SystemMessage #VANC #VANP But #DomHonorific understands if you cant afford all of it..
+@SystemMessage #VANC #VANP In case you aquire something new
+@SystemMessage #VANC #VANP You can always go to settings and I'll help you register your new toy
+@SystemMessage #VANC #VANP First I need to know
+@SystemMessage #VANC #VANP How often do you want to use toys during sessions?
+@SystemMessage #VANC #VANP Either you can input a custom value or you can let the domme decides
+[custom]@SystemMessage #VANC #VANP You decide @SetFlag(ToySub) @Goto(Explain)
+[domme]@SystemMessage #VANC #VANP The domme decides @SetFlag(ToyDomme) @Goto(Toy)
+@DifferentAnswer @SystemMessage #VANC #VANP Domme decides or custom value
+(Explain)
+@SystemMessage #VANC #VANP Now #SlaveName
+@SystemMessage #VANC #VANP I need you to follow my instructions carefully
+@SystemMessage #VANC #VANP Because since you want to determine the chance of toy usage I need you to access a certain file
+@SystemMessage #VANC #VANP Go to where you have Tease-AI placed
+@SystemMessage #VANC #VANP Follow this path:
+@SystemMessage #VANC #VANP Scripts --> Spicy 3.x --> Vocabulary
+@SystemMessage #VANC #VANP Inside vocabulary locate the file named ToyRoll
+@SystemMessage #VANC #VANP Be aware that it starts with a hashtag
+@SystemMessage #VANC #VANP Now the very first line of this is all you have to change
+@SystemMessage #VANC #VANP You will see a number after the Flag
+@SystemMessage #VANC #VANP Currently this number is 50
+@SystemMessage #VANC #VANP Meaning that everytime the domme wants to use toys there is a 50 chance of it happening
+@SystemMessage #VANC #VANP You can change this number to a new number ranging from 0-100
+@SystemMessage #VANC #VANP 100 meaning that the domme will use a toy everytime she has a chance
+@SystemMessage #VANC #VANP If you choose 0, then the domme will NEVER use toys
+@SystemMessage #VANC #VANP Are you done changing the number?
+[yes]@SystemMessage #VANC #VANP #GNMGood
+@DifferentAnswer @SystemMessage #VANC #VANP Just say 'yes' when you're ready to continue
+(Toy)
+@SystemMessage #VANC #VANP Lets do a quick setup of your toys
+@SystemMessage #VANC #VANP I'll show you some images of different stuff
+@SystemMessage #VANC #VANP You will respond with yes if you have it
+@SystemMessage #VANC #VANP You can also say yes if you have something similar that will work fine
+@SystemMessage #VANC #VANP Respond with no if you have nothing similar
+@NullResponse @ShowImage[\GNMImages\Toys\BallCrusher.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyBallCrusher)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy2)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(BallCrusherPlay)
+[punishment]@NullResponse @SetFlag(BallCrusherPunishment)
+[both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy2)
+@NullResponse @ShowImage[\GNMImages\Toys\ButtPlugs.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyButtPlug)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy3)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ButtPlugPlay)
+[punishment]@NullResponse @SetFlag(ButtPlugPunishment)
+[both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy3)
+@NullResponse @ShowImage[\GNMImages\Toys\Dildo.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyDildo)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy4)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(DildoPlay)
+[punishment]@NullResponse @SetFlag(DildoPunishment)
+[both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy4)
+@NullResponse @ShowImage[\GNMImages\Toys\EStim.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyElectro)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy5)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ElectroPlay)
+[punishment]@NullResponse @SetFlag(ElectroPunishment)
+[both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+@SystemMessage #VANC #VANP Tell me what level of schock you considder to be quite painful @InputVar[ElectroPHigh]
+@SystemMessage #VANC #VANP Tell me what level of schock you considder to be somehwat @InputVar[ElectroPMedium]
+@SystemMessage #VANC #VANP Tell me what level of schock you considder to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
+(Toy5)
+@NullResponse @ShowImage[\GNMImages\Toys\Gag.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyGag)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy6)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(GagPlay)
+[punishment]@NullResponse @SetFlag(GagPunishment) 
+[both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy6)
+@NullResponse @ShowImage[\GNMImages\Toys\Girlfriend.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToySetupGirlFriend)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieBasic)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy7)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet2.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieAdvanced)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(Toy7)
+@NullResponse @ShowImage[\GNMImages\Toys\Parachute.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyParachute)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy8)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ParachutePlay)
+[punishment]@NullResponse @SetFlag(ParachutePunishment)
+[both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy8)
+@NullResponse @ShowImage[\GNMImages\Toys\HotSauce.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyHotSauce)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy9)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(HotSaucePlay)
+[punishment]@NullResponse @SetFlag(HotSaucePunishment)
+[both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy9)
+@NullResponse @ShowImage[\GNMImages\Toys\Vibrator.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyVibrator)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy10)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(VibratorPlay)
+[punishment]@NullResponse @SetFlag(VibratorPunishment)
+[both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy10)
+@SystemMessage #VANC Do you have either of these? @ShowImage[\GNMImages\Toys\Collar.*]
+@SystemMessage #VANC Remember that a belt can also work as a collar @ShowImage[\GNMImages\Toys\Collar.*]
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyCollar)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy11)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(CollarPlay)
+[punishment]@NullResponse @SetFlag(CollarPunishment)
+[both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy11)
+@SystemMessage #VANC #VANP The stroking part uses a metronome as a standard
+@SystemMessage #VANC #VANP Some like to disable this, you can turn it off later in the settings.
+@SystemMessage #VANC #VANP Next we need for you to setup a folder with pictures of YOU!
+@SystemMessage #VANC #VANP Very simple actually..
+@SystemMessage #VANC #VANP Inside the GNMImages folder you'll find a folder named SelfHumiliation
+@SystemMessage #VANC #VANP As your first homework you have to snap at least two humiliating pictures of yourself
+@SystemMessage #VANC #VANP Put them inside the folder
+@SystemMessage #VANC #VANP We're gonna have a lot of fun with this folder! #GNMGrin
+@SystemMessage #VANC #VANP Inside GNM_Videos you'll find a folder with the exact same name
+@SystemMessage #VANC #VANP This folder needs a humiliating video of you
+@SystemMessage #VANC #VANP It doesn't have to be longer than 10 seconds
+@SystemMessage #VANC #VANP All I want is your face clearly on display
+@SystemMessage #VANC #VANP While doing something you would considder to be humiliating
+@SystemMessage #VANC #VANP Should the video ever be viewed by others #GNMLol
+@SystemMessage #VANC #VANP Finally we need to set up your spanking implements
+@SystemMessage #VANC #VANP I expect you to have at least 3 #GNMGrin
+@SystemMessage #VANC #VANP One of them should preferably be sort of medium implement
+@SystemMessage #VANC #VANP Not too stingy..
+@SystemMessage #VANC #VANP The second should be a hard implement
+@SystemMessage #VANC #VANP One that definetly leaves a sting
+@SystemMessage #VANC #VANP And the third should be a really nasty one!
+@SystemMessage #VANC #VANP One that strikes terror into your heart #GNMGrin
+@SystemMessage #VANC #VANP So tell me slave 
+@SystemMessage #VANC #VANP What implement do you have that fits the first description? @InputVar[SpankingImplement1]
+@SystemMessage #VANC #VANP Thats a good one..
+@SystemMessage #VANC #VANP What implement do you have that fits the second description? @InputVar[SpankingImplement2]
+@SystemMessage #VANC #VANP This should be giving us a fun time!..
+@SystemMessage #VANC #VANP What nasty implement do you have that fits the Third description? @InputVar[SpankingImplement3]
+@SystemMessage #VANC #VANP Mhmm I cant wait to use this one!
+@SystemMessage #VANC #VANP We have arrived at a very important point
+@SystemMessage #VANC #VANP You need to choose between one of 3 different personalities for your domme
+@SystemMessage #VANC #VANP Choose with care as this choice is permanent and crucial to your experience
+@SystemMessage #VANC #VANP Simply put personality 1 is easier to please and harder to annoy than personality 3
+@SystemMessage #VANC #VANP You might call personality 3 strict while personality 1 is "nicer"
+@SystemMessage #VANC #VANP Personality 2 is somewhere in the middle of all of this
+@SystemMessage #VANC #VANP As a final note there are differences in how they handle different situations
+@SystemMessage #VANC #VANP Small and big..
+@SystemMessage #VANC #VANP Also note that this has nothing to do with me #GNMLol
+@SystemMessage #VANC #VANP I'll be strict no matter what you choose ;)
+@SystemMessage #VANC #VANP I recommend Personality 1
+@SystemMessage #VANC #VANP You might considder personality 2 "hard"
+@SystemMessage #VANC #VANP And personality 3 extreme
+@SystemMessage #VANC #VANP I do NOT recommend personality 3, it is extreme..
+@SystemMessage #VANC #VANP Which personality do you choose.. @SetFlag(DommeActive)
+@SystemMessage #VANC #VANP 1, 2 or 3?
+[1,one]@SystemMessage #VANC #VANP Setting up personality.. @Goto(Setup1)
+[2,two]@SystemMessage #VANC #VANP Setting up personality.. @Goto(Setup2)
+[3,three]@SystemMessage #VANC #VANP Setting up personality.. @Goto(Setup3)
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2 or 3?
+(Setup1)
+@NullResponse @RapidCodeOn @SetVar[DommeContentVPleased]=[900] @SetFlag(Personality1)
+@NullResponse @SetVar[DommeContentPleased]=[700]
+@NullResponse @SetVar[DommeContentVAnnoyed]=[0]
+@NullResponse @SetVar[DommeContentAnnoyed]=[250] @Goto(MoveOn2)
+(Setup2)
+@NullResponse @RapidCodeOn @SetVar[DommeContentVPleased]=[950] @SetFlag(Personality2)
+@NullResponse @SetVar[DommeContentPleased]=[750]
+@NullResponse @SetVar[DommeContentVAnnoyed]=[50]
+@NullResponse @SetVar[DommeContentAnnoyed]=[250] @Goto(MoveOn2)
+(Setup3)
+@NullResponse @RapidCodeOn @SetVar[DommeContentVPleased]=[1000] @SetFlag(Personality3)
+@NullResponse @SetVar[DommeContentPleased]=[800]
+@NullResponse @SetVar[DommeContentVAnnoyed]=[50]
+@NullResponse @SetVar[DommeContentAnnoyed]=[300]
+(MoveOn2)
+@SystemMessage #VANC #VANP Well..
+@SystemMessage #VANC #VANP #DomHonorific #DomName just texted me
+@SystemMessage #VANC #VANP She wants to meet you.. 
+@SystemMessage #VANC #VANP ...Transfering Session... @UnlockImages @CallReturn(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt)
+(EndTease)
+@NullResponse @Endtease
+@End

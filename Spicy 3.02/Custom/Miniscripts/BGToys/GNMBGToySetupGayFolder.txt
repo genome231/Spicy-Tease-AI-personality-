@@ -1,0 +1,16 @@
+@SystemMessage #GNMVA This is quite simple #PetName
+@SystemMessage #GNMVA I need you to create a gay folder where all your other images are stored
+@SystemMessage #GNMVA Inside settings I need you to input the path to the folder
+@SystemMessage #GNMVA Next I need you to play a picture of yourself naked in that folder
+@SystemMessage #GNMVA Get going! @Wait(5)
+@SystemMessage #GNMVA Are you done?
+[yes]@SystemMessage #GNMVA #GNMGood
+@DifferentAnswer @SystemMessage #GNMVA I only wanna hear a yes #DomHonorific when you're done..
+@SystemMessage Good that means @ShowGayImage
+(TryAgain)
+@SystemMessage You should be able to see yourself now @ShowGayImage
+@SystemMessage #GNMVA Is that correct?
+[yes]@SystemMessage #GNMVA #GNMGood @SetFlag(GNMToySetupGay)
+[no]@SystemMessage #GNMVA Bad boy, try again then! @Wait(30) @Goto(TryAgain)
+@DifferentAnswer @SystemMessage #GNMVA yes or no slave..
+@End

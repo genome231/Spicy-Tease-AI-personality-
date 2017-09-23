@@ -1,0 +1,74 @@
+@RT(I'm gonna show you guys a video,I will show you slaves a video,In a moment you'll see a video) #DT 
+@RT(I'll only have 1 question to ask after,You'll get one question afterwards,After that I have 1 question for you) #DT 
+@RT(Better get it right!,You'll want to get it right!) #DT @Goto(3a,3b,3c)
+(3a)
+@NullResponse @PlayVideo[GNM_Videos\Academy\Lingerie\Class1\Nylon.mp4]
+@NullResponse @Goto(3aa,3ab)
+(3aa)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late1)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late1)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[AcademyScore]=[AcademyScore]-[10] #DT @Goto(End)
+(3ab)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late2)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late2)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss. 
+Correct! @ChangeVar[AcademyScore]=[AcademyScore]-[10] #DT @Goto(End)
+(3b)
+@NullResponse @PlayVideo[GNM_Videos\Academy\Lingerie\Class1\NylonStockings.mp4]
+@NullResponse @Goto(3ba,3bb)
+(3ba)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late3)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late3)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[AcademyScore]=[AcademyScore]-[10] #DT @Goto(End)
+(3bb)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late4)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late4)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss. #DT 
+Correct! #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+(3c)
+@NullResponse @PlayVideo[GNM_Videos\Academy\Lingerie\Class1\Silk.mp4]
+@NullResponse @Goto(3ca,3cb)
+(3ca)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late5)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late5)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss. #DT 
+Correct! #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+(3cb)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(7, Late6)
+[1]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[2]Wrong.. #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+[3]Correct.. #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(End)
+@DifferentAnswer 1, 2 or 3? #DT
+(Late6)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss. #DT 
+Correct! #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(End)
+(End)
+@End

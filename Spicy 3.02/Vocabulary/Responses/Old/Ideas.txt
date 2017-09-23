@@ -1,0 +1,9 @@
+[States]
+@Flag(Session)
+@Flag(Assistant) 
+@Flag(Academy)
+@Flag(SpankzChoirMoment)
+
+[Condition]
+@Flag(Busy) Will trigger whenever the sub is occupied, mid punishment
+

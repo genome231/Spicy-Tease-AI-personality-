@@ -1,0 +1,1 @@
+@Flag(HomeWorkLingerie) @RT(I want,I expect,I command,I order) You to spend (10,15,20) minutes extra studying some of todays subjects..

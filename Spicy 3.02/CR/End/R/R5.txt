@@ -1,0 +1,69 @@
+(R5) \\Thumbing
+@RT(You might considder this to be extreme,You might considder this a bit scary) #DT @CustomMode(#MayRuin, Goto, RuinFalse)
+@RT(So it's going to be voluntary,So I wont force this on you) #DT
+@RT(It's quite simple really,It's not really that complicated) #DT
+@RT(You are to ruin an orgasm,You will ruin an orgasm) #DT
+@RT(As soon as you ruin you will press your thumb into your pee hole,When you ruin you will place your thumb into your pee hole) #DT
+@RT(Blocking the semen from releasing,Stopping the semen from leaving your #GNMCock) #DT
+Now is this something you can handle? #DT
+[yes]#GNMGood #DT
+[no]Well too bad #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+@NotFlag(SissyMode) @RT(You decide the stroking pace yourself,You may stroke however you like) #DT
+@Flag(CuckMode) Go ahead and fetch your vibrator #DT
+@Flag(CuckMode) I dont want you to stroke! #GNMLol #DT
+I'm gonna give you a slideshow of 15 images #DT
+You have until the last image to ruin or you forfeit your chance #DT
+15 images starting now! #DT @CustomMode(#MayRuin, Goto, Ruin) @CheckFlag(CuckMode)
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+@NullResponse @ShowImage @Wait(#Random(3,7))
+Stop all stimulation! #DT @CustomMode(ModeText, Normal) @Goto(EndSlow)
+(CuckMode)
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(#Random(3,7))
+Stop all stimulation! #DT @CustomMode(ModeText, Normal) @Goto(EndSlow)
+(RuinFalse)
+What? #DT @CustomMode(ModeText, Normal)
+Are you already asking me for that? #GNMEmoteSad #DT
+We've barely begun! The answer is no! #DT
+In fact.. #DT @Goto(ChastityCheck)
+(Ruin)
+@RT(Use your thumb!,Use your thumb!)
+@RT(Yes!,You have my permission!,Yes go ahead and ruin!,Yes you may ruin it!,Yes go ahead and ruin #SlaveName!,Ruin it #SlaveName) #DT @CustomMode(ModeText, Normal) @Wait(10)
+#GNMMoan #DT @Goto(AteCheck)
+(EndSlow)
+This is taking to long #SlaveName #DT
+I dont have all day.. #DT @Goto(ChastityCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+
+
+

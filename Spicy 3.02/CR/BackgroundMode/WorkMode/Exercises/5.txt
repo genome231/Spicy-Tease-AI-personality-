@@ -1,0 +1,8 @@
+@SystemMessage #VANC #VANP #GNMSlut take a deep breath and hold it @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Inhale @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Inhale @Wait(5)
+@SystemMessage #VANC #VANP Exhale @Wait(2)
+@SystemMessage #VANC #VANP Now Just return to whatever you were doing..
+@End

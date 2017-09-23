@@ -1,0 +1,14 @@
+@Flag(MetronomeOn) @SystemMessage #VANC #VANP You have the metronome for stroking ON @Goto(On)
+@NotFlag(MetronomeOn) @SystemMessage #VANC #VANP You have the metronome for stroking OFF @Goto(Off)
+(On)
+@SystemMessage #VANC #VANP Do you wish to turn the metronome off?
+[yes]@SystemMessage #VANC #VANP Turning off.. @DeleteFlag(MetronomeOn)
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(Off)
+@SystemMessage #VANC #VANP Do you wish to turn the metronome on?
+[yes]@SystemMessage #VANC #VANP Turning on.. @SetFlag(MetronomeOn)
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(End)
+@End

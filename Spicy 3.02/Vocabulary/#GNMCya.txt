@@ -1,0 +1,12 @@
+Cya @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Cya #SlaveName @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Cya #GNMSlut @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Bye #SlaveName @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Bye #SubName @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Bye @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Bye #GNMSlut @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Farewell @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Farewell #SlaveName @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Farewell #SubName @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+Farewell #GNMSlut @PlayAudio[/GNMSounds/Endings/EndScripts/Cya/*.mp3]
+See you tomorrow #GNMSlut!

@@ -1,0 +1,1 @@
+Tell me when the beat stops.. @ShowImage @PlayAudio[GNMSounds/Stroking/StrokePatterns/*.mp3]

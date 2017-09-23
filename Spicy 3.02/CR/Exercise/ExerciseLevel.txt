@@ -1,0 +1,14 @@
+@NullResponse @RapidCodeOn
+@Variable[ExerciseXP]>=[2700] @NullResponse @SetVar[ExerciseLevel]=[10] @Goto(End)
+@Variable[ExerciseXP]>=[2400] @NullResponse @SetVar[ExerciseLevel]=[9] @Goto(End)
+@Variable[ExerciseXP]>=[2100] @NullResponse @SetVar[ExerciseLevel]=[8] @Goto(End)
+@Variable[ExerciseXP]>=[1800] @NullResponse @SetVar[ExerciseLevel]=[7] @Goto(End)
+@Variable[ExerciseXP]>=[1500] @NullResponse @SetVar[ExerciseLevel]=[6] @Goto(End)
+@Variable[ExerciseXP]>=[1200] @NullResponse @SetVar[ExerciseLevel]=[5] @Goto(End)
+@Variable[ExerciseXP]>=[900] @NullResponse @SetVar[ExerciseLevel]=[4] @Goto(End)
+@Variable[ExerciseXP]>=[600] @NullResponse @SetVar[ExerciseLevel]=[3] @Goto(End)
+@Variable[ExerciseXP]>=[300] @NullResponse @SetVar[ExerciseLevel]=[2] @Goto(End)
+@Variable[ExerciseXP]<=[299] @NullResponse @SetVar[ExerciseLevel]=[1] @Goto(End)
+(End)
+@End
+@Variable[ExerciseXP]>[] @NullResponse @SetVar[ExerciseLevel]=[] @Goto(End)

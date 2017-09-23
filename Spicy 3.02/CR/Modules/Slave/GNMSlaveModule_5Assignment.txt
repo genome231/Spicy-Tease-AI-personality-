@@ -1,0 +1,217 @@
+@NullResponse @CheckFlag(SlaveModule5Task1Set)
+@NullResponse @CheckFlag(SlaveModule5Task2Set)
+@NullResponse @CheckFlag(SlaveModule5Task3Set)
+@NullResponse @CheckFlag(SlaveModule5Task4Set)
+@NullResponse @CheckFlag(SlaveModule5Task5Set)
+@NullResponse @CheckFlag(SlaveModule5Task6Set)
+@NullResponse @CheckFlag(SlaveModule5Task7Set)
+@NullResponse @CheckFlag(SlaveModule5Task8Set)
+@NullResponse @CheckFlag(SlaveModule5Task9Set)
+@NullResponse @CheckFlag(SlaveModule5Task10Set)
+@Flag(SlaveUpdate3) @NullResponse @Goto(Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10)
+@NullResponse @Goto(Task1,Task2,Task3,Task4,Task5)
+(Task1) \\Do x edges
+@NullResponse @SetFlag(SlaveModule5Task1Set) @SetDate(SMod5Task1, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT @SetVar[SModule5Edges]=[0] @ChangeVar[SModule5Edges]=[SModule5Edges]+[#Random(150,250)]
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(You are to complete,You are to do) @ShowVar[SModule5Edges] edges #GNMGrin #DT
+@RT(They can be completed however you like,They can be completed at any moment) #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task2) \\Kneel in front of bed every night before sleep and pray to mistress
+@NullResponse @SetFlag(SlaveModule5Task2Set) @SetDate(SMod5Task2, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(Right before you go to sleep,As you are about to sleep) #DT 
+@RT(I want you to kneel in front of your bed,I would like you to kneel in front of your bed) #DT 
+@RT(And spend,And simply take) 30 seconds @RT(to pray for me,To pray for my kindness,To thank me) #DT 
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task3) \\x strokes before sleep
+@NullResponse @SetFlag(SlaveModule5Task3Set) @SetDate(SMod5Task3, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(Right before you go to sleep,As you are about to sleep) #DT 
+@RT(Give your cock a bit of attention,Give that cock some love) #DT
+Give it @RT(50,100,150,200) slow sensual strokes #DT
+Imagine it's my hand #GNMMoan #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task4) \\Find new porn
+@NullResponse @SetFlag(SlaveModule5Task4Set) @SetDate(SMod5Task4, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(At some point within those 7 days,At some point in the next week) #DT 
+@RT(Spend at least 30 minutes,Spend some time) searcing and downloading new porn #DT 
+@RT(Add it to your collection,Add it to the respective folders) #DT 
+@RT(We can have some fun with it #GNMGrin,I would really love some fresh tools to torment you! #GNMMoan) #DT 
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task5) \\Watch a porn without touching
+@NullResponse @SetFlag(SlaveModule5Task5Set) @SetDate(SMod5Task5, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+I want you to watch a porno without touching yourself #DT 
+The topic should be @RT(lesbian,lezdom,femdom,spanking,gay) #GNMGrin #DT 
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task6) \\Post on the forum with ideas for Spicy 3
+@NullResponse @SetFlag(SlaveModule5Task6Set) @SetDate(SMod5Task6, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(I want you to make a post on the Spicy 3 forum,You should write on the Spicy 3 forum) #DT
+@RT(Share any idea you might have,Maybe you have something would like to see) #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task7) \\Do x push ups each day for x days, while saying i love my Domme
+@NullResponse @SetFlag(SlaveModule5Task7Set) @SetDate(SMod5Task7, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(I want you to do,You should do) @RT(20,40,60) push-ups every day #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task8) \\Read a sex novelle about X online
+@NullResponse @SetFlag(SlaveModule5Task8Set) @SetDate(SMod5Task8, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(I would like you to read a sex story online,You should read a sex story online) #DT
+@RT(The subject being,The topic should be) @RT(Chastity,Femdom,Cuckold) #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task9) \\Repeat the houserules once a day
+@NullResponse @SetFlag(SlaveModule5Task9Set) @SetDate(SMod5Task9, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(Everyday I want you to go inside images and find the houserules,Go and look at the houserules) #DT
+@RT(Read them out loud,Read them a loud and try to remember them) #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(Task10) \\Spend x minutes in the corner every day and think about x
+@NullResponse @SetFlag(SlaveModule5Task10Set) @SetDate(SMod5Task10, 1 Weeks)
+#SlaveName @RT(I have a task for you,I have an assignment for you) #DT 
+@RT(Within the next 7 days,You have at least 7 days to complete it) #DT 
+@RT(I would like it if,I would realle appreciate if) you would spend just 2 minutes in the corner #DT
+@RT(While in the corner,When in the corner) think about why you serve #DT
+@RT(Now this is a special task,This is a very special assignment) #DT
+Because you dont have to do it #DT
+@RT(It's an opportunity for you,It's simple a chance for you) to prove yourself #GNMEmoteHappy #DT
+Completing the assignment will also have a rather large reward #DT
+I hope you complete it, it would make me so proud of you! #DT @Goto(End)
+(SlaveModule5Task1Set)
+@NullResponse @CheckDate(SMod5Task1,Task1Done) 
+I hope you haven't forgotten about my task and the @ShowVar[SModule5Edges] edges #GNMGrin #DT @Goto(End)
+(SlaveModule5Task2Set)
+@NullResponse @CheckDate(SMod5Task2,Task2Done) 
+I hope you haven't forgotten about my task and the prayers I wanted you to do make #GNMGrin #DT @Goto(End)
+(SlaveModule5Task3Set)
+@NullResponse @CheckDate(SMod5Task3,Task3Done) 
+Dont forget I asked that you stroked yourself a bit before each night's sleep #GNMEmoteHappy #DT @Goto(End)
+(SlaveModule5Task4Set)
+@NullResponse @CheckDate(SMod5Task4,Task4Done) 
+I hope you've already spend some time finding me new porn like I asked you too #GNMGrin #DT @Goto(End)
+(SlaveModule5Task5Set)
+@NullResponse @CheckDate(SMod5Task5,Task5Done) @Goto(End)
+(SlaveModule5Task6Set)
+@NullResponse @CheckDate(SMod5Task6,Task6Done) @Goto(End)
+(SlaveModule5Task7Set)
+@NullResponse @CheckDate(SMod5Task7,Task7Done) @Goto(End)
+(SlaveModule5Task8Set)
+@NullResponse @CheckDate(SMod5Task8,Task8Done) @Goto(End)
+(SlaveModule5Task9Set)
+@NullResponse @CheckDate(SMod5Task9,Task9Done) @Goto(End)
+(SlaveModule5Task10Set)
+@NullResponse @CheckDate(SMod5Task10,Task10Done) @Goto(End)
+(Task1Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task1Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked that you complete @ShowVar[SModule5Edges] edges #DT @Goto(Honest)
+(Task2Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task2Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I wanted you to pray every night before bed for 7 days #DT @Goto(Honest)
+(Task3Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task3Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked that you would stroke yourself before every nights sleeps #DT @Goto(Honest)
+(Task4Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task4Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to find and store some new porn #DT @Goto(Honest)
+(Task5Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task5Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to watch a porno without touching yourself #DT @Goto(Honest)
+(Task6Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task6Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to post any ideas you might had on Spicy 3's forum #DT @Goto(Honest)
+(Task7Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task7Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to do push-ups every day for a week #DT @Goto(Honest)
+(Task8Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task8Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to read a sex-story online #DT @Goto(Honest)
+(Task9Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task9Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you to read the house rules every day for a week #DT @Goto(Honest)
+(Task10Done) \\
+@NullResponse @DeleteFlag(SlaveModule5Task10Set)
+@RT(Hopefully you remember that,You might remember that,Maybe you can remember that) #DT
+@RT(I gave you an assigment some time ago,I asked you to complete a task some time ago,I wanted you to complete a task some time ago) #DT
+I asked you spend a few minutes in the corner for a week thinking about your service to me #DT @Goto(Honest)
+(Honest)
+@RT(Now be honest,I need you to be honest,Please be honest with me) #DT
+@RT(I wont be mad,I wont get mad about this,I wont be angry with you) #DT
+@RT(Remember that the task wasn't mandatory,The assignment wasn't mandatory) #DT
+Did you complete it? #DT
+[yes]#GNMGood #DT #MeritChangePMedium @Goto(Reward)
+[no]Thats perfectly fine! #DT #MeritChangeNLow
+@DifferentAnswer #GNMYesOrNo #DT
+Maybe next time #GNMEmoteHappy #DT @Goto(End)
+(Reward)
+I promised you a great reward #DT
+And I always keep my promises! #DT
+@Flag(Personality1) So here is 400 gold! #DT @ChangeVar[GNMGold]=[GNMGold]+[400]
+@Flag(Personality2) So here is 350 gold! #DT @ChangeVar[GNMGold]=[GNMGold]+[350]
+@Flag(Personality3) So here is 250 gold! #DT @ChangeVar[GNMGold]=[GNMGold]+[250]
+(End)
+@End

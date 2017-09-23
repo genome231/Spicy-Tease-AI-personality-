@@ -1,0 +1,24 @@
+@NullResponse @RapidCodeOn @CheckFlag(Glitter1Active)
+@NullResponse @CheckFlag(Glitter2Active)
+@NullResponse @CheckFlag(Glitter3Active) @Goto(DommeActive)
+(DommeActive)
+@RT(#SlaveName,#SubName,#Slut,Slave) @RT(I'm returning you to my lovely assistant,You're going back to my sweet assistant,Putting you back with my assistant) #DT
+@RT(Hope I see you tomorrow!,Come back tomorrow,You should come back again tomorrow) #DT @Interrupt(GNMBackgroundBase)
+(Glitter1Active)
+@RT(#SlaveName,#SubName,#Slut,Slave) @RT(I'm returning you to #ShortName's assistant,You're going back now,Sending you back now) #DT
+@Contact1 @RT(Hope I see you tomorrow!,Hope to see you soon!,Lets have some fun again soon!) #DT @DeleteFlag(Glitter1Active) @SetFlag(DommeActive)
+@NullResponse @AddDomme #DT
+@NullResponse @RemoveContact1 #DT
+@NullResponse @Interrupt(GNMBackgroundBase)
+(Glitter2Active) 
+@RT(#SlaveName,#SubName,#Slut,Slave) @RT(I'm returning you to #ShortName's assistant,You're going back now,Sending you back now) #DT
+@Contact2 @RT(Hope I see you tomorrow!,Hope to see you soon!,Lets have some fun again soon!) #DT @DeleteFlag(Glitter2Active) @SetFlag(DommeActive)
+@NullResponse @AddDomme #DT
+@NullResponse @RemoveContact2 #DT
+@NullResponse @Interrupt(GNMBackgroundBase)
+(Glitter3Active) 
+@RT(#SlaveName,#SubName,#Slut,Slave) @RT(I'm returning you to #ShortName's assistant,You're going back now,Sending you back now) #DT
+@Contact3 @RT(Hope I see you tomorrow!,Hope to see you soon!,Lets have some fun again soon!) #DT @DeleteFlag(Glitter3Active) @SetFlag(DommeActive) 
+@NullResponse @AddDomme #DT
+@NullResponse @RemoveContact3 #DT
+@NullResponse @Interrupt(GNMBackgroundBase)

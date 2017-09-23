@@ -1,0 +1,1 @@
+@PlayAudio[\GNMSounds\Stroking\MetronomeFast\*.mp3]

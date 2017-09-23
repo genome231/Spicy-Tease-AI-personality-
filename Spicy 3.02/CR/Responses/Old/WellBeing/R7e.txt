@@ -1,0 +1,85 @@
+@NullResponse @RapidCodeOn @ChangeVar[R7e]=[R7e]+[1] @CheckFlag(R7eFirst) 
+@NullResponse @SetVar[R7e]=[1] @TempFlag(R7eFirst)
+(R7eFirst)
+@Variable[R7e]>=[3] @RT(Stop pestering me with your emotions..,Stop bothering me with that contstantly!,Enough of your feelings!) #DT #MeritChangeNMedium @Goto(End)
+@Variable[R7e]=[2] @NullResponse @If[Angry]>=[25]Then(StopBothering) @Goto(SecondEmotion)
+@NullResponse @If[Angry]>[Happy]Then(DontCare) @Goto(How)
+(StopBothering)
+@RT(Stop pestering me with your emotions..,Stop bothering me with that contstantly!,Enough of your feelings!) #DT #MeritChangeNMedium @Goto(End)
+(SecondEmotion)
+@RT(Why are you so emotional today?,Whats with the feelings talk today?,Why so many emotions today?)
+@RT(A rhetorical questions obviously,That was a rhetorical question in case you wondered..)
+@End
+(How)
+@RT(How do you feel?,Come again?,What do you feel right now?) #DT
+[sad] @RT(Awww,Oh..) #DT @Goto(Sad)
+[happy] @RT(Good for you!,Well thats good to hear,Excellent) #DT @Goto(Happy)
+[angry] @RT(Angry?,Angered huh?) #DT @Goto(Angry)
+[hopeful,hopefull] @RT(#GNMGrin,#GNMLol) #DT @Goto(Hopeful)
+[worried] @RT(Hmm,Well) #DT @Goto(Worried)
+[proud] @NullResponse @Goto(Proud)
+@AcceptAnswer @RT(I see,Hmm,Well..,Well,I see..) #DT
+@RT(Not sure what you want from me,I kinda dont know what you expect to gain from telling me that..) #DT
+@End
+(Sad)
+@RT(Why are you sad?,What makes you sad?) #DT
+[denial,denied,horny,desperate,desperation] @RT(I suppose you would like me to fix that,I guess you wouldn't mind if I fixed that..) #DT
+@AcceptAnswer @RT(Awww,I feel with you #SlaveName,Thats doesn't sound to good) #DT #GNMEmoteSad
+@Variable[Happy]>[Angry] @RT(Maybe looking at this will cheer you up?,Perhaps this image can cheer you up a little) #DT @ShowImage @Goto(End)
+@RT(But #SlaveName I cant really do much about it,There isn't much I can do about that) #DT #GNMEmoteSad
+@End
+(Happy)
+@FlagOr(VAnnoyed,Annoyed) @RT(Now shut up and stop wasting my time..,Now be quiet..) #DT #MeritChangeNLow @Goto(End)
+@Variable[Happy]<[25] @RT(Now shut up and stop wasting my time..,Now be quiet..) #DT #MeritChangeNLow @Goto(End)
+@Variable[Happy]>=[25] @RT(Why wouldn't you be happy on such a lovely day,Anybody would be happy on this lovely day!) #DT #MeritChangePLow 
+@Flag(MS1) @RT(I got the sweetest text today!,I received the best text ever today!) #DT
+@Flag(MS1) @RT(My lover,My boyfriend..,One of my friends..) #DT
+@Flag(MS1) @RT(Wrote about how beautiful I am,Wrote that I'm the best person they know) #DT #GNMEmoteHappy
+@NullResponse @Goto(End)
+(Angry)
+@FlagOr(VAnnoyed,Annoyed) @RT(Tell someone who actually care,Maybe try someone who cares about you?) #DT #MeritChangeNLow @Goto(End)
+@RT(Being a slave your not entitled to be angry!,Being a sub you aren't allowed feelings..) #DT
+@Flag(MS101) @RT(I just finished a really great book!,I just reached the ending of a fantastic book..) #DT
+@Flag(MS101) @RT(You dont hear me bitching about it,And I'm not being a bitch!) #DT
+@NullResponse @Goto(End)
+(Hopeful)
+@RT(What does something like you have to be hopeful about!?,What can someone like you be hopeful about!?) #DT #GNMEmoteHappy
+@RT(With that face,With such a small cock,With that #GNMCock) #DT #GNMLol
+@RT(Pathetic,Sad really..) #DT
+@End
+(Worried)
+Wait wait wait! Lets try something else #DT #GNMGrin
+What would worry you the most..  #DT
+@RT(Never having an orgasm ever again,Having the whole world know about your fetish,Only wear a maid lingerie uniform 24/7) #DT
+Or #DT
+@RT(Suck a dick per day,Being the center of a gay gangbang,swallow a full bucket of cum)? #DT
+[first,1] @RT(Wauv REALLY!?,OMG you chose that?,Whaaaat you would go with THAT?!,You disgusting fuck!) #DT
+[second,2] @RT(Wauv REALLY!?,OMG you chose that?,Whaaaat you would go with THAT?!,You disgusting fuck!) #DT
+@DifferentAnswer First or second? #DT
+@RT(Imagine having that prospect,Just imagine if you only had those choices) #DT
+@RT(One day you might!,One day though you actually might!) #GNMLol #DT
+@End
+(Proud)
+@RT(I cant for the life of me imagine what you have to be proud about,I have no idea about what you have to be proud about) #DT #GNMGrin #MeritChangeNLow
+@RT(Aaand I'm not quite sure I care,And I really dont have a reason to care..,Not that I actually care) #DT @CheckFlag(ChastityIsOn) @Chance50(End)
+@NotFlag(HasChastity) @NullResponse @Goto(End)
+@RT(Since you're proud,If you are soo proud..) #DT
+@RT(I better take that away from you..,I kinda wanna strip that from you..) #DT
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Now I hope you <i>still</i> feel proud,I bet you <i>still</i> feel proud #GNMGrin) #DT
+@NullResponse @Interrupt(LockedAway)
+(DontCare)
+@RT(Right now #SlaveName,At this very moment,Well #SlaveName) #DT
+@RT(I dont really care,I'm not sure I give a fuck..,I'm not sure what you expect to gain from telling me that..,Honestly I dont really care..) #DT #MeritChangeNLow
+@End
+(ChastityIsOn)
+(End)
+@End
+(VAnnoyed)
+(Annoyed)
+(Neutral)
+(Pleased)
+(VPleased)
+[Lust]
+[Happy]
+[Angry]

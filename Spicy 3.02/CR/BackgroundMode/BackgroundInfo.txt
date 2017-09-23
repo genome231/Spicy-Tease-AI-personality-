@@ -1,0 +1,17 @@
+@SystemMessage #VANC #VANP You can use numbers to choose with;
+@SystemMessage #VANC #VANP like typing 1, 3, 7, seven, eight, eleven
+@SystemMessage #VANC #VANP Or
+@SystemMessage #VANC #VANP You can use text and write stuff like;
+@SystemMessage #VANC #VANP Computer, chores, settings, shop, dungeon
+@SystemMessage #VANC #VANP The array of available words is big
+@SystemMessage #VANC #VANP And covers a lot of different options
+@SystemMessage #VANC #VANP It is recommended you try different stuff and familiarize yourself with it
+@SystemMessage #VANC #VANP ---- One thing that is very important!!! ----
+@SystemMessage #VANC #VANP Whenever Spicy gets updated
+@SystemMessage #VANC #VANP And you have downloaded the newest update from the thread
+@SystemMessage #VANC #VANP When launching Spicy
+@SystemMessage #VANC #VANP Before doing anything else
+@SystemMessage #VANC #VANP Go to settings inside the personality and choose update
+@SystemMessage #VANC #VANP This will make sure that the update is integrated with your current version
+@SystemMessage #VANC #VANP Enjoy :)
+@End

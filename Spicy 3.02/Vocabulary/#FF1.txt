@@ -1,0 +1,1 @@
+@ShowImage[\GNMImages\FFriends\1\*.jpg]

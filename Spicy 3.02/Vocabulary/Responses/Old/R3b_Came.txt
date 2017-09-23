@@ -1,0 +1,9 @@
+[i came,i orgasmed,i crossed the edge,i ejaculated,i spurted]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\TeaseRelated\R3b.txt)
+@Flag(Session,Busy) @NullResponse
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\TeaseRelated\R3b.txt)
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @NullResponse
+@Flag(Assistant,Busy) @NullResponse
+[All End]

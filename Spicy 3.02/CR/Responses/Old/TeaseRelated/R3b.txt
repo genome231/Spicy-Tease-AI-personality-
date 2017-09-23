@@ -1,0 +1,16 @@
+@CallReturn(CR\GNMChastityOn.txt)
+@NullResponse @SetDate(TimeSinceE, 0 Days) #MeritChangeNHigh
+@NullResponse @SetDate(TimeSinceR, 0 Days) #MeritChangeNHigh
+@NullResponse @SetDate(TimeSinceO, 0 Days) #MeritChangeNHigh
+@RT(Did you at least ruin it?,Did you ruin it?) #DT #MeritChangeNHigh
+[yes]That makes it a little better.. #DT #MeritChangeNHigh
+[no]#SlaveName ... #DT #MeritChangeNHigh
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(I'm not sure what to do with you..,I'm thinking about what to do with you) #DT #MeritChangeNHigh
+Obviously I gave you punishment points.. #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+But really I'm just sad #DT #MeritChangeNHigh
+Disappointed #DT
+Controlling when and how you come is very important #DT
+And today you've violated my trust.. #DT
+You need to think about wether you actually want to serve or not.. #DT
+Bye #GNMEmoteSad #DT @Interrupt(GNMBackgroundBase)

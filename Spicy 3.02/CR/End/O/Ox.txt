@@ -1,0 +1,31 @@
+(Ox)
+Explain conditions
+(Understand)
+@RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
+[yes]#GNMGood #DT
+[no]Well then.. #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+(Game)
+Game
+
+
+
+(Test)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you orgasm?,Did you manage to orgasm?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]Well too bad #GNMGrin #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+
+
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+
+
+(Commands)
+@CustomMode(I saw boobs, Video, Video Closed) Stops video and goes to (Video Closed) if I saw boobs is typed in chat.
+@CustomMode(ModeText, Normal) Clears all @CustomMode
+@Flag(CuckMode)
+@Flag(SissyMode)

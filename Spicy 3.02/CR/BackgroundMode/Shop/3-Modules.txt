@@ -1,0 +1,177 @@
+@SystemMessage #VANC #VANP You have 3 choices
+@SystemMessage #VANC #VANP <Font color="red">1) Buy Modules</Font> <Font color="green">2) Update Modules</Font> <Font color="blue">3) Open Up Glitter</Font>
+@SystemMessage #VANC #VANP <Font color="red">Return) Returns</Font> 
+[one,1]@NullResponse @Goto(1)
+[two,2]@NullResponse @Goto(2)
+[three,3]@NullResponse @Goto(3)
+[return]@NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2 or 3
+@End
+(1)
+@SystemMessage #VANC #VANP You have all the modules
+@End
+(2)
+@Variable[GNMGold]<[500] @NullResponse @Goto(Poor1)
+@NullResponse @RapidTextOn
+@Flag(ChastityUpdate1) @SystemMessage #VANC #VANP You own ChastityUpdate1
+@Flag(ChastityUpdate2) @SystemMessage #VANC #VANP You own ChastityUpdate2
+@Flag(ChastityUpdate3) @SystemMessage #VANC #VANP You own ChastityUpdate3
+@Flag(HumiliationUpdate1) @SystemMessage #VANC #VANP You own HumiliationUpdate1
+@Flag(HumiliationUpdate2) @SystemMessage #VANC #VANP You own HumiliationUpdate2
+@Flag(HumiliationUpdate3) @SystemMessage #VANC #VANP You own HumiliationUpdate3
+@Flag(PainUpdate1) @SystemMessage #VANC #VANP You own PainUpdate1
+@Flag(PainUpdate2) @SystemMessage #VANC #VANP You own PainUpdate2
+@Flag(PainUpdate3) @SystemMessage #VANC #VANP You own PainUpdate3
+@Flag(SlaveUpdate1) @SystemMessage #VANC #VANP You own SlaveUpdate1
+@Flag(SlaveUpdate2) @SystemMessage #VANC #VANP You own SlaveUpdate2
+@Flag(SlaveUpdate3) @SystemMessage #VANC #VANP You own SlaveUpdate3
+@Flag(TeaseUpdate1) @SystemMessage #VANC #VANP You own TeaseUpdate1
+@Flag(TeaseUpdate2) @SystemMessage #VANC #VANP You own TeaseUpdate2
+@Flag(TeaseUpdate3) @SystemMessage #VANC #VANP You own TeaseUpdate3
+@NullResponse @RapidTextOff
+@SystemMessage #VANC #VANP Here you can buy updates for different modules
+@SystemMessage #VANC #VANP Unlocking features inside your modules
+@SystemMessage #VANC #VANP You wont know how they are updated
+@SystemMessage #VANC #VANP That is for you to discover
+@SystemMessage #VANC #VANP You only know to which category you get these updates
+@SystemMessage #VANC #VANP Each update pack is 500 gold
+@SystemMessage #VANC #VANP Do you wish to buy an update pack?
+[yes]@NullResponse
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP The following packs are available for purchase
+@NullResponse @RapidTextOn
+@NotFlag(ChastityUpdate1) @SystemMessage #VANC #VANP <Font color="red">1a) ChastityUpdate1</Font>
+@NotFlag(ChastityUpdate2) @SystemMessage #VANC #VANP <Font color="red">1b) ChastityUpdate2</Font>
+@NotFlag(ChastityUpdate3) @SystemMessage #VANC #VANP <Font color="red">1c) ChastityUpdate3</Font>
+@NotFlag(HumiliationUpdate1) @SystemMessage #VANC #VANP <Font color="blue">2a) HumiliationUpdate1</Font>
+@NotFlag(HumiliationUpdate2) @SystemMessage #VANC #VANP <Font color="blue">2b) HumiliationUpdate2</Font>
+@NotFlag(HumiliationUpdate3) @SystemMessage #VANC #VANP <Font color="blue">2c) HumiliationUpdate3</Font>
+@NotFlag(PainUpdate1) @SystemMessage #VANC #VANP <Font color="green">3a) PainUpdate1</Font>
+@NotFlag(PainUpdate2) @SystemMessage #VANC #VANP <Font color="green">3b) PainUpdate2</Font>
+@NotFlag(PainUpdate3) @SystemMessage #VANC #VANP <Font color="green">3c) PainUpdate3</Font>
+@NotFlag(SlaveUpdate1) @SystemMessage #VANC #VANP <Font color="yellow">4a) SlaveUpdate1</Font>
+@NotFlag(SlaveUpdate2) @SystemMessage #VANC #VANP <Font color="yellow">4b) SlaveUpdate2</Font>
+@NotFlag(SlaveUpdate3) @SystemMessage #VANC #VANP <Font color="yellow">4c) SlaveUpdate3</Font>
+@NotFlag(TeaseUpdate1) @SystemMessage #VANC #VANP <Font color="purple">5a) TeaseUpdate1</Font>
+@NotFlag(TeaseUpdate2) @SystemMessage #VANC #VANP <Font color="purple">5b) TeaseUpdate2</Font>
+@NotFlag(TeaseUpdate3) @SystemMessage #VANC #VANP <Font color="purple">5c) TeaseUpdate3</Font>
+@NullResponse @RapidTextOff
+@SystemMessage #VANC #VANP Which pack do you wish to buy?
+[one a,1a]@NullResponse @Goto(1a)
+[one b,1b]@NullResponse @Goto(1b)
+[one c,1c]@NullResponse @Goto(1c)
+[two a,2a]@NullResponse @Goto(2a)
+[two b,2b]@NullResponse @Goto(2b)
+[two c,2c]@NullResponse @Goto(2c)
+[three a,3a]@NullResponse @Goto(3a)
+[three b,3b]@NullResponse @Goto(3b)
+[three c,3c]@NullResponse @Goto(3c)
+[four a,4a]@NullResponse @Goto(4a)
+[four b,4b]@NullResponse @Goto(4b)
+[four c,4c]@NullResponse @Goto(4c)
+[five a,5a]@NullResponse @Goto(5a)
+[five b,5b]@NullResponse @Goto(5b)
+[five c,5c]@NullResponse @Goto(5c)
+@DifferentAnswer @SystemMessage #VANC #VANP 1a, 1b, 1c, 2a, 2b, 2c, 3a, 3b, 3c, 4a, 4b, 4c, 5a, 5b or 5c
+(1a)
+@Flag(ChastityUpdate1) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(ChastityUpdate1) @Goto(End)
+(1b)
+@Flag(ChastityUpdate2) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(ChastityUpdate2) @Goto(End)
+(1c)
+@Flag(ChastityUpdate3) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(ChastityUpdate3) @Goto(End)
+(2a)
+@Flag(HumiliationUpdate1) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(HumiliationUpdate1) @Goto(End)
+(2b)
+@Flag(HumiliationUpdate2) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(HumiliationUpdate2) @Goto(End)
+(2c)
+@Flag(HumiliationUpdate3) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(HumiliationUpdate3) @Goto(End)
+(3a)
+@Flag(PainUpdate1) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(PainUpdate1) @Goto(End)
+(3b)
+@Flag(PainUpdate2) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(PainUpdate2) @Goto(End)
+(3c)
+@Flag(PainUpdate3) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(PainUpdate3) @Goto(End)
+(4a)
+@Flag(SlaveUpdate1) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(SlaveUpdate1) @Goto(End)
+(4b)
+@Flag(SlaveUpdate2) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(SlaveUpdate2) @Goto(End)
+(4c)
+@Flag(SlaveUpdate3) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(SlaveUpdate3) @Goto(End)
+(5a)
+@Flag(TeaseUpdate1) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(TeaseUpdate1) @Goto(End)
+(5b)
+@Flag(TeaseUpdate2) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(TeaseUpdate2) @Goto(End)
+(5c)
+@Flag(TeaseUpdate3) @SystemMessage #VANC #VANP You already bought this @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[500]
+@SystemMessage #VANC #VANP Transaction complete @SetFlag(TeaseUpdate3) @Goto(End)
+(3)
+@Variable[GNMGold]<[2500] @NullResponse @Goto(Poor2)
+@Flag(Glitter1Bought,Glitter2Bought,Glitter3Bought) @SystemMessage #VANC #VANP You have paid for all the glitter friends @Goto(End)
+@SystemMessage #VANC #VANP With this purchase there is chance that your #DomHonorific's glitter friends
+@SystemMessage #VANC #VANP Will take control when having a session
+@Flag(Glitter1Bought) @SystemMessage #VANC #VANP You have paid for the glitter 1
+@Flag(Glitter2Bought) @SystemMessage #VANC #VANP You have paid for the glitter 2
+@Flag(Glitter3Bought) @SystemMessage #VANC #VANP You have paid for the glitter 3
+@SystemMessage #VANC #VANP Do you wish to unlock this feature?
+[yes]@NullResponse
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Which glitter feature would you like to unlock?
+[glitter 1,one,1]@NullResponse @Goto(Glitter1)
+[glitter 2,two,2]@NullResponse @Goto(Glitter2)
+[glitter 3,three,3]@NullResponse @Goto(Glitter3)
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2 or 3?
+(Glitter1)
+@Flag(Glitter1Bought) @SystemMessage #VANC #VANP You have paid for the glitter 1 @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[2500]
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(Glitter1Bought) @Goto(End)
+(Glitter2)
+@Flag(Glitter2Bought) @SystemMessage #VANC #VANP You have paid for the glitter 2 @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[2500]
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(Glitter2Bought) @Goto(End)
+(Glitter3)
+@Flag(Glitter3Bought) @SystemMessage #VANC #VANP You have paid for the glitter 3 @Goto(End)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[2500]
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(Glitter3Bought) @Goto(End)
+(Poor1)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 500 to update modules
+@End
+(Poor2)
+@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
+@SystemMessage #VANC #VANP You need at least 2500 to open up for glitter module control
+@End
+(End)
+@End

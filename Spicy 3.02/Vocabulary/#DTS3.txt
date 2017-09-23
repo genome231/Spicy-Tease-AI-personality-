@@ -1,0 +1,12 @@
+@Flag(SOutfit1) @ShowImage[\GNMImages\DommeSpecial\Sexy1\3\*.jpg]
+@Flag(SOutfit2) @ShowImage[\GNMImages\DommeSpecial\Sexy2\3\*.jpg]
+@Flag(SOutfit3) @ShowImage[\GNMImages\DommeSpecial\Sexy3\3\*.jpg]
+@Flag(SOutfit4) @ShowImage[\GNMImages\DommeSpecial\Sexy4\3\*.jpg]
+@Flag(SOutfit5) @ShowImage[\GNMImages\DommeSpecial\Sexy5\3\*.jpg]
+@Flag(SOutfit6) @ShowImage[\GNMImages\DommeSpecial\Sexy6\3\*.jpg]
+@Flag(SOutfit7) @ShowImage[\GNMImages\DommeSpecial\Sexy7\3\*.jpg]
+@Flag(DOutfit1) @ShowImage[\GNMImages\DommeSpecial\Dom1\3\*.jpg]
+@Flag(DOutfit2) @ShowImage[\GNMImages\DommeSpecial\Dom2\3\*.jpg]
+@Flag(DOutfit3) @ShowImage[\GNMImages\DommeSpecial\Dom3\3\*.jpg]
+@Flag(DOutfit4) @ShowImage[\GNMImages\DommeSpecial\Dom3\4\*.jpg]
+@Flag(NoFit) #DT

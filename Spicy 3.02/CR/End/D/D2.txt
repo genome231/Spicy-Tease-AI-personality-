@@ -1,0 +1,8 @@
+(D2) //watch a very short video, being told that you may cum when the sub does, (never happens)
+@RT(I'm gonna show you a video..,In a moment you'll see a video,Now.. I'm putting on a video for you) #DT
+@RT(If at any point you see the sub having an orgasm you're allowed to as well,If at any point the <i>sub</i> has an orgasm so may you!,If you see the sub cum you may too!) #DT
+@RT(Enjoy,Watch carefully,Look closely!) #DT
+@NullResponse @ShowVideo[\GNM_Videos\Endings\D1\*.mp4]
+@RT(Now dont be sad,Why are you looking so sad,You should be happy) #DT
+@RT(Be happy that someone else had <i>fun</i>,Afterall I did give you a chance!,You cant say I dont provide you with chances!) #DT
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

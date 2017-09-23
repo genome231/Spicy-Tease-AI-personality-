@@ -1,0 +1,1268 @@
+@NullResponse @CheckFlag(ChastityModule6) @SetFlag(ChastityModule6) @SetVar[ChastityModule6]=[1]
+(ChastityModule6) 
+@Variable[ChastityModule6]=[1] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(1)
+@Variable[ChastityModule6]=[2] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(2)
+@Variable[ChastityModule6]=[3] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(3)
+@Variable[ChastityModule6]=[4] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(4)
+@Variable[ChastityModule6]=[5] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(5)
+@Variable[ChastityModule6]=[6] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(6)
+@Variable[ChastityModule6]=[7] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(7)
+@Variable[ChastityModule6]=[8] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(8)
+@Variable[ChastityModule6]=[9] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(9)
+@Variable[ChastityModule6]=[10] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(10)
+@Variable[ChastityModule6]=[11] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(11)
+@Variable[ChastityModule6]=[12] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(12)
+@Flag(ChastityUpdate3) @Variable[ChastityModule6]=[13] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(13)
+@NotFlag(ChastityUpdate3) @Variable[ChastityModule6]=[13] @NullResponse @SetVar[ChastityModule6]=[1] @Goto(13)
+@Variable[ChastityModule6]=[14] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(14)
+@Variable[ChastityModule6]=[15] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(15)
+@Variable[ChastityModule6]=[16] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(16)
+@Variable[ChastityModule6]=[17] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(17)
+@Variable[ChastityModule6]=[18] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(18)
+@Variable[ChastityModule6]=[19] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(19)
+@Variable[ChastityModule6]=[20] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(20)
+@Variable[ChastityModule6]=[21] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(21)
+@Variable[ChastityModule6]=[22] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(22)
+@Variable[ChastityModule6]=[23] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(23)
+@Variable[ChastityModule6]=[24] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(24)
+@Variable[ChastityModule6]=[25] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(25)
+@Variable[ChastityModule6]=[26] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(26)
+@Variable[ChastityModule6]=[27] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(27)
+@Variable[ChastityModule6]=[28] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(28)
+@Variable[ChastityModule6]=[29] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(29)
+@Variable[ChastityModule6]=[30] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(30)
+@Variable[ChastityModule6]=[31] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(31)
+@Variable[ChastityModule6]=[32] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(32)
+@Variable[ChastityModule6]=[33] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(33)
+@Variable[ChastityModule6]=[34] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(34)
+@Variable[ChastityModule6]=[35] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(35)
+@Variable[ChastityModule6]=[36] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(36)
+@Variable[ChastityModule6]=[37] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(37)
+@Variable[ChastityModule6]=[38] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(38)
+@Variable[ChastityModule6]=[39] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(39)
+@Variable[ChastityModule6]=[40] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(40)
+@Variable[ChastityModule6]=[41] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(41)
+@Variable[ChastityModule6]=[42] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(42)
+@Variable[ChastityModule6]=[43] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(43)
+@Variable[ChastityModule6]=[44] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(44)
+@Variable[ChastityModule6]=[45] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(45)
+@Variable[ChastityModule6]=[46] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(46)
+@Variable[ChastityModule6]=[47] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(47)
+@Variable[ChastityModule6]=[48] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(48)
+@Variable[ChastityModule6]=[49] @NullResponse @ChangeVar[ChastityModule6]=[ChastityModule6]+[1] @Goto(49)
+@Variable[ChastityModule6]=[50] @NullResponse @SetVar[ChastityModule6]=[1] @Goto(50)
+(1)
+This story is about Miss Jennifer and her slave #GNMGrin #DT
+@SystemMessage I had woken about five and had plenty of time to prepare Jennifer's oatmeal as well as clean up the cooking dishes.  #DT
+@SystemMessage Jennifer came down wearing a pencil skirt with a business jacket.  #DT
+@SystemMessage She carried the folder from the night before with another piece of paper over it.  #DT
+@SystemMessage She sat down to eat while I waited in the kitchen and said, "Come over here and kneel on the floor to my left while I eat my breakfast". #DT
+@SystemMessage Her words caused an erection in the confinement of the chastity device and I quickly did as she asked. #DT
+@SystemMessage "The rule in the house is you are never to speak to me unless you are spoken to first. #DT
+@SystemMessage It keeps things clear that way, I find.  #DT
+@SystemMessage I am sure in time you will learn to enjoy it too. #DT 
+@SystemMessage I left you a list on the table of things to do today.  #DT
+@SystemMessage If you finish early, just wait on the couch for me to come home." #DT
+@SystemMessage It took her only a few more moments to finish eating and then she stood to leave. #DT 
+@SystemMessage She did not look my way, but paused at the back door. #DT
+@SystemMessage "I am very pleased to have a submissive man in my life.  #DT
+@SystemMessage You will have a submissive treat from me tonight." and she left. #DT 
+@SystemMessage I stood to clear the table and saw the Mercedes pulling out of the driveway. #DT
+@SystemMessage Apparently, after Jennifer went upstairs last night, she took time to compile this list. #DT 
+@SystemMessage It was typed and had over twenty things on it.  #DT
+@SystemMessage Some was taking inventory with notes that the reason for this was to get me familiar with where things were and others were cleaning chores.  #DT
+@SystemMessage One though was going on the computer to buy some clothes in my size.  #DT
+@SystemMessage She had selected which ones and I just had to choose my size.  #DT
+@SystemMessage The note said to have it shipped standard ground and that I would not have anything to wear until they were delivered.  #DT
+@SystemMessage She indicated she wanted me to feel exposed during this initial time anyway.  #DT
+@SystemMessage Her on-line account login information for the clothing site was written there as well. #DT
+@SystemMessage It seemed like a busy day and I started in on the list.  #DT
+@SystemMessage I noticed almost right away that I enjoyed doing the chores she had directed of me.  #DT
+@SystemMessage The feeling was like a euphoric peace. I never would have thought cleaning an oven would make me feel so good.  #DT
+@SystemMessage The feelings drove me to do a good job, taking my time and enjoying the experience.  #DT
+@SystemMessage Through the day, my thoughts drifted occasionally to what would happen to my apartment and job.  #DT
+@SystemMessage I was instructed to not initiate conversations and the conflict I felt strangely enjoyable.  #DT
+@SystemMessage It drove my thoughts to obey Jennifer when it occurred and happened several times during the day.  #DT
+@SystemMessage Around five, I was finishing up the dinner she asked me to prepare.  #DT
+@SystemMessage I had not eaten since the day before. The list did not indicate an opportunity to, so I just skipped.  #DT
+@SystemMessage The dinner portion was for one. #DT
+@SystemMessage Jennifer came in and seeing me cooking brightened her face.  #DT
+@SystemMessage "There is my submissive boy!" she said and came over to put her hand on my butt.  #DT
+@SystemMessage She rubbed it slowly and sensually as I stopped plating her food to enjoy the attention I was receiving from her.  #DT
+@SystemMessage The sexual frustration from being aroused while confined in a chastity device was exhilarating.  #DT
+@SystemMessage As she stopped to go sit for dinner, I finished and brought her dinner to the table.  #DT
+@SystemMessage Her face brightened as I set it in front of her and I then went to my place to her left. #DT
+@SystemMessage "Oh, this is really good" she said as she took the first bite.  #DT
+@SystemMessage I had thought it would be good. It was a chicken with a light cream sauce.  #DT
+@SystemMessage I took my time and read through the recipe several times and though I got it right.  #DT
+@SystemMessage It made me smile to hear her say she liked it. "Have you eaten anything today?" #DT
+@SystemMessage When I told her no, she responded "Wonderful.  #DT
+@SystemMessage That was a test that you just passed and will make your treat tonight a little extra special.  #DT
+@SystemMessage I intentionally left out instructions for you to eat to see if you would do so without permission.  #DT
+@SystemMessage You didn't and I am very proud of you doing the right thing."  #DT
+@SystemMessage I felt awash again in my new found submissive pleasure and smiled in response.  #DT
+@SystemMessage Jennifer continued, "I brought you home my left-overs from lunch. We went to a Mexican restaurant and I couldn't eat it all.  #DT
+@SystemMessage It is in the car. After you finish cleaning the dishes, you can go get it and eat while I go upstairs for a bit.  #DT
+@SystemMessage Do not reheat it. A submissive man eats only cold food." #DT
+@SystemMessage I was feeling so wonderful at having done as she wanted and her being in such a good mood.  #DT
+@SystemMessage It made me want to do more and more things that she wanted of me and made me erect just about the whole time.  #DT
+@SystemMessage I was really quite giddy at being back in her presence too. #DT
+@SystemMessage She rose to go upstairs, and I happily cleared the table.  #DT
+@SystemMessage There was no dishwasher in the kitchen, so I cleaned them by hand.  #DT
+@SystemMessage While they had a chance to dry, I ventured out for the first time today to the garage.  #DT
+@SystemMessage The gravel again hurt my feet and I was looking for any person who may catch a glimpse of me.  #DT
+@SystemMessage I felt Jennifer would want me to avoid being seen, but there was really no sight of any other person and twilight was already past, giving me the comfort of dark.  #DT
+@SystemMessage I found the Styrofoam container Jennifer spoke of and returned to the kitchen to eat.  #DT
+@SystemMessage There were some now soggy chips and half of an eaten burrito.  #DT
+@SystemMessage It too was soggy.  #DT
+@SystemMessage It felt like a connection to my new found submissive side being treated as an inferior with my evening meal and I found as I ate I again became erect in my chastity device.  #DT
+@SystemMessage Even though it was a small meal, because I had not eaten anything else that day, it was enough to fill me.  #DT
+@SystemMessage As I was putting the Styrofoam container into the garbage, Jennifer returned and directed me to the downstairs bathroom to take a shower.  #DT
+@SystemMessage "Each night after you finish cleaning up from dinner" she told me and went on to explain, "This shower has no curtain or bathroom door.  #DT
+@SystemMessage There is also no hot water. Privacy and warm showers are for the dominant." #DT
+@SystemMessage I again became erect in my chastity device with the recognition of the disparity.  #DT
+@SystemMessage It was like my body was tuned to respond with pleasure anytime I understood I was being treated servile by her.  #DT
+@SystemMessage She seemed to know how to do this instinctively. #DT
+@SystemMessage She leaned against the bathroom door frame watching as I got into the shower.  #DT
+@SystemMessage I saw a disposable razor, a bar of soap, and a washcloth.  #DT
+@SystemMessage I turned it on and the water chilled from winter outside shocked me.  #DT
+@SystemMessage I instinctively drew back away from it, but forced myself to go under the flow.  #DT
+@SystemMessage It took about half a minute, but I found I adjusted to the cold water. It was not pleasant, but at least I was able to clean myself.  #DT
+@SystemMessage After cleaning and shaving under the cold water, I turned it off and dried off with the towel behind me. #DT @Goto(EndPart)
+(2)
+Time to continue our story #DT
+Last time Miss Jennifer was just about to treat her sub! #GNMGrin #DT
+@SystemMessage "Good, now for your treats." #DT
+@SystemMessage Jennifer walked back to the kitchen, and then opened the door to the basement.  #DT
+@SystemMessage I followed her down. It was finished and carpeted and was arranged as a large family room with a leather sofa, two wing back chairs and a coffee table.  #DT
+@SystemMessage Jennifer sat in one of the wing back chairs, and pointed to the floor in front of her where I quickly kneeled. #DT
+@SystemMessage "You made me pleased today twice."  #DT
+@SystemMessage With that she draped a leg over my shoulder.  #DT
+@SystemMessage "As your first treat, I am going to let you give me an orgasm."  #DT
+@SystemMessage She guided my hands to her waist, pulling up her pencil skirt in the process.  #DT
+@SystemMessage She closed my fingers around the tops of her panties and I pulled them down revealing her vaginal lips only a few inches from my face.  #DT
+@SystemMessage With the leg draped around my shoulder, she pulled me even closer to where my mouth was a hairs breath away.  #DT
+@SystemMessage At the chance of doing something that I knew she would enjoy, my heart was racing at the opportunity to feel what I knew was going to be the most submissive pleasure I had yet felt.  #DT
+@SystemMessage I started slow, parting her lips with my tongue and feeling for places her body reacted to.  #DT
+@SystemMessage When I found them, I would enjoy pushing her further into the enjoyment I could tell she was having.  #DT
+@SystemMessage I think it lasted about twenty minutes or so.  #DT
+@SystemMessage I was working one spot over the tip of her clitoris and I could tell she was building for an orgasm.  #DT
+@SystemMessage I kept right there and then it happened.  #DT
+@SystemMessage I felt her body shudder and her legs griped around my back.  #DT
+@SystemMessage I heard a gasp of pleasure from her and I was dizzy with a flood of pleasure myself.  #DT
+@SystemMessage There was something in knowing she was in ecstasy that released in me a feeling unlike any I had ever felt.  #DT
+@SystemMessage Like a freefall through warm air and a satisfaction knowing she was enjoying something I had done. #DT
+@SystemMessage She took about a minute to recover.  #DT
+@SystemMessage She then reached over to her panties and put them back on.  #DT
+@SystemMessage "In the future, you will ask me to please be permitted to give me an orgasm and after you do, you will always thank me for the opportunity." #DT
+@SystemMessage She stood up and walked over to where an eye bolt was coming out of the wall two feet from the ceiling.  #DT
+@SystemMessage She reached over to a cabinet and took out a pair of handcuffs from the top drawer.  #DT
+@SystemMessage Both my hands were cuffed and lifting them over my head she attached the cuffs to the eyebolt with a cable tie I did not see her take out of the drawer.  #DT
+@SystemMessage The motions were obviously ones she knew by repetition. She then took a key out of her coat pocket and undid the lock on my chastity device. #DT
+@SystemMessage "I was not going to take this off for longer, but you did so well, I wanted to give you an extra treat."  #DT
+@SystemMessage and with that my chastity device was quickly removed for the first time in more then a day.  #DT
+@SystemMessage She placed it on the dresser and wrapped her hand around my now erect penis.  #DT
+@SystemMessage My body tensed with an almost immediate impending orgasm and she somehow recognized this and let go.  #DT
+@SystemMessage I was left with a pulsating cock hanging in the air trying to figure out how to get the little bit more stimulation I was craving.  #DT
+@SystemMessage Jennifer looked in my eyes and waited until the throbbing subsided and then began again.  #DT
+@SystemMessage This pattern continued for I do not know how long.  #DT
+@SystemMessage My eyes were closed when I realized Jennifer had left me there.  #DT
+@SystemMessage I heard her returning down the stairs with a handful of ice cubes.  #DT
+@SystemMessage Without saying anything, she grabbed my cock with the ice and the cold shocked the pleasure away and in only a few seconds, I was returning to a flaccid state.  #DT
+@SystemMessage Looking down, Jennifer seemed to be waiting for the right moment for something and then suddenly let go and expertly worked to replace my chastity device.  #DT
+@SystemMessage As the lock clicked I realized I was going to be withheld ejaculating and I felt the lost opportunity sink in with dread. #DT
+@SystemMessage "There, all back in place. You will thank me."  #DT
+@SystemMessage As I regained my composure, I realized Jennifer was waiting for my response and I honestly said, "Thank you Jennifer.  #DT
+@SystemMessage That was wonderful." #DT
+@SystemMessage "Your welcome."  #DT
+@SystemMessage She responded as she undid the handcuffs from my wrists. #DT
+@SystemMessage "You will sleep in the kitchen again. Good night my submissive boy." #DT @Goto(EndPart)
+(3)
+Lets continue our story about a slave and his mistress Jennifer #DT
+@SystemMessage Not having been told otherwise, I assume the next morning Jennifer wanted organic oatmeal again and was waiting on the floor next to her chair when she came down.  #DT
+@SystemMessage She sat in her chair and looked down to smile at me.  #DT
+@SystemMessage It gave me a warm feeling when she did. #DT
+@SystemMessage "I e-mailed your list to an account I setup using your new name.  #DT
+@SystemMessage You will have to setup the e-mail on the computer down here.  #DT
+@SystemMessage I left the account information on my desk upstairs.  #DT
+@SystemMessage Also, around lunch, my friend is going to come by.  #DT
+@SystemMessage I mentioned yesterday at the Mexican restaurant that I have a new submissive and she wants to meet you.  #DT
+@SystemMessage You will treat her the same way you treat me." #DT
+@SystemMessage As Jennifer ate her morning meal, she reached down to lightly touch the back of my neck and the sides of my face.  #DT
+@SystemMessage It put me into bliss and her sudden stopping to stand caused a little bit of a shock as I returned to my senses.  #DT
+@SystemMessage I was very aroused from her touch and rose erect within my confinement to watch her depart.  #DT
+@SystemMessage She left without comment and I stared out the window to see her leave down the driveway for the day. #DT
+@SystemMessage After cleaning the dishes from breakfast, I went upstairs for the first time.  #DT
+@SystemMessage Jennifer's bedroom was elegantly furnished with a four post bed and matching dresser as well as a sitting area where she had her desk.  #DT
+@SystemMessage There was a laptop computer, printer, and a leather bound chair.  #DT
+@SystemMessage I found the e-mail account information on a note stuck to her laptop.  #DT
+@SystemMessage My new e-mail account was mr.jennifer.wilkens@gmail.com.  #DT
+@SystemMessage I took the information downstairs and setup the account in the machine there.  #DT
+@SystemMessage When I finished, the e-mail with Jennifer's list appeared. #DT
+@SystemMessage There were more cleaning items.  #DT
+@SystemMessage She also wanted me to take an inventory of her closet and dresser.  #DT
+@SystemMessage She indicated this would be so I knew where she kept all her clothes for when I was putting away the laundry.  #DT
+@SystemMessage I was in her bedroom with a pad of paper recording what each drawer held when I heard the doorbell.  #DT
+@SystemMessage I guess time had slipped away and it was lunch time already.  #DT
+@SystemMessage I had been without clothes for so long that it barely phased me that I would be answering the door to a stranger while not wearing anything.  #DT
+@SystemMessage Plus, Jennifer told me to treat her the same. #DT
+@SystemMessage I quickly looked out the window and saw a woman with long hair at the door.  #DT
+@SystemMessage I opened the door and stood aside.  #DT
+@SystemMessage The woman who walked through was about nineteen or twenty, had a slender body, long hair, and was wearing a skirt with a business styled blouse.  #DT
+@SystemMessage I closed the door behind her and followed her into the kitchen.  #DT
+@SystemMessage I stood while she looked me up and down and walked a half circle around me. #DT
+@SystemMessage "Jennifer was right. You are cute."  #DT
+@SystemMessage Her eyes settled on the chastity device and said, "So, that thing can't come off without the key?" #DT
+@SystemMessage I responded that I didn't see how.  #DT
+@SystemMessage "Good, then I guess I don't need this" and she started to unbutton her blouse.  #DT
+@SystemMessage I stood as she took it off and tossed it to the ground and said  #DT
+@SystemMessage ".or this" and then proceeded to unclasp her bra and slowly take it off and also drop it to the floor.  #DT
+@SystemMessage Her standing in front of me topless in just her skirt had an immediate effect and I then stood erect and confined before her.  #DT
+@SystemMessage She seemed to enjoy this and said, "Fold those up." #DT
+@SystemMessage I got down on the floor where she dropped her shirt and bra and began to fold them as she had asked.  #DT
+@SystemMessage "That's good. You like that, don't you bitch." I nodded in agreement. "Yeah, I thought so." #DT
+@SystemMessage As I finished, she leaned back against a counter to accentuate her breasts and tone stomach.  #DT
+@SystemMessage Her nipples were hard and I was all but jello.  #DT
+@SystemMessage I could not have spoken if I had to.  #DT
+@SystemMessage My erection was unceasing.  #DT
+@SystemMessage I had found that when I remained erect for a long time, I started to feel pain in how the chastity device worked. #DT
+@SystemMessage I assumed this was by design to keep me from staying erect too long, but with a topless woman in front of me, I could do nothing about it.  #DT
+@SystemMessage The pain was tolerable, but just barely. #DT
+@SystemMessage "You can call me ma`am." she paused waiting and I replied, "Yes ma`am" #DT
+@SystemMessage "Good, that's perfect. Now make me some lunch." #DT
+@SystemMessage I went to the fridge and got out the makings for a deli sandwich with a plum on the side.  #DT
+@SystemMessage As I brought the things over to the other counter,  #DT
+@SystemMessage she walked over behind me and I felt the warmth of her skin and breasts as she lay over my back and put her face on my shoulder.  #DT
+@SystemMessage The sensation made by heart skip a beat and pant in pleasure before I composed myself and continued with the food preparations. #DT
+@SystemMessage I had the sense that she was learning about what to do.  #DT
+@SystemMessage She did not have the same commanding presence that Jennifer had, nor were her approaches coming from a seasoned routine.  #DT
+@SystemMessage I could tell she was enjoying learning though. #DT
+@SystemMessage With her body draped over mine, she reached around to my front and began stroking my hip and inner groin with her open hand.  #DT
+@SystemMessage As she did so, she began to grind her hips against my ass.  #DT
+@SystemMessage I heard her breath begin to become erratic and soft moans of pleasure escape as she continued.  #DT
+@SystemMessage She stepped back for a moment and when she returned, I could tell her skirt and panties were removed. #DT
+@SystemMessage "You can stop that and lay down."  #DT
+@SystemMessage The kitchen had an area rug in the center and I put my knife down and turned to the middle of the rug and lay down on my back. #DT
+@SystemMessage She stepped over me leaving one leg behind so she stood directly over me. She began to cradle one breast and lightly rub over her vagina with the other hand.  #DT
+@SystemMessage "You want to have some lunch too, don't you?" #DT
+@SystemMessage "Yes ma`am" I replied. #DT
+@SystemMessage "That's right you do. You are a good bitch and are going to let me ride your face."  #DT
+@SystemMessage Her hand quickened its pace with rubbing and she slowly lowered herself down onto my chest.  #DT
+@SystemMessage What followed was her enjoying me bringing her to an orgasm followed by some more rubbing and again her moving back over my face for a second pass.  #DT
+@SystemMessage The second one was more intense and she actually lost her breath for a few moments and gasped in ecstasy.  #DT
+@SystemMessage When she composed herself, she stood and without speaking, gathered her clothes and left.  #DT
+@SystemMessage I was still lying on the kitchen carpet, and stood.  #DT
+@SystemMessage I washed my hands and face and put away the sandwich fixings and went back to my dresser inventory upstairs. #DT
+@SystemMessage The last two things on my list:  #DT
+@SystemMessage Were to make myself a tofu wrap which I was to eat with a multi vitamin and water from the sink  #DT
+@SystemMessage and the second was to spend the rest of the evening in the kitchen writing a poem about my submissive feelings in crayon.  #DT
+@SystemMessage Paper and a box of crayons were in a drawer below the silverware. #DT
+@SystemMessage I was working on my poem on the floor of the kitchen when I heard the front door open.  #DT
+@SystemMessage Jennifer was giggling and a man's voice was in the background.  #DT
+@SystemMessage The two came into the kitchen and Jennifer said, "Steve, this is my new submissive."  #DT
+@SystemMessage as she gestured to me. She then looked at me and said, "This is my boyfriend, Steve.  #DT
+@SystemMessage You will treat him as you do me. Come upstairs with us." #DT
+@SystemMessage I followed as the two of them walked to her bedroom in what appeared to be a known route for Steve.  #DT
+@SystemMessage They were holding hands and Jennifer was holding onto his arm giggling to him.  #DT
+@SystemMessage She retrieved what looked like a dog leash from her desk without breaking her gaze with Steve and extended it to me.  #DT
+@SystemMessage I took it and assumed she wanted me to put it on. I saw there was a collar too and I quickly put it on and she took the leash back.  #DT
+@SystemMessage She walked with leading me to a spot next to her dresser where there was another small eyebolt.  #DT
+@SystemMessage She tied the leash there and I kneeled in place against the wall.  #DT
+@SystemMessage The two of them began to kiss and Steve had his hand outside Jennifer's shirt, cupping one of her breasts. #DT
+@SystemMessage "Hey, do you mind if I use him to get ready?" Steve said as they broke their kiss.  #DT
+@SystemMessage "No, feel free." Jennifer responded.  #DT
+@SystemMessage She broke away and laid back onto the bed in a reclined position watching Steve walk to where I was kneeling. #DT
+@SystemMessage He stopped only an inch or so in front of me.  #DT
+@SystemMessage I understood what was being asked and I felt dread.  #DT
+@SystemMessage I was not at all ever gay and never wanted to do anything like what I was being directed to do.  #DT
+@SystemMessage The humiliation was overwhelming which somehow triggered my submissive pleasure.  #DT
+@SystemMessage Looking over to where Jennifer was reclined on the bed watching, I reached up and undid Steve's belt.  #DT
+@SystemMessage I then looked up at his face as I undid his pants and zipper.  #DT
+@SystemMessage They fell around his feet and he lifted his feet for me to remove his shoes and each pant leg.  #DT
+@SystemMessage I then reached up and pulled his boxers off too. He was flaccid as I took him into my mouth.  #DT
+@SystemMessage I looked up to see him look to the ceiling and I softly and slowly worked my mouth back and forth on his penis.  #DT
+@SystemMessage My embarrassment was overwhelming.  #DT
+@SystemMessage I was humiliated beyond words.  #DT
+@SystemMessage My submissive pleasure in turn kept me going and he began to respond.  #DT
+@SystemMessage As his erection grew, I could taste some salty pre-cum and he stepped back erect.  #DT
+@SystemMessage He then tuned to where Jennifer lay and she removed her panties while he closed the space between them. #DT
+@SystemMessage The two made love for almost an hour. Jennifer had several orgasms. #DT
+@SystemMessage When Steve finally did too, he spasimed in her embrace and had obviously came inside of her. #DT
+@SystemMessage After a moment, Jennifer rose from the bed, came to where I was keeling and took my leash.  #DT
+@SystemMessage She led me to the floor in front of the bed and told me to lie down.  #DT
+@SystemMessage She straddled my face and I ate Steve's cum from her until there was none left. #DT
+@SystemMessage She told me to go back to the kitchen to finish my poem as the two embraced on the bed. #DT
+@SystemMessage My trip back to the kitchen was one of walking on a cloud.  #DT
+@SystemMessage I wad humiliated beyond anything I had been in my life, but felt a submissive bliss and a realization I was used for Jennifer's enjoyment fully.  #DT
+@SystemMessage After about ten minutes, I heard the two coming down the stairs, and the front door open and then close.  #DT
+@SystemMessage Jennifer came into the kitchen in a robe and said, "Hello my submissive boy.  #DT
+@SystemMessage Did you enjoy my date night?" #DT
+@SystemMessage I said, "Thank you for asking.  #DT
+@SystemMessage I feel awash in the pleasure of pleasing you." #DT
+@SystemMessage "You did wonderfully.  #DT
+@SystemMessage I know how hard that was for you, but also know how much pleasure it makes you feel.  #DT
+@SystemMessage If I weren't so tired, I would give you a treat, but we have all weekend.  #DT
+@SystemMessage How about if tonight you sleep with me upstairs?" #DT
+@SystemMessage That sounded wonderful and I was welcomed into her bed and drifted off to sleep against her nude body. #DT @Goto(EndPart)
+(4)
+It's time for the final part of Mistress Jennifer and her slave #GNMLol #DT
+@SystemMessage Saturday morning, I woke with Jennifer's warm body next to mine.  #DT
+@SystemMessage It was wonderful and I did not move until she woke.  #DT
+@SystemMessage We locked eyes and she gave me a morning kiss on the cheek. "Go ahead and make me some eggs and toast". #DT
+@SystemMessage I left her in bed to go get her breakfast ready.  #DT
+@SystemMessage While I was, I heard the shower running and as I was putting it on the table, she came in and sat to eat.  #DT
+@SystemMessage I was going to kneel in my place, but she stopped me by saying, "No, go take your shower. You didn't have one yesterday." #DT
+@SystemMessage I did as asked and when finished found a list on the small table near the front door.  #DT
+@SystemMessage The only thing on it was laundry and ironing, but in-between switching loads, I was to massage her feet downstairs in the basement.  #DT
+@SystemMessage I separated the laundry, of which I personally had none, and got the first load in.  #DT
+@SystemMessage I went downstairs to find Jennifer on the couch reading a newspaper with some lotion on the table.  #DT
+@SystemMessage I took her feet and began to give her a foot rub kneeling in front. #DT 
+@SystemMessage The day continued with me switching loads, putting dress clothes to be ironed and sorting the clean ones to be put away. #DT 
+@SystemMessage After lunch, the door bell rang. #DT 
+@SystemMessage It was the UPS guy and I did not answer the door. #DT 
+@SystemMessage Jennifer asked who it was and when I told her, she came to retrieve the package. #DT
+@SystemMessage She told me to find a place under the kitchen sink to keep my new clothes and put on something. #DT 
+@SystemMessage It felt strange to have clothes back on and when I went back to continue the foot massage Jennifer said, "Look how good you look!". #DT 
+@SystemMessage I did a little strut with a smile before continuing the foot massage. #DT 
+@SystemMessage Later in the afternoon, Jennifer took me out to the grocery store to do some shopping. #DT 
+@SystemMessage She also took me to the mall to get a cooking book. #DT 
+@SystemMessage It brought back to mind the conflict I felt about now knowing about my job and old apartment with not being allowed to bring up the issue to her. #DT 
+@SystemMessage We did end up walking right past the candle store. #DT Jennifer said, "Don't worry. #DT 
+@SystemMessage I went and told them you are working for me now. #DT 
+@SystemMessage The manager seemed to understand. #DT 
+@SystemMessage I also ended your lease and had the Salvation Army come and pickup your things. #DT 
+@SystemMessage The name change paperwork went through too. #DT 
+@SystemMessage You are officially Mr. #DT Jennifer Wilkins. #DT" she said with a smile. #DT
+@SystemMessage As we walked through the mall, I wondered how I had become so lucky. #DT My life had tuned into bliss. #DT
+@SystemMessage My new life settled into a routine of service to my dominant wife, Jennifer. #DT 
+@SystemMessage I was mostly a live-in domestic servant, a role I strangely enjoyed. #DT 
+@SystemMessage There was something about living as a recognized servile to a woman who was pleased to use me as her submissive. #DT 
+@SystemMessage It left me almost always awash in a new contentment I hadn't known before. #DT 
+@SystemMessage It was a feeling I craved and sought by doing things I felt Jennifer would enjoy of me. #DT 
+@SystemMessage When I did, the intensity of the sensation would increase and was the driving factor in my actions through the day. #DT
+@SystemMessage I did not have any access to any money. #DT
+@SystemMessage I was never given anything to spend either. #DT 
+@SystemMessage During that first week, Jennifer brought me some forms to sign from my bank to close my old checking account. #DT 
+@SystemMessage I do not know what happened to the $200+ that was remaining in the account when I signed the forms. #DT Jennifer never mentioned it. #DT 
+@SystemMessage She did have an account at the local grocery store. #DT 
+@SystemMessage Once a week I would walk there to complete the grocery shopping and have the checkout clerk put it on Jennifer's tab. #DT 
+@SystemMessage I carried a new ID card with my new name incase ever asked, but the clerks in the store new me and never did. #DT They all new I worked for her some way. #DT
+@SystemMessage Jennifer and Steve had dates a few times a month. #DT 
+@SystemMessage Each time when they came back, I would take care of getting Steve hard, and then clean Jennifer when they were done. #DT
+@SystemMessage Also, the young woman who was still having me call her Ma'am, came for lunch about once or twice a week. #DT 
+@SystemMessage She never ate anything. #DT 
+@SystemMessage She just enjoyed using me to get off on her lunch hour. #DT 
+@SystemMessage Once she brought a friend. #DT The three of us were in the basement with me doing her while she was on the wingback chair. #DT 
+@SystemMessage While I was, the second lady started to playfully hit my butt with a ping-pong paddle. #DT 
+@SystemMessage When she swatted harder, the pain would jolt me and I would alter how I was eating her pussy for a brief second. #DT 
+@SystemMessage When I did, Ma'am told the other to do it again because it felt good to her and the swatting picked up. #DT 
+@SystemMessage I would feel the shock of pain and it would cause my mouth to try to yelp, but since I was at work it just caused my lips to contract around her clitoris. #DT 
+@SystemMessage Ma'am really liked this and came harder then I had ever gotten her off otherwise. #DT 
+@SystemMessage My bottom hurt for about a day after that, and Jennifer gave me a hand swat when she came home that night. #DT 
+@SystemMessage I guessed the story traveled around the office after lunch. #DT
+@SystemMessage Somewhere near the end of January, Jennifer brought me to the basement and secured my hands in the cuffs to the eye bolt. #DT 
+@SystemMessage She removed the chastity device. #DT 
+@SystemMessage It was the first time it had been off in about three months and my body sprang to an erection as soon as it was removed. #DT 
+@SystemMessage I was in a sexually frustrated state which I found enjoyable as a submissive. #DT 
+@SystemMessage It fed into another kind of pleasure I often enjoyed. #DT 
+@SystemMessage Being denied sexual attention was apart of the servile status of what I enjoyed about being submissive. #DT 
+@SystemMessage Jennifer took an empty candy bowl in one hand and in the other stroked my erection. #DT 
+@SystemMessage I felt the impending orgasm after only one stroke and looked into Jennifer's eyes. #DT 
+@SystemMessage She held my gaze, but did not stop. #DT 
+@SystemMessage I knew she could tell I was going to loose control and then passed the point where my body took over into an ejaculation. #DT 
+@SystemMessage It felt wonderful as I expelled what felt like seven or eight shots. #DT Jennifer had caught it into the extended candy bowl. #DT
+@SystemMessage When it ended, I slumped against the wall exhausted from the experience. #DT 
+@SystemMessage It was the most intense and orgasm I had ever had and the pleasure was still reverberating through my system. #DT 
+@SystemMessage It took me awhile before I caught my breath. #DT 
+@SystemMessage Jennifer put the candy bowl on the dresser and rubbed my chest for a moment before replacing the chastity device. #DT 
+@SystemMessage She then undid my wrists and said, "Go kneel over there near the table. #DT"
+@SystemMessage I did as asked, but my legs were still a little wobbly. #DT 
+@SystemMessage I knelt and Jennifer said, "No face the other way. #DT" 
+@SystemMessage I turned around, facing away from her and toward the table. #DT 
+@SystemMessage I heard her continue by saying, "Submissive men need special handling after they are given an orgasm. #DT 
+@SystemMessage It helps them get over the effects. #DT Lay over onto the table. #DT"
+@SystemMessage I gladly slumped onto the low coffee table in front of me. #DT 
+@SystemMessage My body was still exhausted from the orgasm and I put my head down between my arms on the table top. #DT 
+@SystemMessage I felt Jennifer step lightly on each of my big toes with her shoes. #DT 
+@SystemMessage She reached over and put the candy bowl next to where my head was. #DT 
+@SystemMessage I didn't make a move. #DT 
+@SystemMessage I felt her hand between my butt cheeks and warm oil. #DT 
+@SystemMessage There was then a pause. #DT 
+@SystemMessage I felt something press against my anus and I instinctively pulled away. #DT 
+@SystemMessage Jennifer's feet pressed down on my toes quickly and I felt a sharp pain. #DT
+@SystemMessage "Don't move"
+@SystemMessage Again a press against my anus, followed by what was obviously a dildo being worked into it. #DT 
+@SystemMessage Once it was in, I felt an overwhelming embarrassment and wanted it to stop, but Jennifer kept her feet on my toes and I had no where to go. #DT 
+@SystemMessage I felt dread and panic and wanted to get away, but I felt the dildo begin to vibrate and Jennifer started to work it slowly back and forth. #DT
+@SystemMessage "I want you to say, I am a sissy who likes to be rammed up the ass"
+@SystemMessage Everything in me wanted to get away and I wanted to say nothing at all like what she was asking. #DT 
+@SystemMessage I felt more then thought through the words coming out of my mouth in compliance. #DT 
+@SystemMessage It was like a submissive pleasure had left and I was bucking against what she was asking of me, but a trickle of the submissive pleasure took over in response. #DT
+@SystemMessage "That's right you do. #DT You are a sissy who likes dildos in your ass. #DT 
+@SystemMessage Drink that cum you cum drinking slut. #DT"
+@SystemMessage As she continued to move the vibrating dildo I felt myself reach for the candy bowl. #DT 
+@SystemMessage I lifted my head off the table and as she continued to rhythmically go in and out, I drank. #DT 
+@SystemMessage I was in a sort of submissive trance. #DT
+@SystemMessage "Look at you getting hard again. #DT 
+@SystemMessage How embarrassing you cum drinking sissy slut. #DT" 
+@SystemMessage I was getting hard in the chastity device. #DT
+@SystemMessage She was right. #DT It was devastating to me as I finished drinking the last of my cum. #DT
+@SystemMessage I put the bowl down and she removed the dildo. #DT 
+@SystemMessage I lay on the table as she left the room without saying anything else. #DT 
+@SystemMessage I lay there for I do not know how long. #DT 
+@SystemMessage I felt I should clean up and took the candy bowl and dildo to the wash room to rinse. #DT 
+@SystemMessage I then dried both and put them back on the dresser before going up to the kitchen. #DT 
+@SystemMessage I lay in my customary sleeping spot and felt a defeated attitude settle in. #DT 
+@SystemMessage I was exhausted though and fell asleep in only a few minutes. #DT
+@SystemMessage The next morning, I got up as I normally do and prepared Jennifer's breakfast. #DT 
+@SystemMessage I was kneeling in my spot when she came down and sat to eat. #DT
+@SystemMessage "Stand up" she said without looking at me. #DT
+@SystemMessage I quickly did and her hand went between my but cheeks over the blue jeans I was wearing. #DT 
+@SystemMessage I still had the defeated attitude and did not pull away from her mockingly rubbing where she dildo fucked me the night before. #DT 
+@SystemMessage She had a subtle grin that I could recognize as ridicule. #DT It still did not phase me. #DT
+@SystemMessage "Go takes these off" she said as she tugged at my pants, "and go put on my blue silk camisole. #DT 
+@SystemMessage The one I sometimes wear for Steve. #DT"
+@SystemMessage I was in a kind of trance and walked up to her closet where I knew the camisole was. #DT 
+@SystemMessage I took off my clothes and pulled it over my head in a blinkless daze and then returned downstairs. #DT 
+@SystemMessage I was greeted with Jennifer laughing, clapping and then saying, "You look great! Come over here. #DT"
+@SystemMessage I walked to my spot next to her and she put her hand between my legs, "Come on now, my cum drinking sissy slut. #DT 
+@SystemMessage Tell me how much you liked me fucking your ass with the dildo last night and slurping up a bowl of cum. #DT"
+@SystemMessage Her face turned stern. #DT 
+@SystemMessage I hesitated only a moment before recounting the emotions I felt that lead to my erection. #DT 
+@SystemMessage It was true I enjoyed what she had done to me and had to honestly express it to her. #DT 
+@SystemMessage I had no defense against saying otherwise. #DT 
+@SystemMessage When I finished, she rose and told me, "Perfect. #DT 
+@SystemMessage I knew you had a sissy cum slut in you. #DT Now we both know. #DT 
+@SystemMessage You keep that on today as a reminder of who we both now know you really are. #DT" 
+@SystemMessage She turned and left through the back door without saying anything else. #DT 
+@SystemMessage I stood motionless as I watched her drive off to work. #DT
+@SystemMessage After about five minutes of remaining unable to move, I dejectedly went through the motions of cleaning up the breakfast dishes. #DT 
+@SystemMessage As I did, my mind was on the camisole I was wearing and what had happened. #DT 
+@SystemMessage I began to sob. #DT 
+@SystemMessage I had to put the dish I was washing down so it would not break as I held onto the sink and cried for a long several moments. #DT 
+@SystemMessage My emotions were in utter turmoil and I had no control over them. #DT 
+@SystemMessage Several waves of grief washed over me. #DT 
+@SystemMessage I was not in despair about my service role to Jennifer, but the realization that I was exactly what Jennifer had said, a cum hungry sissy slut. #DT 
+@SystemMessage It was true and standing with the silk of the camisole against my skin made the realization unavoidable to me. #DT 
+@SystemMessage In a way, Jennifer was guiding me into my own submissive self discovery. #DT 
+@SystemMessage She knew me better then I did myself and surrendering to her guidance was what helped the despair I was experiencing change to devotion to her. #DT 
+@SystemMessage She held the secrets to my happiness. #DT 
+@SystemMessage My life was an act of servile service to her. #DT 
+@SystemMessage I took up the dish and proceeded to finish the morning washing with the beginnings of a new hope. #DT
+@SystemMessage Our lives continued on and we both were enjoying our time. #DT 
+@SystemMessage Somewhere along the way, I legally became Jennifer's husband. #DT 
+@SystemMessage I averaged about three or four orgasms per year, and following each were varying lengths of sissified humiliation until Jennifer felt it no longer necessary. #DT 
+@SystemMessage Usually about three days or so were common. #DT
+@SystemMessage As we aged, Jennifer found new men who would be her boyfriend. #DT 
+@SystemMessage Each knew of my submissive role. #DT 
+@SystemMessage Some she would bring back to the house and others she stayed out with and returned the next morning alone. #DT 
+@SystemMessage Also, sometimes Jennifer would send a friend of hers over to me which I would be expected to treat the same as her. #DT 
+@SystemMessage The constant in each of our lives were each other. #DT
+@SystemMessage My devotion to her was utter and complete. #DT @Goto(EndStory)
+(5)
+This next story is a great one! #DT
+It's about a man in chastity until he agrees to suck a cock #GNMLol #DT
+@SystemMessage "Is he here now?"cuck whispered, choking a bit as he realized what was in store. #DT "Yes", I replied. #DT.
+@SystemMessage I had just stripped and restrained cuck at the foot of my bed, having told him that I wanted to tease him for a while before we went out on our date that evening. #DT 
+@SystemMessage I admired the stunned expression on his face as he sat on my bedroom floor with hands cuffed behind him,  #DT
+@SystemMessage collar pulling him against the bed, and my dirty panties covering his head and face except his nose and mouth,  #DT
+@SystemMessage with my blindfold over top just to be sure he wouldn't see it coming. #DT
+@SystemMessage Six weeks cuck had been waiting for this night, six weeks without feeling my hot pussy wrapped around his cock,  #DT
+@SystemMessage and meanwhile I had been having plenty of fun with a few of my regular lovers. #DT.
+@SystemMessage Including the one now in the basement waiting as I prepped cuck for some more fun. #DT 
+@SystemMessage Six weeks of hearing about my adventures, sometimes being forced to clean me up afterwards,  #DT
+@SystemMessage yet always teased and denied in the end, milked yet never allowed to get a full release. #DT
+@SystemMessage If cuck wanted to fuck me again I had a large request. #DT. 
+@SystemMessage He must suck a nice real cock for me. #DT.
+@SystemMessage Something that would turn me on so much that I would be horny enough to let even him fuck me. #DT 
+@SystemMessage So we set a date to go out and I told him that he would have to perform for me at the gloryholes after dinner if he wanted to get laid that night. #DT
+@SystemMessage But before the night arrived I happened across a young man that was eager to fulfill his Bull fantasies with a real couple. #DT 
+@SystemMessage I never have much trouble finding willing lovers to have fun with, #DT 
+@SystemMessage but it had been years since we'd had someone who really knew how to fulfill the Bull role to our satisfaction without wimping out,  #DT
+@SystemMessage and I was more determined than ever that we would start really fulfilling many of our fantasies,  #DT
+@SystemMessage and definitely more often. #DT 
+@SystemMessage So as I texted Bull the day of our hot date I was getting more and more aroused at the idea of playing with him instead of going to the gloryholes. #DT 
+@SystemMessage I just couldn't wait to get together with him. #DT 
+@SystemMessage I told cuck to pick me up by 9:30. #DT.
+@SystemMessage But I told Bull to arrive at 8:00, so that I could have him to myself for a while first. #DT
+@SystemMessage Bull is a 6'3" young man with a swimmer's build and nice trim 7" cock,  #DT
+@SystemMessage he was immediately hard when he saw me standing in the doorway in my 5 inch black patent leather platform boots,  #DT
+@SystemMessage push-up bra, little lace panties and my silk kimono. #DT 
+@SystemMessage I offered him a glass of wine and we chatted for a while about our little naughty plan before slipping downstairs to my guest room so that we could get more comfortable. #DT 
+@SystemMessage Once we got the bedroom he attacked me with passionate kisses and took my breath away,  #DT
+@SystemMessage and very soon I was on my knees enjoying his delicious cock and thinking about how much I was going to enjoy seeing cuck sucking it for me. #DT
+@SystemMessage I was trying to pace ourselves in anticipation of cuck arriving so that our climax would be with him in the room,  #DT
+@SystemMessage but soon I was giving in to his straining hard cock and cumming hard as he pounded my wet pussy over and over. #DT 
+@SystemMessage His cock felt so hard and each time I took a break to suck him again. #DT 
+@SystemMessage I could feel his balls getting bigger as they filled with his hot seed. #DT 
+@SystemMessage Bull laughed, "After all this fucking and teasing he's going to have a lot of cum to swallow",  #DT
+@SystemMessage which of course only turned me on more, I loved hearing a real Bull talk that way about my cuck. #DT 
+@SystemMessage Cuck called to say he'd been delayed and I sounded annoyed "please don't be angry" he pleaded, "I'm coming as quick as I can". #DT 
+@SystemMessage Little did he know that I was on edge because his fucking was sooo good that I wasn't sure I'd be able to resist letting Bull unleash all his energy on me and cum before cuck could get there. #DT 
+@SystemMessage "No, it's ok" I responded, trying to hide my impatience, "just get here as soon as you can. #DT"
+@SystemMessage "If he doesn't get here soon I'm going to just keep you to myself and you'll have to call and cancel your date" said Bull,  #DT
+@SystemMessage as he laughed and started to fuck me hard again. #DT 
+@SystemMessage "Right now I'm not sure I would care if he didn't show up!" I cried out between screams of pleasure as I started to cum, my boots on his shoulders, my large tits bouncing wildly. #DT
+@SystemMessage But soon cuck did arrive and I rushed to put on my robe and brushed my hair hoping he wouldn't be able to tell that I'd just been fucking. #DT 
+@SystemMessage I let cuck in and said "I'm in the mood to play a little bit before we go. #DT. 
+@SystemMessage then putting the sash of my kimono around his neck I led him willingly up to the bedroom. #DT.
+@SystemMessage He looked so cute following behind me, admiring my boots and saying how hot I looked tonight. #DT
+@SystemMessage In my mistress bedroom I had the ropes and cuffs prepared. #DT.
+@SystemMessage And told him I want to tease and torture him a bit. #DT
+@SystemMessage And try out the restraints for later that night. #DT
+@SystemMessage He was very cooperative. #DT
+@SystemMessage Although a tad suspicious. #DT
+@SystemMessage But he couldn't tell what I was up to for sure so he allowed me to collar and cuff him to the foot of my bed. #DT
+@SystemMessage Towering over him in my boots -I'm 5'10" with them on-  #DT
+@SystemMessage I then slipped off my wet panties and slipped them on his head. #DT
+@SystemMessage Followed by the blindfold. #DT
+@SystemMessage Securing the ends into his collar. #DT 
+@SystemMessage I asked him if he could see, #DT
+@SystemMessage And he said no. #DT "That will do just fine", I replied. #DT "For what?", he asked cautiously. #DT 
+@SystemMessage "For making you suck cock for me", I said coldly, as I spread his mouth open showing him what he should do for me. #DT 
+@SystemMessage "You know that you have to suck cock for me tonight if you want to fuck this pussy". #DT 
+@SystemMessage "Yes Mistress. #DT. #DT. #DT", he replied with sober expression. #DT 
+@SystemMessage I asked him if he was comfortable enough to stay like that for a while...he hesitantly said yes. #DT
+@SystemMessage "Well...if you had been here on time I would have had time to cage that little cock of yours, and tease you.  #DT
+@SystemMessage Because I know you need time to ease into these things..." #DT
+@SystemMessage "Time before what Mistress?", he asked, now sounding quite scared... #DT
+@SystemMessage "Before I bring him upstairs to fuck me in front of you." I revealed as an evil smile came to my lips. #DT
+@SystemMessage "Is he here now?", he murmured...as his face turned white. #DT
+@SystemMessage "Yes", I smiled....as I grabbed his neck and stroked and slapped at his cock that was semi-erect and dripping,  #DT
+@SystemMessage "and you are going to suck that cock for me because there's not a fucking thing you can do about it.  #DT
+@SystemMessage I know you've been nervous about doing this for me cucky, but sometimes it's best just to rip off that band-aid, so that's what we're going to do tonight." #DT
+@SystemMessage He sat stunned, speechless...I could sense his mind racing with nerves and excitement.  #DT
+@SystemMessage I gave him a hard pat on the balls and got up to go get my Bull.  #DT
+@SystemMessage "Don't disappoint me cuck." I said sharply as I walked away. #DT @Goto(EndPart)
+(6)
+Lets continue with our story! #DT
+The bull was just about to have some fun! #DT
+@SystemMessage I brought Bull into the bedroom and turned on the lights for a moment so that he could see my helpless cuck bound and blind at the foot of my bed. #DT
+@SystemMessage Then I turned them off so that we could continue our amazing fuck session by the candlelight. #DT
+@SystemMessage We laid down on the bed and I started to suck and lick his cock again, getting it nice and hard so that he could fuck me some more. #DT
+@SystemMessage Feeling how enormous his balls were.  #DT
+@SystemMessage Soon he was ready to fuck me again so I got up and bent over the side of the bed and spread my legs eagerly for his nice hard cock.  #DT
+@SystemMessage When he thrust inside of me again I let out a sigh. #DT
+@SystemMessage My pussy was already swollen and permanently wet from all of our fucking earlier, but I still wanted more more more!  #DT
+@SystemMessage Soon he was holding my arms straight back and fucking me hard. #DT
+@SystemMessage The sound of cuck's collar jingling as we shook the bed make me moan and start to come. #DT
+@SystemMessage All I could think was "Finally, a real Bull!!", and I squeezed his cock hard as I came all over him.  #DT
+@SystemMessage His amazing libido wasn't done with me yet and he flipped me on my back with my boots over his shoulders, #DT
+@SystemMessage and fucked away like a jackhammer as I moaned and screamed "God yes...Fuck ME..FUCK ME HARD...GOD YA". #DT
+@SystemMessage My hand reached out and stroked cuck's head that was right beside me now. #DT
+@SystemMessage I couldn't wait for him to be ready to cum so that cuck could suck that cock and drink all that cum. #DT
+@SystemMessage Then I was distracted again as that cock grew with excitement, even harder than I thought possible. #DT
+@SystemMessage And so deep. #DT
+@SystemMessage Pounding me over and over. #DT
+@SystemMessage I started to cum again and this time Bull was unable to control himself the feeling of my hot wet pussy gripping his cock was too much and he exploded deep inside of me as I came. #DT
+@SystemMessage "Did you cum?" I gasped out of breath...wanting to be sure....."Yes" he replied...."that wasn't the plan but it felt so good..I couldn't help it".  #DT
+@SystemMessage "It doesn't matter", I laughed, "That's exactly where I was craving it. Deep inside my pussy."  #DT
+@SystemMessage Then I thought of what cuck must be thinking hearing this. #DT
+@SystemMessage He was supposed to suck cock for me or he wouldn't be allowed to fuck me tonight. #DT
+@SystemMessage He must be worried that he's lost his chance!  #DT
+@SystemMessage I laughed softly to myself at the thought of his dripping cock aching with the thought that he may not get to fuck me after all. #DT
+@SystemMessage My laugh must have turned Bull on because he still didn't stop fucking me even after he had cum!  #DT
+@SystemMessage Again he started to work my now very sore swollen pussy, gaping and wet with his cum and mine, I moaned with pleasure and gasped "Oh my God...you're amazing...". #DT
+@SystemMessage I'm sure I came again but it was really just a blur of pleasure and fucking and kissing as cuck sat silent and dripping, wetting his shorts like a pathetic teenage boy. #DT
+@SystemMessage At the end of our 2.5 hr session Bull and I got up and started to clean up.  #DT
+@SystemMessage "Do you want to get cleaned up?"  #DT
+@SystemMessage I sweetly asked Bull, he said yes and started in the direction of the bathroom.  #DT
+@SystemMessage I stopped him, and motioned at cuck sitting on the floor, looking at him as if to say "would you please?".  #DT
+@SystemMessage He looked at me, then him, and walked right in front of cuck and I sat beside his head and held cuck's nose, pulling his head back like I was about to perform cpr.  #DT
+@SystemMessage I said "Open wide and take that cock", and cuck did not disappoint me.  #DT
+@SystemMessage I nearly came again as I watched Bull's cock slide into his open mouth.  #DT
+@SystemMessage "Suck the cock that fucked me so well" I demanded. #DT
+@SystemMessage And cuck obeyed, knowing he really had no choice. #DT
+@SystemMessage Probably now even GRATEFUL that I was giving him the chance to earn his reward, I had him just where I wanted him and it was mind-blowing. #DT
+@SystemMessage "He did a great job of fucking your woman didn't he cuck?"  #DT
+@SystemMessage I laughed and cuck responded by sucking his cock even more, taking him deep and giving me a good show.  #DT
+@SystemMessage "Holy fuck that's hot" I blurted out, so proud of my cuck and grateful to Bull to allow the unworthy cuck to suck such a nice hot cock. #DT
+@SystemMessage Once cuck had cleaned off Bull really well I said "time for cuck to lick some cum", and straddled his face making him lick my soaked swollen pussy as I pressed his head back into the mattress forcefully.  #DT
+@SystemMessage He licked me up eagerly then we left him there so that I could show Bull out. #DT
+@SystemMessage When I got back downstairs and went around the corner there was Bull on the bed jerking his cock once again looking like he needed to cum again.  #DT
+@SystemMessage "Bring me that wine glass so I can fill it up for cuck to drink" he asked.  #DT
+@SystemMessage I grabbed it fast and eagerly stroked his balls as his jerked off and came again, nice thick and creamy cum into the empty wine glass.  #DT
+@SystemMessage He then got dressed and we agreed we would have to play again very soon as we kissed good night. #DT
+@SystemMessage I went back to rescue poor cuck from his bondage, taking off his mask I showed him what I had. #DT
+@SystemMessage "Bull left you a treat" I said and before he could really grasp what I was doing  #DT
+@SystemMessage I was forcing his head back and mouth open and poured the cum in mixed with a little bit of red wine that was in the bottom of the glass.  #DT
+@SystemMessage Cuck swallowed it down faithfully, then I looked down and could see what a mess he'd made "Oh my" I hissed, "someone's made a mess".  #DT
+@SystemMessage "Yes Mistress, I couldn't help it.", he obediently replied. #DT
+@SystemMessage I then undid his hands and handed him his cb2000.  #DT
+@SystemMessage "Put it on", I demanded, "and the panties too, you're taking me out, I've worked up a real appetite and would love a nice cold beer." #DT
+@SystemMessage Then once he was nicely locked and in his little panties.  #DT
+@SystemMessage I undid his collar and allowed him to get dressed for our date.  #DT
+@SystemMessage And what a fun date that was as I rubbed his crotch under the table as we discussed how surprised he had been and how hot it was hearing me get fucked, a night we had waited six weeks for. #DT
+@SystemMessage But really had waited years for, and it wasn't over yet. #DT
+@SystemMessage Knowing that I would be sure to torture and tease his cock and balls and make him beg me desperately before he would finally get to fuck me, and then only with desensitizing spray and a condom on. #DT 
+@SystemMessage To earn a bareback fuck would take more time and bigger tricks, which would have to wait for our next big night out. #DT @Goto(EndStory)
+(7)
+I have a short story for you #GNMGrin #DT
+@SystemMessage Last night Mistress let our new play partner "Daddy" use me. #DT 
+@SystemMessage I have never done anything with a guy except a couple kisses and one lap dance during truth or dare. #DT 
+@SystemMessage I have never been particularly opposed to sexual interactions with men, but it is far less exciting than sex with women. #DT
+@SystemMessage Mistress pushing me to do it made it much more interesting. #DT 
+@SystemMessage Either way, we have a signed contract that allows her to use my body as she wishes and that includes letting men fuck me. #DT 
+@SystemMessage There was a lot of foreplay. #DT Mistress and Daddy made out in the back seat while I drove to the hotel. #DT 
+@SystemMessage It was a two bed hotel room so that I could sleep alone after the night's activities while they shared a bed to kiss and cuddle in. #DT 
+@SystemMessage Daddy was tossing Mistress around the room while the groped and kissed and generally demonstrating his physicality before I finished bringing the bags in. #DT 
+@SystemMessage They fooled around on one of the beds while I watched. #DT
+@SystemMessage He had us both get on the bed and started calling me Bitch Number one and Mistress Bitch Number Two. #DT 
+@SystemMessage He took out his cock, which is quite a bit larger than my teeny weeny. #DT 
+@SystemMessage He has us stroke and kiss his cock and balls. #DT 
+@SystemMessage I had expected it to be unpleasant, but it wasn't. #DT 
+@SystemMessage It was kind of exciting. #DT 
+@SystemMessage Daddy had us kiss each other around his shaft. #DT 
+@SystemMessage Then Mistress showed me how to suck cock. #DT 
+@SystemMessage Then it was my turn. #DT
+@SystemMessage The lube we had been using was a little sweet and that was really the only thing I tasted. #DT 
+@SystemMessage I had thought there would be some other flavor, but none was present. #DT 
+@SystemMessage The most surprising thing was how Daddy's cock felt in my mouth. #DT 
+@SystemMessage The shaft was hard and unyielding while the head was soft and squishy. #DT 
+@SystemMessage I worked up and down, sucking as hard as I could while jerking the base of his shaft. #DT 
+@SystemMessage Eventually Daddy had enough. #DT
+@SystemMessage Mistress made one of her usual threats that she would start hurting my balls if I didn't come up with something interesting. #DT
+@SystemMessage Both licking her pussy and ass resulted in the response of "Boring!"
+@SystemMessage So as she started to smack my balls I shouted "I'll show Daddy how to cane you!" That saved me a rather sever CBT session. #DT
+@SystemMessage Mistress got my ass lubed up and told Daddy I was ready. #DT 
+@SystemMessage They had me lay on my stomach and Daddy got on top of me and started rubbing his cock all over my ass. #DT 
+@SystemMessage Finally he slid into me as Mistress kelt in front of me and looked into my eyes. #DT 
+@SystemMessage He went deep and deeper. #DT His cock went to a place where I felt a need to cry out. #DT 
+@SystemMessage I have trained with much wider dildos, but have generally avoided long dildos. #DT 
+@SystemMessage They go far enough in that it no long feels like the area I am used to fucking or having fucked. #DT 
+@SystemMessage Daddy's cock went to that place. #DT
+@SystemMessage After a while Daddy flipped me on my back and soon I was so loud Mistress 
+@SystemMessage and Daddy were concerned about bothering other guests, so they shoved my dirty pair of panties in my mouth. #DT 
+@SystemMessage Mistress was on her period and I had some of her dried menstrual fluid on them from when I fucked her with the strap-on the previous night. #DT 
+@SystemMessage That was far from my primary concern as Daddy continued to impale me. #DT 
+@SystemMessage Finally Mistress and Daddy decided I had had enough. #DT 
+@SystemMessage Daddy went to take a shower while Mistress checked in on how I was doing. #DT 
+@SystemMessage I told her I was okay with her being mean some more. #DT 
+@SystemMessage She shoved me out of bed and when I looked up she asked when I had received permission to look at her, 
+@SystemMessage so I bowed my head and sat there on the floor feeling a mix of shame, hurt, longing and satisfaction. #DT
+@SystemMessage After some more fooling around between Mistress and Daddy he fucked her in the ass and they agreed she was much tighter. #DT 
+@SystemMessage After the initial penetration she adjusted to Daddy and enjoyed herself quite throughly. #DT 
+@SystemMessage Then they decided to move to 'their' bed. #DT I hadn't realized we had all been fucking in the bed I would be sleeping alone in. #DT
+@SystemMessage Later she started Domming Daddy and fingering him. #DT 
+@SystemMessage Soon he was begging her to fuck him with the strap-on. #DT 
+@SystemMessage Despite all my training over the last month and a half Mistress has not fucked me, 
+@SystemMessage yet after enough begging she had me bring it to her and she rode him while Daddy stroked himself till he came. #DT 
+@SystemMessage Mistress had me lick his hand and the bed sheets, though surprisingly not his cock. #DT
+@SystemMessage After that we all went to bed. #DT 
+@SystemMessage Occasionally I would overhear them kissing or fooling around throughout the night. #DT 
+@SystemMessage In the morning they got pretty serious and then Daddy took a shower. #DT 
+@SystemMessage Mistress had me fuck her though I was not allowed to cum of course. #DT 
+@SystemMessage I have to withdraw when I think I am getting close. #DT 
+@SystemMessage Daddy came back and watched for a while. #DT 
+@SystemMessage After that we packed up and I drove them home. #DT 
+@SystemMessage After dropping off Daddy, Mistress stayed in the back seat and read a book without saying a word to me. #DT @Goto(EndStory)
+(8)
+I have a story you'll absolutely love #GNMLol #DT
+@SystemMessage Being married for a year I never told my wife that I had an interest in enforced chastity and women’s lycra clothing like leotards, sports bras, bottoms and tights. #DT 
+@SystemMessage I guess I should given the situation I’m in. #DT 
+@SystemMessage I found out the hard way that my wife had an interest herself. #DT 
+@SystemMessage As a teenager she was forced to wear extremely tight girdles, all in ones, and bras that where locked on in a way that her mother would know if they had been removed. #DT 
+@SystemMessage It was a turn on for here as she grew older and she had interest in it for me. #DT
+@SystemMessage One day while cleaning out her closet I came across some interesting articles of clothing that she had store in a box. #DT 
+@SystemMessage It was a metallic looking spandex sports bra and panty. #DT 
+@SystemMessage I though it was strange that I had never seen her wear these since she often wore items like that. #DT 
+@SystemMessage Then I began to notice some strange things about it. #DT 
+@SystemMessage First the material stretched like spandex but was very heavy. #DT 
+@SystemMessage Strangely, it would not fold over on itself like it was chain mail or something. #DT 
+@SystemMessage Then I notice that the bra size had to be for someone with little or no breast and had little metal discs where the nipples would be. #DT 
+@SystemMessage The sports bra met like a T in the back -like a racer back sports bra- and went from below the breast all the way to the neck in the front. #DT 
+@SystemMessage It was like it had a collar built into it. #DT The sides where several inches wide to give good support. #DT 
+@SystemMessage Then I looked at the panties. #DT 
+@SystemMessage They reminded me a lot like women’s control briefs or panti-girdles with a fairly high waist but low cut at the legs. #DT 
+@SystemMessage I looked inside of them and found something very unusual. #DT 
+@SystemMessage It looked like sheath of some type that tightly enclosed a penis and balls of a man. #DT 
+@SystemMessage Inside the sheath was a small hole that went somewhere. #DT 
+@SystemMessage Around the hole were little round stubby things and look like something that would excite the penis. #DT 
+@SystemMessage Then in the rear of these panties and whatever you would call it at this point, was a hollow metal butt plug. #DT 
+@SystemMessage I didn’t know what to think about it. #DT
+@SystemMessage There where no seems anywhere at all except for two small holes at the side on the waistband. #DT 
+@SystemMessage The only thing not uniform of the fabric was a thicker band around the leg openings, and waistband of the panties, 
+@SystemMessage and the same for the edges of the collar and bottom of the sports bra. #DT 
+@SystemMessage At the back of each garment was a small smooth round circle about the size of a fingertip on each of them. #DT
+@SystemMessage Something told me to try them on to see what they felt like. #DT 
+@SystemMessage I don’t know what gave me the urge but I had too. #DT 
+@SystemMessage First I had to put the panties on. #DT 
+@SystemMessage I lubed the butt plug and really didn’t like the ideal of it but there was no other way of trying them on. #DT 
+@SystemMessage I sled them up and boy where they tight. #DT 
+@SystemMessage I was beginning to believe they would not fit. #DT 
+@SystemMessage I slid my erect penis on the sheath but couldn’t totally enclose my balls, that end of the sheath only went half way down my erect shaft. #DT 
+@SystemMessage I then used ice to subdue my erection. #DT Finally with little or no erection I got the whole thing around my balls. #DT 
+@SystemMessage I finished pulling the panties all the way up. #DT Wow what I rush I felt, it was very stimulating to wear. #DT 
+@SystemMessage However my penis could not expand very far in the sheath, it kept my penis pointing down. #DT 
+@SystemMessage The waistband was above my hip-bone and cinched my waist tightly. #DT
+@SystemMessage The sports bra was calling me to put it on. #DT 
+@SystemMessage I was barely able to get it on over my head. #DT 
+@SystemMessage I managed to squeeze into it. #DT 
+@SystemMessage It was really tight and made my male nipple hard when I felt the cold metal discs on my nipples. #DT 
+@SystemMessage I couldn’t wait to see what I look like in the mirror. #DT 
+@SystemMessage I ran to the mirror and was stunned as to how the material looked stretched on me. #DT 
+@SystemMessage It looked like I was wearing solid metal. #DT It was exciting to me so. #DT 
+@SystemMessage I touch my breast and a shocking thing occurred. #DT 
+@SystemMessage It the front of the bra grew and tightened up at the same time. #DT 
+@SystemMessage It even seemed to get heavier. #DT 
+@SystemMessage I touched them again and they were solid metal, and a computer voice said, “Chastity bra mode activated!” 
+@SystemMessage I thought, what the hell in going on. #DT 
+@SystemMessage I went to touch the briefs and the bulge of my penis was pushed in instantly by the briefs and they became solid metal. #DT 
+@SystemMessage It made me look like I had no genitalia and it began cinching my waist further. #DT 
+@SystemMessage Then a computer voice said, “Chastity briefs activated!”. #DT 
+@SystemMessage This was really exciting and scarred me, I really didn’t know what to think. #DT 
+@SystemMessage I reached behind me and two of my fingers touched those two smooth rounded circle and a computer voice said, “Severe chastity mode activated!”, 
+@SystemMessage then the trouble really began. #DT 
+@SystemMessage Everything tightened up. #DT 
+@SystemMessage I couldn’t get a finger between any part of the chastity outfit I was now trapped in. #DT 
+@SystemMessage Even my butt cheeks were encased in solid metal. #DT @Goto(EndPart)
+(9)
+Lets continue our little story #DT
+Last time the slave had put on a very serious metal chastity device! #GNMEmoteHappy #DT
+@SystemMessage I couldn’t believe how tight this thing was on me. #DT 
+@SystemMessage The briefs were like a sold metal piece cinching me tight like it was welded to me body. #DT 
+@SystemMessage I tried with all my might to take them off but nothing moved. #DT 
+@SystemMessage My penis was trying to get hard but could not expand anywhere, then when it subsided slightly, it got stimulated by the knobby places in it and excited me more. #DT 
+@SystemMessage I laid down on my back to see if maybe I could slip the chastity briefs off, but I could even get a finger underneath it. #DT 
+@SystemMessage The leg openings where just as tight. #DT 
+@SystemMessage I reached all around and only encountered solid unyielding metal. #DT 
+@SystemMessage I went to examine the bra, it was just as tight and would budge at all. #DT 
+@SystemMessage It was extremely confining to wear, but surprisingly I could move around except that I had to relearn how to get up and down and bend. #DT
+@SystemMessage I was trying to calm down to figure out what to do. #DT 
+@SystemMessage Then I remembered the round discs in the back of the chastity briefs and bra. #DT 
+@SystemMessage I press the round discs again and the computer voice said, “Please state your passcode!”. #DT 
+@SystemMessage Passcode, “what passcode” was what I was thinking. #DT 
+@SystemMessage Then I thought that since my wife put this chastity outfit there, she must know the passcode. #DT 
+@SystemMessage I tried using the passwords that I knew she used for things. #DT 
+@SystemMessage On the third incorrect try, the voice said, “Sorry, you have given 3 incorrect passwords, fingerprint must be given to override. #DT 
+@SystemMessage Now starting torment program!” Oh shit was my only thought. #DT 
+@SystemMessage My wife would be home in 2 hours and I locked up in some strange computerized chastity outfit. #DT 
+@SystemMessage Was this thing meant for me? Or what? I looked in the mirror and it was really turning me on. #DT 
+@SystemMessage I looked very androgynous, but more female than male. #DT 
+@SystemMessage Something start to feel real good on the penis, in tried to grow hard and then the metal disc in the bra clamped my nipples. #DT 
+@SystemMessage The excited me further, then it felt like little spike where at the end of the penis sheath at the head of my penis. #DT 
+@SystemMessage It was a viscous cycle of pleasure then pain followed by stimulation resulting in even more pain. #DT 
+@SystemMessage I became so intense, 
+@SystemMessage the looking at my self in the mirror seeing my upper body bisected by a metal bra and my torso and groin also bisecting my lower torso as well. #DT 
+@SystemMessage I must of passed out in agony. #DT
+@SystemMessage I woke up 2 and a half hours later with a mild ache in my chest and waist. #DT 
+@SystemMessage I looked down at my feet but only could see two shiny metal domes on my chest. #DT 
+@SystemMessage I got up and walked over to the mirror. #DT 
+@SystemMessage I couldn’t believe it, it was not a dream or nightmare. #DT 
+@SystemMessage I looked at the clock, my wife should have been home about an hour ago, then I hear a noise in the kitchen and smelled something cooking. #DT 
+@SystemMessage I then knocked something off the table next to me. #DT “Oh, I see my hubby is now up. #DT”, she said in a happy voice. #DT  
+@SystemMessage I thought does she know what I’m wearing? “I see you found my new kink!” Well I guess that answered my question. #DT 
+@SystemMessage I walked in the kitchen and my wife was cooking like there was nothing wrong. #DT 
+@SystemMessage She then turned around and said, “Wow you look fantastic in that outfit, very sexy seeing you locked in metal like that. #DT” 
+@SystemMessage “Metal??, Locked?? I’m confused!” I replied. #DT 
+@SystemMessage She replies in a cheerful voice, “Yes, locked metal, it’s a special metal fiber that my company has been working on, neat huh. #DT 
+@SystemMessage I created it and put it there so you would find it and see if you would wear it. #DT 
+@SystemMessage I knew about your kinky side all along and if I asked you about you would deny it. #DT” 
+@SystemMessage I asked how she knew. #DT 
+@SystemMessage She explain to me that she notice what turns me on especially when she wore tight lycra and things, 
+@SystemMessage and she has been looking at the cache and history files on my computer. #DT 
+@SystemMessage She knew what I been searching and reading on the net. #DT 
+@SystemMessage She confessed that she also reads Altarboy’s web site. #DT. #DT
+@SystemMessage I couldn’t believe it she knew all along. #DT 
+@SystemMessage Why didn’t I just tell her?. #DT 
+@SystemMessage She then told me, “Well, I a little disappointed that you didn’t tell me about your kink, you know that I want an open relationship where we can talk about anything. #DT 
+@SystemMessage I’m glad I found a way to let your kink come out, believe me, it took a lot of work to make that chastity outfit. #DT 
+@SystemMessage For punishment of not talking to me you will remain locked into it for the next 5 days. #DT 
+@SystemMessage Since my period began last night, I have no need to let you out until it’s over. #DT” 
+@SystemMessage I protested, “But what about the breasts in this thing? I can’t go to work like that!” “Don’t worry, I’ll set them to go down from 7:00 am till 6:00pm. #DT 
+@SystemMessage I especially like the 6:00pm part, cause then I know that you will be home by then. #DT” 
+@SystemMessage Clever I thought, she had planned this all alone, this excited me and scarred me at the same time. #DT 
+@SystemMessage The only thing I worried about is if it was visible under clothing, especially the bra straps. #DT 
+@SystemMessage She then explained, “Now you can use the safeword anytime, 
+@SystemMessage but that would mean that the topic of chastity and such will never be mentioned much less practiced in our relationship. #DT” 
+@SystemMessage I agreed since I really didn’t have much choice. #DT
+@SystemMessage I began studying the outfit closer, it was a real engineering marvel. #DT 
+@SystemMessage I asked how I peed and defecate. #DT 
+@SystemMessage “There is a hole for the urine and the rear plug expands out and is hollow when needed. #DT 
+@SystemMessage The computer in it knows when to expand it. #DT” 
+@SystemMessage I looked at it in the mirror, not a single seem, it looked and felt like solid metal encasing my torso and chest. #DT 
+@SystemMessage There was no escape from it. #DT “How tough is the material?”, I asked. #DT 
+@SystemMessage She replied “Try cutting it, you won’t even scratch it. #DT” 
+@SystemMessage I though to myself yeah sure right, So I got out the cutting wheel of my Dremel tool and sure enough not even a scratch. #DT 
+@SystemMessage It just burned the cutting wheels right up. #DT 
+@SystemMessage I knew that this was some serious stuff then. #DT 
+@SystemMessage I asked he what the material was. #DT 
+@SystemMessage She said is a new titanium allow, hardest stuff known to man. #DT 
+@SystemMessage “How does it get hard and other times soft” I asked. #DT 
+@SystemMessage She told me that it normally stays hard, but when a certain resonance is added by the computer, 
+@SystemMessage the material becomes somewhat soft and stretchy but still will not break. #DT
+@SystemMessage Trying to get over the shock of it, I sat down to eat dinner my wife had been preparing. #DT 
+@SystemMessage I discovered that sitting for long periods of time would be uncomfortable at the leg opening of my new metal underwear. #DT 
+@SystemMessage No matter what, I couldn’t forget about the tightness of my lower torso and my chest locked away and encased in this uncutable metal. #DT 
+@SystemMessage The built in plug reminded me that I was no longer in control of my body. #DT 
+@SystemMessage It felt so strange to look down and see two silver breasts and reaching down to my groin to find only unyielding metal. #DT
+@SystemMessage That night I don’t think a slept a wink, I could not get used to the constriction of my chest. #DT 
+@SystemMessage It felt like the bra was crushing me. #DT 
+@SystemMessage It felt uncomfortable sleeping on my stomach due to the silver breasts. #DT 
+@SystemMessage Thinking of erotic things brought frustration as my penis was kept under strict control be it new Titanium warden. #DT 
+@SystemMessage The constriction of the briefs and bra were a turn on, yet every attempted erection was controlled by the unforgiving Titanium warden. #DT 
+@SystemMessage Finally the alarm clock went off at 6:45am. #DT I went to shave, boy was that strange looking at myself in the mirror wearing that outfit and shaving. #DT 
+@SystemMessage I jumped into the shower. #DT @Goto(EndPart)
+(10)
+It's time for our final part of the story about the metal future chastity belt #DT
+Gosh I hope it becomes real at some point! #DT
+@SystemMessage Even in soapy water, the bra or briefs would not budge, there was no escape. #DT 
+@SystemMessage At 7am the breast shrunk down and I now had a normal flat chest except the bra was still locked on. #DT 
+@SystemMessage I wore an undershirt to help hide the straps of the bra and luckily the dress shirt and tie hid the collar. #DT
+@SystemMessage It was hard to keep focused on work. #DT 
+@SystemMessage I kept wondering if anyone know what I was wearing underneath my work clothes. #DT 
+@SystemMessage No one could notice, but the paranoia was the same. #DT 
+@SystemMessage I was constantly squirming sitting down due to the butt plug and tight leg openings of my new titanium underwear. #DT 
+@SystemMessage The high waistband of the chastity panti-girdle kept my posture correct. #DT 
+@SystemMessage There was no escape from my new intimate titanium friend. #DT 
+@SystemMessage Finally 5pm came and I knew I had to get home before the silver breasts came back. #DT 
+@SystemMessage I jump on the expressway and what lousy luck, there’s an accident ahead of me. #DT 
+@SystemMessage Now I’m thinking that I hope I can get through this in time. #DT 
+@SystemMessage Finally I pull into the driveway at 5:58pm, just in time. #DT 
+@SystemMessage Just as I took off my shirt, the breasts reappeared from the front of the bra, and I could feel the weight of it added. #DT
+@SystemMessage That night I was order to give oral sex with my tongue. #DT 
+@SystemMessage It was an erotic feeling being her androgynous sex salve locked in steel having to serve her. #DT 
+@SystemMessage I asked if I could get some relief. #DT 
+@SystemMessage I was then told that I would have to wait some. #DT 
+@SystemMessage This went on the next 2 nights as well. #DT 
+@SystemMessage Finally on the 4th night she said OK after giving her one of then most intense orgasms. #DT 
+@SystemMessage However, I was not release from the outfit, instead she gave a voice command “Access program MB3” and put her thumbprint to the back of the metal brief. #DT 
+@SystemMessage All of a sudden if felt like was in heaven, the briefs were messaging my penis. #DT 
+@SystemMessage I was confined yet experience a fantastic sexual pleasure. #DT 
+@SystemMessage I exploded in an orgasm rocking my hips back and forth. #DT 
+@SystemMessage Nothing came out though. #DT 
+@SystemMessage I asked about this and was told that it would come out the next time I urinate, which was very shortly afterwards. #DT
+@SystemMessage On day 5 after work, my wife gave the command “UC_beta5” and pressed her thumb on the back of bra and briefs, 
+@SystemMessage computer responded with “Chastity Bra and Brief deactivated and unlocked” The bra and briefs loosened their grip around me and I could now barely pull them of. #DT. #DT 
+@SystemMessage My wife then checked for any problems and found non. #DT 
+@SystemMessage We then made love and the most passionate way I have ever remembered. #DT 
+@SystemMessage She had multiple orgasms and even I had two, something I had never done before. #DT
+@SystemMessage She asked me to put the outfit back on so we could experience that again. #DT 
+@SystemMessage Well after experiencing that and still feeling the glow from it I did. #DT 
+@SystemMessage I managed to squeeze myself into it, and it felt good. #DT 
+@SystemMessage She then pressed the silver disc in the back again and the computer voice said “Chastity Bra activated. #DT 
+@SystemMessage Chastity Briefs Activated” Immediately the bra and brief tightened and turn to solid metal and the breast reappeared. #DT 
+@SystemMessage I asked if she planned on letting me out anytime soon, and she said it was up to me. #DT 
+@SystemMessage Then she gave me a pair of dice. #DT 
+@SystemMessage She then explained the rules. #DT 
+@SystemMessage I must role an even number and that will determine the number of days in the outfit. #DT 
+@SystemMessage She will program it so that no matter what, it will not unlock until that time. #DT 
+@SystemMessage Even she can’t undo it. #DT 
+@SystemMessage There is a catch, if I roll and odd number then that number is added to the next until I roll and even number. #DT 
+@SystemMessage If I roll snake eyes, then I role one die to determine the number of days free. #DT 
+@SystemMessage However, if I roll 2 sixes then I must role again and determine the number of “months” I’ll spend in it. #DT
+@SystemMessage I felt pretty lucky and agreed to it. #DT 
+@SystemMessage I rolled the dice and two sixes appeared. #DT 
+@SystemMessage I thought my heart stopped. #DT 
+@SystemMessage I knew that it would be at least 8 weeks in the outfit. #DT 
+@SystemMessage I picked up the dice again, rolled it and closed my eyes. #DT 
+@SystemMessage It was two sixes again. #DT I was speechless. #DT 
+@SystemMessage Before I could say anything she called out the command, “Activate Chastity Shield Level 10, for 12 months”. #DT 
+@SystemMessage The computer responded back, “Please press thumbprint to activate unreversible command. #DT” 
+@SystemMessage She quickly pressed it, and it said, “Adjusting to maximum chastity control. #DT The bra and brief tightened even further to a near impossible level. #DT 
+@SystemMessage I had no ideal that anything this tight could ever be on my body. #DT
+@SystemMessage I asked what exactly level 10 is. #DT She told me that it was a setting where even it I lost weight the outfit would maintain the constant tightness I have now. #DT 
+@SystemMessage And no one can override the time. #DT 
+@SystemMessage And if it detects any attempt to get out it will squeeze your balls very painfully. #DT 
+@SystemMessage Then a sharp pain hit my nipples. #DT 
+@SystemMessage The she told me about the nipple clamps that are now locking to my nipple. #DT 
+@SystemMessage Thankfully they only squeeze tightly if an attempt is made to remove bra. #DT 
+@SystemMessage There was no doubt now, I was locked in the chastity suit for twelve months, and I would have breasts except from the hours of 7am - 6pm for a year. #DT 
+@SystemMessage I was then told that the briefs would give orgasms only once every 10 days if she allowed it. #DT 
+@SystemMessage She then asked me to lay on the bed. #DT 
+@SystemMessage and she tied me spread eagle to it. #DT. #DT She had one final surprise. #DT 
+@SystemMessage I hear something that sounds like chain and then saw two metal bands with a short chain connecting them and two longer chains, 
+@SystemMessage one of each side opposite of the connecting chain. #DT 
+@SystemMessage She untied one leg and slip it up my left leg and tied the left leg back up. #DT Then she repeated the same on my right leg. #DT 
+@SystemMessage She asked me to lift up as much as I could and she slid the bands up to my thighs, 
+@SystemMessage about 4 ½ inches from the bottom of the chastity briefs where the bands could not go up any further. #DT 
+@SystemMessage The longer side chains had a pen the slid into the waistband of the chastity briefs and made the chain tighten up. #DT 
+@SystemMessage Then the chains in between the two thigh bands had a pin in the center link. #DT 
+@SystemMessage She locked it into a hole I had never been able to see at the bottom of chastity briefs. #DT 
+@SystemMessage The computer voice then said, High Security Restrictive Thigh Bands installed and locked and is now part of program Chastity Shield level 10”. #DT 
+@SystemMessage Now the thigh bands would remain locked on for the entire year. #DT 
+@SystemMessage Naturally the chain and thigh bands were made out of the same Titanium alloy. #DT 
+@SystemMessage All she could say then, is that she knew I wanted this and now I must go through it. #DT 
+@SystemMessage There is no out or safeword anymore. #DT In a frightening realization I knew she was right. #DT 
+@SystemMessage After all I didn’t have a choice anymore. #DT
+@SystemMessage She untied me and let me get used to walking around in my new chastity suit. #DT 
+@SystemMessage Just getting off the bed I immediately noticed the effects of the thigh bands. #DT 
+@SystemMessage I had to keep legs close together to move them. #DT 
+@SystemMessage I could not spread my knees any more than 6 inches. #DT 
+@SystemMessage When I walked I could not longer take long strides. #DT 
+@SystemMessage She laughed and reminded me that I will no longer walk too fast for her when we are out walking together. #DT 
+@SystemMessage The combination of the tighter briefs and thing bands make bending over a difficult but doable task. #DT 
+@SystemMessage Sleeping was going to be even more uncomfortable with tighter than ever Titanium bra and briefs. #DT 
+@SystemMessage I realized that I could not longer wear normal pants, then she presented me with another surprise, 
+@SystemMessage all this time she had been worth millions. #DT 
+@SystemMessage She didn’t work for the company that made this suit. #DT 
+@SystemMessage She owned it. #DT No longer did I have to worry about working, my job was now to take care of her and the house. #DT
+@SystemMessage So now here I am, a sexless slave living in and Titanium alloy Chastity Bra and Chastity Panti-girdle with restricting thigh bands, 
+@SystemMessage and nothing can set me free except but time, which is another 11 months away. #DT 
+@SystemMessage 336 more days trapped in Titanium Steel. #DT 
+@SystemMessage I’m now restricted to certain clothing when going out in public. #DT 
+@SystemMessage I now must wear loose pants to accommodate the thigh bands and not a minute goes by that I don’t forget the tight restrictive clothing that I’m encased in. #DT 
+@SystemMessage My new Titanium chastity suit is now my personal prison. #DT @Goto(EndStory)
+(11)
+I a short story about a birthday #GNMGrin #DT
+@SystemMessage Jenn and Tabby had promised me a great birthday party this year. #DT 
+@SystemMessage They said it would start off with a bang and I would love every minute of it. #DT 
+@SystemMessage They also told me that I would be released from my chastity belt and would get to cum as a special birthday treat. #DT 
+@SystemMessage I was excited to see what all I was going to get for my birthday this year. #DT
+@SystemMessage Finally, I am told it is time for the party. #DT 
+@SystemMessage Jenn, who is average height and weight with nice D sized breasts, was wearing a very low cut tank top and a sexy black thong with stockings on as well. #DT 
+@SystemMessage Tabby was a pure hottie, who was tall with black hair, slender as can be and huge D breasts that were fake but still looked good. #DT 
+@SystemMessage She just walked in with a red bra and thong on wearing her thigh high sexy boots. #DT 
+@SystemMessage My cock immediately started to hurt, trapped inside the poor cage. #DT
+@SystemMessage They led me to a chair with no arms on it and sat me down. #DT 
+@SystemMessage They tied my legs and arms to the chair to make sure that I couldn’t move around a bit. #DT 
+@SystemMessage Then Tabby sat on my legs and took the key from around her neck. #DT 
+@SystemMessage She proceeded to unlock my uncomfortable cock from its cage and kinda giggled when I sighed when it was free. #DT 
+@SystemMessage She then asked me if I wanted my first present. #DT 
+@SystemMessage I told her yes and she told me that she was going to give me a lap dance but first after the lap dance,  #DT
+@SystemMessage she was going to slap me in the face 10 times as hard as she could. #DT 
+@SystemMessage I was given the option to either get the lap dance or not, but I couldn’t resist a lap dance from her. #DT
+@SystemMessage She started behind me touching my naked body seductively with her hands. #DT 
+@SystemMessage She would lean in close to me, often telling me dirty things about her and what she could do to me. #DT 
+@SystemMessage She the came around to the front of me and ran her long legs across my body, making my hard cock even harder. #DT 
+@SystemMessage I was wishing I could just touch my cock, and then she turned around and started to rub her ass on me. #DT 
+@SystemMessage I could barely stand it when she finally turned around and rubbed her covered breasts on my body. #DT 
+@SystemMessage She then pulled back, looked at me and slapped me as hard as she could across the face. #DT
+@SystemMessage With her laughing at me hysterically, she slapped me with her other hand as hard as she could. #DT 
+@SystemMessage She alternated hands until the last one, where she smashed my face together with both hands at once. #DT 
+@SystemMessage She climbed off of me, flicked my hard cock with her finger and told me Happy Birthday. #DT 
+@SystemMessage She then told me she was one more present for me, but I will have to wait until I get my present from Jenn. #DT
+@SystemMessage Jenn came around to the front of me after teasing and humiliating me the entire time I was getting my lap dance. #DT 
+@SystemMessage She ran her fingers across my body, teasing me with her fingers as well. #DT 
+@SystemMessage She also told me she had a present for me and she even wrapped it for me. #DT 
+@SystemMessage She went over and grabbed the box and sat it on my lap. #DT 
+@SystemMessage She said since I can’t open it up, that she would have to do it for me. #DT 
+@SystemMessage She opened up the present while telling me that I am going to love this surprise and that she was working on it all night last night. #DT
+@SystemMessage Finally, she got the wrapping paper off and opened the box. #DT 
+@SystemMessage She pulled out a blue thong and said surprise. #DT 
+@SystemMessage After seeing my puzzled look, she began to explain. #DT 
+@SystemMessage She told me that last night she went out with her black lover and was fucked all night long. #DT 
+@SystemMessage She said that she wore these panties the whole time and that they were just covered in cum, both hers and her lovers. #DT 
+@SystemMessage She told me that she had made this present just for me and told me open my mouth. #DT 
+@SystemMessage She ran the crotch of across my lips and then told me to stick out my tongue. #DT 
+@SystemMessage After running the crotch over my tongue as well, she shoved the thong in my mouth the whole way and told me to start tasting the cum. #DT 
+@SystemMessage She took her whip and starting slapping my cock, humiliating me that I was sucking her and her lover’s cum straight from her dirty thong. #DT
+@SystemMessage Tabby then walked up to me and told Jenn to grab the back of the chair. #DT 
+@SystemMessage They both pushed me to my back, still tied to the chair. #DT 
+@SystemMessage Tabby then came over top of me and took her bare feet and started to rub them across my face. #DT 
+@SystemMessage She told me how sweaty they were and how they have been in her nasty shoes all day long. #DT 
+@SystemMessage After rubbing her feet all over my face, she sat her perfect ass on top of my face with her thong still on. #DT 
+@SystemMessage She told me that even though it was my birthday, I didn’t do anything yet to deserve to see or taste her pussy yet. #DT 
+@SystemMessage She was sitting on me reverse cowgirl style,  #DT
+@SystemMessage so her pussy was keeping the thong stuffed in my mouth while my nose was shoved up her perfect asshole with the thong in my way. #DT 
+@SystemMessage When looking up, all I saw was her long hair flowing down her tanned back. #DT 
+@SystemMessage After a few minutes sitting this way, she reversed herself and placed her covered pussy right on top of my nose and told me to smell what I can’t have. #DT 
+@SystemMessage Jenn came over and started to slap my cock with her whip since it was rock hard. #DT
+@SystemMessage After about 15 minutes of smelling the beautiful Tabby, she got off and Jenn placed her ass on top of my face, my nose straight into her asshole as well. #DT 
+@SystemMessage Tabby said that she was going to get her last present for me and that this one was a really great one. #DT 
+@SystemMessage After a few minutes, Jenn got off of my face and her and Tabby pulled me back into the upright position. #DT 
+@SystemMessage She then picked up a small box on the ground and told me this was my final present. #DT 
+@SystemMessage She opened up the box and inside was two condoms that were tied at the ends. #DT 
+@SystemMessage I had no clue what was going on but didn’t like the site of it. #DT
+@SystemMessage Tabby told me that Jenn wasn’t the only one busy last night, as she had two guys fucking her. #DT 
+@SystemMessage She told me that they had cum in her pussy that I was smelling but they also used condoms, just for this purpose. #DT 
+@SystemMessage She took the first condom out of the box and Mistress Jenn grabbed a pair of scissors. #DT 
+@SystemMessage Goddess Tabby held the condom above my mouth and told me to open my mouth. #DT
+@SystemMessage Mistress Jenn cut the tip off of the condom and Tabby then squirted the entire load of cum into my mouth. #DT 
+@SystemMessage Not slowing down, she grabbed the next condom and did the same thing, forcing all of the cum down my throat. #DT 
+@SystemMessage I started gagging and coughing on all the cum, which just made the two dominant women laugh out loud even more then ever. #DT 
+@SystemMessage Tabby then took both condoms and shoved them in my mouth and told me to chew on them like gum. #DT 
+@SystemMessage I obeyed and started to chew on them, sucking out the bits of cum I missed. #DT
+@SystemMessage After a few minutes of chewing and humiliation, Jenn came over and removed the condoms from my mouth. #DT 
+@SystemMessage She told me she had one last present for me. #DT 
+@SystemMessage She made me get on all fours and told me to look straight ahead, not down at the floor. #DT 
+@SystemMessage She then also got on all fours and backed her luscious ass to my face. #DT 
+@SystemMessage Moving her thong to the side, she shoved her asshole at my mouth and told me to start licking. #DT 
+@SystemMessage I started licking her asshole, making sure to do the best job possible to please my Mistress. #DT 
+@SystemMessage I licked hard and tried to get my tongue in her asshole to pleasure her. #DT
+@SystemMessage Then, Goddess Tabby told me that she was going to milk my cock dry, which made me excited that I was going to get an orgasm. #DT 
+@SystemMessage She got behind me and started stroking my cock very fast with lots of lotions. #DT 
+@SystemMessage I continued to lick Mistress Jenn but Tabby was teasing and stroking me very fast. #DT 
+@SystemMessage I could not hold it any longer and I released a very nice size load of cum, since I haven’t cum in so long. #DT 
+@SystemMessage Mistress Jenn got off my face as Tabby came around and told me she had one more surprise. #DT 
+@SystemMessage She had caught all of my cum on a plate and now I was going to eat it. #DT 
+@SystemMessage Tabby then sat on my back and pushed my face down to the plate, making sure I ate every drop. #DT 
+@SystemMessage Mistress Jenn went to the back of me while I was licking the cum off the plate and locked my puny cock back in its cage. #DT @Goto(EndStory)
+(12)
+Time to begin a new story! #DT
+@SystemMessage My wife wasn't interested in "kink" when we were first met. #DT 
+@SystemMessage She was actually quite prudish when we married, but that was due to not having a lot of experience. #DT 
+@SystemMessage That changed as she and I started discovering what turned each other on. #DT 
+@SystemMessage It became apparent that under her reserved very dominant. #DT 
+@SystemMessage She had learned early in our marriage that that I would become very cooperative when she withheld sex from me. #DT 
+@SystemMessage She used her power over me to get me to do almost anything she wanted. #DT 
+@SystemMessage By the time we where married for a couple of years she had me in a chastity belt and had taken a lover. #DT
+@SystemMessage My wife is a creative dominant. #DT 
+@SystemMessage She puts a lot of effort into coming up with new punishments. #DT 
+@SystemMessage She will think one up and let me know that she's designing something new for me. #DT 
+@SystemMessage "Just wait, Timothy," she will say, "The next time you're going to be really surprised. #DT"
+@SystemMessage The next time was right after my wife had gone on a "fuck date," with her lover. #DT 
+@SystemMessage I had been waiting for my wife to return from her date. #DT 
+@SystemMessage I can't sleep when she's out and I know that she's being fucked silly. #DT 
+@SystemMessage I'm in blissful torment when she's away. #DT 
+@SystemMessage Finally, about twelve-thirty I heard her car drive up and the car door shut. #DT 
+@SystemMessage In a few minutes she was in the house and sat down next to me on the couch. #DT 
+@SystemMessage She had that "just fucked," grin on her face, but instead of being half exhausted like usually she seemed energized by her experiences that night. #DT
+@SystemMessage "How was it?" I asked
+@SystemMessage "Wonderful. Paul fucked me like a madman. #DT" 
+@SystemMessage She leaned over and kissed me on the cheek. #DT 
+@SystemMessage "It's a pity that you can't do me like he does. #DT" 
+@SystemMessage She leaned over and placed her head on my shoulder. #DT 
+@SystemMessage "There are other things that you're so good at, though. #DT" 
+@SystemMessage She cuddled with me a little while. #DT 
+@SystemMessage After a little while she said, "I'm feeling in the mood for a `punishment session. #DT'" 
+@SystemMessage She added that she had worked up something special. #DT
+@SystemMessage She then reached down between my legs and when I didn't move quickly enough to spread my legs she semi-scolded me in her best momma-knows-best voice. #DT 
+@SystemMessage "Now, Timothy, you know I have to check you down there to make sure that you haven't been tampering with anything. #DT" 
+@SystemMessage She felt me through my pants to make sure that my chastity device was still on. #DT 
+@SystemMessage "Everything seems in place, but go ahead and drop your pants. #DT 
+@SystemMessage I want to have a better look. #DT"
+@SystemMessage I stood up and faced her then unbuckled my pants and pulled down my pants and shorts. #DT 
+@SystemMessage Hanna stopped me and told me to stand with my hands in back of me. #DT
+@SystemMessage "Lets, see," she said as she reached up and tugged on the cage and checked the lock that poked out from the top. #DT 
+@SystemMessage "Everything seems in order. #DT"
+@SystemMessage I reached down to pull my trousers up, but she stopped me. #DT 
+@SystemMessage "No. I'm not tired of playing yet, so leave them down. #DT" 
+@SystemMessage It wasn't my time for my weekly release, but sometimes Hanna allowed me an extra come every once in awhile if I had been particularly good. #DT 
+@SystemMessage And for the last week I had been very good cleaning the house, making sure that dinner was ready on time and making sure that I didn't say anything that could be construed wrongly. #DT 
+@SystemMessage I had tried to be perfect. #DT
+@SystemMessage She reached up and started fondling my testes while looking up at me. #DT 
+@SystemMessage She smiled in that way that I know means, "I'm in control of you. #DT" 
+@SystemMessage Even though I had been her slave for ten years and she was a cruel and strict mistress I still loved her as much as I did the day we married. #DT
+@SystemMessage "Turn around. " That could me only one thing. #DT 
+@SystemMessage I did as she told me and in a few seconds the handcuffs she carries with her everywhere were on my wrists. #DT 
+@SystemMessage Silently, she turned me around. #DT 
+@SystemMessage Then she directed me to lie down on the couch. #DT
+@SystemMessage "I think you know the next part. #DT" 
+@SystemMessage Hanna then slipped off her panties and straddled my face. #DT 
+@SystemMessage "And I want a particularly good effort tonight. #DT 
+@SystemMessage If you do well I might let you have something special. #DT"
+@SystemMessage As I started licking her I could taster her salty, slightly acidic flavor. #DT 
+@SystemMessage I started just the way she liked and had directed me to do on so many prior trainings. #DT 
+@SystemMessage I had learned well and in a few moments she was moaning. "That's my good little slave, mmmm, that's good. #DT" 
+@SystemMessage I kept up my attack on her twat making her juices run down my face. #DT
+@SystemMessage She was soon grinding herself on me, her movements matching mine until she reached her peak and exploded. #DT 
+@SystemMessage After she had come, probably for the fifth or six time that night she slid down off of my face and down my body till her face was next to mine. #DT 
+@SystemMessage She nuzzled with me for a little while and recovered from her exertions. #DT
+@SystemMessage "My, that was good. " She gave me a long soulful kiss. #DT 
+@SystemMessage "But if you think that's good enough to give your poor cum filled ball some relief you're sorely mistaken. #DT 
+@SystemMessage You have to do much better. #DT" 
+@SystemMessage She pulled me up and led me to the bedroom. #DT 
+@SystemMessage As she was walking me to our room she said that it had been awhile since she has given me a lesson on who's in charge. #DT 
+@SystemMessage "I think it's time to reinforce my dominance over you, Timothy. #DT 
+@SystemMessage I know that you're my slave, pet, whatever I want really and you do that very well. #DT" 
+@SystemMessage She stopped and gave me another kiss. #DT 
+@SystemMessage "But you need reminding ever now and then, even if you are obedient and submissive. #DT" 
+@SystemMessage She grinned at me again. "And tonight is that night. #DT"
+@SystemMessage She took off my handcuffs and had me undress. #DT 
+@SystemMessage Afterwards she had me lay down on our four-post bed. #DT 
+@SystemMessage In a few minutes my hands and feet were tied together and then in turn tied to the two posts at the head. #DT 
+@SystemMessage "I'm going to use the leg spreaders tonight, because I want those lovely balls of yours hanging out and down. #DT 
+@SystemMessage I have business with them tonight. #DT" 
+@SystemMessage So, after she placed the leg spreaders on me, my legs were open and my balls and my caged cock were sitting right were Hanna could get to them. #DT 
+@SystemMessage And I couldn't protect them because I couldn't close my legs! 
+@SystemMessage Even though Hanna had done this to me before, I couldn't help but think tonight would be a more intense "training session. #DT"
+@SystemMessage Hanna placed a couple of pillows under my head. #DT 
+@SystemMessage "I want you to see what's going on, Timothy. #DT 
+@SystemMessage I want you to see because. " She let her thought trail off there. #DT
+@SystemMessage My wife didn't undress; instead she kneeled down on the bed and unlocked my cage where my poor confined cock had been suffering since just before she went out on her date. #DT 
+@SystemMessage "There, that's better isn't it?" Hanna wrapped her hand around my member and started to slowly pumping. #DT 
+@SystemMessage All I could do is vigorously nod. #DT 
+@SystemMessage "Poor boy," Hanna said with mock sympathy. #DT 
+@SystemMessage She kept pumping me until I was rock hard and my cock was tingling. #DT
+@SystemMessage With her other hand she reached down and manipulated my balls. #DT 
+@SystemMessage "You need some serious discipline tonight, Timothy. #DT" 
+@SystemMessage She flicked her middle finger and connected with my right nut. #DT 
+@SystemMessage I wasn't expecting this and jumped. "That got your attention?" I said to my Mistress it did. #DT 
+@SystemMessage "Good." She continued to stroke me. #DT 
+@SystemMessage Just as I was rising towards that first moment when you know its possible to cum Hanna stopped and flicked my right nut again and stopped. #DT
+@SystemMessage "I like it when you listen to me, Timothy. #DT"
+@SystemMessage She rose up and then walked over to her dresser. #DT 
+@SystemMessage She pulled out some equipment that I hadn't seen before and returned. #DT 
+@SystemMessage "Do you know what these are?" No, I said. #DT 
+@SystemMessage "Well, they are `ball separators. #DT' 
+@SystemMessage The name pretty much says what they do. #DT" She explained to me how they worked as she put them on. #DT 
+@SystemMessage "You get the little nut away from the body, then you open the little device and put it on. #DT 
+@SystemMessage And viola! The nut is a nice little package to be played with. #DT" @Goto(EndPart)
+(13)
+The last time I shared this story #DT
+The slave's balls had just been tied up and separated #GNMGrin #DT 
+@SystemMessage She fondled each of my balls. #DT 
+@SystemMessage Now that they were forced into little sacks Hanna easily toyed with them. #DT 
+@SystemMessage She firmly held each and gave them a little squeeze that got my attention. #DT 
+@SystemMessage "See I can access them a lot more easily." She continued to prove this by gripping the nuts solidly in between her thumb and her fore finger and repeating the squeezing. #DT
+@SystemMessage "Oh, I like this." Without any delay she put the other ball spreader on. #DT 
+@SystemMessage "Those look so nice I might keep them on permanently. #DT What do you think?"
+@SystemMessage "Please, no, Hanna. #DT" 
+@SystemMessage Her manipulations were just on the edge of painful and my mind was concentrated on my poor nuts. #DT 
+@SystemMessage I had forgotten to use, "Mistress. #DT" 
+@SystemMessage Hanna corrected me with a simultaneous thump to each nut. #DT
+@SystemMessage "You need to be reminding that you call me Mistress. #DT" 
+@SystemMessage She rose up from the bed and went into the study. #DT 
+@SystemMessage As she left she said, "And I have just the lesson for you. #DT" 
+@SystemMessage When she returned she had two pencils. When she put them in her mouth I wondered what she was up to, but is was only to free up her hands to undress. #DT 
+@SystemMessage As I watched her slip out of her dress and bra my member got stiff and I remembered why I became my wife's slave - she is so beautiful. #DT 
+@SystemMessage After she was done she sat cross-legged in front on me and took the pencils out of her mouth. #DT
+@SystemMessage "Now, lets start the lesson. #DT" 
+@SystemMessage She ran her hand over the inside of my legs and over my cock and restrained balls. #DT 
+@SystemMessage She also felt my ass and stomach. #DT 
+@SystemMessage I was so hot and bothered - my cock bounced in anticipation of the direct simulation that wasn't coming. #DT
+@SystemMessage "Please, Mistress." Hanna wrapped her long fingers around my member and slowly pulled on me. #DT 
+@SystemMessage She is an expert with those wonderful fingers. #DT 
+@SystemMessage She knows just what will drive me crazy. #DT
+@SystemMessage "See, when you are good, good things happen. #DT" 
+@SystemMessage She picked up the pace and I closed my eyes. #DT 
+@SystemMessage I tried to buck a little to get more friction and that's when the pencil whacked down on my restrained left nut. #DT
+@SystemMessage "You don't take your eyes off the teacher do you? 
+@SystemMessage I think not, Timothy." She smiled, but didn't stop her stroking but it was slower than before. #DT
+@SystemMessage "Now, you know the rules, so I want you to say them, out loud and I don't want any mistakes or you'll be punished. #DT" 
+@SystemMessage She whipped me hard for a few strokes and then settled down into her teasing. #DT 
+@SystemMessage "What's the first rule?"
+@SystemMessage "To obey my Mistress at all times. #DT" 
+@SystemMessage Mistress prompted me for the second rule. #DT 
+@SystemMessage "To not be jealous of Mistress' other men. #DT" 
+@SystemMessage She prompted me again. #DT 
+@SystemMessage "My cock, my body, and all I have belong to Mistress. #DT"
+@SystemMessage "Very good, but there's one I want to add. #DT 
+@SystemMessage I want these lovely little eggs, too," Hanna said as she tapped the pencil against my nuts. #DT 
+@SystemMessage "Tell me that your balls belong to me. #DT"
+@SystemMessage "Mistress, you own my nuts. #DT"
+@SystemMessage "Really! Well, I think I'm going to teach these little balls a lesson, just to make sure that that obey me in the future. #DT 
+@SystemMessage "They won't mind that. #DT 
+@SystemMessage After all they are mine now. #DT" 
+@SystemMessage Hanna arranged herself and then took the pencils, one in each hand. #DT 
+@SystemMessage "Look, Timothy, while I give these nuts a little lesson. #DT"
+@SystemMessage She then started slowly drumming on my nuts. #DT 
+@SystemMessage Slowly and softly. #DT 
+@SystemMessage I didn't feel anything at first but then he tapping got quicker and harder. #DT 
+@SystemMessage "How's that? Good? I don't think they've learned their lesson," Hanna pronounced. #DT 
+@SystemMessage "They need a little more." She then vigorously tapped on the nuts. #DT 
+@SystemMessage She was attacking one, then the other making sure that she was hitting all over the nut. #DT 
+@SystemMessage I was trying to keep still. #DT 
+@SystemMessage I thought that she was going to stop, but she kept on for what seemed an eternity. #DT 
+@SystemMessage Her tapping continued and when I started moving my hips, not from pleasure but pain she told me to stop. #DT 
+@SystemMessage "Stop that, I'm in the middle of a lesson, Timothy! Only a few more seconds!" 
+@SystemMessage She started to count backwards from ten, "Ten, nine, eight, seven, six. five. four.... three......two."
+@SystemMessage Hanna slowly took a breath all the time drumming the pencils over my nuts. #DT 
+@SystemMessage She made sure to hit all the surfaced a couple times and then finally slowly said, "Onnnnnnnneeeee!" She then stopped. #DT
+@SystemMessage "I think that I taught them a lesson. #DT 
+@SystemMessage So they now know that if they disobey that they will be thoroughly punished. #DT"
+@SystemMessage She then bent down and then, in turn, took each one gently into her mouth and sucked on the battered nut. #DT 
+@SystemMessage After she was done she looked up at me and said that since they had suffered so well, it was time for them to be rewarded. #DT 
+@SystemMessage She untied my legs from the two posts at the head of the bed and reattached them to the posts at the foot of the bed. #DT 
+@SystemMessage Once I was comfortable spread eagled she asked me, "Are you up for a ride?"
+@SystemMessage "Yes, Mistress!" I answered enthusiastically. #DT
+@SystemMessage "I am too." She bent down and kissed me and then mounted my cock. #DT 
+@SystemMessage It had been a couple of months since she had allowed me inside that warm welcoming twat. #DT 
+@SystemMessage "But I don't want you to come too soon, so we're going to do this nice and slow. #DT" 
+@SystemMessage She leaned down and kissed me passionately, tonguing my mouth as she slowly rose and slipped down over my cock. #DT
+@SystemMessage "Stay still," she warned. #DT 
+@SystemMessage "If you come and ruin it for me, Timothy, I'll just have to punish you so don't come. #DT" 
+@SystemMessage She grabbed my hair with her right hand a moved her face down to mine. #DT 
+@SystemMessage "You don't want those sore little balls of your tortured anymore, do you?" 
+@SystemMessage She warned that if I shot before she was finished she was going to make my testicals pay a "terrible price. #DT"
+@SystemMessage Hanna rode me slowly and I tried to prevent myself from shooting in her. #DT 
+@SystemMessage It was so hard because I hadn't spunked for so long and especially inside of her. #DT 
+@SystemMessage After a few minutes she started to move faster and buck. #DT
+@SystemMessage She was going to come. #DT 
+@SystemMessage I tried to think of something else, cleaning the bathroom, mowing the lawn, anything so I wouldn't spunk before her. #DT 
+@SystemMessage Hanna leaned back, gripping my thighs and started to moan. #DT 
+@SystemMessage She was only moments away. #DT 
+@SystemMessage She then started whinnying and then I new that I had made it. #DT 
+@SystemMessage She leaned forward and started grinding herself into me. #DT "Okay, you can come. #DT" I thrusted up and Hanna moved down on me just enough that I came. #DT
+@SystemMessage Hanna slid off of me and kneeled between my legs. #DT She fondled my nuts that were still aching in their restrains. #DT 
+@SystemMessage "That was good. I don't think I'll punish these little guys anymore. #DT 
+@SystemMessage Well, at least for a couple of days. #DT" 
+@SystemMessage She undid the bands that held them away from my body. #DT" 
+@SystemMessage But this, she held up my chastity belt has to go on and stay on for a long time, because you're not going to fuck me for a long while. #DT"
+@SystemMessage And she has been true to her word. #DT @Goto(EndStory)
+
+(14)
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+(26)
+
+(27)
+
+(28)
+
+(29)
+
+(30)
+
+(31)
+
+(32)
+
+(33)
+
+(34)
+
+(35)
+
+(36)
+
+(37)
+
+(38)
+
+(39)
+
+(40)
+
+(41)
+
+(42)
+
+(43)
+
+(44)
+
+(45)
+
+(46)
+
+(47)
+
+(48)
+
+(49)
+
+(50)
+
+(EndStory)
+@NullResponse @UnlockImages
+That was the end of that story! #DT
+Next time I'll have a new one for you #DT
+@End
+(EndPart)
+@NullResponse @UnlockImages
+That was it for today #DT
+We'll continue the story next time #DT
+@End

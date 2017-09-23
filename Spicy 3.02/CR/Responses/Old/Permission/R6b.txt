@@ -1,0 +1,23 @@
+@NullResponse @CheckFlag(ForgotPlease)
+@NullResponse @RapidCodeOn @ChangeVar[R6b]=[R6b]+[1] @CheckFlag(R6bFirst) 
+@NullResponse @SetVar[R6b]=[1] @TempFlag(R6bFirst)
+(R7aFirst)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @Goto(Pleased,Annoyed)
+(ForgotPlease)
+@RT(No you may not,Not right now,No stay standing,No chairs are for welbehaved slaves,no you can stand up) #DT
+@RT(Next time you might remember to say please,Remember to say please next time,You can stand up since you forgot to say please..) #DT
+@End
+(VPleased)
+(Pleased)
+@RT(Yes you may sit down,Yes go ahead #SlaveName and take a seat,Yes you may sit down,Go ahead and sit down) #DT
+@End
+(VAnnoyed)
+(Annoyed)
+@RT(No you may not,Not right now,No stay standing,No chairs are for welbehaved slaves,no you can stand up) #DT
+@End
+(End)
+@End

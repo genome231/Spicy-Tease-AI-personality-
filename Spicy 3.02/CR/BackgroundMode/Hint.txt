@@ -1,0 +1,9 @@
+@SystemMessage #VANC #VANP Here are the different commands you can use
+@SystemMessage #VANC #VANP Session
+@SystemMessage #VANC #VANP Chores
+@SystemMessage #VANC #VANP Dungeon
+@SystemMessage #VANC #VANP Settings
+@SystemMessage #VANC #VANP Confess
+@SystemMessage #VANC #VANP Shop
+@SystemMessage #VANC #VANP Rules
+@End

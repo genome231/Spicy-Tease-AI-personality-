@@ -1,0 +1,35 @@
+@Flag(CumRequest)
+@NullResponse @CheckFlag(Assistant)
+@NullResponse @CheckFlag(SessionEnd)
+@NullResponse @CheckFlag(Session)
+@NullResponse @CheckFlag(Academy)
+@End
+(SessionEnd)
+@SystemMessage #VANC #VANP What kind of question is that?
+@SystemMessage #VANC #VANP Ofcourse not! #MeritChangeNHigh @Goto(End)
+(Session)
+@SystemMessage #VANC #VANP What kind of question is that? 
+@SystemMessage #VANC #VANP Ofcourse not! #MeritChangeNHigh @Goto(End)
+(Academy)
+@SystemMessage #VANC #VANP What kind of question is that?
+@SystemMessage #VANC #VANP Ofcourse not! #MeritChangeNHigh @Goto(End)
+(Assistant)
+@SystemMessage #VANC #VANP What kind of question is that?
+@SystemMessage #VANC #VANP Ofcourse not! #MeritChangeNHigh @Goto(End)
+(CumRequest)
+
+
+(End)
+@End
+
+
+(VPleased)
+(Pleased)
+(Neutral)
+(Annoyed)
+(VAnnoyed)
+[Happy]
+[Lust]
+[Angry]
+@SetDate(Spoken, 0 Minutes)
+@Variable[#DateDifference(Speak, Seconds)]<=[40]

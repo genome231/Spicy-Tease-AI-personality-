@@ -1,0 +1,17 @@
+@NullResponse @CheckFlag(ParachuteOn)
+@NullResponse @CheckFlag(GNMToyParachute)
+@End
+(GNMToyParachute)
+#Fetch parachute and put it on #DT
+@Variable[SubPainTolerance]>=[10] Apply @RT(2,2.5,3) kg's to it #DT @Wait(20) @Goto(Ready)
+@Variable[SubPainTolerance]>=[7] Apply @RT(1.5,2,2.5) kg's to it #DT @Wait(20) @Goto(Ready)
+@Variable[SubPainTolerance]>=[4] Apply @RT(1,1.5,2) kg's to it #DT @Wait(20) @Goto(Ready)
+@Variable[SubPainTolerance]>=[1] Apply @RT(0.5,1,1.5) kg's to it #DT @Wait(20) @Goto(Ready)
+(Ready)
+Are you ready to proceed? @TempFlag(ParachuteOn) #DT
+[yes]#GNMGood #DT
+[no]Hurry up then! #DT #MeritChangeNLow @Wait(30)
+@AcceptAnswer Proceeding then #DT
+@End
+(ParachuteOn)
+@End

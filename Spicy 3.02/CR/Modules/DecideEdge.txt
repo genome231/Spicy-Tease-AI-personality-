@@ -1,0 +1,82 @@
+@NullResponse @CheckFlag(Edged)
+@End
+(Edged)
+@NullResponse @RapidCodeOn
+@NullResponse @DeleteFlag(Edged)
+@NullResponse @CheckFlag(NoStrokeEdge)
+@NullResponse @CheckFlag(MaybeStrokeEdge)
+@NullResponse @CheckFlag(YesStrokeEdge)
+(YesStrokeEdge)
+@NullResponse @DeleteFlag(YesStrokeEdge)
+@End
+(NoStrokeEdge)
+@NullResponse @DeleteFlag(NoStrokeEdge)
+@RT(You well know that unathorized edging is not allowed,You and I both know that you cant edge without permission,I dont like unathorized edging..) #DT #MeritChangeNMedium
+@RT(I have assigned you punishment points..,I have given you punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@End
+(MaybeStrokeEdge)
+@NullResponse @DeleteFlag(MaybeStrokeEdge)
+@RT(So,Well well,Hmm,#GNMGrin) @RT(#SlaveName,#SubName,Slave,Slave,Slave) #DT
+@RT(Edging are we?,So you just edged!,You did an edge,You just had an edge) #DT
+@RT(Did I give you permission to edge?,Did I say you could edge?,Did I specifically said you could edge?) #DT
+[yes] @RT(Oh I did?,Oh wauv I did!?,Thats not how I remember it..) #DT @Goto(Bad1)
+[no] @RT(Then you might care to explain why you edged?,Then explain to me why to edged?) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Hmm?,Well?,So?) #DT
+[low stamina,no endurance,lack of stamina,lack of endurance] @RT(You're pathetic #GNMCock,So weak!,I'm not sure why I bother with you..) #DT
+[too fast,stroking too fast,stroked to fast,fast stroking] @RT(Well to bad,I dont really care..,Not my problem) #DT @Goto(TooFast)
+[i'm weak,i am weak] @RT(You sure have a point!,Well I suppose thats true,Well I guess I'm not surprised..) #DT @Goto(TooWeak)
+[accident,i really tried] @RT(Trying??,Really? You're trying?,#GNMLol) #DT @Goto(Trying)
+[i have no excuse,sorry,didn't mean to] ... #DT @Goto(Bad1)
+@AcceptAnswer @RT(You know I hate excuses,I'm not a big fan of excuses,You can do better!) #DT #MeritChangeNLow @Goto(Edging)
+@RT(I expect a lot more from you slave..,I hope you'll be doing better next time..) #DT @Goto(Edging)
+@End
+(Edging)
+@RT(#GNMGrin,#GNMLol) #DT
+@RT(Since you <i>enjoy</i> edging,Since you enjoy it soo much,Since you seem to like it) #DT
+@RT(Then lets make you edge a LOT more,Then I suppose you better do a bit more edging!) #DT @SetVar[EdgesToDo]=[0]
+@Variable[SubEndurance]>[10] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(10,20)] @Goto(Edging2)
+@Variable[SubEndurance]>[9] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(9,18)] @Goto(Edging2)
+@Variable[SubEndurance]>[8] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(8,16)] @Goto(Edging2)
+@Variable[SubEndurance]>[7] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(7,14)] @Goto(Edging2)
+@Variable[SubEndurance]>[6] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(6,12)] @Goto(Edging2)
+@Variable[SubEndurance]>[5] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(5,10)] @Goto(Edging2)
+@Variable[SubEndurance]>[4] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(4,8)] @Goto(Edging2)
+@Variable[SubEndurance]>[3] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(3,6)] @Goto(Edging2)
+@Variable[SubEndurance]>[2] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(2,4)] @Goto(Edging2)
+@Variable[SubEndurance]>=[1] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(1,2)] @Goto(Edging2)
+(Edging2)
+@RT(This is rather simple..,This is gonna be simple) #DT
+@RT(You'll edge,You're gonna edge,You will do edges for me) #DT
+@RT(When I'm satisfied,When I'm content,When I'm pleased) #DT
+@RT(We'll move on to something else,We're gonna do something else..) #DT
+(Edging3)
+@NullResponse @If[EdgesToDo]<=[0]Then(End)
+#GNMEdge @Edge @ShowImage
+#GNMLetTheEdgeFade #DT @Wait(#Random(3,10)) @ChangeVar[EdgesToDo]=[EdgesToDo]-[1] @Goto(Edging3)
+(End)
+@RT(I think you've had enough..,I'm happy) #SlaveName #DT
+@RT(Time to continue,Time for something else..,Lets try something else..) #DT
+@End
+(Bad1)
+@RT(You know I hate it when you break the rules,You know I dont like rules breakers,I expect you to do as commanded) #DT #MeritChangeNLow
+@RT(I'm assigning you a few punishment points,So I'm rewarding you with punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@End
+(Trying)
+@RT(Do I look like I care if you try,I couldn't care less..,Trying isn't what I was looking for) #DT #MeritChangeNLow
+@RT(Trying doesn't get rewarded,You shouldn't expect mercy based on trying..) #DT
+@RT(I command success,I require obedience,I demand respect) #DT
+@RT(When I say jump you jump,When I say something you do it..) #DT
+@RT(Even if that requires you to chop off your #GNMBalls,Even if that is permanent chastity..) #DT
+... #DT
+@End
+(TooFast)
+@RT(Whenever I set the pace you better keep it!,You are expected to handle stroking much faster for much longer,I require my slaves to handle fast intense stroking!) #DT #MeritChangeNLow
+@RT(Even if you've been locked up for weeks!,Even if you've been locked for weeks!..,Even if I have been denying you for years!) #DT
+@RT(Rememeber that!,You best remember that..,You really should try to remember that!) #DT
+@End
+(TooWeak)
+@Variable[Angry]>[23] @NullResponse #MeritChangeNLow
+@RT(But even if you're too weak,But even though you're weak,Despite your weakness) #DT #MeritChangeNLow
+@RT(I still expect you to last,I still demand that you stay on pace without edging,I'm not allowing you to edge..) #DT
+@End

@@ -1,0 +1,126 @@
+#SlaveName #DT
+@RT(There is nothing more empowering,I cant imagine anything that satifies me more,There is nothing that gets me more wet) #DT
+Than @RT(watching a man pleasure another man against his will,watching a man give a blowjob despite his will,watching you pleasure a man against your will) #GNMLol #DT
+Forced into an act of homosexuality you might call it! #DT
+@RT(Well since you dont have anyone there with you,Since you're alone,Because you're alone) #DT
+@RT(We're gonna have to do it a bit differently,This is gonna be done a bit differently) #DT
+#GNMLol #DT
+I'm gonna slide through images fast #DT
+You'll say stop when you feel like it #DT
+@Flag(HumiliationUpdate3) I'm gonna draw from your "gay images", "Lesbian", "Boobs", "Butts" and "Lezdom" images #DT
+@NotFlag(HumiliationUpdate3) I'm gonna draw from your "gay images", "Butts" and "Lezdom" images #DT 
+Gay image = edge #DT
+@Flag(HumiliationUpdate3) Lesbian = 100 super slow strokes #DT 
+@Flag(HumiliationUpdate3) Boobs = 20 very fast strokes #DT
+Butts = a small pause #DT
+Lezdom = add a peg to anywhere on your body #DT @SetVar[HumModule5Gay]=[0]
+Now there a few extra rules depending on how many pictures of each you've landed on #DT @SetVar[HumModule5Lesbian]=[0]
+7 gay images = orgasm to a picture of a dick #DT @SetVar[HumModule5Boobs]=[0]
+@Flag(HumiliationUpdate3) 3 lesbian images = 4 edges in a row #DT @SetVar[HumModule5Butts]=[0]
+@Flag(HumiliationUpdate3) 5 boobs pictures = 100 gold #DT @SetVar[HumModule5Lezdom]=[0]
+5 butts images = the game ends #DT
+@Flag(HasChastity) 7 lezdom pictures = 2 days in chastity and the game ends #DT
+@NotFlag(HasChastity) 7 lezdom pictures = 2 days of complete denial and the game ends #DT
+#GNMLol #DT
+Let the game begin! #DT @TempFlag(Busy)
+(StartRound)
+@Flag(HumiliationUpdate3) @NullResponse @RapidCodeOn @LockImages @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+@NullResponse @RapidCodeOn @LockImages @Goto(Butts,Lezdom,Gay)
+(Lesbian)
+@Flag(HumiliationUpdate3) @NullResponse @CustomMode(stop, Goto, LesbianStop) @ShowLesbianImage @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+(Butts)
+@Flag(HumiliationUpdate3) @NullResponse @CustomMode(stop, Goto, ButtsStop) @ShowButtImage @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+@NullResponse @CustomMode(stop, Goto, ButtsStop) @ShowButtImage @Goto(Butts,Lezdom,Gay)
+(Boobs)
+@Flag(HumiliationUpdate3) @NullResponse @CustomMode(stop, Goto, BoobsStop) @ShowBoobsImage @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+(Lezdom)
+@Flag(HumiliationUpdate3) @NullResponse @CustomMode(stop, Goto, LezdomStop) @ShowLezdomImage @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+@NullResponse @CustomMode(stop, Goto, LezdomStop) @ShowLezdomImage @Goto(Butts,Lezdom,Gay)
+(Gay)
+@Flag(HumiliationUpdate3) @NullResponse @CustomMode(stop, Goto, GayStop) @ShowGayImage @Goto(Lesbian,Boobs,Butts,Lezdom,Gay)
+@NullResponse @CustomMode(stop, Goto, GayStop) @ShowGayImage @Goto(Butts,Lezdom,Gay)
+(LesbianStop) 100 slow strokes
+@NullResponse @ShowLesbianImage @RapidCodeOff @ChangeVar[HumModule5Lesbian]=[HumModule5Lesbian]+[1] @If[HumModule5Lesbian]>=[3]Then(LesbianStop2)
+100 slow strokes!
+@NullResponse @PlayAudio[\GNMSounds\Stroking\MetronomeNumber\100SlowStrokes.mp3] @Wait(150)
+@NullResponse @Goto(StartRound)
+(LesbianStop2) 10 edges
+Oh my! @SetVar[HumModule5Lesbian]=[0] @RapidCodeOff
+It's time for some edging!
+4 edges actually #GNMGrin
+#GNMEdge @Edge 
+#GNMLetTheEdgeFade @Wait(#Random(2,10))
+#GNMEdge @Edge 
+#GNMLetTheEdgeFade @Wait(#Random(2,10))
+#GNMEdge @Edge 
+#GNMLetTheEdgeFade @Wait(#Random(2,10))
+#GNMEdge @Edge 
+#GNMLetTheEdgeFade @Wait(#Random(2,10))
+@NullResponse @RapidCodeOn @Goto(StartRound)
+(ButtsStop) pause
+@NullResponse @ShowButtImage @RapidCodeOff @ChangeVar[HumModule5Butts]=[HumModule5Butts]+[1] @If[HumModule5Butts]>=[5]Then(ButtsStop2)
+Just relax for a little bit @Wait(#Random(15,30))
+@NullResponse @Goto(StartRound)
+(ButtsStop2) end
+That was the fifth time you hit the butt stop
+Which means this game is at an end
+Be glad you didn't end with denial #GNMLol @Goto(End)
+(BoobsStop) 20 fast strokes
+@NullResponse @ShowBoobsImage @RapidCodeOff @ChangeVar[HumModule5Boobs]=[HumModule5Boobs]+[1] @If[HumModule5Boobs]>=[5]Then(BoobsStop2)
+Time for 20 fast strokes!
+Get ready! @Wait(#Random(3,5))
+@NullResponse @PlayAudio[\GNMSounds\Stroking\MetronomeNumber\20FastStrokes.mp3] @Wait(4)
+@NullResponse @Goto(StartRound)
+(BoobsStop2) 100 gold
+Boobs five times! #GNMGrin @SetVar[HumModule5Boobs]=[0]
+I guess that earns you 100 gold! @ChangeVar[GNMGold]=[GNMGold]+[100]
+The gold has been transfered..
+@NullResponse @Goto(StartRound)
+(LezdomStop) peg
+@NullResponse @ShowLezdomImage @RapidCodeOff @ChangeVar[HumModule5Lezdom]=[HumModule5Lezdom]+[1] @If[HumModule5Lezdom]>=[7]Then(LezdomStop2)
+#SlaveName fetch a peg
+Place it somewhere on your body, it doesn't go anywhere until this game ends!
+@NullResponse @Goto(StartRound)
+(LezdomStop2) chastity
+Oh my oh my! @CheckFlag(HasChastity)
+This game is at an end
+But now you wont be touching that #GNMCock for 2 days! @SetFlag(ChastityIsOn) @ChastityIsOn @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
+#GNMLol
+The look on your face! #GNMEmoteHappy @Goto(End)
+(HasChastity)
+@NullResponse @CallReturn(CR\GNMChastityOnSimple.txt)
+It stays on for 2 days! @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
+Enjoy! @Goto(End)
+(GayStop) edge
+@NullResponse @ShowGayImage @RapidCodeOff @ChangeVar[HumModule5Gay]=[HumModule5Gay]+[1] @If[HumModule5Gay]>=[7]Then(GayStop2)!
+#GNMEdge @Edge 
+#GNMLetTheEdgeFade @Wait(#Random(2,10))
+@NullResponse @Goto(StartRound)
+(GayStop2) orgasm
+Oh my oh my! @DeleteFlag(Busy)
+You actually got to the faboulous ending! #GNMGrin
+I hope you're enjoying the view!
+Because you will orgasming to it! #GNMGrin
+I forbid you from looking away!
+If you were ever mine, the only time you would ever be allowed any release
+Would be with your cock locked, a dick pumping into your mouth and one in your #GNMAss
+You would be so used to cocks that you eventually would start to question wether you might actually be gay
+Pussy, boobs and whatever would simply be a thing of the past
+A faint memory from a time you could barely remember #GNMLol
+Well!
+In a moment you will edge
+You will stare at that image!
+Your eyes are to be locked with the screen!
+Now.. 
+#GNMEdge @Edge
+Cum #SlaveName !!
+Cum!! @Wait(20)
+#GNMGrin
+Little by little I'm tearing you apart!
+Now #SlaveName
+We're stopping here.. @UnlockImages
+Cya! #DT @EndTease
+@End
+(End)
+@NullResponse @DeleteFlag(Busy) @UnlockImages
+@End

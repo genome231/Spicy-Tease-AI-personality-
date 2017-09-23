@@ -1,0 +1,165 @@
+@NullResponse @RapidCodeOn @DeleteFlag(ToySub)
+@NullResponse @DeleteFlag(ToyDomme)
+@NullResponse @DeleteFlag(GNMToyBallCrusher)
+@NullResponse @DeleteFlag(BallCrusherPlay)
+@NullResponse @DeleteFlag(BallCrusherPunishment)
+@NullResponse @DeleteFlag(GNMToyButtPlug)
+@NullResponse @DeleteFlag(ButtPlugPlay)
+@NullResponse @DeleteFlag(ButtPlugPunishment)
+@NullResponse @DeleteFlag(GNMToyDildo)
+@NullResponse @DeleteFlag(DildoPlay)
+@NullResponse @DeleteFlag(DildoPunishment)
+@NullResponse @DeleteFlag(GNMToyElectro)
+@NullResponse @DeleteFlag(ElectroPlay)
+@NullResponse @DeleteFlag(ElectroPunishment)
+@NullResponse @DeleteFlag(GNMToyGag)
+@NullResponse @DeleteFlag(GagPlay)
+@NullResponse @DeleteFlag(GagPunishment)
+@NullResponse @DeleteFlag(GNMToySetupGirlFriend)
+@NullResponse @DeleteFlag(GNMToyLingerieBasic)
+@NullResponse @DeleteFlag(GNMToyLingerieAdvanced)
+@NullResponse @DeleteFlag(GNMToyParachute)
+@NullResponse @DeleteFlag(ParachutePlay)
+@NullResponse @DeleteFlag(ParachutePunishment)
+@NullResponse @DeleteFlag(CollarPlay)
+@NullResponse @DeleteFlag(CollarPunishment)
+@SystemMessage #VANC First I need to know @LockImages @ShowImages[\GNMImages\Settings\Handcuffs.jpg]
+@SystemMessage #VANC How often do you want to use toys during sessions?
+@SystemMessage #VANC Either you can input a custom value or you can let the domme decide
+[custom]@SystemMessage #VANC You decide @SetFlag(ToySub) @Goto(Explain)
+[domme]@SystemMessage #VANC The domme decides @SetFlag(ToyDomme) @Goto(Toy)
+@DifferentAnswer @SystemMessage #VANC Domme decides or custom value
+(Explain)
+@SystemMessage #VANC Now #SlaveName
+@SystemMessage #VANC I need you to follow my instructions carefully
+@SystemMessage #VANC Because since you want to determine the chance of toy usage I need you to access a certain file
+@SystemMessage #VANC Go to where you have Tease-AI placed
+@SystemMessage #VANC Follow this path:
+@SystemMessage #VANC Scripts --> Spicy 3.x --> Vocabulary
+@SystemMessage #VANC Inside vocabulary locate the file named ToyRoll
+@SystemMessage #VANC Be aware that it starts with a hashtag
+@SystemMessage #VANC Now the very first line of this is all you have to change
+@SystemMessage #VANC You will see a number after the Flag
+@SystemMessage #VANC Currently this number is 50
+@SystemMessage #VANC Meaning that everytime the domme wants to use toys there is a 50 chance of it happening
+@SystemMessage #VANC You can change this number to a new number ranging from 0-100
+@SystemMessage #VANC 100 meaning that the domme will use a toy everytime she has a chance
+@SystemMessage #VANC If you choose 0, then the domme will NEVER use toys
+@SystemMessage #VANC Are you done changing the number?
+[yes]@SystemMessage #VANC #GNMGood
+@DifferentAnswer @SystemMessage #VANC Just say 'yes' when you're ready to continue
+(Toy)
+@SystemMessage #VANC Lets do a quick setup of your toys
+@SystemMessage #VANC I'll show you some images of different stuff
+@SystemMessage #VANC You will respond with yes if you have it
+@SystemMessage #VANC You can also say yes if you have something similar that will work fine
+@SystemMessage #VANC Respond with no if you have nothing similar
+@NullResponse @ShowImage[\GNMImages\Toys\BallCrusher.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyBallCrusher)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy2)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(BallCrusherPlay)
+[punishment]@NullResponse @SetFlag(BallCrusherPunishment)
+[both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy2)
+@NullResponse @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyButtPlug)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy3)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ButtPlugPlay)
+[punishment]@NullResponse @SetFlag(ButtPlugPunishment)
+[both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy3)
+@NullResponse @ShowImage[\GNMImages\Toys\Dildo.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyDildo)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy4)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(DildoPlay)
+[punishment]@NullResponse @SetFlag(DildoPunishment)
+[both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy4)
+@NullResponse @ShowImage[\GNMImages\Toys\EStim.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyElectro)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy5)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ElectroPlay)
+[punishment]@NullResponse @SetFlag(ElectroPunishment)
+[both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+@SystemMessage #VANC Tell me what level of shock you considder to be quite painful @InputVar[ElectroPHigh]
+@SystemMessage #VANC Tell me what level of shock you considder to be somehwat @InputVar[ElectroPMedium]
+@SystemMessage #VANC Tell me what level of shock you considder to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
+(Toy5)
+@NullResponse @ShowImage[\GNMImages\Toys\Gag.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyGag)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy6)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(GagPlay)
+[punishment]@NullResponse @SetFlag(GagPunishment) 
+[both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy6)
+@NullResponse @ShowImage[\GNMImages\Toys\Girlfriend.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToySetupGirlFriend)
+[no]@SystemMessage #VANC #GNMEmoteSad
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyLingerieBasic)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy7)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet2.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyLingerieAdvanced)
+[no]@SystemMessage #VANC #GNMEmoteSad
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+(Toy7)
+@NullResponse @ShowImage[\GNMImages\Toys\Parachute.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyParachute)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy8)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ParachutePlay)
+[punishment]@NullResponse @SetFlag(ParachutePunishment)
+[both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy8)
+@NullResponse @ShowImage[\GNMImages\Toys\HotSauce.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyHotSauce)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy9)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(HotSaucePlay)
+[punishment]@NullResponse @SetFlag(HotSaucePunishment)
+[both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy9)
+@NullResponse @ShowImage[\GNMImages\Toys\Vibrator.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyVibrator)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy10)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(VibratorPlay)
+[punishment]@NullResponse @SetFlag(VibratorPunishment)
+[both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy10)
+@SystemMessage #VANC #VANC Do have either of these? @ShowImage[\GNMImages\Toys\Collar.jpg]
+@SystemMessage #VANC #VANC Remember that a belt can also work as a collar @ShowImage[\GNMImages\Toys\Collar.jpg]
+[yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyCollar)
+[no]@SystemMessage #VANC #GNMEmoteSad @Goto(Toy11)
+@DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
+@SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(CollarPlay)
+[punishment]@NullResponse @SetFlag(CollarPunishment)
+[both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
+@DifferentAnswer @SystemMessage #VANC Play, punishment or both?
+(Toy11)
+@NullResponse @UnlockImages
+@End

@@ -1,0 +1,24 @@
+#SlaveName #DT
+@Flag(HasChastity) @RT(I can imagine only a few things that beats watching your sad face,Gosh I love the face you make when in the #Cage,You look so adorable wearing that #Cage) #DT
+@NotFlag(HasChastity) @RT(You're perfect as you are!,You're just perfect!) #DT
+@Flag(HasChastity) @RT(Locked up,That #GNMCock safely stored away,That tiny dick behind bars) #DT
+@RT(Frustrated,Horny,Anxious to touch) #DT
+@RT(Desperate,In agony,Suffering) #DT
+@RT(Ready for manipulation,Ready for my many manipulations,At my feet) #GNMLol #DT
+@RT(Ready for a bit of <i>mind bending</i>,Just waiting for my next commands) #DT
+@NullResponse @If[#ToyRoll]>[#ToyChance]Then(Pegs) @Goto(StartTask)
+(Pegs)
+#Fetch @RT(2,4,6) pegs and attach them to your nipples #GNMGrin #DT @Wait(20) @TempFlag(ChastityModule2)
+(StartTask)
+@NullResponse @WritingTask(#ChastityModule_2)
+@NullResponse @Goto(End1)
+(Failed Writing Task)
+@Variable[#DateDifference(Devotion, Minutes)]>[DevotionSet] @NullResponse @Goto(End2)
+@RT(You can fail as much as you like!,We can repeat this little exercise as much as you want to,I got all day #SlaveName) #DT @Goto(StartTask)
+(End1)
+@Flag(ChastityModule2) @RT(Remove the pegs,Go ahead and remove the pegs,Be quick and remove the pegs) #DT #MeritChangePLow @DeleteFlag(ChastityModule2)
+@End
+(End2)
+@Flag(ChastityModule2) @RT(Remove the pegs,Go ahead and remove the pegs,Be quick and remove the pegs) #DT @DeleteFlag(ChastityModule2)
+@RT(You do realize I have better stuff to do than watching you type all day..,#SlaveName this seems to be dragging out..,Lets not drag this out any further..) #MeritChangeNLow #DT
+@End

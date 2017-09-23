@@ -1,0 +1,32 @@
+(O1) //Normal orgasm, you have X (5-15) minutes, when you hear the bell then return
+@RT(The magical day has come!,The day has finally come!,Oh wauv!) #DT
+@RT(Let me tell you how,Here are the rules..) #DT
+@RT(You'll have between 5 and 15 minutes to cum,You'll be given 5-15 minutes to ejaculate) #DT
+@RT(Exactly how much time I wont tell you,You wont know exactly how much time..) #DT
+@NotFlag(CuckMode) You may use whatever material,slideshow or similar to help you get off.. #DT
+@Flag(CuckMode) @RT(I want you to ejaculate while looking at pictures,You are to watch a video) of cuckold #DT
+@NotFlag(SissyMode) @RT(When you hear the bell I want you to stop if you're still stroking,You will hear a bell when I want you to stop) #DT
+@Flag(SissyMode) Fetch your vibrator #DT @Wait(15) 
+@Flag(SissyMode) @RT(I dont wanna see any stroking or similar!,There wont be any stroking for you #Slut) #DT
+@RT(You may cum only once..,Ofcourse you can only cum once) #DT
+(Understand)
+@RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
+[yes]#GNMGood #DT
+[no]Well then.. #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(The clock is ticking,Tick tock!) @RT(#SlaveName,#SubName) #DT
+Write 'done' when you're done #DT @CustomMode(done, Goto, O1Done) @Wait(#Random(300,1500))
+@RT(Get back here and stop stimulating yourself!,Stop all stimulation right now!) #DT @CustomMode(ModeText, Normal) @PlayAudio[\GNMSounds\Stroking\StopStroking\StopStroking.mp3]
+@RT(I hope you made it,I do hope you made it..) #DT
+@RT(If not then there's always next time,If not well then next time..) @RT(#GNMGrin,#GNMMoan) #DT
+Did you cum? #DT
+[yes] @RT(Good for you!,Thats good for you!,I hope you're happy then!) #DT @Goto(AteCheck)
+[no] @RT(Aww,Well too bad #SlaveName) #GNMLol #DT @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+(O1Done)
+@RT(Well well,Wauv that was quick!) #DT @CustomMode(ModeText, Normal)
+@RT(I hope you enjoyed it!,I do hope you managed to enjoy it!) #GNMEmoteHappy #DT @Goto(AteCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

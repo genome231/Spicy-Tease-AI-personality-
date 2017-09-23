@@ -1,0 +1,5 @@
+[dfghfdghdfghfgbsggfbdngfnmfngh]
+[All]
+@Flag(Session) @NullResponse @SetFlag(MayCumFake) @CallReturn(CR\Responses\R2_MayICum.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

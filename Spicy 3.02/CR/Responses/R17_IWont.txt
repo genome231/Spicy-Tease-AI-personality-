@@ -1,0 +1,18 @@
+@Flag(Busy) @NullResponse @Goto(End2)
+@Variable[#DateDifference(Spoken, Minutes)]>=[3] @NullResponse @Goto(NoPermission)
+@RT(Slave you absolutely will do it!,Slave you bet your #GNMAss you're gonna do it) #MeritChangeNHigh #DT
+Here's some punishment points @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] #DT
+Are you still gonna cause trouble? #DT
+[yes] Well then! @ChangeVar[GNMPPoints]=[GNMPPoints]+[200] #DT
+[no] Good! #DT @Goto(End)
+@DifferentAnswer #GNMYesOrNo #DT
+Guess what you disobedient twat! #DT
+Byyyee! #DT @Interrupt(GNMBackgroundBase)
+(End)
+@End
+(NoPermission)
+(End2)
+... #DT
+You need permission before you speak #DT #MeritChangeNHigh
+Transfering punishment points to you #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@End

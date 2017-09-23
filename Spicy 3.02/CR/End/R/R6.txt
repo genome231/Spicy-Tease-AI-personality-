@@ -1,0 +1,34 @@
+(R6) //ruin in cow position
+@RT(Well I suppose it's time to let you ruin,Time to ruin!) #GNMGrin #DT
+@RT(But I want to humilate you while doing it..,But I want to enfore my power while doing it..) #DT
+@RT(If you want to ruin,IF you really want to ruin it) #DT
+@RT(You will do it on the floor,It will be on the floor) #DT
+@RT(On all fours,Down on all four) #DT
+You will use your right hand #DT
+Reach behind your right thigh #DT
+I know that this can be hard #DT
+@RT(You will stroke that cock until it crosses the edge and then you will let it go,You will stroke and cross the edge then let it go) #DT
+@RT(Staying on all fours while it empties,Stay on all four while it empties) #DT
+@RT(In a pleasureless ejaculation..,Complete pleasureless ejaculation) #DT
+@RT(There will no fancy porn,No porn at all!), if possible I actually want you looking into a mirror #DT
+Looking yourself in the eyes as the cum dripples from your #GNMCock #DT
+@RT(While looking into the mirror think about how worthless you are..,While the cum drains from your #GNMCock think about how pathetic you are..) #DT
+@RT(Now..,Well..,Hmm..) #DT
+@RT(Do you still want to ruin or just stay denied?,Do you want to proceed with the ruin or stay denied) #GNMGrin #DT
+[ruin,ruined]Then lets proceed.. #DT
+[deny,denied]Well okay.. #DT @Goto(ChastityCheck)
+@DifferentAnswer Deny or Ruin? #DT
+@RT(Get on all fours and do as I command,Get on all fours then and do as I instructed) #DT
+Report 'done' when you're done.. #DT
+No porn! #DT
+A mirror if possible #DT @CustomMode(done, Goto, R6Done)
+@NullResponse @Wait(99999)
+(R6Done)
+#GNMGrin #DT @CustomMode(ModeText, Normal)
+@RT(I love this little exercise,I love enforcing myself on you..) #GNMEmoteHappy  #DT
+@RT(In case you were wondering..,FYI) #DT
+@RT(This is the cow position,This is called the milking cow..) #GNMGrin #DT @Goto(AteCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

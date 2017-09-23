@@ -1,0 +1,69 @@
+I'll show you 3 images #DT
+One them will be either a basque, corselet or a chemise #DT
+You'll tell me which picture: 1, 2 or 3 is one of these #DT
+(ShowImage)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bodice\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Chemise\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Camisole\*.jpg]
+So what image was a chemise? #DT
+[1]Wrong.. #DT
+[2]Correct! #DT
+[3]Wrong.. #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Basque\*.jpg]
+So what image was a Corselet? #DT
+[1]Correct! #DT
+[2]Wrong.. #DT
+[3]Wrong.. #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Basque\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bodice\*.jpg]
+So what image was a basque? #DT
+[1]Correct! #DT
+[2]Wrong.. #DT
+[3]Wrong.. #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Teddy\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Chemise\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.jpg]
+So what image was a chemise? #DT
+[1]Wrong.. #DT
+[2]Correct! #DT
+[3]Wrong.. #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Teddy\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.jpg]
+So what image was a Corselet? #DT
+[1]Wrong.. #DT
+[2]Wrong.. #DT
+[3]Correct! #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Camisole\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Basque\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bodice\*.jpg]
+So what image was a basque? #DT
+[1]Wrong.. #DT
+[2]Correct! #DT
+[3]Wrong.. #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@RT(Next one,Lets try another,One more,Lets do another,Time to try another,Lets test you again).. #DT
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corsage\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.jpg]
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.jpg]
+So what image was a Corselet? #DT
+[1]Wrong.. #DT
+[2]Wrong.. #DT
+[3]Correct! #DT
+@DifferentAnswer 1, 2 or 3? #DT
+I think that'll do it #DT
+Hope you learned just a little bit today.. #DT
+@End

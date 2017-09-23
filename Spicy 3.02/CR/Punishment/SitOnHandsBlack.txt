@@ -1,0 +1,8 @@
+#SlaveName #DT
+@RT(Sit on your hands and just relax,Hands behind your back,Sit on your hands) #DT
+@RT(Simple stare at the black screen and focus on your breathing,Just breathe and do nothing else while starring at a black screen!) #DT
+@Flag(Personality1) @Wait(200,400) @ShowImage[\GNMImages\BlackScreen.jpg] @Goto(End)
+@Flag(Personality2) @Wait(300,500) @ShowImage[\GNMImages\BlackScreen.jpg] @Goto(End)
+@Flag(Personality3) @Wait(400,600) @ShowImage[\GNMImages\BlackScreen.jpg] @Goto(End)
+@RT(Good boy,Good slave,Good slut..) #DT
+(End)

@@ -1,0 +1,20 @@
+#SlaveName #DT
+@Flag(Personality1) @NullResponse @If[GNMGold]>[50]Then(50) @Goto(Warning)
+@Flag(Personality2) @NullResponse @If[GNMGold]>[100]Then(100) @Goto(Warning)
+@Flag(Personality3) @NullResponse @If[GNMGold]>[150]Then(150) @Goto(Warning)
+(50)
+@RT(I'm taking some gold from you!,I punishing you by taking some gold from you!) #DT @ChangeVar[GNMGold]=[GNMGold]-[50]
+@RT(Let that be a lesson,I hope that teaches you a lesson!) #DT
+@End
+(100)
+@RT(I'm taking some gold from you!,I punishing you by taking some gold from you!) #DT @ChangeVar[GNMGold]=[GNMGold]-[100]
+@RT(Let that be a lesson,I hope that teaches you a lesson!) #DT
+@End
+(150)
+@RT(I'm taking some gold from you!,I punishing you by taking some gold from you!) #DT @ChangeVar[GNMGold]=[GNMGold]-[150]
+@RT(Let that be a lesson,I hope that teaches you a lesson!) #DT
+@End
+(Warning)
+@RT(I had a small punishment in my head,I had a nasty punishment for you in my head) #DT
+@RT(But you're getting off with a warning instead,But I'm letting you off easy #GNMSlut) #DT #MeritChangeNHigh
+@End

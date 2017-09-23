@@ -1,0 +1,34 @@
+This is the first time #SlaveName that you have the chance of eating your own cum #GNMGrin #DT
+I understand that a lot of slaves cant actually do this #DT
+So my first question is.. #DT
+Can you eat your own cum without any problems, are you willing to learn it or absolutely no cum eating? #DT
+[can,problems,problem]#GNMGreat! #DT @SetVar[CEILevel]=[10] @Goto(Continue1)
+[willing,learn]That is good news! #DT @SetVar[CEILevel]=[1] @Goto(Continue2)
+[not,no,absolutely]Oh well, that is too bad #GNMEmoteSad #DT @SetFlag(NoCEI) @Goto(End)
+@DifferentAnswer Can, willing or not? #DT
+(Continue1)
+Well let me introduce you to what will generally happen #DT @SetFlag(CEITrainingComplete)
+When you ejculate either from a ruined orgasm or an actual orgasm #DT
+It expect you to collect your semen #DT
+You can use a plate, a shotsglas, a condom or whatever works for you #DT
+I might ask you to get additional items/stuff #DT
+Eating your own cum is healthy #DT
+But more importantly it reinforces who's the sub and who's the #DomHonorific #DT
+It's really as simple as that #GNMEmoteHappy #DT
+Now.. #DT
+Today you wont be told to eat anything #DT
+But from now on #DT
+Expect to swallow every drop! #GNMGrin #DT @Goto(End)
+(Continue2)
+It makes me very happy that you're willing to learn eating your own cum! #DT
+Let me explain how this works #DT
+I use CEI level to track your progress with eating cum #DT
+Level 1 is for those who can handle a small dap of it #DT
+Level 10 is for those with no problems eating their own cum post-orgasm #DT
+After you cum I will guide you very thoroughly with small steps at a time #DT
+Now.. #DT
+Today you wont be told to eat anything #DT
+But from now on #DT
+Expect to swallow more and more as time passes! #GNMGrin #DT 
+(End)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

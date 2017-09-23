@@ -1,0 +1,5 @@
+[can i edge,may i edge,let me edge,i want to edge,i would like to edge,edge me,allow me to edge]
+[All]
+@Flag(Session) @NullResponse @SetFlag(MayEdgeFake) @CallReturn(CR\Responses\R3_MayIEdge.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

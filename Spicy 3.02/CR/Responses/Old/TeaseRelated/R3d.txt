@@ -1,0 +1,6 @@
+@NullResponse @RapidCodeOn @ChangeVar[R3d]=[R3d]+[1] @CheckFlag(R3dFirst) 
+@NullResponse @SetVar[R3d]=[1] @TempFlag(R3dFirst)
+(R3dFirst)
+@RT(I'll decide when you can stop stroking,You dont get to stop before I say so,I decide when you stop,You stop when I say you can stop..) #DT #MeritChangeNLow @Goto(End)
+(End)
+@End

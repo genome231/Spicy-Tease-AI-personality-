@@ -1,0 +1,104 @@
+@NullResponse @If[FirstEChallenge]>=[10]Then(AllEChallengesDone) @CheckFlag(ChallengeEasyFirst) @SetFlag(ChallengeEasyFirst) @SetVar[FirstEChallenge]=[0] 
+(ChallengeEasyFirst)
+@SystemMessage #GNMVA @RT(Lets find something fun for you to do,Lets go ahead and find you a nice little challenge,You've asked for a challenge and here it comes,I love to give you challenges!)
+@NullResponse @CheckFlag(ChallengeGiven) @SetFlag(ChallengeGiven)
+@NullResponse @CheckFlag(AllEasyCDone)
+@NullResponse @CheckFlag(ChallengeE10)
+@NullResponse @CheckFlag(ChallengeE9)
+@NullResponse @CheckFlag(ChallengeE8)
+@NullResponse @CheckFlag(ChallengeE7)
+@NullResponse @CheckFlag(ChallengeE6)
+@NullResponse @CheckFlag(ChallengeE5)
+@NullResponse @CheckFlag(ChallengeE4)
+@NullResponse @CheckFlag(ChallengeE3)
+@NullResponse @CheckFlag(ChallengeE2)
+(ChallengeE1)
+@SystemMessage #GNMVA For this challenge @SetFlag(ChallengeE2)
+@SystemMessage #GNMVA I want you to wear a pair of sexy panties
+@SystemMessage #GNMVA Then I want you outside
+@SystemMessage #GNMVA Find somewhere private #GNMGrin
+@SystemMessage #GNMVA Strip to your underwear and take a few pictures on the spot!
+@SystemMessage #GNMVA When you've done so 
+@SystemMessage #GNMVA Store the images inside your gay folder
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE2)
+@SystemMessage #GNMVA With this challenge @SetFlag(ChallengeE3)
+@SystemMessage #GNMVA I want you to go outside
+@SystemMessage #GNMVA Find a private spot
+@SystemMessage #GNMVA I want you to ruin an orgasm
+@SystemMessage #GNMVA Ruin it into a condom and consume to cum on the spot
+@SystemMessage #GNMVA Return to me once you've done it..
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE3)
+@SystemMessage #GNMVA So for this challenge @SetFlag(ChallengeE4)
+@SystemMessage #GNMVA You have to do 150 edges
+@SystemMessage #GNMVA Yea I said 150..
+@SystemMessage #GNMVA Once you start you have to complete the 150 within 24 hours..
+@SystemMessage #GNMVA If you cum you fail
+@SystemMessage #GNMVA If you spend more than 24 hours you fail
+@SystemMessage #GNMVA If you fail you will retry until you succeed!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE4)
+@SystemMessage #GNMVA This challenge is going to be fun! @SetFlag(ChallengeE5)
+@SystemMessage #GNMVA I want you to go for a walk
+@SystemMessage #GNMVA At least 1 km from home
+@SystemMessage #GNMVA Find a bunch of stinging nettles
+@SystemMessage #GNMVA Before doing anything else
+@SystemMessage #GNMVA Test if you're allergic
+@SystemMessage #GNMVA If you aren't, I want you to fill your underwear with them
+@SystemMessage #GNMVA Then walk home #GNMLol
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE5)
+@NullResponse @CheckFlag(GNMToyButtPlug)
+@SystemMessage #GNMVA Well since you dont own a buttplug, I'll have to find a new challenge.. @SetFlag(ChallengeE6) @Goto(ChallengeE6)
+(GNMToyButtPlug)
+@SystemMessage #GNMVA This challenge is all about exercise #GNMLol @SetFlag(ChallengeE6)
+@SystemMessage #GNMVA Go for a 20 minute walk while wearing a buttplug
+@SystemMessage #GNMVA Should be interesting xD
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE6)
+@SystemMessage #GNMVA This is a fun challenge! @SetFlag(ChallengeE7)
+@SystemMessage #GNMVA You need to do 1500 strokes within 15 minutes!
+@SystemMessage #GNMVA It must be proper full strokes
+@SystemMessage #GNMVA Use lube
+@SystemMessage #GNMVA You may not cum in any way
+@SystemMessage #GNMVA If you exceed your time limit or cum you have failed the challenge
+@SystemMessage #GNMVA And must redo it at some point..
+@SystemMessage #GNMVA Make sure you enjoy a bit of porn with it #GNMEmoteHappy
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE7)
+@NullResponse @CheckFlag(GNMToyElectro)
+@SystemMessage #GNMVA Well since you dont own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeE8) @Goto(ChallengeE8)
+(GNMToyElectro)
+@SystemMessage #GNMVA This should prove interesting.. @SetFlag(ChallengeE8)
+@SystemMessage #GNMVA I want you to go a walk
+@SystemMessage #GNMVA About 30 minutes with electrodes on your #GNMCock
+@SystemMessage #GNMVA Keep the stimulator on low settings..
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE8)
+@SystemMessage #GNMVA This is going to be tough @SetFlag(ChallengeE9)
+@SystemMessage #GNMVA Deny yourself for 7 days straight..
+@SystemMessage #GNMVA If at any point you are told to cum
+@SystemMessage #GNMVA Simply dont..
+@SystemMessage #GNMVA Once you've done it for 7 days
+@SystemMessage #GNMVA Report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE9)
+@NullResponse @CheckFlag(GNMToyParachute)
+@SystemMessage #GNMVA Well since you dont own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeE10) @Goto(ChallengeE10)
+(GNMToyParachute)
+@SystemMessage #GNMVA This is going to be a nasty one! @SetFlag(ChallengeE10)
+@SystemMessage #GNMVA I want you to simply wear your spiked parachute for 2 hours!
+@SystemMessage #GNMVA You may do whatever activity you want to in that time frame
+@SystemMessage #GNMVA But keep the parachute on!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeE10)
+@SystemMessage #GNMVA I feel sorry for your #GNMAss #GNMEmoteHappy @SetFlag(AllEasyCDone)
+@SystemMessage #GNMVA I want you to place a rubberband arround each asscheek
+@SystemMessage #GNMVA You must pull and release each of them for 100 strokes within 20 minutes
+@SystemMessage #GNMVA No half assed pull backs
+@SystemMessage #GNMVA Each strike should make you scream!
+@SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(ChallengeGiven)
+@SystemMessage #GNMVA I cant give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+(AllEasyCDone)
+@SystemMessage #GNMVA You've completed all your easy challenges slaves.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

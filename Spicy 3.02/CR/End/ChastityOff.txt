@@ -1,0 +1,16 @@
+@NullResponse @CheckFlag(ChastityIsOn)
+@NullResponse @Goto(Off2) 
+(ChastityIsOn)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) #DT @LockImages @PlayAudio[\GNMSounds\Chastity\PutChastityOff\*.mp3] @ShowImage[GNMImages\Chastity\ChastityOff\*.jpg]
+@RT(Remove your #Cage,Get your #Cage off,Remove the #Cage at once,Hurry up and get the #Cage off,Be quick and get your #Cage removed) #DT 
+(Off)
+@NullResponse @Wait(#Random(15,30))
+Are you done? #DT
+[yes] #GNMGood #DT @SetFlag(ChastityIsOn)
+[no] Hurry up! #DT #MeritChangeNLow @Goto(Off)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @ChastityIsOff
+(Off2)
+@NullResponse @UnlockImages
+@NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
+@End478*

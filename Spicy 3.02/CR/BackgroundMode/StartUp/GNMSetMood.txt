@@ -1,0 +1,633 @@
+@NullResponse @RapidCodeOn @CheckFlag(FirstMood) @SetFlag(FirstMood)
+@NullResponse @CallReturn(CR\BackgroundMode\StartUp\FirstMood.txt)
+@End
+(FirstMood)
+@NullResponse @SetVar[TempHappy]=[0]
+@NullResponse @SetVar[TempAngry]=[0]
+@NullResponse @SetVar[TempLust]=[0]
+@Variable[#DateDifference(Season, Days)]<[1] @NullResponse @Goto(Skip)
+@Flag(Christmas1) @NullResponse @ChangeVar[Happy]=[Happy]-[10] @DeleteFlag(Christmas1)
+@Flag(Christmas2) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(Christmas2)
+@Flag(Valentines) @NullResponse @ChangeVar[Lust]=[Lust]-[15] @DeleteFlag(Valentines)
+@Flag(Summer1) @NullResponse @ChangeVar[Happy]=[Happy]-[8] @DeleteFlag(Summer1)
+@Flag(Summer2) @NullResponse @ChangeVar[Lust]=[Lust]-[5] @DeleteFlag(Summer2)
+@Flag(SubBirthday) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(SubBirthday)
+@Flag(DommeBirthday) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(DommeBirthday)
+@Flag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(NewYears)
+@Flag(Halloween) @NullResponse @ChangeVar[Lust]=[Lust]-[15] @DeleteFlag(Halloween)
+@Flag(MoodBoosterActive) @NullResponse @ChangeVar[Happy]=[Happy]-[5] @DeleteFlag(MoodBoosterActive) 
+(Skip)
+@DayOfWeek(Monday) @NullResponse @Goto(MondayErase)
+@DayOfWeek(TuesDay) @NullResponse @Goto(TuesDayErase)
+@DayOfWeek(Wednesday) @NullResponse @Goto(WednesdayErase)
+@DayOfWeek(Thursday) @NullResponse @Goto(ThursdayErase)
+@DayOfWeek(Friday) @NullResponse @Goto(FridayErase)
+@DayOfWeek(Saturday) @NullResponse @Goto(SaturdayErase)
+@DayOfWeek(Sunday) @NullResponse @Goto(SundayErase)
+(MondayErase)
+@NullResponse @TempFlag(Monday)
+@Variable[#DateDifference(Monday, Days)]>[3] @NullResponse @Goto(MondaySet)
+@End
+(MondaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[MondayHappy] @SetDate(Monday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[MondayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[MondayLust]
+@NullResponse @SetVar[MondayHappy]=[0]
+@NullResponse @SetVar[MondayAngry]=[0]
+@NullResponse @SetVar[MondayLust]=[0] @Goto(a)
+(TuesDayErase)
+@NullResponse @TempFlag(TuesDay)
+@Variable[#DateDifference(TuesDay, Days)]>[3] @NullResponse @Goto(TuesDaySet)
+@End
+(TuesDaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[TuesdayHappy] @SetDate(TuesDay, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[TuesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[TuesdayLust]
+@NullResponse @SetVar[TuesdayHappy]=[0]
+@NullResponse @SetVar[TuesdayAngry]=[0]
+@NullResponse @SetVar[TuesdayLust]=[0] @Goto(a)
+(WednesdayErase)
+@NullResponse @TempFlag(Wednesday)
+@Variable[#DateDifference(Wednesday, Days)]>[3] @NullResponse @Goto(WednesdaySet)
+@End
+(WednesdaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[WednesdayHappy] @SetDate(Wednesday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[WednesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[WednesdayLust]
+@NullResponse @SetVar[WednesdayHappy]=[0]
+@NullResponse @SetVar[WednesdayAngry]=[0]
+@NullResponse @SetVar[WednesdayLust]=[0] @Goto(a)
+(ThursdayErase)
+@NullResponse @TempFlag(Thursday)
+@Variable[#DateDifference(Thursday, Days)]>[3] @NullResponse @Goto(ThursdaySet)
+@End
+(ThursdaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[ThursdayHappy] @SetDate(Thursday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[ThursdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[ThursdayLust]
+@NullResponse @SetVar[ThursdayHappy]=[0]
+@NullResponse @SetVar[ThursdayAngry]=[0]
+@NullResponse @SetVar[ThursdayLust]=[0] @Goto(a)
+(FridayErase)
+@NullResponse @TempFlag(Friday)
+@Variable[#DateDifference(Friday, Days)]>[3] @NullResponse @Goto(FridaySet)
+@End
+(FridaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[FridayHappy] @SetDate(Friday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[FridayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[FridayLust]
+@NullResponse @SetVar[FridayHappy]=[0]
+@NullResponse @SetVar[FridayAngry]=[0]
+@NullResponse @SetVar[FridayLust]=[0] @Goto(a)
+(SaturdayErase)
+@NullResponse @TempFlag(Saturday)
+@Variable[#DateDifference(Saturday, Days)]>[3] @NullResponse @Goto(SaturdaySet)
+@End
+(SaturdaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[SaturdayHappy] @SetDate(Saturday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[SaturdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[SaturdayLust]
+@NullResponse @SetVar[SaturdayHappy]=[0]
+@NullResponse @SetVar[SaturdayAngry]=[0]
+@NullResponse @SetVar[SaturdayLust]=[0] @Goto(a)
+(SundayErase)
+@NullResponse @TempFlag(Sunday)
+@Variable[#DateDifference(Sunday, Days)]>[3] @NullResponse @Goto(SundaySet)
+@End
+(SundaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[SundayHappy] @SetDate(Sunday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[SundayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[SundayLust]
+@NullResponse @SetVar[SundayHappy]=[0]
+@NullResponse @SetVar[SundayAngry]=[0]
+@NullResponse @SetVar[SundayLust]=[0] @Goto(a)
+(a) 
+@NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,a41,a42,a43,a44,a45,a46,a47,a48,a49,a50)
+(a1) //Received a sweet text, used
+@NullResponse @TempFlag(MS1)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a2) //Went shopping last night , used
+@NullResponse @TempFlag(MS2)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a3) //Had a great day at work , used
+@NullResponse @TempFlag(MS3)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a4) //Went wining and dining last night , used
+@NullResponse @TempFlag(MS4)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a5) //Went to the hairdresser , used
+@NullResponse @TempFlag(MS5)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a6) //Slept great , used
+@NullResponse @TempFlag(MS6)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a7) //Reading a great book , used
+@NullResponse @TempFlag(MS7)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a8) //Given a compliment today from lower , used
+@NullResponse @TempFlag(MS8)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a9) //Watching a really good tv series , used
+@NullResponse @TempFlag(MS9)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[1] @Goto(b)
+(a10) //Donated to a charity
+@NullResponse @TempFlag(MS10)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a11) //Going to a concert soon
+@NullResponse @TempFlag(MS11)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a12) //Planning a vacation with lover
+@NullResponse @TempFlag(MS12)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a13) //Got a raise
+@NullResponse @TempFlag(MS13)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a14) //Had fun with glitter friend last night
+@NullResponse @TempFlag(MS14)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a15) //Went to see a movie yesterday
+@NullResponse @TempFlag(MS15)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a16) //Had an amazing workout yesterday
+@NullResponse @TempFlag(MS16)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a17) //Having a nice party coming up
+@NullResponse @TempFlag(MS17)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a18) //Got gift from lover
+@NullResponse @TempFlag(MS18)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a19) //Bought a new decorative item
+@NullResponse @TempFlag(MS19)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a20) //Lovely weather
+@NullResponse @TempFlag(MS20)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a21) //Had coffee with a glitter friend
+@NullResponse @TempFlag(MS21)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[2] @Goto(b)
+(a22) //Went swimming
+@NullResponse @TempFlag(MS22)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a23) //Tried a new good meal
+@NullResponse @TempFlag(MS23)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a24) //lost a bit of weight
+@NullResponse @TempFlag(MS24)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[] @Goto(b)
+(a25) //Did terrific make up today
+@NullResponse @TempFlag(MS25)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a26) //Went to a great party
+@NullResponse @TempFlag(MS26)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a27) //Went on a date last night
+@NullResponse @TempFlag(MS27)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a28) //Had a really great breakfast
+@NullResponse @TempFlag(MS28)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a29) //Went to a museum
+@NullResponse @TempFlag(MS29)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a30) //went to an art gallery
+@NullResponse @TempFlag(MS30)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a31) //Had a nice chat with Glitter x
+@NullResponse @TempFlag(MS31)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a32) //Had a good day at work
+@NullResponse @TempFlag(MS32)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a33) //Went for a nice walk in nature
+@NullResponse @TempFlag(MS33)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a34) //A slave bought a present
+@NullResponse @TempFlag(MS34)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a35) //bought a new clothing article
+@NullResponse @TempFlag(MS35)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a36) //Have a great hair day
+@NullResponse @TempFlag(MS36)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a37) //Had family dinner
+@NullResponse @TempFlag(MS37)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[3] @Goto(b)
+(a38) //had family visit
+@NullResponse @TempFlag(MS38)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a39) //Saw som funny movies on the internet
+@NullResponse @TempFlag(MS39)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a40) //Went to the zoo
+@NullResponse @TempFlag(MS40)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a41) //Heard a new hit song
+@NullResponse @TempFlag(MS41)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a42) //Got a massage
+@NullResponse @TempFlag(MS42)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a43) //Got a manicure
+@NullResponse @TempFlag(MS43)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a44) //Had a nice quiet day
+@NullResponse @TempFlag(MS44)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a45) //Had the car washed
+@NullResponse @TempFlag(MS45)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a46) //Saved money on a great deal
+@NullResponse @TempFlag(MS46)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[4] @Goto(b)
+(a47) //Watched the sunset yesterday
+@NullResponse @TempFlag(MS47)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a48) //The soccer team won a match yesterday
+@NullResponse @TempFlag(MS48)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a49) //Played a bit of video gaming yesterday
+@NullResponse @TempFlag(MS49)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(a50) //Got praise at the job
+@NullResponse @TempFlag(MS50)
+@NullResponse @ChangeVar[TempHappy]=[TempHappy]+[5] @Goto(b)
+(b)
+@NullResponse @Goto(b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27,b28,b29,b30,b31,b32,b33,b34,b35,b36,b37,b38,b39,b40,b41,b42,b43,b44,b45,b46,b47,b48,b49,b50)
+(b1) //Bought new lingerie, Used
+@NullResponse @TempFlag(MS51)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b2) //Got new lingerie as a gift, Used
+@NullResponse @TempFlag(MS52)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b3) //Got a new spanking instrument, Used
+@NullResponse @TempFlag(MS53)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b4) //Got a new vibrator, Used
+@NullResponse @TempFlag(MS54)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b5) //Got a pair of high heels, Used
+@NullResponse @TempFlag(MS55)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b6) //Had sex last night
+@NullResponse @TempFlag(MS56)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b7) //Denied Sub last night
+@NullResponse @TempFlag(MS57)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b8) //Had a fun evening with glitter friend
+@NullResponse @TempFlag(MS58)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b9) //Spanked sub last night
+@NullResponse @TempFlag(MS59)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b10) //Allowed sub an orgasm last night
+@NullResponse @TempFlag(MS60)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[1] @Goto(c)
+(b11) //Watched a great porno last night
+@NullResponse @TempFlag(MS61)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b12) //Got a sexy text from lover
+@NullResponse @TempFlag(MS62)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b13) //had pussy licked last night
+@NullResponse @TempFlag(MS63)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b14) //A sub broke his chastity record last night
+@NullResponse @TempFlag(MS64)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b15) //A female sub had multiple forced orgasms
+@NullResponse @TempFlag(MS65)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b16) //Tied a slave and left him for hours
+@NullResponse @TempFlag(MS66)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b17) //Had a slave stand in the corner for x hours yesterdat
+@NullResponse @TempFlag(MS67)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b18) //Used a machine to get fucked
+@NullResponse @TempFlag(MS68)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b19) //Had fun with the sybian yesterday
+@NullResponse @TempFlag(MS69)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b20) //Made a sub suck lovers cock
+@NullResponse @TempFlag(MS70)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[2] @Goto(c)
+(b21) //made a sub wear lingerie for a full day
+@NullResponse @TempFlag(MS71)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b22) //had 2 subs compete in a ballbusting competition, the winner didn't get a punishment lock up period
+@NullResponse @TempFlag(MS72)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b23) //Found a new way fun selfbondage scenario for you
+@NullResponse @TempFlag(MS73)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b24) //Had a hot dream last night
+@NullResponse @TempFlag(MS74)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b25) //Lover gave an erotic massage last night
+@NullResponse @TempFlag(MS75)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b26) //Bought a pair of super sexy high heels
+@NullResponse @TempFlag(MS76)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b27) //had a threesome 
+@NullResponse @TempFlag(MS77)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b28) //A slave agreed to try a long period of chastity
+@NullResponse @TempFlag(MS78)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b29) //Went to a sex club
+@NullResponse @TempFlag(MS79)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b30) //Went to a sex party
+@NullResponse @TempFlag(MS80)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[3] @Goto(c)
+(b31) //Went to a bdsm party
+@NullResponse @TempFlag(MS81)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b32) //Tried a female chastity device
+@NullResponse @TempFlag(MS82)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b33) //A slave just got pierced for the cage
+@NullResponse @TempFlag(MS83)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b34) //Had another man at the office go under the desk and lick me
+@NullResponse @TempFlag(MS84)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b35) //Have a secret slave at the office, who's been ..
+@NullResponse @TempFlag(MS85)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b36) //Tried a new position
+@NullResponse @TempFlag(MS86)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b37) //Teased and denied a sub
+@NullResponse @TempFlag(MS87)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b38) //Had a stranger commit to ..
+@NullResponse @TempFlag(MS88)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b39) //Gave a sub the ballbusting of a life time
+@NullResponse @TempFlag(MS89)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b40) //Made a sub go to a gay bar dressed in lingerie
+@NullResponse @TempFlag(MS90)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[4] @Goto(c)
+(b41) //Made a sub go to a lingerie store and buy stuff for himself
+@NullResponse @TempFlag(MS91)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b42) //Made a sub get on his knees in the middle of a ... shop/cafe/other
+@NullResponse @TempFlag(MS92)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b43) //Made a sub wear heels in public
+@NullResponse @TempFlag(MS93)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b44) //Had a kinky evening with glitter friend
+@NullResponse @TempFlag(MS94)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b45) //Bought a new strap-on
+@NullResponse @TempFlag(MS95)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b46) //Had a sub tied with the genitalia given a healthy dose of whipping/Hot sauce
+@NullResponse @TempFlag(MS96)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b47) //Had 2 denied subs tied, gagged and watching me getting fucked
+@NullResponse @TempFlag(MS97)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b48) //Didn't have an orgasm yesterday
+@NullResponse @TempFlag(MS98)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b49) //Had x orgasms yesterday
+@NullResponse @TempFlag(MS99)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(b50) //Made a sub ruin after x weeks of denial
+@NullResponse @TempFlag(MS100)
+@NullResponse @ChangeVar[TempLust]=[TempLust]+[5] @Goto(c)
+(c)
+@NullResponse @Goto(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24,c25,c26,c27,c28,c29,c30,c31,c32,c33,c34,c35,c36,c37,c38,c39,c40,c41,c42,c43,c44,c45,c46,c47,c48,c49,c50)
+(c1) //Finished a great book, used
+@NullResponse @TempFlag(MS101)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c2) //Had a bad day at work, used
+@NullResponse @TempFlag(MS102)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c3) //A sub came without permission, used
+@NullResponse @TempFlag(MS103)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c4) //A sub didn't do as told, used
+@NullResponse @TempFlag(MS104)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c5) //Had an argument with lover, used
+@NullResponse @TempFlag(MS105)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c6) //Had an argument with a family member, used
+@NullResponse @TempFlag(MS106)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c7) //Had an argument with a glitter friend, used
+@NullResponse @TempFlag(MS107)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c8) //Gained a bit of weight, used
+@NullResponse @TempFlag(MS108)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c9) //Had a bad workout, used
+@NullResponse @TempFlag(MS109)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c10) //Tried a new restaurant, it was bad
+@NullResponse @TempFlag(MS110)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[1] @Goto(SetVar)
+(c11) //Slept badly
+@NullResponse @TempFlag(MS111)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c12) //A sub misbehaved
+@NullResponse @TempFlag(MS112)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c13) //A sub performed poorly at the academy
+@NullResponse @TempFlag(MS113)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c14) //A cane broke
+@NullResponse @TempFlag(MS114)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c15) //Car problems
+@NullResponse @TempFlag(MS115)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c16) //Bad hair day
+@NullResponse @TempFlag(MS116)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c17) //Bad make up day
+@NullResponse @TempFlag(MS117)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c18) //Soccer team lost a match
+@NullResponse @TempFlag(MS118)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c19) // got critique at the job
+@NullResponse @TempFlag(MS119)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c20) // Poor weather
+@NullResponse @TempFlag(MS120)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[2] @Goto(SetVar)
+(c21) //Saw a bad movie
+@NullResponse @TempFlag(MS121)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c22) //Nothing to watch in TV
+@NullResponse @TempFlag(MS122)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c23) //Have an event coming that I dont wannt go to
+@NullResponse @TempFlag(MS123)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c24) //Went to museum, borring
+@NullResponse @TempFlag(MS124)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c25) //Went to art gallery, borring
+@NullResponse @TempFlag(MS125)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c26) //Went to a borring lecture
+@NullResponse @TempFlag(MS126)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c27) //Favourite pants broke
+@NullResponse @TempFlag(MS127)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c28) //Favourite shoes broke
+@NullResponse @TempFlag(MS128)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c29) //had familiy dinner
+@NullResponse @TempFlag(MS129)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c30) //Favourite vibrator broke
+@NullResponse @TempFlag(MS130)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
+(c31) //Got rejected for a date
+@NullResponse @TempFlag(MS131)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c32) //A slave used a safeword yesterday
+@NullResponse @TempFlag(MS132)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c33) //Tease and denied a sub, but he got a ruined by accident
+@NullResponse @TempFlag(MS133)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c34) //Had a threesome, wasn't the center of attention
+@NullResponse @TempFlag(MS134)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c35) //Had a sub cry yesterday
+@NullResponse @TempFlag(MS135)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c36) //Vibrator, battery ran out, didn't have new ones
+@NullResponse @TempFlag(MS136)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c37) //A sub was late for his cleaning duties yesterday
+@NullResponse @TempFlag(MS137)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c38) //Hair dresser cancelled an appointment
+@NullResponse @TempFlag(MS138)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c39) //manicure cancelled an appointment
+@NullResponse @TempFlag(MS139)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c40) //Went shopping without buying anything
+@NullResponse @TempFlag(MS140)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[4] @Goto(SetVar)
+(c41) //A sub didn't thank properly for an orgasm
+@NullResponse @TempFlag(MS141)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c42) //A sub didn't do his chores
+@NullResponse @TempFlag(MS142)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c43) //Lover came too fast
+@NullResponse @TempFlag(MS143)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c44) //Lover cancelled a date
+@NullResponse @TempFlag(MS144)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c45) //Lover hit on glitter friend at party
+@NullResponse @TempFlag(MS145)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c46) //glitter friend cancelled a date
+@NullResponse @TempFlag(MS146)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c47) //2 glitter friends had dinner without me
+@NullResponse @TempFlag(MS147)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c48) //Boss at work, gave me extra work
+@NullResponse @TempFlag(MS148)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c49) //An ugly tried to make a move at a party
+@NullResponse @TempFlag(MS149)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(c50) //A new sex toy didn't live to expectations
+@NullResponse @TempFlag(MS150)
+@NullResponse @ChangeVar[TempAngry]=[TempAngry]+[5] @Goto(SetVar)
+(SetVar)
+@Month(12) @SetFlag(Christmas1) @NullResponse @ChangeVar[Happy]=[Happy]+[10] @SetDate(Season, 0 Days)
+@Month(12) @Day(24,25) @SetFlag(Christmas2) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
+@Month(2) @Day(14) @SetFlag(Valentines) @NullResponse @ChangeVar[Lust]=[Lust]+[15] @SetDate(Season, 0 Days)
+@Month(6,7,8) @SetFlag(Summer1) @NullResponse @ChangeVar[Happy]=[Happy]+[8] @SetDate(Season, 0 Days)
+@Month(6,7,8) @SetFlag(Summer2) @NullResponse @ChangeVar[Lust]=[Lust]+[5] @SetDate(Season, 0 Days)
+@SubBirthday @SetFlag(SubBirthday) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
+@DomBirthday @SetFlag(DommeBirthday) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
+@Month(31) @Day(31) @SetFlag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
+@Month(10) @Day(31) @SetFlag(Halloween) @NullResponse @ChangeVar[Lust]=[Lust]+[15] @SetDate(Season, 0 Days)
+@Flag(MoodBooster) @Variable[#DateDifference(MoodBooster, Days)]<[7] @NullResponse @ChangeVar[Happy]=[Happy]+[5] @SetFlag(MoodBoosterActive)
+@NullResponse @CheckFlag(Monday)
+@NullResponse @CheckFlag(TuesDay)
+@NullResponse @CheckFlag(Wednesday)
+@NullResponse @CheckFlag(Thursday)
+@NullResponse @CheckFlag(Friday)
+@NullResponse @CheckFlag(Saturday)
+@NullResponse @CheckFlag(Sunday)
+(Monday)
+@NullResponse @ChangeVar[MondayHappy]=[MondayHappy]+[TempHappy]
+@NullResponse @ChangeVar[MondayAngry]=[MondayAngry]+[TempAngry]
+@NullResponse @ChangeVar[MondayLust]=[MondayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[MondayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[MondayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[MondayLust]
+@End
+(TuesDay)
+@NullResponse @ChangeVar[TuesdayHappy]=[TuesdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[TuesdayAngry]=[TuesdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[TuesdayLust]=[TuesdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[TuesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[TuesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[TuesdayLust]
+@End
+(Wednesday)
+@NullResponse @ChangeVar[WednesdayHappy]=[WednesdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[WednesdayAngry]=[WednesdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[WednesdayLust]=[WednesdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[WednesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[WednesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[WednesdayLust]
+@End
+(Thursday)
+@NullResponse @ChangeVar[ThursdayHappy]=[ThursdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[ThursdayAngry]=[ThursdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[ThursdayLust]=[ThursdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[ThursdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[ThursdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[ThursdayLust]
+@End
+(Friday)
+@NullResponse @ChangeVar[FridayHappy]=[FridayHappy]+[TempHappy]
+@NullResponse @ChangeVar[FridayAngry]=[FridayAngry]+[TempAngry]
+@NullResponse @ChangeVar[FridayLust]=[FridayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[FridayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[FridayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[FridayLust]
+@End
+(Saturday)
+@NullResponse @ChangeVar[SaturdayHappy]=[SaturdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[SaturdayAngry]=[SaturdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[SaturdayLust]=[SaturdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SaturdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SaturdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SaturdayLust]
+@End
+(Sunday)
+@NullResponse @ChangeVar[SundayHappy]=[SundayHappy]+[TempHappy]
+@NullResponse @ChangeVar[SundayAngry]=[SundayAngry]+[TempAngry]
+@NullResponse @ChangeVar[SundayLust]=[SundayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SundayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SundayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SundayLust]
+@End

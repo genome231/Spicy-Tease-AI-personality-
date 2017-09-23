@@ -1,0 +1,35 @@
+(R2) //Agree to watch sissy and ruin
+@RT(#SlaveName,#SubName) @RT(I will let you ruin,I'm gonna make you ruin) #DT
+<i>if..</i> #DT
+@RT(You'll do it to a short movie of sissy getting fucked,If you'll do it to a sissy movie) @RT(#GNMGrin,#GNMLol) #DT
+@RT(And I order you to watch it to the end!,And you have to watch it till the end!) #DT
+@RT(So what will it be..,So let me hear what you have to say) #DT
+@RT(Ruining to a sissy,Watch a sissy and ruin) #DT
+@RT(Or yet more denial?,Or would you rather stay denied) #DT
+[ruin,ruining,sissy]#GNMGrin  #DT
+[denial,no]Cant blame you for that! #DT @Goto(ChastityCheck)
+@DifferentAnswer Denial or Sissy? #DT
+@Flag(SissyMode) Ofcourse you may only use your vibrator #DT..
+@RT(As soon as you cross the edge its hands behind your head!,As soon as you cross that nasty edge I want you to put your hands behind your head..) #DT
+(R2MovieStart)
+@RT(Oh..,And..) You have my permission to ruin it #GNMGrin
+@RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
+@NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
+@RT(Well then..,Exelent!,#GNMGood) #DT
+(Test)
+@RT(Well you desperate fuck,Tell me #SlaveName) #DT
+@RT(Did you ruin?,Did you ruin yourself?) #DT
+[yes]#GNMGood #DT @Goto(AteCheck)
+[no]@RT(No?,What do you mean no?) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Did you orgasm or did you simply not make it?,Did you have an orgasm or nothing at all?) #DT
+[orgasm,i came]@RT(What!?,Oh my..) #DT #MeritChangeNHigh @Goto(Bad)
+[nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
+@DifferentAnswer Did you cum or nothing? #DT
+(Bad)
+@RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
+@RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

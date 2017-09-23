@@ -1,0 +1,232 @@
+#SlaveName
+@RT(It's time for a few service exercises,I have just the thing for your training,I have the perfect plan for some training exercises) #GNMMoan #DT
+@RT(Basicly I want you to get quite a few things ready,First you need to get a lot of things ready) #DT
+@RT(Make sure all your gear is nearby and ready,Have all your gear ready and nearby) #DT
+Including robe, shoeslaces, strings or whatever you can use to tie yourself with #DT @Wait(15)
+#Ready #DT @Timeout(30, Slow)
+[yes]#GNMGood #DT @Goto(Continue1)
+[no] ... #DT @Goto(Slow)
+@DifferentAnswer #GNMYesOrNo #DT
+(Slow)
+@RT(I want you to be quicker!,You need to work faster!,I dont have time for hesitation!) #DT #GNMEmoteSad 
+@RT(Now hurry up and get done!,Speed it up #SlaveName) #DT #MeritChangeNMedium @Wait(30)
+(Continue1)
+@RT(Beside that!,Also!) #DT
+@RT(5 glasses filled about 90% with water,5 glasses of water filled about 90%) #DT
+@RT(Filled almost to the brim,Almost full glasses!) #GNMGrin #DT
+@RT(I want you to know exactly how much water there is in total,You need to know exactly how much water you use) #DT
+Measure as carefully as you can and write it down using mL
+@RT(I also want you to have a tray with you,You'll also need a tray) 
+@RT(Remember that a plate can substitute for a proper tray,Remember that a plate or similar works too) @Wait(60) #DT
+@RT(Tell me,So) #SlaveName #DT @SetVar[SModule4Fail]=[0]
+How many mL's of water, in total, did you use to fill the glasses? #DT @InputVar[SumOfWater]
+@RT(Now trust when I tell you,Believe me when I say that..) #DT
+@RT(You dont to spill any of that water!,You really dont want to spill a single drop for this lesson!) #DT
+@RT(Throughout the exercises I want your dominant arm behind your like a waiter,During the exercises your dominant arm is to rest behind your back) #DT
+@RT(You may only use your dominant arm to place or remove glasses of water from the tray,You are only allowed to use the dominant arm to place or remove glasses of water from the tray) #DT
+@RT(But as soon as it is not used it goes behind your back,But the moment it's not in use it goes behind your back) #DT
+@RT(Your non-dominant arms sole focus is to carry the tray,You non-dominant arm may only be used to carry the tray) #DT
+@RT(Before we get to that,But before we go there) #DT
+@Flag(CollarPlay) @RT(You're not a proper slave until you wear your collar,You have to put on your collar) #DT @Wait(15)
+@Flag(GagPlay) @RT(Wear your gag,Remember to wear the gag,Remember to gag yourself) #DT @Wait(15)
+@Variable[#ToyRoll]>[#ToyChance] @Goto(Toys) 
+@NullResponse @Goto(Continue2)
+(Toys)
+@Flag(ParachutePlay,ElectroPlay,HotSaucePlay) @NullResponse @Goto(Toy1,Toy2,Toy3,Toy4,Toy5) 
+@Flag(ParachutePlay,ElectroPlay) @NullResponse @Goto(Toy1,Toy2,Toy4,Toy5) 
+@Flag(ParachutePlay,HotSaucePlay) @NullResponse @Goto(Toy2,Toy3,Toy4,Toy5) 
+@Flag(ElectroPlay,HotSaucePlay) @NullResponse @Goto(Toy1,Toy3,Toy4,Toy5) 
+@Flag(ParachutePlay) @NullResponse @Goto(Toy2,Toy4,Toy5) 
+@Flag(HotSaucePlay) @NullResponse @Goto(Toy3,Toy4,Toy5) 
+@Flag(ElectroPlay) @NullResponse @Goto(Toy1,Toy4,Toy5) 
+@NullResponse @Goto(Toy1,Toy2) 
+(Toy1) \\Electro
+@NullResponse @CallReturn(CR\ToysOn\GNMElectroOn.txt)
+@NullResponse @Goto(Continue2)
+(Toy2) \\Parachute
+@NullResponse @CallReturn(CR\ToysOn\GNMParachuteOn.txt)
+@NullResponse @Goto(Continue2)
+(Toy3) \\HotSauce
+@NullResponse @CallReturn(CR\ToysOn\GNMHotSauceOn.txt)
+@NullResponse @Goto(Continue2)
+(Toy4) \\Pegs
+@NullResponse @CallReturn(CR\ToysOn\GNMPegsOn.txt)
+@NullResponse @Goto(Continue2)
+(Toy5) \\Lingerie
+@NullResponse @CallReturn(CR\ToysOn\GNMLingerieOn.txt)
+@NullResponse @Goto(Continue2)
+(Continue2)
+@RT(Well Lets proceed,Let continue,Time to proceed,Lets proceed) #GNMMoan #DT
+@RT(You will be given small assignments,I'm gonna give you small jobs,I will feed you small tasks) #DT
+@RT(If you fail at one simply say "I failed",Should you fail simply say 'I Failed) #DT
+I might tell you to stand on your toes on one leg #DT
+If at any point your heel touches the ground or the other foot you will have failed that assignment #DT
+I'm counting your fuck ups #GNMLol #DT @SetVar[Run]=[0] @CustomMode(i failed, Goto, IFailed)
+(ChoosePlay)
+@Variable[Run]>=[1] @NullResponse @If[#DateDifference(Devotion, Minutes)]>=[DevotionSet]Then(End)
+@Flag(SlaveUpdate2) @NullResponse @ChangeVar[Run]=[Run]+[1] @Goto(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25)
+@NullResponse @ChangeVar[Run]=[Run]+[1] @Goto(1,2,7,8,9,10,11,16,17,18,19,20,21)
+(1) //Simple stand
+@RT(Simply stand,Just stand and breathe slowly,Put a glass of water on the tray and just stand with it) #DT @Goto(Wait)
+(2) //Stand on toes
+@RT(Stand on toes,Just stand on your toes and keep the balance,Simply stand on your toes,Put a glass of water on the tray and stand on toes with it) #DT @Goto(Wait)
+(3) //Stand on 1 leg
+@RT(Stand on 1 leg,Stand but on 1 leg only,Put a glass of water on the tray and stand on 1 leg) #DT @Goto(Wait)
+(4) //Stand on toe on 1 leg
+@RT(Stand on your toes on 1 leg!,Put a glass of water on the tray and stand on your toes on 1 leg) #DT @Goto(Wait)
+(5) //Stand with x glasses stretched arm
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray, stretch your arms and just stand #DT @Goto(Wait)
+(6) //Stand and bow
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+@RT(I want you to simply stand,You are to simply stand with them on the tray) #DT 
+When you hear my bell you have to bow down deep and then stand back up #DT @Goto(Wait2Bell)
+(7) //Stand and raise tray above head
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+I want you to constantly raise the tray above your head #DT
+Hold it for a few second then put the tray back down in front of you #DT @Goto(Wait)
+(8) //Stand with closed eye
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Now simply stand with closed eyes #DT @Goto(Wait)
+(9) //Stand and watch a slideshow/movie
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Just stand with it and watch this slideshow #DT @Goto(Wait3Slideshow)
+(10) //Kneel up and down
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+With the tray in hand you are to kneel down and then stand back up repeat again and again @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Goto(Wait)
+(11) //Walk on toes
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Walk arround the room until the bell chimes #DT @Goto(Wait)
+(12) //Kneel up and down on toes
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+With the tray in hand you are to kneel down and then stand back up on your toes repeat again and again @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Goto(Wait)
+(13) //Walk backwards
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Walk backwards arround the room until the bell chimes #DT @Goto(Wait)
+(14) //walk with stretched arm
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Walk with stretched arms arround the room until the bell chimes #DT @Goto(Wait)
+(15) //Walk sideways
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Walk sideways arround the room until the bell chimes #DT @Goto(Wait)
+(16) //Squat and get spanked
+Have one of your spanking implements in your hands #DT
+Squat down and continously spank yourself until you hear my bell #DT @Goto(Wait)
+(17) //Squat with tray to side
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Squat down and hold tray out to the side while in the squat, stay down until you hear my bell #DT @Goto(Wait)
+(18) //Squat with tray stretched in front
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Squat down and hold tray out in front of you with stretched arms, stay down until you hear my bell #DT @Goto(Wait)
+(19) //Squat with tray
+@RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
+Squat down and hold the tray in front of you, stay down until you hear my bell #DT @Goto(Wait)
+(20) //Bring glasses from x to y and back
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Count to 5 then load the tray again and move to the other location #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(21) //Bring glasses back and fourth on toes
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Count to 5 then load the tray again and move to the other location #DT
+You may only walk on your toes! #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(22) //Bring glaases back and fourth while crawling
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Count to 5 then load the tray again and move to the other location #DT
+You may only crawl between the locations #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(23) //Bring glaases back and fourth with legs tied
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Count to 5 then load the tray again and move to the other location #DT
+Tie your legs together so you can only take small steps #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(24) //Bring glaases back and fourth At each stop spank yourself with instrument
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Between each stop spank each of your buttocks 10 times with a spanking implement #DT
+then load the tray again and move to the other location #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(25) //Bring glaases back and fourth At each stop spank yourself with rubberband
+You are to move all the glasses of water between two locations #DT
+Once you reach a location, unload all the glasses from the tray #DT
+Between each stop spank each of your buttocks 10 times with a large rubberband #DT
+then load the tray again and move to the other location #DT
+Repeat until you hear my bell #DT @Goto(Wait)
+(26) //Kneel by front door
+(27) //Get below table 
+(28) //
+(29) //
+(30) //
+(Wait)
+@RT(Wait for my bell,Wait for the bell,Await the bell,The bell will tell you when you stop,Stop when you hear the bell) #DT
+@RT(Go,Begin,Start) #DT
+@Flag(Personality1) @NullResponse @Wait(#Random(60,180))
+@Flag(Personality2) @NullResponse @Wait(#Random(85,220))
+@Flag(Personality3) @NullResponse @Wait(#Random(120,260))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(10) @Goto(ChoosePlay)
+(Wait2Bell)
+When you hear the bell twice in a row come back #DT
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(Random(10,20))
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(1)
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(10) @Goto(ChoosePlay)
+(Wait3Slideshow)
+@NullResponse @ShowImage @Wait(3)
+@NullResponse @ShowImage @Wait(3)
+@NullResponse @ShowImage @Wait(3) @Chance95(Wait3Slideshow) 
+@NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(10) @Goto(ChoosePlay)
+(IFailed)
+Noted. #DT @ChangeVar[SModule4Fail]=[SModule4Fail]+[1] @CustomMode(i failed, Goto, IFailed) @Goto(ChoosePlay)
+(End) //How much water was lost, how many fails
+Well #SlaveName #DT
+@RT(We're at the end!,It seems we're at an end #GNMGrin) #DT
+@Variable[SModule4Fail]>[10] I cant believe you failed more than 10 times.. #DT
+@Variable[SModule4Fail]>[10] I am disappointed.. #MeritChangeNHigh #DT @Goto(WaterDrop)
+@Variable[SModule4Fail]>[7] More than 7 failures... #DT
+@Variable[SModule4Fail]>[7] I expected more from you! #MeritChangeNMedium #DT @Goto(WaterDrop)
+@Variable[SModule4Fail]>[4] You had more than 4 failures.. #DT
+@Variable[SModule4Fail]>[4] You need to do better.. #MeritChangeNLow #DT @Goto(WaterDrop)
+Less than 5 failures!  #DT
+Good! #DT #MeritChangePLow
+(WaterDrop)
+@RT(Did you drop water during these exercises?,Did you drop any water during the exercises?) #DT
+[yes]Well.. #DT
+[no]#GNMGood #DT @Goto(Continue3)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(I need you to,Right now you have to) measure the amount of water left #DT @Wait(40)
+(Continue4)
+So tell me #SlaveName #DT
+How much water is there left? #DT @InputVar[SumOfWater2]
+@NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]*[100]
+@NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]/[SumOfWater]
+@NullResponse @If[SumOfWater2]>=[25] @NullResponse @Goto(Bad1)
+You lost @ShowVar[SumOfWater2] % water #DT
+Which I can tolerate.. #DT @Goto(Continue3)
+(Bad1)
+You lost @ShowVar[SumOfWater2] % water #DT
+Which is way above acceptable #SlaveName! #DT #MeritChangeNHigh
+Do. Better. #DT
+(Continue3)
+@End
+
+SlaveTraining:
+
+Tray with a glass of water:
+Simple stand
+Stand with electro
+Stand with pegs
+stand with parachute
+stand on toes
+
+Kneel with the tray and stand up again
+Carry glasses of water from 1 spot to another while wearing, being crippled
