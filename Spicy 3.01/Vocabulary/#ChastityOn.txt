@@ -1,3 +1,0 @@
-@ShowImage[\GNMImages\Chastity\ChastityOn\*.jpg]
-@ShowImage[\GNMImages\Chastity\ChastityOn\*.png]
-@ShowImage[\GNMImages\Chastity\ChastityOn\*.gif]

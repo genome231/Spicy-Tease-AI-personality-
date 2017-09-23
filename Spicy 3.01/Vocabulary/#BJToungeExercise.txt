@@ -1,1 +1,0 @@
-@PlayAudio[\GNMSounds\Modules\BJTraining\BJToungeExercise\*.mp3] @Wait(#Random(3,10)) @ChangeVar[BJTraining]=[BJTraining]-[1]

@@ -1,5 +1,0 @@
-@RT(Stop stroking,Take a break,Pause,Stop stroking for a moment,Take a short break,Pause it!) #SlaveName #MeritChangeNLow #DT @StopStroking
-@RT(Just relax from that edge until I make you start stroking again,Calm yourself,Breathe,Relax for a moment,Calm down,Take a few deep breaths) #DT
-@NullResponse @Wait(#Random(10,30))
-@RT(And we're starting again,Start stroking,Start stroking again,And resuming..,We're starting again) #Grin #DT @ResumeAvoidTheEdge
-@End

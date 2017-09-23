@@ -1,6 +1,0 @@
-@Flag(BGImage1Active) @ShowImage[\GNMImages\GNMBackground\BackgroundBase1.jpg]
-@Flag(BGImage1NNActive) @ShowImage[\GNMImages\GNMBackground\BackgroundBase1NN.jpg]
-@Flag(BGImage2Active) @ShowImage[\GNMImages\GNMBackground\BackgroundBase2.jpg]
-@Flag(BGImage2NNActive) @ShowImage[\GNMImages\GNMBackground\BackgroundBase2NN.jpg]
-@Flag(BGImage3Active) @ShowImage[\GNMImages\GNMBackground\BackgroundBase3.jpg]
-@Flag(BGImage3NNActive) @ShowImage[\GNMImages\GNMBackground\BackgroundBase3NN.jpg]

@@ -1,2 +1,0 @@
-@PlayAudio[\GNMSounds\Punishment\SpankingTask\50Strikes\Spank50.mp3] @ChangeVar[SpankingCount]=[SpankingCount]+[50] @Wait(83)
-@RT(fast,quick ones,speedy ones)! @PlayAudio[\GNMSounds\Punishment\SpankingTask\50Strikes\Spank50Fast.mp3] @ChangeVar[SpankingCount]=[SpankingCount]+[50] @Wait(40)

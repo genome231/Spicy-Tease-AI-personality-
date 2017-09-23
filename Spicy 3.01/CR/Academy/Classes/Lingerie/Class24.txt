@@ -1,9 +1,0 @@
-Lets get into.. #DT
-Basques! #DT
-Spend a few minutes reading about the subject #DT
-Come back when you hear my bell #DT @Wait(#Random(120,180))
-Get back here #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
-Now I just wanna show you a little video.. #DT
-@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\Class5\*.mp4]
-Time for a recess #DT
-@End

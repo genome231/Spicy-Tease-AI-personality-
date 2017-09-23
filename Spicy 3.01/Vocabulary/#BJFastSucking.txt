@@ -1,1 +1,0 @@
-@PlayAudio[\GNMSounds\Modules\BJTraining\BJFastSucking\FastSuck1min.mp3] @Wait(60) @ChangeVar[BJTraining]=[BJTraining]-[6]

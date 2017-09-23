@@ -1,3 +1,0 @@
-@Variable[ButtPlugLevel]>=[2] medium buttplug @ShowImage[GNMImages\Toys\ButtPlugs.jpg]
-@Variable[ButtPlugLevel]>=[3] big buttplug @ShowImage[GNMImages\Toys\ButtPlugs.jpg]
-small buttplug @ShowImage[GNMImages\Toys\ButtPlugs.jpg]

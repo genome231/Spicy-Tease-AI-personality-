@@ -1,1 +1,0 @@
-@Flag(HomeWorkLingerie) @RT(I want you to spend 5 minutes writing all you can about some of the subjects of today,Make sure to watch a few clips on youtube about the subjects of today)

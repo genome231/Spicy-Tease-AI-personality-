@@ -1,4 +1,0 @@
-Mmmm @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
-*moans softly* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3] 
-*Moans and smiles at you* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
-*Moans* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]

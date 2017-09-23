@@ -1,8 +1,0 @@
-Good @PlayAudio[/GNMSounds/QuestionAndShortWords/Good/*.mp3]
-Very good @PlayAudio[/GNMSounds/QuestionAndShortWords/Good/*.mp3]
-Excellent @PlayAudio[/GNMSounds/QuestionAndShortWords/Good/*.mp3]
-Perfect
-Great @PlayAudio[/GNMSounds/QuestionAndShortWords/Good/*.mp3]
-Marvelous
-Wonderful
-Splendid

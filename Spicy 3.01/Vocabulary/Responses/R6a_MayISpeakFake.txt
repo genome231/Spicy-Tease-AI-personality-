@@ -1,9 +1,0 @@
-[permission to talk,permission to speak,may i talk,may i speak,can i speak,can i talk,may i ask something,may i say something]
-[All]
-@Flag(Session) @RT(tsk tsk,hmpf) @RT(Forgetting to say please are we?,Well forgetting to say please..,Not when you forget your manners,No since you've forgotten your manners) @SetDate(Spoken, 0 Minutes) #MeritChangeNLow #DT
-@Flag(Session,Busy) @NullResponse
-@Flag(Academy) @RT(No you may not #SlaveName,Not right now #SlaveName,Absolutely not #SlaveName) #MeritChangeNLow #DT
-@Flag(Academy,Busy) @NullResponse
-@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Being a virtual assistant I'm not capable of having a conversation,Speak I dont care..,Just speak I dont really care..) #MeritChangeNLow
-@Flag(Assistant,Busy) @NullResponse
-[All End]

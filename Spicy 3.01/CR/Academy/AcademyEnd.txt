@@ -1,9 +1,0 @@
-Bye Slaves #DT
-Cya soon! #DT
-@NullResponse @AddDomme @SetFlag(DommeActive)
-@Flag(Glitter1Active) @NullResponse @RemoveContact1 @DeleteFlag(Glitter1Active)
-@Flag(Glitter2Active) @NullResponse @RemoveContact2 @DeleteFlag(Glitter2Active)
-@Flag(Glitter3Active) @NullResponse @RemoveContact3 @DeleteFlag(Glitter3Active)
-@NullResponse @DeleteFlag(Academy)
-@NullResponse @TempFlag(Assistant)
-@NullResponse @Interrupt(GNMBackgroundBase)

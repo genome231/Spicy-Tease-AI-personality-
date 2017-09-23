@@ -1,2 +1,0 @@
-@Variable[BlowjobLevel]>[15] @PlayAudio[\GNMSounds\Modules\BJTraining\BJLightSucks\MediumSuck1min.mp3] @Wait(60) @ChangeVar[BJTraining]=[BJTraining]-[6]
-@PlayAudio[\GNMSounds\Modules\BJTraining\BJLightSucks\MediumSuck15sec.mp3] @Wait(15) @ChangeVar[BJTraining]=[BJTraining]-[2]

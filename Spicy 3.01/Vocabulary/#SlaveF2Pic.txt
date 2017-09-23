@@ -1,4 +1,0 @@
-@Flag(F2Pic1) @ShowImage[\GNMImages\Slaves\F2 Brook Amelia Wright\1\*.jpg]
-@Flag(F2Pic2) @ShowImage[\GNMImages\Slaves\F2 Brook Amelia Wright\2\*.jpg]
-@Flag(F2Pic3) @ShowImage[\GNMImages\Slaves\F2 Brook Amelia Wright\3\*.jpg]
-@Flag(F2Pic4) @ShowImage[\GNMImages\Slaves\F2 Brook Amelia Wright\4\*.jpg]

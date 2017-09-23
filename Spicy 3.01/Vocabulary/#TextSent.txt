@@ -1,1 +1,0 @@
-@ShowImage[\GNMImages\Texting\OutcomeGeneral\Sent.jpg]

@@ -1,4 +1,0 @@
-@Flag(F1Pic1) @ShowImage[\GNMImages\Slaves\F1 Alice Brookes\1\*.jpg]
-@Flag(F1Pic2) @ShowImage[\GNMImages\Slaves\F1 Alice Brookes\2\*.jpg]
-@Flag(F1Pic3) @ShowImage[\GNMImages\Slaves\F1 Alice Brookes\3\*.jpg]
-@Flag(F1Pic4) @ShowImage[\GNMImages\Slaves\F1 Alice Brookes\4\*.jpg]
