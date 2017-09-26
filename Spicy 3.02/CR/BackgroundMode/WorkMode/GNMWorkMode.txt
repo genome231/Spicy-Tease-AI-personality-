@@ -6,6 +6,7 @@
 [no]@NullResponse @DeleteFlag(WTeasesActive)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP (WExercisesActive)
+[yes]@NullResponse @SetFlag(WExercisesActive)
 [no]@NullResponse @DeleteFlag(WExercisesActive)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @FlagOr(WTeasesActive,WExercisesActive) @NullResponse @Goto(Breaks)
