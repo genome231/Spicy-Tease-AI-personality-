@@ -1,4 +1,4 @@
-@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Guess who's not cumming today!,Guess who wont be orgasming today!,Can you figure out who wont cum today?) @FollowUp20(*Hehe*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Guess who's not cumming today!,Guess who won't be orgasming today!,Can you figure out who won't cum today?) @FollowUp20(*Hehe*) #StrokeNormal
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(You are right! Its you!,Its you silly!,Orcourse its you!) @RT(I mean who else who it be?,ofcourse it could had been another one of my slaves) @FollowUp20(*Smiles*)
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(There is something special about humiliation,There is something magical about a spanking,Do you feel the magical thing about ballbusting) @FollowUp20(...) #StrokeNormal
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Its impossible to explain,I can't really explain it,Maybe i'm a sorceress!) and maybe @RT(you'll feel some of that magic,we'll practice it) today @FollowUp20(*Grin*)
@@ -82,7 +82,7 @@
 @NullResponse @ShowImage
 @NullResponse @ShowImage
 @NullResponse @ShowImage
-@Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Guess who's not cumming today!,Guess who wont be orgasming today!,Can you figure out who wont cum today?) @FollowUp20(*Hehe*) 
+@Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Guess who's not cumming today!,Guess who won't be orgasming today!,Can you figure out who won't cum today?) @FollowUp20(*Hehe*) 
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(You are right! Its you!,Its you silly!,Orcourse its you!) @RT(I mean who else who it be?,ofcourse it could had been another one of my slaves) @FollowUp20(*Smiles*)
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(There is something special about humiliation,There is something magical about a spanking,Do you feel the magical thing about ballbusting) @FollowUp20(...) 
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Its impossible to explain,I can't really explain it,Maybe i'm a sorceress!) and maybe @RT(you'll feel some of that magic,we'll practice it) today @FollowUp20(*Grin*)

@@ -76,7 +76,7 @@ The game stops whenever you say "stop" #DT4
 Now before we even begin I will have picked a random number #DT4
 If the number of times I said "tigthen" is HIGHER than the random number i chose #DT4
 You win.. #DT4
-If not this wont count as a punishment and I will claim a small fee.. #DT4
+If not this won't count as a punishment and I will claim a small fee.. #DT4
 You need to be aware of one thing! #DT4
 When you say stop you have to last full 2 minutes before you have permission to release the pressure.. #DT4
 If you can't last 2 minutes it will also count as a failed punishment.. #DT4 @CustomMode(stop, Goto, Stop)

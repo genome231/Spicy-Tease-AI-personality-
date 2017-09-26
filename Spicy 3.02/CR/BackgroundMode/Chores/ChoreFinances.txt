@@ -172,7 +172,7 @@
 @SystemMessage #VANC #VANP @RT(don't do this too often..,Try to stay within the budgets..)
 @End
 (Bad)
-@SystemMessage #VANC #VANP #DomHonorific #DomName wont be happy when I tell her... #MeritChangeNLow @SetFlag(FinanceBad) @ChangeVar[FinanceOffence]=[FinanceOffence]=[1]
+@SystemMessage #VANC #VANP #DomHonorific #DomName won't be happy when I tell her... #MeritChangeNLow @SetFlag(FinanceBad) @ChangeVar[FinanceOffence]=[FinanceOffence]=[1]
 @NullResponse @If[FinanceOffence]>=[15]Then(Bad15)
 @NullResponse @If[FinanceOffence]>=[10]Then(Bad10)
 @NullResponse @If[FinanceOffence]>=[5]Then(Bad5)

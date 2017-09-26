@@ -1,4 +1,4 @@
-[wont eat cum,will not eat cum,not eat cum,never eat cum,never eat my cum,i don't want to eat cum]
+[won't eat cum,will not eat cum,not eat cum,never eat cum,never eat my cum,i don't want to eat cum]
 [All]
 @Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\Rebel\R5e.txt)
 @Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow

@@ -59,7 +59,7 @@ So #SlaveName .. #DT4
 I'm grounding you to your computer with a rather simple task.. #DT4
 I'm turning the screen black #DT4
 Every once in a while a few numbers will appear and you will have exactly 5 seconds to write back the number colored red #DT4
-If not I promise you your #DomHonorific wont be happy.. #DT4
+If not I promise you your #DomHonorific won't be happy.. #DT4
 And ohh.. #DT4
 Its gonna cost you 10 gold and the punishment prolonges #DT4 @SetVar[Timer]=[0]
 Enjoy! #DT4 @CountVar[Timer]

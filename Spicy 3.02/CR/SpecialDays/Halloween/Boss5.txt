@@ -20,7 +20,7 @@
 @SystemMessage You drop them to the ground and walk away
 @SystemMessage Only a moment later they melt
 @SystemMessage You soon realize the floor is made of molten equipment from previous encounters
-@SystemMessage You wont win this battle with weapons anyway you think
+@SystemMessage You won't win this battle with weapons anyway you think
 @SystemMessage This is death
 @Flag(GoodQ2) @SystemMessage you hear a whisper.. "Patience will be victorious" 
 @SystemMessage No physical weapons will hurt her @Timeout(40, Test1)

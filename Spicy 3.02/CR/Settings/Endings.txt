@@ -88,7 +88,7 @@
 @SystemMessage #VANC #VANP Valley of Darkness is a mind game
 @SystemMessage #VANC #VANP A timer is set after which you may cum
 @SystemMessage #VANC #VANP The timer could be short or long
-@SystemMessage #VANC #VANP You wont know
+@SystemMessage #VANC #VANP You won't know
 @SystemMessage #VANC #VANP After each session you will be given the chance to say if this is your lucky day or not
 @SystemMessage #VANC #VANP If you are correct you will be allowed to cum
 @SystemMessage #VANC #VANP If the timer hasn't expired yet it will be prolonged by a secret ammount
@@ -215,7 +215,7 @@
 @SystemMessage #VANC #VANP There is a 12 hour interval within an interval of 2 to 5 days
 @SystemMessage #VANC #VANP If you roll the dices in that interval you will be asked if you wish to try your luck
 @SystemMessage #VANC #VANP If you try your luck you will stroke a number of times equal to your total number
-@SystemMessage #VANC #VANP Fail to cum with the given number of strokes and you wont cum
+@SystemMessage #VANC #VANP Fail to cum with the given number of strokes and you won't cum
 @SystemMessage #VANC #VANP You may not decide the stroking pace yourself
 @SystemMessage #VANC #VANP If you try your luck you will roll a final die that decies the pace for you
 @FlagOr(Personality1,Personality2) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get tripled

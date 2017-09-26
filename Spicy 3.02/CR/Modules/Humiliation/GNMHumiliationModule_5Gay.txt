@@ -84,7 +84,7 @@ Place it somewhere on your body, it doesn't go anywhere until this game ends!
 (LezdomStop2) chastity
 Oh my oh my! @CheckFlag(HasChastity)
 This game is at an end
-But now you wont be touching that #GNMCock for 2 days! @SetFlag(ChastityIsOn) @ChastityIsOn @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
+But now you won't be touching that #GNMCock for 2 days! @SetFlag(ChastityIsOn) @ChastityIsOn @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
 #GNMLol
 The look on your face! #GNMEmoteHappy @Goto(End)
 (HasChastity)

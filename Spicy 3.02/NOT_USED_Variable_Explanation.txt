@@ -1,7 +1,27 @@
+Flags:
 FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
 FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
+Day(x)Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
+and updated in CR\End\RunEndDayCheck.txt
+
+Variables:
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
+Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
 
-#TODO: Does calling variables like #MeritChangeNHigh really executed the whole script?
-#TODO: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
+Dates:
+Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
+DevotionSet -> Amount of minutes a session should last
+TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
+TimeSinceO -> Last time slave had an orgasm
+TimeSinceR -> Last time slave had a ruined orgasm
+
+#WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
+#WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
+
+
+Notes about scripting:
+@Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
+@FlagOr continues of one of the flags exist @FlagOr(test1, test2, test3)
+Behaviour with vocabs: Picked randomly between all lines that are "true"/valid (flag checks etc.)
+

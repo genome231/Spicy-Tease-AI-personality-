@@ -1,4 +1,4 @@
-@RT(This class wont be much fun,There will be little fun in today's class,None of you will be enjoying the class) #DT
+@RT(This class won't be much fun,There will be little fun in today's class,None of you will be enjoying the class) #DT
 @RT(I simply want you to read about:,All you have to do is read about:,I just want you to read about:) #DT
 Negligees, Nightgowns, Slips & teddys #DT
 After that I want you to google images of the different articles  #DT

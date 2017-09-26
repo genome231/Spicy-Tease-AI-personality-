@@ -29,7 +29,7 @@ Now lets see about that ejaculation #DT @Goto(Ruined,Orgasm)
 Which is below the pricerange of any offer related to you ejaculating #GNMGrin #DT @Goto(Deny)
 (FDRange2)
 Which is less than you have.. #DT
-So I guess there wont be any deal today #GNMGrin #DT @Goto(Deny)
+So I guess there won't be any deal today #GNMGrin #DT @Goto(Deny)
 (Orgasm)
 @NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
 (Ruined)

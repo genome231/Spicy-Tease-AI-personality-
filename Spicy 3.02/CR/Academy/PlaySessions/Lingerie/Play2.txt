@@ -4,7 +4,7 @@
 #SlaveM1Chat Hi
 #SlaveF1Chat Remove your chastity belts @Wait(60)
 #SlaveF1Chat Well Lets not waste a class but instead have a little fun
-#SlaveF1Chat Now you're both gonna do as I say or you wont like the consequences one bit!
+#SlaveF1Chat Now you're both gonna do as I say or you won't like the consequences one bit!
 #SlaveF1Chat We're gonna have a little contest #GNMGrin
 #SlaveF1Chat I'm gonna give you different paces @SetVar[SlaveLimit]=[SlaveM1Endurance]
 #SlaveF1Chat You must stroke until you reach the edge @ChangeVar[SlaveLimit]=[SlaveLimit]+[SlaveM1Endurance]

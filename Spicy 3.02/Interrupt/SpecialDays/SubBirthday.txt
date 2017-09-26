@@ -42,7 +42,7 @@ Go fetch a wooden spoon #SlaveName @Wait(20)
 @NullResponse @Chance90(NutCrack)
 That was fun! #GNMGrin @Goto(Spanking2,Stroking2)
 (Spanking)
-I wont mind spanking your #GNMAss !!
+I won't mind spanking your #GNMAss !!
 Suddenly I feel like it's my birthday! #GNMGrin @Goto(Spanking2)
 
 

@@ -94,13 +94,13 @@
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @RT(As you well know,As you know,As you should know,Oh well,Oh my,Poor you) @LockImages #ChastityOffDenied @Wait(5)
 @RT(You're under strict lockdown,You're strictly locked,You're not to be released,You are still being punished,You're serving a punishment) @Wait(5)
-@RT(Meaning there will be no release from that #Cage..,Meaning you wont be released for this session,So there wont be any release) @UnlockImages @Wait(5)
+@RT(Meaning there will be no release from that #Cage..,Meaning you won't be released for this session,So there won't be any release) @UnlockImages @Wait(5)
 @End
 (Denial2)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
-@RT(I don't think you should be unlocked,You wont be unlocked today,There wont any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
+@RT(I don't think you should be unlocked,You won't be unlocked today,There won't any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
 @RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) #DT @Wait(5)
-@RT(Enjoy,Maybe its better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
+@RT(Enjoy,Maybe it's better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
 @End
 (PlayTest)
 @NullResponse @SetVar[Choice]=[0]

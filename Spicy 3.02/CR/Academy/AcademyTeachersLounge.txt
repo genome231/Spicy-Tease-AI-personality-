@@ -40,7 +40,7 @@
 [first] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
 [second] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
 [third] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
-[can't choose,wont choose,won't choose,can't choose]@RandomContact @RT(Aww aren't you sweet,Such a sweet heart!) #DT4 @Goto(Chance2)
+[can't choose,won't choose,won't choose,can't choose]@RandomContact @RT(Aww aren't you sweet,Such a sweet heart!) #DT4 @Goto(Chance2)
 [you are all beautiful,you all look fantastic,you are all so beautiful]@RandomContact @RT(Aren't you adorable!,#GNMGrin) #DT4 @Goto(Chance2)
 @DifferentAnswer @RandomContact First, second or third? #DT4
 (Chance2)
@@ -102,7 +102,7 @@
 (Cum3)
 @RandomContact #SlaveName #DT4
 @RandomContact @RT(If you want to cum today,If you want to ejaculate today) #DT4
-@RandomContact @RT(It wont be an orgasm,It wont be while orgasming) #DT4
+@RandomContact @RT(It won't be an orgasm,It won't be while orgasming) #DT4
 @RandomContact @RT(It will be ruined,But rather a ruined one) #DT4
 @RandomContact @RT(Empty,Pointless) #DT4
 @RandomContact @RT(Ejaculation) #DT4

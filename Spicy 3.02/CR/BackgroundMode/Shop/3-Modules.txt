@@ -31,7 +31,7 @@
 @NullResponse @RapidTextOff
 @SystemMessage #VANC #VANP Here you can buy updates for different modules
 @SystemMessage #VANC #VANP Unlocking features inside your modules
-@SystemMessage #VANC #VANP You wont know how they are updated
+@SystemMessage #VANC #VANP You won't know how they are updated
 @SystemMessage #VANC #VANP That is for you to discover
 @SystemMessage #VANC #VANP You only know to which category you get these updates
 @SystemMessage #VANC #VANP Each update pack is 500 gold

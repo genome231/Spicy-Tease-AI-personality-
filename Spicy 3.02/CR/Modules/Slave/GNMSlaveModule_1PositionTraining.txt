@@ -36,10 +36,10 @@ Worship @ShowImage[\GNMImages\Positions\Worship1.jpg] @Wait(3)
 @RT(We're keeping it simple today,We're gonna do something simple,I'm gonna make you do something simple,This should be easy,This shouldn't be too hard) #DT
 @RT(I'm gonna show you a position,I'll show you a position,In a moment you'll see a position,In just a second I'm showing you a position,I'm showing you a position in a little moment) #DT
 @RT(I'll explain it in as much detail as needed,I'll tell you as much as possible,I'll go into a few details about it) #DT
-@RT(To make sure you understand it fully,So I'm sure you wont have any excuses,So we both know you understand it completely!,This way you wont have any excuses..) #DT
+@RT(To make sure you understand it fully,So I'm sure you won't have any excuses,So we both know you understand it completely!,This way you won't have any excuses..) #DT
 @RT(When I'm done explaining,Once I've finished explaining,After I've explained it properly,Once it has been explained properly) #DT
 @RT(You're going to take the position,Your gonna take the position,You will take the position) #DT
-@RT(And you wont break it until you hear my bell,And you'll keep the position until the sound of my bell,And only once you hear my bell may you break it..) #DT
+@RT(And you won't break it until you hear my bell,And you'll keep the position until the sound of my bell,And only once you hear my bell may you break it..) #DT
 Understood? #DT @Timeout(10,Passed1)
 [yes]#GNMGood #DT #MeritChangePLow @Goto(Continue2)
 [no]don't take me for a fool #DT! #MeritChangeNMedium @Goto(Continue2)

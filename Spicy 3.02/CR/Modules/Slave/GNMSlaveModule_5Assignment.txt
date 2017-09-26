@@ -200,7 +200,7 @@ I asked you to read the house rules every day for a week #DT @Goto(Honest)
 I asked you spend a few minutes in the corner for a week thinking about your service to me #DT @Goto(Honest)
 (Honest)
 @RT(Now be honest,I need you to be honest,Please be honest with me) #DT
-@RT(I wont be mad,I wont get mad about this,I wont be angry with you) #DT
+@RT(I won't be mad,I won't get mad about this,I won't be angry with you) #DT
 @RT(Remember that the task wasn't mandatory,The assignment wasn't mandatory) #DT
 Did you complete it? #DT
 [yes]#GNMGood #DT #MeritChangePMedium @Goto(Reward)

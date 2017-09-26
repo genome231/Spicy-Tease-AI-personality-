@@ -1,6 +1,6 @@
 (BeadsDeep)
 @Flag(SkipNextBead) @RT(Well you drew a red bead the last time,You drew a red bead the last time,Last time you drew a red bead) #DT
-@Flag(SkipNextBead) @RT(So no draw today,So there wont be a draw today,So no drawing today) @RT(#GNMLol,#GNMGrin) #DT @DeleteFlag(SkipNextBead) @Goto(ChastityCheck)
+@Flag(SkipNextBead) @RT(So no draw today,So there won't be a draw today,So no drawing today) @RT(#GNMLol,#GNMGrin) #DT @DeleteFlag(SkipNextBead) @Goto(ChastityCheck)
 @RT(Its time to draw a bead,Lets draw a bead!,Time to draw a bead,Time for you to draw a bead..) @RT(#SlaveName,#SubName) #DT
 @Variable[WhiteBeads]>[1] @RT(You have,Currently you have,At this point you have) @ShowVar[WhiteBeads] white beads #DT
 @Variable[WhiteBeads]=[1] @RT(You have,Right now you have,Currently you have) @ShowVar[WhiteBeads] white bead #DT

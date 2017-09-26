@@ -6,7 +6,7 @@
 @SystemMessage #VANC #VANP You will do as instructed 
 @SystemMessage #VANC #VANP After each exercise session I will ask you about how many exercises you managed to do
 @SystemMessage #VANC #VANP Answer truthfully 
-@SystemMessage #VANC #VANP I wont punish you for failing 
+@SystemMessage #VANC #VANP I won't punish you for failing 
 @SystemMessage #VANC #VANP Depending on your answer you earn points
 @SystemMessage #VANC #VANP I use these points to set the exercise difficuilty to a level suiting you 
 @SystemMessage #VANC #VANP So don't worry if you feel like its too easy the first few times

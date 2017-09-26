@@ -248,7 +248,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Slave I don't care if you sleep with your cage
 @SystemMessage #VANC #VANP I think you should since it would constantly remind you who you belong to
-@SystemMessage #VANC #VANP But you wont be forced to
+@SystemMessage #VANC #VANP But you won't be forced to
 @SystemMessage #VANC #VANP When it comes to exercise I understand that performing it while caged isn't easy
 @SystemMessage #VANC #VANP So I'm not gonna force this on you either
 @SystemMessage #VANC #VANP But again it would make me and your #DomHonorific happy if you did

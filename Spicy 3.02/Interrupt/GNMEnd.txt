@@ -9,7 +9,7 @@
 @NullResponse @AFKOff
 @NullResponse @CheckFlag(ChastityTrainingActive)
 @NullResponse @CheckFlag(ChastityIsOn)
-(SelectGame)
+(SelectGame) //Check for games that are supposed to occur when session is ended
 @Flag(BeadsDeep) @NullResponse @CallReturn(CR\End\Games\BeadsDeep.txt)
 @Flag(ValleyOfDarkness) @NullResponse @CallReturn(CR\End\Games\ValleyOfDarkness.txt)
 @Flag(EdgeOfDesperation) @NullResponse @CallReturn(CR\End\Games\EdgeOfDesperation.txt)
@@ -29,12 +29,12 @@
 @RT(We're stopping now!,We're going to stop now #GNMGrin,We're at the end!) #DT @Got(Farewell)
 (ChastityIsOn2)
 @RT(Since you've had a session in chastity,Because this session was in chastity,Due to your chastity today) #DT
-@RT(There wont any chance of any release,You wont get to to enjoy any kind of release,You can bet there wont be any form of release today!) #DT
+@RT(There won't any chance of any release,You won't get to to enjoy any kind of release,You can bet there won't be any form of release today!) #DT
 @NullResponse @CallReturn(CR\End\ChastityOff.txt)
 (ChastityPunishment)
 @RT(As you well know #SlaveName,As you should well know,As is well known,Well) #DT
-@RT(You're currently serving a chastity setence,You are right now being punished) #DT
-@RT(So there wont be any funny business today!,So absolutely no chance of you cumming!) #DT @Goto(ChastityCheck)
+@RT(You're currently serving a chastity sentence,You are right now being punished) #DT
+@RT(So there won't be any funny business today!,So absolutely no chance of you cumming!) #DT @Goto(ChastityCheck)
 **********************************************Chastity*************************************************** //If chastity is active
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)
@@ -42,3 +42,6 @@
 @NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
 (Farewell)
 @NullResponse @CallReturn(CR\End\Farewell.txt)
+
+########################## - Comment - ##########################
+#Called when the tease is ended
