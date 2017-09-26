@@ -4,7 +4,7 @@
 @Flag(DommeActive) @RemoveDomme @DeleteFlag(DommeActive)
 @NullResponse @CheckFlag(FirstTimeTeachersLounge) @SetFlag(FirstTimeTeachersLounge)
 @RandomContact @RT(Welcome #SubName to the teacher lounge!,Hi and welcome to our breakroom..)  #DT4
-@RandomContact Normally we dont welcome students in here  #DT4
+@RandomContact Normally we don't welcome students in here  #DT4
 @RandomContact But due to your good behaviour today  #DT4
 @RandomContact We're making an exception #GNMGrin  #DT4
 (FirstTimeTeachersLounge)
@@ -21,7 +21,7 @@
 @RandomContact @RT(Than you do free,, satisfied and relaxed,Than feeling the sweet sensation of orgasm!) #DT4
 @RandomContact @RT(Interesting,Arousing really..) #DT4
 @RandomContact @RT(Pick up the stroking pace a little bit,Stroke just a tad faster) #DT4 #SlaveName
-@RandomContact @RT(Well since you dont really want to orgasm,Well we do have something else you can do!) #DT4
+@RandomContact @RT(Well since you don't really want to orgasm,Well we do have something else you can do!) #DT4
 @RandomContact @RT(Then I think we'll just reward you with some edges,Edging!) #DT4 #GNMGrin
 @MultipleEdges(4,#Random(5,10))
 @RandomContact #GNMGrin #DT4
@@ -40,7 +40,7 @@
 [first] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
 [second] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
 [third] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
-[cant choose,wont choose,won't choose,can't choose]@RandomContact @RT(Aww aren't you sweet,Such a sweet heart!) #DT4 @Goto(Chance2)
+[can't choose,wont choose,won't choose,can't choose]@RandomContact @RT(Aww aren't you sweet,Such a sweet heart!) #DT4 @Goto(Chance2)
 [you are all beautiful,you all look fantastic,you are all so beautiful]@RandomContact @RT(Aren't you adorable!,#GNMGrin) #DT4 @Goto(Chance2)
 @DifferentAnswer @RandomContact First, second or third? #DT4
 (Chance2)
@@ -65,7 +65,7 @@
 @RandomContact @RT(Cum!,Orgasm!) #DT4 @SetDate(DaysSinceO, 0 Days)
 @RandomContact Cum into those panties! #DT4 @SetDate(DaysSinceE, 0 Days) @Wait(10)
 @RandomContact @RT(In your mouth!,Now put them in your mouth!) #DT4
-@RandomContact @RT(Dont think,Dont look) just do it #DT4
+@RandomContact @RT(don't think,don't look) just do it #DT4
 @RandomContact @RT(Keep them in there!,They stay inside your mouth!) #DT4 @Wait(5)
 @RandomContact #GNMGrin #DT4
 @RandomContact @RT(You look funny,You look a little funny) #SlaveName #DT4
@@ -106,7 +106,7 @@
 @RandomContact @RT(It will be ruined,But rather a ruined one) #DT4
 @RandomContact @RT(Empty,Pointless) #DT4
 @RandomContact @RT(Ejaculation) #DT4
-@RandomContact @RT(Slaves shouldn't enjoy orgasms too frequently,It's important that slave dont enjoy orgasms) #GNMGrin #DT4
+@RandomContact @RT(Slaves shouldn't enjoy orgasms too frequently,It's important that slave don't enjoy orgasms) #GNMGrin #DT4
 @RandomContact @RT(Would you be willing to do that?,Are you willing to do that?) #DT4
 [yes]@RandomContact #GNMGood #MeritChangePLow #DT4
 [no]@RandomContact Then I suppose you're not desperate enough #GNMGrin #DT4 @Goto(NoChance)

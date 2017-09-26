@@ -164,12 +164,12 @@
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[2500]
 @SystemMessage #VANC #VANP Transaction Complete @SetFlag(Glitter3Bought) @Goto(End)
 (Poor1)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 500 to update modules
 @End
 (Poor2)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 2500 to open up for glitter module control
 @End

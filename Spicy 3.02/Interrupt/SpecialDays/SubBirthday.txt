@@ -18,13 +18,13 @@ I'm wondering if you have any special requests / wishes? #DT
 @AcceptAnswer I'm sorry but I wong fulfill that.. #GNMEmoteSad #DT
 @NullResponse @Goto(Spanking2,Stroking2)
 (Maybe)
-I will seriesly considder it slave!
+I will seriesly consider it slave!
 But first lets have a bit of fun! @Goto(Stroking2,Spanking2)
 (Good)
 You've been a really good boy recently #SlaveName @TempFlag(OGranted)
 So I dare promise that you will orgasm today! @Goto(Stroking2,Spanking2) 
 (RuinO)
-If a ruined orgasm is all you want I dont see why not #GNMGrin @TempFlag(RGranted)
+If a ruined orgasm is all you want I don't see why not #GNMGrin @TempFlag(RGranted)
 So I dare promise that you will ruin today! @Goto(Stroking2,Spanking2) 
 (Denial)
 It makes me soo happy that you wannna stay denied on your birthday! #DT @TempFlag(DGranted) #MeritChangePHigh
@@ -70,7 +70,7 @@ The odds will be in your favour I promise that!
 @Flag(RGranted) Note that you forfeit your garantied ruin if you choose to gamble!
 So do you want my present or do you wish to choose a number?
 [number] A gambling man! I like that a lot! #MeritChangePHigh @Goto(Number)
-[present] #GNMGrin I dont blame you for that! @Goto(Present1,Present2,Present3)
+[present] #GNMGrin I don't blame you for that! @Goto(Present1,Present2,Present3)
 @DifferentAnswer Number or present?
 
 (Number)

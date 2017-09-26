@@ -1323,8 +1323,8 @@
 @SystemMessage #VANC #VANP You just went through 26 exercises
 (Ask)
 @SystemMessage #VANC #VANP How many of the many exercises do you estimate to have completed to a satisfactory level? @InputVar[ExerciseDone]
-@Variable[ExerciseDone]>[30] @SystemMessage #VANC #VANP You cant choose a number higher than 26.. @Goto(Ask)
-@Variable[ExerciseDone]<[0] @SystemMessage #VANC #VANP You cant choose a number lower than 0.. @Goto(Ask)
+@Variable[ExerciseDone]>[30] @SystemMessage #VANC #VANP You can't choose a number higher than 26.. @Goto(Ask)
+@Variable[ExerciseDone]<[0] @SystemMessage #VANC #VANP You can't choose a number lower than 0.. @Goto(Ask)
 @Variable[ExerciseDone]>[0] @NullResponse @Goto(Continue2)
 @SystemMessage #VANC #VANP You must choose a simple number.. like
 @SystemMessage #VANC #VANP 10

@@ -28,5 +28,5 @@
 @End
 (End3)
 @SystemMessage #MxChat2 I'm gonna be merciful this time #MxChat @ChangeVar[TotalSpanking]=[TotalSpanking]+[SpankingCount]
-@SystemMessage #MxChat2 Dont expect me to show kindness again! #MxChat
+@SystemMessage #MxChat2 don't expect me to show kindness again! #MxChat
 @End

@@ -35,7 +35,7 @@ In fact.. #DT @Goto(ChastityCheck)
 (EndSlow)
 Stop all stimulation #DT @CustomMode(ModeText, Normal)
 This is taking to long #SlaveName #DT
-I dont have all day.. #DT @Goto(ChastityCheck)
+I don't have all day.. #DT @Goto(ChastityCheck)
 (AteCheck)
 @NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)

@@ -3,7 +3,7 @@
 @Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\TeaseRelated\R3d.txt)
 @Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
 @Flag(Session,Busy) @NullResponse
-@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(You shouldn't be stroking at all,I dont want you stroking in the academy!,No stroking in class!) #SlaveName
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(You shouldn't be stroking at all,I don't want you stroking in the academy!,No stroking in class!) #SlaveName
 @Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
 @Flag(Academy,Busy) @NullResponse
 @Flag(Assistant) @NullResponse

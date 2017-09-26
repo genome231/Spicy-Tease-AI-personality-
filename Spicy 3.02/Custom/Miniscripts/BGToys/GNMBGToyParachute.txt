@@ -36,10 +36,10 @@
 @SystemMessage #GNMVA @Edge #GNMEdge
 @SystemMessage #GNMVA #GNMLetTheEdgeFade
 @SystemMessage #GNMVA #GNMMoan
-@SystemMessage #GNMVA I really think you should considder buying it! #GNMLol
+@SystemMessage #GNMVA I really think you should consider buying it! #GNMLol
 @End
 (FinalQ)
-@SystemMessage #GNMVA Are you abosulutely sure you dont want to buy a parachute?
+@SystemMessage #GNMVA Are you abosulutely sure you don't want to buy a parachute?
 [yes]@SystemMessage #GNMVA I see @Goto(NoMore)
 [no]@SystemMessage #GNMVA Good! @ChangeVar[GNMAskedToBuyParachute2]=[GNMAskedToBuyParachute2]-[3]
 @DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo

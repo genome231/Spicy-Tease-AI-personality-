@@ -17,31 +17,31 @@
 @NullResponse @CheckFlag(MS107)
 @NullResponse @CheckFlag(MS108)
 @NullResponse @CheckFlag(MS109)
-@RT(Not sure I want to discuss that right now,Not today #SlaveName,I dont have time for that today,I dont have time to answer that) #DT @Goto(End)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
 (MS105)Had a bad workout
-@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,Cant say I'm doing great) #DT
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
 @RT(Did a workout yesterday,I was doing a workout yesterday,I was working out yesterday) #DT
 @RT(But I was a bad workout,But it wasn't properly,But it wasn't good - lets just leave it at that..)  #DT
 @End
 (MS106)Gained a bit of weight
-@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,Cant say I'm doing great) #DT
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
 @RT(I've a bit of weight..,I haven't been kind to my body lately,I've gained some fat..) #DT
 @RT(Lets just leave it at that..,End of conversation..) #DT
 @End
 (MS107)Had an argument with a glitter friend
-@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,Cant say I'm doing great) #DT
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
 Had an argument with @RT(#Contact1,#Contact2,#Contact3) recently #DT
 @RT(We're good now,While we're good now) #DT
 @RT(But it still bothers me a little,But I still think about it..) #DT
 @End
 (MS108)Had an argument with a family member
-@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,Cant say I'm doing great) #DT
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
 Had an argument with @RT(a friend,my mother,my father,my sister) recently #DT
 @RT(We're good now,While we're good now) #DT
 @RT(But it still bothers me a little,But I still think about it..) #DT
 @End
 (MS109)Had an argument with lover
-@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,Cant say I'm doing great) #DT
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
 Had an argument with @RT(lover,boyfriend) recently #DT
 @RT(We're good now,While we're good now) #DT
 @RT(But it still bothers me a little,But I still think about it..) #DT
@@ -52,7 +52,7 @@ Had an argument with @RT(lover,boyfriend) recently #DT
 @NullResponse @CheckFlag(MS7)
 @NullResponse @CheckFlag(MS8)
 @NullResponse @CheckFlag(MS9)
-@RT(Not sure I want to discuss that right now,Not today #SlaveName,I dont have time for that today,I dont have time to answer that) #DT @Goto(End)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
 (MS5)//Went to the hairdresser
 @RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
 @RT(Went to my hairdresser,Been at the hairdresser) #DT
@@ -83,7 +83,7 @@ My @RT(boyfriend,lover) gave me the best compliment recently #DT
 @NullResponse @CheckFlag(MS53)
 @NullResponse @CheckFlag(MS54)
 @NullResponse @CheckFlag(MS55)
-@RT(Not sure I want to discuss that right now,Not today #SlaveName,I dont have time for that today,I dont have time to answer that) #DT @Goto(End)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
 (MS51)Bought new lingerie,
 @RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
 @RT(I bought a new set of lingerie!,I just ordered a new set of lingerie) #DT
@@ -103,7 +103,7 @@ My @RT(boyfriend,lover) gave me the best compliment recently #DT
 (MS54)Got a new vibrator
 @RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
 @RT(Got an awesome new vibrator!,Got a really great vibrator!) #DT
-@RT(I cant seem to keep my hands off it,I cant seem to leave it alone) #GNMLol #DT
+@RT(I can't seem to keep my hands off it,I can't seem to leave it alone) #GNMLol #DT
 @End
 (MS55)Got a pair of high heels
 @RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT

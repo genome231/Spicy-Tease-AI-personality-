@@ -4,6 +4,6 @@
 @Flag(Session,Busy) @NullResponse 
 @Flag(Academy) @NullResponse @CallReturn(CR\Responses\Rebel\R5a.txt)
 @Flag(Academy,Busy) @NullResponse
-@Flag(Assistant) @SystemMessage #VANC #VANP @RT(I dont respond well to nasty remarks,Watch your tounge,Be careful how you speak!) #MeritChangeNHigh
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(I don't respond well to nasty remarks,Watch your tounge,Be careful how you speak!) #MeritChangeNHigh
 @Flag(Assistant,Busy) @NullResponse
 [All End]

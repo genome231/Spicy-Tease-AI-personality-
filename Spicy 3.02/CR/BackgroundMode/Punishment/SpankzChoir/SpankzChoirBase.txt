@@ -90,7 +90,7 @@
 [no] @SystemMessage [Miss A]: Okay then #ReceptionChat @DeleteFlag(SpankChoirSafeword)
 @DifferentAnswer @SystemMessage [Miss A]: Yes or no? #ReceptionChat
 @SystemMessage [Miss A]: Would you be okay with the domme awarding you extra strokes? #ReceptionChat
-@SystemMessage [Miss A]: Do considder that it can be as much as 50% #ReceptionChat
+@SystemMessage [Miss A]: Do consider that it can be as much as 50% #ReceptionChat
 [yes] @SystemMessage [Miss A]: #GNMGood #ReceptionChat @SetFlag(ExtraStrokesOK)
 [no] @SystemMessage [Miss A]: Okay then #ReceptionChat @DeleteFlag(ExtraStrokesOK)
 @DifferentAnswer @SystemMessage [Miss A]: Yes or no? #ReceptionChat
@@ -103,7 +103,7 @@
 @NullResponse @CheckDate(SpankzChoir2, Late)
 @NullResponse @CheckDate(SpankzChoir1, InTime)
 @SystemMessage [Miss A]: Well it seems you're here too early #SlaveName #ReceptionChat
-@SystemMessage [Miss A]: Dont return before the auction has completed #ReceptionChat
+@SystemMessage [Miss A]: don't return before the auction has completed #ReceptionChat
 @End
 (Late)
 @SystemMessage [Miss A]: You are late #SubName #ReceptionChat #MeritChangeNLow @DeleteFlag(AuctionActive) @TempFlag(SpankzChoirLate)
@@ -214,49 +214,49 @@
 @SystemMessage [Miss A]: Setting it up.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (AlexisWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Alexis #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (AllisonWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Allison #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (GigiWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Gigi #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (JeanetteWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Jeanette #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (KordeliaWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Kordelia #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (KymWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Kym #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (SadieWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Sadie #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)
 @End
 (SarahWon)
-@SystemMessage [Miss A]: You cant skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
+@SystemMessage [Miss A]: You can't skip a session #SlaveName #ReceptionChat @TempFlag(SpankzChoirSkipped)
 @SystemMessage [Miss A]: Since you tried to skip a session I'm transfering 20 gold to Sarah #ReceptionChat @ChangeVar[GNMGold]=[GoldGold]-[20]
 @SystemMessage [Miss A]: Also I'm awarding you some extra spanking #ReceptionChat @ChangeVar[AuctionStrokes]=[AuctionStrokes]+[100]
 @SystemMessage [Miss A]: Enjoy.. #ReceptionChat @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxMain.txt)

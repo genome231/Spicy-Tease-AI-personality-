@@ -1,5 +1,5 @@
-You cant handle it? #DT
-[yes] @RT(Then why say you cant?,Then why are you saying you cant..) #DT #MeritChangeNLow @Goto(End)
+You can't handle it? #DT
+[yes] @RT(Then why say you can't?,Then why are you saying you can't..) #DT #MeritChangeNLow @Goto(End)
 [no] @RT(Hmm,Well,Okay then) #DT #MeritChangeNLow
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Remember that you can change stuff inside settings,Remember that you can use settings to sort of set the upper limits) #DT

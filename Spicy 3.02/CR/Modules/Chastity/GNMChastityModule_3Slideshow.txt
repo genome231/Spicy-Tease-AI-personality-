@@ -1,6 +1,6 @@
 #SlaveName #DT
-@RT(A girl cant be everywhere at once,But I also have other matters)  #DT
-@RT(Since you're not <i>that</i> much fun,Since you cant stroke it)  #DT
+@RT(A girl can't be everywhere at once,But I also have other matters)  #DT
+@RT(Since you're not <i>that</i> much fun,Since you can't stroke it)  #DT
 @RT(I'm gonna put on a little slideshow,I'll be showing you a little slideshow) #DT
 @RT(You're gonne sit there and watch all of it,You'll be watching all of it!) #DT
 @RT(While I'm a be doing something else..,While I gotta go do something else) #DT

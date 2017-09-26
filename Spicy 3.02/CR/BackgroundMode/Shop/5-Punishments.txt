@@ -29,15 +29,15 @@
 @SystemMessage #VANC #VANP Noted.. @Goto(End)
 (2)\\Spankz choir subscribtion, 250 gold / month
 @Variable[#DateDifference(SpankzChoirSubscribtion, Days)]<=[30] @SystemMessage #VANC #VANP You have an active subscribtion with SpankzChoir.com @Goto(End)
-@Variable[GNMGold]<[250] @SystemMessage #VANC #VANP You dont have the 250 gold needed for a SpankzChoir subscribtion
+@Variable[GNMGold]<[250] @SystemMessage #VANC #VANP You don't have the 250 gold needed for a SpankzChoir subscribtion
 @SystemMessage #VANC #VANP Do you wish to pay for subscribtion to SpankzChoir?
 [yes]@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[250]
 [no]@NullResponse @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Transaction Complete @SetDate(SpankzChoirSubscribtion, 0 Days) @Goto(End)
 (3)\\SelfBondage scenario 1000 gold
-@SystemMessage #VANC #VANP Right now you cant buy any selfbondage scenario @Goto(End)
+@SystemMessage #VANC #VANP Right now you can't buy any selfbondage scenario @Goto(End)
 (4)\\New punishments: 500 gold
-@SystemMessage #VANC #VANP Right now you cant buy any new punishments @Goto(End)
+@SystemMessage #VANC #VANP Right now you can't buy any new punishments @Goto(End)
 (End)
 @End

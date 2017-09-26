@@ -19,7 +19,7 @@
 #SlaveF1Chat When I get to 1
 #SlaveF1Chat Start deepthroating
 #SlaveF1Chat Hold it for as long as you can @SetVar[FWF1Dildo]=[SlaveM2Endurance]
-#SlaveF1Chat When you cant handle it anymore
+#SlaveF1Chat When you can't handle it anymore
 #SlaveF1Chat Say "I stopped"
 #SlaveF1Chat Understood?
 #SlaveM2Chat Yes Miss @Wait(5)

@@ -38,7 +38,10 @@
 @Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
 @SystemMessage #VANC #VANP Have you just completed an exericse?
 [yes] @SystemMessage #VANC #VANP #GNMGood @ChangeVar[ExerciseTimes]=[ExerciseTimes]+[1] @SetDate(JustE, 0 Hours) @Goto(Base)
-[no] @SystemMessage #VANC #VANP Dont waste my time.. #MeritChangeNMedium @Goto(Base)
+[no] @SystemMessage #VANC #VANP don't waste my time.. #MeritChangeNMedium @Goto(Base)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (NotStupid)
 @SystemMessage #VANC #VANP I'm not stupid slave.. #MeritChangeNHigh @Goto(Base)
+
+########################## - Comment - ##########################
+#Main screen that waits for commands

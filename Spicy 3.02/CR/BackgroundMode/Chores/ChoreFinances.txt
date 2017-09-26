@@ -2,7 +2,7 @@
 @SystemMessage #VANC #VANP Well #SlaveName
 @SystemMessage #VANC #VANP This is the first time we're doing your finances
 @SystemMessage #VANC #VANP Since its the first time I need to open Microsoft Excel spreadsheet
-@SystemMessage #VANC #VANP If you dont have that you can always use Google sheets which is free..
+@SystemMessage #VANC #VANP If you don't have that you can always use Google sheets which is free..
 @SystemMessage #VANC #VANP Follow these instructions carefully if this is your first time setting up a spreadsheet
 @SystemMessage #VANC #VANP If you've tried it before then there might be some things you're already familiar with
 @SystemMessage #VANC #VANP Look at this picture @ShowImage[\GNMImages\Finance\Budget.*]
@@ -169,7 +169,7 @@
 @End
 (Forgive)
 @SystemMessage #VANC #VANP @RT(I forgive you then,Well I guess I'm gonna forgive you,I suppose I should forgive you..)
-@SystemMessage #VANC #VANP @RT(Dont do this too often..,Try to stay within the budgets..)
+@SystemMessage #VANC #VANP @RT(don't do this too often..,Try to stay within the budgets..)
 @End
 (Bad)
 @SystemMessage #VANC #VANP #DomHonorific #DomName wont be happy when I tell her... #MeritChangeNLow @SetFlag(FinanceBad) @ChangeVar[FinanceOffence]=[FinanceOffence]=[1]

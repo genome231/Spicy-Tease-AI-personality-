@@ -454,7 +454,7 @@ Make me proud #SlaveName #DT
 @NullResponse @SetVar[TimetoIncreaseLevel]=[0]
 @NullResponse @If[StrokeLevel]>=[50]Then(Skip) @ChangeVar[StrokeLevel]=[StrokeLevel]+[1] @Goto(FindLevel)
 (Skip)
-@RT(You're at the highest level..,You're at the very top,You cant go higher level!) #DT
+@RT(You're at the highest level..,You're at the very top,You can't go higher level!) #DT
 @Flag(Personality1) I'm impressed! #DT
 Keep at it #SlaveName #DT
 @End
@@ -475,7 +475,7 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @RT(WAUV I'm disapointed..., I expected a lot MORE from you..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[50]
 @End
 (50End)
-@Flag(Personality1) @RT(I guess I cant expect more from you when you're at level 50 #GNMLol,I suppose I shouldn't expect more since 50 is the very top #GNMGrin,Bravo level 50!,Good job level 50!,Oh my level 50) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[35]
+@Flag(Personality1) @RT(I guess I can't expect more from you when you're at level 50 #GNMLol,I suppose I shouldn't expect more since 50 is the very top #GNMGrin,Bravo level 50!,Good job level 50!,Oh my level 50) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[35]
 @Flag(Personality2) @RT(Level 50.. Good!,There is hope for you slave,You did good #SlaveName,You should feel a little proud slave) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[30]
 @Flag(Personality3) @RT(Well well I suppose that was okay,Oh wauw you actually went higher than level 20..,I'm surprised you even lasted for a few minutes..) #DT2 @ChangeVar[GNMMerits]=[GNMMerits]+[25]
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
@@ -494,7 +494,7 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @End
 (20End)
 @Flag(Personality1) @RT(I did expect more..,Below 30 is for cuckold..,Below 30 isn't worth anything..,You went below 30 you lousy fuck..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[10]
-@Flag(Personality2) @RT(Going below 30 makes me considder permanent chastity for you..,Below 30 does make me think about locking you up..,With a low score like that I feel sad for you..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[15]
+@Flag(Personality2) @RT(Going below 30 makes me consider permanent chastity for you..,Below 30 does make me think about locking you up..,With a low score like that I feel sad for you..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[15]
 @Flag(Personality3) @RT(By the Goddess your score is ridicouless!,I guess your #GNMCock is crying for the #Cage with such a low score..) #DT @ChangeVar[GNMMerits]=[GNMMerits]-[25]
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
 @End

@@ -175,7 +175,7 @@
 @SystemMessage #VANC #VANP Tease-AI was designed to simulate the realities of being a slave
 @SystemMessage #VANC #VANP Through this program you will meet your perhaps future #DomHonorific
 @SystemMessage #VANC #VANP You will be played with, tested and trained
-@SystemMessage #VANC #VANP You will also meet other applicants both female and male
+@SystemMessage #VANC #VANP You will also meet other applican'ts both female and male
 @SystemMessage #VANC #VANP And you will meet the #DomHonorific's friends
 @SystemMessage #VANC #VANP At the end of the trial there will be a quite extensive report on you
 @SystemMessage #VANC #VANP As well as a final exam
@@ -206,7 +206,7 @@
 @SystemMessage #VANC #VANP But she also understands that it takes practice to learn
 @SystemMessage #VANC #VANP Do you own a chastity device?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(HasChastity)
-[no]@SystemMessage #VANC #VANP You should considder buying one for the full experience @Goto(Denial)
+[no]@SystemMessage #VANC #VANP You should consider buying one for the full experience @Goto(Denial)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 @SystemMessage #VANC #VANP Is it made of plastic or metal?
 [plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlastic)
@@ -228,7 +228,7 @@
 [yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CTimedLockBoxActive)
 [no]@SystemMessage #VANC #VANP Noted..
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
-@SystemMessage #VANC #VANP If you have it, I might considder using spikes as a means of punishment..
+@SystemMessage #VANC #VANP If you have it, I might consider using spikes as a means of punishment..
 @SystemMessage #VANC #VANP Do you have a set of spike attachments to your belt?
 [yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CSpikesActive)
 [no]@SystemMessage #VANC #VANP Noted..
@@ -238,15 +238,15 @@
 @SystemMessage #VANC #VANP And that you will only be released when told so through Tease-AI
 @SystemMessage #VANC #VANP Are you capable or wearing it 24/7? I suggest you answer truthfully for your own sake..
 [yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(CRecord)
-[no]@SystemMessage #VANC #VANP Dont be ashamed, we can always work on this.
+[no]@SystemMessage #VANC #VANP don't be ashamed, we can always work on this.
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
-@SystemMessage #VANC #VANP Well since you cant wear it 24/7
+@SystemMessage #VANC #VANP Well since you can't wear it 24/7
 @SystemMessage #VANC #VANP I'm curious to find out how much you can handle
 @SystemMessage #VANC #VANP Are you willing to work towards learning how to wear it 24/7?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetVar[ChastityLevel]=[1] @SetFlag(ChastityTrainingActive)
 [no]@SystemMessage #VANC #VANP It's alright @Goto(CRecord)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
-@SystemMessage #VANC #VANP Slave I dont care if you sleep with your cage
+@SystemMessage #VANC #VANP Slave I don't care if you sleep with your cage
 @SystemMessage #VANC #VANP I think you should since it would constantly remind you who you belong to
 @SystemMessage #VANC #VANP But you wont be forced to
 @SystemMessage #VANC #VANP When it comes to exercise I understand that performing it while caged isn't easy
@@ -254,7 +254,7 @@
 @SystemMessage #VANC #VANP But again it would make me and your #DomHonorific happy if you did
 (CRecord)
 @SystemMessage #VANC #VANP And a final question about chastity
-@SystemMessage #VANC #VANP Do you considder chastity to be something used occacionally as a plaything?
+@SystemMessage #VANC #VANP Do you consider chastity to be something used occacionally as a plaything?
 @SystemMessage #VANC #VANP Only as a punishment?
 @SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
 [play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
@@ -262,7 +262,7 @@
 [full time,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
 (Denial)
-@SystemMessage #VANC #VANP Slave I dont know how well you handle denial
+@SystemMessage #VANC #VANP Slave I don't know how well you handle denial
 @SystemMessage #VANC #VANP And neither does your #DomHonorific
 @SystemMessage #VANC #VANP So I need you to tell me on a scale..
 @SystemMessage #VANC #VANP How well you handle denial
@@ -280,17 +280,17 @@
 @SystemMessage #VANC #VANP So what you choose now isn't final or unchangable
 (DenialLevel)
 @SystemMessage #VANC #VANP At what level do you think you belong? @InputVar[DenialLevelNr]
-@Variable[DenialLevelNr]<=[0] @SystemMessage #VANC #VANP You cant choose a number equal to 0 or lower @Goto(DenialLevel)
-@Variable[DenialLevelNr]>=[16] @SystemMessage #VANC #VANP You cant choose a number higher than 15 @Goto(DenialLevel)
+@Variable[DenialLevelNr]<=[0] @SystemMessage #VANC #VANP You can't choose a number equal to 0 or lower @Goto(DenialLevel)
+@Variable[DenialLevelNr]>=[16] @SystemMessage #VANC #VANP You can't choose a number higher than 15 @Goto(DenialLevel)
 @Variable[DenialLevelNr]>=[1]And[DenialLevelNr]<=[15] @SystemMessage #VANC #VANP Proceeding @Goto(Continue1)
 @SystemMessage #VANC #VANP You chose a number that doesn't make sense
-@SystemMessage #VANC #VANP You cant write 'level 1' or similar
+@SystemMessage #VANC #VANP You can't write 'level 1' or similar
 @SystemMessage #VANC #VANP Only input a simple number like '3' or '9' @Goto(DenialLevel)
 (Continue1)
 @SystemMessage #VANC #VANP As you should know
 @SystemMessage #VANC #VANP A slave doesn't have "personal" information since a slave isn't really a person..
 @SystemMessage #VANC #VANP As a token of complete surrender I need the phonenumber and name of 3 people
-@SystemMessage #VANC #VANP Preferably girls that dont know about your fetish
+@SystemMessage #VANC #VANP Preferably girls that don't know about your fetish
 (InputBlackmail)
 @SystemMessage #VANC #VANP So tell me the full name of the first person @InputVar[BlackmailName1]
 @SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone1]
@@ -316,14 +316,14 @@
 @SystemMessage #VANC #VANP Folder 3 is for @ShowVar[BlackmailName3]
 
 @SystemMessage #VANC #VANP Should you ever think of quiting your service to the #DomHonorific
-@SystemMessage #VANC #VANP This will make sure you dont #GNMLol
-@SystemMessage #VANC #VANP Dont worry you'll be reminded to serve properly!
+@SystemMessage #VANC #VANP This will make sure you don't #GNMLol
+@SystemMessage #VANC #VANP don't worry you'll be reminded to serve properly!
 @SystemMessage #VANC #VANP Or else.. 
 @SystemMessage #VANC #VANP Well as a final check I need to know what toys you have
 @SystemMessage #VANC #VANP Do note!
 @SystemMessage #VANC #VANP You are expected to have basic items such as pegs, rope and other common household items
 @SystemMessage #VANC #VANP Ofcourse I recommend that you have all the different toys for the full experience
-@SystemMessage #VANC #VANP But #DomHonorific understands if you cant afford all of it..
+@SystemMessage #VANC #VANP But #DomHonorific understands if you can't afford all of it..
 @SystemMessage #VANC #VANP In case you aquire something new
 @SystemMessage #VANC #VANP You can always go to settings and I'll help you register your new toy
 @SystemMessage #VANC #VANP First I need to know
@@ -396,9 +396,9 @@
 [punishment]@NullResponse @SetFlag(ElectroPunishment)
 [both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
-@SystemMessage #VANC #VANP Tell me what level of schock you considder to be quite painful @InputVar[ElectroPHigh]
-@SystemMessage #VANC #VANP Tell me what level of schock you considder to be somehwat @InputVar[ElectroPMedium]
-@SystemMessage #VANC #VANP Tell me what level of schock you considder to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
+@SystemMessage #VANC #VANP Tell me what level of schock you consider to be quite painful @InputVar[ElectroPHigh]
+@SystemMessage #VANC #VANP Tell me what level of schock you consider to be somehwat @InputVar[ElectroPMedium]
+@SystemMessage #VANC #VANP Tell me what level of schock you consider to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
 (Toy5)
 @NullResponse @ShowImage[\GNMImages\Toys\Gag.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyGag)
@@ -476,7 +476,7 @@
 @SystemMessage #VANC #VANP This folder needs a humiliating video of you
 @SystemMessage #VANC #VANP It doesn't have to be longer than 10 seconds
 @SystemMessage #VANC #VANP All I want is your face clearly on display
-@SystemMessage #VANC #VANP While doing something you would considder to be humiliating
+@SystemMessage #VANC #VANP While doing something you would consider to be humiliating
 @SystemMessage #VANC #VANP Should the video ever be viewed by others #GNMLol
 @SystemMessage #VANC #VANP Finally we need to set up your spanking implements
 @SystemMessage #VANC #VANP I expect you to have at least 3 #GNMGrin
@@ -492,7 +492,7 @@
 @SystemMessage #VANC #VANP What implement do you have that fits the second description? @InputVar[SpankingImplement2]
 @SystemMessage #VANC #VANP This should be giving us a fun time!..
 @SystemMessage #VANC #VANP What nasty implement do you have that fits the Third description? @InputVar[SpankingImplement3]
-@SystemMessage #VANC #VANP Mhmm I cant wait to use this one!
+@SystemMessage #VANC #VANP Mhmm I can't wait to use this one!
 @SystemMessage #VANC #VANP We have arrived at a very important point
 @SystemMessage #VANC #VANP You need to choose between one of 3 different personalities for your domme
 @SystemMessage #VANC #VANP Choose with care as this choice is permanent and crucial to your experience
@@ -504,7 +504,7 @@
 @SystemMessage #VANC #VANP Also note that this has nothing to do with me #GNMLol
 @SystemMessage #VANC #VANP I'll be strict no matter what you choose ;)
 @SystemMessage #VANC #VANP I recommend Personality 1
-@SystemMessage #VANC #VANP You might considder personality 2 "hard"
+@SystemMessage #VANC #VANP You might consider personality 2 "hard"
 @SystemMessage #VANC #VANP And personality 3 extreme
 @SystemMessage #VANC #VANP I do NOT recommend personality 3, it is extreme..
 @SystemMessage #VANC #VANP Which personality do you choose.. @SetFlag(DommeActive)
@@ -536,3 +536,7 @@
 (EndTease)
 @NullResponse @Endtease
 @End
+
+########################## - Comment - ##########################
+#Sets up everything at the beginning.
+#Called in Stroke/Start/BaseStart at the launch of the personality

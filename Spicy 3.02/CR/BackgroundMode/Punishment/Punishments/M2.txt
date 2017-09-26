@@ -37,7 +37,7 @@ Well @RT(hello,hi) #SlaveName #DT4 @Goto(Start)
 @NullResponse @If[SubEndurance]>=[8]Then(PM2Hard) @Goto(PM2Easy)
 (Contact2)
 @RT(Well well,Oh my,Well) #SlaveName #DT4
-@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I dont think your #GNMCock will enjoy this,This is fun!) #DT4
+@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I don't think your #GNMCock will enjoy this,This is fun!) #DT4
 @NullResponse @If[SubEndurance]>[3]AND[SubEndurance]<[7]Then(PM2Medium)
 @NullResponse @If[SubEndurance]>=[7]Then(PM2Hard) @Goto(PM2Easy)
 (Contact3)

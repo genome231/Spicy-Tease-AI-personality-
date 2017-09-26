@@ -34,7 +34,7 @@ I just need to know the details again #DT @DeleteFlag(TMMedium)
 How many days do you wish to be your minimum? #DT @DeleteFlag(TMHigh) @InputVar[DTrainingSessionsMinimum]
 @Variable[DTrainingSessionsMinimum]>[0]@NullResponse @Goto(TrainingModeSet2)
 You have to choose a value higher than 0 #DT
-Remember you cant write '3 days' or '1 week' #DT
+Remember you can't write '3 days' or '1 week' #DT
 Simply input a number like #DT
 5 #DT
 or #DT
@@ -50,7 +50,7 @@ And finally.. #DT
 How many rounds would you like our game to last? #DT @InputVar[TrainingModeSessionsToGo]
 @Variable[TrainingModeSessionsToGo]>[0]@NullResponse @Goto(TrainingModeSet4)
 You have to choose a value higher than 0 #DT
-Remember you cant write '3 rounds' or '2 times' #DT
+Remember you can't write '3 rounds' or '2 times' #DT
 Simply input a number like #DT
 3 #DT
 or #DT

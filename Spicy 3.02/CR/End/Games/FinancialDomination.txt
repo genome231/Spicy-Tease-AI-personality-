@@ -21,7 +21,7 @@ According to the market #DT
 An ejaculation will cost you @ShowVar[FDOffer] gold #DT @If[GNMGold]<[FDOffer]Then(FDRange2)
 deal? #DT
 [yes]Okay then! #DT @ChangeVar[GNMGold]=[GNMGold]-[FDOffer]
-[no]Well I cant blame you for that #GNMGrin #DT @Goto(Deny)
+[no]Well I can't blame you for that #GNMGrin #DT @Goto(Deny)
 @DifferentAnswer #GNMYesOrNo #DT
 I've transfered the gold #DT
 Now lets see about that ejaculation #DT @Goto(Ruined,Orgasm)

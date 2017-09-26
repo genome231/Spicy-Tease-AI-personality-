@@ -7,7 +7,7 @@
 @RT(Ruining to a sissy,Watch a sissy and ruin) #DT
 @RT(Or yet more denial?,Or would you rather stay denied) #DT
 [ruin,ruining,sissy]#GNMGrin  #DT
-[denial,no]Cant blame you for that! #DT @Goto(ChastityCheck)
+[denial,no]can't blame you for that! #DT @Goto(ChastityCheck)
 @DifferentAnswer Denial or Sissy? #DT
 @Flag(SissyMode) Ofcourse you may only use your vibrator #DT..
 @RT(As soon as you cross the edge its hands behind your head!,As soon as you cross that nasty edge I want you to put your hands behind your head..) #DT
@@ -27,7 +27,7 @@
 [nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer Did you cum or nothing? #DT
 (Bad)
-@RT(That makes me angry,I cant describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
+@RT(That makes me angry,I can't describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
 @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
 (AteCheck)
 @NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)

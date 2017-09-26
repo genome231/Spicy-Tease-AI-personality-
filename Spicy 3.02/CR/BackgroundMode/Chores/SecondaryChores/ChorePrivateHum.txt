@@ -47,7 +47,7 @@
 (aContinued)
 @SystemMessage #VANC #VANP Have you completed the stockings challenge?
 [yes]#GNMGood @DeleteFlag(ChorePrivHuma)
-[no]@SystemMessage #VANC #VANPThen I dont know what you're doing here.. @Goto(a2)
+[no]@SystemMessage #VANC #VANPThen I don't know what you're doing here.. @Goto(a2)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP 300 gold has been sent as promised.. @DeleteFlag(ChoreActive) @ChangeVar[GNMGold]=[GNMGold]+[300]
 @NullResponse #MeritChangePMedium 
@@ -71,7 +71,7 @@
 (bContinued)
 @SystemMessage #VANC #VANP Have you completed the bra shopping challenge?
 [yes]#GNMGood @DeleteFlag(ChorePrivHumb)
-[no]@SystemMessage #VANC #VANP Then I dont know what you're doing here.. @Goto(b2)
+[no]@SystemMessage #VANC #VANP Then I don't know what you're doing here.. @Goto(b2)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP 100 gold has been sent as promised.. @DeleteFlag(ChoreActive) @ChangeVar[GNMGold]=[GNMGold]+[100]
 @NullResponse #MeritChangePMedium
@@ -94,7 +94,7 @@
 (cContinued)
 @SystemMessage #VANC #VANP Have you completed the sleeping panties challenge?
 [yes]#GNMGood @DeleteFlag(ChorePrivHumc)
-[no]@SystemMessage #VANC #VANP Then I dont know what you're doing here.. @Goto(c2)
+[no]@SystemMessage #VANC #VANP Then I don't know what you're doing here.. @Goto(c2)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP 100 gold has been sent as promised.. @DeleteFlag(ChoreActive) @ChangeVar[GNMGold]=[GNMGold]+[100]
 @NullResponse #MeritChangePMedium

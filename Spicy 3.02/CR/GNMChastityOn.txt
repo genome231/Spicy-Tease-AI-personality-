@@ -16,7 +16,7 @@
 @Flag(Personality2) @NullResponse @Wait(#Random(25,50))
 @Flag(Personality3) @NullResponse @Wait(#Random(20,40))
 @RT(You've taken way too long to get that #Cage on..,You we're way to long to get that #Cage on,It took you too long to get that cage on..) @CustomMode(#CageOn, Normal) #MeritChangeNMedium
-@RT(I dont like when you make me wait,I dont like to wait,I dont care about waiting) 
+@RT(I don't like when you make me wait,I don't like to wait,I don't care about waiting) 
 @Flag(ChastityTrainingActive) @Variable[ChastityLevel]<[25] @RT(But since you're in training,But due to you being in training,But because of your chastity training) I wont punish you.. @Goto(End)
 @Flag(CPlayActive) @NullResponse @Goto(End)
 @Variable[#DateDifference(PDenial,Hours)]>[PDenialSet] So as a punishment I'm placing you in the #Cage for the next 24 hours.. #DT @SetDate(PDenial, 0 Days) @SetVar[PDenialSet]=[24]
@@ -26,7 +26,7 @@
 #GNMGood @CustomMode(#CageOn, Normal)
 @NullResponse @Goto(End)
 (Done2)
-@RT(Finally,About time..,Took you long enough,Be faster next time,Dont waste my time again..) @CustomMode(#CageOn, Normal)
+@RT(Finally,About time..,Took you long enough,Be faster next time,don't waste my time again..) @CustomMode(#CageOn, Normal)
 @NullResponse @Goto(End)
 (End)
 @NullResponse @SetFlag(ChastityIsOn)

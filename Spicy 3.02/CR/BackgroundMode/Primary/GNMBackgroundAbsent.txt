@@ -16,8 +16,8 @@
 @SystemMessage #VANC #VANP For how many days to expect to be gone? @InputVar[LeaveAgreed]
 @Variable[LeaveAgreed]>[0] @NullResponse @Goto(Reason2)
 @SystemMessage #VANC #VANP You didn't input a numer of days that makes sense?
-@SystemMessage #VANC #VANP You cant write '5 days'
-@SystemMessage #VANC #VANP You cant write '2 weeks'
+@SystemMessage #VANC #VANP You can't write '5 days'
+@SystemMessage #VANC #VANP You can't write '2 weeks'
 @SystemMessage #VANC #VANP You can only write a number refering to days
 @SystemMessage #VANC #VANP '6'
 @SystemMessage #VANC #VANP Or '9' @Goto(Reason1a)
@@ -35,8 +35,8 @@
 @SystemMessage #VANC #VANP How many days of vacation do you wish to buy? @InputVar[VacationAgreed]
 @Variable[VacationAgreed]>[0] @NullResponse @Goto(TestPrice)
 @SystemMessage #VANC #VANP You didn't input a numer of days that makes sense?
-@SystemMessage #VANC #VANP You cant write '5 days'
-@SystemMessage #VANC #VANP You cant write '2 weeks'
+@SystemMessage #VANC #VANP You can't write '5 days'
+@SystemMessage #VANC #VANP You can't write '2 weeks'
 @SystemMessage #VANC #VANP You can only write a number refering to days
 @SystemMessage #VANC #VANP '6'
 @SystemMessage #VANC #VANP Or '9' @Goto(Vacation2)
@@ -44,7 +44,7 @@
 @NullResponse @RapidCodeOn @SetVar[Price]=[0]
 @NullResponse @ChangeVar[Price]=[Price]+[VacationAgreed] 
 @NullResponse @ChangeVar[Price]=[Price]*[200]
-@SystemMessage #VANC #VANP The price for the asked amount of vacation days is @ShowVar[Price] @If[Price]>[GNMGold]Then(CantAfford)
+@SystemMessage #VANC #VANP The price for the asked amount of vacation days is @ShowVar[Price] @If[Price]>[GNMGold]Then(can'tAfford)
 @SystemMessage #VANC #VANP Do you wish to buy @ShowVar[VacationAgreed] days of vacation?
 [yes]@NullResponse @ChangeVar[GNMGold]=[GNMGold]-[Price] @Goto(SetVacation)
 [no]@SystemMessage #VANC #VANP Well then
@@ -56,10 +56,10 @@
 @SystemMessage #VANC #VANP See you when you get back! @ChangeVar[VacationAgreed]=[VacationAgreed]*[24]
 @NullResponse @ChangeVar[VacationAgreed]=[VacationAgreed]+[12] @SetDate(SlaveVacation, 0 Hours) @EndTease
 @End
-(CantAfford)
-@SystemMessage #VANC #VANP I'm sorry but you dont have the gold
+(can'tAfford)
+@SystemMessage #VANC #VANP I'm sorry but you don't have the gold
 @SystemMessage #VANC #VANP Earn some money, then ask again
 @End
 (FastEnd)
-@SystemMessage #VANC #VANP Meaning you cant afford a single day of vacation
+@SystemMessage #VANC #VANP Meaning you can't afford a single day of vacation
 @End

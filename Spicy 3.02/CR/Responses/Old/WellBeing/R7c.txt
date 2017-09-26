@@ -11,18 +11,18 @@
 (Annoyed)
 @Variable[R7c]>=[3] @RT(I know!,I know you've had a good day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNHigh @Goto(End)
 @Variable[R7c]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT #MeritChangeNMedium @Goto(End)
-@Variable[Angry]>[Happy] @NullResponse @Goto(DontCare)
+@Variable[Angry]>[Happy] @NullResponse @Goto(don'tCare)
 @Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
 (Neutral)
 @Variable[R7c]>=[3] @RT(I know!,I know you've had a god day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNMedium @Goto(End)
 @Variable[R7c]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT #MeritChangeNLow @Goto(End)
-@Variable[Angry]>[Happy]@NullResponse @Chance15(Understand) @Goto(DontCare)
+@Variable[Angry]>[Happy]@NullResponse @Chance15(Understand) @Goto(don'tCare)
 @Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
 (Pleased)
 (VPleased)
 @Variable[R7c]>=[3] @RT(I know!,I know you've had a good day!,Yes #SlaveName I heard you the first time!) #DT #MeritChangeNLow @Goto(End)
 @Variable[R7c]=[2] @RT(I understood it the first time you told me..,I heard you the first time..,I do speak your language you know..) #DT @Goto(End)
-@Variable[Angry]>[Happy] @NullResponse @Chance50(Understand) @Goto(DontCare)
+@Variable[Angry]>[Happy] @NullResponse @Chance50(Understand) @Goto(don'tCare)
 @Variable[Angry]<=[Happy] @NullResponse @Goto(Understand)
 (Understand)
 @RT(I had a great day too,Well me too,A splendid day for me as well!) #DT
@@ -30,8 +30,8 @@
 @Flag(MS3) @RT(Simple a perfect day at the job!,My day at the office just couldn't have gone better,I had a great day at the office!) #DT @Goto(End)
 @Flag(MS4) @RT(I went wining and dining yesterday!,I had a lot of fun yesterday - spoiler wine was included #GNMGrin!) #DT @Goto(End)
 @NullResponse @Goto(End)
-(DontCare)
-@RT(I dont care #SlaveName,Try to tell someone who actually cares!,Well #SubName I gotta say it's not really up my lane talking <i>your</i> good days..) #DT #MeritChangeNLow
+(don'tCare)
+@RT(I don't care #SlaveName,Try to tell someone who actually cares!,Well #SubName I gotta say it's not really up my lane talking <i>your</i> good days..) #DT #MeritChangeNLow
 @End
 (End)
 @End

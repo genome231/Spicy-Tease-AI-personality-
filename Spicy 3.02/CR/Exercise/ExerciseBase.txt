@@ -9,7 +9,7 @@
 @SystemMessage #VANC #VANP I wont punish you for failing 
 @SystemMessage #VANC #VANP Depending on your answer you earn points
 @SystemMessage #VANC #VANP I use these points to set the exercise difficuilty to a level suiting you 
-@SystemMessage #VANC #VANP So dont worry if you feel like its too easy the first few times
+@SystemMessage #VANC #VANP So don't worry if you feel like its too easy the first few times
 @SystemMessage #VANC #VANP Difficuilty will quickly rise 
 @SystemMessage #VANC #VANP Maybe not today, but as we go 
 @SystemMessage #VANC #VANP completing exercise also gets you rewarded 

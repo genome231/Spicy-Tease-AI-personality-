@@ -1,6 +1,6 @@
 (M2)
 @Flag(SpankChoirSafeword) @SystemMessage [Miss A]: You wanted a safeword #ReceptionChat
-@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you cant handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you can't handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
 @SystemMessage [Miss A]: Miss Allison is ready to see you.. #ReceptionChat
 (M2a)
 @NullResponse @TempFlag(M2a) @Goto(CheckStatus1)
@@ -17,7 +17,7 @@
 @NullResponse @CheckFlag(SpankzChoirLate) @Goto(Start)
 (SpankzChoirSkipped)
 @SystemMessage [Miss Allison]: It's not a popular thing trying to quit..
-@SystemMessage [Miss Allison]: Dont do it again.. @Goto(Start)
+@SystemMessage [Miss Allison]: don't do it again.. @Goto(Start)
 (SpankzChoirLate)
 @SystemMessage [Miss Allison]: @RT(Well hello there mr. late,Hi little late slut,Gretting #SlaveName) #M2Chat 
 (SpankzChoirLate2)
@@ -26,7 +26,7 @@
 @SystemMessage [Miss Allison]: This is your @ShowVar[M2Visit] time with me #M2Chat
 (Start)
 @SystemMessage [Miss Allison]: @RT(I see no reason to waste any time..,Lets not drag this out..,Lets not delay this..)
-@Flag(GagPunishment) @SystemMessage [Miss Allison]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I dont want too much noise from you #GNMGrin,No screaming..) @Wait(15)
+@Flag(GagPunishment) @SystemMessage [Miss Allison]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I don't want too much noise from you #GNMGrin,No screaming..) @Wait(15)
 @SystemMessage [Miss Allison]: I need you to @RT(fetch,retrieve,find,get) your @RT(#ChooseSpankingImplement) #M2Chat
 @SystemMessage [Miss Allison]: When you have it just kneel down and present it with open hands #M2Chat
 (SetVars)

@@ -29,7 +29,7 @@ Do you have this? #DTS1
 @DifferentAnswer #GNMYesOrNo #DTS1
 It seems you have everything you need #GNMGrin #DTS1
 Read this very carefully. #DTS1
-Dont do anything yet, just read and look at this while you read @ShowImage[\GNMImages\SpecialDays\SubBirthday\Scenario.jpg] @LockImages
+don't do anything yet, just read and look at this while you read @ShowImage[\GNMImages\SpecialDays\SubBirthday\Scenario.jpg] @LockImages
 This is the scenario seen from the side
 You'll need a table
 You'll need the 2 shoelaces, use 1 to tie each of your feet to the table legs
@@ -72,7 +72,7 @@ Give me just a moment #DTS1
 I have something for you #DTS1 @Wait(20) 
 @NullResponse @Goto(Present)
 (NeedGear)
-Well we cant play without it.. #GNMEmoteSad #DTS1 @Goto(PresentAtLeast)
+Well we can't play without it.. #GNMEmoteSad #DTS1 @Goto(PresentAtLeast)
 (PresentAtLeast)
 Well at least I have a present for you #GNMEmoteHappy #DTS1 
 (Present)
@@ -89,7 +89,7 @@ Well slave I had a lot of fun today! #GNMGrin #DTS1
 I hope you did too! #DTS1 @Goto(Bye)
 (Ungrateful)
 You're not gonna thank me!? #DTS1
-I just gave you a present and you dont thank me!? #DTS1
+I just gave you a present and you don't thank me!? #DTS1
 You little spoiled brat! #DTS1
 You know what? #DTS1
 I'm taking the 1000 gold back! #DTS1 @ChangeVar[GNMGold]=[GNMGold]-[1000]

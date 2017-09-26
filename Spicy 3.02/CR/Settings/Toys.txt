@@ -61,7 +61,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(BallCrusherPlay)
 [punishment]@NullResponse @SetFlag(BallCrusherPunishment)
-[both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
+[both]@NullResponse @SetFlag(BallCrusherPlay, BallCrusherPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy2)
 @NullResponse @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
@@ -71,7 +71,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ButtPlugPlay)
 [punishment]@NullResponse @SetFlag(ButtPlugPunishment)
-[both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
+[both]@NullResponse @SetFlag(ButtPlugPlay, ButtPlugPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy3)
 @NullResponse @ShowImage[\GNMImages\Toys\Dildo.jpg]
@@ -81,7 +81,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(DildoPlay)
 [punishment]@NullResponse @SetFlag(DildoPunishment)
-[both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
+[both]@NullResponse @SetFlag(DildoPlay, DildoPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy4)
 @NullResponse @ShowImage[\GNMImages\Toys\EStim.jpg]
@@ -91,11 +91,11 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ElectroPlay)
 [punishment]@NullResponse @SetFlag(ElectroPunishment)
-[both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
+[both]@NullResponse @SetFlag(ElectroPlay, ElectroPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
-@SystemMessage #VANC Tell me what level of shock you considder to be quite painful @InputVar[ElectroPHigh]
-@SystemMessage #VANC Tell me what level of shock you considder to be somehwat @InputVar[ElectroPMedium]
-@SystemMessage #VANC Tell me what level of shock you considder to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
+@SystemMessage #VANC Tell me what level of shock you consider to be quite painful @InputVar[ElectroPHigh]
+@SystemMessage #VANC Tell me what level of shock you consider to be somehwat @InputVar[ElectroPMedium]
+@SystemMessage #VANC Tell me what level of shock you consider to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
 (Toy5)
 @NullResponse @ShowImage[\GNMImages\Toys\Gag.jpg]
 [yes]@SystemMessage #VANC #GNMGood @SetFlag(GNMToyGag)
@@ -104,7 +104,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(GagPlay)
 [punishment]@NullResponse @SetFlag(GagPunishment) 
-[both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
+[both]@NullResponse @SetFlag(GagPlay, GagPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy6)
 @NullResponse @ShowImage[\GNMImages\Toys\Girlfriend.jpg]
@@ -127,7 +127,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ParachutePlay)
 [punishment]@NullResponse @SetFlag(ParachutePunishment)
-[both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
+[both]@NullResponse @SetFlag(ParachutePlay, ParachutePunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy8)
 @NullResponse @ShowImage[\GNMImages\Toys\HotSauce.jpg]
@@ -137,7 +137,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(HotSaucePlay)
 [punishment]@NullResponse @SetFlag(HotSaucePunishment)
-[both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
+[both]@NullResponse @SetFlag(HotSaucePlay, HotSaucePunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy9)
 @NullResponse @ShowImage[\GNMImages\Toys\Vibrator.jpg]
@@ -147,7 +147,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(VibratorPlay)
 [punishment]@NullResponse @SetFlag(VibratorPunishment)
-[both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
+[both]@NullResponse @SetFlag(VibratorPlay, VibratorPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy10)
 @SystemMessage #VANC #VANC Do have either of these? @ShowImage[\GNMImages\Toys\Collar.jpg]
@@ -158,7 +158,7 @@
 @SystemMessage #VANC Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(CollarPlay)
 [punishment]@NullResponse @SetFlag(CollarPunishment)
-[both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
+[both]@NullResponse @SetFlag(CollarPlay, CollarPunishment)
 @DifferentAnswer @SystemMessage #VANC Play, punishment or both?
 (Toy11)
 @NullResponse @UnlockImages

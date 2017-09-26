@@ -13,7 +13,7 @@
 @SystemMessage #GNMVA What implement do you have that fits the second description? @InputVar[SpankingImplement2]
 @SystemMessage #GNMVA This should be giving us a fun time!..
 @SystemMessage #GNMVA What nasty implement do you have that fits the first description? @InputVar[SpankingImplement3]
-@SystemMessage #GNMVA Mhmm I cant wait to use this one!
+@SystemMessage #GNMVA Mhmm I can't wait to use this one!
 @SystemMessage #GNMVA Well..
 @SystemMessage #GNMVA I'm sure I'll have a good time with the @ShowVar[SpankingImplement1], @ShowVar[SpankingImplement2] and the @ShowVar[SpankingImplement3]
 @End

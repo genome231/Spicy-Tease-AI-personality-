@@ -15,7 +15,7 @@
 @SystemMessage #VANC #VANP Successful!
 @SystemMessage #VANC #VANP Here is your chest! @Goto(OpenChest)
 (NotEnoughGold)
-@SystemMessage #VANC #VANP You dont have enough gold slave
+@SystemMessage #VANC #VANP You don't have enough gold slave
 @SystemMessage #VANC #VANP You need 200
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @End

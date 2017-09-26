@@ -1,6 +1,6 @@
 (M1)
 @Flag(SpankChoirSafeword) @SystemMessage [Miss A]: You wanted a safeword #ReceptionChat
-@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you cant handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you can't handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
 @SystemMessage [Miss A]: Miss Alexis is ready to see you.. #ReceptionChat @Goto(M1a,M1b,M1c,M1d)
 (M1a)
 @NullResponse @TempFlag(M1a) @Goto(CheckStatus1)
@@ -23,7 +23,7 @@
 @NullResponse @CheckFlag(SpankzChoirLate) @Goto(Start)
 (SpankzChoirSkipped)
 @SystemMessage [Miss Alexis]: It's not a popular thing trying to quit..
-@SystemMessage [Miss Alexis]: Dont do it again.. @Goto(Start)
+@SystemMessage [Miss Alexis]: don't do it again.. @Goto(Start)
 (SpankzChoirLate)
 @SystemMessage [Miss Alexis]: @RT(Well hello there mr. late,Hi little late slut,Gretting #SlaveName) #M1Chat 
 (SpankzChoirLate2)
@@ -32,7 +32,7 @@
 @SystemMessage [Miss Alexis]: This is your @ShowVar[M1Visit] time with me #M1Chat
 (Start)
 @SystemMessage [Miss Alexis]: @RT(I see no reason to waste any time..,Lets not drag this out..,Lets not delay this..)
-@Flag(GagPunishment) @SystemMessage [Miss Alexis]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I dont want too much noise from you #GNMGrin,No screaming..) @Wait(15)
+@Flag(GagPunishment) @SystemMessage [Miss Alexis]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I don't want too much noise from you #GNMGrin,No screaming..) @Wait(15)
 @SystemMessage [Miss Alexis]: I need you to @RT(fetch,retrieve,find,get) your @RT(#ChooseSpankingImplement) #M1Chat
 @SystemMessage [Miss Alexis]: When you have it just kneel down and present it with open hands #M1Chat
 (SetVars)

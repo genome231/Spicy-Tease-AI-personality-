@@ -1,6 +1,6 @@
 @NullResponse @CheckFlag(SlaveModule1FirstRun) @SetFlag(SlaveModule1FirstRun)
 Now #SlaveName #DT @SetVar[PositionLevel]=[1]
-I considder it rather important that you know your positions by heart #DT
+I consider it rather important that you know your positions by heart #DT
 So ofcourse we're gonna spend some time once in a while making sure you know your positions #DT
 Pay attention as I walk you through the different positions.. @Goto(PositionWalkThrough) #DT
 (SlaveModule1FirstRun)
@@ -42,11 +42,11 @@ Worship @ShowImage[\GNMImages\Positions\Worship1.jpg] @Wait(3)
 @RT(And you wont break it until you hear my bell,And you'll keep the position until the sound of my bell,And only once you hear my bell may you break it..) #DT
 Understood? #DT @Timeout(10,Passed1)
 [yes]#GNMGood #DT #MeritChangePLow @Goto(Continue2)
-[no]Dont take me for a fool #DT! #MeritChangeNMedium @Goto(Continue2)
+[no]don't take me for a fool #DT! #MeritChangeNMedium @Goto(Continue2)
 @DifferentAnswer #GNMYesOrNo #DT
 (Passed1)
 Not being answered is a sign of disrespect #DT #MeritChangeNMedium
-I dont like being disrespected #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[25]
+I don't like being disrespected #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[25]
 Moving on #SlaveName #DT @Goto(Continue2)
 (Continue2)
 @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
@@ -85,7 +85,7 @@ Take the position #Timer #DT @Goto(aTimer)
 This is the Box position @ShowImage[\GNMImages\Positions\Box1.jpg] @TempFlag(PTa5)
 The box is an exelent position @ShowImage[\GNMImages\Positions\Box1.jpg]
 Its tougher than it looks @ShowImage[\GNMImages\Positions\BoxCloseup1.jpg]
-Some might prefer a pillow, but I trust you dont @ShowImage[\GNMImages\Positions\Box1.jpg]
+Some might prefer a pillow, but I trust you don't @ShowImage[\GNMImages\Positions\Box1.jpg]
 Other than that the position speaks for itself.. @ShowImage[\GNMImages\Positions\Box1.jpg]
 Take the position #Timer #DT @Goto(aTimer)
 (a6)
@@ -156,7 +156,7 @@ Take the position #Timer #DT @Goto(aTimer)
 (a16)
 This is the Worship position @ShowImage[\GNMImages\Positions\Worship1.jpg] @TempFlag(PTa16)
 Worship @ShowImage[\GNMImages\Positions\Worship1.jpg]
-I dont think much explaining is needed here.. @ShowImage[\GNMImages\Positions\Worship1.jpg]
+I don't think much explaining is needed here.. @ShowImage[\GNMImages\Positions\Worship1.jpg]
 Take the position #Timer #DT @Goto(aTimer)
 (aTimer)
 @Variable[PositionLevel]<=[15] @NullResponse @Wait(#Random(120,240)) @Goto(aTimerOver)
@@ -311,7 +311,7 @@ This should prove fun #GNMGrin #DT
 With all your gear I want you to take the attention position @ShowImage[GNMImages\Positions\Attention1.jpg]
 Do not change position until I tell you otherwise @ShowImage[GNMImages\Positions\Attention1.jpg]
 I know that this can get tough on the knees but make me proud! @ShowImage[GNMImages\Positions\Attention1.jpg]
-If you absolutely cant handle anymore just say 'stop' #DT @CustomMode(stop, Goto, NoMore)
+If you absolutely can't handle anymore just say 'stop' #DT @CustomMode(stop, Goto, NoMore)
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Attention1.jpg]
 #Timer #DT @Goto(cTimer)
 (c2) //Bad Bitch /Buttplug + gag +
@@ -320,7 +320,7 @@ This should prove fun to watch! #DT
 I want you in the bad bitch position @ShowImage[GNMImages\Positions\BadBitch2.jpg]
 Head down @ShowImage[GNMImages\Positions\BadBitch2.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\BadBitch2.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BadBitch2.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\BadBitch2.jpg]
 #Timer #DT @Goto(cTimer)
 (c3) //Bent Over /Gag + pegs + balance +
@@ -330,7 +330,7 @@ I want you in the Bent over position @ShowImage[GNMImages\Positions\BentOver2.jp
 Head down @ShowImage[GNMImages\Positions\BentOver2.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\BentOver2.jpg]
 I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\BentOver2.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOver2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOver2.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOver2.jpg]
 #Timer #DT @TempFlag(cBalance) @Goto(cTimer)
 (c4) //Bent over Open /PArachute + gag + pegs +
@@ -340,7 +340,7 @@ I want you in the Bent over open position #DT @ShowImage[GNMImages\Positions\Ben
 Head down #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
 Stay there until you hear my bell #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
 I want you to count everytime you lose your balance #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
 #Timer #DT @TempFlag(cBalance) @Goto(cTimer)
 (c5) //box /rice + pegs +
@@ -349,7 +349,7 @@ This should prove fun to watch! #DT
 I want you in the box position @ShowImage[GNMImages\Positions\Box1.jpg]
 Head high and on your knees @ShowImage[GNMImages\Positions\Box1.jpg]
 Stay there until you hear my bell  @ShowImage[GNMImages\Positions\Box1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Box1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Box1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Box1.jpg]
 #Timer #DT @Goto(cTimer)
 (c6) //come fuck me /buttplug + gag +
@@ -357,7 +357,7 @@ Get into position #SlaveName @ShowImage[GNMImages\Positions\Box1.jpg]
 This should prove fun to watch! #DT
 I want you in the come fuck me position @ShowImage[GNMImages\Positions\CFM3.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\CFM3.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\CFM3.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\CFM3.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\CFM3.jpg]
 #Timer #DT @Goto(cTimer)
 (c7) //Dog / Legs and hands tied together 
@@ -387,7 +387,7 @@ This should prove fun to watch! #DT
 I want you in the Judgement position @ShowImage[GNMImages\Positions\Judgement1.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Judgement1.jpg]
 Just so we're clear your heels may not touch the ground.. @ShowImage[GNMImages\Positions\Judgement1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Judgement1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Judgement1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Judgement1.jpg]
 #Timer #DT @Goto(cTimer)
 (c9) //Kneel /Rice +
@@ -396,7 +396,7 @@ Get into position #SlaveName @ShowImage[GNMImages\Positions\Judgement1.jpg]
 This should prove fun to watch! #DT
 I want you in the Listen position @ShowImage[GNMImages\Positions\Listen1.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Listen1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Listen1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Listen1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Listen1.jpg]
 #Timer #DT @Goto(cTimer)
 (c11) //Punishment /parachute + gag +
@@ -404,7 +404,7 @@ Get into position #SlaveName @ShowImage[GNMImages\Positions\Listen1.jpg]
 This should prove fun to watch! #DT
 I want you in the Punishment position @ShowImage[GNMImages\Positions\Punishment4.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Punishment4.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Punishment4.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Punishment4.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Punishment4.jpg]
 #Timer #DT @Goto(cTimer)
 (c12) //Slut /Lingerie +
@@ -421,7 +421,7 @@ Will you be a doll and film yourself? @ShowImage[GNMImages\Positions\Slut2.jpg]
 Get your camera ready then.. #DT @Wait(40)
 Get into position! @ShowImage[GNMImages\Positions\Slut2.jpg]
 Stay there until you hear my bell.. @ShowImage[GNMImages\Positions\Slut2.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Slut2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Slut2.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Slut2.jpg]
 #Timer #DT @Goto(cTimer)
 (c13) //Spanking /Extended time +
@@ -431,7 +431,7 @@ I want you in the Spanking position! @ShowImage[GNMImages\Positions\Spanking1.jp
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Spanking1.jpg]
 I warn you that I might keep you there a little longer @ShowImage[GNMImages\Positions\Spanking1.jpg]
 Imagine being brutally caned! @ShowImage[GNMImages\Positions\Spanking1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Spanking1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Spanking1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Spanking1.jpg]
 #Timer #DT @Wait(#Random(10,200)) @Goto(cTimer)
 (c14) //Stand /Balance +
@@ -440,7 +440,7 @@ This should prove fun to watch! #DT
 I want you in the Stand position @ShowImage[GNMImages\Positions\Stand1.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Stand1.jpg]
 I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\Stand1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Stand1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Stand1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Stand1.jpg]
 #Timer #DT @TempFlag(cBalance) @Goto(cTimer)
 (c15) //Stand Open /Pegs, parachute, balance +
@@ -449,7 +449,7 @@ This should prove fun to watch! #DT
 I want you in the stand open position @ShowImage[GNMImages\Positions\StandOpen1.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\StandOpen1.jpg]
 I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\StandOpen1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\StandOpen1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\StandOpen1.jpg]
 #Timer #DT @TempFlag(cBalance) @Goto(cTimer)
 (c16) //Worship /Rice +
@@ -458,7 +458,7 @@ This should prove fun to watch! #DT
 I want you in the Worship position @ShowImage[GNMImages\Positions\Worship1.jpg]
 I want there rice spread out where you're worshipping #GNMLol @ShowImage[GNMImages\Positions\Worship1.jpg]
 Stay there until you hear my bell @ShowImage[GNMImages\Positions\Worship1.jpg]
-If you absolutely cant handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Worship1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Worship1.jpg]
 Get into position #SlaveName @ShowImage[GNMImages\Positions\Worship1.jpg]
 #Timer #DT @Goto(cTimer)
 (cTimer)
@@ -485,7 +485,7 @@ I'm disappointed.. #MeritChangeNMedium #DT @Goto(End)
 @NullResponse @CustomMode(ModeText, Normal)
 No more huh? #DT
 I must admit I'm disappointed #DT
-I dont believe you really tried #DT
+I don't believe you really tried #DT
 Perhaps some denial would help with your motivation? #DT
 Perhaps not.. #MeritChangeNMedium  #DT
 Well anyway we're stopping here.. #DT @ChangeVar[PositionLevel]=[PositionLevel]-[1]

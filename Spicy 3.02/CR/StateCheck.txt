@@ -16,3 +16,8 @@
 @Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[30]
 (End)
 @End
+
+########################## - Comment - ##########################
+#This file handles the mood of the domme based on the merit points.
+#Called in Stroke/Start/BaseStart at the launch of the personality
+#Variables are set in GNMBackgroundStartUpFirst

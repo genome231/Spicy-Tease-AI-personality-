@@ -1,6 +1,6 @@
 @NullResponse @CheckFlag(GNMToyLingerieAdvanced)
 @NullResponse @CheckFlag(GNMToyLingerieBasic)
-It's a shame you dont have any lingerie #GNMGrin #DT
+It's a shame you don't have any lingerie #GNMGrin #DT
 I had an idea I think you would absolutely love! #DT
 Well we can still do it #DT
 You'll just look a little less lovely #GNMLol #DT @Goto(Photoshoot)
@@ -35,7 +35,7 @@ When you're done transfer the video to your humiliation folder #DT
 When You're done I want you to transfer those images to your selfhumiliation folder #DT
 @RT(We're going to have a blast with them!,We should be able to put them to good use!) #DT
 @RT(Snap at least 10,Take at least 15 pictures) #DT
-@RT(But feel free to do many many more!,But dont shy away from taking a lot more!) #GNMLol #DT @Goto(Done)
+@RT(But feel free to do many many more!,But don't shy away from taking a lot more!) #GNMLol #DT @Goto(Done)
 (3) \\Position
 @RT(You need to choose) #Random(3,7) positions #DT
 Your slave positions that is #GNMGrin #DT
@@ -83,7 +83,7 @@ Imagine me calling her #DT
 I want to show you a video! #DT
 Enjoy! #DT
 @NullResponse @PlayVideo[\GNM_Videos\SelfHumiliation\*.mp4]
-@RT(This is the funniest thing ever!,I cant imagine anything less sexy xD) #DT
+@RT(This is the funniest thing ever!,I can't imagine anything less sexy xD) #DT
 @End
 (Slideshow2)
 @NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Wait(2) @ChangeVar[CModule5]=[CModule5]+[1] @If[CModule5]>=[60]Then(Humiliate) @Goto(Slideshow2)
@@ -91,6 +91,6 @@ Enjoy! #DT
 @RT(I think I might invite,Perhaps I should invite,I bet you wouldn't mind if I were to invite) @ShowVar[BlackmailName1], @ShowVar[BlackmailName2] and @ShowVar[BlackmailName3] over #DT
 @RT(I'm thinking video night!,Maybe we'll take a good look at your images) #DT
 @RT(You might even get to serve tea,Perhaps you could make us dinner) #DT
-@RT(Soo many possibilities!,I cant decide!) #DT
+@RT(Soo many possibilities!,I can't decide!) #DT
 #GNMLol #DT
 @End

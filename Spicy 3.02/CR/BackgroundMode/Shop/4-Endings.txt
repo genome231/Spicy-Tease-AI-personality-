@@ -17,7 +17,7 @@
 @Flag(EndGame10) @SystemMessage #VANC #VANP Game 10: Authors game
 @Flag(EndGame11) @SystemMessage #VANC #VANP Game 11: Window Of Opportunity
 @SystemMessage #VANC #VANP A new end-game costs 750 gold @RapidTextOff
-@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You dont have enough gold
+@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You don't have enough gold
 @Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold @Goto(End)
 @SystemMessage #VANC #VANP Do you wish to make a purchase?
 [yes]@NullResponse @Goto(Buy)

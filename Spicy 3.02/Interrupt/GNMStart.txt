@@ -98,7 +98,7 @@
 @End
 (Denial2)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
-@RT(I dont think you should be unlocked,You wont be unlocked today,There wont any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
+@RT(I don't think you should be unlocked,You wont be unlocked today,There wont any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
 @RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) #DT @Wait(5)
 @RT(Enjoy,Maybe its better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
 @End

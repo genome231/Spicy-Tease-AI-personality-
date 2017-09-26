@@ -108,7 +108,7 @@ Rolling a die #SlaveName #DT
 @NullResponse @ChangeVar[Timer]=[Timer]/[10]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\60 bpm.mp3] @ShowImage @Goto(Timer)
 (b)
@@ -117,7 +117,7 @@ Get ready! #DT @Wait(10)
 @NullResponse @ChangeVar[Timer]=[Timer]/[15]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\90 bpm.mp3] @ShowImage @Goto(Timer)
 (c)
@@ -126,7 +126,7 @@ Get ready! #DT @Wait(10)
 @NullResponse @ChangeVar[Timer]=[Timer]/[20]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\120 bpm.mp3] @ShowImage @Goto(Timer)
 (d)
@@ -135,7 +135,7 @@ Get ready! #DT @Wait(10)
 @NullResponse @ChangeVar[Timer]=[Timer]/[25]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\60 bpm.mp3] @ShowImage @Goto(Timer)
 (e)
@@ -144,7 +144,7 @@ Get ready! #DT @Wait(10)
 @NullResponse @ChangeVar[Timer]=[Timer]/[30]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\150 bpm.mp3] @ShowImage @Goto(Timer)
 (f)
@@ -153,7 +153,7 @@ Get ready! #DT @Wait(10)
 @NullResponse @ChangeVar[Timer]=[Timer]/[35]
 I'm starting the timer setting a stroking beat and I will show you an image #DT
 When the beat stops, you stop stroking! #DT
-I dont care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
 Get ready! #DT @Wait(10)
 @NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\180 bpm.mp3] @ShowImage @Goto(Timer)
 (Timer)

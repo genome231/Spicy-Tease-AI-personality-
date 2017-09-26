@@ -148,7 +148,7 @@
 @NullResponse @WritingTask(,QRETRYUYTYI,OERYTGBnGFHd,sfbfdNGf,gMNfgm,GNMg)
 @NullResponse @Goto(Complete)
 (FailedWritingTask)
-@SystemMessage #VANC #VANP @RT(Cant even do a simple writing task right?,Is it really that hard to do some writing?,Not good enough slave..)
+@SystemMessage #VANC #VANP @RT(can't even do a simple writing task right?,Is it really that hard to do some writing?,Not good enough slave..)
 @SystemMessage #VANC #VANP @RT(Its a good thing I can just give you another then,It's perfect that I can just send you another one then..,Good I have many more of these..)
 @Flag(ChoreWritingTaskEasy) @NullResponse @Goto(1,2,3,4,5,6,7,8,9,10)
 @Flag(ChoreWritingTaskMedium) @NullResponse @Goto(11,12,13,14,15,16,17,18,19,20)

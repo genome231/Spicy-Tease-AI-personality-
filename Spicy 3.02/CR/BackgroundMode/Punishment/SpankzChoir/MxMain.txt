@@ -1,5 +1,5 @@
 @Flag(SpankChoirSafeword) @SystemMessage [Miss A]: You wanted a safeword #ReceptionChat
-@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you cant handle anymore simply say "Cucumber" #ReceptionChat
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you can't handle anymore simply say "Cucumber" #ReceptionChat
 @SystemMessage [Miss A]: Take a seat #ReceptionChat
 @SystemMessage [Miss A]: You will be summoned in a moment.. #ReceptionChat
 (Setup)

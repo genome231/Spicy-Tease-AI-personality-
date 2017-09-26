@@ -13,7 +13,7 @@
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(1a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(1a)
 (1a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT @Goto(End)
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT @Goto(End)
 (2)
 @RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA2)
 @RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
@@ -22,7 +22,7 @@
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(2a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(2a)
 (2a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT
 @RT(And I want you to spend,And you should also spend) @RT(5,15) minutes naked and caged in the corner #DT
 While in the corner I want you to think about @RT(why you are wearing the #Cage,a strategy to make the #Cage more comfortable,the importance of you being caged) #DT @Goto(End)
 (3)
@@ -33,7 +33,7 @@ While in the corner I want you to think about @RT(why you are wearing the #Cage,
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(3a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(3a)
 (3a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 But while in the #Cage  #DT
 I want you to go a for a #CWalk walk #DT 
 @RT(I want you to learn to move arround with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
@@ -45,7 +45,7 @@ I want you to go a for a #CWalk walk #DT
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(4a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(4a)
 (4a) #DT
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 But while in the #Cage #DT 
 @RT(I want you to lie down,I need you to lie down) #DT
 It can be in your bed or where ever you want #DT
@@ -59,7 +59,7 @@ It can be as you sleep, nap or just relax #DT
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(5a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(5a)
 (5a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 During lock up
 I want you to remove your #Cage #DT
 Then @RT(edge for me,get to the edge) #DT
@@ -75,7 +75,7 @@ Repeat this exercise @RT(3,10) times thoroughly #DT @Goto(End)
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(6a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(6a)
 (6a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 During lock up
 I have a rather simple task #DT
 Before you take your next shower #DT
@@ -90,10 +90,10 @@ Clean your genitals and reapply the #Cage #DT @Goto(End)
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(7a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(7a)
 (7a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 During lock up
-You might @RT(considder this,think of this as being,believe this to be) @RT(hard,tough,difficuilt) #DT
-I want you to apply the #Cage while watching a @RT(porno,slideshow) that turns you on.. #DT @FollowUp25(Considder it a cock control exercise..  #DT)
+You might @RT(consider this,think of this as being,believe this to be) @RT(hard,tough,difficuilt) #DT
+I want you to apply the #Cage while watching a @RT(porno,slideshow) that turns you on.. #DT @FollowUp25(consider it a cock control exercise..  #DT)
 The @RT(assignment,task,job,training exercise) should last at least @RT(15,30) minutes #DT @Goto(End)
 (8)
 @RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA8)
@@ -103,7 +103,7 @@ The @RT(assignment,task,job,training exercise) should last at least @RT(15,30) m
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(8a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(8a)
 (8a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 Also.. #DT
 You are to simply clean your #Cage thoroughly  #DT @FollowUp25(Proper hygiene is important..  #DT) @Goto(End)
 (9)
@@ -114,10 +114,10 @@ You are to simply clean your #Cage thoroughly  #DT @FollowUp25(Proper hygiene is
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(9a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(9a)
 (9a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 Also.. #DT
 In that period I want you watch #Random(5,20) minutes @RT(of porn,of a sexy slideshow) #DT
-@RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I cant wait to hear about it!) #DT @Goto(End)
+@RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I can't wait to hear about it!) #DT @Goto(End)
 (10)
 @NullResponse @CheckFlag(VibratorPlay) @Goto(Assignments)
 @RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA10)
@@ -127,12 +127,12 @@ In that period I want you watch #Random(5,20) minutes @RT(of porn,of a sexy slid
 @Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(10a)
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(10a)
 (10a)
-@Variable[ChastityLevel]<[20] It's okay if you cant sleep in it #DT 
+@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 (VibratorPlay)
 But! #DT
 #GNMGrin #DT
 In that period I want you to apply the vibrator for #Random(5,20) minutes #GNMGrin #DT
-@RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I cant wait to hear about it!) #DT
+@RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I can't wait to hear about it!) #DT
 @RT(Remember you have 5 days to complete this assignment,You have 5 days to complete the assignment,You have 5 days to complete the assignment) #DT
 @NullResponse @Goto(End) #DT @Goto(End)
 (11)

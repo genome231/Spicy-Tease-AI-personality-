@@ -46,7 +46,7 @@
 (b)
 @SystemMessage #VANC #VANP @RT(Right now I want you to go to Milovana.com,Go to Milovana.com) @SetFlag(ChoreAlt1b)
 @SystemMessage #VANC #VANP @RT(Find a tease and just read it,Find a good tease and just read it) @SetFlag(ChoreActive)
-@SystemMessage #VANC #VANP Dont follow any instructions, just read through it.. @Wait(300)
+@SystemMessage #VANC #VANP don't follow any instructions, just read through it.. @Wait(300)
 @SystemMessage #VANC #VANP Ready to continue?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP A few minutes more then.. @Wait(120)
@@ -122,7 +122,7 @@
 @SystemMessage #VANC #VANP @RT(Lets work on your creative skills,Time to get creative!) 
 @SystemMessage #VANC #VANP @RT(You are to write a short story,You're gonna write a shory story)
 @SystemMessage #VANC #VANP When you're done your gonna post it on a thread in milovana.com
-@SystemMessage #VANC #VANP well you dont "have to do it"
+@SystemMessage #VANC #VANP well you don't "have to do it"
 @SystemMessage #VANC #VANP I'm actually gonna let you choose if you accept this assignment
 @SystemMessage #VANC #VANP But accepting it will earn you 50 gold!
 @SystemMessage #VANC #VANP So do you accept this job to write a short story?
@@ -137,7 +137,7 @@
 @SystemMessage #VANC #VANP I asked and you accepted..
 @SystemMessage #VANC #VANP Well did you complete my assignment?
 [yes]@SystemMessage #VANC #VANP #GNMGood! @ChangeVar[GNMGold]=[GNMGold]+[50] @DeleteFlag(ChoreAlt1f)
-[no]@SystemMessage #VANC #VANP Well dont return here before you do! @Interrupt(GNMBackgroundBase)
+[no]@SystemMessage #VANC #VANP Well don't return here before you do! @Interrupt(GNMBackgroundBase)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP I transfered the gold to you @DeleteFlag(ChoreActive)
 @SystemMessage #VANC #VANP Good job #SlaveName! #MeritChangePLow @Goto(End)

@@ -5,12 +5,7 @@
 @Variable[#DateDifference(CrazyDommeMode, Days)]>[CrazyDommeModeSet] @NullResponse @Goto(DeleteModes)
 @End
 (DeleteModes)
-@NullResponse @DeleteFlag(SissyMode)
-@NullResponse @DeleteFlag(SlutMode)
-@NullResponse @DeleteFlag(SlaveMode)
-@NullResponse @DeleteFlag(CuckMode)
-@NullResponse @DeleteFlag(LoverMode)
-@NullResponse @DeleteFlag(ChastityMode)
+@NullResponse @DeleteFlag(SissyMode, SlutMode, SlaveMode, CuckMode, LoverMode, ChastityMode)
 (SetModes)
 @Flag(VibratorPlay) @Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(SissyMode)
 @Variable[#Random(1,100)]>[80] @NullResponse @SetFlag(SlutMode)
@@ -21,3 +16,7 @@
 @NullResponse @SetDate(CrazyDommeMode, 0 Days) @SetVar[CrazyDommeModeSet]=[0]
 @NullResponse @ChangeVar[CrazyDommeModeSet]=[CrazyDommeModeSet]+[#Random(4,10)]
 @End
+
+########################## - Comment - ##########################
+#Checks whether it is the first run of crazy domme. Otherwise it justs sets up the current modes if time has run out
+#Called in Stroke/Start/BaseStart at the launch of the personality

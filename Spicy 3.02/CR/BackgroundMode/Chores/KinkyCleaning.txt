@@ -75,7 +75,7 @@
 @SystemMessage #VANC #VANP Lets do a little dress up
 @SystemMessage #VANC I want you in these @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(10)
 @SystemMessage #VANC And wearing this @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(10)
-@SystemMessage #VANC #VANP Dont wear anything else #GNMGrin @Wait(15)
+@SystemMessage #VANC #VANP don't wear anything else #GNMGrin @Wait(15)
 @SystemMessage #VANC #VANP Are you done "slutting" yourself?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
@@ -87,7 +87,7 @@
 @SystemMessage #VANC #VANP Lets do a little dress up
 @SystemMessage #VANC I want you wearing @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg] @Wait(15)
 @SystemMessage #VANC And ofcourse you have to also wear these @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
-@SystemMessage #VANC #VANP Dont wear anything else #GNMGrin @Wait(15)
+@SystemMessage #VANC #VANP don't wear anything else #GNMGrin @Wait(15)
 @SystemMessage #VANC #VANP Are you done "slutting" yourself?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
@@ -98,7 +98,7 @@
 (GagPlay)
 @SystemMessage #VANC #VANP Lets shut you up!
 @SystemMessage #VANC Find your gag and put it on tight! @ShowImage[\GNMImages\Toys\Gag.jpg] @Wait(20)
-@SystemMessage #VANC I cant hear does that mean you're gagged? @ShowImage[\GNMImages\Toys\Gag.jpg]
+@SystemMessage #VANC I can't hear does that mean you're gagged? @ShowImage[\GNMImages\Toys\Gag.jpg]
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?

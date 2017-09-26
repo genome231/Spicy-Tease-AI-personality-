@@ -14,7 +14,7 @@ Stop twisting them right before it would start to hurt #DT @Wait(20)
 @NullResponse @CheckFlag(PainModule2First) @SetFlag(PainModule2First)
 Since this is the first we <i>play</i> with your #GNMBalls like this #DT
 We need to determine your treshhold #DT
-That point where you cant absolutely stand even another single twist! #DT
+That point where you can't absolutely stand even another single twist! #DT
 Now for some terms #DT
 Half a twist means to tigthen all the screws a half round #DT
 A full twist means to tigthen all the screws a full round! #DT
@@ -88,11 +88,11 @@ When it changes again you release it #GNMGrin #DT @TempFlag(Busy)
 I'm gonna show you a slideshow #DT
 Each time the picture chages you are to twist half a round #DT
 Rather simple.. #DT
-When you cant take anymore simply say stop #DT
+When you can't take anymore simply say stop #DT
 If you break your highscore you earn 100 gold #DT
 If you reach your highscore nothing happens #DT
 If you perform well below your highscore I'm gonna be rather disappointed #DT
-And you probably dont want to do that #GNMGrin #DT @TempFlag(Busy)
+And you probably don't want to do that #GNMGrin #DT @TempFlag(Busy)
 Enjoy! @SetVar[MaxTwist]=[0] @CustomMode(stop, Goto, Stop2)
 (Slideshow3)
 @NullResponse @ShowImage @ChangeVar[MaxTwist]=[MaxTwist]+[1] @Wait(#Random(5,15)) @Goto(Slideshow3)
@@ -122,7 +122,7 @@ I'll then show you a picture #DT
 Guess wrong and you have to tigthen it a full round #DT
 Guess right and you can loosen it half a round #DT
 When you've made 10 right guesses the game is over! #DT
-If you absolutely cant take another twist just say stop #DT @Custom(stop, Goto, Stop3)
+If you absolutely can't take another twist just say stop #DT @Custom(stop, Goto, Stop3)
 It's a simple game.. #DT
 (Choose)
 Boobs, butt or hentai? #DT

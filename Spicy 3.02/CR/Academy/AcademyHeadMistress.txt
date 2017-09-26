@@ -1,7 +1,7 @@
 @NullResponse @AddDomme
 @RT(Hello,Hi,Well hello there) @RT(#SubName,#SlaveName,Slave) #DT4 @PlayAudio[\GNMSounds\Punishment\StartPunishment\*.mp3]
 @RT(I hope you realize that getting send to me is bad..,You should know that being sent to my office is bad,I believe you know that getting sent to my office isn't a reward..) #DT4
-It means that your academic @RT(achievements,performance) @RT(are somewhat,ought to be considdered) @RT(lacking,missing) #DT4
+It means that your academic @RT(achievements,performance) @RT(are somewhat,ought to be considered) @RT(lacking,missing) #DT4
 @NullResponse @SetVar[PunishmentSpanking]=[40]
 @NullResponse @ChangeVar[PunishmentSpanking]=[PunishmentSpanking]*[SubPain]
 @RT(Well this means that I have to work on your #GNMAss,Because of that your #GNMAss will take the fall,So we'll have to work a little on your behind..) #DT4 #MeritChangeNMedium #DT4
@@ -11,7 +11,7 @@ It means that your academic @RT(achievements,performance) @RT(are somewhat,ought
 @Variable[SubPain]>[6] @RT(We're going to use them later..,They'll come in handy later,They will be used..) #DT4
 @RT(Go to the corner,Get yourself over to the corner)  #DT4
 @RT(Take the stand open position,Get in the stand open position) #DT4 @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
-@RT(Stay there until you hear my bell,Remain there until I sound the bell,Dont leave until you hear a little bell) #DT4
+@RT(Stay there until you hear my bell,Remain there until I sound the bell,don't leave until you hear a little bell) #DT4
 @RT(Think about what is coming your way..,Think carefully about whats coming your way #GNMGrin,Think deeply about whats coming next..) #DT4 @Wait(180,300)
 @NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(10)
 @RT(Pick up your instrument..,Get yourself and the instrument ready..) #DT4
@@ -22,7 +22,7 @@ It means that your academic @RT(achievements,performance) @RT(are somewhat,ought
 @RT(Get ready,Prepare yourself) #DT4
 @NullResponse @PlayAudio[\GNMSounds\Punishment\SpankingTask\40Strikes\Spank40Fast.mp3] @ChangeVar[PunishmentSpanking]=[PunishmentSpanking]-[40] @Wait(32)
 @RT(Relax a little..,Relax for a moment,Calm down for a moment) #DT4 @If[PunishmentSpanking]<=[0]Then(End)
-But dont touch that #GNMAss ! #DT4 @Wait(#Random(10,20))
+But don't touch that #GNMAss ! #DT4 @Wait(#Random(10,20))
 @Variable[SubPain]<[7] @NullResponse @Chance50(Spank) @Goto(Corner)
 (Cane)
 @RT(Pull the rubberbands up arround your asscheeks,Place the rubberbands arround your ass cheeks..,Go ahead and move the rubberband up over your Ass cheeks) #DT4

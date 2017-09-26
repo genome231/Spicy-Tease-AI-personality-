@@ -68,7 +68,7 @@
 @SystemMessage #VANC #VANP Your code was not recognized
 @SystemMessage #VANC #VANP Try again @Goto(EnterCode)
 (Poor)
-@SystemMessage #VANC #VANP You dont have the necessary gold to make the purchase @Goto(EnterCode)
+@SystemMessage #VANC #VANP You don't have the necessary gold to make the purchase @Goto(EnterCode)
 (a1) //chest
 @SystemMessage #VANC #VANP Chest's are currently unavailable for purchase @Goto(EnterCode)
 @NullResponse @CallReturn(CR\BackgroundMode\Shop\1-TreasureChest.txt)
@@ -111,7 +111,7 @@
 @SystemMessage #VANC #VANP You have @ShowVar[GNMGold] gold
 @SystemMessage #VANC #VANP How much gold do you wish to buy for? @InputVar[BuyOff]
 @Variable[BuyOff]<[100] @SystemMessage #VANC #VANP The chosen value is too small, choose at least 100 @Goto(b4)
-@Variable[BuyOff]>[GNMGold] @SystemMessage #VANC #VANP You cant spend more gold than you have @Goto(b4)
+@Variable[BuyOff]>[GNMGold] @SystemMessage #VANC #VANP You can't spend more gold than you have @Goto(b4)
 @SystemMessage #VANC #VANP Making the purchase.. @ChangeVar[GNMGold]=[GNMGold]-[BuyOff]
 @NullResponse @ChangeVar[BuyOff]=[BuyOff]/[2]
 @NullResponse @ChangeVar[GNMPPoints]=[GNMPPoints]-[BuyOff]
@@ -127,7 +127,7 @@
 @SystemMessage #VANC #VANP Transaction complete, denial settings unlocked @Goto(EnterCode)
 (b5h) //Unlock denial
 @SystemMessage #VANC #VANP If you have locked yourself from changing your denial settings
-@SystemMessage #VANC #VANP And cant wait for them to unlock again
+@SystemMessage #VANC #VANP And can't wait for them to unlock again
 @SystemMessage #VANC #VANP You can pay 2000 gold to have them unlocked @Goto(EnterCode)
 (c1) //Chastity pack 1-3
 @NullResponse @CheckFlag(ChastityUpdate1)

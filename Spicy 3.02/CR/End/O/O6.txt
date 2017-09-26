@@ -1,7 +1,7 @@
 (O6) //orgasm in cow position
 @Flag(SissyMode) @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @RT(I love nothing more than humiliating a #SlaveName when he is most vulnerable,It's the best thing in the world to humiliate #SlaveName) #DT
-@RT(I considder that moment to be when you're about to cum..,And I cant imagine a better momment than when you're cumming) #DT
+@RT(I consider that moment to be when you're about to cum..,And I can't imagine a better momment than when you're cumming) #DT
 @RT(For your next orgasm I want you on all fours,For this next orgasm of yours you're gonna get on all fours) #DT
 @RT(Forehead touching the ground,Your forehead touching the ground) #DT
 @RT(Reach your cock by reaching behind your thigh,I want you to reach your cock by reaching behind your thigh) #DT
@@ -10,7 +10,7 @@
 @Flag(SissyMode) Go ahead and fetch your vibrator #DT @Wait(20)
 @RT(You have 10 minutes to do so starting now,You have 10 minutes to orgasm starting now) #DT
 @RT(When you cum just keep the position and think about how fucking pathetic you are,When you do cum just stay in position) #DT
-@RT(When you hear my bell then return to me,Dont return until you hear my bell) #DT
+@RT(When you hear my bell then return to me,don't return until you hear my bell) #DT
 Not a moment before.. #DT @Timeout(#Random(550,600),continue)
 [done]@RT(I told you not to move before the timer was up..,You were not to move before the bell!) #MeritChangeNMedium #DT
 @AcceptAnswer @RT(I told you not to move before the timer was up..,I gave you strict orders now to move before the bell!) #MeritChangeNMedium #DT

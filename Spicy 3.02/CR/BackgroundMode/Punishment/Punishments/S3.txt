@@ -38,7 +38,7 @@ Well @RT(hello,hi) #SlaveName #DT4 @Goto(Start)
 @NullResponse @If[SubEndurance]>=[8]Then(PS3Hard) @Goto(PS3Easy)
 (Contact2)
 @RT(Well well,Oh my,Well) #SlaveName #DT4
-@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I dont think your #GNMCock will enjoy this,This is fun!) #DT4
+@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I don't think your #GNMCock will enjoy this,This is fun!) #DT4
 @NullResponse @If[SubEndurance]>[3]AND[SubEndurance]<[7]Then(PS3Medium)
 @NullResponse @If[SubEndurance]>=[7]Then(PS3Hard) @Goto(PS3Easy)
 (Contact3)
@@ -88,7 +88,7 @@ Everytime you hear a command I want you say "Thank You #DomHonorific " #DT4
 Lastly I want you to count everytime your heel strikes the floor or you loose your balance.. #DT4
 If both heels strikes at the same time it counts as two! #DT4
 I never said this would be easy #GNMLol #DT4 @SetVar[CornerTimeCommands]=[0] 
-Now go to the corner, stand on your toes and dont return before you hear the bell! #DT4 @TempFlag(CornerTimeDown) @Wait(5)
+Now go to the corner, stand on your toes and don't return before you hear the bell! #DT4 @TempFlag(CornerTimeDown) @Wait(5)
 (CornerTime2)
 @NullResponse @PlayAudio[\GNMSounds\Punishment\Corner\OnYourToes.mp3] @CountVar[CornerTimeCounter2]
 (CornerTime1)
@@ -123,10 +123,10 @@ I'm gonna take your silence as a no.. #DT4 #MeritChangeNMedium @Goto(Fee)
 (Failed1)
 Well well I think that was a little too much.. #DT4
 (Failed2)
-I'm gonna give you 2 choices since you cant seem to do this right.. #DT4
+I'm gonna give you 2 choices since you can't seem to do this right.. #DT4
 Either you repeat the punishment or I'll count this punishment as a fail and collect a fee from you.. #DT4 @Timeout(20,FeeSilence)
 [repeat,punish,punishment,yes]Again it is then.. #DT4 @Goto(Repeat)
-[fail,fee,not again,please no,no,please dont,dont]#GNMGrin #DT4 @Goto(Fee)
+[fail,fee,not again,please no,no,please don't,don't]#GNMGrin #DT4 @Goto(Fee)
 @DifferentAnswer Repeat it or not again? #DT4
 (FeeSilence)
 Well your silence has a price #GNMGrin #DT4

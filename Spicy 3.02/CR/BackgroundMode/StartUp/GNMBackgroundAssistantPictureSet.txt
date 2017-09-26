@@ -73,3 +73,7 @@
 (16)
 @NullResponse @TempFlag(Reception5)
 @End
+
+########################## - Comment - ##########################
+#Sets the virtual assistant set that is used for this "session"
+#Called in Stroke/Start/BaseStart at the launch of the personality

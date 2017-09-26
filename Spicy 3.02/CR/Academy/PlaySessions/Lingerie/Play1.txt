@@ -12,7 +12,7 @@
 (Maybe)
 #SlaveF1Chat I noticed in your records that it's @ShowVar[#DateDifference(DaysSinceE, Days)] days since you last ejaculated
 #SlaveF1Chat If you do good today
-#SlaveF1Chat I will considder reducing that number to 0
+#SlaveF1Chat I will consider reducing that number to 0
 #SlaveF1Chat But it will have to be our little secret
 #SlaveF1Chat Okay?
 [yes]#SlaveF1Chat I thought so #GNMGrin @TempFlag(SecretDeal1) @Goto(SecretDeal1)
@@ -20,7 +20,7 @@
 @DifferentAnswer #SlaveF1Chat Yes or no #SubName?
 #SlaveF1Chat Well I suppose thats admirable even though some might say its stupid
 #SlaveF1Chat Who knows when next time will be..
-#SlaveF1Chat Well since you dont wanna orgasm I wonder if 50 edges might make you regret that decision
+#SlaveF1Chat Well since you don't wanna orgasm I wonder if 50 edges might make you regret that decision
 #SlaveF1Chat Let that also be a lesson
 #SlaveF1Chat "Accept whatever is thrown in your direction"
 #SlaveF1Chat Stupid boy.. @SetVar[EdgesDueF1]=[50] @Goto(EdgeSpiral)

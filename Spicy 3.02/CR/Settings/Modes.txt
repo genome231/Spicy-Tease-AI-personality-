@@ -1,5 +1,5 @@
 @NotFlag(FullTime) @SystemMessage #VANC #VANP You aren't a full time slave
-@NotFlag(FullTime) @SystemMessage #VANC #VANP So you cant access the different modes. @Goto(End)
+@NotFlag(FullTime) @SystemMessage #VANC #VANP So you can't access the different modes. @Goto(End)
 (Base)
 @Flag(StudentMode) @SystemMessage #VANC #VANP You have StudentMode on
 @NotFlag(StudentMode) @SystemMessage #VANC #VANP You have StudentMode off

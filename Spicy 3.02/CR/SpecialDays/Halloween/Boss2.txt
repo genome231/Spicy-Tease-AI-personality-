@@ -55,7 +55,7 @@
 [Attack] @SystemMessage Metal unable to cross the barrier, you find that you have no weapon to attack with @Goto(Drain)
 [block] @SystemMessage Metal unable to cross the barrier, you find that you have no shield to block with @Goto(Drain)
 [cast spell,cast,spell,magic] @SystemMessage You enter a trance @Goto(Spell2)
-[run,flee,hide] @SystemMessage You try to get away, but you cant move @Goto(Drain)
+[run,flee,hide] @SystemMessage You try to get away, but you can't move @Goto(Drain)
 @AcceptAnswer @SystemMessage Your action has no effect @Goto(Drain)
 (Drain)
 @SystemMessage Xi'nu stabs you with her winged blades 
@@ -183,7 +183,7 @@
 (Victory2)
 @SystemMessage Xi'nu falls to the ground @SetVar[HBoss]=[2]
 @SystemMessage Dead..
-@SystemMessage You cant help but feel relief and a bit of pleasure stealing her life @Goto(Boss3)
+@SystemMessage You can't help but feel relief and a bit of pleasure stealing her life @Goto(Boss3)
 (Victory1)
 @SystemMessage Succesfull you feel her life fading @SetVar[HBoss]=[2]
 @SystemMessage Xi'nu falls to the floor

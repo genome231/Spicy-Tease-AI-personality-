@@ -12,7 +12,7 @@
 #SlaveF1Chat You have to stop and type "edged"... @ChangeVar[SlaveLimit]=[SlaveLimit]+[5]
 #SlaveF1Chat The winner gets 100 gold.. 
 #SlaveF1Chat The loser gets a few jabs to the balls #GNMGrin
-#SlaveM1Chat Please dont!
+#SlaveM1Chat Please don't!
 #SlaveF1Chat Shut up!
 #SlaveF1Chat We're playing!
 #SlaveF1Chat So lets begin! @CustomMode(Edged, Goto, Lost) @Goto(Pace1,Pace2,Pace3)

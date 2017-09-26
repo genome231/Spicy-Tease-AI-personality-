@@ -13,7 +13,7 @@
 (Hurry)
 @SystemMessage #VANC @RT(Quicker!,Faster,Be faster,Hurry up!,Be quick,Come on!,Be quick..,Be faster will you?,Be faster!) @If[PatienceTest]>=[3]Then(Stop) @ChangeVar[PatienceTest]=[PatienceTest]+[1]
 @NullResponse #MeritChangeNLow @Timeout(#Random(15,20),Hurry)
-[done,its on,on,it's on,back on,caged,i'm caged,cage]@SystemMessage #VANC @RT(Finally,About time..,Took you long enough,Be faster next time,Dont waste my time again..) @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+[done,its on,on,it's on,back on,caged,i'm caged,cage]@SystemMessage #VANC @RT(Finally,About time..,Took you long enough,Be faster next time,don't waste my time again..) @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
 @DifferentAnswer @SystemMessage #VANC Is it on?
 @NullResponse @UnlockImages
 @End
@@ -26,7 +26,7 @@
 @DifferentAnswer @SystemMessage #VANC #GNMYesOrNo
 @SystemMessage #VANC #VANP #SlaveName
 @SystemMessage #VANC #VANP @RT(You've taken way too long to get that #Cage on..,You we're way to long to get that #Cage on,It took you too long to get that cage on..)
-@SystemMessage #VANC #VANP @RT(I dont like when you make me wait,I dont like to wait,I dont care about waiting)
+@SystemMessage #VANC #VANP @RT(I don't like when you make me wait,I don't like to wait,I don't care about waiting)
 @Variable[#DateDifference(PDenial,Hours)]>[PDenialSet] @SystemMessage #VANC #VANP So as a punishment I'm placing you in the #Cage for the next 24 hours.. @SetDate(PDenial, 0 Days) @SetVar[PDenialSet]=[24]
 @Variable[#DateDifference(PDenial,Hours)]<=[PDenialSet] @SystemMessage #VANC #VANP So as a punishment I'm increasing your denial period by 24 hours.. @ChangeVar[PDenialSet]=[PDenialSet]+[24]
 @SystemMessage #VANC #VANP Bye.. 

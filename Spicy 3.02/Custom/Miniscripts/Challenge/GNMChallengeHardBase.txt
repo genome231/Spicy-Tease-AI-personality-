@@ -34,7 +34,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH4)
 @NullResponse @CheckFlag(GNMToyElectro)
-@SystemMessage #GNMVA Well since you dont own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeH5) @Goto(ChallengeH5)
+@SystemMessage #GNMVA Well since you don't own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeH5) @Goto(ChallengeH5)
 (GNMToyElectro)
 @SystemMessage #GNMVA Lets enjoy some electricity! @SetFlag(ChallengeH5)
 @SystemMessage #GNMVA I want you to go a walk
@@ -45,7 +45,7 @@
 @SystemMessage #GNMVA Lets see about that stamina! @SetFlag(ChallengeH6)
 @SystemMessage #GNMVA Deny yourself for 30 days straight..
 @SystemMessage #GNMVA If at any point you are told to cum
-@SystemMessage #GNMVA Simply dont..
+@SystemMessage #GNMVA Simply don't..
 @SystemMessage #GNMVA Once you've done it for 30 days
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH6)
@@ -57,7 +57,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH7)
 @NullResponse @CheckFlag(GNMToyParachute)
-@SystemMessage #GNMVA Well since you dont own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeH8) @Goto(ChallengeH8)
+@SystemMessage #GNMVA Well since you don't own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeH8) @Goto(ChallengeH8)
 (GNMToyParachute)
 @SystemMessage #GNMVA Lets try with some torture @SetFlag(ChallengeH8)
 @SystemMessage #GNMVA I want you to wear your parachute with spikes for 4 hours!
@@ -73,7 +73,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH9)
 @NullResponse @CheckFlag(GNMToyButtPlug)
-@SystemMessage #GNMVA Well since you dont own a buttplug, I'll have to find a new challenge.. @SetFlag(ChallengeH10) @Goto(ChallengeH10)
+@SystemMessage #GNMVA Well since you don't own a buttplug, I'll have to find a new challenge.. @SetFlag(ChallengeH10) @Goto(ChallengeH10)
 (GNMToyButtPlug)
 @SystemMessage #GNMVA For this challenge @SetFlag(ChallengeH10)
 @SystemMessage #GNMVA I want you to wear a large buttplug for 3 hours straight
@@ -81,7 +81,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH10)
 @NullResponse @CheckFlag(GNMToyHotSauce)
-@SystemMessage #GNMVA Well since you dont own a hot sauce, I'll have to find a new challenge.. @SetFlag(AllHardCDone) @Goto(AllHardCDone)
+@SystemMessage #GNMVA Well since you don't own a hot sauce, I'll have to find a new challenge.. @SetFlag(AllHardCDone) @Goto(AllHardCDone)
 (GNMToyHotSauce)
 @SystemMessage #GNMVA This is gonna be a tough one! @SetFlag(AllHardCDone)
 @SystemMessage #GNMVA I want you to unlock your chastity belt lock
@@ -92,6 +92,6 @@
 @SystemMessage #GNMVA Have fun on your way home #GNMGrin
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeGiven)
-@SystemMessage #GNMVA I cant give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@SystemMessage #GNMVA I can't give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (AllMediumCDone)
 @SystemMessage #GNMVA You've completed all your hard challenges slaves.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

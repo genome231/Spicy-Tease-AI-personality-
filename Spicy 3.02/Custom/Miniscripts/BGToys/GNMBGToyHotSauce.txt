@@ -17,7 +17,7 @@
 @End
 (Allergic)
 @SystemMessage #GNMVA Well since you have allergies SetFlag(Allergic2)
-@SystemMessage #GNMVA We cant do chemical play
+@SystemMessage #GNMVA We can't do chemical play
 @SystemMessage #GNMVA But thats fine
 @SystemMessage #GNMVA I just want you to be safe
 @End

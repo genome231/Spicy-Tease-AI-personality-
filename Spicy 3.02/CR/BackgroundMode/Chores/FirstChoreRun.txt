@@ -52,7 +52,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP I'm gonna ask you how many rooms are in your #Home
 @SystemMessage #VANC #VANP You can choose between 1-5 not including kitchen and bathroom
-@SystemMessage #VANC #VANP If you have more than 5 rooms or some of them are very small considder adding two of them together
+@SystemMessage #VANC #VANP If you have more than 5 rooms or some of them are very small consider adding two of them together
 @SystemMessage #VANC #VANP I also suggest that you draw a schematic of your #Home and add it to the folder named Home
 @SystemMessage #VANC #VANP The folder should be located inside GNMImages
 @SystemMessage #VANC #VANP You can name the image whatever you want

@@ -5,10 +5,10 @@
 @SystemMessage [Miss A]: The domme rarely has time to do so #ReceptionChat
 @SystemMessage [Miss A]: So if you misbehave in sessions or similar you will often simply be awarded punishment points #ReceptionChat
 @SystemMessage [Miss A]: These points accumulate over time #ReceptionChat
-@SystemMessage [Miss A]: Dont let them grow too much #ReceptionChat
+@SystemMessage [Miss A]: don't let them grow too much #ReceptionChat
 @SystemMessage [Miss A]: Or your #DomHonorific will be mispleased with you #ReceptionChat
 @SystemMessage [Miss A]: Trust me.. #ReceptionChat
-@SystemMessage [Miss A]: You dont want that to happen! #ReceptionChat
+@SystemMessage [Miss A]: You don't want that to happen! #ReceptionChat
 @SystemMessage [Miss A]: Currently you have 2 options with me #ReceptionChat
 @SystemMessage [Miss A]: Report for punishment #ReceptionChat
 @SystemMessage [Miss A]: Or #ReceptionChat
@@ -64,7 +64,7 @@
 @SystemMessage Gold transfered #ReceptionChat @ChangeVar[GNMPPoints]=[GNMPPoints]-[FineReduction]
 @SystemMessage #Var[FineReduction] points reduced from your total punishment points #ReceptionChat @Goto(PunishmentBaseIntro)
 (NoGold)
-@SystemMessage [Miss A]: You dont have enough gold #SlaveName #ReceptionChat @ChangeVar[GNMMerits]=[GNMMerits]-[10] @Goto(PunishmentBaseIntro)
+@SystemMessage [Miss A]: You don't have enough gold #SlaveName #ReceptionChat @ChangeVar[GNMMerits]=[GNMMerits]-[10] @Goto(PunishmentBaseIntro)
 (SpankzChoir)
 @SystemMessage [Miss A]: @RT(Give me just a moment,2 seconds #SlaveName,Just a moment #SubName,Let me just check my computer..) #ReceptionBusyPC
 @SystemMessage [Miss A]: Take a seat and enjoy the posters on the wall.. @ShowImage[\GNMImages\Punishment\SpankzChoir\chair1.jpg]

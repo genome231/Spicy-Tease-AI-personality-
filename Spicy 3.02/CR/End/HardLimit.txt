@@ -5,8 +5,8 @@
 @RT(Though I like to encourage you to push them,Still I like to push them a little,But I'll never stop trying to push them a little) #DT
 @RT(Now,Meaning..,Well) #DT
 Do you absolutely need to cum? #DT
-[yes] @RT(Okay then,Well then) #DT
-[no] #GNMGood #DT @Goto(PushLimit2)
+[yes]@RT(Okay then,Well then) #DT
+[no]#GNMGood #DT @Goto(PushLimit2)
 @DifferentAnswer #GNMYesOrNo #DT
 (PushLimit1)
 @RT(Before we get to the point of letting you cum,Before I decide wether to let you cum or not) #DT

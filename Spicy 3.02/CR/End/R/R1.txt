@@ -8,7 +8,7 @@
 @NotFlag(SissyMode) @RT(You decide the stroking pace yourself,You may stroke however you like) #DT
 @Flag(SissyMode) Fetch your vibrator #DT @Wait(15) 
 @Flag(SissyMode) @RT(You decide the tempo of the vibrator yourself,You choose the setting yourself), but those hands doesn't touch that #GNMCock! #DT
-@RT(But you will not feel any pleasure,But I dont want an orgasm only ruin and frustration!) #DT
+@RT(But you will not feel any pleasure,But I don't want an orgasm only ruin and frustration!) #DT
 @RT(Only empty relief..,Only a simple drainage) #DT
 (Understand)
 @RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT
@@ -49,7 +49,7 @@ In fact.. #DT @Goto(ChastityCheck)
 #GNMMoan #DT @Goto(AteCheck)
 (EndSlow)
 This is taking to long #SlaveName #DT
-I dont have all day.. #DT @Goto(ChastityCheck)
+I don't have all day.. #DT @Goto(ChastityCheck)
 (AteCheck)
 @NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)

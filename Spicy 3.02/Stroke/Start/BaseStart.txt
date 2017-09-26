@@ -3,7 +3,7 @@
 @NullResponse @RapidCodeOn @LockImages @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundAssistantPictureSet.txt)
 @Flag(CrazyDommeMode) @NullResponse @CallReturn(CR\BackgroundMode\StartUp\CrazyDommeMode.txt)
 @NullResponse @CallReturn(CR\BackgroundMode\StartUp\GNMSetMood.txt)
-(PlayIntro)
+(PlayIntro) //First launch? Check below
 @NullResponse @CheckFlag(SpicyIntro) @SetFlag(SpicyIntro)
 @NullResponse @TempFlag(Assistant)
 @NullResponse @TempFlag(Busy)
@@ -51,3 +51,7 @@
 (StartUp1) 
 @NullResponse @ShowImage[\GNMImages\Intro\GNMLoading.*] @TempFlag(Assistant)
 @NullResponse @Interrupt(GNMBackgroundBase)
+
+########################## - Comment - ##########################
+#Called on launch of Tease AI Personality
+#If flag "SpicyIntro" exists/is true it means that this has been run before

@@ -1,0 +1,7 @@
+FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
+FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
+OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
+OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
+
+#TODO: Does calling variables like #MeritChangeNHigh really executed the whole script?
+#TODO: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"

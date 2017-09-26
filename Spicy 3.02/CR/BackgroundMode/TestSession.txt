@@ -26,3 +26,8 @@
 @NullResponse @SetDate(TeaseSession,0 Hours) @Interrupt(GNMStart)
 (End)
 @End
+
+
+########################## - Comment - ##########################
+#This checks whether a session can be started
+#Called in Interrupt/GNMBackgroundBase (main screen)

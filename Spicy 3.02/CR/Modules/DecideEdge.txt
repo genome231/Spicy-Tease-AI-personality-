@@ -11,7 +11,7 @@
 @End
 (NoStrokeEdge)
 @NullResponse @DeleteFlag(NoStrokeEdge)
-@RT(You well know that unathorized edging is not allowed,You and I both know that you cant edge without permission,I dont like unathorized edging..) #DT #MeritChangeNMedium
+@RT(You well know that unathorized edging is not allowed,You and I both know that you can't edge without permission,I don't like unathorized edging..) #DT #MeritChangeNMedium
 @RT(I have assigned you punishment points..,I have given you punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
 @End
 (MaybeStrokeEdge)
@@ -24,7 +24,7 @@
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Hmm?,Well?,So?) #DT
 [low stamina,no endurance,lack of stamina,lack of endurance] @RT(You're pathetic #GNMCock,So weak!,I'm not sure why I bother with you..) #DT
-[too fast,stroking too fast,stroked to fast,fast stroking] @RT(Well to bad,I dont really care..,Not my problem) #DT @Goto(TooFast)
+[too fast,stroking too fast,stroked to fast,fast stroking] @RT(Well to bad,I don't really care..,Not my problem) #DT @Goto(TooFast)
 [i'm weak,i am weak] @RT(You sure have a point!,Well I suppose thats true,Well I guess I'm not surprised..) #DT @Goto(TooWeak)
 [accident,i really tried] @RT(Trying??,Really? You're trying?,#GNMLol) #DT @Goto(Trying)
 [i have no excuse,sorry,didn't mean to] ... #DT @Goto(Bad1)
@@ -59,7 +59,7 @@
 @RT(Time to continue,Time for something else..,Lets try something else..) #DT
 @End
 (Bad1)
-@RT(You know I hate it when you break the rules,You know I dont like rules breakers,I expect you to do as commanded) #DT #MeritChangeNLow
+@RT(You know I hate it when you break the rules,You know I don't like rules breakers,I expect you to do as commanded) #DT #MeritChangeNLow
 @RT(I'm assigning you a few punishment points,So I'm rewarding you with punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
 @End
 (Trying)

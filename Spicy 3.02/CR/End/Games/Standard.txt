@@ -42,7 +42,7 @@
 @NullResponse @Goto(OTimeCheck)
 (OTimeCheck)
 @NullResponse @If[OTime]>=[OTimeSet]Then(RuinOCheck)
-@RT(#SlaveName,Slave,Slave,Slave) @RT(I dont feel like letting you ejaculate today,There will no ejaculating today,No ball emptying today,There will be no load blowing today) #DT @Chance50(QuickEnd)
+@RT(#SlaveName,Slave,Slave,Slave) @RT(I don't feel like letting you ejaculate today,There will no ejaculating today,No ball emptying today,There will be no load blowing today) #DT @Chance50(QuickEnd)
 @RT(#GNMGrin,#GNMLol,#GNMEmoteHappy,#GNMEmoteSexy) #DT @Chance50(QuickEnd)
 @RT(Maybe tomorrow..,Perhaps tomorrow,Maybe next time,Who knows maybe next time,If you're lucky next time,Maybe in a few days,Maybe tomorrow if I feel kind) #DT @Chance50(QuickEnd)
 @RT(Maybe..,Again maybe,once more.. Maybe,If you're lucky..) #DT @Chance50(QuickEnd)
@@ -50,9 +50,9 @@
 @NullResponse @CallReturn(CR\End\Decide\DecideD.txt)
 (RuinOCheck)
 @NullResponse @SetVar[OTime]=[0] 
-@NullResponse @SetVar[OTimeSet]=[#DenialLevel] @CallReturn(CR\End\Decide\DecideORStandard.txt)
+@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)
 @End
 (FreeOrgasm)
 #SlaveName #DT
-I see you have an Orgasm pass #DT
+I see you have an Orgasm Pass #DT
 Lets see to it #DT @CallReturn(CR\End\O\O1.txt)

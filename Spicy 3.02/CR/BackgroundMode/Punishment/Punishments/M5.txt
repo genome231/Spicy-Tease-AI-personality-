@@ -37,7 +37,7 @@ Well @RT(hello,hi) #SlaveName #DT4 @Goto(Start)
 @NullResponse @If[SubPainTolerance]>=[8]Then(PM5Hard) @Goto(PM5Easy)
 (Contact2)
 @RT(Well well,Oh my,Well) #SlaveName #DT4
-@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I dont think your #GNMCock will enjoy this,This is fun!) #DT4
+@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I don't think your #GNMCock will enjoy this,This is fun!) #DT4
 @NullResponse @If[SubPainTolerance]>[3]AND[SubPainTolerance]<[7]Then(PM5Medium)
 @NullResponse @If[SubPainTolerance]>=[7]Then(PM5Hard) @Goto(PM5Easy)
 (Contact3)
@@ -54,7 +54,7 @@ Setting up the punishment.. #DT4 @SetVar[BallCrushing]=[#Random(30,36)] @Goto(In
 (Info)
 So #SlaveName #DT4
 The punishment you're about to be given #DT4
-Might be considdered a game to some #DT4
+Might be considered a game to some #DT4
 A mindgame #GNMGrin #DT4
 I need you to fetch your ballcrusher and put it on so its ready.. #DT4 @Wait(30)
 (D1)
@@ -79,7 +79,7 @@ You win.. #DT4
 If not this wont count as a punishment and I will claim a small fee.. #DT4
 You need to be aware of one thing! #DT4
 When you say stop you have to last full 2 minutes before you have permission to release the pressure.. #DT4
-If you cant last 2 minutes it will also count as a failed punishment.. #DT4 @CustomMode(stop, Goto, Stop)
+If you can't last 2 minutes it will also count as a failed punishment.. #DT4 @CustomMode(stop, Goto, Stop)
 Well lets begin! #DT4 @SetVar[BallCrushingCount]=[0]
 (Screw)
 @RT(Tigthen..,Tigthen it,Tighten the device..,Tigthen,Tighten..,Tigthen,Tighten...,Tigthen it..,Tigthen it...,Tigthen it #SlaveName) #DT4 @ChangeVar[BallCrushing]=[BallCrushing]+[1] @Wait(#Random(5,15))

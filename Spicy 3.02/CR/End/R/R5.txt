@@ -1,5 +1,5 @@
 (R5) \\Thumbing
-@RT(You might considder this to be extreme,You might considder this a bit scary) #DT @CustomMode(#MayRuin, Goto, RuinFalse)
+@RT(You might consider this to be extreme,You might consider this a bit scary) #DT @CustomMode(#MayRuin, Goto, RuinFalse)
 @RT(So it's going to be voluntary,So I wont force this on you) #DT
 @RT(It's quite simple really,It's not really that complicated) #DT
 @RT(You are to ruin an orgasm,You will ruin an orgasm) #DT
@@ -11,7 +11,7 @@ Now is this something you can handle? #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @NotFlag(SissyMode) @RT(You decide the stroking pace yourself,You may stroke however you like) #DT
 @Flag(CuckMode) Go ahead and fetch your vibrator #DT
-@Flag(CuckMode) I dont want you to stroke! #GNMLol #DT
+@Flag(CuckMode) I don't want you to stroke! #GNMLol #DT
 I'm gonna give you a slideshow of 15 images #DT
 You have until the last image to ruin or you forfeit your chance #DT
 15 images starting now! #DT @CustomMode(#MayRuin, Goto, Ruin) @CheckFlag(CuckMode)
@@ -59,7 +59,7 @@ In fact.. #DT @Goto(ChastityCheck)
 #GNMMoan #DT @Goto(AteCheck)
 (EndSlow)
 This is taking to long #SlaveName #DT
-I dont have all day.. #DT @Goto(ChastityCheck)
+I don't have all day.. #DT @Goto(ChastityCheck)
 (AteCheck)
 @NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)

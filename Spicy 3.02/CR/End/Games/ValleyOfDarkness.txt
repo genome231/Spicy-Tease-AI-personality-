@@ -3,7 +3,7 @@
 @RT(Now its very simple,Its rather simple,As you know it's quite simple,Now as you well know it's rather simple,So slave,Well slave,Hmm slave) #DT @ChangeVar[ValleyOfDarknessSessions]=[ValleyOfDarknessSessions]-[1]
 @RT(Do you think that it's time?,Are we at the magical moment?,Is it time for you to cum?,Do you think its time for you to cum?,Do you think the moment has arrived?) #DT @Timeout(10,VODNR)
 [yes]@RT(Interesting!,Exciting!,Fabouless,Very interesting,Oh my!,#GNMGrin) #DT @Goto(Time)
-[no]@RT(Well okay then,Neither did I #GNMGrin,I'm not sure I though so either,Well I cant blame you,Playing safe huh?,#GNMGrin,#GNMLol) #DT @Goto(Deny)
+[no]@RT(Well okay then,Neither did I #GNMGrin,I'm not sure I though so either,Well I can't blame you,Playing safe huh?,#GNMGrin,#GNMLol) #DT @Goto(Deny)
 @DifferentAnswer #GNMYesOrNo #DT
 (VODNR)
 @RT(Well your lack of response makes me say no..,I assume silence is no..,I'm taking your silence as a no..) #DT #MeritChangeNLow @Goto(Deny)
@@ -18,7 +18,7 @@
 @RT(No!,No! #GNMGrin,Absolutely not!,A definete no! #GNMGrin) #DT @ChangeVar[ValleyOfDarknessSet]=[ValleyOfDarknessSet]+[#Random(2,5)]
 @RT(Well you know that I have to increase the limit now..,Which means we need to increase the duration,Which means we need to set the bar a little higher..) #DT @ChangeVar[ValleyOfDarknessSessions]=[ValleyOfDarknessSessions]+[#Random(1,3)]
 (ValleyOfDarknessEnd)
-@RT(Remember that patience is the key #GNMLol,Patience padawan #GNMLol,#GNMGrin,Dont be sad you horny little dog) #DT
+@RT(Remember that patience is the key #GNMLol,Patience padawan #GNMLol,#GNMGrin,don't be sad you horny little dog) #DT
 @RT(My horny desperate slut xD,It's only a matter of time #GNMGrin,Remember that horniness is what you actually crave,Remember that denial is what you actually want #GNMLol) #DT @Goto(Deny)
 (TimeCorrect3)
 @RT(Well the short answer is..,Drumroll please!,The answer is..,The answer is..,The answer is..,The final answer is..) #DT @Wait(5)

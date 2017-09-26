@@ -157,7 +157,7 @@ Had enough huh? @UnlockImages @CustomMode(ModeText, Normal)
 @Variable[PunishmentPool]>=[0] Aww you didn't make it high enough! #DT
 Well Transfering the punishment points to you #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[PunishmentPool]
 It's just like in real life #DT
-The "men" who cant last get punished by getting 0 pussy #DT
+The "men" who can't last get punished by getting 0 pussy #DT
 The real men who can last gets the pussy #DT
 Guess which category you belong too #GNMGrin #DT
 (Descend)
@@ -170,6 +170,6 @@ Enjoy! #DT
 (End)
 If your #GNMCock isn't burning with frustration right now there are only 2 reasons why #DT
 1. you didn't do as instructed #DT
-2. I dont know how to tease a #GNMCock #DT
+2. I don't know how to tease a #GNMCock #DT
 Both cases would be bad #GNMLol #DT
 @End

@@ -49,7 +49,7 @@
 @NullResponse @ChangeVar[TempGold]=[TempGold]*[2]
 @Variable[Attone]<[0] @SystemMessage #VANC #VANP You cannot choose a number lower than 0 @Goto(ChooseAttonement)
 @Variable[Attone]<[GNMPPoints] @SystemMessage #VANC #VANP You cannot choose a number higher than your total @Goto(ChooseAttonement)
-@Variable[TempGold]>[GNMGold] @SystemMessage #VANC #VANP You cant afford that many points @Goto(ChooseAttonement)
+@Variable[TempGold]>[GNMGold] @SystemMessage #VANC #VANP You can't afford that many points @Goto(ChooseAttonement)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[TempGold]
 @NullResponse @ChangeVar[TempGold]=[TempGold]/[2]
 @SystemMessage #VANC #VANP Transaction complete @ChangeVar[GNMPPoints]=[GNMPPoints]-[TempGold]
@@ -64,30 +64,30 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Transaction Complete @Goto(End)
 (PoorG)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @End
 (Poor1)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 500 to pay attribute
 @End
 (Poor2)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 1000 to for the moodbooster
 @End
 (Poor3)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 200 to pay for attonement
 @End
 (FewPP)
-@SystemMessage #VANC #VANP You dont have enough punishmentpoints 
+@SystemMessage #VANC #VANP You don't have enough punishmentpoints 
 @SystemMessage #VANC #VANP You need at least 100 before you can use attonement
 @End
 (Poor4)
-@SystemMessage #VANC #VANP You dont have enough gold Slave
+@SystemMessage #VANC #VANP You don't have enough gold Slave
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold]
 @SystemMessage #VANC #VANP You need at least 2000 to unlock your denial settings
 @End

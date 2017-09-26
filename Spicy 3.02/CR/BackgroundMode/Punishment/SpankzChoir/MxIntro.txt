@@ -50,7 +50,7 @@
 @SystemMessage #MxChat2 Hello #MxChat
 @SystemMessage #MxChat2 I go by Miss Kym #MxChat
 @SystemMessage #MxChat2 You look just like the right victim for a healthy spanking! #MxChat
-@SystemMessage #MxChat2 I do considder spankings a neccesary part of mens life #MxChat
+@SystemMessage #MxChat2 I do consider spankings a neccesary part of mens life #MxChat
 @SystemMessage #MxChat2 They are afterall the weaker sex.. #MxChat @Goto(End)
 (M7R)
 @NullResponse @CheckFlag(M7RFirst)
@@ -79,11 +79,11 @@
 @NullResponse @CheckFlag(SpankzChoirSkipped)
 @NullResponse @CheckFlag(SpankzChoirLate)
 @SystemMessage #MxChat2 @RT(Hi,Hello,Greetings) @RT(#SubName,#SlaveName,Slave,Slave,Slave,Slave) #MxChat
-@SystemMessage #MxChat2 @RT(I cant wait to get started!,Lets start right away,Lets proceed!,Lets get that ass sore) #MxChat
+@SystemMessage #MxChat2 @RT(I can't wait to get started!,Lets start right away,Lets proceed!,Lets get that ass sore) #MxChat
 @End
 (SpankzChoirSkipped)
 @SystemMessage #MxChat2 So you think you can escape a session with me? #MxChat
-@SystemMessage #MxChat2 Well you cant! #MxChat
+@SystemMessage #MxChat2 Well you can't! #MxChat
 @SystemMessage #MxChat2 I wrote to #DomHonorific #DomName and informed her of your transgression #MxChat
 @SystemMessage #MxChat2 I am to give you her regards #MxChat @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]
 @SystemMessage #MxChat2 Oh and also a lot of punishment points #GNMGrin #MxChat #MeritChangeNHigh
@@ -91,9 +91,9 @@
 @End
 (SpankzChoirLate)
 @SystemMessage #MxChat2 Awww late for your auction huh? #MxChat
-@SystemMessage #MxChat2 Well dont worry! #MxChat
+@SystemMessage #MxChat2 Well don't worry! #MxChat
 @SystemMessage #MxChat2 You still get spanked #GNMLol #MxChat
-@SystemMessage #MxChat2 You just dont get paid! #GNMEmoteHappy #MxChat
+@SystemMessage #MxChat2 You just don't get paid! #GNMEmoteHappy #MxChat
 @End
 (End)
 @End

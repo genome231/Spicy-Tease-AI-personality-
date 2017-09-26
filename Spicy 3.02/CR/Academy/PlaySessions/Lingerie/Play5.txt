@@ -49,7 +49,7 @@
 (Lock)
 @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Now boys 
 @Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Lock up those dicks again
-@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You dont wanna be unlocked when Miss arrives #GNMLol @Wait(20)
+@Flag(HasChastity,ChastityIsOn) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You don't wanna be unlocked when Miss arrives #GNMLol @Wait(20)
 @NotFlag(HasChastity) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) Put those dicks away
-@NotFlag(HasChastity) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You dont wanna have them out when Miss arrives #GNMLol
+@NotFlag(HasChastity) @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat) You don't wanna have them out when Miss arrives #GNMLol
 @End

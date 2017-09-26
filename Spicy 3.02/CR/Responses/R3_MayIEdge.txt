@@ -12,10 +12,10 @@
 @RT(No you may not..,No..,That a no!,No!,no) #DT 
 @End
 (3)
-@RT(Nah I dont think so,No you may not..,Nope dont do it!,no..,no) #DT
+@RT(Nah I don't think so,No you may not..,Nope don't do it!,no..,no) #DT
 @End
 (No)
-@RT(Nah I dont think so,No you may not..,Nope dont do it!) #DT
+@RT(Nah I don't think so,No you may not..,Nope don't do it!) #DT
 @End
 (Chastity)
 @RT(No you may not..,No..,That a no!,No!,no) #DT 

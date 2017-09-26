@@ -357,14 +357,14 @@ Meaning I've won! #DT
 Meaning I've lost.. #DT
 @NullResponse @ChangeVar[TempGold]=[TempGold]+[25] @If[TempGold]>=[500]Then(EndGold) @Goto(BlackJack)
 (EndPoor)
-You dont have any more gold to gamble with! #DT @DeleteFlag(Busy) @RapidCodeOff
+You don't have any more gold to gamble with! #DT @DeleteFlag(Busy) @RapidCodeOff
 Meaning that it is game over #GNMGrin #DT
 Better luck next time! #DT
 @NullResponse @RapidCodeOff
 @End
 (EndGold)
 #SlaveName you've earned 500 gold #DT @DeleteFlag(Busy)  @RapidCodeOff
-Which I honestly cant believe.. #DT
+Which I honestly can't believe.. #DT
 But a deal is a deal! #DT @ChangeVar[GNMGold]=[GNMGold]+[500]
 I've transfered the gold #DT @SetVar[PDenialSet]=[0]
 Well done.. #DT
@@ -378,7 +378,7 @@ I believe I owe you a bit of freedom as well #GNMGrin  #DT
 @Variable[TempGold]<[200] @NullResponse @RapidCodeOff @Goto(Early)
 #GNMGrin #DT @DeleteFlag(Busy) @RapidCodeOff
 Stopping while ahead of the game #GNMLol #DT
-I cant blame you..  #DT
+I can't blame you..  #DT
 Well I owe you @ShowVar[TempGold] gold #DT @ChangeVar[GNMGold]=[GNMGold]-[TempGold]
 It has been transfered #DT
 @NullResponse @RapidCodeOff

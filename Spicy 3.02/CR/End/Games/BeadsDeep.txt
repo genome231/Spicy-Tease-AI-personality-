@@ -28,7 +28,7 @@ Orange! @ShowImage[\GNMImages\Ends\BeadGame\OrangeBead.*]
 Yellow! @ShowImage[\GNMImages\Ends\BeadGame\YellowBead.*] @ChangeVar[YellowBeads]=[YellowBeads]+[1]
 @RT(Well well,Interesting,#GNMGrin,#GNMLol) #DT
 @RT(This is your yellow bead nr.,This was the yellow bead nr.,Yellow bead nr.,) #DT @ShowVar[YellowBeads] @If[YellowBeads]>=[3]Then(Denial)
-@RT(If you get 3 then you will completely denied for 2 days,Dont forget that getting 3 means 2 days of denial,Remember that you're getting denial if you get 3 of these..) #GNMGrin #DT
+@RT(If you get 3 then you will completely denied for 2 days,don't forget that getting 3 means 2 days of denial,Remember that you're getting denial if you get 3 of these..) #GNMGrin #DT
 @Flag(HasChastity) @RT(Locked up in your #Cage,Locked in your #Cage,Securely locked in your #Cage) #DT
 @NotFlag(HasChastity) @RT(2 days of no touch!,Two full days of no touching!,Absolutely no touching for 2 days..) #DT
 @RT(Well lets put the bead back in bag huh,Lets put the bead back in the bag..,Better remember to put the bead back in the bag) #GNMGrin #DT @Goto(Deny)

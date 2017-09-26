@@ -8,7 +8,7 @@ Including robe, shoeslaces, strings or whatever you can use to tie yourself with
 [no] ... #DT @Goto(Slow)
 @DifferentAnswer #GNMYesOrNo #DT
 (Slow)
-@RT(I want you to be quicker!,You need to work faster!,I dont have time for hesitation!) #DT #GNMEmoteSad 
+@RT(I want you to be quicker!,You need to work faster!,I don't have time for hesitation!) #DT #GNMEmoteSad 
 @RT(Now hurry up and get done!,Speed it up #SlaveName) #DT #MeritChangeNMedium @Wait(30)
 (Continue1)
 @RT(Beside that!,Also!) #DT
@@ -21,7 +21,7 @@ Measure as carefully as you can and write it down using mL
 @RT(Tell me,So) #SlaveName #DT @SetVar[SModule4Fail]=[0]
 How many mL's of water, in total, did you use to fill the glasses? #DT @InputVar[SumOfWater]
 @RT(Now trust when I tell you,Believe me when I say that..) #DT
-@RT(You dont to spill any of that water!,You really dont want to spill a single drop for this lesson!) #DT
+@RT(You don't to spill any of that water!,You really don't want to spill a single drop for this lesson!) #DT
 @RT(Throughout the exercises I want your dominant arm behind your like a waiter,During the exercises your dominant arm is to rest behind your back) #DT
 @RT(You may only use your dominant arm to place or remove glasses of water from the tray,You are only allowed to use the dominant arm to place or remove glasses of water from the tray) #DT
 @RT(But as soon as it is not used it goes behind your back,But the moment it's not in use it goes behind your back) #DT
@@ -190,7 +190,7 @@ Noted. #DT @ChangeVar[SModule4Fail]=[SModule4Fail]+[1] @CustomMode(i failed, Got
 (End) //How much water was lost, how many fails
 Well #SlaveName #DT
 @RT(We're at the end!,It seems we're at an end #GNMGrin) #DT
-@Variable[SModule4Fail]>[10] I cant believe you failed more than 10 times.. #DT
+@Variable[SModule4Fail]>[10] I can't believe you failed more than 10 times.. #DT
 @Variable[SModule4Fail]>[10] I am disappointed.. #MeritChangeNHigh #DT @Goto(WaterDrop)
 @Variable[SModule4Fail]>[7] More than 7 failures... #DT
 @Variable[SModule4Fail]>[7] I expected more from you! #MeritChangeNMedium #DT @Goto(WaterDrop)

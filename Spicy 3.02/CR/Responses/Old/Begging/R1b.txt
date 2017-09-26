@@ -9,7 +9,7 @@
 @NullResponse @Goto(End)
 (VAnnoyed)
 (Annoyed)
-@Variable[Angry]>=[Happy] @RT(I dont really care about that #SlaveName,Not my problem #SlaveName,Do I look like I care?,I dont care #SlaveName) #MeritChangeNMedium #DT @Goto(Relax1,Relax2,Relax3)
+@Variable[Angry]>=[Happy] @RT(I don't really care about that #SlaveName,Not my problem #SlaveName,Do I look like I care?,I don't care #SlaveName) #MeritChangeNMedium #DT @Goto(Relax1,Relax2,Relax3)
 @Variable[Angry]<[Happy] @RT(Do you think this is bad..,So you think this is bad..,Well well,Oh my it can get so much worse) #DT @Goto(MadDick,Torment,Blistering)
 (Neutral)
 @Variable[Angry]>=[Lust] @RT(I'm not in the mood for this!,Not right now #SlaveName,Stop bothering me with your excuses) #MeritChangeNLow #DT @Goto(Relax1,Relax2,Relax3)

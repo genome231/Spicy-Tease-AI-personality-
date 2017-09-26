@@ -37,7 +37,7 @@
 @SystemMessage #VANC #VANP Congratulations Slave!
 @End
 (EndPoor)
-@SystemMessage #VANC #VANP You dont have the 50 gold needed
+@SystemMessage #VANC #VANP You don't have the 50 gold needed
 @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold
 @End
 (End)

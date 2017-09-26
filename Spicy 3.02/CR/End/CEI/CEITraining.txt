@@ -15,7 +15,7 @@ And then suck your finger clean #DT @Goto(Complete)
 (2)
 #SlaveName place your tounge in the cum #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
 Then back into your mouth #DT @SetVar[CEIXPGain]=[13]
-See if you cant handle doing that a few times #DT @Goto(Complete)
+See if you can't handle doing that a few times #DT @Goto(Complete)
 (3)
 #SlaveName place your tounge into the cum and hold it there while you count to 15 #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(10) @SetVar[CEIXPGain]=[15] @Goto(Complete)
 (4)
@@ -26,17 +26,17 @@ See if you cant handle doing that a few times #DT @Goto(Complete)
 #SlaveName about half of the cum using your finger #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Wait(15) @SetVar[CEIXPGain]=[21] @Goto(Complete)
 (7)
 #SlaveName lick a few drops of the cum up using your tounge @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] #DT @SetVar[CEIXPGain]=[23]
-Each time you do it dont swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
+Each time you do it don't swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
 (8)
 #SlaveName lick a good drops of the cum up using your tounge  #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @SetVar[CEIXPGain]=[25]
-Each time you do it dont swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
+Each time you do it don't swallow right away, hold it in your mouth a count to 10 #DT @Wait(20) @Goto(Complete)
 (9)
 #SlaveName lick all of the cum up using your tounge  #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @SetVar[CEIXPGain]=[27]
-Each time you do it dont swallow right away, hold it in your mouth #DT
+Each time you do it don't swallow right away, hold it in your mouth #DT
 Swirl it arround in there while you count to 10 #DT @Wait(20) @Goto(Complete)
 (EndTraining)
 #SlaveName lick all the of the cum up using your tounge #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
-Each time you do it dont swallow right away, hold it in your mouth #DT
+Each time you do it don't swallow right away, hold it in your mouth #DT
 Swirl it arround in there while you count to 10 #DT @Wait(30)
 Now #SubName #DT
 We're actually at the end of your cum training #DT

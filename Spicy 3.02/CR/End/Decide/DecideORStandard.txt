@@ -1,5 +1,5 @@
 (RuinOCheck)
-@RT(I cant decide if I should have you dripple it out,I dont know wether to ruin or let you orgasm,Ruin or orgasm..,What to do.. What to do..,Hmm,This is a hard decision) #DT @RapidCodeOn
+@RT(I can't decide if I should have you dripple it out,I don't know wether to ruin or let you orgasm,Ruin or orgasm..,What to do.. What to do..,Hmm,This is a hard decision) #DT @RapidCodeOn
 @NullResponse @RapidCodeOn
 @NullResponse @SetVar[Decide]=[0]
 @Flag(Personality1, VPleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(100,170)]

@@ -10,7 +10,7 @@
 (End)
 @End
 (EndBad)
-@RT(Clearly you cant handle me today,Clearly I'm too much for you) #DT @Interrupt(GNMBackgroundBase)
+@RT(Clearly you can't handle me today,Clearly I'm too much for you) #DT @Interrupt(GNMBackgroundBase)
 (VAnnoyed)
 (Annoyed)
 (Neutral)

@@ -4,7 +4,7 @@
 [no] Nautghy boy! #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @Flag(FullTime) @RT(You know you have to complete it..,You very well know that it is mandatory..) #DT #MeritChangeNMedium
-@Flag(PartTime) @RT(I really think you should considder doing them,I do believe you would be pleased about yourself if you were to complete them..) #DT
-@Flag(FullTime) @RT(Do your homework!,Remember to do your homework!,Dont forget to do your homework!) #DT
+@Flag(PartTime) @RT(I really think you should consider doing them,I do believe you would be pleased about yourself if you were to complete them..) #DT
+@Flag(FullTime) @RT(Do your homework!,Remember to do your homework!,don't forget to do your homework!) #DT
 (End)
 @End

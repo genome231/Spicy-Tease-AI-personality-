@@ -19,7 +19,7 @@
 @Variable[#DateDifference(SlaveVacation, Hours)]<=[VacationAgreed] @NullResponse @Goto(Back2)
 (Back1)
 @SystemMessage #VANC #VANP @RT(You're late!,You're late #SlaveName,You haven't returned in due time,I expected you sooner!)
-@SystemMessage #VANC #VANP @RT(I dont allow for you to be gone longer than permitted!,You aren't allowed to be gone without proper agreement,You know the rules!)
+@SystemMessage #VANC #VANP @RT(I don't allow for you to be gone longer than permitted!,You aren't allowed to be gone without proper agreement,You know the rules!)
 @SystemMessage #VANC #VANP @RT(I'm giving you punishment points,I'm assigning you punishment point,I have to give you punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[150] @Goto(Continue1)
 (Back2)
 @SystemMessage #VANC #VANP @RT(You're back!,Welcome back,Welcome back #SlaveName,Welcome back #SubName)
@@ -45,7 +45,7 @@
 @NullResponse @Goto(Continue2)
 (Skipping)
 @SystemMessage #VANC #VANP @RT(You have been skipping days,You have been skulking,I think you missed a few sessions) @RT(#GNMSlut,#SlaveName,Slave,Slave,Slave) @SetVar[SlaveVisit]=[0]
-@SystemMessage #VANC #VANP @RT(I dont accept that!,Which is not accepted,Which isn't tolerated)
+@SystemMessage #VANC #VANP @RT(I don't accept that!,Which is not accepted,Which isn't tolerated)
 @SystemMessage #VANC #VANP @RT(You are the property of,You belong to,You gave yourself to) #DomHonorific #DomName
 @SystemMessage #VANC #VANP @RT(And are thus expected to serve!,So you have to serve,So it is demanded that you serve her)
 @SystemMessage #VANC #VANP @RT(I'm giving you punishment points,I'm assigning you punishment point,I have to give you punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]

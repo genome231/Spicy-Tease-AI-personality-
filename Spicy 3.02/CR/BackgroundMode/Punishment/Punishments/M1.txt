@@ -37,7 +37,7 @@ Well @RT(hello,hi) #SlaveName #DT4 @Goto(Start)
 @NullResponse @If[SubEndurance]>=[8]Then(PM1Hard) @Goto(PM1Easy)
 (Contact2)
 @RT(Well well,Oh my,Well) #SlaveName #DT4
-@RT(You're not gonna like this #GNMGrin,I'm not sure you'll enjoy this!,I dont think you'll enjoy this..) #DT4
+@RT(You're not gonna like this #GNMGrin,I'm not sure you'll enjoy this!,I don't think you'll enjoy this..) #DT4
 @NullResponse @If[SubEndurance]>[3]AND[SubEndurance]<[7]Then(PM1Medium)
 @NullResponse @If[SubEndurance]>=[7]Then(PM1Hard) @Goto(PM1Easy)
 (Contact3)
@@ -70,6 +70,6 @@ Lets try again shall we.. #DT4 @ChangeVar[FailedPunishment]=[FailedPunishment]+[
 @End
 (Fail)
 Lets stop this.. #DT4
-If you cant complete a simple punishment #DT4 @TempFlag(PunishmentComplete)
+If you can't complete a simple punishment #DT4 @TempFlag(PunishmentComplete)
 Then you have a long way to go.. #DT4 @TempFlag(PunishmentFailed) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
 @End

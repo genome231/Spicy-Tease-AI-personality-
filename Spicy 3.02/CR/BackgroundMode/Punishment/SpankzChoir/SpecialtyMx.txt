@@ -57,7 +57,7 @@
 @SystemMessage #MxChat2 You are to do so until you see a picture! #MxChat
 @SystemMessage #MxChat2 When you see a picture write 'stop' #MxChat
 @SystemMessage #MxChat2 Miss it and we'll start over until you see a picture #GNMLol #MxChat
-@SystemMessage #MxChat2 I got all day, dont know about you! #MxChat
+@SystemMessage #MxChat2 I got all day, don't know about you! #MxChat
 @SystemMessage #MxChat2 Enjoy! #MxChat
 (Patience2)
 @NullResponse @ShowImage[\GNMImages\BlackScreen.jpg]
@@ -161,7 +161,7 @@
 @NullResponse @ChangeVar[NumberGoal2]=[NumberGoal2]-[NumberGoal]
 @Variable[NumberGoal2]<=[10]And[NumberGoal2]>=[-10] @SystemMessage #MxChat2 So you've counted within my limits! Good job! #MxChat @Goto(End)
 @SystemMessage #MxChat2 So you must have made a few miscounts #GNMLol #MxChat
-@SystemMessage #MxChat2 Dont worry! #MxChat
+@SystemMessage #MxChat2 don't worry! #MxChat
 @SystemMessage #MxChat2 You'll get a new chance right now! #MxChat @Goto(Counting2)
 (M6R)
 (Focus) // Watch numbers on the screen, when X appears say stop or start over

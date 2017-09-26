@@ -6,7 +6,7 @@
 @Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(Right now I want you free,Shh,Just stay quiet you're suppose to be free right now..)
 @Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
 @Flag(Academy,Busy) @NullResponse
-@Flag(Academy,ChastityIsOn) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(You are caged?,I dont understand that you should be in your cage right now?,You're supposed to be locked up atm.)
+@Flag(Academy,ChastityIsOn) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(You are caged?,I don't understand that you should be in your cage right now?,You're supposed to be locked up atm.)
 @Flag(Academy,ChastityIsOn) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
 @Flag(Assistant) @SystemMessage #VANC #VANP @RT(You should be locked right now?,I do hope you're caged right now,You're already locked up,You do realize you're locked up right now..)
 @Flag(Assistant,Busy) @NullResponse

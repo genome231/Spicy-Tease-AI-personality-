@@ -93,7 +93,7 @@
 @SystemMessage #VANC #VANP If you are correct you will be allowed to cum
 @SystemMessage #VANC #VANP If the timer hasn't expired yet it will be prolonged by a secret ammount
 @SystemMessage #VANC #VANP This games denial period ranges from short to long
-@SystemMessage #VANC #VANP But is considdered a hard game only for those able to handle long term denial
+@SystemMessage #VANC #VANP But is considered a hard game only for those able to handle long term denial
 @SystemMessage #VANC #VANP Activating..
 @NullResponse @SetFlag(ValleyOfDarkness) @DeleteFlag(Standard)
 @SystemMessage #VANC #VANP @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
@@ -123,7 +123,7 @@
 @SystemMessage #VANC #VANP After each session you will be asked if you think you've done enough edges to get your orgasm
 @SystemMessage #VANC #VANP If this is true you will get to cum
 @SystemMessage #VANC #VANP If not a secret number of edges is added to the goal
-@SystemMessage #VANC #VANP The game is considdered very hard
+@SystemMessage #VANC #VANP The game is considered very hard
 @SystemMessage #VANC #VANP Only for Tease and denial experts
 @SystemMessage #VANC #VANP Activating
 @NullResponse @SetFlag(EdgeOfDesperation) @DeleteFlag(Standard) @SetVar[EoDMagic]=[0]
@@ -136,7 +136,7 @@
 @SystemMessage #VANC #VANP After each session you are asked if you think you have done enough sessions
 @SystemMessage #VANC #VANP If true you will get to cum
 @SystemMessage #VANC #VANP If false a secret number of sessions is added to the goal
-@SystemMessage #VANC #VANP This game is considdered to be medium difficuilty
+@SystemMessage #VANC #VANP This game is considered to be medium difficuilty
 @SystemMessage #VANC #VANP Activating
 @NullResponse @SetFlag(FrequentFlyer) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[0]
 @NullResponse @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(4,16)]
@@ -220,7 +220,7 @@
 @SystemMessage #VANC #VANP If you try your luck you will roll a final die that decies the pace for you
 @FlagOr(Personality1,Personality2) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get tripled
 @Flag(Personality3) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get doubled
-@SystemMessage #VANC #VANP This game is considdered VERY hard and NOT recommended for beginners!
+@SystemMessage #VANC #VANP This game is considered VERY hard and NOT recommended for beginners!
 @SystemMessage #VANC #VANP Activating it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
 @NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] 
 @NullResponse @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
@@ -237,7 +237,7 @@
 (LockPeriod)
 @SystemMessage #VANC #VANP Your mode has been activated
 @SystemMessage #VANC #VANP Input the lock duration for your mode
-@SystemMessage #VANC #VANP Input 0 if you dont wish to lock your mode
+@SystemMessage #VANC #VANP Input 0 if you don't wish to lock your mode
 @SystemMessage #VANC #VANP Input 99999 if you wish to permanently lock your mode
 @SystemMessage #VANC #VANP You cannot write '10 Days'
 @SystemMessage #VANC #VANP You cannot write '-5'

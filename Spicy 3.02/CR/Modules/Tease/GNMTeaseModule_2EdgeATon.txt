@@ -20,7 +20,7 @@ So #SlaveName #DT
 What is your soft cock length? #DT @InputVar[CockSoftLength]
 @NullResponse @If[CockSoftLength]>[0]Then(Continue1)
 You need to input a number.. #DT
-You cant write 4 centimeters #DT
+You can't write 4 centimeters #DT
 or just 'four' #DT
 A simple number like #DT
 3 #DT
@@ -47,14 +47,14 @@ But before I'll let you enter the competition you need to complete at least 15 t
 @DifferentAnswer #GNMYesOrNo #DT
 (NotEnoughGold)
 Oh.. #DT
-But you dont have the gold needed #DT
+But you don't have the gold needed #DT
 I'm sorry #SlaveName #DT
 But today we're just having a regular session #DT
 (RegularSession)
 @RT(So,Well,Hmm) #SlaveName #DT
 (HowMany)
 @RT(How many edges do you wish to do for today's training?,How many edges do you wish to do today?,How many edges can you handle today?) #DT @InputVar[EdgeCountToday]
-@Variable[EdgeCountToday]<=[0] You cant choose a number lower than 1.. #DT @Goto(HowMany)
+@Variable[EdgeCountToday]<=[0] You can't choose a number lower than 1.. #DT @Goto(HowMany)
 @Variable[EdgeCountToday]>[EdgeCountRecord] A new record #GNMGrin #DT @SetVar[EdgeCountRecord]=[0] @ChangeVar[EdgeCountRecord]=[EdgeCountRecord]+[EdgeCountToday] 
 @Variable[EdgeCountToday]>[EdgeCountRecord] @NullResponse #MeritChangePMedium
 @Flag(Personality1) @Variable[EdgeCountToday]>[30] @NullResponse @Goto(Impressive2)
@@ -108,7 +108,7 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
 @RT(The first slave to get completely soft,The first slut to get soft,The one getting soft first) wins 200 gold #DT @ChangeVar[PauseMultiplier]=[PauseMultiplier]*[SecretEdgeCount]
 @RT(The loser is awarded with a bit of ball busting,The loser will have his ball busted a bit #GNMGrin,The loser will get a special ball treatment..) #DT @ChangeVar[MxTime]=[MxTime]+[PauseMultiplier]
-@RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
+@RT(The beautifull thing is that you don't know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
 (Count1)
@@ -145,7 +145,7 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
 @RT(The first slave to get completely soft,The first slut to get soft,The one getting soft first) wins 200 gold #DT @ChangeVar[PauseMultiplier]=[PauseMultiplier]*[SecretEdgeCount]
 @RT(The loser is awarded with a bit of ball busting,The loser will have his ball busted a bit #GNMGrin,The loser will get a special ball treatment..) #DT @ChangeVar[MxTime]=[MxTime]+[PauseMultiplier]
-@RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
+@RT(The beautifull thing is that you don't know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
 (Count2)
@@ -182,7 +182,7 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
 @RT(The first slave to get completely soft,The first slut to get soft,The one getting soft first) wins 200 gold #DT @ChangeVar[PauseMultiplier]=[PauseMultiplier]*[SecretEdgeCount]
 @RT(The loser is awarded with a bit of ball busting,The loser will have his ball busted a bit #GNMGrin,The loser will get a special ball treatment..) #DT @ChangeVar[MxTime]=[MxTime]+[PauseMultiplier]
-@RT(The beautifull thing is that you dont know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
+@RT(The beautifull thing is that you don't know whether the other one is done or not,You wont know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
 (Count2)

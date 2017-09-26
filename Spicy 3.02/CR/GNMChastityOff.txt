@@ -16,14 +16,14 @@
 @Flag(Personality2) @NullResponse @Wait(#Random(15,40))
 @Flag(Personality3) @NullResponse @Wait(#Random(10,30))
 @RT(You've taken way too long to get that #Cage off..,You we're way to long to get that #Cage off,It took you too long to get that cage off..) @CustomMode(#CageOff, Normal) #MeritChangeNMedium
-@RT(I dont like when you make me wait,I dont like to wait,I dont care about waiting) 
+@RT(I don't like when you make me wait,I don't like to wait,I don't care about waiting) 
 @RT(I'm giving you punishment points,I've assigned you some punishment points,I've increased your number of punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
 @NullResponse @Goto(End)
 (Done)
 #GNMGood @CustomMode(#CageOff, Normal)
 @NullResponse @Goto(End)
 (Done2)
-@RT(Finally,About time..,Took you long enough,Be faster next time,Dont waste my time again..) @CustomMode(#CageOff, Normal)
+@RT(Finally,About time..,Took you long enough,Be faster next time,don't waste my time again..) @CustomMode(#CageOff, Normal)
 @NullResponse @Goto(End)
 (End)
 @NullResponse @DeleteFlag(ChastityIsOn)

@@ -1,6 +1,6 @@
 (M3)
 @Flag(SpankChoirSafeword) @SystemMessage [Miss A]: You wanted a safeword #ReceptionChat
-@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you cant handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
+@Flag(SpankChoirSafeword) @SystemMessage [Miss A]: If you can't handle anymore just say "Cucumber" #ReceptionChat @CustomMode(cucumber, Goto, Safeword)
 @SystemMessage [Miss A]: Miss Gigi is ready to see you.. #ReceptionChat @Goto(M3a,M3b,M3c,M3d,M3e)
 (M3a)
 @NullResponse @TempFlag(M3a) @Goto(CheckStatus1)
@@ -25,7 +25,7 @@
 @NullResponse @CheckFlag(SpankzChoirLate) @Goto(Start)
 (SpankzChoirSkipped)
 @SystemMessage [Miss Gigi]: It's not a popular thing trying to quit..
-@SystemMessage [Miss Gigi]: Dont do it again.. @Goto(Start)
+@SystemMessage [Miss Gigi]: don't do it again.. @Goto(Start)
 (SpankzChoirLate)
 @SystemMessage [Miss Gigi]: @RT(Well hello there mr. late,Hi little late slut,Gretting #SlaveName) #M3Chat 
 (SpankzChoirLate2)
@@ -34,7 +34,7 @@
 @SystemMessage [Miss Gigi]: This is your @ShowVar[M3Visit] time with me #M3Chat
 (Start)
 @SystemMessage [Miss Gigi]: @RT(I see no reason to waste any time..,Lets not drag this out..,Lets not delay this..)
-@Flag(GagPunishment) @SystemMessage [Miss Gigi]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I dont want too much noise from you #GNMGrin,No screaming..) @Wait(15)
+@Flag(GagPunishment) @SystemMessage [Miss Gigi]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I don't want too much noise from you #GNMGrin,No screaming..) @Wait(15)
 @SystemMessage [Miss Gigi]: I need you to @RT(fetch,retrieve,find,get) your @RT(#ChooseSpankingImplement) #M3Chat
 @SystemMessage [Miss Gigi]: When you have it just kneel down and present it with open hands #M3Chat
 (SetVars)

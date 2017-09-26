@@ -69,7 +69,7 @@
 (Question7a)
 @NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
 (Question8)
-@SystemMessage Polyester cant be recycled @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question8a)
+@SystemMessage Polyester can't be recycled @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question8a)
 [false]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question9)
 @AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question9)
 (Question8a)

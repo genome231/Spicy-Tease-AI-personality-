@@ -4,6 +4,6 @@
 @Flag(Session,Busy) @NullResponse
 @Flag(Academy) @RT(No you may not #SlaveName,Not right now #SlaveName,Absolutely not #SlaveName) #MeritChangeNLow #DT
 @Flag(Academy,Busy) @NullResponse
-@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Being a virtual assistant I'm not capable of having a conversation,Speak I dont care..,Just speak I dont really care..) #MeritChangeNLow
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Being a virtual assistant I'm not capable of having a conversation,Speak I don't care..,Just speak I don't really care..) #MeritChangeNLow
 @Flag(Assistant,Busy) @NullResponse
 [All End]

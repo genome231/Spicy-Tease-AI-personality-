@@ -72,7 +72,7 @@ Let me just check a few things before we begin..  #DT4
 @NullResponse @If[SubPain]>=[8]Then(PH2Hard) @Goto(PH2Easy)
 (Contact2)
 @RT(Well well,Oh my,Well) #SlaveName #DT4
-@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I dont think your #GNMCock will enjoy this,This is fun!) #DT4
+@RT(Discipline I just love that,You're not gonna like this #GNMGrin,I don't think your #GNMCock will enjoy this,This is fun!) #DT4
 @NullResponse @If[SubPain]>[3]AND[SubPain]<[7]Then(PH2Medium)
 @NullResponse @If[SubPain]>=[7]Then(PH2Hard) @Goto(PH2Easy)
 (Contact3)

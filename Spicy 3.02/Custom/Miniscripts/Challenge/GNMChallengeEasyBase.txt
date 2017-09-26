@@ -50,7 +50,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeE5)
 @NullResponse @CheckFlag(GNMToyButtPlug)
-@SystemMessage #GNMVA Well since you dont own a buttplug, I'll have to find a new challenge.. @SetFlag(ChallengeE6) @Goto(ChallengeE6)
+@SystemMessage #GNMVA Well since you don't own a buttplug, I'll have to find a new challenge.. @SetFlag(ChallengeE6) @Goto(ChallengeE6)
 (GNMToyButtPlug)
 @SystemMessage #GNMVA This challenge is all about exercise #GNMLol @SetFlag(ChallengeE6)
 @SystemMessage #GNMVA Go for a 20 minute walk while wearing a buttplug
@@ -68,7 +68,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeE7)
 @NullResponse @CheckFlag(GNMToyElectro)
-@SystemMessage #GNMVA Well since you dont own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeE8) @Goto(ChallengeE8)
+@SystemMessage #GNMVA Well since you don't own an electro kit, I'll have to find a new challenge.. @SetFlag(ChallengeE8) @Goto(ChallengeE8)
 (GNMToyElectro)
 @SystemMessage #GNMVA This should prove interesting.. @SetFlag(ChallengeE8)
 @SystemMessage #GNMVA I want you to go a walk
@@ -79,12 +79,12 @@
 @SystemMessage #GNMVA This is going to be tough @SetFlag(ChallengeE9)
 @SystemMessage #GNMVA Deny yourself for 7 days straight..
 @SystemMessage #GNMVA If at any point you are told to cum
-@SystemMessage #GNMVA Simply dont..
+@SystemMessage #GNMVA Simply don't..
 @SystemMessage #GNMVA Once you've done it for 7 days
 @SystemMessage #GNMVA Report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeE9)
 @NullResponse @CheckFlag(GNMToyParachute)
-@SystemMessage #GNMVA Well since you dont own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeE10) @Goto(ChallengeE10)
+@SystemMessage #GNMVA Well since you don't own a parachute, I'll have to find a new challenge.. @SetFlag(ChallengeE10) @Goto(ChallengeE10)
 (GNMToyParachute)
 @SystemMessage #GNMVA This is going to be a nasty one! @SetFlag(ChallengeE10)
 @SystemMessage #GNMVA I want you to simply wear your spiked parachute for 2 hours!
@@ -99,6 +99,6 @@
 @SystemMessage #GNMVA Each strike should make you scream!
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeGiven)
-@SystemMessage #GNMVA I cant give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
+@SystemMessage #GNMVA I can't give you a new challenge before you complete the one at hand slave! @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (AllEasyCDone)
 @SystemMessage #GNMVA You've completed all your easy challenges slaves.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)

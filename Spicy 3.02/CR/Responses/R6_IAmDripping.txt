@@ -1,7 +1,7 @@
 @Flag(Busy) @NullResponse @Goto(End2)
 @Variable[#DateDifference(Spoken, Minutes)]>=[3] @NullResponse @Goto(NoPermission)
 @RT(#GNMLol,#GNMGrin,Well well,Well) #DT
-@RT(Get used to it,It cant really suprise you..,I dont blame you for that #GNMGrin) #DT
+@RT(Get used to it,It can't really suprise you..,I don't blame you for that #GNMGrin) #DT
 @End
 (NoPermission)
 You need permission before you speak #DT #MeritChangeNMedium

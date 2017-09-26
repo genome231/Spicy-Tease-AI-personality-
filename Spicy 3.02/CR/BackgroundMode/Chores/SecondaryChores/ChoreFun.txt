@@ -51,7 +51,7 @@
 @Flag(ChastityIsOn) @SystemMessage #VANC #VANP While that video plays you're gonna keep your vibrator on your cage
 @NotFlag(ChastityIsOn) @SystemMessage #VANC #VANP While that video plays you're gonna keep your vibrator on your Cock
 @SystemMessage #VANC #VANP Just keep it on a low setting @SetFlag(ChoreActive) @Wait(30)
-@SystemMessage #VANC #VANP We dont want any accidents
+@SystemMessage #VANC #VANP We don't want any accidents
 @SystemMessage #VANC #VANP So lay back, buzz on and enjoy
 @NullResponse @PlayVideo
 @SystemMessage #VANC #VANP This was fun!

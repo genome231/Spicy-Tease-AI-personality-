@@ -37,5 +37,5 @@
 @SystemMessage #GNMVA @Edge #GNMEdge
 @SystemMessage #GNMVA #GNMLetTheEdgeFade
 @SystemMessage #GNMVA #GNMMoan
-@SystemMessage #GNMVA I really think you should considder buying it! #GNMLol
+@SystemMessage #GNMVA I really think you should consider buying it! #GNMLol
 @End
