@@ -185,11 +185,11 @@ You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCount
 @RT(The beautifull thing is that you don't know whether the other one is done or not,You won't know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
-(Count2)
-@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop2)
+(Count3)
+@NullResponse @If[SecretEdgeCountTemp]<=[0]Then(Stop3)
 @NullResponse @ChangeVar[MxTime]=[MxTime]+[#Random(2,5)]
-@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count2)
-(Stop2) 
+@NullResponse @ChangeVar[SecretEdgeCountTemp]=[SecretEdgeCountTemp]-[1] @Goto(Count3)
+(Stop3) 
 @RT(Get ready boys!,Get ready sluts,Get ready losers,At your marks..) #DT
 Say 'soft' when you're done.. #DT @CountVar[Timer]
 @RT(Go,Start,Get going!,Begin!) #DT

@@ -1,8 +1,11 @@
 Flags:
 FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
 FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
-Day(x)Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
+Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
 and updated in CR\End\RunEndDayCheck.txt
+Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
+M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
+M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
 
 Variables:
 DevotionSet -> Amount of minutes a session should last
@@ -17,8 +20,16 @@ TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
 TimeSinceO -> Last time slave had an orgasm
 TimeSinceR -> Last time slave had a ruined orgasm
 
+Vocabulary:
+#M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
+
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
+#WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
+#TODO: Implement responses properly
+#TODO: Add tasks Custom\Tasks_NOT_USED
+#TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED
+#TODO: Finish sub birthday Interrupt\SpecialDays\SubBirthday.txt
 
 
 Notes about scripting:
@@ -28,4 +39,5 @@ Behaviour with vocab files: Picked randomly between all lines that are "true"/va
 @SetDate can be in one line multiple times
 #DateDifference(Date, Seconds) can only be once in a line otherwise vocab error
 #Vocab can also be used after nullresponse and does not require any output
+
 

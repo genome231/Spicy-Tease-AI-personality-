@@ -4,7 +4,7 @@ It's my birthday Slave!! #DT @TimeOut(10, Bad1)
 @AcceptAnswer @NullResponse #MeritChangeNHigh
 (Happy)
 When I tell you it's my birthday I expect a "happy birthday"! #DT @TimeOut(10, Bad1)
-[happy birthday] About time.. #DT @Goto(Continue
+[happy birthday] About time.. #DT @Goto(Continue)
 @AcceptAnswer @NullResponse #MeritChangeNHigh @Goto(Happy)
 (Bad1)
 I expected a happy birthday from you! #MeritChangeNHigh
@@ -14,7 +14,7 @@ You just got yourself uninvited from my birthday party! #MeritChangeNHigh
 @RT(Maybe,Perhaps) @RT(#M1,#M2,#M3) would like to have your place @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
 Goodbye!
 @NullResponse @Interrupt(GNMBackgroundBase)
-(Continue1)
+(Continue)
 Let me change clothes really fast #DT
 I have an outfit perfect for today's occasion #GNMGrin #DT
 Go to the corner #DT

@@ -28,7 +28,7 @@
 @Flag(SpankChoirFaceSlap) @Variable[Choice]>=[85] @NullResponse @Goto(Slap)
 @Variable[Choice]>=[70] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM1.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M1SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M2R) // Rating: 3
@@ -40,7 +40,7 @@
 @Flag(SpankChoirCaning) @Variable[Choice]>=[70] @NullResponse @Goto(Caning)
 @Variable[Choice]>=[60] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM2.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M2SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M3R) // Rating: 7
@@ -50,7 +50,7 @@
 @Flag(SpankChoirFaceSlap) @Variable[Choice]>=[80] @NullResponse @Goto(Slap)
 @Variable[Choice]>=[70] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM3.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M3SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M4R) // Rating: 2
@@ -62,7 +62,7 @@
 @Flag(SpankChoirCaning) @Variable[Choice]>=[70] @NullResponse @Goto(Caning)
 @Variable[Choice]>=[55] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM4.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M4SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M5R) // Rating: 4
@@ -73,7 +73,7 @@
 @Flag(SpankChoirCaning) @Variable[Choice]>=[60] @NullResponse @Goto(Caning)
 @Variable[Choice]>=[50] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM5.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M5SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M6R) // Rating: 6
@@ -83,7 +83,7 @@
 @Flag(SpankChoirFaceSlap) @Variable[Choice]>=[75] @NullResponse @Goto(Slap)
 @Variable[Choice]>=[65] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM6.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M6SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M7R) // Rating: 5
@@ -94,7 +94,7 @@
 @Flag(SpankChoirCaning) @Variable[Choice]>=[60] @NullResponse @Goto(Caning)
 @Variable[Choice]>=[55] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM7.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M7SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (M8R) // Rating: 1
@@ -106,7 +106,7 @@
 @Flag(SpankChoirCaning) @Variable[Choice]>=[40] @NullResponse @Goto(Caning)
 @Variable[Choice]>=[30] @NullResponse @Goto(Corner)
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
-@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpecialtyM8.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M8SC.txt)
 @NullResponse @Goto(Return)
 **********************************************************************************************************************************************************************
 (Caning)

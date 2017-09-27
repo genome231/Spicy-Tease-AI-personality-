@@ -22,7 +22,7 @@
 #VANC #VANP Confess!
 [came,orgasm,cum,cumming] #VANC #VANP Cumming without permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[400]
 [ruin,ruined] #VANC #VANP Ruining without permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[250]
-[stroke,stroked,stroking,touched,pleasured] #VANC #VANP Stroking with permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+[stroke,stroked,stroking,touched,pleasured] #VANC #VANP Stroking without permission.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
 [lazy] #VANC #VANP Lazy behaviour.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
 [unhealthy] #VANC #VANP Eating unhealthy.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
 @AcceptAnswer #VANC #VANP This isn't good slave! @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
@@ -41,3 +41,6 @@
 #VANC #VANP Make sure you report next thursday!
 (End)
 @End
+
+########################## - Comment - ##########################
+#Called from CR\BackgroundMode\StartUp\GNMBackgroundFullTimeCheckUp.txt (Full Time only, Tuesdays only)

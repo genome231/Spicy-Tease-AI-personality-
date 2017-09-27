@@ -33,3 +33,6 @@
 #VANC #VANP Make sure you report next tuesday! @Goto(End)
 (End)
 @End
+
+########################## - Comment - ##########################
+#Called from CR\BackgroundMode\StartUp\GNMBackgroundFullTimeCheckUp.txt (Full Time only, Thursdays only)

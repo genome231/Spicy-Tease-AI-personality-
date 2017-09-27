@@ -31,7 +31,7 @@
 (Continue1)
 @DayOfWeek(Tuesday) @NullResponse @CallReturn(CR\BackgroundMode\DayConfession.txt)
 @NullResponse
-@DayOfWeek(Thursday) @NullResponse @CallReturn(CR\BackgroundMode\DayPunishment.txt
+@DayOfWeek(Thursday) @NullResponse @CallReturn(CR\BackgroundMode\DayPunishment.txt)
 @NullResponse
 (Continue1a)
 @NullResponse @If[#DateDifference(WeekCheck, Hours)]>[160]Then(CheckUp)

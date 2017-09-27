@@ -1,7 +1,7 @@
 @NullResponse @CheckFlag(ForgotPlease)
 @NullResponse @RapidCodeOn @ChangeVar[R6b]=[R6b]+[1] @CheckFlag(R6bFirst) 
 @NullResponse @SetVar[R6b]=[1] @TempFlag(R6bFirst)
-(R7aFirst)
+(R6bFirst)
 @NullResponse @CheckFlag(VPleased)
 @NullResponse @CheckFlag(Pleased)
 @NullResponse @CheckFlag(VAnnoyed)

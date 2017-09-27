@@ -150,7 +150,7 @@
 (Counting2) 
 @NullResponse @SetVar[NumberGoal]=[0]
 @NullResponse @SetVar[NumberGoal2]=[0]
-@NullResponse @ChangeVar[NumberGoal]=[NumberGoal]+[Random(180,300)]
+@NullResponse @ChangeVar[NumberGoal]=[NumberGoal]+[#Random(180,300)]
 @SystemMessage #MxChat2 The number is @ShowVar[NumberGoal] #MxChat
 @SystemMessage #MxChat2 You may start now! @CountVar[NumberGoal2] #MxChat
 @NullResponse @CustomMode(stop, Goto, Stop)

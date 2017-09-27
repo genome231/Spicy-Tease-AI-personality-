@@ -23,7 +23,7 @@
 @NullResponse @CheckFlag(SpankzChoirLate) @Goto(Start)
 (SpankzChoirSkipped)
 @SystemMessage [Miss Alexis]: It's not a popular thing trying to quit..
-@SystemMessage [Miss Alexis]: don't do it again.. @Goto(Start)
+@SystemMessage [Miss Alexis]: Don't do it again.. @Goto(Start)
 (SpankzChoirLate)
 @SystemMessage [Miss Alexis]: @RT(Well hello there mr. late,Hi little late slut,Gretting #SlaveName) #M1Chat 
 (SpankzChoirLate2)
@@ -33,7 +33,7 @@
 (Start)
 @SystemMessage [Miss Alexis]: @RT(I see no reason to waste any time..,Lets not drag this out..,Lets not delay this..)
 @Flag(GagPunishment) @SystemMessage [Miss Alexis]: @RT(Fetch your gag and put it in.. - You may remove it after we're done..,Now I don't want too much noise from you #GNMGrin,No screaming..) @Wait(15)
-@SystemMessage [Miss Alexis]: I need you to @RT(fetch,retrieve,find,get) your @RT(#ChooseSpankingImplement) #M1Chat
+@SystemMessage [Miss Alexis]: I need you to @RT(fetch,retrieve,find,get) your #ChooseSpankingImplement #M1Chat
 @SystemMessage [Miss Alexis]: When you have it just kneel down and present it with open hands #M1Chat
 (SetVars)
 @NullResponse @RapidCodeOn

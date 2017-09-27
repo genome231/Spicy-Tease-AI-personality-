@@ -9,7 +9,7 @@ Do you like it?
 @DifferentAnswer #GNMYesOrNo
 Well lets continue..
 I'm wondering if you have any special requests / wishes? #DT
-[spank,spanking,whip,whipping] Spanking #GNMGrin #DT @Goto(Spanking)
+[spank,spanking,whip,whipping] Spanking #GNMGrin #DT @Goto(WantsSpanking)
 [orgasm,cum,cumming] Orgasm.. Well.. #DT @If[GNMMerits]>[800]Then(Good) @Goto(Maybe)
 [ruin,ruining,ruined] You want to be ruined? #GNMGrin #DT @Goto(RuinO)
 [cbt] CBT #GNMLol #DT @Goto(CBT)
@@ -41,12 +41,9 @@ Go fetch a wooden spoon #SlaveName @Wait(20)
 @NullResponse @Chance90(NutCrack)
 @NullResponse @Chance90(NutCrack)
 That was fun! #GNMGrin @Goto(Spanking2,Stroking2)
-(Spanking)
+(WantsSpanking)
 I won't mind spanking your #GNMAss !!
 Suddenly I feel like it's my birthday! #GNMGrin @Goto(Spanking2)
-
-
-
 (Stroking2)
 
 
@@ -135,8 +132,9 @@ Orgasm!
 And gold! @ChangeVar[GNMGold]=[GNMGold]+[Present]
 I just transfered @ShowVar[Present] gold to you!
 @Flag(DGranted) @NullResponse @Goto(Denial)
-
 (Ruin)
+@NullResponse @Goto(Ruin1, Ruin2, Ruin3)
+(Ruin1)
 Well Slave the number you choose means..
 A ruined orgasm!
 And gold! @ChangeVar[GNMGold]=[GNMGold]+[Present]
@@ -184,7 +182,7 @@ Did you manage to orgasm?
 [no] Well better luck next year #GNMLol #GNMEmoteHappy
 @DifferentAnswer #GNMYesOrNo
 
-(Ruin)
+(Ruin2)
 I'm gonna show you a video of a ruined orgasm
 When you see the ruined orgasm
 You are to ruin yours as well #GNMGrin
@@ -192,7 +190,7 @@ Enjoy!
 
 
 
-(Ruin)
+(Ruin3)
 You will be ruining that orgasm to me!
 A rare honor I know
 You have 5 minutes
@@ -203,7 +201,6 @@ Did you manage to ruin?
 [yes] #GNMGood
 [no] Well better luck next year #GNMLol #GNMEmoteHappy
 @DifferentAnswer #GNMYesOrNo
-
 
 
 (Deny)

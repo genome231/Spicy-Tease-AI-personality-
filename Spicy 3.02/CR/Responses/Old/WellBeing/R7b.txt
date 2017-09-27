@@ -6,7 +6,7 @@
 @NullResponse @CheckFlag(VAnnoyed)
 @NullResponse @CheckFlag(Annoyed)
 @NullResponse @CheckFlag(Neutral)
-@NullResponse @CheckFlag(Pleased)
+@NullResponse @Flag(Pleased) @Goto(Pleased, Pleased1)
 @NullResponse @CheckFlag(VPleased)
 (VAnnoyed)
 (Annoyed)
@@ -48,7 +48,7 @@
 @RT(I guess you have a fetish,I suppose that might be a fetish of yours) #DT
 @RT(Compliments need to be thought of carefully,Compliments should not be given lightly!) #DT
 @End
-(Pleased)
+(Pleased1)
 @RT(Well done #SlaveName,I'm impressed #SlaveName) #DT #GNMEmoteHappy
 @End
 (Angered)

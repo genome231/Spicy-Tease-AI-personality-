@@ -68,7 +68,7 @@
 (Day9Bad)
 @FlagOr(Pleased,VPleased) @NullResponse @ChangeVar[GoodDays]=[GoodDays]+[1] @SetFlag(Day9Good) @ChangeVar[BadDays]=[BadDays]-[1] @DeleteFlag(Day9Bad) @Goto(End)
 (Day10Good)
-@FlagOr(Annoyed,VAnnoyed) @NullResponse @ChangeVar[BadDays]=[BadDays]+[1] @SetFlag(Day10Bad) @ChangeVar[GoodDays]=[GoodDays]-[1] @DeleteFlag(Day10Good) @Goto(End
+@FlagOr(Annoyed,VAnnoyed) @NullResponse @ChangeVar[BadDays]=[BadDays]+[1] @SetFlag(Day10Bad) @ChangeVar[GoodDays]=[GoodDays]-[1] @DeleteFlag(Day10Good) @Goto(End)
 (Day10Bad)
 @FlagOr(Pleased,VPleased) @NullResponse @ChangeVar[GoodDays]=[GoodDays]+[1] @SetFlag(Day10Good)
 @FlagOr(Pleased,VPleased) @NullResponse @ChangeVar[BadDays]=[BadDays]-[1] @DeleteFlag(Day10Bad) @Goto(End)

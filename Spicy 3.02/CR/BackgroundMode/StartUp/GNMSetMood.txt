@@ -1,16 +1,10 @@
 @NullResponse @RapidCodeOn @CheckFlag(FirstMood) @SetFlag(FirstMood)
 @NullResponse @CallReturn(CR\BackgroundMode\StartUp\FirstMood.txt)
 @End
-(FirstMood) //Resets temp moods and handles moods at special days (christmas etc.), skips if normal day
-@Variable[#DateDifference(LastMoodUpdate, Days)]<[1] @NullResponse @Goto(Season)
-@NullResponse @ChangeVar[Happy]=[Happy]-[TempHappy]
-@NullResponse @ChangeVar[Angry]=[Angry]-[TempAngry]
-@NullResponse @ChangeVar[Lust]=[Lust]-[TempLust]
+(FirstMood)
 @NullResponse @SetVar[TempHappy]=[0]
 @NullResponse @SetVar[TempAngry]=[0]
 @NullResponse @SetVar[TempLust]=[0]
-@NullResponse @SetDate(LastMoodUpdate, 0 Days)
-(Season) //Calls season checks and stuff
 @Variable[#DateDifference(Season, Days)]<[1] @NullResponse @Goto(Skip)
 @Flag(Christmas1) @NullResponse @ChangeVar[Happy]=[Happy]-[10] @DeleteFlag(Christmas1)
 @Flag(Christmas2) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(Christmas2)
@@ -24,7 +18,7 @@
 @Flag(MoodBoosterActive) @NullResponse @ChangeVar[Happy]=[Happy]-[5] @DeleteFlag(MoodBoosterActive) 
 (Skip) //Checks for the corresponding day and starts setting up the day
 @DayOfWeek(Monday) @NullResponse @Goto(MondayErase)
-@DayOfWeek(Tuesday) @NullResponse @Goto(TuesdayErase)
+@DayOfWeek(TuesDay) @NullResponse @Goto(TuesDayErase)
 @DayOfWeek(Wednesday) @NullResponse @Goto(WednesdayErase)
 @DayOfWeek(Thursday) @NullResponse @Goto(ThursdayErase)
 @DayOfWeek(Friday) @NullResponse @Goto(FridayErase)
@@ -35,51 +29,79 @@
 @Variable[#DateDifference(Monday, Days)]>[3] @NullResponse @Goto(MondaySet)
 @End
 (MondaySet) //Reset happy, angry and lust modifiers, update the date when we last updated this day
-@SetDate(Monday, 0 Days) 
-@Goto(a)
-(TuesdayErase) //Same as monday 
-@NullResponse @TempFlag(Tuesday)
-@Variable[#DateDifference(Tuesday, Days)]>[3] @NullResponse @Goto(TuesdaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[MondayHappy] @SetDate(Monday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[MondayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[MondayLust]
+@NullResponse @SetVar[MondayHappy]=[0]
+@NullResponse @SetVar[MondayAngry]=[0]
+@NullResponse @SetVar[MondayLust]=[0] @Goto(a)
+(TuesDayErase)
+@NullResponse @TempFlag(TuesDay)
+@Variable[#DateDifference(TuesDay, Days)]>[3] @NullResponse @Goto(TuesDaySet)
 @End
-(TuesdaySet) //Same as monday 
-@SetDate(Tuesday, 0 Days)
-@Goto(a)
+(TuesDaySet)
+@NullResponse @ChangeVar[Happy]=[Happy]-[TuesdayHappy] @SetDate(TuesDay, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[TuesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[TuesdayLust]
+@NullResponse @SetVar[TuesdayHappy]=[0]
+@NullResponse @SetVar[TuesdayAngry]=[0]
+@NullResponse @SetVar[TuesdayLust]=[0] @Goto(a)
 (WednesdayErase)
 @NullResponse @TempFlag(Wednesday)
 @Variable[#DateDifference(Wednesday, Days)]>[3] @NullResponse @Goto(WednesdaySet)
 @End
 (WednesdaySet)
-@SetDate(Wednesday, 0 Days)
-@Goto(a)
+@NullResponse @ChangeVar[Happy]=[Happy]-[WednesdayHappy] @SetDate(Wednesday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[WednesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[WednesdayLust]
+@NullResponse @SetVar[WednesdayHappy]=[0]
+@NullResponse @SetVar[WednesdayAngry]=[0]
+@NullResponse @SetVar[WednesdayLust]=[0] @Goto(a)
 (ThursdayErase)
 @NullResponse @TempFlag(Thursday)
 @Variable[#DateDifference(Thursday, Days)]>[3] @NullResponse @Goto(ThursdaySet)
 @End
 (ThursdaySet)
-@SetDate(Thursday, 0 Days)
-@Goto(a)
+@NullResponse @ChangeVar[Happy]=[Happy]-[ThursdayHappy] @SetDate(Thursday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[ThursdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[ThursdayLust]
+@NullResponse @SetVar[ThursdayHappy]=[0]
+@NullResponse @SetVar[ThursdayAngry]=[0]
+@NullResponse @SetVar[ThursdayLust]=[0] @Goto(a)
 (FridayErase)
 @NullResponse @TempFlag(Friday)
 @Variable[#DateDifference(Friday, Days)]>[3] @NullResponse @Goto(FridaySet)
 @End
 (FridaySet)
-@SetDate(Friday, 0 Days)
-@Goto(a)
+@NullResponse @ChangeVar[Happy]=[Happy]-[FridayHappy] @SetDate(Friday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[FridayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[FridayLust]
+@NullResponse @SetVar[FridayHappy]=[0]
+@NullResponse @SetVar[FridayAngry]=[0]
+@NullResponse @SetVar[FridayLust]=[0] @Goto(a)
 (SaturdayErase)
 @NullResponse @TempFlag(Saturday)
 @Variable[#DateDifference(Saturday, Days)]>[3] @NullResponse @Goto(SaturdaySet)
 @End
 (SaturdaySet)
-@SetDate(Saturday, 0 Days)
-@Goto(a)
+@NullResponse @ChangeVar[Happy]=[Happy]-[SaturdayHappy] @SetDate(Saturday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[SaturdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[SaturdayLust]
+@NullResponse @SetVar[SaturdayHappy]=[0]
+@NullResponse @SetVar[SaturdayAngry]=[0]
+@NullResponse @SetVar[SaturdayLust]=[0] @Goto(a)
 (SundayErase)
 @NullResponse @TempFlag(Sunday)
 @Variable[#DateDifference(Sunday, Days)]>[3] @NullResponse @Goto(SundaySet)
 @End
 (SundaySet)
-@SetDate(Sunday, 0 Days)
-@Goto(a)
-(a) //Adds temp happines for stuff that might have occured
+@NullResponse @ChangeVar[Happy]=[Happy]-[SundayHappy] @SetDate(Sunday, 0 Days)
+@NullResponse @ChangeVar[Angry]=[Angry]-[SundayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]-[SundayLust]
+@NullResponse @SetVar[SundayHappy]=[0]
+@NullResponse @SetVar[SundayAngry]=[0]
+@NullResponse @SetVar[SundayLust]=[0] @Goto(a)
+(a) //Adds temp happy for stuff that might have occured
 @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,a31,a32,a33,a34,a35,a36,a37,a38,a39,a40,a41,a42,a43,a44,a45,a46,a47,a48,a49,a50)
 (a1) //Received a sweet text, used
 @NullResponse @TempFlag(MS1)
@@ -451,7 +473,7 @@
 (c22) //Nothing to watch in TV
 @NullResponse @TempFlag(MS122)
 @NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
-(c23) //Have an event coming that I don't wannt go to
+(c23) //Have an event coming that I dont wannt go to
 @NullResponse @TempFlag(MS123)
 @NullResponse @ChangeVar[TempAngry]=[TempAngry]+[3] @Goto(SetVar)
 (c24) //Went to museum, borring
@@ -546,9 +568,68 @@
 @Month(31) @Day(31) @SetFlag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
 @Month(10) @Day(31) @SetFlag(Halloween) @NullResponse @ChangeVar[Lust]=[Lust]+[15] @SetDate(Season, 0 Days)
 @Flag(MoodBooster) @Variable[#DateDifference(MoodBooster, Days)]<[7] @NullResponse @ChangeVar[Happy]=[Happy]+[5] @SetFlag(MoodBoosterActive)
-@NullResponse @ChangeVar[Happy]=[Happy]+[TempHappy]
-@NullResponse @ChangeVar[Angry]=[Angry]+[TempAngry]
-@NullResponse @ChangeVar[Lust]=[Lust]+[TempLust]
+@NullResponse @CheckFlag(Monday)
+@NullResponse @CheckFlag(TuesDay)
+@NullResponse @CheckFlag(Wednesday)
+@NullResponse @CheckFlag(Thursday)
+@NullResponse @CheckFlag(Friday)
+@NullResponse @CheckFlag(Saturday)
+@NullResponse @CheckFlag(Sunday)
+(Monday)
+@NullResponse @ChangeVar[MondayHappy]=[MondayHappy]+[TempHappy]
+@NullResponse @ChangeVar[MondayAngry]=[MondayAngry]+[TempAngry]
+@NullResponse @ChangeVar[MondayLust]=[MondayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[MondayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[MondayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[MondayLust]
+@End
+(TuesDay)
+@NullResponse @ChangeVar[TuesdayHappy]=[TuesdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[TuesdayAngry]=[TuesdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[TuesdayLust]=[TuesdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[TuesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[TuesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[TuesdayLust]
+@End
+(Wednesday)
+@NullResponse @ChangeVar[WednesdayHappy]=[WednesdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[WednesdayAngry]=[WednesdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[WednesdayLust]=[WednesdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[WednesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[WednesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[WednesdayLust]
+@End
+(Thursday)
+@NullResponse @ChangeVar[ThursdayHappy]=[ThursdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[ThursdayAngry]=[ThursdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[ThursdayLust]=[ThursdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[ThursdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[ThursdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[ThursdayLust]
+@End
+(Friday)
+@NullResponse @ChangeVar[FridayHappy]=[FridayHappy]+[TempHappy]
+@NullResponse @ChangeVar[FridayAngry]=[FridayAngry]+[TempAngry]
+@NullResponse @ChangeVar[FridayLust]=[FridayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[FridayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[FridayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[FridayLust]
+@End
+(Saturday)
+@NullResponse @ChangeVar[SaturdayHappy]=[SaturdayHappy]+[TempHappy]
+@NullResponse @ChangeVar[SaturdayAngry]=[SaturdayAngry]+[TempAngry]
+@NullResponse @ChangeVar[SaturdayLust]=[SaturdayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SaturdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SaturdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SaturdayLust]
+@End
+(Sunday)
+@NullResponse @ChangeVar[SundayHappy]=[SundayHappy]+[TempHappy]
+@NullResponse @ChangeVar[SundayAngry]=[SundayAngry]+[TempAngry]
+@NullResponse @ChangeVar[SundayLust]=[SundayLust]+[TempLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SundayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SundayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SundayLust]
 @End
 
 ########################## - Comment - ##########################

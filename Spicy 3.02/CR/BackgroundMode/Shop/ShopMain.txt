@@ -71,7 +71,7 @@
 @SystemMessage #VANC #VANP You don't have the necessary gold to make the purchase @Goto(EnterCode)
 (a1) //chest
 @SystemMessage #VANC #VANP Chest's are currently unavailable for purchase @Goto(EnterCode)
-@NullResponse @CallReturn(CR\BackgroundMode\Shop\1-TreasureChest.txt)
+@NullResponse @CallReturn(CR\BackgroundMode\Shop\1-TreasureChest_NOT_USED.txt)
 @NullResponse @Goto(Print)
 (a1h) //chest
 @SystemMessage #VANC #VANP Treasure chests are divided into four different types

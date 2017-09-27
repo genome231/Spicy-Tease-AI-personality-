@@ -25,7 +25,7 @@ Cya #SlaveName #DT4 @DeleteFlag(D4Punisher)
 (Status)
 @SystemMessage @RT(You're going to the nurses office,Heading for the nurse's office,Walking to the nurse)
 @NullResponse @CheckFlag(PunishmentComplete)
-@NullResponse @CheckFlag(SelfbondageComplete) @Goto(Bug)
+@NullResponse @Flag(SelfbondageComplete) @Goto(Bug)
 ****************************************************** SpankzChoir ************************************************
 (SpankzChoirCompleteSafeWord)
 @SystemMessage [Nurse]: Well #SubName since you used your safeword #Nurse
