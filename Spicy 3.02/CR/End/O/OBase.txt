@@ -37,7 +37,7 @@ Stop all stimulation #DT @CustomMode(ModeText, Normal)
 This is taking too long #SlaveName #DT
 I don't have all day.. #DT @Goto(ChastityCheck)
 (AteCheck)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)
 (Commands)

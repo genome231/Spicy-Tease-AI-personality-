@@ -16,8 +16,8 @@ Have you been locked up for the past 7 days? #DT
 You've completed your exam! #DT
 That's really great! #DT
 This means that you're training is over! #DT @DeleteFlag(ChastityTrainingActive)
-I want you to celebrate #DT @SetDate(TimeSinceO, 0 Days)
-Orgasm however you like! #DT @SetDate(TimeSinceE, 0 Days)
+I want you to celebrate #DT #GDRegisterOrgasm
+Orgasm however you like! #DT
 Lock yourself back up afterwards! #GNMMoan #DT @SetFlag(ChastityIsOn) @ChastityOn @EndTease
 @CallReturn(CR\End\Farewell.txt)
 (DuringExam)

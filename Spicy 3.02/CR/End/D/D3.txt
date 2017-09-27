@@ -13,10 +13,9 @@ If it's a red light I want your hands, fingers folded, behind your head #DT
 @NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
 @NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
 Well did you cum #SlaveName ? #DT
-[yes]Oh wauv well good for you! #DT @SetDate(TimeSinceO, 0 Days)
+[yes]Oh wauv well good for you! #DT #GDRegisterOrgasm
 [no]#GNMGrin I did't expect you to #GNMEmoteHappy #DT @Goto(QuickEnd)
 @DifferentAnswer #GNMYesOrNo #DT
-@NullResponse @SetDate(TimeSinceE, 0 Days)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
 (QuickEnd)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)

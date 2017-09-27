@@ -13,11 +13,11 @@ Game
 (Test)
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT
 @RT(Did you ruin?,Did you ruin yourself?) #DT
-[yes]#GNMGood #DT @Goto(AteCheck)
+[yes]#GNMGood #DT #GDRegisterRuined @Goto(AteCheck)
 [no]@RT(No?,What do you mean no?) #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Did you orgasm or did you simply not make it?,Did you have an orgasm or nothing at all?) #DT
-[orgasm,i came]@RT(What!?,Oh my..) #DT #MeritChangeNHigh @Goto(Bad)
+[orgasm,i came]@RT(What!?,Oh my..) #DT #MeritChangeNHigh #GDRegisterOrgasm @Goto(Bad)
 [nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer Did you cum or nothing? #DT
 (Bad)

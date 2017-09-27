@@ -124,9 +124,9 @@ I don't know when you cleaned your pipes the last time #DT4
 So yes #DT4
 You are gonna orgasm today #DT4 @Wait(5)
 But.. #DT4 @SetVar[OTime]=[0]
-You've haven't earned my attention for that #DT4 @SetDate(TimeSinceE, 0 Days)
-So I'm gonna end our communication in a moment #DT4 @SetDate(TimeSinceR, 0 Days)
-When I do that #DT4 @SetDate(TimeSinceO, 0 Days)
+You've haven't earned my attention for that #DT4 #GDRegisterOrgasm
+So I'm gonna end our communication in a moment #DT4
+When I do that #DT4
 I want you to find some porn or whatever #DT4
 And I want you to jerk yourself off #DT4
 But! #DT4

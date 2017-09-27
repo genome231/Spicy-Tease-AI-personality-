@@ -29,6 +29,6 @@ A mirror if possible #DT @CustomMode(done, Goto, R6Done)
 @RT(In case you were wondering..,FYI) #DT
 @RT(This is the cow position,This is called the milking cow..) #GNMGrin #DT @Goto(AteCheck)
 (AteCheck)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterRuined @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)

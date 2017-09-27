@@ -61,7 +61,7 @@ In fact.. #DT @Goto(ChastityCheck)
 This is taking to long #SlaveName #DT
 I don't have all day.. #DT @Goto(ChastityCheck)
 (AteCheck)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterRuined @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)
 

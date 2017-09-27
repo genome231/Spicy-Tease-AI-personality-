@@ -31,8 +31,8 @@ Are you getting close slave? @Timeout(20,TimesUp)
 @RT(Times up slave!,Stop!,You can stop now!) @UnlockImages #DT @CustomMode(ModeText, Normal)
 @RT(Turn off the vibrator and put it away..,Put the vibrator away for now) #DT @Wait(10)
 (CM2Came)
-I can't believe it! #DT @SetDate(TimeSinceE, 0 Days) @CustomMode(ModeText, Normal)
-Be honest #DT @SetDate(TimeSinceR, 0 Days)
+I can't believe it! #DT #GDRegisterRuined @CustomMode(ModeText, Normal)
+Be honest #DT
 Did that vibrator touch the #Cage? #DT
 [yes]Ouch thats bad! #DT #MeritChangeNHigh
 [no]#GNMGood, then I suppose this was <i>your</i> day then #DT

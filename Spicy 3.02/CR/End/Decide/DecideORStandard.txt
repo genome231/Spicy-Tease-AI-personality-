@@ -24,16 +24,14 @@
 @Variable[Decide]>=[80] @NullResponse @Goto(Ruined)
 @Variable[Decide]<=[80] @NullResponse @Goto(ChangedMind)
 (Orgasm)
-@NullResponse @SetDate(TimeSinceO, 0 Days) 
-@NullResponse @SetDate(TimeSinceE, 0 Days)
+@NullResponse #GDRegisterOrgasm
 @Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]-[25]
 @Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]-[65]
 @Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]-[100]
 @Flag(SlaveMode) @NullResponse @ChangeVar[RORatio]=[RORatio]-[45]
 @NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
 (Ruined)
-@NullResponse @SetDate(TimeSinceR, 0 Days) 
-@NullResponse @SetDate(TimeSinceE, 0 Days)
+@NullResponse #GDRegisterRuined
 @Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]+[9]
 @Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]+[8]
 @Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]+[6]

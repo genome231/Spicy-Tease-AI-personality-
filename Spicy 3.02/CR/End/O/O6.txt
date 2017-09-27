@@ -25,6 +25,6 @@ I'm assigning you punishment points.. #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[4
 [no]Well too bad #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer #GNMYesOrNo #DT
 (AteCheck)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)

@@ -5,13 +5,14 @@ Day(x)Good/Bad -> Defines whether a day in the month has been good or bad, switc
 and updated in CR\End\RunEndDayCheck.txt
 
 Variables:
+DevotionSet -> Amount of minutes a session should last
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
 Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
 
 Dates:
 Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
-DevotionSet -> Amount of minutes a session should last
+PDenial -> Date until sub is denied completely (chastity)
 TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
 TimeSinceO -> Last time slave had an orgasm
 TimeSinceR -> Last time slave had a ruined orgasm
@@ -23,5 +24,8 @@ TimeSinceR -> Last time slave had a ruined orgasm
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
 @FlagOr continues of one of the flags exist @FlagOr(test1, test2, test3)
-Behaviour with vocabs: Picked randomly between all lines that are "true"/valid (flag checks etc.)
+Behaviour with vocab files: Picked randomly between all lines that are "true"/valid (flag checks etc.)
+@SetDate can be in one line multiple times
+#DateDifference(Date, Seconds) can only be once in a line otherwise vocab error
+#Vocab can also be used after nullresponse and does not require any output
 

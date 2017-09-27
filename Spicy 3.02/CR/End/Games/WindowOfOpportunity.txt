@@ -163,11 +163,10 @@ Get ready! #DT @Wait(10)
 (Timer3)
 Stop stroking! #DT @PlayAudio[\GNMSounds\Stroking\Metronome\210 bpm.mp3] @CountVar[Timer, stop] @SetVar[WOOStrokes]=[0]
 Did you orgasm, ruin or nothing? #DT
-[orgasm]Good for you! #GNMGrin #DT @SetDate(TimeSinceO, 0 Days)
-[ruin]It's something I suppose #GNMLol #DT @SetDate(TimeSinceR, 0 Days)
+[orgasm]Good for you! #GNMGrin #DT #GDRegisterOrgasm
+[ruin]It's something I suppose #GNMLol #DT #GDRegisterRuined
 [nothing]Aww poor boy! #DT @Goto(Continue1)
 @DifferentAnswer Orgasm, ruin or nothing? #DT
-@NullResponse @SetDate(TimeSinceE, 0 Days)
 Do you wish to play again? #DT
 [yes]#GNMGood #DT
 [no]Oh well another time perhaps #DT @Goto(NoMore)

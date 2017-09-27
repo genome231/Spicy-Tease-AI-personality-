@@ -19,7 +19,7 @@ Game
 
 
 (AteCheck)
-@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)
 

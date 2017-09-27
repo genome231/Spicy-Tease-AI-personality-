@@ -26,10 +26,13 @@ If you manage to do it I will reward you with gold #DT
 @RT(Enjoy #SlaveName,Have fun little one!) #DT
 @NullResponse @ShowVideo[\GNM_Videos\Endings\R4\*.mp4]
 @RT(Did you succeed slave?,Now did you make it slave?) #DT
-[yes]@RT(Transfering some gold then,Sending you gold!) #GNMGrin #DT #GoldMedium @Goto(AteCheck)
+[yes]@RT(Transfering some gold then,Sending you gold!) #GNMGrin #DT #GDRegisterOrgasm #GoldMedium @Goto(AteCheck)
 [no]Well well.. #DT
 @DifferentAnswer #GNMYesOrNo #DT
-@RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(AteCheck)
+@RT(Did you simply not cum or did you stop after cumming?) #DT
+[stopped, stop]@RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT #GDRegisterOrgasm @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(AteCheck)
+[not cum, no cum, no orgasm] That is quite unfortunate for you. More luck next time #DT @Goto(AteCheck)
+@DifferentAnswer Just tell me, did you not cum or did you stop?
 (AteCheck)
 @NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
 (ChastityCheck)

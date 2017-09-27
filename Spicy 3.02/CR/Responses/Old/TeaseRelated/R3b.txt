@@ -1,7 +1,7 @@
 @CallReturn(CR\GNMChastityOn.txt)
-@NullResponse @SetDate(TimeSinceE, 0 Days) #MeritChangeNHigh
-@NullResponse @SetDate(TimeSinceR, 0 Days) #MeritChangeNHigh
-@NullResponse @SetDate(TimeSinceO, 0 Days) #MeritChangeNHigh
+@NullResponse #GDRegisterOrgasm #GDRegisterRuined #MeritChangeNHigh
+@NullResponse #MeritChangeNHigh
+@NullResponse #MeritChangeNHigh
 @RT(Did you at least ruin it?,Did you ruin it?) #DT #MeritChangeNHigh
 [yes]That makes it a little better.. #DT #MeritChangeNHigh
 [no]#SlaveName ... #DT #MeritChangeNHigh

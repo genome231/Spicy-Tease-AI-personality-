@@ -3,7 +3,6 @@
 @Variable[#DateDifference(TimeSinceO, Days)]>=[HardOTimeLimit] @NullResponse @Goto(HardLimit) 
 @NullResponse @Goto(ChastityTest)
 (HardLimit)
-@NullResponse @SetDate(TimeSinceO, 0 Days)
 @NullResponse @CallReturn(CR\End\HardLimit.txt)
 (ChastityTest)
 @NullResponse @AFKOff
@@ -34,7 +33,7 @@
 (ChastityPunishment)
 @RT(As you well know #SlaveName,As you should well know,As is well known,Well) #DT
 @RT(You're currently serving a chastity sentence,You are right now being punished) #DT
-@RT(So there won't be any funny business today!,So absolutely no chance of you cumming!) #DT @Goto(ChastityCheck)
+@RT(So there won't be any funny business today!,So there is absolutely no chance of you cumming!) #DT @Goto(ChastityCheck)
 **********************************************Chastity*************************************************** //If chastity is active
 (ChastityCheck)
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)
