@@ -1,4 +1,5 @@
 Flags:
+ChastityIsOn -> Chastity on or not?
 FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
 FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
 Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
@@ -9,19 +10,39 @@ M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme p
 
 Variables:
 DevotionSet -> Amount of minutes a session should last
+PDenialSet -> Time in hours that the slave is in chastity (depends on PDenial date)
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
 Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
 
+
 Dates:
 Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
-PDenial -> Date until sub is denied completely (chastity)
+PDenial -> Date since when sub is denied completely (chastity)
 TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
 TimeSinceO -> Last time slave had an orgasm
 TimeSinceR -> Last time slave had a ruined orgasm
 
 Vocabulary:
+#Cage -> Vocab for chastity cage
+#DT(?) -> Sets up another picture of the domme based on mood and time of session
+#DTS? -> Special domme picture for special days
+#EmoteHappy -> Happy Emote
+#GNMBoobs -> Boobs
+#GNMBalls -> Balls
+#GNMCock -> Cock
+#GNMEdge -> Edge 
+#GNMGood -> Good behaviour
+#GNMLetTheEdgeFade -> Let the edge fade
+#GNMStopStroking -> Stop stroking
+#GNMStartStroking -> Start stroking
+#GNMYesOrNo -> Yes or no question
+#MeritChangeNLow -> Forgetting something etc.
+#MeritChangeNMedium  -> Moving to early/not doing as instructed (Combination with PPoints: @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250])
+#MeritChangeNHigh -> Not doing as promised
 #M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
+#SlaveName #Slut #SubName -> Names for slave
+
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
@@ -30,6 +51,8 @@ Vocabulary:
 #TODO: Add tasks Custom\Tasks_NOT_USED
 #TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED
 #TODO: Finish sub birthday Interrupt\SpecialDays\SubBirthday.txt
+#TODO: More tease modules/port from Miss Blue
+#TODO: Different dildo sizes
 
 
 Notes about scripting:
@@ -39,5 +62,8 @@ Behaviour with vocab files: Picked randomly between all lines that are "true"/va
 @SetDate can be in one line multiple times
 #DateDifference(Date, Seconds) can only be once in a line otherwise vocab error
 #Vocab can also be used after nullresponse and does not require any output
-
+You can use vocabs in vocabfiles
+You can only use ChangeVar when using another variable in the equation (can be used to create new vars though) Example: @ChangeVar[Test]=[Test1]*[2]
+You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
+@CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
 

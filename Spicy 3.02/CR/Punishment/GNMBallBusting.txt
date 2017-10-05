@@ -3,7 +3,7 @@
 #SlaveName @RT(fetch,retrieve,go get) a small rubberband #DT @Wait(10)
 (Loop1)
 #Ready #DT
-[yes]#GNMGood #DT
+[yes] #GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop1)
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(This is fairly simple,This is simple enough,You shouldn't find this too difficuilt) #DT

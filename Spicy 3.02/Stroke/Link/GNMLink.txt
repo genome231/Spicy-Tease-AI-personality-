@@ -19,6 +19,10 @@
 (Continue1)
 @Variable[GNMMerits]<[DommeContentVAnnoyed] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]+[#Random(20,50)]
 @Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(20,50)]
+@NullResponse @Chance100(Links) @Goto(Other)
+(Links)
+@NullResponse @CallReturn(CR\Links\*.txt)
+(Other)
 @Variable[#DateDifference(TimeSinceE, Days)]>[15] @NullResponse @Chance50(SlowStrokeMode)
 @Variable[#DateDifference(TimeSinceE, Days)]>[15] @NullResponse @Chance60(TortureMode) @Goto(RegularStrokeMode)
 @Variable[#DateDifference(TimeSinceE, Days)]>[9] @NullResponse @Chance33(SlowStrokeMode)
@@ -72,3 +76,8 @@
 @End
 (End)
 @NullResponse @Interrupt(GNMEnd)
+
+########################## - Comment - ##########################
+#This file handles linking different modules together and to create some diversity
+#Called when a module ends and creates a transition
+#Also updates the mood of the domme based on the merrits

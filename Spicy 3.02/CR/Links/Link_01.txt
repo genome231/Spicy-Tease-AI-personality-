@@ -1,0 +1,41 @@
+@NullResponse @CheckFlag(Link_01_A)
+@NullResponse @CheckFlag(Link_01_B)
+@RT(Do you want,Would you like,Are you ready) to @RT(do some,start) #JerkingOff again? #DT @SetFlag(Link_01_A)
+[yes] You're @RT(so transparent,so predictable,so easy to read,like an open book) #SlaveName #DT @Goto(startstroking) 
+[no] Oh good, @RT(then,that means) I can @RT(take a moment to,go) get myself something to drink #DT @Goto(getadrink) 
+[trick] Ooh you think you're @RT(so smart,clever) don't you #DT
+@DifferentAnswer #GNMYesOrNo #DT
+No it wasn't a trick question #DT
+Better luck next time #SlaveName #DT
+@NullResponse @CallReturn(CR\Punishment\GDSmallPunishment.txt)
+Let that settle in for a second #SlaveName #DT
+Now lightly touch the skin of your #GNMCock with your fingertips #DT
+Feel how it's aching to be stroked again #DT
+I know it's ready for more #DT @Goto(startstroking)
+(getadrink)
+Don't go anywhere #SlaveName, and don't touch that #GNMCock #DT
+You can stare at some #GNMBoobs in the meantime #DT @ShowBoobsImage @LockImages
+I'll be right back! @AFKOn @Wait(110)
+I'm here #EmoteHappy #DT @AFKOff @UnlockImages
+Have you been a good boy while I was away? #DT
+[yes] #GNMGood @Goto(startstroking)
+[no] You disappoint me #SlaveName #MeritChangeNMedium #DT
+@DifferentAnswer #GNMYesOrNo #DT
+I gave you two simple instructions: don't stroke and stay put #DT
+which one did you not follow? #DT
+[first,stroke,stroked,stroking] I should have known #GNMLol #DT
+[second,didn't stay,stay put,staying] Wow, I would have thought that was the easy part #DT
+[both,neither,none] So... you walked away while #JerkingOff #EmoteFlustered #DT
+@DifferentAnswer Which instruction did you not follow, the first or the second? #DT
+I really shouldn't have to remind you to follow instructions #SlaveName #DT
+@RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250]
+(startstroking)
+@NullResponse
+@End
+(Link_01_A)
+@NullResponse @DeleteFlag(Link_01_A) @SetFlag(Link_01_B)
+I don't think I'll ever get enough of this #GNMEmoteHappy #DT
+@End
+(Link_01_B)
+@NullResponse @DeleteFlag(Link_01_B)
+@End

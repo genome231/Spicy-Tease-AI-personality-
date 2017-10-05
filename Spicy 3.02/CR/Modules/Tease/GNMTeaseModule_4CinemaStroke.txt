@@ -5,7 +5,7 @@ Meaning I might show you the ace(1), two(2), three(3), four(4), five(5), seven(7
 What card was missing #DT
 It was the "6" #DT
 It doesn't matter if the card is clubs, hearts, spades or diamonds #DT
-Only the Cardvalue is important #DT
+Only the card value is important #DT
 When I'm done show you the 12 cards you'll have 5 seconds to reply with the correct answer #DT
 Be correct 7 times and you earn 150 gold #DT
 Be wrong 7 times and you have to edge 15 times #GNMMoan #DT @SetVar[Wrong]=[0]

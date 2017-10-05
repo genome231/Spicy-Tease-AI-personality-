@@ -6,16 +6,16 @@ Well! #DT
 Its rather simple #DT
 Everytime you'll start with a warmup that ends with you edging once #DT
 You'll then be reminded about some of the few key words to use in different situations #DT
-You have 3 "life" #DT
-So the first time you edge while training you say "first edge" and lose one life #DT
-The next time you edge you say "second edge" and lose one life #DT
-And when you edge a third time you'll simply say "stop" and its training over #DT
-After an edge you are given a short break #DT
+You have 3 "lives" #DT
+So the first time you edge while training you'll say "first edge" and lose one life #DT
+The next time you edge you say "second edge" and lose another life #DT
+And when you edge a third time you'll simply say "stop" and the training is over #DT
+After each edge you are given a short break #DT
 You will be stroking to a slideshow and you are not permitted to look away from the images #DT
 You will stroke to the beat and you will only stop stroking should you edge #DT
 It goes without saying that cumming/ejaculating is NOT allowed.. #DT
 You will end at a certain level ranging from 1-50 #DT
-You'll ofcourse start at level 1 today #DT
+You'll of course start at level 1 today #DT
 The goal is simple to reach the highest level possible #DT
 If you dream about being anything else than a houseslave I suggest you aim for level 50 #GNMLol #DT
 The beat patterns will also increase in difficuilty #DT
@@ -43,7 +43,7 @@ When you hear the pace you stroke it to the beat #DT
 @NullResponse @ShowImage @Wait(5)
 Stop stroking..
 #GNMEdge @EdgeNoHold @ShowImage
-#LetTheEdgeFace @ChangeVar[EdgeCount]=[EdgeCount]+[1] @Wait(#Random(3,7))
+#LetTheEdgeFade @ChangeVar[EdgeCount]=[EdgeCount]+[1] @Wait(#Random(3,7))
 @NullResponse @CustomMode(first edge, Goto, FirstEdge) @SetVar[TimeToIncreaseLevel]=[0]
 Rest a minute while I look up your level #DT
 But be ready #DT
@@ -481,7 +481,7 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
 @End
 (40End)
-@Flag(Personality1) @RT(You are above level 40!,Well done!,Exelent job,You did good #SlaveName,Bravo #SubName,That was exelent work #SlaveName,I'm applauding you #SubName) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[25]
+@Flag(Personality1) @RT(You are above level 40!,Well done!,Excelent job,You did good #SlaveName,Bravo #SubName,That was exelent work #SlaveName,I'm applauding you #SubName) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[25]
 @Flag(Personality2) @RT(It seems you did quite alright today!,Oh my you made it passed level 40..,Well it seem you made it pass level 40) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[20]
 @Flag(Personality3) @RT(Not at level 50 huh..,Oh you actually went higher than 40,I feel like you've cheated a little..) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[10]
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 

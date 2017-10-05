@@ -1,4 +1,4 @@
-@NullResponse @CheckFlag(GNMChastityModule_6BlackJack) @SetFlag(GNMChastityModule_6BlackJack)
+@NullResponse @CheckFlag(TeaseModule3) @SetFlag(TeaseModule3)
 I have a fun new game for you #SlaveName #DT
 In a moment I'm gonna show you 100 pictures #DT
 You will rate each picture from 1 to 10 #DT
@@ -12,12 +12,12 @@ Now that I have all this lovely info #DT
 I will have a great new game for us to play #DT
 You'll just have to wait and see #GNMGrin #DT
 @End
-(GNMChastityModule_6BlackJack)
+(TeaseModule3)
 I have a fun game for you #SlaveName #DT 
 @Flag(TeaseUpdate2) @NullResponse @Goto(Game2)
 @NullResponse @Goto(Game1,Game2)
 (Game1)
-I'm gonna show you 2 images a few times #DT
+I'm gonna show you 2 images at a time #DT
 You previously rated them #DT
 You will simply tell me which of the images you gave the highest rating #DT
 <i>If</i> you can remember #GNMLol #DT
