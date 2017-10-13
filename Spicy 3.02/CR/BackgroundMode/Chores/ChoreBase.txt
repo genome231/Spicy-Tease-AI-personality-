@@ -1,12 +1,16 @@
 @NullResponse @CheckFlag(FirstChoreRun) @SetFlag(FirstChoreRun)
 @NullResponse @CallReturn(CR\BackgroundMode\Chores\FirstChoreRun.txt)
+@NullResponse @DeleteFlag(Chore)
 (FirstChoreRun)
 @NullResponse @RapidCodeOn @CheckFlag(ChoreActive)
 (Base)
-@SystemMessage #VANC #VANP Do you wish to do a chore or return?
+@NullResponse @CheckFlag(Chore)
+@SystemMessage #VANC #VANP Do you wish to do a new chore or return?
 [yes,chore]@SystemMessage #VANC #VANP @RT(So,Okay,Well then,Hmm,Lets see) @RT(#SlaveName,#SubName)
-[no,return]@NullResponse @Goto(End)
+[no,return,exit]@NullResponse @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Chore or return?
+(Chore)
+@NullResponse @DeleteFlag(Chore)
 @SystemMessage #VANC #VANP @RT(What chore to give you next..,Which chore should you do..,Lets see if we can find a chore for you..)
 (Cleaning)
 @NullResponse @RapidCodeOn
@@ -103,3 +107,6 @@
 @NullResponse @Goto(FirstChoreRun)
 (End)
 @End
+
+########################## - Comment - ##########################
+#TempFlag(Chore) is set in Interrupt\GNMBackgroundBase.txt
