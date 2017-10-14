@@ -5,7 +5,7 @@
 [no]@SystemMessage Return when you have sufficient time.. @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(End)
 @DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (End)
-@SystemMessage Exiting.. - Return when you have time @DeleteFlag(SpicyIntro) @ShowImage[\GNMImages\Intro\GNMLoading.*] @EndTease
+@SystemMessage Exiting.. - Return when you have time @ShowImage[\GNMImages\Intro\GNMLoading.*] @EndTease
 @End
 (Sub3.0)
 @SystemMessage Setting up @ShowImage[\GNMImages\Intro\GNMLoading.*]
@@ -199,8 +199,8 @@
 @SystemMessage #VANC #VANP Unfortunately I have misplaced your application #GNMEmoteSad
 @SystemMessage #VANC #VANP So I need you to refresh my memory
 @SystemMessage #VANC #VANP Are you here to serve full or part time?
-[part time,part]@SystemMessage #VANC #VANP #GNMGood @SetFlag(PartTime)
-[full time,full]@SystemMessage #VANC #VANP #GNMGood @SetFlag(FullTime)
+[parttime,part]@SystemMessage #VANC #VANP #GNMGood @SetFlag(PartTime)
+[fulltime,full]@SystemMessage #VANC #VANP #GNMGood @SetFlag(FullTime)
 @DifferentAnswer @SystemMessage #VANC #VANP Full time or part time slave?
 @SystemMessage #VANC #VANP #DomHonorific would prefer it if you are able to handle wearing a chastity device at all time.
 @SystemMessage #VANC #VANP But she also understands that it takes practice to learn
@@ -214,15 +214,15 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
 @SystemMessage #VANC #VANP Is it a full belt or a ball trap device?
 [full,belt]@SystemMessage #VANC #VANP Full belt.. @SetFlag(FullBelt)
-[ball trap,ball,trap]@SystemMessage #VANC #VANP Ball trap.. @SetFlag(BallTrap)
+[balltrap,ball,trap]@SystemMessage #VANC #VANP Ball trap.. @SetFlag(BallTrap)
 @DifferentAnswer @SystemMessage #VANC #VANP full or ball trap?
 @SystemMessage #VANC #VANP Are you pierced as a mean to secure the device?
 [yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CPiercing)
-[no]@SystemMessage #VANC #VANP Too bad.. 
+[no,not]@SystemMessage #VANC #VANP Too bad.. 
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Do you use a metal lock or plastic numbered lock to lock it?
-[metal]@SystemMessage #VANC #VANP Noted.. @SetFlag(CMetalLock)
-[plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlasticLock)
+[metal,metallock]@SystemMessage #VANC #VANP Noted.. @SetFlag(CMetalLock)
+[plastic,plasticlock,numbered]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlasticLock)
 @DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
 @SystemMessage #VANC #VANP Do you own a timed lockbox?
 [yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CTimedLockBoxActive)
@@ -238,7 +238,7 @@
 @SystemMessage #VANC #VANP And that you will only be released when told so through Tease-AI
 @SystemMessage #VANC #VANP Are you capable or wearing it 24/7? I suggest you answer truthfully for your own sake..
 [yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(CRecord)
-[no]@SystemMessage #VANC #VANP don't be ashamed, we can always work on this.
+[no]@SystemMessage #VANC #VANP Don't be ashamed, we can always work on this.
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Well since you can't wear it 24/7
 @SystemMessage #VANC #VANP I'm curious to find out how much you can handle
@@ -259,7 +259,7 @@
 @SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
 [play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
 [punishment]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
-[full time,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
+[fulltime,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
 (Denial)
 @SystemMessage #VANC #VANP Slave I don't know how well you handle denial
@@ -358,42 +358,46 @@
 @SystemMessage #VANC #VANP You can also say yes if you have something similar that will work fine
 @SystemMessage #VANC #VANP Respond with no if you have nothing similar
 @NullResponse @ShowImage[\GNMImages\Toys\BallCrusher.*]
+@SystemMessage #VANC #VANP Ball Crusher?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyBallCrusher)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy2)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(BallCrusherPlay)
-[punishment]@NullResponse @SetFlag(BallCrusherPunishment)
+[punishment,punish]@NullResponse @SetFlag(BallCrusherPunishment)
 [both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy2)
 @NullResponse @ShowImage[\GNMImages\Toys\ButtPlugs.*]
+@SystemMessage #VANC #VANP Butt Plugs?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyButtPlug)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy3)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ButtPlugPlay)
-[punishment]@NullResponse @SetFlag(ButtPlugPunishment)
+[punishment,punish]@NullResponse @SetFlag(ButtPlugPunishment)
 [both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy3)
 @NullResponse @ShowImage[\GNMImages\Toys\Dildo.*]
+@SystemMessage #VANC #VANP Dildo?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyDildo)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy4)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(DildoPlay)
-[punishment]@NullResponse @SetFlag(DildoPunishment)
+[punishment,punish]@NullResponse @SetFlag(DildoPunishment)
 [both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy4)
 @NullResponse @ShowImage[\GNMImages\Toys\EStim.*]
+@SystemMessage #VANC #VANP EStim?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyElectro)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy5)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ElectroPlay)
-[punishment]@NullResponse @SetFlag(ElectroPunishment)
+[punishment,punish]@NullResponse @SetFlag(ElectroPunishment)
 [both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 @SystemMessage #VANC #VANP Tell me what level of schock you consider to be quite painful @InputVar[ElectroPHigh]
@@ -401,16 +405,18 @@
 @SystemMessage #VANC #VANP Tell me what level of schock you consider to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
 (Toy5)
 @NullResponse @ShowImage[\GNMImages\Toys\Gag.*]
+@SystemMessage #VANC #VANP Gag?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyGag)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy6)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(GagPlay)
-[punishment]@NullResponse @SetFlag(GagPunishment) 
+[punishment,punish]@NullResponse @SetFlag(GagPunishment) 
 [both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy6)
 @NullResponse @ShowImage[\GNMImages\Toys\Girlfriend.*]
+@SystemMessage #VANC #VANP Girlfriend?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToySetupGirlFriend)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -424,32 +430,35 @@
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 (Toy7)
 @NullResponse @ShowImage[\GNMImages\Toys\Parachute.*]
+@SystemMessage #VANC #VANP Parachute?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyParachute)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy8)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(ParachutePlay)
-[punishment]@NullResponse @SetFlag(ParachutePunishment)
+[punishment,punish]@NullResponse @SetFlag(ParachutePunishment)
 [both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy8)
 @NullResponse @ShowImage[\GNMImages\Toys\HotSauce.*]
+@SystemMessage #VANC #VANP HotSauce?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyHotSauce)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy9)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(HotSaucePlay)
-[punishment]@NullResponse @SetFlag(HotSaucePunishment)
+[punishment,punish]@NullResponse @SetFlag(HotSaucePunishment)
 [both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy9)
 @NullResponse @ShowImage[\GNMImages\Toys\Vibrator.*]
+@SystemMessage #VANC #VANP Vibrator?
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyVibrator)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy10)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(VibratorPlay)
-[punishment]@NullResponse @SetFlag(VibratorPunishment)
+[punishment,punish]@NullResponse @SetFlag(VibratorPunishment)
 [both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy10)
@@ -460,7 +469,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(CollarPlay)
-[punishment]@NullResponse @SetFlag(CollarPunishment)
+[punishment,punish]@NullResponse @SetFlag(CollarPunishment)
 [both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy11)
@@ -529,7 +538,7 @@
 @NullResponse @SetVar[DommeContentVAnnoyed]=[50]
 @NullResponse @SetVar[DommeContentAnnoyed]=[300]
 (MoveOn2)
-@SystemMessage #VANC #VANP Well..
+@SystemMessage #VANC #VANP Well.. @SetFlag(HalfFinish)
 @SystemMessage #VANC #VANP #DomHonorific #DomName just texted me
 @SystemMessage #VANC #VANP She wants to meet you.. 
 @SystemMessage #VANC #VANP ...Transfering Session... @UnlockImages @CallReturn(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt)
