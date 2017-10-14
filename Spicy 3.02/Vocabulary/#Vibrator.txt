@@ -1,1 +1,1 @@
-ballcrusher @ShowImage[GNMImages\Toys\Vibrator.jpg]
+vibrator @ShowImage[GNMImages\Toys\Vibrator.jpg]

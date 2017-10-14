@@ -1,0 +1,21 @@
+@NullResponse @CheckFlag(pvLink04A)
+@NullResponse @CheckFlag(pvLink04B)
+#SlaveName, who owns you? #DT @SetFlag(pvLink04A)
+[you] That's right #DT
+@DifferentAnswer Let's try that again, who owns you? #DT #MeritChangeNLow
+And who owns your #GNMCock? #DT
+[you] Exactly #DT
+@DifferentAnswer Who owns your #GNMCock? #DT #MeritChangeNLow
+And who owns your orgasms? #DT
+[you] Correct #DT
+@DifferentAnswer Who owns your orgasms, #SlaveName? #DT #MeritChangeNLow
+I just wanted to remind you #GNMEmoteHappy #DT
+@End
+(pvLink04A)
+#JerkingOff must be starting to feel like hard work sometimes #DT
+I just to sit back and enjoy the show #DT
+Unfortunately, you don't get that kind of luxury #DT @DeleteFlag(pvLink04A) @SetFlag(pvLink04B)
+@End
+(pvLink04B)
+@NullResponse @DeleteFlag(pvLink04B)
+@End

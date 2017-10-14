@@ -1,6 +1,6 @@
-@NullResponse @CheckFlag(Link_01_A)
-@NullResponse @CheckFlag(Link_01_B)
-@RT(Do you want,Would you like,Are you ready) to @RT(do some,start) #JerkingOff again? #DT @SetFlag(Link_01_A)
+@NullResponse @CheckFlag(pvLink01A)
+@NullResponse @CheckFlag(pvLink01B)
+@RT(Do you want,Would you like,Are you ready) to @RT(do some,start) #JerkingOff again? #DT @SetFlag(pvLink01A)
 [yes] You're @RT(so transparent,so predictable,so easy to read,like an open book) #SlaveName #DT @Goto(startstroking) 
 [no] Oh good, @RT(then,that means) I can @RT(take a moment to,go) get myself something to drink #DT @Goto(getadrink) 
 [trick] Ooh you think you're @RT(so smart,clever) don't you #DT
@@ -16,7 +16,7 @@ I know it's ready for more #DT @Goto(startstroking)
 Don't go anywhere #SlaveName, and don't touch that #GNMCock #DT
 You can stare at some #GNMBoobs in the meantime #DT @ShowBoobsImage @LockImages
 I'll be right back! @AFKOn @Wait(110)
-I'm here #EmoteHappy #DT @AFKOff @UnlockImages
+I'm here #GNMEmoteHappy #DT @AFKOff @UnlockImages
 Have you been a good boy while I was away? #DT
 [yes] #GNMGood @Goto(startstroking)
 [no] You disappoint me #SlaveName #MeritChangeNMedium #DT
@@ -32,10 +32,10 @@ I really shouldn't have to remind you to follow instructions #SlaveName #DT
 (startstroking)
 @NullResponse
 @End
-(Link_01_A)
-@NullResponse @DeleteFlag(Link_01_A) @SetFlag(Link_01_B)
+(pvLink01A)
+@NullResponse @DeleteFlag(pvLink01A) @SetFlag(pvLink01B)
 I don't think I'll ever get enough of this #GNMEmoteHappy #DT
 @End
-(Link_01_B)
-@NullResponse @DeleteFlag(Link_01_B)
+(pvLink01B)
+@NullResponse @DeleteFlag(pvLink01B)
 @End

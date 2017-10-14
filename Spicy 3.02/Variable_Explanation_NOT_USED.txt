@@ -1,5 +1,11 @@
 Flags:
 ChastityIsOn -> Chastity on or not?
+gdBallsTied -> Balls tied?
+gdVirgin -> Virgin
+gdSingle -> Single
+gdMarried -> Married
+gdPlugged -> Buttplug?
+GNMToySetupGirlFriend -> Girlfriend
 FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
 FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
 Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
@@ -27,16 +33,24 @@ Vocabulary:
 #Cage -> Vocab for chastity cage
 #DT(?) -> Sets up another picture of the domme based on mood and time of session
 #DTS? -> Special domme picture for special days
-#EmoteHappy -> Happy Emote
+#Disgusting -> Disgusting
+#GNMEmoteHappy -> Happy Emote
+#GNMEmoteSad -> Happy Emote
 #GNMBoobs -> Boobs
 #GNMBalls -> Balls
 #GNMCock -> Cock
 #GNMEdge -> Edge 
 #GNMGood -> Good behaviour
+#GNMLol -> Laughing
+#GNMMoan -> Moaning
 #GNMLetTheEdgeFade -> Let the edge fade
 #GNMStopStroking -> Stop stroking
 #GNMStartStroking -> Start stroking
 #GNMYesOrNo -> Yes or no question
+#Grin -> Just some grin expression
+#Horny -> Horny
+#JerkOff -> jerk off
+#JerkingOff -> jerking off
 #MeritChangeNLow -> Forgetting something etc.
 #MeritChangeNMedium  -> Moving to early/not doing as instructed (Combination with PPoints: @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250])
 #MeritChangeNHigh -> Not doing as promised

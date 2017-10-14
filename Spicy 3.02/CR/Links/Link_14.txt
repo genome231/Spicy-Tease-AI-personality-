@@ -1,0 +1,51 @@
+@NullResponse @CheckFlag(pvLink14A)
+It's too bad you're not here with me now #DT @SetFlag(pvLink14A)
+Do you know what I'd do if you were? #DT @Timeout(6,do you know)
+[beat,hurt,whip,smack,punch,spanking,spank me] Nothing so violent, #SlaveName #DT
+[fuck,sex,blowjob] #OhNo #DT
+[eat your pussy,cunnilingus,lick your pussy,eat you out] That's right, #SlaveName #DT
+[kneel,submit] Yes, #SlaveName #DT
+[stroke,jerk,masturbate,wank] #OhNo #DT
+@AcceptAnswer @NullResponse
+(do you know)
+I'd tell you to kneel down #DT
+Crawl towards me #DT
+I would open my legs for you and tell you to come closer #DT
+You'd start kissing my feet, my toes #DT
+Then slowly move up my leg #DT
+Worshipping my ankles and calves and knees #DT
+You'd graze the tender skin of my inner thighs with your fingers #DT
+@DommeTag(Pussy) Breathe in the scent of my wet #Pussy #DT
+Do you want to lick it, #SlaveName? #DT 
+[yes] Good, you wouldn't have a choice anyway #DT 
+[no] If you were here with me, you wouldn't have a choice #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Maybe I would tie your hands behind your back #DT
+And shove your face into my #Pussy #DT
+#GNMMoan #DT
+I would teach you to give me orgasm after orgasm... #DT
+Too bad you're not here #GNMEmoteSad #DT
+@End
+(pvLink14A)
+Do you ever look at your porn pictures? #DT @DeleteFlag(pvLink14A)
+I mean, obviously you look at them #GNMEmoteHappy #DT
+But do you ever <i>really</i> look at them? #DT
+Let's find one you like a lot... #DT
+Not just a good one, but a <i>great</i> one #DT @LockImages
+(another one then)
+@NullResponse @ShowLesbianImage
+@RT(Do you think this is,Would you say this is,Do you consider this) a @RT(really good,great) @RT(pic,picture,one,image)?
+[yes] It's really hot #GNMEmoteHappy
+[no] @RT(Okay,Hm,Alright,No problem,Let's see,I thought you'd like it,Let's find another one then) @Goto(another one then)
+@DifferentAnswer #GNMYesOrNo
+Now really look at it, #SlaveName
+Take in all the details
+The composition, the lighting
+Now, I know it's porn and not art #GNMEmoteHappy
+But still, it's just a beautiful image, isn't it?
+Do you think those girls were aware of that when they shot it
+Probably not...
+They look like they were interested in other things at the time
+The photographer did a great job, though
+Anyway... @UnlockImages #DT
+@End

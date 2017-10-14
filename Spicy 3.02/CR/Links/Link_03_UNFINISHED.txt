@@ -1,0 +1,36 @@
+@NullResponse @CheckFlag(pvLink03A)
+@NullResponse @CheckFlag(pvLink03B)
+I'm sure you're aching to start stroking again #DT @SetFlag(pvLink03A)
+Teasing you is so easy #SlaveName #Grin #DT
+#GNMStartStroking
+#GNMStopStroking #DT
+Keep your hands way from your #GNMCock #SlaveName #DT
+Frustrating isn't it #GNMLol #DT
+Starting and then stopping over and over #DT
+I love to keep you guessing what will come next #GNMEmoteHappy #DT
+Maybe I'll let you stroke your #GNMCock #DT
+Maybe I'm going to tell you put your pants back on and enjoy your blue balls #DT
+You never know #Grin #DT @CheckFlag(pthevCEITraining)
+But for now... #DT
+@End
+(pvLink03A)
+Look what I just found... #DT
+#GNMMoan #DT @ShowLesbianImage @LockImages
+Is is me or is it getting hot in here... #DT
+No it's definitely me #GNMLol #DT @UnlockImages @DeleteFlag(pvLink03A) @SetFlag(pvLink03B)
+@End
+(pthevCEITraining)
+Maybe I'll make you ruin an orgasm and tell you to eat it
+I still think we should work our way to that
+I know you said you don't want to
+But like #Contact3 said, it shouldn't even be your choice
+It would be easier for us both if you just agreed to do it
+So let me ask you again: will you swallow you cum for me?
+[yes] Good boy #GNMEmoteHappy @DeleteFlag(pthevCEITraining) @DeleteFlag(pthevCEI_No) @SetFlag(pthevCEI_Yes)
+[no] We'll see, #Name
+@DifferentAnswer #YesOrNo
+@NullResponse
+@End
+(pvLink03B)
+@NullResponse @DeleteFlag(pvLink03B)
+@End
