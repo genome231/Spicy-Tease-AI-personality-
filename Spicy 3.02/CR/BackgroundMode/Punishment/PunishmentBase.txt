@@ -25,15 +25,18 @@
 (PunishmentBaseIntro)
 @NullResponse @CheckFlag(SecondTimePunishment)
 @NullResponse @CheckFlag(PunishmentActive)
+@NullResponse @CheckFlag(Punishment) @info(set in Interrupt\GNMBackgroundBase.txt)
 (SecondTimePunishment)
+@NullResponse @DeleteFlag(Punishment)
 @SystemMessage [Miss A]: Yes #SlaveName? #ReceptionChat
-[spankzchoir,spankz,choir,spankz choir]@SystemMessage [Miss A]: @RT(Well my favorite activity!,Sounds nice!,Well well..,Uhh oh my oh my..) #ReceptionChat @Goto(SpankzChoir)
-[report,reporting,punish,punished,punishment]@SystemMessage [Miss A]: @RT(Oh my,Oh how nice,Lovely!,Splendid!,Exciting!,Fantastic,#GNMGrin,perfect..,Good) #ReceptionChat @Goto(Punishment)
+[spankzchoir,spankz,choir,SpankzChoir.com,sell]@SystemMessage [Miss A]: @RT(Well my favorite activity!,Sounds nice!,Well well..,Uhh oh my oh my..) #ReceptionChat @Goto(SpankzChoir)
+[report,reporting,punish,punished,punishment]@Goto(Punishment)
 [pay,fine,gold]@SystemMessage [Miss A]: @RT(Here to reduce your sentence huh..,Well you want to pay your fines,You wish to pay for your sins..) #ReceptionChat @Goto(Fines)
-[return] @NullResponse
+[return,exit,back] @NullResponse
 @DifferentAnswer @SystemMessage [Miss A]: Spankz choir, punishment, pay fine or return? #ReceptionChat
 @End
 (PunishmentActive)
+@NullResponse @DeleteFlag(Punishment)
 @SystemMessage [Miss A]: It seems you didn't complete your last punishment.. #ReceptionChat @DeleteFlag(PunishmentActive)
 @SystemMessage [Miss A]: Was this due to a bug or because you couldn't handle it? #ReceptionChat @TimeOut(10)
 [bug]@SystemMessage [Miss A]: I hope you reported this to Genome on the Milovana thread then! #ReceptionChat #MeritChangeNLow @Goto(PunishmentBaseIntro)
@@ -77,6 +80,8 @@
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt)
 @NullResponse @Goto(PunishmentBaseIntro)
 (Punishment)
+@NullResponse @DeleteFlag(Punishment)
+@SystemMessage [Miss A]: @RT(Oh my,Oh how nice,Lovely!,Splendid!,Exciting!,Fantastic,#GNMGrin,perfect..,Good,So you want to be punished.) #ReceptionChat 
 @SystemMessage [Miss A]: @RT(Let me just look up your file..,Checking your file,Having a look at your file..,Let me just check your file..) #ReceptionBusyPC
 @SystemMessage [Miss A]: Take a seat.. @ShowImage[\GNMImages\Punishment\SpankzChoir\chair1.jpg]
 (PosterBreak2)
