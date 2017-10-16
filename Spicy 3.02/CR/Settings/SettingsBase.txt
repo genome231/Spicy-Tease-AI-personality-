@@ -8,8 +8,8 @@
 [audio,sound,sounds,metronome] @NullResponse @Goto(Audio)
 [update,updates] @NullResponse @Goto(Update)
 [mode,modes] @NullResponse @Goto(Modes)
-[none,nothing,return,mistake,error] @NullResponse
-@DifferentAnswer @SystemMessage #VANC #VANP You have the following options: Chastity, domme, denial, toys, personal, audio, modes and update.
+[none,nothing,return,mistake,error,exit,back] @NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP You have the following options: Chastity, domme, denial, toys, personal, audio, modes, update or exit the settings
 @End
 (Chastity)
 @SystemMessage #VANC #VANP Relaunching chastity settings
