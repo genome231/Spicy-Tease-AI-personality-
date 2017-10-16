@@ -1,5 +1,6 @@
 @NullResponse @RapidCodeOn
 @Month(12) @NullResponse @Goto(Christmas)
+@Day(0) @NullResponse @TempFlag(VirtualSet31) @info(please not delete Day(0) otherwise there is an error at the beginning, but it never will be shown)
 @Day(1) @NullResponse @TempFlag(VirtualSet1)
 @Day(2) @NullResponse @TempFlag(VirtualSet2)
 @Day(3) @NullResponse @TempFlag(VirtualSet3)
