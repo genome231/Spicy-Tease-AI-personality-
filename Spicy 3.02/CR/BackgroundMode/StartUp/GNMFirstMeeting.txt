@@ -1,6 +1,6 @@
 @NullResponse @SetDate(Devotion, 0 Minutes)
-Hello @ShowVar[SlaveFullName] #DT4
-That was the last time I used your full name #DT4 @SetDate(TeaseSession, 0 Hours)
+Hello #SubName #DT4
+That was the last time I used your real name #DT4 @SetDate(TeaseSession, 0 Hours)
 From now on I will use whatever petname I see fit #DT4
 Wether that is cumlover, cocksucker or slave #DT4
 Because you are a slave #DT4
@@ -88,8 +88,8 @@ Do you wish to change the number of chores? #DT4
 @DifferentAnswer #GNMYesOrNo #DT4
 (Number)
 So many chores should you at the very minimum complete each week? #DT4 @InputVar[ChoresAgreed]
-@Variable[ChoresAgreed]<=[2] No lower than two! #DT4 @Goto(Number)
-@Variable[ChoresAgreed]>[2] Exellent #DT4 @Goto(Continue1)
+@Variable[ChoresAgreed]<=[2] No lower than three! #DT4 @Goto(Number)
+@Variable[ChoresAgreed]>[2] Exellent #DT4 @Goto(Continue1) 
 All I asked you to do was input a simple number..  #DT4
 Like 3 #DT4
 or 6 #DT4
@@ -144,7 +144,7 @@ Very rare, rare, semi rare, somewhat rare or just leave it completely up to me? 
 [somewhat rare]#GNMGood #DT4 @SetFlag(SomewhatRareO)
 [you,up to you,your choice]#GNMGood #DT4 @SetFlag(DommeO)
 @DifferentAnswer Very rare, rare, semi rare, somewhat rare or up to me? #DT4
-Now you can go ahead and jerk off... #DenialLevel #DT4
+Now you can go ahead and jerk off... #DenialLevel #DT4 @SetFlag(SpicyIntro) @DeleteFlag(HalfFinish)
 When you're done with that #DT4 @CheckFlag(HasChastity)
 I want you to put your #GNMCock away.. #DT4
 Enjoy #DT4
