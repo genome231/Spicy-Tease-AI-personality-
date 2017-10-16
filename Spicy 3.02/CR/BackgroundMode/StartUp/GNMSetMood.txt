@@ -16,7 +16,7 @@
 @Flag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]-[10] @DeleteFlag(NewYears)
 @Flag(Halloween) @NullResponse @ChangeVar[Lust]=[Lust]-[15] @DeleteFlag(Halloween)
 @Flag(MoodBoosterActive) @NullResponse @ChangeVar[Happy]=[Happy]-[5] @DeleteFlag(MoodBoosterActive) 
-(Skip) //Checks for the corresponding day and starts setting up the day
+(Skip) //Checks for the corresponding day and starts setting up the day 
 @DayOfWeek(Monday) @NullResponse @Goto(MondayErase)
 @DayOfWeek(TuesDay) @NullResponse @Goto(TuesDayErase)
 @DayOfWeek(Wednesday) @NullResponse @Goto(WednesdayErase)
@@ -565,7 +565,7 @@
 @Month(6,7,8) @SetFlag(Summer2) @NullResponse @ChangeVar[Lust]=[Lust]+[5] @SetDate(Season, 0 Days)
 @SubBirthday @SetFlag(SubBirthday) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
 @DomBirthday @SetFlag(DommeBirthday) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
-@Month(31) @Day(31) @SetFlag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
+@Month(12) @Day(31) @SetFlag(NewYears) @NullResponse @ChangeVar[Lust]=[Lust]+[10] @SetDate(Season, 0 Days)
 @Month(10) @Day(31) @SetFlag(Halloween) @NullResponse @ChangeVar[Lust]=[Lust]+[15] @SetDate(Season, 0 Days)
 @Flag(MoodBooster) @Variable[#DateDifference(MoodBooster, Days)]<[7] @NullResponse @ChangeVar[Happy]=[Happy]+[5] @SetFlag(MoodBoosterActive)
 @NullResponse @CheckFlag(Monday)
