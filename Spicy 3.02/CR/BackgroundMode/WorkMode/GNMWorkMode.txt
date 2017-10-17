@@ -12,10 +12,10 @@
 @FlagOr(WTeasesActive,WExercisesActive) @NullResponse @Goto(Breaks)
 @SystemMessage #VANC #VANP Work hard slave 
 @SystemMessage #VANC #VANP To ensure you work hard you must return whenever you hear my bell
-@SystemMessage #VANC #VANP Fail to return within 20 seconds of hearing it and you will be punished. @Goto(Nothing)
-(Nothing)
+@SystemMessage #VANC #VANP Fail to return within 20 seconds of hearing it and you will be punished.
 @NullResponse @SetDate(WorkMode, 0 Minutes)
 (Nothing2)
+@ShowImage[\GNMImages\GNMBackground\StudyMode.jpg]
 @NullResponse @Wait(#Random(300,1200))
 @NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @SystemMessage #VANC #VANP Are you there slave? @Timeout(20,Failed)
@@ -39,6 +39,7 @@
 @SystemMessage #VANC #VANP Fail to return within 20 seconds of hearing it and you will be punished.
 @NullResponse @SetDate(WorkMode, 0 Minutes)
 (SelectX)
+@ShowImage[\GNMImages\GNMBackground\StudyMode.jpg]
 @Flag(WExercisesActive,WTeasesActive) @NullResponse @Goto(Select1)
 @Flag(WTeasesActive) @NullResponse @Goto(Select2)
 @Flag(WExercisesActive) @NullResponse @Goto(Select3)
