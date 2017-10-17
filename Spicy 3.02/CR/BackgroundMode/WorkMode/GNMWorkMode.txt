@@ -5,14 +5,14 @@
 [yes]@NullResponse @SetFlag(WTeasesActive)
 [no]@NullResponse @DeleteFlag(WTeasesActive)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP (WExercisesActive)
+@SystemMessage #VANC #VANP Do you want to activate small exercises while working?
 [yes]@NullResponse @SetFlag(WExercisesActive)
 [no]@NullResponse @DeleteFlag(WExercisesActive)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @FlagOr(WTeasesActive,WExercisesActive) @NullResponse @Goto(Breaks)
-@SystemMessage #VANC #VANP Work hard slave @Goto(Nothing)
+@SystemMessage #VANC #VANP Work hard slave 
 @SystemMessage #VANC #VANP To ensure you work hard you must return whenever you hear my bell
-@SystemMessage #VANC #VANP Fail to return within 20 seconds of hearing it and you will be punished.
+@SystemMessage #VANC #VANP Fail to return within 20 seconds of hearing it and you will be punished. @Goto(Nothing)
 (Nothing)
 @NullResponse @SetDate(WorkMode, 0 Minutes)
 (Nothing2)
@@ -40,8 +40,8 @@
 @NullResponse @SetDate(WorkMode, 0 Minutes)
 (SelectX)
 @Flag(WExercisesActive,WTeasesActive) @NullResponse @Goto(Select1)
-@Flag(WExercisesActive) @NullResponse @Goto(Select2)
-@Flag(WTeasesActive) @NullResponse @Goto(Select3)
+@Flag(WTeasesActive) @NullResponse @Goto(Select2)
+@Flag(WExercisesActive) @NullResponse @Goto(Select3)
 @NullResponse @Goto(Nothing)
 (Select1)
 @Flag(WOften) @NullResponse @Wait(#Random(180,300))
