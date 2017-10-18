@@ -11,7 +11,7 @@
 @NullResponse @DeleteFlag(SessionEnd)
 @Flag(LotteryTicket) @Variable[#DateDifference(LotteryTicketTimer, Days)]>=[LotteryTicketCount] @NullResponse @CallReturn(CR\BackgroundMode\Shop\LTicket.txt)
 (Base)
-@SystemMessage #VANC #VANP @RT(Yes?,Yes?,Yes?,Yes?,Yes?,Yes?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Yes?,Yes slave?,Well slave?,Yes #SlaveName?,Yes #SubName?,What can I do for you?,How can I help?,What is your desire?,Your wish?)
+@SystemMessage #VANC #VANP @RT(Yes?,Yes?,Yes?,Yes?,Yes?,Yes?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Yes?,Yes slave?,Well slave?,Yes #SlaveName?,Yes #SubName?,What can I do for you?,How can I help?,What is your desire?,You wish?,What do you next?,Let's start something.., Let's go!,What are you waiting for?,Are you ready to choose?,Hello can I help you?,Is there anything else I can do for you?,Enjoy your stay!,Well, if I  can  help you, please  ask.,What is your concern?,Oh you again.,Happy to see you.,Tell me what you want.)
 [session,domme,visit,go to] @NullResponse @CallReturn(CR\BackgroundMode\TestSession.txt)
 [chore,chores,clean,cleaning,dust off,dusting,dust,wipe,wash] @NullResponse @TempFlag(Chore) @CallReturn(CR\BackgroundMode\Chores\ChoreBase.txt)
 [dungeon,spanking,spankzchoir,selfbondage,bad,naugthy,discipline,pain,torture,chamber] @NullResponse @CallReturn(CR\BackgroundMode\Punishment\PunishmentBase.txt)
