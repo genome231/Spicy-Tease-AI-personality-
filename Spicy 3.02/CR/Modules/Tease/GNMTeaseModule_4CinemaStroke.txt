@@ -397,14 +397,14 @@ Lets begin.. #DT @SetVar[Right]=[0]
 @NotFlag(Card11) @NullResponse @ShowImage[\GNMImages\Deck\a11\*.png] @ChangeVar[CardValue]=[CardValue]-[11] @SetFlag(Card11) @Goto(ChoosePot2)
 @NotFlag(Card12) @NullResponse @ShowImage[\GNMImages\Deck\a12\*.png] @ChangeVar[CardValue]=[CardValue]-[12] @SetFlag(Card12) @Goto(ChoosePot2)
 (Guess)
-<Font color="yellow">Answer?</Font> @InputVar[CardChosen] @Timeout(7, Failed)
+<Font color="orange">Answer?</Font> @InputVar[CardChosen] @Timeout(7, Failed)
 @Variable[CardChosen]=[CardValue] @SystemMessage <Font color="green">Correct!</Font> @ChangeVar[Right]=[Right]+[1] 
-@Variable[CardChosen]=[CardValue] @NullResponse @If[Right]>[7]Then(Reward) @Wait(5) @Goto(Setup)
+@Variable[CardChosen]=[CardValue] @NullResponse @If[Right]>=[7]Then(Reward) @Wait(5) @Goto(Setup)
 @Variable[CardChosen]<>[CardValue] @SystemMessage <Font color="red">Incorrect!</Font> @ChangeVar[Wrong]=[Wrong]+[1] 
-@Variable[CardChosen]<>[CardValue] @NullResponse @If[Wrong]>[7]Then(Wrong) @Wait(5) @Goto(Setup)
+@Variable[CardChosen]<>[CardValue] @NullResponse @If[Wrong]>=[7]Then(Wrong) @Wait(5) @Goto(Setup)
 (Failed)
 @Variable[CardChosen]<>[CardValue] @SystemMessage <Font color="red">Too slow</Font> @ChangeVar[Wrong]=[Wrong]+[1] 
-@NullResponse @If[Wrong]>[7]Then(Wrong) @Wait(5) @Goto(Setup)
+@NullResponse @If[Wrong]>=[7]Then(Wrong) @Wait(5) @Goto(Setup)
 (Reward)
 That was 7 right! #DT
 So here is 150 gold #DT @ChangeVar[GNMGold]=[GNMGold]+[150]
