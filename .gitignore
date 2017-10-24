@@ -1,3 +1,4 @@
 .git
 TeaseAIScriptChecker.exe
 fileCheckerLog.txt
+*.exe

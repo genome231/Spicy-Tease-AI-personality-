@@ -10,6 +10,7 @@ FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\
 FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
 Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
 and updated in CR\End\RunEndDayCheck.txt
+HasChastity -> Has Chastity Device
 Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
 M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
 M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
@@ -49,6 +50,7 @@ Vocabulary:
 #GNMYesOrNo -> Yes or no question
 #Grin -> Just some grin expression
 #Horny -> Horny
+#Hurt -> Hurt
 #JerkOff -> jerk off
 #JerkingOff -> jerking off
 #MeritChangeNLow -> Forgetting something etc.
@@ -67,6 +69,7 @@ Vocabulary:
 #TODO: Finish sub birthday Interrupt\SpecialDays\SubBirthday.txt
 #TODO: More tease modules/port from Miss Blue
 #TODO: Different dildo sizes
+#TODO: Punishment with chastity does not properly put on chastity, search for HasChastity
 
 
 Notes about scripting:

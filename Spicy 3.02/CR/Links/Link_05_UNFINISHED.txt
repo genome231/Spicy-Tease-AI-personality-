@@ -11,7 +11,7 @@ Those #GNMBalls look like we should probably untie them, right? #DT  @Timeout(9,
 (untie them)
 Let's give them some room to move around #DT 
 How else are they going to fill up with all that cum we're making #DT @CallReturn(Custom/CallReturn/pvCr_UnTieMyBalls.txt)
-We should probably loosen them up a little, too #Grin #DT @NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+We should probably loosen them up a little, too #Grin #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
 That should do it #GNMEmoteHappy #DT 
 @NullResponse
 @End

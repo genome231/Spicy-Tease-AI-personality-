@@ -1,0 +1,54 @@
+@NullResponse @CheckFlag(pvLink18A)
+I'm going to give you a choice, #SlaveName #DT @SetFlag(pvLink18A)
+And you don't get too many of those #EmoteSmile #DT
+So listen up #DT
+You can either bust your #GNMBalls for me and I'll let you #JerkOff #DT
+Or... #DT
+@Flag(HasChastity) Your #GNMBalls get a pass #DT @Goto(has device) 
+Your #GNMBalls get a pass, but I'm not going to let you #JerkOff for a while either #DT
+So what will it be, #SlaveName... denial or pain? #DT
+[denial] Too bad, I was hoping for the other one... #DT
+[pain] Good choice, I was hoping you'd say that #EmoteHappy #DT @Goto(ball busting)
+@DifferentAnswer Denial or pain, #SlaveName? #DT
+Well, you're not touching that #GNMCock then... #DT
+I can still tease you, of course... #GNMGrin #DT @Goto(add denial)
+@End
+(has device)
+But you have to put on your chastity belt #GNMGrin #DT
+So what will it be, #SlaveName... chastity or pain? #DT
+[pain] Good choice, I was hoping you'd say that #EmoteHappy #DT @Goto(ball busting)
+[chastity] Too bad, I was hoping for the other one... #DT
+@DifferentAnswer Chastity or pain, #SlaveName? #DT
+But if that's what you want... #DT
+Interesting that you would choose your #GNMBalls over your #GNMCock... #DT  @Goto(add denial)
+@End
+(ball busting)
+Either you like the pain... #DT 
+Or you just <i>really</i> like #JerkingOff #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+You must have some pretty sore #GNMBalls right now #DT 
+But at least your #GNMCock stays free #GNMHappy #DT 
+@End
+(pvLink18A)
+So #SlaveName... #DT @DeleteFlag(pvLink18A)
+Before I make you #JerkOff again #DT
+Would you like to bust your #GNMBalls  #DT
+Or... #DT
+Do one really long edge? #DT
+[edge] Alright, if you say so... #DT @Goto(edge please)
+[bust,busting,balls] If you say so... #DT
+@DifferentAnswer Edge or ball busting? #DT
+An edge sounds more pleasurable to me, but okay... #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+With that out of the way... #DT
+@End
+(edge please)
+#GNMEdge #DT @Edge(LongHold,HoldTaunts)
+#GNMLetTheEdgeFade #DT 
+Must be @RT(toture,a bitch,tough) to start stroking after that... #DT
+But you know what I'm going to say... #GNMGrin #DT
+@End
+(add denial)
+@Variable[#DateDifference(PDenial, Hours)]<[PDenialSet] @NullResponse @ChangeVar[PDenialSet]=[PDenialSet]+[#Random(50,70)]
+@Variable[#DateDifference(PDenial, Hours)]>[PDenialSet] @NullResponse @SetVar[PDenialSet]=[#Random(50,70)] @SetDate(PDenial, 0 Hours)
+(check cage)
+@Flag(HasChastity) @CallReturn(Custom/CallReturn/pvCr_ChastityOn.txt)
+@End
