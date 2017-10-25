@@ -47,8 +47,8 @@ Must be @RT(toture,a bitch,tough) to start stroking after that... #DT
 But you know what I'm going to say... #GNMGrin #DT
 @End
 (add denial)
-@Variable[#DateDifference(PDenial, Hours)]<[PDenialSet] @NullResponse @ChangeVar[PDenialSet]=[PDenialSet]+[#Random(50,70)]
-@Variable[#DateDifference(PDenial, Hours)]>[PDenialSet] @NullResponse @SetVar[PDenialSet]=[#Random(50,70)] @SetDate(PDenial, 0 Hours)
+@Variable[#DateDifference(PDenial, Hours)]<[PDenialSet] @NullResponse @ChangeVar[PDenialSet]=[PDenialSet]+[#Random(24,48)]
+@Variable[#DateDifference(PDenial, Hours)]>[PDenialSet] @NullResponse @SetVar[PDenialSet]=[#Random(24,48)] @SetDate(PDenial, 0 Hours)
 (check cage)
-@Flag(HasChastity) @CallReturn(Custom/CallReturn/pvCr_ChastityOn.txt)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @End

@@ -107,7 +107,7 @@
 @NullResponse @CheckFlag(ButtPlugPlay) @Goto(Choose)
 (ButtPlugPlay)
 @SystemMessage #VANC #VANP Lets fill you a little
-@SystemMessage #VANC Find your @RT(small,medium) buttplug @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
+@SystemMessage #VANC Find your #ButtPlug buttplug @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 @SystemMessage #VANC Lube it up by sucking on it.. @Wait(60) @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 @SystemMessage #VANC Are you done filling that nasty #GNMAss?? @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 [yes]@SystemMessage #VANC #VANP #GNMGood
