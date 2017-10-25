@@ -1,4 +1,5 @@
 @NullResponse @CheckFlag(ChastityIsOn) 
+@NullResponse @NotFlag(HasChastity) put your #GNMCook away Goto(ChastityIsOn)
 (Continue)
 @RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) #DT @LockImages @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3]  @ShowImage[GNMImages\Chastity\ChastityOn\*.jpg]
 @RT(Put on your #Cage,Get your #Cage on,Put on the #Cage at once,Hurry up and get the #Cage back on,Be quick and get your #Cage back on) #DT 
