@@ -151,7 +151,13 @@ Enjoy #DT4
 See you tomorrow #DT4 @EndTease
 @End
 (HasChastity)
-After that I want you to lock up your #GNMCock in its chastity belt #GNMGrin #DT4
+Now that you own a chastity belt for your #GNMCock... #GNMGrin #DT4
+@NullResponse @CheckFlag(ChastityTrainingActive)
+I want you to lock up your #GNMCock in its chastity belt #GNMGrin #DT4 @Goto(End)
+(ChastityTrainingActive)
+@NullResponse @SetFlag(FirstTimeChastityTraining)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ChastityTrainingFirst.txt)
+(End)
 Enjoy slave! @SetFlag(ChastityIsOn) @ChastityOn #DT4
 See you tomorrow #DT4 
 @EndTease
