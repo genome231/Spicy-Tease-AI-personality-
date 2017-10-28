@@ -257,8 +257,8 @@
 @SystemMessage #VANC #VANP Do you consider chastity to be something used occacionally as a plaything?
 @SystemMessage #VANC #VANP Only as a punishment?
 @SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
-[play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
-[punishment]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
+[play,plaything,both]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
+[punishment,punish]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
 [fulltime,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
 (Denial)
@@ -357,8 +357,7 @@
 @SystemMessage #VANC #VANP You will respond with yes if you have it
 @SystemMessage #VANC #VANP You can also say yes if you have something similar that will work fine
 @SystemMessage #VANC #VANP Respond with no if you have nothing similar
-@NullResponse @ShowImage[\GNMImages\Toys\BallCrusher.*]
-@SystemMessage #VANC #VANP Ball Crusher?
+@SystemMessage #VANC Ball Crusher? @ShowImage[\GNMImages\Toys\BallCrusher.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyBallCrusher)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy2)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -368,8 +367,7 @@
 [both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy2)
-@NullResponse @ShowImage[\GNMImages\Toys\ButtPlugs.*]
-@SystemMessage #VANC #VANP Butt Plugs?
+@SystemMessage #VANC Butt Plugs? @ShowImage[\GNMImages\Toys\ButtPlugs.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyButtPlug)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy3)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -379,8 +377,7 @@
 [both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy3)
-@NullResponse @ShowImage[\GNMImages\Toys\Dildo.*]
-@SystemMessage #VANC #VANP Dildo?
+@SystemMessage #VANC Dildo? @ShowImage[\GNMImages\Toys\Dildo.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyDildo)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy4)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -390,8 +387,7 @@
 [both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy4)
-@NullResponse @ShowImage[\GNMImages\Toys\EStim.*]
-@SystemMessage #VANC #VANP EStim?
+@SystemMessage #VANC EStim? @ShowImage[\GNMImages\Toys\EStim.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyElectro)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy5)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -404,8 +400,7 @@
 @SystemMessage #VANC #VANP Tell me what level of schock you consider to be somehwat @InputVar[ElectroPMedium]
 @SystemMessage #VANC #VANP Tell me what level of schock you consider to be a painful maybe even pleasent.. @InputVar[ElectroPLow]
 (Toy5)
-@NullResponse @ShowImage[\GNMImages\Toys\Gag.*]
-@SystemMessage #VANC #VANP Gag?
+@SystemMessage #VANC Gag? @ShowImage[\GNMImages\Toys\Gag.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyGag)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy6)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -415,8 +410,7 @@
 [both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy6)
-@NullResponse @ShowImage[\GNMImages\Toys\Girlfriend.*]
-@SystemMessage #VANC #VANP Girlfriend?
+@SystemMessage #VANC Girlfriend? @ShowImage[\GNMImages\Toys\Girlfriend.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToySetupGirlFriend)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -429,8 +423,7 @@
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 (Toy7)
-@NullResponse @ShowImage[\GNMImages\Toys\Parachute.*]
-@SystemMessage #VANC #VANP Parachute?
+@SystemMessage #VANC Parachute? @ShowImage[\GNMImages\Toys\Parachute.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyParachute)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy8)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -440,8 +433,7 @@
 [both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy8)
-@NullResponse @ShowImage[\GNMImages\Toys\HotSauce.*]
-@SystemMessage #VANC #VANP HotSauce?
+@SystemMessage #VANC HotSauce? @ShowImage[\GNMImages\Toys\HotSauce.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyHotSauce)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy9)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -451,8 +443,7 @@
 [both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy9)
-@NullResponse @ShowImage[\GNMImages\Toys\Vibrator.*]
-@SystemMessage #VANC #VANP Vibrator?
+@SystemMessage #VANC Vibrator? @ShowImage[\GNMImages\Toys\Vibrator.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyVibrator)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy10)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
