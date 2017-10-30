@@ -5,6 +5,7 @@ gdVirgin -> Virgin
 gdSingle -> Single
 gdMarried -> Married
 gdPlugged -> Buttplug?
+gdPMEyes/no -> Premature ejaculation
 GNMToySetupGirlFriend -> Girlfriend
 GNMToyButtPlug -> Butt plug
 FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
@@ -36,6 +37,7 @@ Vocabulary:
 #DT(?) -> Sets up another picture of the domme based on mood and time of session
 #DTS? -> Special domme picture for special days
 #Disgusting -> Disgusting
+#gdDontWantTo -> Don't want to sentences
 #GNMEmoteHappy -> Happy Emote
 #GNMEmoteSad -> Happy Emote
 #GNMBoobs -> Boobs
@@ -59,6 +61,13 @@ Vocabulary:
 #MeritChangeNHigh -> Not doing as promised
 #M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
 #SlaveName #Slut #SubName -> Names for slave
+
+
+Copy paste stuff:
+@NullResponse @CallReturn(CR\GNMChastityOn.txt) -> Chastity on
+@CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
+@CallReturn(CR\Punishment\GDSmallPenisBusting.txt) -> Cock torture
+
 
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?

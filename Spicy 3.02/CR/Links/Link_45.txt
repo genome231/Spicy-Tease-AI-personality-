@@ -1,0 +1,19 @@
+@NullResponse @CheckFlag(pvLink45A)
+Do you want some pain or some pleasure? #DT #DT@SetFlag(pvLink45A)
+[pain] Okay #DT @Chance25(some pleasure) 
+[pleasure] Okay #DT @Goto(some pleasure)
+[both] You have to choose, #SlaveName... #DT @LoopAnswer
+@DifferentAnswer Pain or pleasure, #SlaveName? #DT
+Then I will give you pain... @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+Don't say I never did anything for you, #SlaveName #GNMLol #DT
+@End
+(some pleasure)
+Then I will give you some pleasure... #DT
+#GNMEdge #DT @Edge
+#GNMLetTheEdgeFade #DT
+There's more of that coming, probably #DT
+No, definitely #GNMGrin #DT
+@End
+(pvLink45A)
+@NullResponse @DeleteFlag(pvLink45A)
+@End

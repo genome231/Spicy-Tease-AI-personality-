@@ -49,6 +49,7 @@
 (StartUp1) 
 @NullResponse @ShowImage[\GNMImages\Intro\GNMLoading.*] @TempFlag(Assistant)
 @NullResponse @Interrupt(GNMBackgroundBase)
+@End
 
 ########################## - Comment - ##########################
 #Called on launch of Tease AI Personality

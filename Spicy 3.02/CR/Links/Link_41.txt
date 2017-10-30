@@ -1,0 +1,15 @@
+@NullResponse @CheckFlag(pvLink41A)
+#SlaveName,do you think about me a lot? #DT @SetFlag(pvLink41A)
+[yes] I want to be on your mind all the time #DT
+[no,not,don't] Maybe I should give you something to think about #DT
+[all the time,always,every second,every day,all day,obsessed] #GNMLol #DT
+@AcceptAnswer I <i>want</i> you to think about me #DT
+I want you to think about my ass in a short skirt #DT
+The soft curves of my legs #DT
+I want you to lay awake at night thinking about me #DT
+When you do fall asleep I will appear in your dreams #DT
+And when you wake up I will be the first thing you think about #DT
+@End
+(pvLink41A)
+Alright #SlaveName... #DT
+@End

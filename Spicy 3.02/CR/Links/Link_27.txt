@@ -1,6 +1,6 @@
 @NullResponse @CheckFlag(GNMToyButtPlug,plug script)
 @NullResponse @CheckFlag(pvLink27A)
-Let's make that #GNMCock ache some more shall we? #GNMHappy #DT @SetFlag(pvLink27A)
+Let's make that #GNMCock ache some more shall we? #GNMEmoteHappy #DT @SetFlag(pvLink27A)
 @End
 (plug script)
 @NullResponse @CustomMode(#gdDontWantTo,Goto,talking about plug) #DT
@@ -10,7 +10,7 @@ Let's make that #GNMCock ache some more shall we? #GNMHappy #DT @SetFlag(pvLink2
 @RT(Your ass belongs to me,I can use your ass however I want,Your ass is mine to use,I own your ass) #Grin #DT
 (let me know when plugged)
 Let me know when you're ready #DT
-[done,did,ready,finished] @RT(Good,Alright,There you go,That's much better) #GNMHappy #DT @TempFlag(gdPlugged)
+[done,did,ready,finished] @RT(Good,Alright,There you go,That's much better) #GNMEmoteHappy #DT @TempFlag(gdPlugged)
 [don't want to,do not want to,don't want that,do not want that,don't make me,do not make me] What are you talking about #DT @Goto(talking about plug)
 @DifferentAnswer Just say 'ready' when you are, #SlaveName #DT
 I love it when you wear a plug for me, #SlaveName #DT @CustomMode(#gdDontWantTo,Normal)
@@ -35,7 +35,7 @@ I can't seem to @RT(make up my mind,decide), #SlaveName #DT @DeleteFlag(pvLink27
 Both options @RT(are fun in their own way,have merit,have their advantages) #DT
 When you #JerkOff, your arousal grows and you become more #DT @RT(submissive,obedient)
 When you are denied, you become more and more frustrated #DT
-Which is just so much fun to see #GNMHappy #DT
+Which is just so much fun to see #GNMEmoteHappy #DT
 @HasChastity I could put you in chastity of course... #DT @Chance50(chooses chastity)
 @DoesNotHaveChastity I would really enjoy seeing you squirm... #DT @Chance50(chooses denial without cage)
 But then again... #DT
@@ -69,10 +69,10 @@ I know it's not always easy to do, #SlaveName #DT
 It's kind of impressive that you could get it down at all... #DT
 Now... #DT @Chance33(put the cage on)
 Get that erection back for me, #SlaveName
-I changed my mind #GNMHappy #DT
+I changed my mind #GNMEmoteHappy #DT
 Make your #GNMCock nice and hard again #DT
 It shouldn't be too difficult #DT
-After all, it was rock hard only a moment ago #GNMHappy #DT
+After all, it was rock hard only a moment ago #GNMEmoteHappy #DT
 @End
 (put the cage on)
 @NullResponse @CallReturn(CR\GNMChastityOn.txt)
@@ -90,7 +90,7 @@ You can barely feel it, but there is a rope around your wrists
 It's wound tight, keeping your hands in place behind your back
 #GNMMoan @ShowButtImage
 If only you could reach out and touch it...
-But your hands are tied #GNMHappy @UnlockImages #DT
+But your hands are tied #GNMEmoteHappy @UnlockImages #DT
 You can look, but you can't touch @PlayVideo(45) @JumpVideo
 Do you want to #JerkOff again? #DT
 [yes] I'm glad to hear that, #SlaveName #DT @Chance50(not going to stroke)

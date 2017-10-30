@@ -1,0 +1,11 @@
+@NullResponse @CheckFlag(pvLink43A)
+When I'm done with you... #DT @SetFlag(pvLink43A)
+You're going to feel so good that you'll feel bad about it #DT
+You won't even know the difference between feeling bad and good #DT
+And you won't care, #SlaveName #DT
+Because you're going to want more no matter how it feels #GNMEmoteHappy #DT
+@End
+(pvLink43A)
+I hope you're reading for more, #SlaveName #DT @DeleteFlag(pvLink43A)
+Because I'm far from done with you #DT
+@End

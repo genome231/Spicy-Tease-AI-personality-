@@ -17,7 +17,7 @@ You're are a toy for me to play with and nothing more #DT
 @NullResponse @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
 Would I do the things I do to you if I loved you? @Timeout(8,why would I) #DT
 [yes] No, #SlaveName @Goto(if I loved you) #DT
-@AcceptAnswer @NullResponse I just want to make you suffer, #SlaveName #GNMHappy #DT
+@AcceptAnswer @NullResponse I just want to make you suffer, #SlaveName #GNMEmoteHappy #DT
 (why would I)
 If I loved you, it would be very different #SlaveName #DT
 I certainly wouldn't torment you the way I do #DT
@@ -36,7 +36,7 @@ There are times I wish I could say I feel sorry for you #DT
 I mean, I can be so cruel to you sometimes #DT
 The truth is though, I <i>love</i> being cruel to you #DT
 So doing those thing makes me happy, and you want to make me happy #DT
-That means I really don't have any reason to feel bad about it #GNMHappy #DT
+That means I really don't have any reason to feel bad about it #GNMEmoteHappy #DT
 I guess I can be as cruel as I want, whenever I want to #DT
 @NullResponse @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
 @End

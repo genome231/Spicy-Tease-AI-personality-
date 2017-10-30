@@ -11,7 +11,7 @@ That's what you really miss #DT
 Come to think of it... #DT
 Maybe you should never ever have an orgasm again #DT
 That way you'll always feel blissfully aroused #DT
-And deeply obedient to me #GNMHappy
+And deeply obedient to me #GNMEmoteHappy
 Think about that #SlaveName #DT
 In your heart you know what it is you <i>really</i> want... #DT
 @End
@@ -22,7 +22,7 @@ It's pretty incredible once you stop to think about it #DT
 I make you suffer and somehow that gives you pleasure #DT
 I make you ache and you just ask for more... #DT
 Do you want to ache more, #SlaveName? #DT
-[yes] Yes, you do #GNMHappy #DT
+[yes] Yes, you do #GNMEmoteHappy #DT
 [no] Oh really... @Goto(oh really) #DT
 @DifferentAnswer #GNMYesOrNo
 You always want to ache more #MeritChangePLow #DT

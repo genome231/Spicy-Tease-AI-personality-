@@ -1,0 +1,36 @@
+@NullResponse @CheckFlag(pvLink38A)
+@NullResponse @SetFlag(pvLink38A)
+@NullResponse @CheckFlag(gdPMEyes)
+@NullResponse @CheckFlag(gdPMEno)
+Do you consider yourself to be a premature ejaculator? #DT
+[yes] I thought you might be, with all this training you do #GNMEmoteHappy #DT @SetFlag(gdPMEyes)
+[no] I guess a lifetime of masturbation is paying off then #GNMEmoteHappy #DT @SetFlag(gdPMEno)
+[don't understand,not understand,explain,what's that,do you mean,what is] Is it hard to keep yourself from cumming when you're #JerkingOff or having sex? #DT @LoopAnswer
+@DifferentAnswer #GNMYesOrNo #DT
+Let's have some more of that then #DT
+@End
+(pvPMEyes)
+You should learn to control yourself when having sex, #SlaveName #DT
+@Flag(gdVirgin) I mean, if you <i>ever</i> get to have sex... #DT
+Because the truth is, to please a girl #DT
+You have to be able to last longer that a minute or two #DT
+Or she's not going to want to stick around #DT
+So let's get back to some endurance practice #GNMEmoteHappy #DT
+@End
+(pvPMEno)
+@NullResponse
+@End
+(pvLink38A)
+Knowing how much you want me turns me on so much #DT @DeleteFlag(pvLink38A)
+Knowing that you're a leaking, throbbing bundle of desire for me #DT
+#GNMMoan #DT
+But you know what turns me on even more? #DT
+That you can't have me and it's driving you crazy #GNMLol #DT
+I've always loved that ever since I became of age sexually #DT
+Even when I was like 14 or 15 years old I loved denying guys #DT
+Obviously I'd ever heard of 'tease and denial' back then #DT
+I'd make out with guys and totally leading them on, making them think I'd have sex with them #DT
+And then I'd go "sorry but I have to go now bye bye" #GNMLol #DT
+Some of those guys got pretty pissed off... #DT
+If I'd done that to you, you'd just kiss my feet and thank me #GNMLol #DT
+@End
