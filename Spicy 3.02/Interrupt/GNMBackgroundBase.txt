@@ -11,7 +11,7 @@
 @NullResponse @DeleteFlag(SessionEnd)
 @Flag(LotteryTicket) @Variable[#DateDifference(LotteryTicketTimer, Days)]>=[LotteryTicketCount] @NullResponse @CallReturn(CR\BackgroundMode\Shop\LTicket.txt)
 (Base)
-@SystemMessage #VANC #VANP @RT(Yes?,Yes?,Yes?,Yes?,Yes?,Yes?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Yes?,Yes slave?,Well slave?,Yes #SlaveName?,Yes #SubName?,What can I do for you?,How can I help?,What is your desire?,You wish?,What do you next?,Let's start something.., Let's go!,What are you waiting for?,Are you ready to choose?,Hello can I help you?,Is there anything else I can do for you?,Enjoy your stay!,Well, if I  can  help you, please  ask.,What is your concern?,Oh you again.,Happy to see you.,Tell me what you want.)
+@SystemMessage #VANC #VANP @RT(Yes?,Yes?,Yes?,Yes?,Yes?,Yes?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Hmm?,Yes?,Yes slave?,Well slave?,Yes #SlaveName?,Yes #SubName?,What can I do for you?,How can I help?,What is your desire?,You wish?,What do you next?,Let's start something.., Let's go!,What are you waiting for?,Are you ready to choose?,Hello can I help you?,Is there anything else I can do for you?,Enjoy your stay!,Well if I can help you please ask.,What is your concern?,Oh you again.,Happy to see you.,Tell me what you want.)
 [session,domme,visit,go to] @NullResponse @CallReturn(CR\BackgroundMode\TestSession.txt)
 [chore,chores,clean,cleaning,dust off,dusting,dust,wipe,wash] @NullResponse @TempFlag(Chore) @CallReturn(CR\BackgroundMode\Chores\ChoreBase.txt)
 [dungeon,spanking,spankzchoir,selfbondage,bad,naugthy,discipline,pain,torture,chamber] @NullResponse @CallReturn(CR\BackgroundMode\Punishment\PunishmentBase.txt)
@@ -22,6 +22,7 @@
 [report,exercise] @NullResponse @Goto(ReportE)
 [work,study,mode] @NullResponse @CallReturn(CR\BackgroundMode\WorkMode\GNMWorkMode.txt)
 [rules,houserules,rule,house,commands,orders] @NullResponse @CallReturn(CR\BackgroundMode\HouseRules.txt)
+[save,end,end tease,stop,leave,close,finish,finished]@SystemMessage #VANC #VANP @RT(Bye,Untile next time,See you,I'm waiting for the next time,Don't leave me alone to long,Good bye,Have a nice day, I saved your process you can close the program) @EndTease @End
 @AcceptAnswer @NullResponse @Goto(Confused)
 @NullResponse
 @NullResponse @Goto(StateCheck)
@@ -35,7 +36,8 @@
 @SystemMessage #VANC #VANP Do some fitness
 @SystemMessage #VANC #VANP Report for exercise
 @SystemMessage #VANC #VANP Work / Study mode
-@SystemMessage #VANC #VANP Or request to view the rules @Goto(Base)
+@SystemMessage #VANC #VANP Request to view the rules 
+@SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
 (ReportE)
 @Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
 @SystemMessage #VANC #VANP Have you just completed an exericse?
