@@ -464,8 +464,10 @@
 [both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy11)
-@SystemMessage #VANC #VANP The stroking part uses a metronome as a standard
-@SystemMessage #VANC #VANP Some like to disable this, you can turn it off later in the settings.
+@SystemMessage #VANC #VANP The stroking part uses the Tease-AI-metronome and the Spicy-metronome as a standard
+@SystemMessage #VANC #VANP You need to disable one! 
+@SystemMessage #VANC #VANP You can turn the Tease-AI-metronome off when you go Apps(top-left)-> Metronome-> uncheck Enable Metronome
+@SystemMessage #VANC #VANP Or you can turn off the Spicy-metronome later in the own Spicy settings.
 @SystemMessage #VANC #VANP Next we need for you to setup a folder with pictures of YOU!
 @SystemMessage #VANC #VANP Very simple actually..
 @SystemMessage #VANC #VANP Inside the GNMImages folder you'll find a folder named SelfHumiliation
