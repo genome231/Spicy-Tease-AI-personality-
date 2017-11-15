@@ -102,30 +102,30 @@
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Maybe we should cane you instead?,Maybe we should just lock you up..,Perhaps it should be edging instead?) @FollowUp10(*Pleased Look*)
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Power is a funny thing,Choosing denial or orgasm is a funny thing,The cane or the riding crop is a difficuilt choice!) @FollowUp10(*Grin*) 
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Lucky,Fortunate) for you that @RT(sluts,slaves,cucks) doesn't have to mind that @FollowUp10(*Looks at you Lustfull*)
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(don't you dare edge,Stay off the edge!,don't you even think of edging!) @FollowUp20(*Spreading my Legs a Little*)  
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(Keep the pace and hold on!,As your #DomHonorific I command you to last,Edging without permission is punishable!) @FollowUp20(*Touching Myself*)
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(I know its hard stroking this fast,I know its a tough pace,I know this isn't easy).. @FollowUp20(*Making Kissing Lips*) 
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(But I want you to last,But I demand that you keep it!,But don't you dare not keep it) @FollowUp20()
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(Stroking slowly can break any man,Slow strokes are the perfect torture,Pleasure can be turned into torture) @FollowUp20(*Grins*) 
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(So just keep the pace,So don't you dare stroke faster,So just keep this pace and stay tortured!) @FollowUp20(*Laughs Hystericly*)
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(Keep those thoughts sexy,Lock your eyes with the screen,Look and admire me) @FollowUp15(*Looks at you Innocently*) 
-@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @RT(I want you desperate,I want you lusting for that orgasm,I want you in a state of mad horniness) @RT(slut,slave,cuck,worm) @FollowUp15(*Sends a Warm Smile*)
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(You can't imagine how hot is to see you this desperate,Your desperation makes me horny,Frustration and desperation) @FollowUp15(*Winks*) 
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(Its what you deserve afterall,Its befitting that a slave is desperate,A true slave is never satisfied) @FollowUp15(*Moans Lightly*)
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(Oh my if anyone could see this,Imagine if your friends saw this,Maybe I should send this to ______) @FollowUp20(*LoL*)  <---- Needs friend
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(#Contact1 says I should just do it,#Contact2 is a little hesitant when I suggest it,#Contact3 thinks I should just put on Twitter) @FollowUp20(- The power I hold xD)
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(Look and enjoy,Watch and behold,Oh my the beauty..) @FollowUp20(*Gasps*)  
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(I could look at these for hours!,I should have you find more of these,A slave can never have enough porn!) @FollowUp20(;D)
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(Remember its not about you,Always keep in mind that this is never about you,Slavery is never about you!) @FollowUp20(*Points at You*) 
-@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @RT(Its about my pleasure,Its about me,Its only about me!) @FollowUp15(*Points to Myself*)
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(#Contact1,#Contact2,#Contact3) Has an impressive collection of toys.. @FollowUp10(*Giggles*) 
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(You should "try" her collection of dildo's,You can have a lot of "fun" with her whips!,And she's an expert of bondage!) @FollowUp15(*Cracks a Whip*)
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(Stay on pace,Keep this speed,don't you dare slow down) @FollowUp10(*Smiles*) 
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(My boyfriend can keep this pace,My lover has no problems fucking me in this pace for hours,For a real man this pace shouldn't be a problem) @FollowUp10(*Looks Dreamy*)
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(#SlaveM1,#SlaveM2,#SlaveM3) stroked at this pace @RT(yesterday,2 days ago,last week) @FollowUp10(*Points at You Laughing*) 
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(He didn't seem to have a problem with it,It didn't seem to bother him,I don't think it caused him any trouble) @FollowUp10(*Grin*)
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(#F1,#F2,#F3) Was vibrated on intense setting yesterday @FollowUp10(*Buzzing*) 
-@Flag(FastStrokeMode, MetronomeOff) @ShowImage @RT(You should have seen her face when I said she was not to cum!,Oh my was she in trouble!,Her face was priceless) @FollowUp10(*Lol)
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(don't you dare edge,Stay off the edge!,don't you even think of edging!) @FollowUp20(*Spreading my Legs a Little*)  
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(Keep the pace and hold on!,As your #DomHonorific I command you to last,Edging without permission is punishable!) @FollowUp20(*Touching Myself*)
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(I know its hard stroking this fast,I know its a tough pace,I know this isn't easy).. @FollowUp20(*Making Kissing Lips*) 
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(But I want you to last,But I demand that you keep it!,But don't you dare not keep it) @FollowUp20()
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(Stroking slowly can break any man,Slow strokes are the perfect torture,Pleasure can be turned into torture) @FollowUp20(*Grins*) 
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(So just keep the pace,So don't you dare stroke faster,So just keep this pace and stay tortured!) @FollowUp20(*Laughs Hystericly*)
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(Keep those thoughts sexy,Lock your eyes with the screen,Look and admire me) @FollowUp15(*Looks at you Innocently*) 
+@Flag(TortureStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @StrokeSlower @RT(I want you desperate,I want you lusting for that orgasm,I want you in a state of mad horniness) @RT(slut,slave,cuck,worm) @FollowUp15(*Sends a Warm Smile*)
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(You can't imagine how hot is to see you this desperate,Your desperation makes me horny,Frustration and desperation) @FollowUp15(*Winks*) 
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(Its what you deserve afterall,Its befitting that a slave is desperate,A true slave is never satisfied) @FollowUp15(*Moans Lightly*)
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(Oh my if anyone could see this,Imagine if your friends saw this,Maybe I should send this to ______) @FollowUp20(*LoL*)  <---- Needs friend
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(#Contact1 says I should just do it,#Contact2 is a little hesitant when I suggest it,#Contact3 thinks I should just put on Twitter) @FollowUp20(- The power I hold xD)
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(Look and enjoy,Watch and behold,Oh my the beauty..) @FollowUp20(*Gasps*)  
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(I could look at these for hours!,I should have you find more of these,A slave can never have enough porn!) @FollowUp20(;D)
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(Remember its not about you,Always keep in mind that this is never about you,Slavery is never about you!) @FollowUp20(*Points at You*) 
+@Flag(SlowStrokeMode, MetronomeOff) @ShowImage @StrokeSlower @RT(Its about my pleasure,Its about me,Its only about me!) @FollowUp15(*Points to Myself*)
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(#Contact1,#Contact2,#Contact3) Has an impressive collection of toys.. @FollowUp10(*Giggles*) 
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(You should "try" her collection of dildo's,You can have a lot of "fun" with her whips!,And she's an expert of bondage!) @FollowUp15(*Cracks a Whip*)
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(Stay on pace,Keep this speed,don't you dare slow down) @FollowUp10(*Smiles*) 
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(My boyfriend can keep this pace,My lover has no problems fucking me in this pace for hours,For a real man this pace shouldn't be a problem) @FollowUp10(*Looks Dreamy*)
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(#SlaveM1,#SlaveM2,#SlaveM3) stroked at this pace @RT(yesterday,2 days ago,last week) @FollowUp10(*Points at You Laughing*) 
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(He didn't seem to have a problem with it,It didn't seem to bother him,I don't think it caused him any trouble) @FollowUp10(*Grin*)
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(#F1,#F2,#F3) Was vibrated on intense setting yesterday @FollowUp10(*Buzzing*) 
+@Flag(FastStrokeMode, MetronomeOff) @ShowImage @StrokeFaster @RT(You should have seen her face when I said she was not to cum!,Oh my was she in trouble!,Her face was priceless) @FollowUp10(*Lol)
 @Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
 @Flag(MetronomeOff) @NullResponse @ShowImage
 @Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
@@ -148,17 +148,17 @@
 @Flag(MetronomeOff) @NullResponse @ShowImage
 @Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
 @Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3]
+@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
 @Flag(MetronomeOff) @NullResponse @ShowImage
