@@ -89,19 +89,19 @@
 (Unlock)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @NullResponse @CallReturn(CR\GNMChastityOff.txt)
-@End
+@NullResponse @Goto(End)
 (Denial1)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @RT(As you well know,As you know,As you should know,Oh well,Oh my,Poor you) @LockImages #ChastityOffDenied @Wait(5)
 @RT(You're under strict lockdown,You're strictly locked,You're not to be released,You are still being punished,You're serving a punishment) @Wait(5)
 @RT(Meaning there will be no release from that #Cage..,Meaning you won't be released for this session,So there won't be any release) @UnlockImages @Wait(5)
-@End
+@NullResponse @Goto(End)
 (Denial2)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @RT(I don't think you should be unlocked,You won't be unlocked today,There won't any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
 @RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) #DT @Wait(5)
 @RT(Enjoy,Maybe it's better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
-@End
+@NullResponse @Goto(End)
 (PlayTest)
 @NullResponse @SetVar[Choice]=[0]
 @Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,150)]
@@ -112,6 +112,9 @@
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @Variable[Choice]<[20] @NullResponse @CallReturn(CR\GNMChastityOn.txt)
-@End
+@NullResponse @Goto(End)
 (End)
+@NullResponse @Flag(HasChastity,ChastityIsOn) @ChastityOn
+@NullResponse @NotFlag(ChastityIsOn) @ChastityOff
+@NullResponse @NotFlag(HasChastity) @ChastityOff
 @End
