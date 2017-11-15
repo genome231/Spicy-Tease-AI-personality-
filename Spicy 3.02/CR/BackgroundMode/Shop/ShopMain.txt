@@ -226,13 +226,13 @@
 @SystemMessage #VANC #VANP The price per pack is 500 gold @Goto(EnterCode)
 (d1) //Lottery Ticket
 @SystemMessage #VANC #VANP Buying lottery ticket @ChangeVar[GNMGold]=[GNMGold]-[50]
-@DayOfWeek(Monday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[4]
-@DayOfWeek(Tuesday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[3]
-@DayOfWeek(Wednesday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[2]
-@DayOfWeek(Thursday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[1]
-@DayOfWeek(Friday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[7]
-@DayOfWeek(Saturday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[6]
-@DayOfWeek(Sunday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[5]
+@DayOfWeek(Monday,Montag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[4]
+@DayOfWeek(Tuesday,Dienstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[3]
+@DayOfWeek(Wednesday,Mittwoch) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[2]
+@DayOfWeek(Thursday,Donnerstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[1]
+@DayOfWeek(Friday,Freitag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[7]
+@DayOfWeek(Saturday,Samstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[6]
+@DayOfWeek(Sunday,Sonntag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[5]
 @SystemMessage #VANC #VANP Transaction Complete @SetVar[LotteryTicket]=[#Random(1,100)] @SetFlag(LotteryTicket)
 @SystemMessage #VANC #VANP Your ticket has the number @ShowVar[LotteryTicket] @Goto(EnterCode)
 (d1h) //Lottery Ticket
