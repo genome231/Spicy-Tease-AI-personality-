@@ -1,4 +1,3 @@
-@NullResponse @StopStroking 
 @NullResponse @RapidCodeOn
 @NullResponse @DeleteFlag(Busy)
 @NullResponse @DeleteFlag(NoStrokeEdge)
@@ -20,7 +19,7 @@
 (Continue1)
 @Variable[GNMMerits]<[DommeContentVAnnoyed] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]+[#Random(20,50)]
 @Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(20,50)]
-@NullResponse @Chance100(Links) @Goto(Other)
+@NullResponse @Chance33(Links) @Goto(Other)
 (Links)
 @NullResponse @CallReturn(CR\Links\*.txt)
 (Other)
@@ -58,23 +57,21 @@
 @NullResponse @TempFlag(NoStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @ShowImage
+#GNMStartStroking @StartStroking @ShowImage
 @End
 (MaybeEdge)
 @NullResponse @TempFlag(MaybeStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @ShowImage
+#GNMStartStroking @StartStroking @ShowImage
 @End
 (Edge)
 @NullResponse @TempFlag(YesStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @ShowImage
+#GNMStartStroking @StartStroking @ShowImage
 @End
-(Locked)
-@RT(Time to tease your locked up #GNMCock,Lets make it twitch #GNMGrin,I have a fun chastity exercise!,You're absolutely gonna hate this!) #DT @StartTaunts
-@End
+
 (End)
 @NullResponse @Interrupt(GNMEnd)
 
