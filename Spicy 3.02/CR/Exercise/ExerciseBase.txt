@@ -14,13 +14,13 @@
 @SystemMessage #VANC #VANP Maybe not today, but as we go 
 @SystemMessage #VANC #VANP completing exercise also gets you rewarded 
 @SystemMessage #VANC #VANP I track how many times you complete exercise for each 7 days  @SetDate(ExercisePeriod, 0 Hours)
-@DayOfWeek(Monday) @SystemMessage #VANC #VANP Today it is Monday meaning your exercise cycle runs from Monday to Sunday 
-@DayOfWeek(Tuesday) @SystemMessage #VANC #VANP Today it is Tuesday meaning your exercise cycle runs from Tuesday to Monday 
-@DayOfWeek(Wednesday) @SystemMessage #VANC #VANP Today it is Wednesday meaning your exercise cycle runs from Wednesday to Tuesday 
-@DayOfWeek(Thursday) @SystemMessage #VANC #VANP Today it is Thursday meaning your exercise cycle runs from Thursday to Wednesday 
-@DayOfWeek(Friday) @SystemMessage #VANC #VANP Today it is Friday meaning your exercise cycle runs from Friday to Thursday 
-@DayOfWeek(Saturday) @SystemMessage #VANC #VANP Today it is Saturday meaning your exercise cycle runs from Saturday to Friday 
-@DayOfWeek(Sunday) @SystemMessage #VANC #VANP Today it is Sunday meaning your exercise cycle runs from Sunday to Saturday 
+@DayOfWeek(Monday,Montag) @SystemMessage #VANC #VANP Today it is Monday meaning your exercise cycle runs from Monday to Sunday 
+@DayOfWeek(Tuesday,Dienstag) @SystemMessage #VANC #VANP Today it is Tuesday meaning your exercise cycle runs from Tuesday to Monday 
+@DayOfWeek(Wednesday,Mittwoch) @SystemMessage #VANC #VANP Today it is Wednesday meaning your exercise cycle runs from Wednesday to Tuesday 
+@DayOfWeek(Thursday,Donnerstag) @SystemMessage #VANC #VANP Today it is Thursday meaning your exercise cycle runs from Thursday to Wednesday 
+@DayOfWeek(Friday,Freitag) @SystemMessage #VANC #VANP Today it is Friday meaning your exercise cycle runs from Friday to Thursday 
+@DayOfWeek(Saturday,Samstag) @SystemMessage #VANC #VANP Today it is Saturday meaning your exercise cycle runs from Saturday to Friday 
+@DayOfWeek(Sunday,Sonntag) @SystemMessage #VANC #VANP Today it is Sunday meaning your exercise cycle runs from Sunday to Saturday 
 @SystemMessage #VANC #VANP You can only report for exercise every 20 hours 
 @SystemMessage #VANC #VANP The more visits you have per 7 day cycle the more I will reward you
 @NullResponse @SetVar[ExerciseLevel]=[1]
