@@ -11,13 +11,13 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Transaction Complete @SetVar[LotteryTicket]=[0] @ChangeVar[LotteryTicket]=[LotteryTicket]+[#Random(1,100)]
 @SystemMessage #VANC #VANP Your ticket has the number @ShowVar[LotteryTicket]
-@DayOfWeek(Monday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[4]
-@DayOfWeek(Tuesday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[3]
-@DayOfWeek(Wednesday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[2]
-@DayOfWeek(Thursday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[1]
-@DayOfWeek(Friday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[7]
-@DayOfWeek(Saturday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[6]
-@DayOfWeek(Sunday) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[5]
+@DayOfWeek(Monday,Montag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[4]
+@DayOfWeek(Tuesday,Dienstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[3]
+@DayOfWeek(Wednesday,Mittwoch) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[2]
+@DayOfWeek(Thursday,Donnerstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[1]
+@DayOfWeek(Friday,Freitag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[7]
+@DayOfWeek(Saturday,Samstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[6]
+@DayOfWeek(Sunday,Sonntag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[5]
 @End
 (NumberDrawn)
 @SystemMessage #VANC #VANP Lets check if your ticket worked out for you! #GNMLol @SetVar[LuckyLotteryNumber]=[0] @ChangeVar[LuckyLotteryNumber]=[LuckyLotteryNumber]+[#Random(1,100)]
