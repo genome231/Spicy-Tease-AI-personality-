@@ -359,41 +359,48 @@
 @SystemMessage #VANC #VANP Respond with no if you have nothing similar
 @SystemMessage #VANC Ball Crusher? @ShowImage[\GNMImages\Toys\BallCrusher.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyBallCrusher)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy2)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyBallCrusher) @Goto(Toy2)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(BallCrusherPlay)
-[punishment,punish]@NullResponse @SetFlag(BallCrusherPunishment)
+(Toy1*)
+@SystemMessage #VANC #VANP Do you want the ball crusher to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(BallCrusherPlay) @DeleteFlag(BallCrusherPunishment)
+[punishment,punish]@NullResponse @SetFlag(BallCrusherPunishment) @DeleteFlag(BallCrusherPlay)
 [both]@NullResponse @SetFlag(BallCrusherPunishment) @SetFlag(BallCrusherPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy2)
 @SystemMessage #VANC Butt Plugs? @ShowImage[\GNMImages\Toys\ButtPlugs.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyButtPlug)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy3)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyButtPlug) @Goto(Toy3)
+[play,punish,punishment,both] @NullResponse @Goto(Toy1*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(ButtPlugPlay)
-[punishment,punish]@NullResponse @SetFlag(ButtPlugPunishment)
+(Toy2*)
+@SystemMessage #VANC #VANP Do you want the butt plugs to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ButtPlugPlay) @SetDelete(ButtPlugPunishment)
+[punishment,punish]@NullResponse @SetFlag(ButtPlugPunishment) @SetDelete(ButtPlugPlay)
 [both]@NullResponse @SetFlag(ButtPlugPlay) @SetFlag(ButtPlugPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy3)
 @SystemMessage #VANC Dildo? @ShowImage[\GNMImages\Toys\Dildo.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyDildo)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy4)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyDildo) @Goto(Toy4)
+[play,punish,punishment,both] @NullResponse @Goto(Toy2*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(DildoPlay)
-[punishment,punish]@NullResponse @SetFlag(DildoPunishment)
+(Toy3*)
+@SystemMessage #VANC #VANP Do you want the dildo to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(DildoPlay) @DeleteFlag(DildoPunishment)
+[punishment,punish]@NullResponse @SetFlag(DildoPunishment) @DeleteFlag(DildoPlay)
 [both]@NullResponse @SetFlag(DildoPunishment) @SetFlag(DildoPlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy4)
 @SystemMessage #VANC EStim? @ShowImage[\GNMImages\Toys\EStim.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyElectro)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy5)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyElectro) @Goto(Toy5)
+[play,punish,punishment,both] @NullResponse @Goto(Toy3*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(ElectroPlay)
-[punishment,punish]@NullResponse @SetFlag(ElectroPunishment)
+(Toy4*)
+@SystemMessage #VANC #VANP Do you want Estim to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ElectroPlay) @DeleteFlag(ElectroPunishment)
+[punishment,punish]@NullResponse @SetFlag(ElectroPunishment) @DeleteFlag(ElectroPlay)
 [both]@NullResponse @SetFlag(ElectroPlay) @SetFlag(ElectroPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 @SystemMessage #VANC #VANP Tell me what level of schock you consider to be quite painful @InputVar[ElectroPHigh]
@@ -402,65 +409,74 @@
 (Toy5)
 @SystemMessage #VANC Gag? @ShowImage[\GNMImages\Toys\Gag.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyGag)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy6)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyGag) @Goto(Toy6)
+[play,punish,punishment,both] @NullResponse @Goto(Toy4*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(GagPlay)
-[punishment,punish]@NullResponse @SetFlag(GagPunishment) 
+(Toy5*)
+@SystemMessage #VANC #VANP Do you want the gag to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(GagPlay) @DeleteFlag(GagPunishment)
+[punishment,punish]@NullResponse @SetFlag(GagPunishment) @DeleteFlag(GagPlay)
 [both]@NullResponse @SetFlag(GagPlay) @SetFlag(GagPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy6)
 @SystemMessage #VANC Girlfriend? @ShowImage[\GNMImages\Toys\Girlfriend.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToySetupGirlFriend)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToySetupGirlFriend)
+[play,punish,punishment,both] @NullResponse @Goto(Toy5*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @NullResponse @ShowImage[\GNMImages\Toys\LingerieSet.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieBasic)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy7)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyLingerieBasic) @Goto(Toy7)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @NullResponse @ShowImage[\GNMImages\Toys\LingerieSet2.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieAdvanced)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyLingerieAdvanced)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 (Toy7)
 @SystemMessage #VANC Parachute? @ShowImage[\GNMImages\Toys\Parachute.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyParachute)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy8)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyParachute) @Goto(Toy8)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(ParachutePlay)
-[punishment,punish]@NullResponse @SetFlag(ParachutePunishment)
+(Toy7*)
+@SystemMessage #VANC #VANP Do you want the parachute to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(ParachutePlay) @DeleteFlag(ParachutePunishment)
+[punishment,punish]@NullResponse @SetFlag(ParachutePunishment) @DeleteFlag(ParachutePlay)
 [both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy8)
 @SystemMessage #VANC HotSauce? @ShowImage[\GNMImages\Toys\HotSauce.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyHotSauce)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy9)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyHotSauce) @Goto(Toy9)
+[play,punish,punishment,both] @NullResponse @Goto(Toy7*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(HotSaucePlay)
-[punishment,punish]@NullResponse @SetFlag(HotSaucePunishment)
+(Toy8*)
+@SystemMessage #VANC #VANP Do you want the HotSauce to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(HotSaucePlay) @DeleteFlag(HotSaucePunishment)
+[punishment,punish]@NullResponse @SetFlag(HotSaucePunishment) @DeleteFlag(HotSaucePlay)
 [both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy9)
 @SystemMessage #VANC Vibrator? @ShowImage[\GNMImages\Toys\Vibrator.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyVibrator)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy10)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyVibrator) @Goto(Toy10)
+[play,punish,punishment,both] @NullResponse @Goto(Toy8*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(VibratorPlay)
-[punishment,punish]@NullResponse @SetFlag(VibratorPunishment)
+(Toy9*)
+@SystemMessage #VANC #VANP Do you want the Vibrator to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(VibratorPlay) @DeleteFlag(VibratorPunishment)
+[punishment,punish]@NullResponse @SetFlag(VibratorPunishment) @DeleteFlag(VibratorPlay)
 [both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy10)
 @SystemMessage #VANC Do you have either of these? @ShowImage[\GNMImages\Toys\Collar.*]
 @SystemMessage #VANC Remember that a belt can also work as a collar @ShowImage[\GNMImages\Toys\Collar.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyCollar)
-[no]@SystemMessage #VANC #VANP #GNMEmoteSad @Goto(Toy11)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyCollar) @Goto(Toy11)
+[play,punish,punishment,both] @NullResponse @Goto(Toy9*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 @SystemMessage #VANC #VANP Do you want this toy to be used for play, punishment or both?
-[play]@NullResponse @SetFlag(CollarPlay)
-[punishment,punish]@NullResponse @SetFlag(CollarPunishment)
+[play]@NullResponse @SetFlag(CollarPlay) @DeleteFlag(CollarPunishment)
+[punishment,punish]@NullResponse @SetFlag(CollarPunishment) @DeleteFlag(CollarPlay)
 [both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy11)
@@ -468,6 +484,7 @@
 @SystemMessage #VANC #VANP You need to disable one! 
 @SystemMessage #VANC #VANP You can turn the Tease-AI-metronome off when you go Apps(top-left)-> Metronome-> uncheck Enable Metronome
 @SystemMessage #VANC #VANP Or you can turn off the Spicy-metronome later in the own Spicy settings.
+@Wait(8)
 @SystemMessage #VANC #VANP Next we need for you to setup a folder with pictures of YOU!
 @SystemMessage #VANC #VANP Very simple actually..
 @SystemMessage #VANC #VANP Inside the GNMImages folder you'll find a folder named SelfHumiliation
