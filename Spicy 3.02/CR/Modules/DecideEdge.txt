@@ -52,7 +52,9 @@
 @RT(We'll move on to something else,We're gonna do something else..) #DT
 (Edging3)
 @NullResponse @If[EdgesToDo]<=[0]Then(End)
-#GNMEdge @Edge @ShowImage
+#GNMEdge 
+@Flag(MetronomeOn) @PlayAudio[/GNMSounds/Stroking/MetronomeFast/*.mp3]
+@Edge @ShowImage
 #GNMLetTheEdgeFade #DT @Wait(#Random(3,10)) @ChangeVar[EdgesToDo]=[EdgesToDo]-[1] @Goto(Edging3)
 (End)
 @RT(I think you've had enough..,I'm happy) #SlaveName #DT

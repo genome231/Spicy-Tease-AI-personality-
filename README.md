@@ -3,4 +3,5 @@ A personality for TEASE-AI by 1885
 A great thanks to Daragorn for always lending help!
 
 ## Current State
-DO NOT USE. Untested changes haven't been tested yet!
+We are on the way to make it even better.
+If you want to use it you have to delete our System Folder and replace it with your former System folder or with a new one(copy it from wicked tease) in Spicy
