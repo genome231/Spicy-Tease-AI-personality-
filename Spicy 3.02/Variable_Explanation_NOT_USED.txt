@@ -82,9 +82,10 @@ Copy paste stuff:
 #TODO: Punishment with chastity does not properly put on chastity, search for HasChastity
 #TODO: Menu for settings (Domme)
 #TODO: Add the fixed you aren't allowed to talk thing
-#TODO: Check sounds that are not working (metronome) (vocab error maybe?)
 #TODO: Fix vocab error (locked images)
 #TODO: EdgeATon: let domme decide how many edges you want to do
+#TODO: Add domme session start scripts for better user experience
+#TODO: Fix play sound keep stroking stopping stroking metronome
 
 
 

@@ -937,7 +937,7 @@ Bravo #GNMEmoteHappy #DT
 @End
 (PT2Done)
 (End)
-@RT(We're at the end of your position traing,That was it,We're at the end,Well that was it,Oh my we're finally at the end #GNMGrin) #SlaveName #DT @PlayAudo[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
+@RT(We're at the end of your position training,That was it,We're at the end,Well that was it,Oh my we're finally at the end #GNMGrin) #SlaveName #DT @PlayAudo[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
 @RT(It was fun!,I had a lot of fun,I enjoyed it,Well this was fun!,I had a blast,I really enjoyed this!,Oh my was this fun) #DT #MeritChangePMedium
 @Variable[PositionLevel]<[50] @NullResponse @ChangeVar[PositionLevel]=[PositionLevel]+[1]
 @End

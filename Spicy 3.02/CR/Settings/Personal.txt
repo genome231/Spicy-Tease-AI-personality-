@@ -12,7 +12,7 @@
 @SystemMessage #VANC #VANP Full Time/Part Time: Change to full time or part time
 (Options)
 @SystemMessage #VANC #VANP You have the following options:
-@SystemMessage #VANC #VANP pain threshold, pain endurance, endurance, strictness, devotion, modules, full time/part time, info
+@SystemMessage #VANC #VANP Pain threshold, pain endurance, endurance, strictness, devotion, modules, full time/part time, info
 [pain threshold, impact] @NullResponse @Goto(P1)
 [pain endurance, constant, over time] @NullResponse @Goto(P2)
 [endurance, patience, corner time] @NullResponse @Goto(P3)

@@ -1,6 +1,5 @@
-@Goto(End)
 @Flag(Busy) @NullResponse @Goto(End2)
-@Variable[#DateDifference(Spoken, Minutes)]>=[3] @NullResponse @Goto(NoPermission)
+@Variable[#DateDifference(Spoken,Minutes)]>=[3] @NullResponse @Goto(NoPermission)
 @RT(I'm glad you think so,Good because there will be a lot more of it!,Glad you like it!) #DT
 @End
 (NoPermission)
