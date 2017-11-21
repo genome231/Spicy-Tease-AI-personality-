@@ -16,7 +16,6 @@
 @SystemMessage #VANC #VANP AthleteMode adds the requirement of you reporting completed exercise x times per week
 @SystemMessage #VANC #VANP At the weekly full time checkup 
 @SystemMessage #VANC #VANP you will either be punished or rewarded based on your effort with either mode @Goto(Base)
-
 (ChangeModes)
 @SystemMessage #VANC #VANP It is highly recommended
 @SystemMessage #VANC #VANP That you only activate any modes on the same day as full time check up

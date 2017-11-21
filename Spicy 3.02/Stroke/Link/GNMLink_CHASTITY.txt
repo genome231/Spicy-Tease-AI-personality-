@@ -1,7 +1,7 @@
 @NullResponse @StopStroking
 @NullResponse @RapidCodeOn
 @NullResponse @DeleteFlag(Busy)
-@Variable[#DateDifference(Devotion, Minutes)]>=[DevotionSet] @NullResponse @Goto(End)
+@Variable[#DateDifference(Devotion, Minutes)]>[DevotionSet] @NullResponse @Goto(End)
 @NullResponse @DeleteFlag(VPleased)
 @NullResponse @DeleteFlag(Pleased)
 @NullResponse @DeleteFlag(Neutral)

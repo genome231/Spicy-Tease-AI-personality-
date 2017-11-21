@@ -15,8 +15,8 @@
 @SystemMessage #VANC #VANP Serving as a naked tag
 (DommeTagExplained)
 @SystemMessage #VANC #VANP Do you wish to have the pussy tag added as a fifth tag?
-[yes]@SystemMessage #VANC #VANP Adding tag.. @SetFlag(Naked)
-[no]@SystemMessage #VANC #VANP Delete tag.. @DeleteFlag(Naked)
+[yes]@SystemMessage #VANC #VANP Adding tag... @SetFlag(Naked)
+[no]@SystemMessage #VANC #VANP Deleting tag... @DeleteFlag(Naked)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP Done.
 @NullResponse @CheckFlag(DommeTagExplained2)
@@ -28,8 +28,8 @@
 @SystemMessage #VANC #VANP Modes can also be locked for a certain number of days
 @SystemMessage #VANC #VANP Leaving you unable to change these until the lock duration has expired
 (DommeTagExplained2)
-@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage Your mode settings are currently locked
-@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage They have been locked for @ShowVar[#DateDifference(ModeLocked, Days)] Days and will remain locked for @ShowVar[ModeLockedSet] @Goto(End)
+@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage #VANC #VANP Your mode settings are currently locked
+@Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @SystemMessage #VANC #VANP They have been locked for @ShowVar[#DateDifference(ModeLocked, Days)] Days and will remain locked for @ShowVar[ModeLockedSet] @Goto(End)
 @SystemMessage #VANC #VANP Here are the different modes
 @SystemMessage #VANC #VANP Sissy Mode: You will never Ruin/Orgasm by stroking your cock
 @SystemMessage #VANC #VANP Sissy Mode: This mode can only be activated if you own a vibrator

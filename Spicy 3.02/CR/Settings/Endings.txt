@@ -18,7 +18,7 @@
 @Flag(AuthorsGame) @SystemMessage #VANC #VANP Authors Game
 @Flag(Standard) @SystemMessage #VANC #VANP Standard mode
 @SystemMessage #VANC #VANP Do you wish to change? 
-[yes]@SystemMessage #VANC #VANP Initiating Clean up
+[yes]@SystemMessage #VANC #VANP Initiating clean up
 [no]@NullResponse @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @NullResponse @RapidCodeOn 

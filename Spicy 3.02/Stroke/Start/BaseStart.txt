@@ -5,7 +5,7 @@
 @NullResponse @RapidCodeOn @LockImages @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundAssistantPictureSet.txt)
 @SystemMessage 60% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @Flag(CrazyDommeMode) @NullResponse @CallReturn(CR\BackgroundMode\StartUp\CrazyDommeMode.txt)
-@SystemMessage 80% loaded. @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@SystemMessage 80% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @CallReturn(CR\BackgroundMode\StartUp\GNMSetMood.txt)
 @SystemMessage 100% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 (PlayIntro) //First launch? Check below
