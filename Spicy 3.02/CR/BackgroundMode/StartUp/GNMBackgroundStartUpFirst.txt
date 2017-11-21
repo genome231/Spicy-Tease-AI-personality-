@@ -5,7 +5,7 @@
 [no]@SystemMessage Return when you have sufficient time.. @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(End)
 @DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (End)
-@SystemMessage Exiting.. - Return when you have time @ShowImage[\GNMImages\Intro\GNMLoading.*] @EndTease
+@SystemMessage Exiting... - Return when you have time @ShowImage[\GNMImages\Intro\GNMLoading.*] @EndTease
 @End
 (Sub3.0)
 @SystemMessage Setting up @ShowImage[\GNMImages\Intro\GNMLoading.*]
@@ -308,13 +308,13 @@
 @SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone2]
 @SystemMessage #VANC #VANP Tell me the full name of the third person @InputVar[BlackmailName3]
 @SystemMessage #VANC #VANP Good, and now their phonenumber.. @InputVar[BlackmailPhone3]
-@SystemMessage #VANC #VANP Lets confirm
+@SystemMessage #VANC #VANP Let's confirm
 @SystemMessage #VANC #VANP So the first person is: @ShowVar[BlackmailName1] with the corressponding phonenumber: @ShowVar[BlackmailPhone1]
 @SystemMessage #VANC #VANP The second person is: @ShowVar[BlackmailName2] with the corressponding phonenumber: @ShowVar[BlackmailPhone2]
 @SystemMessage #VANC #VANP The third person is: @ShowVar[BlackmailName3] with the corressponding phonenumber: @ShowVar[BlackmailPhone3]
 @SystemMessage #VANC #VANP Is this information correct?
 [yes]@SystemMessage #VANC #VANP #GNMGood
-[no]@SystemMessage #VANC #VANP Lets try again then.. @Goto(InputBlackmail)
+[no]@SystemMessage #VANC #VANP Let's try again then.. @Goto(InputBlackmail)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave..
 @SystemMessage #VANC #VANP One more thing! #GNMGrin
 @SystemMessage #VANC #VANP Inside the image folders you'll find a folder named 'FFriends'
@@ -327,12 +327,12 @@
 
 @SystemMessage #VANC #VANP Should you ever think of quiting your service to the #DomHonorific
 @SystemMessage #VANC #VANP This will make sure you don't #GNMLol
-@SystemMessage #VANC #VANP don't worry you'll be reminded to serve properly!
+@SystemMessage #VANC #VANP Don't worry you'll be reminded to serve properly!
 @SystemMessage #VANC #VANP Or else.. 
 @SystemMessage #VANC #VANP Well as a final check I need to know what toys you have
 @SystemMessage #VANC #VANP Do note!
 @SystemMessage #VANC #VANP You are expected to have basic items such as pegs, rope and other common household items
-@SystemMessage #VANC #VANP Ofcourse I recommend that you have all the different toys for the full experience
+@SystemMessage #VANC #VANP Of course I recommend that you have all the different toys for the full experience
 @SystemMessage #VANC #VANP But #DomHonorific understands if you can't afford all of it..
 @SystemMessage #VANC #VANP In case you aquire something new
 @SystemMessage #VANC #VANP You can always go to settings and I'll help you register your new toy
@@ -362,7 +362,7 @@
 [yes]@SystemMessage #VANC #VANP #GNMGood
 @DifferentAnswer @SystemMessage #VANC #VANP Just say 'yes' when you're ready to continue
 (Toy)
-@SystemMessage #VANC #VANP Lets do a quick setup of your toys
+@SystemMessage #VANC #VANP Let's do a quick setup of your toys
 @SystemMessage #VANC #VANP I'll show you some images of different stuff
 @SystemMessage #VANC #VANP You will respond with yes if you have it
 @SystemMessage #VANC #VANP You can also say yes if you have something similar that will work fine
@@ -434,11 +434,11 @@
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToySetupGirlFriend)
 [play,punish,punishment,both] @NullResponse @Goto(Toy5*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet.*]
+@SystemMessage #VANC Basic Lingerie? @ShowImage[\GNMImages\Toys\LingerieSet.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieBasic)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyLingerieBasic) @Goto(Toy7)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
-@NullResponse @ShowImage[\GNMImages\Toys\LingerieSet2.*]
+@SystemMessage #VANC Advanced Lingerie? @ShowImage[\GNMImages\Toys\LingerieSet2.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyLingerieAdvanced)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyLingerieAdvanced)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
@@ -454,13 +454,13 @@
 [both]@NullResponse @SetFlag(ParachutePlay) @SetFlag(ParachutePunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy8)
-@SystemMessage #VANC HotSauce? @ShowImage[\GNMImages\Toys\HotSauce.*]
+@SystemMessage #VANC Hot sauce or icy hot? Toothpaste can work too for the time being. @ShowImage[\GNMImages\Toys\HotSauce.*]
 [yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(GNMToyHotSauce)
 [no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(GNMToyHotSauce) @Goto(Toy9)
 [play,punish,punishment,both] @NullResponse @Goto(Toy7*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 (Toy8*)
-@SystemMessage #VANC #VANP Do you want the HotSauce to be used for play, punishment or both?
+@SystemMessage #VANC #VANP Do you want the hot sauce to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(HotSaucePlay) @DeleteFlag(HotSaucePunishment)
 [punishment,punish]@NullResponse @SetFlag(HotSaucePunishment) @DeleteFlag(HotSaucePlay)
 [both]@NullResponse @SetFlag(HotSaucePunishment) @SetFlag(HotSaucePlay)
@@ -520,7 +520,7 @@
 @SystemMessage #VANC #VANP Thats a good one..
 @SystemMessage #VANC #VANP What implement do you have that fits the second description? @InputVar[SpankingImplement2]
 @SystemMessage #VANC #VANP This should be giving us a fun time!..
-@SystemMessage #VANC #VANP What nasty implement do you have that fits the Third description? @InputVar[SpankingImplement3]
+@SystemMessage #VANC #VANP What nasty implement do you have that fits the third description? @InputVar[SpankingImplement3]
 @SystemMessage #VANC #VANP Mhmm I can't wait to use this one!
 @SystemMessage #VANC #VANP We have arrived at a very important point
 @SystemMessage #VANC #VANP You need to choose between one of 3 different personalities for your domme
