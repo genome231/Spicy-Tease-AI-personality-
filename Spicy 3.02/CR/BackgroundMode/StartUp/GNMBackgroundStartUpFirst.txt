@@ -16,6 +16,7 @@
 @NullResponse @SetVar[SubStrictness]=[3]
 @NullResponse @SetVar[DevotionSet]=[45]
 @NullResponse @CallReturn(CR\Settings\DevotionSet.txt)
+@SystemMessage 10% complete...
 (Base)
 @NullResponse @SetVar[RORatio]=[50]
 @NullResponse @SetVar[LockUpPoints]=[0]
@@ -68,6 +69,7 @@
 @NullResponse @SetDate(Spoken, 0 Minutes)
 @NullResponse @SetDate(Speak, 0 Seconds)
 @NullResponse @SetVar[ForgotCap]=[0]
+@SystemMessage 20% complete...
 (F1)
 @NullResponse @SetVar[SlaveF1Endurance]=[8]
 @NullResponse @SetVar[SlaveF1PainTolerance]=[3]
@@ -77,6 +79,7 @@
 @NullResponse @SetVar[SlaveF1DildoAss]=[2]
 @NullResponse @SetVar[SlaveF1Personality]=[1]
 @NullResponse @SetVar[SlaveF1Orgasm]=[0]
+@SystemMessage 30% complete...
 (F2)
 @NullResponse @RapidCodeOn @SetVar[SlaveF2Endurance]=[6]
 @NullResponse @SetVar[SlaveF2PainTolerance]=[6]
@@ -86,6 +89,7 @@
 @NullResponse @SetVar[SlaveF2DildoAss]=[1]
 @NullResponse @SetVar[SlaveF2Personality]=[3]
 @NullResponse @SetVar[SlaveF2Orgasm]=[0]
+@SystemMessage 40% complete...
 (F3)
 @NullResponse @RapidCodeOn @SetVar[SlaveF3Endurance]=[4]
 @NullResponse @SetVar[SlaveF3PainTolerance]=[9]
@@ -95,6 +99,7 @@
 @NullResponse @SetVar[SlaveF3DildoAss]=[3]
 @NullResponse @SetVar[SlaveF3Personality]=[5]
 @NullResponse @SetVar[SlaveF3Orgasm]=[0]
+@SystemMessage 50% complete...
 (M1)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[3]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[8]
@@ -103,6 +108,7 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[3]
 @NullResponse @SetVar[SlaveM1Personality]=[5]
 @NullResponse @SetVar[SlaveM1Orgasm]=[0]
+@SystemMessage 60% complete...
 (M2)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[5]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[5]
@@ -111,6 +117,7 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[2]
 @NullResponse @SetVar[SlaveM1Personality]=[3]
 @NullResponse @SetVar[SlaveM2Orgasm]=[0]
+@SystemMessage 70% complete...
 (M3)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[7]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[2]
@@ -119,12 +126,14 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[1]
 @NullResponse @SetVar[SlaveM1Personality]=[1]
 @NullResponse @SetVar[SlaveM3Orgasm]=[0]
+@SystemMessage 80% complete...
 (Glitter1)
 @NullResponse @SetVar[Glitter1Score]=[5]
 (Glitter2)
 @NullResponse @SetVar[Glitter2Score]=[3]
 (Glitter3)
 @NullResponse @SetVar[Glitter3Score]=[1]
+@SystemMessage 90% complete...
 (GoodBadDays)
 @NullResponse @SetFlag(Day1Good)
 @NullResponse @SetFlag(Day2Good) @SetVar[GoodDays]=[20]
@@ -158,6 +167,7 @@
 @NullResponse @SetFlag(Day30Bad)
 @NullResponse @SetFlag(Day31Bad) 
 @NullResponse @RapidCodeOff
+@SystemMessage 100% complete.
 (General)
 @NullResponse @ShowImage[\GNMImages\Intro\Disclaimer.*] @Wait(18) 
 @NullResponse @ShowImage[\GNMImages\Intro\Tribute.*] @Wait(13)
@@ -170,7 +180,7 @@
 @SystemMessage #VANC #VANP You are here because you sent a request to become the property of #DomHonorific #DomName
 @SystemMessage #VANC #VANP As you probably read before sending the application there is a 6 month trial period
 @SystemMessage #VANC #VANP The trial period is designed to see if you're fit to serve..
-@SystemMessage #VANC #VANP Many men <i>and</i> women arround the world claim that they want to be slaves
+@SystemMessage #VANC #VANP Many men <i>and</i> women around the world claim that they want to be slaves
 @SystemMessage #VANC #VANP Most of these people doesn't truely understand what it means to serve
 @SystemMessage #VANC #VANP Tease-AI was designed to simulate the realities of being a slave
 @SystemMessage #VANC #VANP Through this program you will meet your perhaps future #DomHonorific
@@ -184,7 +194,7 @@
 @SystemMessage #VANC #VANP Those who serve full time and some who serve part time
 @SystemMessage #VANC #VANP In case you forgot
 @SystemMessage #VANC #VANP Full time means that you are expected to visit often as well as complete chores
-@SystemMessage #VANC #VANP Part time means that you're only here to play arround
+@SystemMessage #VANC #VANP Part time means that you're only here to play around
 @SystemMessage #VANC #VANP You also have the option of trying fulltime for a trial period of 10 days
 @SystemMessage #VANC #VANP This is done inside the shop
 @SystemMessage #VANC #VANP Your first trial is free
@@ -236,7 +246,7 @@
 @SystemMessage #VANC #VANP Ideally #DomHonorific prefers that you are locked whenever you're not playing
 @SystemMessage #VANC #VANP Meaning you wear it 24/7
 @SystemMessage #VANC #VANP And that you will only be released when told so through Tease-AI
-@SystemMessage #VANC #VANP Are you capable or wearing it 24/7? I suggest you answer truthfully for your own sake..
+@SystemMessage #VANC #VANP Are you capable of wearing it 24/7? I suggest you answer truthfully for your own sake..
 [yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(CRecord)
 [no]@SystemMessage #VANC #VANP Don't be ashamed, we can always work on this.
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
