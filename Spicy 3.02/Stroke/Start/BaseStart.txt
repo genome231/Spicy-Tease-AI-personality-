@@ -1,13 +1,13 @@
 @SystemMessage Launching Spicy @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
-@SystemMessage 20% loaded
+@SystemMessage 20% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @CallReturn(CR\StateCheck.txt)
-@SystemMessage 40% loaded
+@SystemMessage 40% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @RapidCodeOn @LockImages @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundAssistantPictureSet.txt)
-@SystemMessage 60% loaded
+@SystemMessage 60% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @Flag(CrazyDommeMode) @NullResponse @CallReturn(CR\BackgroundMode\StartUp\CrazyDommeMode.txt)
-@SystemMessage 80% loaded.
+@SystemMessage 80% loaded. @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @CallReturn(CR\BackgroundMode\StartUp\GNMSetMood.txt)
-@SystemMessage 100% loaded
+@SystemMessage 100% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 (PlayIntro) //First launch? Check below
 @NullResponse @CheckFlag(SpicyIntro)
 @NullResponse @TempFlag(Assistant)

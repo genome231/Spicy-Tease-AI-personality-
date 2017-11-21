@@ -16,7 +16,7 @@
 @NullResponse @SetVar[SubStrictness]=[3]
 @NullResponse @SetVar[DevotionSet]=[45]
 @NullResponse @CallReturn(CR\Settings\DevotionSet.txt)
-@SystemMessage 10% complete...
+@SystemMessage 10% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (Base)
 @NullResponse @SetVar[RORatio]=[50]
 @NullResponse @SetVar[LockUpPoints]=[0]
@@ -69,7 +69,7 @@
 @NullResponse @SetDate(Spoken, 0 Minutes)
 @NullResponse @SetDate(Speak, 0 Seconds)
 @NullResponse @SetVar[ForgotCap]=[0]
-@SystemMessage 20% complete...
+@SystemMessage 20% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (F1)
 @NullResponse @SetVar[SlaveF1Endurance]=[8]
 @NullResponse @SetVar[SlaveF1PainTolerance]=[3]
@@ -79,7 +79,7 @@
 @NullResponse @SetVar[SlaveF1DildoAss]=[2]
 @NullResponse @SetVar[SlaveF1Personality]=[1]
 @NullResponse @SetVar[SlaveF1Orgasm]=[0]
-@SystemMessage 30% complete...
+@SystemMessage 30% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (F2)
 @NullResponse @RapidCodeOn @SetVar[SlaveF2Endurance]=[6]
 @NullResponse @SetVar[SlaveF2PainTolerance]=[6]
@@ -89,7 +89,7 @@
 @NullResponse @SetVar[SlaveF2DildoAss]=[1]
 @NullResponse @SetVar[SlaveF2Personality]=[3]
 @NullResponse @SetVar[SlaveF2Orgasm]=[0]
-@SystemMessage 40% complete...
+@SystemMessage 40% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (F3)
 @NullResponse @RapidCodeOn @SetVar[SlaveF3Endurance]=[4]
 @NullResponse @SetVar[SlaveF3PainTolerance]=[9]
@@ -99,7 +99,7 @@
 @NullResponse @SetVar[SlaveF3DildoAss]=[3]
 @NullResponse @SetVar[SlaveF3Personality]=[5]
 @NullResponse @SetVar[SlaveF3Orgasm]=[0]
-@SystemMessage 50% complete...
+@SystemMessage 50% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (M1)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[3]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[8]
@@ -108,7 +108,7 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[3]
 @NullResponse @SetVar[SlaveM1Personality]=[5]
 @NullResponse @SetVar[SlaveM1Orgasm]=[0]
-@SystemMessage 60% complete...
+@SystemMessage 60% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (M2)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[5]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[5]
@@ -117,7 +117,7 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[2]
 @NullResponse @SetVar[SlaveM1Personality]=[3]
 @NullResponse @SetVar[SlaveM2Orgasm]=[0]
-@SystemMessage 70% complete...
+@SystemMessage 70% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (M3)
 @NullResponse @RapidCodeOn @SetVar[SlaveM1Endurance]=[7]
 @NullResponse @SetVar[SlaveM1PainTolerance]=[2]
@@ -126,14 +126,14 @@
 @NullResponse @SetVar[SlaveM1DildoAss]=[1]
 @NullResponse @SetVar[SlaveM1Personality]=[1]
 @NullResponse @SetVar[SlaveM3Orgasm]=[0]
-@SystemMessage 80% complete...
+@SystemMessage 80% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (Glitter1)
 @NullResponse @SetVar[Glitter1Score]=[5]
 (Glitter2)
 @NullResponse @SetVar[Glitter2Score]=[3]
 (Glitter3)
 @NullResponse @SetVar[Glitter3Score]=[1]
-@SystemMessage 90% complete...
+@SystemMessage 90% complete... @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (GoodBadDays)
 @NullResponse @SetFlag(Day1Good)
 @NullResponse @SetFlag(Day2Good) @SetVar[GoodDays]=[20]
@@ -167,7 +167,7 @@
 @NullResponse @SetFlag(Day30Bad)
 @NullResponse @SetFlag(Day31Bad) 
 @NullResponse @RapidCodeOff
-@SystemMessage 100% complete.
+@SystemMessage 100% complete @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (General)
 @NullResponse @ShowImage[\GNMImages\Intro\Disclaimer.*] @Wait(18) 
 @NullResponse @ShowImage[\GNMImages\Intro\Tribute.*] @Wait(13)
