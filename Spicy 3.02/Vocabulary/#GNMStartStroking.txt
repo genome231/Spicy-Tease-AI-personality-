@@ -23,7 +23,7 @@
 @Flag(MetronomeOn) Start touching my beautiful #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Start stroking my #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) You have my permission to stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
-@Flag(MetronomeOn) I'am ordering you to stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]  
+@Flag(MetronomeOn) I am ordering you to stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Go ahead and stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) I command you to stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Start beating that piece of meat between your legs @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
@@ -56,7 +56,7 @@
 @Flag(MetronomeOff) Start touching my beautiful #GNMCock
 @Flag(MetronomeOff) Start stroking my #GNMCock
 @Flag(MetronomeOff) You have my permission to stroke that #GNMCock
-@Flag(MetronomeOff) I'am ordering you to stroke that #GNMCock
+@Flag(MetronomeOff) I am ordering you to stroke that #GNMCock
 @Flag(MetronomeOff) Go ahead and stroke that #GNMCock
 @Flag(MetronomeOff) I command you to stroke that #GNMCock
 @Flag(MetronomeOff) Start beating that piece of meat between your legs

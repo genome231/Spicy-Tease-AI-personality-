@@ -57,14 +57,14 @@ Notice the hands with the fingers folded @ShowImage[\GNMImages\Positions\Attenti
 Her feet with the top of them faced down @ShowImage[\GNMImages\Positions\Attention2.jpg]
 The back lightly arched @ShowImage[\GNMImages\Positions\Attention1.jpg]
 Eyes looking straigt @ShowImage[\GNMImages\Positions\Attention1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a2)
 This is the Bad bitch position @ShowImage[\GNMImages\Positions\BadBitch2.jpg] @TempFlag(PTa2)
 Notice the arched back @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
 Top of the feet facing down @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
 Head down or up @ShowImage[\GNMImages\Positions\BadBitch3.jpg]
 Legs somewhat apart allowing access @ShowImage[\GNMImages\Positions\BadBitch1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a3)
 This is the Bent over position @ShowImage[\GNMImages\Positions\BentOver1.jpg] @TempFlag(PTa3)
 It gives the sub a feeling of submission @ShowImage[\GNMImages\Positions\BentOver2.jpg]
@@ -73,45 +73,45 @@ I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\BentO
 Legs straigth! @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Fingers touching the top of your toes @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Head down #GNMGrin @ShowImage[\GNMImages\Positions\BentOver1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a4)
 This is the Bent over open position @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg] @TempFlag(PTa4)
 It's a lot like the bent over with the obvious exception of the legs spread @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg]
 Heels lifted from the ground, head down @ShowImage[\GNMImages\Positions\BentOverOpen3.jpg]
 It's a nice position for humiliation, punishment or both @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
 Balance is quite a 'bitch' #GNMGrin @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a5)
 This is the Box position @ShowImage[\GNMImages\Positions\Box1.jpg] @TempFlag(PTa5)
 The box is an exelent position @ShowImage[\GNMImages\Positions\Box1.jpg]
 Its tougher than it looks @ShowImage[\GNMImages\Positions\BoxCloseup1.jpg]
 Some might prefer a pillow, but I trust you don't @ShowImage[\GNMImages\Positions\Box1.jpg]
 Other than that the position speaks for itself.. @ShowImage[\GNMImages\Positions\Box1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a6)
 This is the Come fuck me position @ShowImage[\GNMImages\Positions\CFM1.jpg] @TempFlag(PTa6)
 Exelent for fucking someone @ShowImage[\GNMImages\Positions\CFM2.jpg]
 Back arched @ShowImage[\GNMImages\Positions\CFM3.jpg]
 Humiliation in a lovely way #GNMGrin @ShowImage[\GNMImages\Positions\CFM4.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a7)
 This is the Dog position @ShowImage[\GNMImages\Positions\Dog1.jpg] @TempFlag(PTa7)
 The dog is actually exelent as a spanking position @ShowImage[\GNMImages\Positions\Dog1.jpg]
 Notice how the legs and lower arms are pressed together @ShowImage[\GNMImages\Positions\Dog2.jpg]
 It's not one I use a lot but it still has its merit @ShowImage[\GNMImages\Positions\Dog3.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a8)
 This is the Judgement position @ShowImage[\GNMImages\Positions\Judgement1.jpg] @TempFlag(PTa8)
 Its primarily a spanking position @ShowImage[\GNMImages\Positions\Judgement1.jpg]
 Heels off the ground @ShowImage[\GNMImages\Positions\Judgement1.jpg]
 Its exelent for a good spanking #GNMGrin @ShowImage[\GNMImages\Positions\Judgement1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a9)
 This is the Kneel position @ShowImage[\GNMImages\Positions\Kneel1.jpg] @TempFlag(PTa9)
 The kneel is great, notice the hands ready to be tied @ShowImage[\GNMImages\Positions\Kneel1.jpg]
 This is great as a waiting or 'pay attention' position @ShowImage[\GNMImages\Positions\Kneel1.jpg]
 With rice though its a completely different position #GNMLol @ShowImage[\GNMImages\Positions\Kneel1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a10)
 This is the Listen position @ShowImage[\GNMImages\Positions\Listen1.jpg] @TempFlag(PTa10)
 Great for when I need you to listen to what I'm telling you @ShowImage[\GNMImages\Positions\Listen1.jpg]
@@ -119,54 +119,54 @@ Hands by the knees @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Forehead touching the ground @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Eyes closed @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Just listening.. @ShowImage[\GNMImages\Positions\Listen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a11)
 This is the Punishment position @ShowImage[\GNMImages\Positions\Punishment1.jpg] @TempFlag(PTa11)
 Exelent for spanking @ShowImage[\GNMImages\Positions\Punishment2.jpg]
 Tied the right way and your #GNMBalls become very vulnerable @ShowImage[\GNMImages\Positions\Punishment3.jpg]
 It's better than it looks #GNMGrin @ShowImage[\GNMImages\Positions\Punishment4.jpg]
 Mhmm.. @ShowImage[\GNMImages\Positions\Punishment5.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a12)
 This is the Slut position @ShowImage[\GNMImages\Positions\Slut1.jpg] @TempFlag(PTa12)
 This position is art #GNMEmoteHappy @ShowImage[\GNMImages\Positions\Slut2.jpg]
 Its primarily used for girls @ShowImage[\GNMImages\Positions\Slut1.jpg]
 But thats not gonna keep you from learning #GNMLol @ShowImage[\GNMImages\Positions\Slut2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a13)
 This is the Spanking position @ShowImage[\GNMImages\Positions\Spanking1.jpg] @TempFlag(PTa13)
 Absolutely fantastic for spanking @ShowImage[\GNMImages\Positions\Spanking2.jpg]
 Even better for a caning @ShowImage[\GNMImages\Positions\Spanking1.jpg]
 Imagine being told that movement awards extra hits! #GNMGrin @ShowImage[\GNMImages\Positions\Spanking2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a14)
 This is the Stand position @ShowImage[\GNMImages\Positions\Stand1.jpg] @TempFlag(PTa14)
 This shouldn't be hard to learn! @ShowImage[\GNMImages\Positions\Stand1.jpg]
 Stand on your toes @ShowImage[\GNMImages\Positions\Stand3.jpg]
 Arms down @ShowImage[\GNMImages\Positions\Stand2.jpg]
 Eyes looking down.. @ShowImage[\GNMImages\Positions\Stand2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a15)
 This is the Stand open position @ShowImage[\GNMImages\Positions\StandOpen1.jpg] @TempFlag(PTa15)
 Imagine being ballbusted in this @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Told that if your heels touch the ground we're starting over.. @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Hands behind head @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Legs apart nicely @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a16)
 This is the Worship position @ShowImage[\GNMImages\Positions\Worship1.jpg] @TempFlag(PTa16)
 Worship @ShowImage[\GNMImages\Positions\Worship1.jpg]
 I don't think much explaining is needed here.. @ShowImage[\GNMImages\Positions\Worship1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (aTimer)
 @Variable[PositionLevel]<=[15] @NullResponse @Wait(#Random(120,240)) @Goto(aTimerOver)
 @Variable[PositionLevel]>=[30] @NullResponse @Wait(#Random(240,360)) @Goto(aTimerOver)
 @NullResponse @Wait(#Random(180,300)) @Goto(aTimerOver)
 (aTimerOver)
-@RT(Come back,Get back,Come back to me,Get your #GNMAss over here..) #SlaveName #DT @PlayAuido[\GNMSounds\SpecialSounds\Bell.mp3]
+@RT(Come back,Get back,Come back to me,Get your #GNMAss over here..) #SlaveName #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @NullResponse @CheckFlag(PT2Done) 
 @NullResponse @TempFlag(PT2Done)
-We're doing 1 position more.. #DT
+We're doing 1 more position... #DT
 (NoToy)
 @Flag(PTa1) @NullResponse @Goto(a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
 @Flag(PTa2) @NullResponse @Goto(a1,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
