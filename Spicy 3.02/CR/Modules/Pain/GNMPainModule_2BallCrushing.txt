@@ -122,7 +122,7 @@ I'll then show you a picture #DT
 Guess wrong and you have to tigthen it a full round #DT
 Guess right and you can loosen it half a round #DT
 When you've made 10 right guesses the game is over! #DT
-If you absolutely can't take another twist just say stop #DT @Custom(stop, Goto, Stop3)
+If you absolutely can't take another twist just say stop #DT @CustomMode(stop, Goto, Stop3)
 It's a simple game.. #DT
 (Choose)
 Boobs, butt or hentai? #DT

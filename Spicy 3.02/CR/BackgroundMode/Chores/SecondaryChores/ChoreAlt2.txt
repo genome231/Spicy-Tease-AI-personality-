@@ -132,39 +132,39 @@
 (PublicHumActive)
 @NullResponse @CheckFlag(ChoreAlt2eGood)
 @SystemMessage #VANC #VANP Do you have a window that would put you on a semi public display?
-[yes]@SystemMessage #VANC #VANP Exelent! @SetFlag(ChoreAlt2eGood)
+[yes]@SystemMessage #VANC #VANP Excellent! @SetFlag(ChoreAlt2eGood)
 [no]@SystemMessage #VANC #VANP Well then what I had in mind won't work.. @SetFlag(ChoreAlt2eNoGood)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (ChoreAlt2eGood)
 @SystemMessage #VANC #VANP Lets see if we can come to terms! @Goto(e1,e2,e3,e4,e5,e6)
 (e1)
 @SystemMessage #VANC #VANP Would you be willing to stand naked in front of your public window for 100 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorNaked100)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorNaked100)
 [no]@SystemMessage #VANC #VANP Hmm.. @Chance75(e2) @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (e2)
 @SystemMessage #VANC #VANP Would you be willing to stand naked in front of your public window for 150 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorNaked150)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorNaked150)
 [no]@SystemMessage #VANC #VANP Hmm.. @Chance75(e3) @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (e3)
 @SystemMessage #VANC #VANP Would you be willing to stand naked in front of your public window for 200 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorNaked200)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorNaked200)
 [no]@SystemMessage #VANC #VANP Hmm.. @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (e4)
 @SystemMessage #VANC #VANP Would you be willing to stand in full lingerie in front of your public window for 100 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorLingerie100)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorLingerie100)
 [no]@SystemMessage #VANC #VANP Hmm.. @Chance50(e5) @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (e5)
 @SystemMessage #VANC #VANP Would you be willing to stand in full lingerie in front of your public window for 150 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorLingerie150)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorLingerie150)
 [no]@SystemMessage #VANC #VANP Hmm.. @Chance50(e6) @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (e6)
 @SystemMessage #VANC #VANP Would you be willing to stand in full lingerie in front of your public window for 200 gold?
-[yes]@SystemMessage #VANC #VANP Exelent! @Goto(MirrorLingerie200)
+[yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorLingerie200)
 [no]@SystemMessage #VANC #VANP Hmm.. @Goto(NoDeal)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
 (MirrorNaked100)

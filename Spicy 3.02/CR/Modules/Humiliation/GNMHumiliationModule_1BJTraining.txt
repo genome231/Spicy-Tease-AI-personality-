@@ -168,7 +168,7 @@ So how many edges should you do? #DT @RapidCodeOn
 @NullResponse @SetVar[EdgesToDoMemory]=[0]
 Hmm.. #DT @ChangeVar[EdgesToDoMemory]=[EdgesToDoMemory]+[EdgesToDo]
 #GNMGrin #DT
-I think I know #GNMEmoteHappy #DT @Custom(stop, Goto, StopEdging)
+I think I know #GNMEmoteHappy #DT @CustomMode(stop, Goto, StopEdging)
 (Edge)
 #GNMEdge #DT @Edge @ShowImage
 #GNMLetTheEdgeFade #DT @ChangeVar[EdgesToDo]=[EdgesToDo]-[1] @Wait(#Random(7,12)) 

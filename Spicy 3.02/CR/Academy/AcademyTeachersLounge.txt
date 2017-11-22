@@ -10,7 +10,7 @@
 (FirstTimeTeachersLounge)
 @NullResponse @CallReturn(CR\GNMChastityOff.txt)
 @RandomContact @RT(Start stroking it slowly,Start off with some slow stroking..) #DT4 @Wait(30)
-@RandomContact @RT(It's been,It has been,It is) @ShowVar[#DateDifference(DaysSinceE,Days)] days @RT(since you last came,Since you last relieve some pressure) #DT4
+@RandomContact @RT(It's been,It has been,It is) #DateDifference(DaysSinceE,Days) days @RT(since you last came,Since you last relieve some pressure) #DT4
 @Variable[#DateDifference(DaysSinceO,Days)]<[5] @NullResponse @Goto(NoChance)
 @RandomContact @RT(Would you like to cum #SlaveName?,Do you want to orgasm #SubName?) #DT4
 @RandomContact @RT(Right here in front of us?,Right here with us?) #DT4

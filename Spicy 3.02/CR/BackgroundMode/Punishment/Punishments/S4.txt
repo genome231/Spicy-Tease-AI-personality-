@@ -31,7 +31,7 @@ Now in just a moment I will tell you attach the pegs to a certain part of your b
 You don't want to attach them too well..  #DT4
 because just a moment later I will tell you to rip them off #GNMEmoteHappy #DT4
 Neither do you want to attach them too loosely because you will have to flick them once or twice #DT4
-If they fall off I want you to report it too me by saying "fell off" #DT4 @Custom(fell off, Goto, FellOff)
+If they fall off I want you to report it too me by saying "fell off" #DT4 @CustomMode(fell off, Goto, FellOff)
 If they fall off due to a flick you will have to repeat this punishment in full and pay a small fee.. #DT4
 Let me just check my papers.. #DT4 @Goto(Start)
 (Start)

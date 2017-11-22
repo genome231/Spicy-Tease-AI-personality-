@@ -16,10 +16,10 @@
 @Flag(MetronomeOn) Start stroking that #GNMCock for me, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]  
 @Flag(MetronomeOn) Start stroking that #GNMCock, #SubName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) #Imagine me taking that #GNMCock right now, and stroking it, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
-@Flag(MetronomeOn) Start stroking and #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
-@Flag(MetronomeOn) Stroke and #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
-@Flag(MetronomeOn) @Crazy Start stroking and #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]  
-@Flag(MetronomeOn) @Crazy Now stroke and #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
+@Flag(MetronomeOn) Start stroking. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
+@Flag(MetronomeOn) Stroke. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
+@Flag(MetronomeOn) @Crazy Start stroking. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]  
+@Flag(MetronomeOn) @Crazy Now stroke. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Start touching my beautiful #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Start stroking my #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) You have my permission to stroke that #GNMCock @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
@@ -49,10 +49,10 @@
 @Flag(MetronomeOff) Start stroking that #GNMCock for me, #SlaveName
 @Flag(MetronomeOff) Start stroking that #GNMCock, #SubName
 @Flag(MetronomeOff) #Imagine me taking that #GNMCock right now, and stroking it, #SlaveName
-@Flag(MetronomeOff) Start stroking and #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
-@Flag(MetronomeOff) Stroke and #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
-@Flag(MetronomeOff) @Crazy Start stroking and #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
-@Flag(MetronomeOff) @Crazy Now stroke and #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
+@Flag(MetronomeOff) Start stroking. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
+@Flag(MetronomeOff) Stroke. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
+@Flag(MetronomeOff) @Crazy Start stroking. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
+@Flag(MetronomeOff) @Crazy Now stroke. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
 @Flag(MetronomeOff) Start touching my beautiful #GNMCock
 @Flag(MetronomeOff) Start stroking my #GNMCock
 @Flag(MetronomeOff) You have my permission to stroke that #GNMCock

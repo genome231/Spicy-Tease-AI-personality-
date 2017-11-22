@@ -481,7 +481,7 @@ Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,2
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 
 @End
 (40End)
-@Flag(Personality1) @RT(You are above level 40!,Well done!,Excelent job,You did good #SlaveName,Bravo #SubName,That was exelent work #SlaveName,I'm applauding you #SubName) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[25]
+@Flag(Personality1) @RT(You are above level 40!,Well done!,Excelent job,You did good #SlaveName,Bravo #SubName,That was excellent work #SlaveName,I'm applauding you #SubName) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[25]
 @Flag(Personality2) @RT(It seems you did quite alright today!,Oh my you made it passed level 40..,Well it seem you made it pass level 40) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[20]
 @Flag(Personality3) @RT(Not at level 50 huh..,Oh you actually went higher than 40,I feel like you've cheated a little..) #DT @ChangeVar[GNMMerits]=[GNMMerits]+[10]
 @NullResponse @ChangeVar[StrokeLevel]=[StrokeLevel]-[5] 

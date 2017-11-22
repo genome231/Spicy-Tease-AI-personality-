@@ -1,1 +1,2 @@
-@RapidCodeOn [Vivienne]:
+@Flag(FastAnswerMode) @RapidCodeOn [Vivienne]:
+@NotFlag(FastAnswerMode) [Vivienne]:

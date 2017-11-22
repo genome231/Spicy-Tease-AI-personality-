@@ -7,7 +7,7 @@
 @RT(It even makes it easier to put on the,It also makes it easier to put the #Cage on) #Cage @Goto(End)
 (2)
 @RT(A great advice is Q-tips,Q-tips are your best friends!) #GNMGrin #DT
-@RT(They are exelent for hygienic purposes during long term chastity,Really great for the overall hygiene!) #DT @Goto(End)
+@RT(They are excellent for hygienic purposes during long term chastity,Really great for the overall hygiene!) #DT @Goto(End)
 (3)
 @RT(Make sure you're using the right sizing ring for your,don't use the wrong size O-ring! #Cage) #DT
 @RT(Being too big or too small also contributes to discomfort,Wether it's too big or small can create discomfort) #DT @Goto(End)

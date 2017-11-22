@@ -10,7 +10,7 @@
 #SlaveF1Chat I will present you with different visual stimuli and watch your reactions
 #SlaveF1Chat measure edging time etc. @If[#DateDifference(DaysSinceE, Days)]>=[7]Then(Maybe) @Goto(Continue2)
 (Maybe)
-#SlaveF1Chat I noticed in your records that it's @ShowVar[#DateDifference(DaysSinceE, Days)] days since you last ejaculated
+#SlaveF1Chat I noticed in your records that it's #DateDifference(DaysSinceE, Days) days since you last ejaculated
 #SlaveF1Chat If you do good today
 #SlaveF1Chat I will consider reducing that number to 0
 #SlaveF1Chat But it will have to be our little secret
@@ -58,7 +58,7 @@
 #SlaveF1Chat If you cum
 #SlaveF1Chat I want you to do it while looking at a sexy image of yourself @LockImages @ShowImage[\GNMImages\SelfHumiliation\*.*]
 #SlaveF1Chat Deal?
-[yes]#SlaveF1Chat Exelent! @Goto(Accept1)
+[yes]#SlaveF1Chat Excellent! @Goto(Accept1)
 [no]#SlaveF1Chat Oh well then.. @UnlockImages
 @DifferentAnswer #SlaveF1Chat Yes or no #SubName?
 #SlaveF1Chat Thats a shame..

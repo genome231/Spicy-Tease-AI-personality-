@@ -193,7 +193,7 @@
 @SystemMessage #VANC #VANP I have assigned you punishment points @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(FlagTest)
 (EndPerfect)
 @SystemMessage #VANC #VANP #GNMGood #SlaveName #MeritChangePMedium
-@SystemMessage #VANC #VANP Allow me to reward your @RT(splendid,good,exelent,lovely) @RT(behaviour,work) #GNMGrin @ChangeVar[GNMGold]=[GNMGold]+[#GoldMedium] @Goto(FlagTest)
+@SystemMessage #VANC #VANP Allow me to reward your @RT(splendid,good,excellent,lovely) @RT(behaviour,work) #GNMGrin @ChangeVar[GNMGold]=[GNMGold]+[#GoldMedium] @Goto(FlagTest)
 (FlagTest)
 @NullResponse @CheckFlag(BathroomWashFloorTemp)
 @NullResponse @CheckFlag(BathroomVacuumFloorTemp)
