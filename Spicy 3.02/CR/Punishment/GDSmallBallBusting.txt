@@ -12,7 +12,7 @@ Are they @RT(blue, sore, purple, hurting) yet?
 @DifferentAnswer #GNMYesOrNo #DT
 @End
 (2)
-Be ready to bust my #GNMBalls #SlaveName #DT @ChangeVar[TempHits]=[SubPain]
+Be ready to bust my #GNMBalls #SlaveName #DT @ChangeVar[TempHits]=[SubPain] + [0]
 (Loop2)
 Hit them hard @ShowVar[TempHits] times #DT
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(45, Time)

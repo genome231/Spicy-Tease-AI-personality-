@@ -86,9 +86,7 @@ Copy paste stuff:
 #TODO: EdgeATon: let domme decide how many edges you want to do
 #TODO: Add domme session start scripts for better user experience
 #TODO: Fix play sound keep stroking stopping the stroking metronome
-
-Does it work? @Variable[#DateDifference(Devotion, Minutes)]>[ShortSession]And[#DateDifference(Devotion, Minutes)]<=[MediumSession] #DT3
-@Variable[#DateDifference(Devotion, Minutes)]>[MediumSession]And[#DateDifference(Devotion, Minutes)]<=[LongSession] #DT2#
+#TODO: Small punishment (more hits and variety)
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
