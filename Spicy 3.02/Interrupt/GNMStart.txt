@@ -17,7 +17,7 @@
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
-@Flag(LockedYesterday) @DeleteFlag(LockedYesterday) @Goto(Unlock)
+@Flag(LockedYesterday) @NullResponse @DeleteFlag(LockedYesterday) @Goto(Unlock)
 @Flag(Personality1) @NullResponse @Goto(Standard1)
 @Flag(Personality2) @NullResponse @Goto(Standard2)
 @Flag(Personality3) @NullResponse @Goto(Standard3)

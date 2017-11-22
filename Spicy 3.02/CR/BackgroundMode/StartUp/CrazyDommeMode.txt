@@ -2,7 +2,7 @@
 @NullResponse @SetDate(CrazyDommeMode, 0 Days) @SetVar[CrazyDommeModeSet]=[0]
 @NullResponse @ChangeVar[CrazyDommeModeSet]=[CrazyDommeModeSet]+[#Random(4,10)] @Goto(SetModes)
 (FirstCrazyDomme)
-@Variable[#DateDifference(CrazyDommeMode, Days)]>[CrazyDommeModeSet] @NullResponse @Goto(DeleteModes)
+@NullResponse @Variable[#DateDifference(CrazyDommeMode, Days)]>[CrazyDommeModeSet] @Goto(DeleteModes)
 @End
 (DeleteModes)
 @NullResponse @DeleteFlag(SissyMode, SlutMode, SlaveMode, CuckMode, LoverMode, ChastityMode)
