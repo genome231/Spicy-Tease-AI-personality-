@@ -1,6 +1,6 @@
 (Reset)
 @NullResponse @SetVar[SpankingCount]=[0]
-@SystemMessage #MxChat2 @RT(Get the rubberbands arround your asscheek,Get the rubberbands ready,Prepare the rubberbands..) #MxChat @Wait(12)
+@SystemMessage #MxChat2 @RT(Get the rubberbands around your asscheek,Get the rubberbands ready,Prepare the rubberbands..) #MxChat @Wait(12)
 @SystemMessage #MxChat2 #SlaveName @RT(get over my lap and remember to count out loud..,get over my lap,get over my lap,Prepare yourself and get over my lap,Over my lap!) #MxLap @Wait(12)
 (Spanking)
 @NullResponse @If[SpankingCount]>=[StrokesPerRound]Then(End1)

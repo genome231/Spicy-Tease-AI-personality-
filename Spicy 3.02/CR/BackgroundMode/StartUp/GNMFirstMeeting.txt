@@ -15,7 +15,7 @@ You serve under my rules and terms #DT4 @PlayAudio[\GNMSounds\Starts\StartScript
 Fail to do so properly #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro4.mp3]
 ..and you will be sold off. #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro5.mp3]
 On another note #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro6.mp3]
-If you for one second thought that my world is centered arround you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro7.mp3]
+If you for one second thought that my world is centered around you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro7.mp3]
 You are dearly mistaken #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro8.mp3]
 This isn't about you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro9.mp3]
 Not even a little bit #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro10.mp3]

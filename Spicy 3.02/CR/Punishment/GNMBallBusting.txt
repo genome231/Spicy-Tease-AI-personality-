@@ -2,7 +2,7 @@
 (1)
 #SlaveName @RT(fetch,retrieve,go get) a small rubberband #DT @Wait(10)
 (Loop1)
-#Ready #DT
+#GNMReady #DT
 [yes] #GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop1)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -16,7 +16,7 @@
 (2)
 #SlaveName @RT(fetch,retrieve,go get) a wooden spoon or similar #DT @SetVar[TempHits]=[0]
 (Loop2)
-#Ready  #DT
+#GNMReady  #DT
 [yes]#GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop2)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -29,7 +29,7 @@
 (3)
 #SlaveName @RT(fetch,retrieve,go get) a heavy book #DT @SetVar[TempHits]=[0]
 (Loop3)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop3)
 @DifferentAnswer #GNMYesOrNo #DT

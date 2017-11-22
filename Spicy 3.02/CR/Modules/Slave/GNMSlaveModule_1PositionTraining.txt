@@ -200,7 +200,7 @@ We're doing 1 more position... #DT
 #Fetch #Gag
 Then #Fetch #Random(4,8) pegs #DT @Wait(5)
 Put the pegs on your nipples and the gag in your mouth #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c3)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b2)//buttplug + gag
@@ -209,7 +209,7 @@ Put the pegs on your nipples and the gag in your mouth #DT @Wait(10)
 #Fetch #ButtPlug #DT
 Also #Fetch #Gag #DT @Wait(5)
 Put them put in #GNMGrin #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c2,c6)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b3)//buttplug + gag + peg
@@ -220,7 +220,7 @@ Put them put in #GNMGrin #DT @Wait(10)
 Put both of them in #DT
 And finally #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 I wanted placed on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c1)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b4)//gag + peg
@@ -229,7 +229,7 @@ I wanted placed on your nipples #DT @Wait(10)
 #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 Gag yourself #DT
 And put the pegs on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c8)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b5)//gag + peg + parachute
@@ -242,14 +242,14 @@ The parachute goes on your #GNMBalls #DT
 I want you to hang #Random(1,3) kg's from it #GNMLol #DT
 #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 Place the pegs on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c4)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b6)//gag + rice
 @NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
 #Fetch #Gag and some rice #DT @Wait(5)
 Gag yourself and place the rice where you will do the position.. #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c10)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b7)//gag + parachute
@@ -259,7 +259,7 @@ Gag yourself and place the rice where you will do the position.. #DT @Wait(10)
 #Fetch #Parachute #DT @Wait(5)
 Gag yourself #DT
 And put on the parachute, attach #Random(1,3) kg's to it #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c11)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b8)//parachute + pegs
@@ -267,19 +267,19 @@ And put on the parachute, attach #Random(1,3) kg's to it #DT @Wait(10)
 #Fetch #Parachute #DT @Wait(5)
 And put on the parachute, attach #Random(1,3) kg's to it  #DT
 #Fetch #Random(4,8) pegs and put them on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c15)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b9)//rice
 Go ahead and find some rice #DT @Wait(5)
 Place them where you will do the position.. #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c9,c16)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b10)//rice + peg
 #Fetch #Random(4,8) #Pegs and some rice #DT @Wait(5)
 Put the pegs on your nipples and place the rice where you will do the position.. #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c5)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b11)//lingerie
@@ -292,19 +292,19 @@ A pair of stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg]
 This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg]
 These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
 And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c12)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (LingerieBasic) 
 Go ahead and put on #DT
 These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
 And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c12)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b12)//Extended time
 This should prove fun #GNMGrin #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c13)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (c1) //Attention /ButtPlug + gag + nipple +
@@ -365,7 +365,7 @@ Now #SlaveName #DT
 Find a few shoelaces or similar #DT @Wait(10)
 I want you to tie your ankles together as well as.. #DT
 Your knees and your hands #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 Now.. #DT
@@ -374,7 +374,7 @@ Place them on the floor #DT
 We're gonna have you play fetch.. #DT
 While you're tied like a dog @ShowImage[GNMImages\Positions\Dog1.jpg]
 I want you to retrieve the objects 1 at a time #GNMGrin @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 You may begin.. @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(30)
@@ -952,7 +952,7 @@ Bravo #GNMEmoteHappy #DT
 @Info Bent over open: Parachute with a lot of weight + gag + nipple - balance and heel touch
 @Info Box: Rice + nipple
 @Info Come fuck me: Buttplug + gag
-@Info Dog: legs and hands tied together, Balls tied to your arround hands and back to legs walk back and fourth
+@Info Dog: legs and hands tied together, Balls tied to your around hands and back to legs walk back and fourth
 @Info Judgement: gag + pegs - heel touch
 @Info Kneel: Rice
 @Info Listen: Gag + rice

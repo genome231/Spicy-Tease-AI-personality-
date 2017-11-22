@@ -7,7 +7,7 @@ It means that your academic @RT(achievements,performance) @RT(are somewhat,ought
 @RT(Well this means that I have to work on your #GNMAss,Because of that your #GNMAss will take the fall,So we'll have to work a little on your behind..) #DT4 #MeritChangeNMedium #DT4
 #Fetch #ChooseSpankingImplement #DT4 @Wait(20)
 @Variable[SubPain]>[6] @RT(Next I want you to get two large rubberband,After that I want you to get 2 large rubberbands,I also require 2 large rubberbands..)
-@Variable[SubPain]>[6] @RT(Place 1 arround each thigh,Place one arround your thighs) @RT(right bellow the cheeks,right beneath those sweet cheeks,just below your #GNMAss) #DT4
+@Variable[SubPain]>[6] @RT(Place 1 around each thigh,Place one around your thighs) @RT(right bellow the cheeks,right beneath those sweet cheeks,just below your #GNMAss) #DT4
 @Variable[SubPain]>[6] @RT(We're going to use them later..,They'll come in handy later,They will be used..) #DT4
 @RT(Go to the corner,Get yourself over to the corner)  #DT4
 @RT(Take the stand open position,Get in the stand open position) #DT4 @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
@@ -25,7 +25,7 @@ It means that your academic @RT(achievements,performance) @RT(are somewhat,ought
 But don't touch that #GNMAss ! #DT4 @Wait(#Random(10,20))
 @Variable[SubPain]<[7] @NullResponse @Chance50(Spank) @Goto(Corner)
 (Cane)
-@RT(Pull the rubberbands up arround your asscheeks,Place the rubberbands arround your ass cheeks..,Go ahead and move the rubberband up over your Ass cheeks) #DT4
+@RT(Pull the rubberbands up around your asscheeks,Place the rubberbands around your ass cheeks..,Go ahead and move the rubberband up over your Ass cheeks) #DT4
 @RT(Follow the beat..,Stick to the beat..,Keep the beat..) #DT4 @NullResponse @PlayAudio[\GNMSounds\Punishment\SpankingTask\40Strikes\Spank40.mp3] @ChangeVar[PunishmentSpanking]=[PunishmentSpanking]-[40] @Wait(67)
 @RT(Pull the rubberbands bellow your Ass again..,You may place the rubberbands back down,Go ahead and place the rubberbands below your ass cheeks again..) #DT4 @If[PunishmentSpanking]<=[0]Then(End) @Chance50(Spank) @Goto(Corner)
 (Corner)

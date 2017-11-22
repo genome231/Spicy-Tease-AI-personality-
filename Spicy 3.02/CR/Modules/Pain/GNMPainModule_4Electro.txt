@@ -251,7 +251,7 @@ Turn your stimulator on and go with mode 3 #DT
 #Fetch stimulator #DT
 And the electro-plug #DT @Wait(20)
 @RT(Insert the plug,Insert that big plug into your tight ass), take your time.. #DT @Wait(25)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Well hurry then! #DT @Wait(30)
 @AcceptAnswer #GNMGood #DT
@@ -265,7 +265,7 @@ Turn your stimulator on and go with mode 1 #DT
 #Fetch stimulator #DT
 And the electro-plug #DT @Wait(20)
 @RT(Insert the plug,Insert that big plug into your tight ass), take your time.. #DT @Wait(25)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Well hurry then! #DT @Wait(30)
 @AcceptAnswer #GNMGood #DT
@@ -279,7 +279,7 @@ Turn your stimulator on and go with mode 2 #DT
 #Fetch stimulator #DT
 And the electro-plug #DT @Wait(20)
 @RT(Insert the plug,Insert that big plug into your tight ass), take your time.. #DT @Wait(25)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Well hurry then! #DT @Wait(30)
 @AcceptAnswer #GNMGood #DT

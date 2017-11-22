@@ -179,7 +179,7 @@
 @SystemMessage #VANC I want you wearing your collar with a leash attached @ShowImage[\GNMImages\Toys\Collar.jpg]
 @SystemMessage #VANC The leash shouldn't be any longer than 2m @ShowImage[\GNMImages\Toys\Collar.jpg]
 @SystemMessage #VANC During the cleaning today I want you to tie that leash to a cup filled with sugar @ShowImage[\GNMImages\Toys\Collar.jpg]
-@SystemMessage #VANC #VANP You aren't allowed to move the cup arround with your hands
+@SystemMessage #VANC #VANP You aren't allowed to move the cup around with your hands
 @SystemMessage #VANC #VANP Use your lower arms or something else #GNMGrin
 @SystemMessage #VANC #VANP Move carefully #GNMGrin @Wait(15)
 @SystemMessage #VANC #VANP Understood?

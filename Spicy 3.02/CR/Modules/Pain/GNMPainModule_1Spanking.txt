@@ -20,9 +20,9 @@
 (b)
 @NullResponse @ChangeVar[Strikes]=[Strikes]/[3]
 Go and find 2 large rubberbands #DT
-Place 1 arround each thigh #DT
-@Variable[SubPain]>=[7] Proceed to move it up arround each buttock.. #DT @Wait(10) @Chance10(c) @Goto(Count2)
-Proceed to move it up arround each buttock.. #DT @Wait(10) @Goto(Count2)
+Place 1 around each thigh #DT
+@Variable[SubPain]>=[7] Proceed to move it up around each buttock.. #DT @Wait(10) @Chance10(c) @Goto(Count2)
+Proceed to move it up around each buttock.. #DT @Wait(10) @Goto(Count2)
 (c)
 Now I'm gonna show you a spankingvideo #DT
 Whenever you see the sub getting struck #DT

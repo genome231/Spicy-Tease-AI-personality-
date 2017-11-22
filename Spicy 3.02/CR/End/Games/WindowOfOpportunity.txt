@@ -81,7 +81,11 @@ Rolling the dices.. #DT @SetVar[DiceRoll]=[0] @ChangeVar[DiceRoll]=[DiceRoll]+[#
 2.. #DT @Goto(TestWindow)
 (TestWindow)
 Lets see if the window of opportunity has occured! #GNMLol #DT
-@Variable[#DateDifference(WOOTimer, Hours)]>[WooMin] @NullResponse @If[#DateDifference(WOOTimer, Hours)]<=[WOOMax]Then(Window)
+@NullResponse @Variable[#DateDifference(WOOTimer, Hours)]>[WooMin] @Goto(CheckMax)
+@NullResponse @Goto(CheckTimer)
+(CheckMax)
+@NullResponse @If[#DateDifference(WOOTimer, Hours)]<=[WOOMax]Then(Window)
+(CheckTimer)
 @Variable[#DateDifference(WOOTimer, Hours)]>[121] I'm afraid you must have missed your chance? #DT @Goto(NewWindow)
 Well it's not right now #GNMGrin #DT
 Maybe you've missed it? #DT

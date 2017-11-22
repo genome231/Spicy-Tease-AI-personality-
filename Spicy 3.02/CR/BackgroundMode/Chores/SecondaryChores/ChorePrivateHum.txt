@@ -176,8 +176,8 @@
 @SystemMessage #VANC #VANP #SlaveName @SetFlag(ChorePrivHume)
 @SystemMessage #VANC #VANP @RT(This should be fun,This will be a good laugh) @SetFlag(ChoreActive)
 @SystemMessage #VANC #VANP You're going to film yourself while getting spanked!
-@SystemMessage #VANC #VANP Now I want you to place a rubberband arround your right and left thigh
-@SystemMessage #VANC #VANP Keep them moving all the way up to arround each of your ass cheeks
+@SystemMessage #VANC #VANP Now I want you to place a rubberband around your right and left thigh
+@SystemMessage #VANC #VANP Keep them moving all the way up to around each of your ass cheeks
 @SystemMessage #VANC #VANP I want you to spank each of your ass cheeks #Random(20, 40) times
 @SystemMessage #VANC #VANP While you do it
 @SystemMessage #VANC #VANP I want you to film yourself

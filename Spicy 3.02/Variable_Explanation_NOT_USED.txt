@@ -70,6 +70,7 @@ Copy paste stuff:
 
 
 
+
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
 #WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
@@ -86,7 +87,10 @@ Copy paste stuff:
 #TODO: Add domme session start scripts for better user experience
 #TODO: Fix play sound keep stroking stopping the stroking metronome
 
+Does it work? @Variable[#DateDifference(Devotion, Minutes)]>[ShortSession]And[#DateDifference(Devotion, Minutes)]<=[MediumSession] #DT3
+@Variable[#DateDifference(Devotion, Minutes)]>[MediumSession]And[#DateDifference(Devotion, Minutes)]<=[LongSession] #DT2#
 
+Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
@@ -98,6 +102,7 @@ Behaviour with vocab files: Picked randomly between all lines that are "true"/va
 @NullResponse @Variable[GNMMerits]>[1000] @SetVar[GNMMerits]=[1000] works. No need for @Variable[GNMMerits]>[1000] @NullResponse @SetVar[GNMMerits]=[1000]
 @ShowVar[#DateDifference(TeaseSession, Seconds)] does not work! Just use #DateDifference(TeaseSession, Seconds)
 #Vocab can also be used after nullresponse and does not require any output
+@SetVar is not required, @ChangeVar can also create a variable, @Flag(Personality1) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(20,45)] does not work! Sets variable to 0 but no change
 You can use vocabs in vocabfiles
 You can only use ChangeVar when using another variable in the equation (can be used to create new vars though) Example: @ChangeVar[Test]=[Test1]*[2]
 You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]

@@ -3,7 +3,7 @@
 @RT(Basicly I want you to get quite a few things ready,First you need to get a lot of things ready) #DT
 @RT(Make sure all your gear is nearby and ready,Have all your gear ready and nearby) #DT
 Including robe, shoeslaces, strings or whatever you can use to tie yourself with #DT @Wait(15)
-#Ready #DT @Timeout(30, Slow)
+#GNMReady #DT @Timeout(30, Slow)
 [yes]#GNMGood #DT @Goto(Continue1)
 [no] ... #DT @Goto(Slow)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -95,19 +95,19 @@ Just stand with it and watch this slideshow #DT @Goto(Wait3Slideshow)
 With the tray in hand you are to kneel down and then stand back up repeat again and again @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Goto(Wait)
 (11) //Walk on toes
 @RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
-Walk arround the room until the bell chimes #DT @Goto(Wait)
+Walk around the room until the bell chimes #DT @Goto(Wait)
 (12) //Kneel up and down on toes
 @RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
 With the tray in hand you are to kneel down and then stand back up on your toes repeat again and again @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Goto(Wait)
 (13) //Walk backwards
 @RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
-Walk backwards arround the room until the bell chimes #DT @Goto(Wait)
+Walk backwards around the room until the bell chimes #DT @Goto(Wait)
 (14) //walk with stretched arm
 @RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
-Walk with stretched arms arround the room until the bell chimes #DT @Goto(Wait)
+Walk with stretched arms around the room until the bell chimes #DT @Goto(Wait)
 (15) //Walk sideways
 @RT(Put,Place) @RT(2,3,4,5) glasses of water on the tray #DT
-Walk sideways arround the room until the bell chimes #DT @Goto(Wait)
+Walk sideways around the room until the bell chimes #DT @Goto(Wait)
 (16) //Squat and get spanked
 Have one of your spanking implements in your hands #DT
 Squat down and continously spank yourself until you hear my bell #DT @Goto(Wait)

@@ -50,7 +50,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeH6)
 @SystemMessage #GNMVA I feel sorry for your #GNMAss #GNMEmoteHappy @SetFlag(ChallengeH7)
-@SystemMessage #GNMVA I want you to place a rubberband arround each asscheek
+@SystemMessage #GNMVA I want you to place a rubberband around each asscheek
 @SystemMessage #GNMVA You must pull and release each of them for 200 strikes within 30 minutes
 @SystemMessage #GNMVA No half assed pull backs
 @SystemMessage #GNMVA Each strike should make you scream!
@@ -87,7 +87,7 @@
 @SystemMessage #GNMVA I want you to unlock your chastity belt lock
 @SystemMessage #GNMVA Pack a bag containing a condom and your hot sauce
 @SystemMessage #GNMVA Go to a public restroom about 20 minutes walk away from home
-@SystemMessage #GNMVA Place a large amount of hot sauce in the condom and place it arround your #GNMCock
+@SystemMessage #GNMVA Place a large amount of hot sauce in the condom and place it around your #GNMCock
 @SystemMessage #GNMVA Slide the condom over your #GNMCock and lock it in using the chastity belt
 @SystemMessage #GNMVA Have fun on your way home #GNMGrin
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
