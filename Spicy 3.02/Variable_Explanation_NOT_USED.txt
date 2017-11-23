@@ -68,8 +68,36 @@ Copy paste stuff:
 @CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
 @CallReturn(CR\Punishment\GDSmallPenisBusting.txt) -> Cock torture
 
-
-
+Plans:
+Bugs:
+- BUG: Prevent taunt sounds from stopping stroking message
+- BUG: Invalid width/length picture display
+Code:
+- Start Stroking file instead of vocab to not have everyline duplicated just for the sake of the metronome
+Dialogue:
+- Start dialogues
+- Chastity Links
+- End dialogues
+- More Taunts
+- More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pins
+Ass training:
+- Enema daily with increasing sizes
+- Butt plug for x hours/night with increasing size
+- Dildo fuck for x hours with increasing size
+Planning:
+- Tell her what days/nights you need to sleep well / are busy
+Tasks:
+- Night Tasks
+ - No peeing (otherwise pee in bottle, consume?), cuff hands/feet, bind to bed/bondage, butt plug, vibrator, sleep on ground, sleep without pillow
+- Daily Tasks/Weekly tasks
+ - Wear panties, wear a max of x clothes, wear butt plug, wear vibrator, stinging nettle play, be always naked/lingerie when doing x
+Settings for fetishes:
+- CEI, CBT, Assplay, Ass to mouth, pain (clamps etc.), pee
+Modules:
+- Blowjob: laying on bed with face hanging down -> spit in face, collect spit for later use
+- Sound play
+- Ice Water play
+- Pee/milk enema
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"

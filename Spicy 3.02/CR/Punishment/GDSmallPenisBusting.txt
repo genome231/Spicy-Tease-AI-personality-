@@ -8,7 +8,7 @@ Squeeze the shaft @RT(as hard as you can, so hard that your eyes start to tear) 
 @Flag(Personality3) @Wait(20)
 You can stop squeezing my #GNMCock now #SlaveName #DT 
 (2)
-I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain] + [0]
+I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain]+[0]
 (Loop2)
 Hit it hard @ShowVar[TempHits] times #DT
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(45, Time)

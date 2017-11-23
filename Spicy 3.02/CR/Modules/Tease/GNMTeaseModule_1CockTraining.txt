@@ -41,9 +41,9 @@ When you hear the pace you stroke it to the beat #DT
 @NullResponse @ShowImage @Wait(5)
 @NullResponse @ShowImage @Wait(5)
 @NullResponse @ShowImage @Wait(5)
-Stop stroking..
+#GNMStopStroking #DT
 #GNMEdge @EdgeNoHold @ShowImage
-#LetTheEdgeFade @ChangeVar[EdgeCount]=[EdgeCount]+[1] @Wait(#Random(3,7))
+#GNMLetTheEdgeFade #DT @ChangeVar[EdgeCount]=[EdgeCount]+[1] @Wait(#Random(3,7))
 @NullResponse @CustomMode(first edge, Goto, FirstEdge) @SetVar[TimeToIncreaseLevel]=[0]
 Rest a minute while I look up your level #DT
 But be ready #DT
@@ -465,7 +465,7 @@ Rest before you start again #DT @CustomMode(second edge, Goto, SecondEdge) @Wait
 Stop stroking! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal) @ChangeVar[TimetoIncreaseLevel]=[TimetoIncreaseLevel]-[15]
 Rest before you start again #DT @CustomMode(stop, Goto, Stop) @Wait(#Random(10,25)) @Goto(FindLevel)
 (Stop)
-@RT(#GNMGrin,#GNMLol,#GNMEmoteHappy) #DT @CustomMode(ModeText, Normal)
+@RT(#GNMGrin,#GNMLol,#GNMEmoteHappy) #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
 @RT(Couldn't handle more huh?,I guess that was it huh,So "no more" I hear..) #DT
 @NullResponse @RapidCodeOn @If[StrokeLevel]>=[50]Then(50End)
 @NullResponse @If[StrokeLevel]>[40]Then(40End)

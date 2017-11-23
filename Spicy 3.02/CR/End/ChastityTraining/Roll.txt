@@ -55,6 +55,6 @@ Better luck next time slave! #DT @Goto(End)
 @NullResponse @Goto(End)
 (Poor)
 You don't have enough lock up points to roll the die #GNMEmoteSad #DT
-Maybe next time! #SlaveName #DT
+Maybe next time #SlaveName! #DT
 (End)
 @NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
