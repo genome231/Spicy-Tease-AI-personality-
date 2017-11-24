@@ -39,7 +39,17 @@ Flick it @ShowVar[TempHits] times #DT
 @DifferentAnswer #GNMYesOrNo #DT
 @End
 (End)
-@RT(Let's give that #GNMCock another @ShowVar[SubPain] smacks #GNMHappy, I want your #GNMCock to really hurt. Give it another hard slap, Punch your #GNMCock @ShowVar[SubPain] times for me, Now smack that #GNMCock @ShowVar[SubPain] times as hard as you can, Smack that tip of your cock as hard as you can) #DT @CustomMode(done, Goto, End1) @Wait(999999)
+@NullResponse @CustomMode(done, Goto, End1) @Goto(a,b,c,d,e)
+(a)
+Let's give that #GNMCock another @ShowVar[SubPain] smacks #GNMHappy @Wait(999999)
+(b)
+I want your #GNMCock to really hurt. Give it another hard slap @Wait(999999)
+(c)
+Punch your #GNMCock @ShowVar[SubPain] times for me @Wait(999999)
+(d)
+Now smack that #GNMCock @ShowVar[SubPain] times as hard as you can @Wait(999999)
+(e)
+Smack that tip of your cock as hard as you can @Wait(999999)
 (End1)
 @End
 (ChastityIsOn)
