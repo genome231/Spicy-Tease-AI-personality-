@@ -36,7 +36,7 @@ While in the corner I want you to think about @RT(why you are wearing the #Cage,
 @Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
 But while in the #Cage  #DT
 I want you to go a for a #CWalk walk #DT 
-@RT(I want you to learn to move arround with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
+@RT(I want you to learn to move around with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
 (4)
 @RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA4)
 @RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT

@@ -89,7 +89,7 @@ But today we're just having a regular session #DT
 @NullResponse @CountVar[SoftCounter, stop] @CustomMode(ModeText, Normal)
 @RT(Well,Hmm,#GNMGrin) #SlaveName  #DT
 It took you @ShowVar[SoftCounter] seconds to get soft #GNMLol #DT
-@Variable[SoftCounterRecord]<=[SoftCounter] @RT(which isn't a new record I'm afraid..) #GNMEmoteSad #DT
+@Variable[SoftCounterRecord]<=[SoftCounter] @RT(Which isn't a new record I'm afraid..) #GNMEmoteSad #DT
 @Variable[SoftCounterRecord]>[SoftCounter] @RT(Which seems to be a new record!) #DT @SetVar[SoftCounterRecord]=[SoftCounter]
 @RT(Well that was it for your Cocktraining today) #GNMGrin #DT @ChangeVar[EdgeATonLevel]=[EdgeATonLevel]+[1]
 @End

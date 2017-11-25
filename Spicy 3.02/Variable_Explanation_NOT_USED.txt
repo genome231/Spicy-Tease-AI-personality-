@@ -68,7 +68,36 @@ Copy paste stuff:
 @CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
 @CallReturn(CR\Punishment\GDSmallPenisBusting.txt) -> Cock torture
 
-
+Plans:
+Bugs:
+- BUG: Prevent taunt sounds from stopping stroking message
+- BUG: Invalid width/length picture display
+Code:
+- Start Stroking file instead of vocab to not have everyline duplicated just for the sake of the metronome
+Dialogue:
+- Start dialogues
+- Chastity Links
+- End dialogues
+- More Taunts
+- More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pins
+Ass training:
+- Enema daily with increasing sizes
+- Butt plug for x hours/night with increasing size
+- Dildo fuck for x hours with increasing size
+Planning:
+- Tell her what days/nights you need to sleep well / are busy
+Tasks:
+- Night Tasks
+ - No peeing (otherwise pee in bottle, consume?), cuff hands/feet, bind to bed/bondage, butt plug, vibrator, sleep on ground, sleep without pillow
+- Daily Tasks/Weekly tasks
+ - Wear panties, wear a max of x clothes, wear butt plug, wear vibrator, stinging nettle play, be always naked/lingerie when doing x
+Settings for fetishes:
+- CEI, CBT, Assplay, Ass to mouth, pain (clamps etc.), pee
+Modules:
+- Blowjob: laying on bed with face hanging down -> spit in face, collect spit for later use
+- Sound play
+- Ice Water play
+- Pee/milk enema
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
@@ -80,17 +109,32 @@ Copy paste stuff:
 #TODO: More tease modules/port from Miss Blue
 #TODO: Different dildo sizes
 #TODO: Punishment with chastity does not properly put on chastity, search for HasChastity
+#TODO: Add the fixed you aren't allowed to talk thing
+#TODO: Fix vocab error (locked images)
+#TODO: EdgeATon: let domme decide how many edges you want to do
+#TODO: Add domme session start scripts for better user experience
+#TODO: Fix play sound keep stroking stopping the stroking metronome
+#TODO: Small punishment (more hits and variety)
 
+Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
 @FlagOr continues of one of the flags exist @FlagOr(test1, test2, test3)
+@SetFlag/@DeleteFlag Supports multiple flags at once
 Behaviour with vocab files: Picked randomly between all lines that are "true"/valid (flag checks etc.)
 @SetDate can be in one line multiple times
 #DateDifference(Date, Seconds) can only be once in a line otherwise vocab error
+@NullResponse @Variable[GNMMerits]>[1000] @SetVar[GNMMerits]=[1000] works. No need for @Variable[GNMMerits]>[1000] @NullResponse @SetVar[GNMMerits]=[1000]
+@ShowVar[#DateDifference(TeaseSession, Seconds)] does not work! Just use #DateDifference(TeaseSession, Seconds)
 #Vocab can also be used after nullresponse and does not require any output
+@SetVar is not required, @ChangeVar can also create a variable, @Flag(Personality1) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(20,45)] does not work! Sets variable to 0 but no change
 You can use vocabs in vocabfiles
 You can only use ChangeVar when using another variable in the equation (can be used to create new vars though) Example: @ChangeVar[Test]=[Test1]*[2]
 You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
 @CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
+@RapidCodeOn works infront of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
 
+Important Setup:
+All tagged sets must contain at least one picture with each tag (fully dressed, halfdressed etc.)
+Session length from 600 - 1200 and no domme decide based on level! Restart tease ai every 600 minutes!

@@ -1,4 +1,4 @@
-[this was fun,this was good,this was awesome,this was fantastic,]
+[this was fun,this was good,this was awesome,this was fantastic]
 [All]
 @Flag(Session) @NullResponse @CallReturn(CR\Responses\R13_ThisWas_Good.txt)
 @NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]

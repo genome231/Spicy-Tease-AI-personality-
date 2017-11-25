@@ -51,7 +51,7 @@ What am I describing? #DT
 [balconette]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(Choose)
 @AcceptAnswer @RT(Wrong,That was wrong,Wrong,Wrong!,Nope thats wrong,#GNMLol that was wrong,Not correct..) #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(Choose)
 (i)
-Loose-fitting, sleeveless undergarment which is loose arround the waist #DT
+Loose-fitting, sleeveless undergarment which is loose around the waist #DT
 Typically it has no bottons or other fasteners #DT
 What am I describing? #DT
 [chemise]@RT(Right on,Correct,Very good that is correct,That is correct,That was correct,Correct,Correct,Correct) #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(Choose)

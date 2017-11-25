@@ -35,13 +35,13 @@
 @NullResponse
 @NullResponse @Interrupt(GNMBackgroundBase)
 (Recent)
-@SystemMessage #VANC #VANP You had an exercise @ShowVar[#DateDifference(LastExercise, Hours)] hours ago 
+@SystemMessage #VANC #VANP You had an exercise #DateDifference(LastExercise, Hours) hours ago 
 @SystemMessage #VANC #VANP Which is too recent 
 @SystemMessage #VANC #VANP You need to wait at least 20 hours..  @Interrupt(GNMBackgroundBase)
 (NewCycle)
 @SystemMessage #VANC #VANP A seven day cycle has ended 
 @SystemMessage #VANC #VANP This past week you've spent @ShowVar[ExerciseTimes] times exercising with me 
-@Variable[ExerciseTimes]>=[6] @SystemMessage #VANC #VANP Which is Exelent!! And it earns you 450 gold  @ChangeVar[GNMGold]=[GNMGold]+[450] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[6] @SystemMessage #VANC #VANP Which is Excellent!! And it earns you 450 gold  @ChangeVar[GNMGold]=[GNMGold]+[450] @Goto(Continue1)
 @Variable[ExerciseTimes]>=[5] @SystemMessage #VANC #VANP Which is great and it have earned you 300 gold  @ChangeVar[GNMGold]=[GNMGold]+[300] @Goto(Continue1)
 @Variable[ExerciseTimes]>=[4] @SystemMessage #VANC #VANP Which is quite good and earns you 200 gold  @ChangeVar[GNMGold]=[GNMGold]+[200] @Goto(Continue1)
 @Variable[ExerciseTimes]>=[3] @SystemMessage #VANC #VANP Which is good and earns you 100 gold  @ChangeVar[GNMGold]=[GNMGold]+[100] @Goto(Continue1)

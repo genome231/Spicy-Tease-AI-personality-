@@ -34,7 +34,7 @@
 @SystemMessage You reach out with your mind to the creatures
 @SystemMessage You feel their fast approach beneath ground
 @SystemMessage Concentrating harder you take control of their mind
-@SystemMessage Turning them arround towards Xi'nu
+@SystemMessage Turning them around towards Xi'nu
 @SystemMessage You feel her smile gone and suddenly all you can sense is death..
 @SystemMessage She killed her own worms.. @Goto(Phase2)
 (BlackRest)
@@ -93,7 +93,7 @@
 @SystemMessage You feel her drawing you into her mind..
 @SystemMessage You find yourself chained to wall
 @SystemMessage Xi'nu moves closer 
-@SystemMessage You feel a chain creeping arround your neck
+@SystemMessage You feel a chain creeping around your neck
 @SystemMessage Slowly it begins to tigthen its grip choking you
 (Choking)
 @NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[2]

@@ -1,2 +1,2 @@
-@NullResponse
+@SystemMessage #VANC #VANP Hmmm... Seems like you ran into a bug. End.txt should never be called. Here, take a cookie and report it slave.
 @NullResponse @Interrupt(GNMEnd)

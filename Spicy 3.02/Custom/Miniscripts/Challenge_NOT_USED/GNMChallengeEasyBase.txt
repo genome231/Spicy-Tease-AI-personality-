@@ -93,7 +93,7 @@
 @SystemMessage #GNMVA Remember to report to me when you've completed the challenge.. @Interrupt(\GNMInterrupt\GNMBackgroundReturn)
 (ChallengeE10)
 @SystemMessage #GNMVA I feel sorry for your #GNMAss #GNMEmoteHappy @SetFlag(AllEasyCDone)
-@SystemMessage #GNMVA I want you to place a rubberband arround each asscheek
+@SystemMessage #GNMVA I want you to place a rubberband around each asscheek
 @SystemMessage #GNMVA You must pull and release each of them for 100 strokes within 20 minutes
 @SystemMessage #GNMVA No half assed pull backs
 @SystemMessage #GNMVA Each strike should make you scream!

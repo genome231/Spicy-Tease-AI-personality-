@@ -3,7 +3,7 @@ I have disconnected the others.. #DT
 @RT(Lets have a bit of fun!,Lets have a little fun,Lets make you "walk") #DT @CheckFlag(HasHeels)
 But first.. #DT
 Do you have a pair of high heels? #DT
-[yes]Exelent! #DT #GNMGood @SetFlag(HasHeels) @Goto(HasHeels)
+[yes]Excellent! #DT #GNMGood @SetFlag(HasHeels) @Goto(HasHeels)
 [no]Oh well.. Maybe next time then #DT @Goto(Fun)
 @DifferentAnswer #GNMYesOrNo #DT
 (HasHeels)

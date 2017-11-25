@@ -8,7 +8,7 @@ Squeeze the shaft @RT(as hard as you can, so hard that your eyes start to tear) 
 @Flag(Personality3) @Wait(20)
 You can stop squeezing my #GNMCock now #SlaveName #DT 
 (2)
-I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain]
+I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain]+[0]
 (Loop2)
 Hit it hard @ShowVar[TempHits] times #DT
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(45, Time)
@@ -21,7 +21,7 @@ Hit it hard @ShowVar[TempHits] times #DT
 Hit it another @ShowVar[TempHits] times #SlaveName #DT @Timeout(45, Time)
 [done] #GNMGood #DT
 @DifferentAnswer Are you trying to write 'done'? #DT
-@End
+@Goto(End)
 (3)
 I want you to flick the head of your #GNMCock #SlaveName #DT @ChangeVar[TempHits]=[SubPain]*[2]
 (Loop2)
@@ -33,10 +33,14 @@ Flick it @ShowVar[TempHits] times #DT
 @RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
 @RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop2)
 (Continue3)
-Is it throbbing yet?
+@RT(Is it throbbing yet, Does it hurt yet, Is it aching yet, Are you in pain, Is it hurting yet)? #DT
 [yes] #GNMGood #DT
 [no] I am sure I can do something about that #SlaveName #DT @Goto(1,3)
 @DifferentAnswer #GNMYesOrNo #DT
+@End
+(End)
+@RT(Let's give that #GNMCock another @ShowVar[SubPain] smacks #GNMHappy, I want your #GNMCock to really hurt. Give it another hard slap, Punch your #GNMCock @ShowVar[SubPain] times for me, Now smack that #GNMCock @ShowVar[SubPain] times as hard as you can, Smack that tip of your cock as hard as you can) #DT @CustomMode(done, Goto, End1) @Wait(999999)
+(End1)
 @End
 (ChastityIsOn)
 @NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)

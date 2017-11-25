@@ -57,14 +57,14 @@ Notice the hands with the fingers folded @ShowImage[\GNMImages\Positions\Attenti
 Her feet with the top of them faced down @ShowImage[\GNMImages\Positions\Attention2.jpg]
 The back lightly arched @ShowImage[\GNMImages\Positions\Attention1.jpg]
 Eyes looking straigt @ShowImage[\GNMImages\Positions\Attention1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a2)
 This is the Bad bitch position @ShowImage[\GNMImages\Positions\BadBitch2.jpg] @TempFlag(PTa2)
 Notice the arched back @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
 Top of the feet facing down @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
 Head down or up @ShowImage[\GNMImages\Positions\BadBitch3.jpg]
 Legs somewhat apart allowing access @ShowImage[\GNMImages\Positions\BadBitch1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a3)
 This is the Bent over position @ShowImage[\GNMImages\Positions\BentOver1.jpg] @TempFlag(PTa3)
 It gives the sub a feeling of submission @ShowImage[\GNMImages\Positions\BentOver2.jpg]
@@ -73,45 +73,45 @@ I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\BentO
 Legs straigth! @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Fingers touching the top of your toes @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Head down #GNMGrin @ShowImage[\GNMImages\Positions\BentOver1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a4)
 This is the Bent over open position @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg] @TempFlag(PTa4)
 It's a lot like the bent over with the obvious exception of the legs spread @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg]
 Heels lifted from the ground, head down @ShowImage[\GNMImages\Positions\BentOverOpen3.jpg]
 It's a nice position for humiliation, punishment or both @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
 Balance is quite a 'bitch' #GNMGrin @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a5)
 This is the Box position @ShowImage[\GNMImages\Positions\Box1.jpg] @TempFlag(PTa5)
-The box is an exelent position @ShowImage[\GNMImages\Positions\Box1.jpg]
+The box is an excellent position @ShowImage[\GNMImages\Positions\Box1.jpg]
 Its tougher than it looks @ShowImage[\GNMImages\Positions\BoxCloseup1.jpg]
 Some might prefer a pillow, but I trust you don't @ShowImage[\GNMImages\Positions\Box1.jpg]
 Other than that the position speaks for itself.. @ShowImage[\GNMImages\Positions\Box1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a6)
 This is the Come fuck me position @ShowImage[\GNMImages\Positions\CFM1.jpg] @TempFlag(PTa6)
-Exelent for fucking someone @ShowImage[\GNMImages\Positions\CFM2.jpg]
+Excellent for fucking someone @ShowImage[\GNMImages\Positions\CFM2.jpg]
 Back arched @ShowImage[\GNMImages\Positions\CFM3.jpg]
 Humiliation in a lovely way #GNMGrin @ShowImage[\GNMImages\Positions\CFM4.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a7)
 This is the Dog position @ShowImage[\GNMImages\Positions\Dog1.jpg] @TempFlag(PTa7)
-The dog is actually exelent as a spanking position @ShowImage[\GNMImages\Positions\Dog1.jpg]
+The dog is actually excellent as a spanking position @ShowImage[\GNMImages\Positions\Dog1.jpg]
 Notice how the legs and lower arms are pressed together @ShowImage[\GNMImages\Positions\Dog2.jpg]
 It's not one I use a lot but it still has its merit @ShowImage[\GNMImages\Positions\Dog3.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a8)
 This is the Judgement position @ShowImage[\GNMImages\Positions\Judgement1.jpg] @TempFlag(PTa8)
 Its primarily a spanking position @ShowImage[\GNMImages\Positions\Judgement1.jpg]
 Heels off the ground @ShowImage[\GNMImages\Positions\Judgement1.jpg]
-Its exelent for a good spanking #GNMGrin @ShowImage[\GNMImages\Positions\Judgement1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Its excellent for a good spanking #GNMGrin @ShowImage[\GNMImages\Positions\Judgement1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
 (a9)
 This is the Kneel position @ShowImage[\GNMImages\Positions\Kneel1.jpg] @TempFlag(PTa9)
 The kneel is great, notice the hands ready to be tied @ShowImage[\GNMImages\Positions\Kneel1.jpg]
 This is great as a waiting or 'pay attention' position @ShowImage[\GNMImages\Positions\Kneel1.jpg]
 With rice though its a completely different position #GNMLol @ShowImage[\GNMImages\Positions\Kneel1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a10)
 This is the Listen position @ShowImage[\GNMImages\Positions\Listen1.jpg] @TempFlag(PTa10)
 Great for when I need you to listen to what I'm telling you @ShowImage[\GNMImages\Positions\Listen1.jpg]
@@ -119,54 +119,54 @@ Hands by the knees @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Forehead touching the ground @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Eyes closed @ShowImage[\GNMImages\Positions\Listen1.jpg]
 Just listening.. @ShowImage[\GNMImages\Positions\Listen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a11)
 This is the Punishment position @ShowImage[\GNMImages\Positions\Punishment1.jpg] @TempFlag(PTa11)
-Exelent for spanking @ShowImage[\GNMImages\Positions\Punishment2.jpg]
+Excellent for spanking @ShowImage[\GNMImages\Positions\Punishment2.jpg]
 Tied the right way and your #GNMBalls become very vulnerable @ShowImage[\GNMImages\Positions\Punishment3.jpg]
 It's better than it looks #GNMGrin @ShowImage[\GNMImages\Positions\Punishment4.jpg]
 Mhmm.. @ShowImage[\GNMImages\Positions\Punishment5.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a12)
 This is the Slut position @ShowImage[\GNMImages\Positions\Slut1.jpg] @TempFlag(PTa12)
 This position is art #GNMEmoteHappy @ShowImage[\GNMImages\Positions\Slut2.jpg]
 Its primarily used for girls @ShowImage[\GNMImages\Positions\Slut1.jpg]
 But thats not gonna keep you from learning #GNMLol @ShowImage[\GNMImages\Positions\Slut2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a13)
 This is the Spanking position @ShowImage[\GNMImages\Positions\Spanking1.jpg] @TempFlag(PTa13)
 Absolutely fantastic for spanking @ShowImage[\GNMImages\Positions\Spanking2.jpg]
 Even better for a caning @ShowImage[\GNMImages\Positions\Spanking1.jpg]
 Imagine being told that movement awards extra hits! #GNMGrin @ShowImage[\GNMImages\Positions\Spanking2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a14)
 This is the Stand position @ShowImage[\GNMImages\Positions\Stand1.jpg] @TempFlag(PTa14)
 This shouldn't be hard to learn! @ShowImage[\GNMImages\Positions\Stand1.jpg]
 Stand on your toes @ShowImage[\GNMImages\Positions\Stand3.jpg]
 Arms down @ShowImage[\GNMImages\Positions\Stand2.jpg]
 Eyes looking down.. @ShowImage[\GNMImages\Positions\Stand2.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a15)
 This is the Stand open position @ShowImage[\GNMImages\Positions\StandOpen1.jpg] @TempFlag(PTa15)
 Imagine being ballbusted in this @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Told that if your heels touch the ground we're starting over.. @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Hands behind head @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
 Legs apart nicely @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (a16)
 This is the Worship position @ShowImage[\GNMImages\Positions\Worship1.jpg] @TempFlag(PTa16)
 Worship @ShowImage[\GNMImages\Positions\Worship1.jpg]
 I don't think much explaining is needed here.. @ShowImage[\GNMImages\Positions\Worship1.jpg]
-Take the position #Timer #DT @Goto(aTimer)
+Take the position. #Timer #DT @Goto(aTimer)
 (aTimer)
 @Variable[PositionLevel]<=[15] @NullResponse @Wait(#Random(120,240)) @Goto(aTimerOver)
 @Variable[PositionLevel]>=[30] @NullResponse @Wait(#Random(240,360)) @Goto(aTimerOver)
 @NullResponse @Wait(#Random(180,300)) @Goto(aTimerOver)
 (aTimerOver)
-@RT(Come back,Get back,Come back to me,Get your #GNMAss over here..) #SlaveName #DT @PlayAuido[\GNMSounds\SpecialSounds\Bell.mp3]
+@RT(Come back,Get back,Come back to me,Get your #GNMAss over here..) #SlaveName #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @NullResponse @CheckFlag(PT2Done) 
 @NullResponse @TempFlag(PT2Done)
-We're doing 1 position more.. #DT
+We're doing 1 more position... #DT
 (NoToy)
 @Flag(PTa1) @NullResponse @Goto(a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
 @Flag(PTa2) @NullResponse @Goto(a1,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
@@ -200,7 +200,7 @@ We're doing 1 position more.. #DT
 #Fetch #Gag
 Then #Fetch #Random(4,8) pegs #DT @Wait(5)
 Put the pegs on your nipples and the gag in your mouth #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c3)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b2)//buttplug + gag
@@ -209,7 +209,7 @@ Put the pegs on your nipples and the gag in your mouth #DT @Wait(10)
 #Fetch #ButtPlug #DT
 Also #Fetch #Gag #DT @Wait(5)
 Put them put in #GNMGrin #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c2,c6)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b3)//buttplug + gag + peg
@@ -220,7 +220,7 @@ Put them put in #GNMGrin #DT @Wait(10)
 Put both of them in #DT
 And finally #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 I wanted placed on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c1)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b4)//gag + peg
@@ -229,7 +229,7 @@ I wanted placed on your nipples #DT @Wait(10)
 #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 Gag yourself #DT
 And put the pegs on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c8)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b5)//gag + peg + parachute
@@ -242,14 +242,14 @@ The parachute goes on your #GNMBalls #DT
 I want you to hang #Random(1,3) kg's from it #GNMLol #DT
 #Fetch #Random(4,8) #Pegs #DT @Wait(5)
 Place the pegs on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c4)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b6)//gag + rice
 @NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
 #Fetch #Gag and some rice #DT @Wait(5)
 Gag yourself and place the rice where you will do the position.. #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c10)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b7)//gag + parachute
@@ -259,7 +259,7 @@ Gag yourself and place the rice where you will do the position.. #DT @Wait(10)
 #Fetch #Parachute #DT @Wait(5)
 Gag yourself #DT
 And put on the parachute, attach #Random(1,3) kg's to it #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c11)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b8)//parachute + pegs
@@ -267,19 +267,19 @@ And put on the parachute, attach #Random(1,3) kg's to it #DT @Wait(10)
 #Fetch #Parachute #DT @Wait(5)
 And put on the parachute, attach #Random(1,3) kg's to it  #DT
 #Fetch #Random(4,8) pegs and put them on your nipples #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c15)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b9)//rice
 Go ahead and find some rice #DT @Wait(5)
 Place them where you will do the position.. #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c9,c16)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b10)//rice + peg
 #Fetch #Random(4,8) #Pegs and some rice #DT @Wait(5)
 Put the pegs on your nipples and place the rice where you will do the position.. #DT @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c5)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b11)//lingerie
@@ -292,19 +292,19 @@ A pair of stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg]
 This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg]
 These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
 And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c12)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (LingerieBasic) 
 Go ahead and put on #DT
 These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
 And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c12)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (b12)//Extended time
 This should prove fun #GNMGrin #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT @Goto(c13)
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 (c1) //Attention /ButtPlug + gag + nipple +
@@ -365,7 +365,7 @@ Now #SlaveName #DT
 Find a few shoelaces or similar #DT @Wait(10)
 I want you to tie your ankles together as well as.. #DT
 Your knees and your hands #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 Now.. #DT
@@ -374,7 +374,7 @@ Place them on the floor #DT
 We're gonna have you play fetch.. #DT
 While you're tied like a dog @ShowImage[GNMImages\Positions\Dog1.jpg]
 I want you to retrieve the objects 1 at a time #GNMGrin @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(10)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 @DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
 You may begin.. @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(30)
@@ -937,7 +937,7 @@ Bravo #GNMEmoteHappy #DT
 @End
 (PT2Done)
 (End)
-@RT(We're at the end of your position traing,That was it,We're at the end,Well that was it,Oh my we're finally at the end #GNMGrin) #SlaveName #DT @PlayAudo[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
+@RT(We're at the end of your position training,That was it,We're at the end,Well that was it,Oh my we're finally at the end #GNMGrin) #SlaveName #DT @PlayAudo[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
 @RT(It was fun!,I had a lot of fun,I enjoyed it,Well this was fun!,I had a blast,I really enjoyed this!,Oh my was this fun) #DT #MeritChangePMedium
 @Variable[PositionLevel]<[50] @NullResponse @ChangeVar[PositionLevel]=[PositionLevel]+[1]
 @End
@@ -952,7 +952,7 @@ Bravo #GNMEmoteHappy #DT
 @Info Bent over open: Parachute with a lot of weight + gag + nipple - balance and heel touch
 @Info Box: Rice + nipple
 @Info Come fuck me: Buttplug + gag
-@Info Dog: legs and hands tied together, Balls tied to your arround hands and back to legs walk back and fourth
+@Info Dog: legs and hands tied together, Balls tied to your around hands and back to legs walk back and fourth
 @Info Judgement: gag + pegs - heel touch
 @Info Kneel: Rice
 @Info Listen: Gag + rice

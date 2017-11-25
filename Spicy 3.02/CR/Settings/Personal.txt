@@ -1,38 +1,52 @@
+@NullResponse @Goto(Options)
 (Info)
-@SystemMessage #VANC #VANP Variable info
-@SystemMessage #VANC #VANP Pain treshold: Your ability to handle impact pain
+@SystemMessage #VANC #VANP Pain threshold: Your ability to handle impact pain
 @SystemMessage #VANC #VANP Pain endurance: Your ability to handle constant pain over time
 @SystemMessage #VANC #VANP Endurance: Your patience regarding corner time etc.
 @SystemMessage #VANC #VANP Strictness: Your #DomHonorific level of forgiveness etc.
 @SystemMessage #VANC #VANP Devotion: The value used to determine the length of sessions
-@SystemMessage #VANC #VANP Devotion ranges from 30 - 90 
-@SystemMessage #VANC #VANP The numbers corresponding to minutes
+@SystemMessage #VANC #VANP Devotion ranges from 30 - 90 (minutes)
 @SystemMessage #VANC #VANP Meaning a session can last between ½ to 1½ hour
 @SystemMessage #VANC #VANP But might be shorter / longer
+@SystemMessage #VANC #VANP Modules: Modify the chance for each module type (chastity, tease, pain etc.)
+@SystemMessage #VANC #VANP Full Time/Part Time: Change to full time or part time
+(Options)
+@SystemMessage #VANC #VANP You have the following options:
+@SystemMessage #VANC #VANP Pain threshold, pain endurance, endurance, strictness, devotion, modules, full time/part time, info
+[pain threshold, impact] @NullResponse @Goto(P1)
+[pain endurance, constant, over time] @NullResponse @Goto(P2)
+[endurance, patience, corner time] @NullResponse @Goto(P3)
+[strictness, constant, over time] @NullResponse @Goto(P4)
+[devotion, forgiveness] @NullResponse @Goto(P5)
+[module, modules] @NullResponse @Goto(P6)
+[full time, part time] @NullResponse @Goto(P7)
+[save,end,end tease,stop,leave,close,finish,finished,exit]@SystemMessage #VANC #VANP Returning @Goto(End)
+[info, help] @NullResponse @Goto(Info)
+@AcceptAnswer @NullResponse @Goto(Options)
 (P1)
 @SystemMessage #VANC #VANP You currently have Pain treshhold set at @ShowVar[SubPain]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubPain]
 @Variable[SubPain]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubPain]<[1] @SystemMessage #VANC #VANP  The value chosen is lower than 1 @Goto(P1)
-@SystemMessage #VANC #VANP New value accepted..
+@SystemMessage #VANC #VANP New value accepted.. @Goto(Options)
 (P2)
 @SystemMessage #VANC #VANP You currently have Pain endurance set at @ShowVar[SubPainTolerance]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubPainTolerance]
 @Variable[SubPainTolerance]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubPainTolerance]<[1] @SystemMessage #VANC #VANP  The value chosen is lower than 1 @Goto(P1)
-@SystemMessage #VANC #VANP New value accepted..
+@SystemMessage #VANC #VANP New value accepted.. @Goto(Options)
 (P3)
 @SystemMessage #VANC #VANP You currently have Endurance set at @ShowVar[SubEndurance]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubEndurance]
 @Variable[SubEndurance]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubEndurance]<[1] @SystemMessage #VANC #VANP  The value chosen is lower than 1 @Goto(P1)
-@SystemMessage #VANC #VANP New value accepted..
+@SystemMessage #VANC #VANP New value accepted.. @Goto(Options)
 (P4)
 @SystemMessage #VANC #VANP You currently have Strictness set at @ShowVar[SubStrictness]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubStrictness]
 @Variable[SubStrictness]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubStrictness]<[1] @SystemMessage #VANC #VANP The value chosen is lower than 1 @Goto(P1)
-@SystemMessage #VANC #VANP New value accepted..
+@SystemMessage #VANC #VANP New value accepted.. @Goto(Options)
 (P5)
 @SystemMessage #VANC #VANP You currently have Devotion set at @ShowVar[DevotionSet]
 @SystemMessage #VANC #VANP Input a new value, it must be between 30-90 @InputVar[DevotionSet]
@@ -40,9 +54,9 @@
 @Variable[DevotionSet]<[30] @SystemMessage #VANC #VANP The value chosen is lower than 30 @Goto(P1)
 @SystemMessage #VANC #VANP New value accepted, making changes - please wait
 @NullResponse @CallReturn(CR\Settings\DevotionSet.txt)
-@SystemMessage #VANC #VANP Devotion is fully set
+@SystemMessage #VANC #VANP Devotion is fully set @Goto(Options)
 (P6)
-@SystemMessage #VANC #VANP Next you have the option to set your module categories
+@SystemMessage #VANC #VANP You have the option to set your module categories
 @SystemMessage #VANC #VANP All modules are divided into 5 categories
 @SystemMessage #VANC #VANP Chastity, Humiliation, Pain, Slave and Tease
 @SystemMessage #VANC #VANP All categories except for chastity is assigned a value between 1 and 100
@@ -55,22 +69,22 @@
 @SystemMessage #VANC #VANP Input a value for Humiliation modules @InputVar[SissyModuleModule]
 @Variable[SissyModuleModule]<[100]AND[SissyModuleModule]>[1] @NullResponse @Goto(P6b)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
-@SystemMessage #VANC #VANP so writing '1' or '60 or '40' is okay @Goto(P6a)
+@SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6a)
 (P6b)
 @SystemMessage #VANC #VANP Input a value for Pain modules @InputVar[PainModules]
 @Variable[PainModules]<[100]AND[PainModules]>[1] @NullResponse @Goto(P6c)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
-@SystemMessage #VANC #VANP so writing '1' or '60 or '40' is okay @Goto(P6b)
+@SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6b)
 (P6c)
 @SystemMessage #VANC #VANP Input a value for Tease modules @InputVar[TeaseModule]
 @Variable[TeaseModule]<[100]AND[TeaseModule]>[1] @NullResponse @Goto(P6d)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
-@SystemMessage #VANC #VANP so writing '1' or '60 or '40' is okay @Goto(P6c)
+@SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6c)
 (P6d)
 @SystemMessage #VANC #VANP Input a value for  modules @InputVar[SlaveModule]
-@Variable[SlaveModule]<[100]AND[SlaveModule]>[1] @NullResponse @Goto(P7)
+@Variable[SlaveModule]<[100]AND[SlaveModule]>[1] @SystemMessage #VANC #VANP Good, everything is set @NullResponse @Goto(Options)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
-@SystemMessage #VANC #VANP so writing '1' or '60 or '40' is okay @Goto(P6d)
+@SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6d)
 (P7)
 @flag(FullTimeTrial) @SystemMessage #VANC #VANP You are currently doing a trial of full time @Goto(P7a)
 @Flag(FullTime) @SystemMessage #VANC #VANP You are currently full time @Goto(P7b)

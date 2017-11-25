@@ -33,11 +33,11 @@ Each time you do it don't swallow right away, hold it in your mouth a count to 1
 (9)
 #SlaveName lick all of the cum up using your tounge  #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @SetVar[CEIXPGain]=[27]
 Each time you do it don't swallow right away, hold it in your mouth #DT
-Swirl it arround in there while you count to 10 #DT @Wait(20) @Goto(Complete)
+Swirl it around in there while you count to 10 #DT @Wait(20) @Goto(Complete)
 (EndTraining)
 #SlaveName lick all the of the cum up using your tounge #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
 Each time you do it don't swallow right away, hold it in your mouth #DT
-Swirl it arround in there while you count to 10 #DT @Wait(30)
+Swirl it around in there while you count to 10 #DT @Wait(30)
 Now #SubName #DT
 We're actually at the end of your cum training #DT
 I hope you feel confident that you're able to eat your cum #GNMGrin #DT @DeleteFlag(CEITrainingComplete)

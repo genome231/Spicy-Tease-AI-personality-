@@ -4,7 +4,7 @@
 #SlaveName @RT(I want to have a bit of fun with your #GNMBalls,Lets play a bit with those #GNMBalls) #DT
 #Fetch BallCrusher #DT
 And attach it #GNMGrin #DT
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Hurry up! #DT @Wait(20)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -36,7 +36,7 @@ Twist it.. #DT @ShowImage @ChangeVar[MaxTwist]=[MaxTwist]+[2] @Wait(15) @Goto(Tw
 @Variable[MaxTwist]>[10] Omg you have got to be kidding me.. #DT #MeritChangeNMedium @Goto(Continue1)
 @Variable[MaxTwist]<=[10] Wauv.. that was awfull! #DT #MeritChangeNHigh @Goto(Continue1)
 (Continue1)
-Well not that we that part sorted out #DT @SetVar[TwistRecord]=[0]
+Well now that we have that part sorted out #DT @SetVar[TwistRecord]=[0]
 You may relieve the pressure on your #GNMBalls #DT @ChangeVar[TwistRecord]=[TwistRecord]+[MaxTwist]
 Make sure that tension is still applied #DT
 It just shouldn't be painful #GNMGrin #DT
@@ -46,7 +46,7 @@ It just shouldn't be painful #GNMGrin #DT
 (Rubber)
 This is going to hurt.. #DT
 I want you to fetch a large rubberband #DT
-Put the rubberband arround the BallCrusher #DT
+Put the rubberband around the BallCrusher #DT
 At this point it shouldn't add to the pressure #DT
 At least not too much #DT
 Now before we play with the rubberband #DT
@@ -122,7 +122,7 @@ I'll then show you a picture #DT
 Guess wrong and you have to tigthen it a full round #DT
 Guess right and you can loosen it half a round #DT
 When you've made 10 right guesses the game is over! #DT
-If you absolutely can't take another twist just say stop #DT @Custom(stop, Goto, Stop3)
+If you absolutely can't take another twist just say stop #DT @CustomMode(stop, Goto, Stop3)
 It's a simple game.. #DT
 (Choose)
 Boobs, butt or hentai? #DT

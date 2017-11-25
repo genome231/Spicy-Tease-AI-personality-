@@ -23,6 +23,7 @@
 [work,study,mode] @NullResponse @CallReturn(CR\BackgroundMode\WorkMode\GNMWorkMode.txt)
 [rules,houserules,rule,house,commands,orders] @NullResponse @CallReturn(CR\BackgroundMode\HouseRules.txt)
 [save,end,end tease,stop,leave,close,finish,finished]@SystemMessage #VANC #VANP @RT(Bye,Untile next time,See you,I'm waiting for the next time,Don't leave me alone to long,Good bye,Have a nice day, I saved your process you can close the program) @EndTease @End
+[fast mode, fast answer mode] @NullResponse @CheckFlag(FastAnswerMode) @Goto(FastAnswerModeActivate) 
 @AcceptAnswer @NullResponse @Goto(Confused)
 @NullResponse
 @NullResponse @Goto(StateCheck)
@@ -37,6 +38,7 @@
 @SystemMessage #VANC #VANP Report for exercise
 @SystemMessage #VANC #VANP Work / Study mode
 @SystemMessage #VANC #VANP Request to view the rules 
+@SystemMessage #VANC #VANP Enable fast answer mode (I will respond quicker)
 @SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
 (ReportE)
 @Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
@@ -46,6 +48,10 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (NotStupid)
 @SystemMessage #VANC #VANP I'm not stupid slave.. #MeritChangeNHigh @Goto(Base)
+(FastAnswerMode)
+@SystemMessage #VANC #VANP Fast answer mode is now deactivated. @DeleteFlag(FastAnswerMode) @Goto(Base)
+(FastAnswerModeActivate)
+@SystemMessage #VANC #VANP Fast answer mode is now activated. @TempFlag(FastAnswerMode) @Goto(Base)
 
 ########################## - Comment - ##########################
 #Main screen that waits for commands

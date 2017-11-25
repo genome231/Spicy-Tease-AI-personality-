@@ -21,7 +21,7 @@
 (Phase1)
 @SystemMessage You find yourself standing on a high plateau
 @SystemMessage There seems to be nowhere for you to go
-@SystemMessage Arround you flies a winged demon
+@SystemMessage Around you flies a winged demon
 @SystemMessage Wielding a massive axe tipped at the end
 @Variable[HalloweenHP]<[10] @SystemMessage There is no doubt that the tip of the spear is what jabbed you
 @SystemMessage The demon women laughs and looks at you with an evil grin.
@@ -77,7 +77,7 @@
 @SystemMessage She shrieks in pain and flies away from you 
 @SystemMessage Visibly wounded @Goto(Action2)
 (DemonPasses)
-@SystemMessage The demon turns arround and flies a bit away from you @Goto(Action2)
+@SystemMessage The demon turns around and flies a bit away from you @Goto(Action2)
 (Victory1)
 @SystemMessage Completely surprised by your insane stunt @SetVar[HBoss]=[1]
 @SystemMessage The demon tries to fight you off

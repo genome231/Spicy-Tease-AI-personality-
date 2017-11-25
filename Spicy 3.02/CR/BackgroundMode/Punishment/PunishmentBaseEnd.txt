@@ -205,7 +205,7 @@ Cya #SlaveName #DT4 @DeleteFlag(D4Punisher)
 @SystemMessage [Nurse]: @RT(You made it through the linewriting!,You survived writing all those lines,You got through the linewriting!) #Nurse
 @SystemMessage [Nurse]: And then on hard, that couldn't have been too easy #Nurse @Goto(Continue)
 (H2Complete)
-@SystemMessage [Nurse]: Turn arround #SubName and show me your ass.. #Nurse @DeleteFlag(H2Complete) @ChangeVar[GNMPPoints]=[GNMPPoints]-[#Random(130,180)] @Wait(7)
+@SystemMessage [Nurse]: Turn around #SubName and show me your ass.. #Nurse @DeleteFlag(H2Complete) @ChangeVar[GNMPPoints]=[GNMPPoints]-[#Random(130,180)] @Wait(7)
 @SystemMessage [Nurse]: Jesus sweet boy! #Nurse
 @SystemMessage [Nurse]: Your touschy really took a beating this time.. #Nurse
 @SystemMessage [Nurse]: I'm proud you made, but lets have a look at it shall we? #Nurse

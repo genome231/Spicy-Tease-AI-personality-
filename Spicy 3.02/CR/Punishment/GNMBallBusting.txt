@@ -2,7 +2,7 @@
 (1)
 #SlaveName @RT(fetch,retrieve,go get) a small rubberband #DT @Wait(10)
 (Loop1)
-#Ready #DT
+#GNMReady #DT
 [yes] #GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop1)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -16,20 +16,20 @@
 (2)
 #SlaveName @RT(fetch,retrieve,go get) a wooden spoon or similar #DT @SetVar[TempHits]=[0]
 (Loop2)
-#Ready  #DT
+#GNMReady  #DT
 [yes]#GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop2)
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(This is fairly simple,This is simple enough,You shouldn't find this too difficuilt) #DT @ChangeVar[TempHits]=[TempHits]+[SubPain]
 @RT(I want you to use that spoon and smack your #GNMBalls,You are to use the spoon and smack your #GNMBalls) #DT @ChangeVar[TempHits]=[TempHits]*[4]
 @RT(Hit them hard,Hit them as hard as possible,Make me proud and hit them hard!) #DT @ChangeVar[TempHits]=[TempHits]+[10]
-@RT(They should look "blue" afterwards,Its okay if they get a little bruised,, they can handle it!) #GNMMoan  #DT
+@RT(They should look "blue" afterwards,It's okay if they get a little bruised,, they can handle it!) #GNMMoan  #DT
 @RT(To be precise I want you to hit your precious #GNMBalls,You're gonna hit your #GNMBalls) #DT @ShowVar[TempHits] times
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @CustomMode(done, Goto, End1) @Wait(999999)
 (3)
 #SlaveName @RT(fetch,retrieve,go get) a heavy book #DT @SetVar[TempHits]=[0]
 (Loop3)
-#Ready #DT
+#GNMReady #DT
 [yes]#GNMGood #DT
 [no]Hurry then! #DT @Wait(10) @Goto(Loop3)
 @DifferentAnswer #GNMYesOrNo #DT
@@ -40,6 +40,10 @@
 @RT(To be precise I want you to hit your precious #GNMBalls,You're gonna hit your #GNMBalls) @ShowVar[TempHits] times #DT
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @CustomMode(done, Goto, End1) @Wait(999999)
 (End1)
-What took you so long #GNMLol #DT @CustomMode(ModeText, Normal) @Wait(5)
+@Flag(Personality1) @Goto(End)
+Now you'll be using your hand. #DT
+@RT(Let's give those #GNMBalls another @ShowVar[SubPain] smacks #GNMHappy, I want your #GNMBalls to really hurt. Give them another hard slap, Punch your #GNMBalls @ShowVar[SubPain] times for me, Now smack those balls @ShowVar[SubPain] times as hard as you can, Take your #GNMBalls into your one hand and snap each of them @ShowVar[SubPain] times hard with your finger) #DT @CustomMode(done, Goto, End) @Wait(999999)
+(End)
+I hope this was as much fun for you as it was for me #GNMLol #DT @CustomMode(ModeText, Normal) @Wait(5)
 You can put the gear away for now #GNMEmoteHappy #DT @Wait(8)
 @End

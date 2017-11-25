@@ -17,7 +17,7 @@
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
-@Flag(LockedYesterday) @DeleteFlag(LockedYesterday) @Goto(Unlock)
+@Flag(LockedYesterday) @NullResponse @DeleteFlag(LockedYesterday) @Goto(Unlock)
 @Flag(Personality1) @NullResponse @Goto(Standard1)
 @Flag(Personality2) @NullResponse @Goto(Standard2)
 @Flag(Personality3) @NullResponse @Goto(Standard3)
@@ -98,9 +98,10 @@
 @NullResponse @Goto(End)
 (Denial2)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
-@RT(I don't think you should be unlocked,You won't be unlocked today,There won't any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
-@RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) #DT @Wait(5)
-@RT(Enjoy,Maybe it's better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) #DT @UnlockImages @Wait(5)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(I don't think you should be unlocked,You won't be unlocked today,There won't be any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
+@RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) @Wait(5)
+@RT(Enjoy,Maybe it's better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) @UnlockImages @Wait(5)
 @NullResponse @Goto(End)
 (PlayTest)
 @NullResponse @SetVar[Choice]=[0]
