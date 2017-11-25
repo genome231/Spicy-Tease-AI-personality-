@@ -1,12 +1,12 @@
 @NullResponse @CheckFlag(FirstSpankChoir) @SetFlag(FirstSpankChoir)
 @SystemMessage [Miss A]: So let me tell you a little bit about the website SpankzChoir.com #ReceptionChat
-@SystemMessage [Miss A]: You'd be surprised about how many women who actually wants to pay money to dish out a spanking #ReceptionChat
+@SystemMessage [Miss A]: You'd be surprised about the amount of women that actually want to pay money to dish out a spanking #ReceptionChat
 @SystemMessage [Miss A]: Well SpankzChoir actually makes it possible #ReceptionChat
 (NotUnderstood)
-@SystemMessage [Miss A]: Its rather simple #ReceptionChat
+@SystemMessage [Miss A]: It's rather simple #ReceptionChat
 @SystemMessage [Miss A]: You put your ass out for auction and then you check back 48 hours later #ReceptionChat
-@SystemMessage [Miss A]: There should then be a buyer #ReceptionChat
-@SystemMessage [Miss A]: Now be aware that if you do not accept the spanking won within 48 hours after bidding is closed #ReceptionChat
+@SystemMessage [Miss A]: By then there should be a buyer #ReceptionChat
+@SystemMessage [Miss A]: Now be aware that if you do not accept the spanking won within 48 hours bidding is closed #ReceptionChat
 @SystemMessage [Miss A]: You will be fined for the full amount and still owe a spanking #ReceptionChat
 @SystemMessage [Miss A]: So to sum up, when you've placed your ass for auction make sure to check back 48 hours later #ReceptionChat
 @SystemMessage [Miss A]: But sooner than 96 hours to accept the topbidder #ReceptionChat

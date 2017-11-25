@@ -1,7 +1,7 @@
 @NotFlag(ParachutePlay) @NullResponse @CallReturn(CR\Modules\Alternative\*.txt)
 @NotFlag(ParachutePlay) @NullResponse @Goto(End2)
 #SlaveName #DT
-#Fetch Parachute #DT
+#Fetch parachute #DT
 We're going to have some fun with it! #DT @Wait(15)
 Attach it while you're at it #GNMLol #DT @Wait(15) 
 @Flag(PainUpdate2) @NullResponse @Goto(a,b)

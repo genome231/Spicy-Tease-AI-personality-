@@ -20,7 +20,6 @@
 @NullResponse @CheckFlag(M6R) //
 @NullResponse @CheckFlag(M7R) //
 @NullResponse @CheckFlag(M8R) //
-**********************************************************************************************************************************************************************
 (M1R) // Rating: 8
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -30,7 +29,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M1SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M2R) // Rating: 3
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -42,7 +40,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M2SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M3R) // Rating: 7
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -52,7 +49,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M3SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M4R) // Rating: 2
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -64,7 +60,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M4SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M5R) // Rating: 4
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -75,7 +70,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M5SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M6R) // Rating: 6
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -85,7 +79,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M6SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M7R) // Rating: 5
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -96,7 +89,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M7SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (M8R) // Rating: 1
 @NullResponse @NullResponse @If[TotalSpanking]>=[AuctionStrokes]Then(End)
 @NullResponse @SetVar[Choice]=[0]
@@ -108,7 +100,6 @@
 @Variable[Choice]>=[5] @NullResponse @Goto(Spanking)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\M8SC.txt)
 @NullResponse @Goto(Return)
-**********************************************************************************************************************************************************************
 (Caning)
 @NullResponse @CallReturn(CR\BackgroundMode\Punishment\SpankzChoir\MxCaning.txt)
 @NullResponse @Goto(Return)

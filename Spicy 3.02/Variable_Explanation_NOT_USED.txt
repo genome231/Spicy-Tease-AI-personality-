@@ -72,6 +72,7 @@ Plans:
 Bugs:
 - BUG: Prevent taunt sounds from stopping stroking message
 - BUG: Invalid width/length picture display
+- BUG: Fix halloween bosses
 Code:
 - Start Stroking file instead of vocab to not have everyline duplicated just for the sake of the metronome
 Dialogue:
@@ -79,7 +80,7 @@ Dialogue:
 - Chastity Links
 - End dialogues
 - More Taunts
-- More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pins
+- More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pegs
 Ass training:
 - Enema daily with increasing sizes
 - Butt plug for x hours/night with increasing size
@@ -98,6 +99,12 @@ Modules:
 - Sound play
 - Ice Water play
 - Pee/milk enema
+- Cum Modules: On pillow sleep with it, into panties and wear for x, into socks and wear for x, toothbrush
+- More and advanced chastity tasks
+- Set ass and chastity level at start if you already have some experience
+- Peg play more advanced = ropes etc., attach weights?
+General:
+- Enforcing personality and asking/soft personality. Enforcing is only limited by disabled fetishes
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"

@@ -30,7 +30,7 @@
 @NullResponse @DeleteFlag(Punishment)
 @SystemMessage [Miss A]: Yes #SlaveName? #ReceptionChat
 [spankzchoir,spankz,choir,SpankzChoir.com,sell]@SystemMessage [Miss A]: @RT(Well my favorite activity!,Sounds nice!,Well well..,Uhh oh my oh my..) #ReceptionChat @Goto(SpankzChoir)
-[report,reporting,punish,punished,punishment]@Goto(Punishment)
+[report,reporting,punish,punished,punishment] @NullResponse @Goto(Punishment)
 [pay,fine,gold]@SystemMessage [Miss A]: @RT(Here to reduce your sentence huh..,Well you want to pay your fines,You wish to pay for your sins..) #ReceptionChat @Goto(Fines)
 [return,exit,back] @NullResponse
 @DifferentAnswer @SystemMessage [Miss A]: Spankz choir, punishment, pay fine or return? #ReceptionChat

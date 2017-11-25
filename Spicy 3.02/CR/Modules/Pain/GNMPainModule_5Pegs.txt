@@ -16,7 +16,7 @@ Keep the pegs there while you do a small assignment #DT
 @NullResponse @Goto(End)
 (Failed Writing Task)
 ... #DT #MeritChangeNMedium
-Lets try again shall we.. #DT @Goto(a2)
+Let's try again shall we.. #DT @Goto(a2)
 (b) \\pull off
 @Variable[SubPainTolerance]>=[10] @RT(Apply,Put on) @RT(2,4,6,8,10) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
 @Variable[SubPainTolerance]>=[7] @RT(Apply,Put on) @RT(2,4,6,8) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
