@@ -379,58 +379,58 @@
 @NullResponse @CallReturn(CR\Stroking\QuickEdge.txt)
 @NullResponse @CallReturn(CR\Stroking\QuickHumi.txt)
 @NullResponse @CallReturn(CR\Stroking\QuickPause.txt)
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
-@Flag(MetronomeOff) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(God I love,There is nothing better than,I adore) @RT(you sitting there,just to watch you,oogling at you) @RT(stroking,touching that #GNMCock,beating that small piece of meat) @FollowUp30(*Smiling*)
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(Sometimes,Often,Once in a while) @RT(I think about,I dream about,I'm considering) @RT(just tossing the chastity key away,selling you to a man,auctioning you off) @FollowUp30(LOL!) 
 @Flag(RegularStrokeMode, MetronomeOff) @ShowImage @RT(It happens that I dream of,Sometimes I can't stop myself from,I often feel like) @RT(making out with,fucking,spanking) @RT(#Contact1,#Contact2,#Contact3) @FollowUp30(*Bites Lip*) 
@@ -508,79 +508,79 @@
 @Flag(NoStrokeEdge, MetronomeOff) @ShowImage @RT(Careful you don't reach the edge,Stay off the edge,don't edge), @RT(I want you desperate!,I want you frustrated,I need you filled with lust) - @FollowUp20(Maybe I should just let you edge and never orgasm!) 
 @Flag(MaybeStrokeEdge, MetronomeOff) @ShowImage @RT(If I was you,Careful..,Calm down..) @RT(I would play it safe and not edge!,You never know the dangers of edging,Edging can be dangerous) Then again I would love @RT(spanking,hurting,torturing) you! 
 @Flag(YesStrokeEdge, MetronomeOff) @ShowImage @RT(There is something amazing about,I just can't get enough of,I could watch you) @RT(edging all day!,stroking all day,frustration all day) - @RT(glad,happy,thrilled) that I'm not you! 
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
-@Flag(MetronomeOff) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
