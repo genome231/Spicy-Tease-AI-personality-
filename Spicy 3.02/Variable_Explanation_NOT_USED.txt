@@ -1,6 +1,9 @@
 Flags:
 ChastityIsOn -> Chastity on or not?
 gdBallsTied -> Balls tied?
+gdKneeling -> Kneeling?
+gdEnforcingPersonality -> Personality enforcing stuff
+gdAskingPersonality -> Personality asking about fetishes
 gdVirgin -> Virgin
 gdSingle -> Single
 gdMarried -> Married
@@ -17,12 +20,22 @@ Alexis/???...Won -> SpankzChoir flag and determines who will punish you when sel
 M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
 M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
 
+Fetish Flags: (Append _No if we asked and he doesn't want to)
+gdAnal
+gdCEI
+gdPain
+gdAssToMouth
+gdPee
+gdCBT
+gdSissy
+
 Variables:
 DevotionSet -> Amount of minutes a session should last
 PDenialSet -> Time in hours that the slave is in chastity (depends on PDenial date)
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
 Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
+gdBegForCEI -> How many times did the slave ask for CEI this day?
 
 
 Dates:
@@ -67,6 +80,8 @@ Copy paste stuff:
 @NullResponse @CallReturn(CR\GNMChastityOn.txt) -> Chastity on
 @CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
 @CallReturn(CR\Punishment\GDSmallPenisBusting.txt) -> Cock torture
+@LockImages
+@UnlockImages
 
 Plans:
 Bugs:
@@ -81,6 +96,7 @@ Dialogue:
 - End dialogues
 - More Taunts
 - More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pegs
+- Ask to buy stuff, for example I'd do anything script
 Ass training:
 - Enema daily with increasing sizes
 - Butt plug for x hours/night with increasing size

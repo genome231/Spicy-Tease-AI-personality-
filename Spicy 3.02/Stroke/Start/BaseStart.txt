@@ -1,4 +1,5 @@
 @RapidCodeOn @SystemMessage Launching Spicy @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @CallReturn(CR\BackgroundMode\StartUp\GDUpdateVars.txt)
 @RapidCodeOn @SystemMessage 20% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @RapidCodeOn @CallReturn(CR\StateCheck.txt)
 @RapidCodeOn @SystemMessage 40% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]

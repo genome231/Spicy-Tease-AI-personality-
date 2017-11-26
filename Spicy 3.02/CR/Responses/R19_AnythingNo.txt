@@ -1,0 +1,16 @@
+@NullResponse @Goto(1, 2, 3, 4, 5)
+(1)
+Not <i>quite</i> anything, then... #DT #MeritChangeNMedium
+@End
+(2)
+You've got to be careful what you say, #SlaveName #DT #MeritChangeNMedium
+@End
+(3)
+You did say anything, #SlaveName #DT #MeritChangeNMedium
+@End
+(4)
+Then maybe you should be more careful when you say 'anything'... #DT #MeritChangeNMedium
+@End
+(5)
+You said anything and I don't like when you lie to me. I am assigning you punishment points! #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]
+@End

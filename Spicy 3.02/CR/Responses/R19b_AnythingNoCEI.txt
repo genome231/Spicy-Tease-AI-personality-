@@ -1,0 +1,1 @@
+@NullResponse @SetFlag(gdCEI_No) @CallReturn(CR\Responses\R19_AnythingNo.tx)

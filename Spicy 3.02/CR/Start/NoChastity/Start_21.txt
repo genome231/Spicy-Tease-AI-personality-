@@ -1,0 +1,14 @@
+So, are you ready to follow all my commands again? #DT
+[yes] #GNMGood #GNMEmoteHappy #DT
+[no] Well... we'll see about that, #SlaveName #DT @Goto(see about that)
+@DifferentAnswer #GNMYesOrNo #DT
+Then get to the edge for me right now, #SlaveName #DT
+Just kidding, hands off #SlaveName #DT
+Would be funny if you could edge so early in the session though #DT
+@End
+(see about that)
+#OnYourKnees #DT #MeritChangeNHigh
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+It seems you feel the need to be rebellious with me #GeneralTime #DT
+Somehow I get the feeling that attitude will not last very long #DT
+@End

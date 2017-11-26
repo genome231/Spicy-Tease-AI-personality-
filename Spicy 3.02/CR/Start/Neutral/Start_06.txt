@@ -1,0 +1,28 @@
+#SlaveName... @CheckFlag(pvStart6_1)
+Whose cock is that between your legs? #DT @SetFlag(pvStart6_1)
+[you, your, yours] That's right #GNMGrin #DT
+[my, mine, me] Is that what you think... #DT @Goto(is that what you think)
+@DifferentAnswer Is that cock mine or yours #SlaveName? #DT
+And since it is my cock... #DT
+I get to have fun with it whenever I want #DT
+Whether you want to or not #GNMGrin #DT
+And what sounds fun to me right now is making you suffer #DT
+@End
+(is that what you think)
+You're wrong about that, #SlaveName #DT
+@NullResponse @CheckFlag(ChastityIsOn)
+It's mine and I'll prove it to you #DT @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
+(ChastityIsOn)
+I'm going to make sure that you are thoroughly aware of how much I own that #GNMCock #GeneralTime #DT
+@End
+(pvStart6_1)
+Whose #GNMCock is that again? #DT @DeleteFlag(pvStart6_1)
+[you,yours,your] Exactly #DT
+[mine] Who does it belong to? #DT @LoopAnswer
+@DifferentAnswer Who does your cock belong to, #SlaveName? #DT
+I just wanted to confirm that you know that, #SlaveName #DT
+@End
+(end)
+@NullResponse
+@End
+@Info start6 was adapted from a script by 1885

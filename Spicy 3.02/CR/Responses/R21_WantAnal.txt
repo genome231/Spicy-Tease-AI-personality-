@@ -1,0 +1,58 @@
+@Stroking #GNMStopStroking @StopStroking
+@NullResponse @CheckFlag(gdAnal)
+@NullResponse @CheckFlag(gdAnal_No)
+Oh really? #DT
+Let's get this straight, you are asking me to do anal play with you? #DT
+This should be interesting... #DT @Interrupt(pvIn_WantAnal)
+@End
+(gdAnal)
+So you @RT(would like,want) me to @RT(fuck,violate) your ass, hm? #DT @RapidCodeOn
+@NullResponse @Goto(not now)
+(play anal) //Still needs to be implemented
+@Flag(pthevButtPlug) @NullResponse @Chance33(go to plug)
+@Flag(pthevDildo) @NullResponse @Chance33(go to dildo)
+@NullResponse @CheckFlag(pthevButtPlug,not now)
+@NullResponse @CheckFlag(pthevDildo,not now)
+Do you have a dildo or a butt plug?
+[yes] Which one? @LoopAnswer
+[no] Oh well...
+[plug] That's great, #SubName @SetFlag(pthevButtPlug) @Goto(go to plug)
+[dildo] That's great, #SubName @SetFlag(pthevDildo) @Goto(go to dildo)
+[both] That's great, #SubName @SetFlag(pthevButtPlug) @SetFlag(pthevDildo) @Goto(go to dildo,go to plug)
+@DifferentAnswer Do you have a dildo or a butt plug?
+Never mind then
+@End
+(go to plug)
+@RT(Go get your butt plug,Take out your butt plug,Get your butt plug for me) @CustomMode(#pvDontWantTo,Goto,not want)
+@RT(Lube it up as much as you need to,Make it nice and slippery,Lube up good if you need it,Use as much lube as you need)
+@RT(Put it in your ass,Shove that plug up your ass,Push that plug into your tight butt)
+@RT(Your ass belongs to me,I can use your ass however I want,Your ass is mine to use,I own your ass) #Grin
+Let me know when you're ready
+[done,did,ready,finished,it's in] @RT(Good,Alright,There you go,That's much better) #Smile @TempFlag(pthevPlugged)
+[don't want to,do not want to,don't want that,do not want that,don't make me,do not make me] What are you talking about @Goto(not want)
+@DifferentAnswer Just say 'ready' when you are, #SubName #EmoteFlustered
+@RT(That plug fills you up nicely,I don't know why I don't do this more often,Plugged like a good slut) @CustomMode(#pvDontWantTo,Normal)
+@End
+(not want)
+@NullResponse @CallReturn(Custom/CallReturn/pvCr_NotWantPlug.txt)
+@End
+(go to dildo)
+@NullResponse @Interrupt(pvIn_WantAnalDildo)
+@End
+(gdAnal_No)
+Really? I thought you weren't into that #DT
+Let's get this straight, you are asking me to do anal play with you? #DT
+[yes] Oohhh #GNMEmoteHappy #DT @DeleteFlag(gdAnal_No) @SetFlag(gdAnal)
+[no] Hm... #DT @Goto(misunderstood)
+@DifferentAnswer #GNMYesOrNo #DT
+This should be interesting... #DT
+@End
+(no way)
+Not gonna happen, #SlaveName #DT
+@End
+(misunderstood)
+Never mind then... #DT
+@End
+(not now)
+Not now, #SlaveName #DT
+@End
