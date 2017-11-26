@@ -6,6 +6,6 @@ A great thanks to Daragorn for always lending help!
 We are on the way to make it even better.
 If you want to use it you have to delete our System Folder and replace it with your former System folder or with a new one(copy it from wicked tease) in Spicy
 
-Please also download and read the recipt file in milovana, there are all links with the media
+Please also download and read the recipe file in milovana, there are all links with the media(https://milovana.com/forum/viewtopic.php?f=26&t=17017)
 
 The picture from wildfire are at the moment not the same as in spicy. if you want both personality try it with the media from wildfire(they are more). You can't have both(spicy and wildfire) media packet at the same
