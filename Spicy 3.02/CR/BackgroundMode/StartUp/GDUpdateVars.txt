@@ -1,3 +1,14 @@
 @NullResponse @RapidCodeOn @SetVar[gdBegForCEI]=[0]
-@NullResponse @SetFlag(gdEnforcingPersonality)
+@NullResponse @SetFlag(gdEnforcingPersonality) @Goto(End)
+(Currently skipped)
+@NullResponse @CheckFlag(Personality1)
+@NullResponse @CheckFlag(Personality2)
+@NullResponse @CheckFlag(Personality3)
+(Personality1)
+@NullResponse  @Goto(End)
+(Personality2)
+@NullResponse  @Goto(End)
+(Personality3)
+@NullResponse  @Goto(End)
+(End)
 @End
