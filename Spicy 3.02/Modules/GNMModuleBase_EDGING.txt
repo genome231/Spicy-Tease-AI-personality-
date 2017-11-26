@@ -1,5 +1,5 @@
 #GNMStopStrokingEdge #DT @StopStroking @TempFlag(Edged)
-#LetTheEdgeFade #DT
+#GNMLetTheEdgeFade #DT
 @NullResponse @CallReturn(CR\Modules\DecideEdge.txt)
 @Variable[#DateDifference(Devotion, Minutes)]>[DevotionSet] @NullResponse @Goto(EndSession)
 @NullResponse @RapidCodeOn

@@ -16,7 +16,7 @@ Edges or denial? #DT
 (Edge)
 @NullResponse @If[EdgesToDo]<=[0]Then(End) @ChangeVar[EdgesToDo]=[EdgesToDo]-[1]
 @Edge #GNMEdge @ShowImage
-#LetTheEdgeFade #DT @Wait(5) @Goto(Edge)
+#GNMLetTheEdgeFade #DT @Wait(5) @Goto(Edge)
 (End)
 @RT(I bet that #GNMCock is feeling a little tense,Horny are we?,Frustrated I hope xD) #GNMLol #DT
 @End
