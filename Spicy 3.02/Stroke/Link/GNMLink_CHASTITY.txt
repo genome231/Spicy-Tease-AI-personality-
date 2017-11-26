@@ -17,7 +17,13 @@
 (Continue1)
 @Variable[GNMMerits]<[DommeContentVAnnoyed] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]+[#Random(20,50)]
 @Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(20,50)]
-@Flag(ChastityIsOn) @NullResponse @Goto(Locked)
+@NullResponse @CheckFlag(ChastityIsOn)
+(ChastityIsOn)
+@NullResponse @Chance100(NeutralLinks)
+@NullResponse @CallReturn(CR\Links\Chastity\*.txt)
+@NullResponse @Goto(Locked)
+(NeutralLinks)
+@NullResponse @CallReturn(CR\Links\Neutral\*.txt)
 (Locked)
 @RT(Time to tease your lock up #GNMCock,Lets make it twitch #GNMGrin,I have a fun chastity exercise!,You're absolutely gonna hate this!) #DT @StartTaunts
 @End
