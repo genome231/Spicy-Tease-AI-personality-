@@ -193,7 +193,7 @@ In the meantime... @RiskyState
 You only owe me a single edge
 So I think we should make it count #Grin
 Get to the edge right now @EdgeHold
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 Well, that was a pretty expensive edge
 But I feel like I got my money's worth #EmoteHappy @RiskyState
 (Edged By Domme)
@@ -201,7 +201,7 @@ But I feel like I got my money's worth #EmoteHappy @RiskyState
 @NullResponse @If[RP_Edges]=[0]Then(Edges Finished)
 @NullResponse @Goto(Butt Cooldown, Boob Cooldown, Could Let You Rest, It's Kinda Funny, We Should Play More, BnB Slideshow, Stare At This Picture, Wait For It, Wait For It JK, Know What'd Be Funny, Who Has A Nicer Ass, RP Edge Count, I Love Playing Games, Pause For Edge Count, This Many Edges Left, Even When These Edges Are Done, Probably In A Hurry, I Could Let You Rest, Days Instead Of Edges)
 (Days Instead Of Edges)
-#LetTheEdgeFade 
+#GNMLetTheEdgeFade 
 There should be a version of Risky Pick where we play for days denied instead of edges
 Maybe I should look into that
 The only question is
@@ -216,7 +216,7 @@ That's kinda the point #Lol @Goto(Edged By Domme)
 (Probably In A Hurry)
 You're probably in a hurry to finish these edges, so... @RapidTextOn @Goto(Edged By Domme)
 (Even When These Edges Are Done)
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 Even when these edges are done
 Your #Cock still won't be free of me @Chance50(Stay In Debt)
 I might let you have a little break
@@ -230,7 +230,7 @@ That #Cock still belongs to me #Grin @Goto(Edged By Domme)
 (This Many Edges Left)
 @ShowVar[RP_Edges] edges left #SubName @Wait(#Random(5,20)) @Goto(Edged By Domme)
 (Pause For Edge Count)
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 This is how many edges you have left -> @ShowVar[RP_Edges] @Goto(This is Ass, This is Boobs, This is Random Pic)
 (This is Ass) This is a sexy ass @ShowButtImage @Goto(This Is Me Telling You To Edge)
 (This is Boobs) This is a pair of #Boobs @ShowBoobsImage @Goto(This Is Me Telling You To Edge)
@@ -238,7 +238,7 @@ This is how many edges you have left -> @ShowVar[RP_Edges] @Goto(This is Ass, Th
 (This Is Me Telling You To Edge)
 And <i>this</i> is me telling you to edge again @RapidTextOn @Goto(Edged By Domme)
 (I Love Playing Games)
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 I love playing games like this @Chance50(Board Game Talk)
 The choices...
 The consequences
@@ -252,7 +252,7 @@ A certain amount of denial if you lose
 Edging every time I rolled a six
 You don't even wanna know what I would do to you for rolling doubles #Grin @Goto(Edged By Domme)
 (RP Edge Count)
-#LetTheEdgeFade @If[RP_Edges]=[1]Then(Edge Count One Edge Left)
+#GNMLetTheEdgeFade @If[RP_Edges]=[1]Then(Edge Count One Edge Left)
 @ShowVar[RP_Edges] edges left to go
 I wonder what's harder on you
 Doing these edges for me
@@ -261,7 +261,7 @@ Or the things I do to you between each one #Grin @Goto(Edged By Domme)
 You only owe me one more edge
 Might as well go ahead and get it out of the way #Grin @Goto(Edged By Domme)
 (Who Has A Nicer Ass)
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 Who has a nicer ass @RapidTextOn
 Me
 Or this girl? @ShowButtImage @RapidTextOff @LockImages
@@ -274,7 +274,7 @@ But I still added @ShowVar[RP_EdgesAdd] edges to what you owe me for not picking
 I guess that's a good thing
 Since you apparently like to kiss it so much #Lol @Goto(Edged By Domme)
 (Know What'd Be Funny)
-#LetTheEdgeFade
+#GNMLetTheEdgeFade
 You know what would be funny? @Chance50(This Would Be Funny)
 If after you were done giving me these edges
 I made you edge some more for me @RapidTextOn
@@ -295,7 +295,7 @@ Keep waiting for it... @Wait(#Random(5,20)) @Chance60(Edged By Domme)
 (Stare At This Picture)
 Now just stare at this picture until I tell you to edge again @ShowBlogImage @Wait(#Random(15,60)) @Goto(Edged By Domme)
 (BnB Slideshow)
-#LetTheEdgeFade 
+#GNMLetTheEdgeFade 
 As long as you're cooling down 
 I've got a slideshow to keep you occupied... @Chance50(Boob Show)
 The sexiest asses I found online today #Grin @Slideshow(butt) @SlideshowOn @Goto(Slides Loaded)
@@ -347,7 +347,7 @@ And the only way you can pay it off is to edge
 I think I would be a pretty good edge collector
 Practice makes perfect after all #Grin @Goto(Edged By Domme)
 (Butt Cooldown)
-#LetTheEdgeFade @CheckFlag(RP_ButtCooldown)
+#GNMLetTheEdgeFade @CheckFlag(RP_ButtCooldown)
 I think I'll let you relax for a minute @Chance50(RP Butt 2) @TempFlag(RP_ButtCooldown)
 While you stare at this sexy ass and try not to squirm #Grin @ShowButtImage @LockImages
 I bet you're looking at it and thinking
@@ -372,7 +372,7 @@ I would rather hear the moans <i>you</i> make having to edge again #Grin @Unlock
 (Then Again Butt)
 Then again, you'll never finish your edges ataring at butts all day, so... @UnlockImages @Goto(Edged By Domme)
 (Boob Cooldown)
-#LetTheEdgeFade @CheckFlag(RP_BoobCooldown)
+#GNMLetTheEdgeFade @CheckFlag(RP_BoobCooldown)
 I think you could use some recovery time @Chance50(RP Boob 2) @TempFlag(RP_BoobCooldown)
 But I wouldn't want you to get bored, so...
 Here's some #Boobs for you to look at while you wait #Grin @ShowBoobsImage @LockImages
@@ -404,7 +404,7 @@ But I won't #Grin @RapidTextOn @Goto(Edged By Domme)
 You could probably use it
 But the more you rest, the more that desperation's gonna fade, so... @RapidTextOn @Goto(Edged By Domme)
 (Edges Finished)
-#LetTheEdgeFade 
+#GNMLetTheEdgeFade 
 That was the last edge you owed me #SubName
 I hope you had as much fun as I did #EmoteHappy @RiskyState
 (Risky Game)

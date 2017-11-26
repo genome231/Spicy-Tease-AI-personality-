@@ -31,36 +31,36 @@
 @Flag(MetronomeOn) I command you to start stroking my property @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Go ahead and jerk my property @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3] 
 @Flag(MetronomeOn) Start jerking my property #SubName @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]
-@Flag(MetronomeOff) Start stroking my property 
-@Flag(MetronomeOff) Start stroking my property #SlaveName
-@Flag(MetronomeOff) Start stroking my property #SubName
-@Flag(MetronomeOff) Stroke my property
-@Flag(MetronomeOff) Stroke my property for me
-@Flag(MetronomeOff) Stroke my property for me #SlaveName
-@Flag(MetronomeOff) Stroke my property for me #SubName
-@Flag(MetronomeOff) You need to start stroking now #SlaveName
-@Flag(MetronomeOff) You need to start stroking now #SubName
-@Flag(MetronomeOff) Grab that #GNMCock and start stroking
-@Flag(MetronomeOff) Start stroking that #GNMCock for me
-@Flag(MetronomeOff) Start jerking that #GNMCock
-@Flag(MetronomeOff) Start stroking that #GNMCock
-@Flag(MetronomeOff) Start stroking that #GNMCock for me
-@Flag(MetronomeOff) Start stroking that #GNMCock, #SlaveName
-@Flag(MetronomeOff) Start stroking that #GNMCock for me, #SlaveName
-@Flag(MetronomeOff) Start stroking that #GNMCock, #SubName
-@Flag(MetronomeOff) #Imagine me taking that #GNMCock right now, and stroking it, #SlaveName
-@Flag(MetronomeOff) Start stroking. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
-@Flag(MetronomeOff) Stroke. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
-@Flag(MetronomeOff) @Crazy Start stroking. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
-@Flag(MetronomeOff) @Crazy Now stroke. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
-@Flag(MetronomeOff) Start touching my beautiful #GNMCock
-@Flag(MetronomeOff) Start stroking my #GNMCock
-@Flag(MetronomeOff) You have my permission to stroke that #GNMCock
-@Flag(MetronomeOff) I am ordering you to stroke that #GNMCock
-@Flag(MetronomeOff) Go ahead and stroke that #GNMCock
-@Flag(MetronomeOff) I command you to stroke that #GNMCock
-@Flag(MetronomeOff) Start beating that piece of meat between your legs
-@Flag(MetronomeOff) You may begin stroking my property
-@Flag(MetronomeOff) I command you to start stroking my property
-@Flag(MetronomeOff) Go ahead and jerk my property
-@Flag(MetronomeOff) Start jerking my property #SubName
+@NotFlag(MetronomeOn) Start stroking my property 
+@NotFlag(MetronomeOn) Start stroking my property #SlaveName
+@NotFlag(MetronomeOn) Start stroking my property #SubName
+@NotFlag(MetronomeOn) Stroke my property
+@NotFlag(MetronomeOn) Stroke my property for me
+@NotFlag(MetronomeOn) Stroke my property for me #SlaveName
+@NotFlag(MetronomeOn) Stroke my property for me #SubName
+@NotFlag(MetronomeOn) You need to start stroking now #SlaveName
+@NotFlag(MetronomeOn) You need to start stroking now #SubName
+@NotFlag(MetronomeOn) Grab that #GNMCock and start stroking
+@NotFlag(MetronomeOn) Start stroking that #GNMCock for me
+@NotFlag(MetronomeOn) Start jerking that #GNMCock
+@NotFlag(MetronomeOn) Start stroking that #GNMCock
+@NotFlag(MetronomeOn) Start stroking that #GNMCock for me
+@NotFlag(MetronomeOn) Start stroking that #GNMCock, #SlaveName
+@NotFlag(MetronomeOn) Start stroking that #GNMCock for me, #SlaveName
+@NotFlag(MetronomeOn) Start stroking that #GNMCock, #SubName
+@NotFlag(MetronomeOn) #Imagine me taking that #GNMCock right now, and stroking it, #SlaveName
+@NotFlag(MetronomeOn) Start stroking. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
+@NotFlag(MetronomeOn) Stroke. #Imagine what I would do to that #GNMCock if you were here right now, #SlaveName
+@NotFlag(MetronomeOn) @Crazy Start stroking. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
+@NotFlag(MetronomeOn) @Crazy Now stroke. #Imagine all the crazy, fucked-up things I would totally do to you, if you were here right now, #SlaveName
+@NotFlag(MetronomeOn) Start touching my beautiful #GNMCock
+@NotFlag(MetronomeOn) Start stroking my #GNMCock
+@NotFlag(MetronomeOn) You have my permission to stroke that #GNMCock
+@NotFlag(MetronomeOn) I am ordering you to stroke that #GNMCock
+@NotFlag(MetronomeOn) Go ahead and stroke that #GNMCock
+@NotFlag(MetronomeOn) I command you to stroke that #GNMCock
+@NotFlag(MetronomeOn) Start beating that piece of meat between your legs
+@NotFlag(MetronomeOn) You may begin stroking my property
+@NotFlag(MetronomeOn) I command you to start stroking my property
+@NotFlag(MetronomeOn) Go ahead and jerk my property
+@NotFlag(MetronomeOn) Start jerking my property #SubName

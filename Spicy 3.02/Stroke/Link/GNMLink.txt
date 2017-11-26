@@ -57,19 +57,19 @@
 @NullResponse @TempFlag(NoStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @StartStroking @ShowImage
+#GNMStartStroking @StartStroking @StrokeSlower @StrokeSlower @ShowImage
 @End
 (MaybeEdge)
 @NullResponse @TempFlag(MaybeStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @StartStroking @ShowImage
+#GNMStartStroking @StartStroking @StrokeSlower @StrokeSlower @ShowImage
 @End
 (Edge)
 @NullResponse @TempFlag(YesStrokeEdge)
 @Variable[10]>[#Random(1,100)] You only stroke the shaft #DT
 @Variable[10]>[#Random(1,100)] You may only stroke with your non-dominant hand #DT
-#GNMStartStroking @StartStroking @ShowImage
+#GNMStartStroking @StartStroking @StrokeSlower @StrokeSlower @ShowImage
 @End
 
 (End)

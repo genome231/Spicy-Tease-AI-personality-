@@ -1,6 +1,6 @@
 #SubName... @Chance50(Stop Stroking)
 #Edge @Edge
-#LetTheEdgeFade @Goto(Module End)
+#GNMLetTheEdgeFade @Goto(Module End)
 (Stop Stroking)
 Stop stroking @StopStroking
 (Module End)
