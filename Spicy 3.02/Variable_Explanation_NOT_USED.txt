@@ -19,6 +19,7 @@ HasChastity -> Has Chastity Device
 Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
 M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
 M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
+SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted
 
 Fetish Flags: (Append _No if we asked and he doesn't want to)
 gdAnal
@@ -36,7 +37,8 @@ OTime -> Variable that is compared to OTimeSet in some occassions to cause a def
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
 Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
 gdBegForCEI -> How many times did the slave ask for CEI this day?
-
+LockedDaysInRow -> Days the sub has been looked in chastity for in a row
+LockedDaysInRowLimit -> Days the sub will be looked in row max
 
 Dates:
 Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
@@ -137,6 +139,10 @@ General:
 #TODO: EdgeATon: let domme decide how many edges you want to do
 #TODO: Fix play sound keep stroking stopping the stroking metronome
 #TODO: Small punishment (more hits and variety)
+#TODO: No edge sound and vocab error where #StopStrokingEdge is called CR\Stroking\QuickEdge.txt, #HoldTheEdge vocab error too
+#TODO: Move other stroke taunt files to own file too same as start stroking.
+#TODO: Force greeting domme
+#TODO: Ignore links after start and go to strokig directly
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
