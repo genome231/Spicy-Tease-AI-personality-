@@ -1,4 +1,5 @@
 @NullResponse @RapidCodeOn @SetVar[gdBegForCEI]=[0]
+@NullResponse @Variable[LockedDaysInRowLimit]<=[0] @SetVar[LockedDaysInRowLimit]=[5]
 @NullResponse @SetFlag(gdEnforcingPersonality) @Goto(End)
 (Currently skipped)
 @NullResponse @CheckFlag(Personality1)
