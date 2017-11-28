@@ -187,7 +187,7 @@ Lets see.. #DT @TempFlag(Busy)
 (Stop)
 @NullResponse @If[ChastityAltPictureAnswer]=[ChastityAltPicture]Then(Correct)
 Awww #SlaveName #DT
-The answer is wrong.. #DT @If[DevotionSet]<=[#DateDifference(Devotion, Minuts)]Then(EndTime)
+The answer is wrong.. #DT @If[DevotionSet]<=[#DateDifference(Devotion, Minutes)]Then(EndTime)
 Try again! #DT @Goto(Start)
 (Correct)
 It seem you are correct #GNMGrin #DT

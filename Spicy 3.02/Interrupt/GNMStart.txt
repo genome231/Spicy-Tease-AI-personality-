@@ -8,16 +8,16 @@
 @NullResponse @UnlockImages
 @NullResponse @CallReturn(CR\SpecialDays\SpecialDayTest.txt)
 @NotFlag(FirstSessionD) @NullResponse @SetFlag(FirstSessionD) @Goto(Unlock)
-@NotFlag(HasChastity) @NullResponse @Goto(End)
-@Flag(CPlayActive) @NullResponse @Goto(PlayTest)
+@NotFlag(HasChastity) @NullResponse @Goto(Unlock)
 @FlagOr(CPunishmentActive,C247) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
+@Flag(CPlayActive) @NullResponse @Goto(PlayTest)
 @NullResponse @RapidCodeOn
 @NullResponse @SetVar[Choice]=[0]
 @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
-@Flag(LockedYesterday) @NullResponse @DeleteFlag(LockedYesterday) @Goto(Unlock)
+@Variable[LockedDaysInRow]>[LockedDaysInRowLimit] @NullResponse @Goto(Unlock)
 @Flag(Personality1) @NullResponse @Goto(Standard1)
 @Flag(Personality2) @NullResponse @Goto(Standard2)
 @Flag(Personality3) @NullResponse @Goto(Standard3)
@@ -88,21 +88,21 @@
 @Flag(VAnnoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
 (Unlock)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
-@NullResponse @CallReturn(CR\GNMChastityOff.txt)
+@NullResponse @Flag(HasChastity) @CallReturn(CR\GNMChastityOff.txt)
 @NullResponse @Goto(IntroNoChastity)
 (Denial1)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @RT(As you well know,As you know,As you should know,Oh well,Oh my,Poor you) @LockImages #ChastityOffDenied @Wait(5)
 @RT(You're under strict lockdown,You're strictly locked,You're not to be released,You are still being punished,You're serving a punishment) @Wait(5)
 @RT(Meaning there will be no release from that #Cage..,Meaning you won't be released for this session,So there won't be any release) @UnlockImages @Wait(5)
-@NullResponse @Goto(End)
+@NullResponse @Goto(IntroChastity)
 (Denial2)
 @RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @RT(I don't think you should be unlocked,You won't be unlocked today,There won't be any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
 @RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) @Wait(5)
 @RT(Enjoy,Maybe it's better staying locked,Learn to appreciate being locked away,Just let the happiness of obeying flow through you) @UnlockImages @Wait(5)
-@NullResponse @Goto(End)
+@NullResponse @Goto(IntroChastity)
 (PlayTest)
 @NullResponse @SetVar[Choice]=[0]
 @Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,150)]
@@ -115,17 +115,19 @@
 @Variable[Choice]<[20] @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @NullResponse @Goto(End)
 (IntroChastity)
-@NullResponse Chance80(Neutral)
+@NullResponse @RapidCodeOn @Goto(Neutral)
+@NullResponse @CallReturn(CR\Start\Chastity\*.txt)
+@NullResponse @Goto(End)
+(IntroNoChastity)
+@NullResponse @RapidCodeOn @Chance50(Neutral)
 @NullResponse @CallReturn(CR\Start\NoChastity\*.txt)
 @NullResponse @Goto(End)
 (Neutral)
-@NullResponse @CallReturn(CR\Start\Neutral\*.txt)
-@NullResponse @Goto(End)
-(IntroNoChastity)
-@NullResponse @CallReturn(CR\Start\Neutral\*.txt)
+@NullResponse @RapidCodeOn @CallReturn(CR\Start\Neutral\*.txt)
 @NullResponse @Goto(End)
 (End)
-@NullResponse @Flag(HasChastity,ChastityIsOn) @ChastityOn
-@NullResponse @NotFlag(ChastityIsOn) @ChastityOff
+@NullResponse @RapidCodeOn @Flag(HasChastity,ChastityIsOn) @ChastityOn @ChangeVar[LockedDaysInRow]=[LockedDaysInRow]+[1]
+@NullResponse @NotFlag(ChastityIsOn) @ChastityOff @SetVar[LockedDaysInRow]=[0]
 @NullResponse @NotFlag(HasChastity) @ChastityOff
+@NullResponse @TempFlag(SkipLinksOnce)
 @End

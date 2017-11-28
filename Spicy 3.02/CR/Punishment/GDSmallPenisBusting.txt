@@ -1,4 +1,4 @@
-@NullResponse @RapidCodeOn @CheckFlag(ChastityIsOn)
+@NullResponse @SetVar[CBTLoops]=[0] @RapidCodeOn @CheckFlag(ChastityIsOn)
 @NullResponse @Goto(1,2,3)
 (1)
 Grab my #GNMCock and squeeze it #DT @Wait(10)
@@ -38,21 +38,36 @@ Flick it @ShowVar[TempHits] times #DT
 [no] I am sure I can do something about that #SlaveName #DT @Goto(1,3)
 @DifferentAnswer #GNMYesOrNo #DT
 @End
+(ChastityIsOn)
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+@End
 (End)
-@NullResponse @CustomMode(done, Goto, End1) @Goto(a,b,c,d,e)
+@NullResponse @RapidCodeOn @ChangeVar[CBTLoops]=[CBTLoops]+[1]
+@NullResponse @ChangeVar[TempHits]=[SubPain]*[2]
+@NullResponse @CustomMode(done, Goto, End1) @Goto(a,b,c,d,e,f,g,h,i,j)
 (a)
-Let's give that #GNMCock another @ShowVar[SubPain] smacks #GNMEmoteHappy #DT @Wait(999999)
+Let's give that #GNMCock another @ShowVar[TempHits] smacks #GNMEmoteHappy #DT @Wait(999999)
 (b)
 I want your #GNMCock to really hurt. Give it another hard slap #DT @Wait(999999)
 (c)
-Punch your #GNMCock @ShowVar[SubPain] times for me #DT @Wait(999999)
+Punch your #GNMCock @ShowVar[TempHits] times for me #DT @Wait(999999)
 (d)
 Now smack that #GNMCock @ShowVar[SubPain] times as hard as you can #DT @Wait(999999)
 (e)
 Smack that tip of your cock as hard as you can #DT @Wait(999999)
+(f)
+Give yourself @ShowVar[TempHits] good #GNMCock smacks #DT @Wait(999999)
+(g)
+Slap that #GNMCock @ShowVar[TempHits] times in a row #DT
+(h)
+@ShowVar[TempHits] more slaps #DT @Wait(999999)
+(i)
+I want @ShowVar[TempHits] more smacks #DT @Wait(999999)
+(j)
+Swat that #GNMCock with your palm @ShowVar[TempHits] times #DT #DT @Wait(999999)
 (End1)
-@NullResponse @CustomMode(ModeText, Normal)
-@End
-(ChastityIsOn)
-@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+@NullResponse @RapidCodeOn @CustomMode(ModeText, Normal)
+@NullResponse @Variable[CBTLoops]>[4] @Goto(FinalEnd)
+@NullResponse @Chance65(End)
+(FinalEnd)
 @End

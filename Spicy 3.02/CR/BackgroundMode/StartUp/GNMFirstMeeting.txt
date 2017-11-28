@@ -117,7 +117,17 @@ If you don't have one you can just write 99999 #DT4 @InputVar[HardOTimeLimit]
 @Variable[HardOTimeLimit]<=[0] You have to choose a number higher than 0.. #DT4 @Goto(SetDenial)
 @Variable[HardOTimeLimit]<=[5] Well so we have a beginner when it comes to denial #GNMGrin #DT4
 @Variable[HardOTimeLimit]>[5] Not a complete beginner.. Good! #GNMGrin #DT4
+@NullResponse @NotFlag(HasChastity) @Goto(CleanPipes)
+There is another thing I love #DT4
+And that is locking your #GNMCock up #DT4
+Knowing that you have a #Cage I need to know the maximum amount of days I can lock you up in a row #DT4
+(SetMaxLockupDays)
+If you don't have a maximum you can just write 99999 #DT4 @InputVar[LockedDaysInRowLimit]
+@Variable[LockedDaysInRowLimit]<=[0] You have to choose a number higher than 0.. #DT4 @Goto(SetMaxLockupDays)
+@Variable[LockedDaysInRowLimit]<=[5] Looks like we have a chastity beginner. Don't worry we can work on that #GNMGrin #DT4
+@Variable[LockedDaysInRowLimit]>[5] Maybe I found a new chastity slut in you! #GNMGrin #DT4
 We're gonna have a lot of fun! #DT4
+(CleanPipes)
 Next #DT4
 I think its important that we start out on a fresh #DT4
 I don't know when you cleaned your pipes the last time #DT4

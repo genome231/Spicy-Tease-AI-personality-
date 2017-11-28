@@ -267,7 +267,8 @@
 @SystemMessage #VANC #VANP Do you consider chastity to be something used occacionally as a plaything?
 @SystemMessage #VANC #VANP Only as a punishment?
 @SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
-[play,plaything,both]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
+[play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
+[both]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive,CPunishmentActive)
 [punishment,punish]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
 [fulltime,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?

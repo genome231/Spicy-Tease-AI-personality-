@@ -53,8 +53,21 @@ But today we're just having a regular session #DT
 (RegularSession)
 @RT(So,Well,Hmm) #SlaveName #DT
 (HowMany)
+@NullResponse @Chance90(Me)
+Let's do this a bit differently today #SlaveName #DT
+I fell like taking some more control today #DT
+I will choose how many edges you'll do today #GNMEmoteHappy #DT
+@NullResponse @Variable[EdgeCountRecord]>[0] @Goto(SkipRecord)
+@NullResponse @SetVar[EdgeCountRecord]=[15]
+(SkipRecord)
+@NullResponse @Flag(Personality1) @ChangeVar[EdgeCountToday]=[EdgeCountRecord]+[1]
+@NullResponse @Flag(Personality2) @ChangeVar[EdgeCountToday]=[EdgeCountRecord]+[5]
+@NullResponse @Flag(Personality3) @ChangeVar[EdgeCountToday]=[EdgeCountRecord]+[8] 
+Let's see... #DT
+You will do @ShowVar[EdgeCountToday] edges for me today. This will set a new record #GNMGrin #DT @ChangeVar[EdgeCountRecord]=[EdgeCountToday]+[0] @Goto(Impressive1)
+(Me)
 @RT(How many edges do you wish to do for today's training?,How many edges do you wish to do today?,How many edges can you handle today?) #DT @InputVar[EdgeCountToday]
-@Variable[EdgeCountToday]<=[0] You can't choose a number lower than 1.. #DT @Goto(HowMany)
+@Variable[EdgeCountToday]<=[0] You can't choose a number lower than 1.. #DT @Goto(Me)
 @Variable[EdgeCountToday]>[EdgeCountRecord] A new record #GNMGrin #DT @SetVar[EdgeCountRecord]=[0] @ChangeVar[EdgeCountRecord]=[EdgeCountRecord]+[EdgeCountToday] 
 @Variable[EdgeCountToday]>[EdgeCountRecord] @NullResponse #MeritChangePMedium
 @Flag(Personality1) @Variable[EdgeCountToday]>[30] @NullResponse @Goto(Impressive2)
