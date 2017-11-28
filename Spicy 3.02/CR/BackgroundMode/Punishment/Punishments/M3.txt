@@ -70,7 +70,7 @@ Get back here.. #DT4 @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(6)
 (Success)
 I know this was rough #SlaveName #DT4 @CountVar[CornerTimeCounter2, stop]
 But it makes me happy knowing you completed it! #DT4 #MeritChangePLow
-@NullResponse @TempFlag(S3Complete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
+@NullResponse @RapidCodeOn @Goto(NoFee)
 @End
 (Info)
 @Flag(RepeatCornerTime) Well since we're doing it again I better repeat the instructions.. #DT4
@@ -135,9 +135,9 @@ While I do forgive you for this small "accident" #DT4 @TempFlag(PunishmentComple
 @Flag(Personality1) I've taken a small fee from you #DT4 @ChangeVar[GNMGold]=[GNMGold]-[15]
 @Flag(Personality2) I've taken a small fee from you #DT4 @ChangeVar[GNMGold]=[GNMGold]-[25]
 @Flag(Personality3) I've taken a fee from you #DT4 @ChangeVar[GNMGold]=[GNMGold]-[40]
-@NullResponse @TempFlag(S3Complete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
+@NullResponse @TempFlag(M3Complete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
 @End
 (NoFee)
 @NullResponse @TempFlag(PunishmentComplete)
-@NullResponse @TempFlag(S3Complete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
+@NullResponse @TempFlag(M3Complete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
 @End
