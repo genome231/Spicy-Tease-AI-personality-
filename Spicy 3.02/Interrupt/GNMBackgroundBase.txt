@@ -38,7 +38,7 @@
 @SystemMessage #VANC #VANP Report for exercise
 @SystemMessage #VANC #VANP Work / Study mode
 @SystemMessage #VANC #VANP Request to view the rules 
-@SystemMessage #VANC #VANP Enable fast answer mode (I will respond quicker)
+@SystemMessage #VANC #VANP Enable fast answer mode() (I will respond quicker)
 @SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
 (ReportE)
 @Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
