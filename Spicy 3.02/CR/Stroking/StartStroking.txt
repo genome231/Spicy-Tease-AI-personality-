@@ -67,4 +67,5 @@ Go ahead and jerk my property @RapidCodeOn @Goto(Metronome)
 Start jerking my property #SubName @RapidCodeOn @Goto(Metronome)
 (Metronome)
 @NullResponse @RapidCodeOn @Flag(MetronomeOn) @PlayAudio[/GNMSounds/Stroking/MetronomeSlow/*.mp3]
+@NullResponse @TempFlag(Stroking)
 @End

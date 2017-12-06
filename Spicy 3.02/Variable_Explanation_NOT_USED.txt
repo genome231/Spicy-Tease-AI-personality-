@@ -19,7 +19,8 @@ HasChastity -> Has Chastity Device
 Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
 M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
 M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
-SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted
+SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted, used at the start of session so stroking starts instead of a random link
+Stroking (temp) -> Is stroking rn?
 
 Fetish Flags: (Append _No if we asked and he doesn't want to)
 gdAnal
@@ -136,7 +137,6 @@ General:
 #TODO: Punishment with chastity does not properly put on chastity, search for HasChastity
 #TODO: Add the fixed you aren't allowed to talk thing
 #TODO: Fix vocab error (locked images)
-#TODO: EdgeATon: let domme decide how many edges you want to do
 #TODO: Fix play sound keep stroking stopping the stroking metronome
 #TODO: Small punishment (more hits and variety)
 #TODO: No edge sound and vocab error where #GNMStopStrokingEdge is called CR\Stroking\QuickEdge.txt, #HoldTheEdge vocab error too
