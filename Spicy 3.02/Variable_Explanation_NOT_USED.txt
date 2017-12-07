@@ -1,4 +1,5 @@
 Flags:
+BlockSounds -> Block all other sounds
 ChastityIsOn -> Chastity on or not?
 gdBallsTied -> Balls tied?
 gdKneeling -> Kneeling?
@@ -128,6 +129,7 @@ General:
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
 #WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
+#TODO: Does this work? @Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
 #TODO: Implement responses properly
 #TODO: Add tasks Custom\Tasks_NOT_USED
 #TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED

@@ -1,3 +1,6 @@
-I told you, you weren't going to cum today @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
-I said earlier that I wouldn't let you cum today! @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
-I told you there would be no ejaculation today! @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
+@NotFlag(BlockSounds) I told you, you weren't going to cum today @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
+@NotFlag(BlockSounds) I said earlier that I wouldn't let you cum today! @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
+@NotFlag(BlockSounds) I told you there would be no ejaculation today! @PlayAudio[/GNMSounds/ScriptSpecific/EndScripts/NoCumming/*.mp3]
+@Flag(BlockSounds) I told you, you weren't going to cum today
+@Flag(BlockSounds) I said earlier that I wouldn't let you cum today!
+@Flag(BlockSounds) I told you there would be no ejaculation today!

@@ -43,5 +43,5 @@ No more stroking, just let go of your #GNMCock @RapidCodeOn @Goto(Sound)
 #Okay That's enough for now. You're going to squirt before I'm done with you. @RapidCodeOn @Goto(Sound)
 (Sound)
 @NullResponse @RapidCodeOn @PlayAudio[/GNMSounds/Stroking/StopStroking/*.mp3]
-@NullResponse @DeleteFlag(Stroking)
+@NullResponse @DeleteFlag(Stroking, BlockSounds)
 @End

@@ -100,9 +100,8 @@ Enjoy! @SetVar[MaxTwist]=[0] @CustomMode(stop, Goto, Stop2)
 @RT(You look like someone under pressure,You seem almost pressurized!,Feeling a bit of tension?,) #GNMLol #DT @CustomMode(ModeText,Normal)
 @Variable[MaxTwist]>[TwistRecord] We have a new record! #DT @Goto(NewRecord)
 @Variable[MaxTwist]=[TwistRecord] You matched your old record! #DT #GNMGrin @Goto(End)
-@Variable[MaxTwist]<[TwistRecord] Well you did less than your record.. #DT @ChangeVar[MaxTwist]=[MaxTwist]-[TwistRecord] @If[MaxTwist]<[]
-@NullResponse @SetVar[TwistRecord2]=[0] @ChangeVar[TwistRecord2]=[TwistRecord2]+[TwistRecord]
-@NullResponse @ChangeVar[TwistRecord2]=[TwistRecord2]-[MaxTwist] @If[TwistRecord2]<[4]Then(Close)
+@Variable[MaxTwist]<[TwistRecord] Well you did less than your record.. #DT @ChangeVar[MaxTwist]=[MaxTwist]-[TwistRecord]
+@Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
 In fact you weren't even close! #DT #ChangeMeritNHigh @DeleteFlag(Busy)
 I need you to try much harder! #DT
 You can relieve the pressure now #DT

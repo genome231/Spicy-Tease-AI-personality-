@@ -1,53 +1,54 @@
-dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+dick
 cock 
-desperate cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) desperate cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 desperate cock 
-helpless cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) helpless cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 aching cock  
-achey cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) achey cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 achey dick  
-frustrated dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) frustrated dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 frustrated cock  
-denied dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) denied dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 poor aching dick 
-poor aching cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) poor aching cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 poor leaky cock 
-horny cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) horny cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @CockSmall denied little dick  
-@CockSmall little aching dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @CockSmall little aching dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @CockSmall little aching cock  
-@CockSmall cute little cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @CockSmall cute little cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @CockSmall cute little dick  
-@CockSmall poor little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @CockSmall poor little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @CockSmall poor little cock 
-@CockSmall leaky little cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @CockSmall leaky little cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @CockSmall horny little cock  
-@CockSmall horny little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @CockSmall horny little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @CockSmall desperate little dick 
-@CockLarge big aching cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @CockLarge big aching cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @CockLarge big cock 
-@CockLarge impressive cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @CockLarge impressive cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @CockLarge huge impressive cock 
-@Crazy fuckstick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @Crazy fuckstick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @Crazy @Cocksmall little fuckstick 
-@Crazy #Hot fuckstick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Crazy #Hot fuckstick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @Crazy @Cocksmall #Hot little fuckstick 
-@Crazy @Vulgar weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @Crazy @Vulgar weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @Crazy @Vulgar aching weiner  
-@Crazy @Vulgar achey weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @Crazy @Vulgar achey weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @Crazy @Vulgar @CockSmall little weiner  
-@Crazy @Vulgar @CockSmall little weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @Crazy @Vulgar @CockSmall little weiner @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @Crazy @Vulgar @CockSmall achey little weiner 
-@Crazy @Vulgar @CockSmall little weinee @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Crazy @Vulgar @CockSmall little weinee @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @Crazy @Vulgar @CockSmall aching little weinee 
-@Vulgar leaking cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
+@NotFlag(BlockSounds) @Vulgar leaking cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3] 
 @Vulgar prick 
-@Vulgar pecker @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Vulgar pecker @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @Vulgar drippy dick  
-@Vulgar @CockSmall drippy little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Vulgar @CockSmall drippy little dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @Supremacist lowly cock 
-@Supremacist subservient cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Supremacist subservient cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @SubOld wrinkled cock 
-@SubOld wrinkly cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @SubOld wrinkly cock @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
 @SubYoung virile cock  
-@Vulgar helpless dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]
+@NotFlag(BlockSounds) @Vulgar helpless dick @PlayAudio[/GNMSounds/Humiliation/SmallDick/*.mp3]

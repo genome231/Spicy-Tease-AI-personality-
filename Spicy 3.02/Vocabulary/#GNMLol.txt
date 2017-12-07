@@ -1,22 +1,37 @@
-laugh @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-giggle @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-lol @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-haha @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-@SelfYoung hehe @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@NotFlag(BlockSounds) laugh @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) laugh
+@NotFlag(BlockSounds) giggle @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) giggle
+@NotFlag(BlockSounds) lol @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) lol
+@NotFlag(BlockSounds) haha @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) haha
+@NotFlag(BlockSounds) @SelfYoung hehe @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) @SelfYoung hehe
 @SelfYoung xD
-@Crazy lmao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-@Crazy @Vulgar lmfao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-@Crazy LOL @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-*grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@NotFlag(BlockSounds) @Crazy lmao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) @Crazy lmao 
+@NotFlag(BlockSounds) @Crazy @Vulgar lmfao @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) @Crazy @Vulgar lmfao
+@NotFlag(BlockSounds) @Crazy LOL @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) @Crazy LOL
+@NotFlag(BlockSounds) *grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *grin*
 *grins*
 *smile* 
-*wicked grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@NotFlag(BlockSounds) *wicked grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *wicked grin* 
 *smiles innocently*
-*grins at you* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-*looks at you and grins* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@NotFlag(BlockSounds) *grins at you* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *grins at you* 
+@NotFlag(BlockSounds) *looks at you and grins* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *looks at you and grins* 
 *looks at you innocently* 
 *evil grin*
-*mischievous grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-*innocent grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
-*naughty grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@NotFlag(BlockSounds) *mischievous grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *mischievous grin*
+@NotFlag(BlockSounds) *innocent grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *innocent grin*
+@NotFlag(BlockSounds) *naughty grin* @PlayAudio[/GNMSounds/MoanLol/Laugh/*.mp3]
+@Flag(BlockSounds) *naughty grin*
 *coy smile* 

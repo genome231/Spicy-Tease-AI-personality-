@@ -1,4 +1,7 @@
-Mmmm @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
-*moans softly* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3] 
-*Moans and smiles at you* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
-*Moans* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
+@NotFlag(BlockSounds) Mmmm @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
+@NotFlag(BlockSounds) *moans softly* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3] 
+@Flag(BlockSounds) *moans softly*
+@NotFlag(BlockSounds) *Moans and smiles at you* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
+@Flag(BlockSounds) *Moans and smiles at you*
+@NotFlag(BlockSounds) *Moans* @PlayAudio[/GNMSounds/MoanLol/Moan/*.mp3]
+@Flag(BlockSounds) *Moans*
