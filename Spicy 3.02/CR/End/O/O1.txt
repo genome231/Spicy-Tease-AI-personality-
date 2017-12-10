@@ -14,7 +14,7 @@
 [yes]#GNMGood #DT
 [no]Well then.. #DT @Goto(ChastityCheck)
 @DifferentAnswer #GNMYesOrNo #DT
-@RT(The clock is ticking,Tick tock!) @RT(#SlaveName,#SubName) #DT
+@RT(The clock is ticking,Tick tock!) #SlaveName #DT
 Write 'done' when you're done #DT @CustomMode(done, Goto, O1Done) @Wait(#Random(300,1500))
 @RT(Get back here and stop stimulating yourself!,Stop all stimulation right now!) #DT @CustomMode(ModeText, Normal) @PlayAudio[\GNMSounds\Stroking\StopStroking\StopStroking.mp3]
 @RT(I hope you made it,I do hope you made it..) #DT

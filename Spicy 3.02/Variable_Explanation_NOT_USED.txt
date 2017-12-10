@@ -1,6 +1,7 @@
 Flags:
 BlockSounds -> Block all other sounds
 ChastityIsOn -> Chastity on or not?
+LatestCTTaskAfraid -> Was the latest chastity training task about being afraid?
 gdBallsTied -> Balls tied?
 gdKneeling -> Kneeling?
 gdEnforcingPersonality -> Personality enforcing stuff
@@ -9,6 +10,8 @@ gdVirgin -> Virgin
 gdSingle -> Single
 gdMarried -> Married
 gdPlugged -> Buttplug?
+gdChastityAfraid -> Afraid of it showing in public
+ToyEnema -> Has Enema?
 gdPMEyes/no -> Premature ejaculation
 GNMToySetupGirlFriend -> Girlfriend
 GNMToyButtPlug -> Butt plug
@@ -18,8 +21,8 @@ Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad
 and updated in CR\End\RunEndDayCheck.txt
 HasChastity -> Has Chastity Device
 Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
-M1R/M?R -> SpankzChoir flag and determins what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
-M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determins what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
+M1R/M?R -> SpankzChoir flag and determines what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
+M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determines what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
 SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted, used at the start of session so stroking starts instead of a random link
 Stroking (temp) -> Is stroking rn?
 
@@ -33,6 +36,8 @@ gdCBT
 gdSissy
 
 Variables:
+CTasksInARow -> How many chastity tasks have been completed in a row?
+ChastityEXPMultiplier -> Chastity exp multiplier
 DevotionSet -> Amount of minutes a session should last
 PDenialSet -> Time in hours that the slave is in chastity (depends on PDenial date)
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
@@ -79,7 +84,6 @@ Vocabulary:
 #M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
 #SlaveName #Slut #SubName -> Names for slave
 
-
 Copy paste stuff:
 @NullResponse @CallReturn(CR\GNMChastityOn.txt) -> Chastity on
 @CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
@@ -89,11 +93,10 @@ Copy paste stuff:
 
 Plans:
 Bugs:
-- BUG: Prevent taunt sounds from stopping stroking message
 - BUG: Invalid width/length picture display
 - BUG: Fix halloween bosses
 Code:
-- Start Stroking file instead of vocab to not have everyline duplicated just for the sake of the metronome
+- Start Stroking file instead of vocab to not have every line duplicated just for the sake of the metronome
 Dialogue:
 - Start dialogues
 - Chastity Links
@@ -130,6 +133,7 @@ General:
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
 #WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
 #TODO: Does this work? @Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
+#TODO: Does @RT(#Vocab) work?
 #TODO: Implement responses properly
 #TODO: Add tasks Custom\Tasks_NOT_USED
 #TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED
@@ -143,8 +147,10 @@ General:
 #TODO: Small punishment (more hits and variety)
 #TODO: No edge sound and vocab error where #GNMStopStrokingEdge is called CR\Stroking\QuickEdge.txt, #HoldTheEdge vocab error too
 #TODO: Move other stroke taunt files to own file too same as start stroking.
-#TODO: Force greeting domme
-#TODO: Ignore links after start and go to strokig directly
+#TODO: Ask for enema
+#TODO: If update to newer version start specific update script that sets up missing things
+#TODO: Make sure toys are also all properly setup during re"setuping" them
+#TODO: Fix ass level in other files (AnalHumilation)
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
@@ -163,7 +169,7 @@ You can use vocabs in vocabfiles
 You can only use ChangeVar when using another variable in the equation (can be used to create new vars though) Example: @ChangeVar[Test]=[Test1]*[2]
 You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
 @CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
-@RapidCodeOn works infront of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
+@RapidCodeOn works in front of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
 
 Important Setup:
 All tagged sets must contain at least one picture with each tag (fully dressed, halfdressed etc.)

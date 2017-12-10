@@ -1,10 +1,5 @@
 #SlaveName #DT @CheckFlag(HumModule6First) @SetFlag(HumModule6First)
-As a hopefully future slave of mine #DT
-You will often find yourself with a cock in your arse! #GNMLol #DT
-Which you have to be able to take one #DT
-And heck.. #DT @SetVar[AssLevel]=[0]
-You might even learn to love it! #DT
-Now.. #DT
+@NullResponse @CallReturn(CR\End\AssTraining\AssIntro.txt)
 (HumModule6First)
 @RT(It's time to work that #GNMAss,Time to work on your #GNMAss,Let's have som fun with your #GNMAss) #DT
 @RT(For today,Today..,Today) #DT

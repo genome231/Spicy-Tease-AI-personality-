@@ -6,7 +6,7 @@
 (Base)
 @NullResponse @CheckFlag(Chore)
 @SystemMessage #VANC #VANP Do you wish to do a new chore or return?
-[yes,chore]@SystemMessage #VANC #VANP @RT(So,Okay,Well then,Hmm,Lets see) @RT(#SlaveName,#SubName)
+[yes,chore]@SystemMessage #VANC #VANP @RT(So,Okay,Well then,Hmm,Lets see) #SlaveName
 [no,return,exit]@NullResponse @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Chore or return?
 (Chore)

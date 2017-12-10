@@ -32,7 +32,7 @@ When you're done transfer the video to your humiliation folder #DT
 @RT(I want you to snap a few image,You're going to snap some pictures) #DT
 @RT(In different lovely poses,While taking some really good poses) #DT
 @RT(On your bed,And posing them on your bed) #DT
-When You're done I want you to transfer those images to your selfhumiliation folder #DT
+When You're done I want you to transfer those images to your self humiliation folder #DT
 @RT(We're going to have a blast with them!,We should be able to put them to good use!) #DT
 @RT(Snap at least 10,Take at least 15 pictures) #DT
 @RT(But feel free to do many many more!,But don't shy away from taking a lot more!) #GNMLol #DT @Goto(Done)
@@ -40,7 +40,7 @@ When You're done I want you to transfer those images to your selfhumiliation fol
 @RT(You need to choose) #Random(3,7) positions #DT
 Your slave positions that is #GNMGrin #DT
 @RT(Take 1 or 2 pictures of you in each position,Snap once or twice) #DT
-Then place those images inside your selfhumiliation folder #DT
+Then place those images inside your self humiliation folder #DT
 @RT(They will prove to be invaluable,We can have all the fun in the world with those!) #GNMEmoteHappy #DT @Goto(Done)
 (Done)
 Now #SlaveName #DT

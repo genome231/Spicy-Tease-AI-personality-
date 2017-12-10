@@ -1,0 +1,6 @@
+@Variable[AssLevel]>[25] 30
+@Variable[AssLevel]>[20] 25
+@Variable[AssLevel]>[15] 20
+@Variable[AssLevel]>[10] 15
+@Variable[AssLevel]>[5]  10
+@Variable[AssLevel]>=[1] 5

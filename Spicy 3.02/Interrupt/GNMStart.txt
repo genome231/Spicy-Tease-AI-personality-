@@ -7,7 +7,14 @@
 @NullResponse @SetVar[ForgotCap]=[0]
 @NullResponse @UnlockImages
 @NullResponse @CallReturn(CR\SpecialDays\SpecialDayTest.txt)
-@NotFlag(FirstSessionD) @NullResponse @SetFlag(FirstSessionD) @Goto(Unlock)
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3] @Timeout(15,NoGreeting)
+[hello,greetings,hey,hi] #DT #MeritChangePLow @Goto(Continue)
+@AcceptAnswer #DT @Goto(Continue)
+(NoGreeting)
+@RT(Not feeling like greeting your domme today,Seems like you are not in the mood to greet me,Being impolite today,Being rude today) #SlaveName? #DT MeritChangeNHigh
+I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
+(Continue)
+@NotFlag(FirstSessionD) @NullResponse @RapidCodeOn @SetFlag(FirstSessionD) @Goto(Unlock)
 @NotFlag(HasChastity) @NullResponse @Goto(Unlock)
 @FlagOr(CPunishmentActive,C247) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
 @Flag(CPlayActive) @NullResponse @Goto(PlayTest)
@@ -87,17 +94,14 @@
 @Flag(VAnnoyed) @Variable[GoodDays]>[BadDays] @NullResponse @If[Choice]>=[60]Then(Unlock) @Goto(Denial2)
 @Flag(VAnnoyed) @Variable[GoodDays]<=[BadDays] @NullResponse @If[Choice]>=[70]Then(Unlock) @Goto(Denial2)
 (Unlock)
-@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @NullResponse @Flag(HasChastity) @CallReturn(CR\GNMChastityOff.txt)
 @NullResponse @Goto(IntroNoChastity)
 (Denial1)
-@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @RT(As you well know,As you know,As you should know,Oh well,Oh my,Poor you) @LockImages #ChastityOffDenied @Wait(5)
 @RT(You're under strict lockdown,You're strictly locked,You're not to be released,You are still being punished,You're serving a punishment) @Wait(5)
 @RT(Meaning there will be no release from that #Cage..,Meaning you won't be released for this session,So there won't be any release) @UnlockImages @Wait(5)
 @NullResponse @Goto(IntroChastity)
 (Denial2)
-@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @RT(I don't think you should be unlocked,You won't be unlocked today,There won't be any release today) @RT(#SlaveName,#SubName,slave,slave) #DT @SetFlag(LockedYesterday) @LockImages #ChastityOffDenied @Wait(5)
 @RT(I'm sorry,Just desperation,Only agony and crazed lust,Only despair #GNMGrin,No pleasure today) @Wait(5)
@@ -111,7 +115,6 @@
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
-@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3]
 @Variable[Choice]<[20] @NullResponse @CallReturn(CR\GNMChastityOn.txt)
 @NullResponse @Goto(End)
 (IntroChastity)

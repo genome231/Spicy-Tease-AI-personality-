@@ -1,0 +1,56 @@
+@NullResponse @RapidCodeOn
+@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
+(Assignments)
+@Variable[AssLevel]>[25] @NullResponse @Chance10(1) @Goto(2,3,4,5,6,7,8)
+@Variable[AssLevel]>[20] @NullResponse @Chance23(1) @Goto(2,3,4,5,6,7)
+@Variable[AssLevel]>[15] @NullResponse @Chance36(1) @Goto(2,3,4,5,6)
+@Variable[AssLevel]>[10] @NullResponse @Chance49(1) @Goto(2,3,4,5)
+@Variable[AssLevel]>[5]  @NullResponse @Chance62(1) @Goto(2,3,4)
+@Variable[AssLevel]>=[1] @NullResponse @Chance75(1) @Goto(2,3)
+(1)
+I want you to wear your #ButtPlug for #ATPlugDuration hours today @SetVar[AssRewardEXP]=[27] @Goto(End)
+(2)
+I want you to fuck yourself using your #Dildo for #ATDildoDuration minutes today @SetVar[AssRewardEXP]=[30] @Goto(End)
+(3)
+@NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[33]
+I want you to wear your #ButtPlug for #ATPlugDuration hours today @Goto(End)
+But while wearing the plug #DT
+I want you to go a for a #CWalk walk #DT 
+@RT(I want you to learn to move around with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
+(4)
+@NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[40]
+I want you to stick your #Dildo up your #GNMAss and keep it in there for #Random(10,30) minutes #DT @Goto(End)
+(5)
+@NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[45]
+I want you to spend the whole night wearing your #ButtPlug #DT @Goto(End)
+(6)
+@NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[50]
+I want you to spend the whole day wearing your #ButtPlug #DT @Goto(End)
+(7)
+@NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[55] @NotFlag(VibratorPlay) @Goto(Assignments)
+I want you to spend the whole night wearing your #ButtPlug .. #DT
+However.. #GNMGrin #DT
+I want you to either use a vibrating one or attach your vibrator to it #DT
+Then I want you to turn it on and leave it on for the night #DT
+Maybe it is a battery powered toy and you will find some rest when it runs out of power #DT
+But maybe it will never run out of power and torture you for the whole night #GNMLol #DT
+This will be @RT(intense,interesting,intriguing) #DT
+If you feel like you will cum turn of the vibrator and turn it back on after you came down #DT
+If you still cum by any chance report it to me next session #DT
+@NullResponse @CheckFlag(gdCEI)
+@NullResponse @Goto(End)
+(gdCEI)
+Make sure to lick up your ruined mess afterwards #GNMGrin #DT @Goto(End)
+(8)
+(End)
+@NullResponse @Chance75(Cleaning)
+#InAddition I want you to watch #Random(10,30) minutes of porn involving anal. Preferably while completing your @RT(task,assignment) #DT
+(Cleaning)
+@NullResponse @NotFlag(gdAssToMouth) @Goto(Enema)
+@RT(Remember,Don't forget,Keep in mind) to properly lick your toys clean after using them #GNMLol #SlaveName #DT
+(Enema)
+@NullResponse @NotFlag(ToyEnema) @Goto(End1)
+@RT(Don't forget,And also do,Remember,In addition do,Also do) your daily #EnemaLitreAmount litre enema #GNMGrin #DT
+(End1)
+@Variable[AssEXPMultiplier]>[1] @NullResponse @ChangeVar[AssRewardEXP]=[AssRewardEXP]*[AssEXPMultiplier]
+@End

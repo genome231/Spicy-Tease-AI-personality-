@@ -1,5 +1,5 @@
 (R2) //Agree to watch sissy and ruin
-@RT(#SlaveName,#SubName) @RT(I will let you ruin,I'm gonna make you ruin) #DT
+#SlaveName @RT(I will let you ruin,I'm gonna make you ruin) #DT
 <i>if..</i> #DT
 @RT(You'll do it to a short movie of sissy getting fucked,If you'll do it to a sissy movie) @RT(#GNMGrin,#GNMLol) #DT
 @RT(And I order you to watch it to the end!,And you have to watch it till the end!) #DT
@@ -27,7 +27,7 @@
 [nothing,not]Well better luck next time #GNMGrin #DT @Goto(ChastityCheck)
 @DifferentAnswer Did you cum or nothing? #DT
 (Bad)
-@RT(That makes me angry,I can't describe how disappointed I am..) @RT(#SlaveName,#SubName) #DT #MeritChangeNHigh
+@RT(That makes me angry,I can't describe how disappointed I am..) #SlaveName #DT #MeritChangeNHigh
 @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250] @Goto(AteCheck)
 (AteCheck)
 @NullResponse #GDRegisterRuined @CallReturn(CR\End\CEI\AteCheck.txt)

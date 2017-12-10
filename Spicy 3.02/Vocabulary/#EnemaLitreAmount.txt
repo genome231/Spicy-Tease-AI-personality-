@@ -1,0 +1,6 @@
+@Variable[AssLevel]>[25] 3
+@Variable[AssLevel]>[20] 2.5
+@Variable[AssLevel]>[15] 2
+@Variable[AssLevel]>[10] 1.5
+@Variable[AssLevel]>[5]  1
+@Variable[AssLevel]>=[1] 0.5

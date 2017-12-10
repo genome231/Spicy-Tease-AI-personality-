@@ -1,66 +1,37 @@
+@NullResponse @RapidCodeOn
+@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
+@NullResponse @RapidCodeOn @CallReturn(CR\End\ChastityTraining\BasicChastityExercise.txt)
 (Assignments)
-@Variable[ChastityLevel]>[25] @NullResponse @Chance10(1) @Goto(2,3,4,5,6,7,8,9,10,11,12)
-@Variable[ChastityLevel]>[20] @NullResponse @Chance23(1) @Goto(2,3,4,5,6,7,8,9,10,11,12)
+@Flag(gdChastityAfraid) @Chance10(chastityAfraid)
+@Variable[ChastityLevel]>[25] @NullResponse @Chance10(1) @Goto(2,3,4,5,6,7,8,9,10,11,12,13)
+@Variable[ChastityLevel]>[20] @NullResponse @Chance23(1) @Goto(2,3,4,5,6,7,8,9,10,11,12,13)
 @Variable[ChastityLevel]>[15] @NullResponse @Chance36(1) @Goto(2,3,4,5,6,7,8,9,10)
 @Variable[ChastityLevel]>[10] @NullResponse @Chance49(1) @Goto(2,3,4,5,6,7,8)
 @Variable[ChastityLevel]>[5]  @NullResponse @Chance62(1) @Goto(2,3,4,5,6)
 @Variable[ChastityLevel]>=[1] @NullResponse @Chance75(1) @Goto(2,3,4)
 (1)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA1)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(1a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(1a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(1a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(1a)
-(1a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT @Goto(End)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[25] @Goto(End)
 (2)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA2)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(2a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(2a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(2a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(2a)
-(2a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT
-@RT(And I want you to spend,And you should also spend) @RT(5,15) minutes naked and caged in the corner #DT
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[29]
+#InAddition @RT(I want you to spend,you should also spend) #Random(5,15) minutes naked and caged in the corner #DT
 While in the corner I want you to think about @RT(why you are wearing the #Cage,a strategy to make the #Cage more comfortable,the importance of you being caged) #DT @Goto(End)
 (3)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA3)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(3a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(3a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(3a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(3a)
-(3a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-But while in the #Cage  #DT
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[33]
+But while in the #Cage #DT
 I want you to go a for a #CWalk walk #DT 
-@RT(I want you to learn to move around with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
+@RT(I want you to learn to move around with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT
+@Flag(gdChastityAfraid) And because you are afraid of it showing in public this should be pretty @RT(intense,interesting,challenging) #DT @Goto(End)
 (4)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA4)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(4a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(4a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(4a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(4a)
-(4a) #DT
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[37]
 But while in the #Cage #DT 
 @RT(I want you to lie down,I need you to lie down) #DT
 It can be in your bed or where ever you want #DT
 It can be as you sleep, nap or just relax #DT
 @RT(Might improve your sleep,Might just help you move towards 24/7 lock up #GNMGrin,Enjoy my little assignment) #DT @Goto(End)
+@NullResponse @Goto(End)
 (5)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA5)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(5a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(5a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(5a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(5a)
-(5a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-During lock up
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[41]
+#InAddition during lock up..
 I want you to remove your #Cage #DT
 Then @RT(edge for me,get to the edge) #DT
 I also want you to have a timer ready.. #DT
@@ -68,93 +39,81 @@ As soon as you edge #DT
 I want you to stop stroking and time how quickly you can go from the edge to back in the #Cage #DT
 Repeat this exercise @RT(3,10) times thoroughly #DT @Goto(End)
 (6)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA6)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(6a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(6a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(6a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(6a)
-(6a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-During lock up
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[45]
+#InAddition during lock up..
 I have a rather simple task #DT
 Before you take your next shower #DT
-wear the #Cage beforehand #DT
+Wear the #Cage beforehand #DT
 While in the shower remove the #Cage #DT
 Clean your genitals and reapply the #Cage #DT @Goto(End)
 (7)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA7)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(7a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(7a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(7a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(7a)
-(7a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-During lock up
-You might @RT(consider this,think of this as being,believe this to be) @RT(hard,tough,difficuilt) #DT
-I want you to apply the #Cage while watching a @RT(porno,slideshow) that turns you on.. #DT @FollowUp25(consider it a cock control exercise..  #DT)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[49]
+#InAddition during lock up..
+You might @RT(consider this,think of this as being,believe this to be) @RT(hard,tough,difficult) #DT
+I want you to apply the #Cage while watching a @RT(porno,slideshow) that turns you on.. #DT @FollowUp25(Consider it as a cock control exercise.. #DT)
 The @RT(assignment,task,job,training exercise) should last at least @RT(15,30) minutes #DT @Goto(End)
 (8)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA8)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(8a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(8a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(8a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(8a)
-(8a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-Also.. #DT
-You are to simply clean your #Cage thoroughly  #DT @FollowUp25(Proper hygiene is important..  #DT) @Goto(End)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[53]
+#InAddition .. #DT
+You are to simply clean your #Cage thoroughly #DT @FollowUp25(Proper hygiene is important.. #DT) @Goto(End)
 (9)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA9)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(9a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(9a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(9a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(9a)
-(9a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
-Also.. #DT
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[57]
+#InAddition .. #DT
 In that period I want you watch #Random(5,20) minutes @RT(of porn,of a sexy slideshow) #DT
 @RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I can't wait to hear about it!) #DT @Goto(End)
 (10)
-@NullResponse @CheckFlag(VibratorPlay) @Goto(Assignments)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA10)
-@RT(Your next assignment,For your next task,Your next task at hand,For this exercise) #DT
-@Variable[ChastityLevel]>=[15] @RT(You are to wear your chastity belt until the next session,You should really try to wear the chastity belt until next session) #DT @Goto(10a)
-@Variable[ChastityLevel]>=[10] @RT(You have to wear the belt,You need to wear the belt,You gotta wear the belt) for #Random(6,9) hours #DT @Goto(10a)
-@Variable[ChastityLevel]>=[5] @RT(You should wear the belt for at least,You need to wear the belt at least) #Random(3,6) hours #DT @Goto(10a)
-@Variable[ChastityLevel]>=[1] @RT(You should try to wear the belt for a few hours,You should really try to wear the cage for a few hours) #DT @Goto(10a)
-(10a)
-@Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT 
+@NullResponse @RapidCodeOn @NotFlag(VibratorPlay) @Goto(Assignments)
+@NullResponse @SetVar[ChastityRewardEXP]=[61]
 (VibratorPlay)
 But! #DT
 #GNMGrin #DT
 In that period I want you to apply the vibrator for #Random(5,20) minutes #GNMGrin #DT
+Of course you are not allowed to cum #SlaveName #GNMLol #DT
 @RT(Shouldn't be too complicated,I hope that you can do it,I would love it if you did it,Do it for me,It would make me so happy if you completed it,I can't wait to hear about it!) #DT
-@RT(Remember you have 5 days to complete this assignment,You have 5 days to complete the assignment,You have 5 days to complete the assignment) #DT
 @NullResponse @Goto(End) #DT @Goto(End)
 (11)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA11)
-For your next @RT(job,assignment,task,exercise) I want you to spend a full night in the #Cage #DT @Goto(End)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[65]
+@RT(However,But) I want you to spend at least a full night in the #Cage #DT @Goto(End)
 (12)
-@RT(Okay,Alright) @RT(#SlaveName,#SubName) #DT @SetFlag(CWA12)
-For your next @RT(job,assignment,task,exercise) I want you to spend a full night in the #Cage #DT
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[70]
 @NullResponse @If[ChastityLevel]>=[28]Then(SleepHard)
 @NullResponse @If[ChastityLevel]>[25]Then(SleepMedium)
 @NullResponse @If[ChastityLevel]<=[25]Then(SleepEasy)
 (SleepHard)
-Right before you go to sleep #DT
-I want you to spend at least @RT(8,12) minutes looking at pictures of porn that turns you on #DT
+@RT(During that period,In that period,While wearing the cage,Also,Furthermore,While locked up) I want you to spend at least @RT(8,12) minutes looking at pictures of porn that turns you on #DT
 You're practicing to tolerate a hard-on in the #Cage #DT @Goto(End)
 (SleepMedium)
-Right before you go to sleep #DT
-I want you to spend at least @RT(5,8) minutes looking at pictures of porn that turns you on #DT
+@RT(During that period,In that period,While wearing the cage,Also,Furthermore,While locked up) I want you to spend at least @RT(5,8) minutes looking at pictures of porn that turns you on #DT
 You're practicing to tolerate a hard-on in the #Cage #DT @Goto(End)
 (SleepEasy)
-Right before you go to sleep #DT
-I want you to spend at least @RT(2,5) minutes looking at pictures of porn that turns you on #DT
+@RT(During that period,In that period,While wearing the cage,Also,Furthermore,While locked up) I want you to spend at least @RT(2,5) minutes looking at pictures of porn that turns you on #DT
 You're practicing to tolerate a hard-on in the #Cage #DT @Goto(End)
+(chastityAfraid)
+@NullResponse @SetFlag(LatestCTTaskAfraid)
+@Variable[ChastityLevel]>[15] @NullResponse @Goto(AfraidTask1,AfraidTask2,AfraidTask3,AfraidTask4)
+@Variable[ChastityLevel]>[10] @NullResponse @Goto(AfraidTask1,AfraidTask2,AfraidTask3)
+@Variable[ChastityLevel]>[5]  @NullResponse @Goto(AfraidTask1,AfraidTask2)
+@Variable[ChastityLevel]>=[1] @NullResponse @Goto(AfraidTask1)
+(AfraidTask1)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[29]
+#InAddition @RT(I want you to spend,you should also spend) #Random(10,25) minutes locked up outside #DT
+While you are outside I want you to pay special attention to other people around you #DT @Goto(End)
+(AfraidTask2)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[41]
+#InAddition I want you to stand naked and locked up in front of a mirror for #Random(3,6) minutes #DT
+I want you to look at yourself and think about how it would be if #RandomBlackmailName saw you like this #GNMLol @Chance50(Photo)
+@NullResponse @Goto(End)
+(Photo)
+#GNMGrin #DT
+This should be funny.. #DT
+While standing in front of the mirror I want you to take a picture of yourself and transfer the image to your self humiliation folder #DT @Goto(End)
+@NullResponse @Goto(End)
+(AfraidTask3)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[37]
+#InAddition I want you to talk to someone while you are locked up for at least #Random(1,5) minutes #DT @Goto(End)
+(AfraidTask4)
+@NullResponse @RapidCodeOn @SetVar[ChastityRewardEXP]=[41]
+#InAddition I want you to wear your cage while being in a crowded place. This can be a place in the city, a restaurant, workplace etc. #DT @Goto(End)
 (End)
+@Variable[ChastityEXPMultiplier]>[1] @NullResponse @ChangeVar[ChastityRewardEXP]=[ChastityRewardEXP]*[ChastityEXPMultiplier]
 @End

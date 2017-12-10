@@ -1,0 +1,3 @@
+@ShowVar[BlackmailName1]
+@ShowVar[BlackmailName2]
+@ShowVar[BlackmailName3]

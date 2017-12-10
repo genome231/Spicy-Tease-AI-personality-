@@ -1,0 +1,28 @@
+@Flag(AssExamActive) @Variable[#DateDifference(AssExam, Days)]>=[7]Then(ExamComplete) @NullResponse @Goto(DuringExam)
+@Flag(AssIsOn) Since you're locked I just need to input a few things.. Just a moment..  #DT
+@NotFlag(AssIsOn) Go ahead and put the #Cage on while I write down a few things..  #DT
+@NullResponse @SetDate(AssExam, 0 Days) @SetFlag(AssExamActive)
+Your exam starts now #DT
+You are to remain locked for 7 consecutive days! #DT
+Your only release time is if you are permitted in sessions! #DT
+Good luck #SlaveName #DT
+@CallReturn(CR\End\AssOn.txt)
+(ExamComplete)
+The time has come #SlaveName #DT @DeleteFlag(AssExamActive)
+Have you been locked up for the past 7 days? #DT
+[yes]FANTASTIC! #DT
+[no]Awww thats too bad #GNMEmoteSad #DT @Goto(NotComplete)
+@DifferentAnswer #GNMYesOrNo #DT
+You've completed your exam! #DT
+That's really great! #DT
+This means that you're training is over! #DT @DeleteFlag(AssTrainingActive)
+I want you to celebrate #DT #GDRegisterOrgasm
+Orgasm however you like! #DT
+Lock yourself back up afterwards! #GNMMoan #DT @SetFlag(AssIsOn) @AssOn @EndTease
+@CallReturn(CR\End\Farewell.txt)
+(DuringExam)
+@NotFlag(AssIsOn) Since you're in the middle of your exam I simply want you to lock yourself up #DT
+Calm yourself and stay strong! #DT @SetFlag(AssIsOn) @AssOn
+(NotComplete)
+Well maybe next time #SlaveName #DT
+@CallReturn(CR\End\AssOn.txt)

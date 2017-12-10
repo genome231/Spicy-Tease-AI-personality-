@@ -1,0 +1,3 @@
+@Variable[AssLevel]>=[10] medium dildo @ShowImage[\GNMImages\Toys\Dildo.*]
+@Variable[AssLevel]>=[20] big dildo @ShowImage[\GNMImages\Toys\Dildo.*]
+small dildo @ShowImage[\GNMImages\Toys\Dildo.*]
