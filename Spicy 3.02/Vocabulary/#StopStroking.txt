@@ -1,1 +1,1 @@
-#GNMStopStroking
+@NullResponse @CallReturn(CR\Stroking\StopStroking.txt)
