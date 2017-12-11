@@ -37,51 +37,64 @@
 @NotFlag(EndGame10) @SystemMessage #VANC #VANP Game 10: Authors game
 @NotFlag(EndGame11) @SystemMessage #VANC #VANP Game 11: Window Of Opportunity
 @SystemMessage #VANC #VANP Which one do you wish to purchase? @RapidTextOff
-[game one,game 1,one,1]@NullResponse @Goto(1)
-[game two,game 2,two,2]@NullResponse @Goto(2)
-[game three,game 3,three,3]@NullResponse @Goto(3)
-[game four,game 4,four,4]@NullResponse @Goto(4)
-[game five,game 5,five,5]@NullResponse @Goto(5)
-[game six,game 6,six,6]@NullResponse @Goto(6)
-[game seven,game 7,seven,7]@NullResponse @Goto(7)
-[game eight,game 8,eight,8]@NullResponse @Goto(8)
-[game nine,game 9,nine,9]@NullResponse @Goto(9)
-[game ten,game 10,ten,10]@NullResponse @Goto(10)
-[game eleven,game 11,eleven,11]@NullResponse @Goto(11)
+[game one,game 1,one,1] @NullResponse @Goto(1)
+[game two,game 2,two,2] @NullResponse @Goto(2)
+[game three,game 3,three,3] @NullResponse @Goto(3)
+[game four,game 4,four,4] @NullResponse @Goto(4)
+[game five,game 5,five,5] @NullResponse @Goto(5)
+[game six,game 6,six,6] @NullResponse @Goto(6)
+[game seven,game 7,seven,7] @NullResponse @Goto(7)
+[game eight,game 8,eight,8] @NullResponse @Goto(8)
+[game nine,game 9,nine,9] @NullResponse @Goto(9)
+[game ten,game 10,ten,10] @NullResponse @Goto(10)
+[game eleven,game 11,eleven,11] @NullResponse @Goto(11)
 @DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 or 11?
 (1)
+@NullResponse @Flag(EndGame1) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame1) @Goto(EndBought)
 (2)
+@NullResponse @Flag(EndGame2) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame2) @Goto(EndBought)
 (3)
+@NullResponse @Flag(EndGame3) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame3) @Goto(EndBought)
 (4)
+@NullResponse @Flag(EndGame4) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame4) @Goto(EndBought)
 (5)
+@NullResponse @Flag(EndGame5) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame5) @Goto(EndBought)
 (6)
+@NullResponse @Flag(EndGame6) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame6) @Goto(EndBought)
 (7)
+@NullResponse @Flag(EndGame7) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame7) @Goto(EndBought)
 (8)
+@NullResponse @Flag(EndGame8) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame8) @Goto(EndBought)
 (9)
+@NullResponse @Flag(EndGame9) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame9) @Goto(EndBought)
 (10)
+@NullResponse @Flag(EndGame10) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame10) @Goto(EndBought)
 (11)
+@NullResponse @Flag(EndGame11) @Goto(AlreadyBought)
 @SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[750]
 @SystemMessage #VANC #VANP Transaction complete @SetFlag(EndGame11) @Goto(EndBought)
+(AlreadyBought)
+@SystemMessage #VANC #VANP You already bought that game slave
 (EndBought)
 @SystemMessage #VANC #VANP The game can be activated inside settings
 @End

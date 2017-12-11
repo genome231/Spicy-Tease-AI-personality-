@@ -1005,7 +1005,7 @@
 @NullResponse @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(20)
 (WidePushUps)
 @NullResponse @ChangeVar[NrExercise]=[NrExercise]+[1]
-@SystemMessage #VANC Lets some wide push ups @ShowImage[\GNMImages\Exercise\PushUps\2.jpg]
+@SystemMessage #VANC Let's some wide push ups @ShowImage[\GNMImages\Exercise\PushUps\2.jpg]
 @SystemMessage #VANC First beep go down
 @SystemMessage #VANC Second beep go up
 @SystemMessage #VANC Continue until you hear my bell @PlayAudio[\GNMSounds\Stroking\Metronome\40 bpm.mp3]

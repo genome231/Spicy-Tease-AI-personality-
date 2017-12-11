@@ -164,7 +164,7 @@
 (Satisfied)
 @SystemMessage #VANC #VANP Good job today #SlaveName @Goto(FlagTest)
 (EndFast)
-@SystemMessage #VANC #VANP @RT(Too fast!,That was waay too fast #SlaveName !!,Impossible,You can't possible be this fast!)
+@SystemMessage #VANC #VANP @RT(Too fast!,That was waay too fast #SlaveName !,Impossible!,You can't possible be this fast!)
 @SystemMessage #VANC #VANP @RT(That can't go unpunished,I have to punish you for this,I'm gonna have to punish you..) 
 @SystemMessage #VANC #VANP I have assigned you punishment points @ChangeVar[GNMPPoints]=[GNMPPoints]+[200] @Goto(FlagTest)
 (EndSlow)
@@ -176,7 +176,7 @@
 @SystemMessage #VANC #VANP Anything I should know?
 [lazy,laziness]@SystemMessage #VANC #VANP @RT(Inexcusable!,You know that laziness can't be tolerated!)
 [tired,need rest,sleep]@SystemMessage #VANC #VANP @RT(Inexcusable,I don't care if you're tired!)
-[toys,you made me,you told me]@SystemMessage #VANC #VANP @RT(Excuses! really!?,Wauv you're gonna blame me..)
+[toys,you made me,you told me]@SystemMessage #VANC #VANP @RT(Excuses! Really!?,Wauv you're gonna blame me..)
 [thorough,better cleaning]@SystemMessage #VANC #VANP I see but you should always be thorough!
 [dirty,dirtier,dusty]@SystemMessage #VANC #VANP Your #Home should always be tidy!
 @AcceptAnswer @SystemMessage #VANC #VANP I'm giving you a warning #SlaveName @SetFlag(CleaningWarning) @Goto(FlagTest)

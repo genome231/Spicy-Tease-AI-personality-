@@ -35,16 +35,18 @@
 @SystemMessage #VANC #VANP Check settings
 @SystemMessage #VANC #VANP Enter the shop
 @SystemMessage #VANC #VANP Do some fitness
-@SystemMessage #VANC #VANP Report for exercise
+@SystemMessage #VANC #VANP Report for exercise (you can only complete an exercise every 10 hours)
 @SystemMessage #VANC #VANP Work / Study mode
 @SystemMessage #VANC #VANP Request to view the rules 
 @SystemMessage #VANC #VANP Enable fast answer mode() (I will respond quicker)
 @SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
 (ReportE)
+@NullResponse @Variable[ExerciseTimes]<=[0] @Goto(FirstExercise)
 @Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
+(FirstExercise)
 @SystemMessage #VANC #VANP Have you just completed an exericse?
 [yes] @SystemMessage #VANC #VANP #GNMGood @ChangeVar[ExerciseTimes]=[ExerciseTimes]+[1] @SetDate(JustE, 0 Hours) @Goto(Base)
-[no] @SystemMessage #VANC #VANP don't waste my time.. #MeritChangeNMedium @Goto(Base)
+[no] @SystemMessage #VANC #VANP Then don't waste my time.. #MeritChangeNMedium @Goto(Base)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (NotStupid)
 @SystemMessage #VANC #VANP I'm not stupid slave.. #MeritChangeNHigh @Goto(Base)

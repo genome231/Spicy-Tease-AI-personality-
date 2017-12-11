@@ -39,6 +39,8 @@ Variables:
 CTasksInARow -> How many chastity tasks have been completed in a row?
 ChastityEXPMultiplier -> Chastity exp multiplier
 DevotionSet -> Amount of minutes a session should last
+InstalledSpicyVersion -> Current Version installed
+FileSpicyVersion -> Current version that is loading
 PDenialSet -> Time in hours that the slave is in chastity (depends on PDenial date)
 OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
 OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
@@ -151,6 +153,8 @@ General:
 #TODO: If update to newer version start specific update script that sets up missing things
 #TODO: Make sure toys are also all properly setup during re"setuping" them
 #TODO: Fix ass level in other files (AnalHumilation)
+#TODO: Report for exercise is unnecessary or should be changed (GNMBackgroundBase)
+#TODO: Fix chores
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
@@ -170,6 +174,9 @@ You can only use ChangeVar when using another variable in the equation (can be u
 You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
 @CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
 @RapidCodeOn works in front of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
+@Variable[Test]=[0] does not work, use <= or >=
+Getting or comparing an unknow variable will return the value 0 for the variable
+#DateDifference an unknown date will result in the difference always being 0
 
 Important Setup:
 All tagged sets must contain at least one picture with each tag (fully dressed, halfdressed etc.)

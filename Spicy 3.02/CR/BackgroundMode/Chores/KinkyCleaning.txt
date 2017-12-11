@@ -12,7 +12,7 @@
 @SystemMessage #VANC #VANP Are you done tying yourself?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
-@DifferentAnswer @SystemMessage #VANC #VANP yes or no?
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 @SystemMessage #VANC #VANP I've added a little extra time for you to clean due to your predicament #GNMGrin @Goto(End)
 (2)
 @SystemMessage #VANC I want you to put @RT(1 peg,2 pegs) on each nipple @ShowImage[\GNMImages\Toys\Pegs.jpg] 
@@ -75,7 +75,7 @@
 @SystemMessage #VANC #VANP Lets do a little dress up
 @SystemMessage #VANC I want you in these @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg] @Wait(10)
 @SystemMessage #VANC And wearing this @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(10)
-@SystemMessage #VANC #VANP don't wear anything else #GNMGrin @Wait(15)
+@SystemMessage #VANC #VANP Don't wear anything else #GNMGrin @Wait(15)
 @SystemMessage #VANC #VANP Are you done "slutting" yourself?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
@@ -84,10 +84,10 @@
 (8)
 @NullResponse @CheckFlag(GNMToyLingerieAdvanced) @Goto(Choose)
 (GNMToyLingerieAdvanced)
-@SystemMessage #VANC #VANP Lets do a little dress up
+@SystemMessage #VANC #VANP Let's do a little dress up
 @SystemMessage #VANC I want you wearing @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg] @Wait(15)
-@SystemMessage #VANC And ofcourse you have to also wear these @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
-@SystemMessage #VANC #VANP don't wear anything else #GNMGrin @Wait(15)
+@SystemMessage #VANC And of course you have to also wear these @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg] @Wait(15)
+@SystemMessage #VANC #VANP Don't wear anything else #GNMGrin @Wait(15)
 @SystemMessage #VANC #VANP Are you done "slutting" yourself?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
@@ -96,9 +96,9 @@
 (9)
 @NullResponse @CheckFlag(GagPlay) @Goto(Choose)
 (GagPlay)
-@SystemMessage #VANC #VANP Lets shut you up!
+@SystemMessage #VANC #VANP Let's shut you up!
 @SystemMessage #VANC Find your gag and put it on tight! @ShowImage[\GNMImages\Toys\Gag.jpg] @Wait(20)
-@SystemMessage #VANC I can't hear does that mean you're gagged? @ShowImage[\GNMImages\Toys\Gag.jpg]
+@SystemMessage #VANC I can't hear you, does that mean you're gagged? @ShowImage[\GNMImages\Toys\Gag.jpg]
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
@@ -107,8 +107,9 @@
 @NullResponse @CheckFlag(ButtPlugPlay) @Goto(Choose)
 (ButtPlugPlay)
 @SystemMessage #VANC #VANP Lets fill you a little
-@SystemMessage #VANC Find your #ButtPlug buttplug @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
+@SystemMessage #VANC Find your #ButtPlug @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 @SystemMessage #VANC Lube it up by sucking on it.. @Wait(60) @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
+@SystemMessage #VANC Now stick it up your #GNMAss @Wait(30) @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 @SystemMessage #VANC Are you done filling that nasty #GNMAss?? @ShowImage[\GNMImages\Toys\ButtPlugs.jpg]
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP Hurry then.. @Wait(20)
@@ -127,7 +128,7 @@
 @SystemMessage #VANC #VANP I've added extra time since this must slow you down.. @Goto(End)
 (13)
 @SystemMessage #VANC #VANP While cleaning today I want you to stay on all fours
-@SystemMessage #VANC #VANP And!..
+@SystemMessage #VANC #VANP And..
 @SystemMessage #VANC #VANP To complicated it further I want you to tie your balls to your big toes #GNMGrin @Wait(40)
 @SystemMessage #VANC #VANP Are you done tying them nuts up?
 [yes]@SystemMessage #VANC #VANP #GNMGood

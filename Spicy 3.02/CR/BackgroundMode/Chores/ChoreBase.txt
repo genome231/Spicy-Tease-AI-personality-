@@ -11,7 +11,7 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Chore or return?
 (Chore)
 @NullResponse @DeleteFlag(Chore)
-@SystemMessage #VANC #VANP @RT(What chore to give you next..,Which chore should you do..,Lets see if we can find a chore for you..)
+@SystemMessage #VANC #VANP @RT(What chore to give you next..,Which chore should you do..,Let's see if we can find a chore for you..)
 (Cleaning)
 @NullResponse @RapidCodeOn
 @NullResponse @CheckFlag(1Room)
