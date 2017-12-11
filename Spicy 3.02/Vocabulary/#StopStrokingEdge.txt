@@ -1,1 +1,1 @@
-#GNMStopStrokingEdge
+@NullResponse @CallReturn(CR\Stroking\StopStrokingEdge.txt)
