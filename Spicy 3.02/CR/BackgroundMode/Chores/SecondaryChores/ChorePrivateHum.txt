@@ -32,7 +32,7 @@
 @SystemMessage #VANC #VANP You're not getting out of this chore before you complete it! @Goto(fContinued)
 (a)
 @NotFlag(GNMToyLingerieAdvanced) @NullResponse @Goto(Choose)
-@SystemMessage #VANC #VANP @RT(Lets make a deal,Lets see if you'll agree to this deal)
+@SystemMessage #VANC #VANP @RT(Let's make a deal,Let's see if you'll agree to this deal)
 @SystemMessage #VANC #VANP Do you promise to wear a pair of stockings for a full day, within the next week for 300 gold?
 [yes]@SystemMessage #VANC #VANP #GNMGood @Goto(Deala)
 [no]@SystemMessage #VANC #VANP I see @Goto(NoDeala)
@@ -55,7 +55,7 @@
 @NullResponse @Interrupt(GNMBackgroundBase)
 (b)
 @NotFlag(GNMToyLingerieBasic) @NullResponse @Goto(Choose)
-@SystemMessage #VANC #VANP @RT(Lets make a deal,Lets see if you'll agree to this deal)
+@SystemMessage #VANC #VANP @RT(Let's make a deal,Let's see if you'll agree to this deal)
 @SystemMessage #VANC #VANP Do you promise go shopping while wearing a bra for 100 gold?
 @SystemMessage #VANC #VANP You may conceal it..
 [yes]@SystemMessage #VANC #VANP #GNMGood @Goto(Dealb)
@@ -79,7 +79,7 @@
 @NullResponse @Interrupt(GNMBackgroundBase)
 (c)
 @NotFlag(GNMToyLingerieBasic) @NullResponse @Goto(Choose)
-@SystemMessage #VANC #VANP @RT(Lets make a deal,Lets see if you'll agree to this deal)
+@SystemMessage #VANC #VANP @RT(Let's make a deal,Let's see if you'll agree to this deal)
 @SystemMessage #VANC #VANP Do you promise to sleep in nothing but a set of panties tonight for 100 gold?
 [yes]@SystemMessage #VANC #VANP #GNMGood @Goto(Dealc)
 [no]@SystemMessage #VANC #VANP I see @Goto(NoDealc)
@@ -103,7 +103,7 @@
 (dContinued)
 (d)
 @NotFlag(GNMToyLingerie) @NullResponse @Goto(Choose)
-@SystemMessage #VANC #VANP @RT(Lets sex you up slave!,Time to spice you up!) @SetFlag(ChorePrivHumd)
+@SystemMessage #VANC #VANP @RT(Let's sex you up slave!,Time to spice you up!) @SetFlag(ChorePrivHumd)
 @NullResponse @SetFlag(ChoreActive) @CheckFlag(GNMToyLingerieAdvanced)
 @NullResponse @CheckFlag(GNMToyLingerieBasic)
 (GNMToyLingerieAdvanced)
@@ -157,11 +157,11 @@
 @SystemMessage #VANC #VANP Come back here @PlayAudio[/GNMSounds/SpecialSounds/bell.mp3]
 @SystemMessage #VANC #VANP You didn't make it.. #GNMEmoteSad
 @SystemMessage #VANC #VANP So I've given you punishment points.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[50]
-@SystemMessage #VANC #VANP Lets try again! @Goto(Lingerie1,Lingerie2,Lingerie3,Lingerie4)
+@SystemMessage #VANC #VANP Let's try again! @Goto(Lingerie1,Lingerie2,Lingerie3,Lingerie4)
 (LingerieOn)
 @SystemMessage #VANC #VANP Good! @CustomMode(ModeText, Normal) @Goto(Start)
 (Start)
-@SystemMessage #VANC #VANP @RT(Now my little slave,now my #GNMSlut)
+@SystemMessage #VANC #VANP @RT(Now my little slave,Now my #GNMSlut)
 @SystemMessage #VANC #VANP You have 10 minutes to take 10 @RT(beautiful,sexy) pictures of yourself
 @SystemMessage #VANC #VANP Try different poses, pose on the floor, on the bed, standing in the doorway etc.
 @SystemMessage #VANC #VANP You look soo sexy! @ShowImage[\GNMImages\SelfHumiliation\*.jpg]
@@ -191,7 +191,7 @@
 (fContinued)
 (f)
 @SystemMessage #VANC #VANP I love the images of youself #GNMGrin @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @SetFlag(ChorePrivHumf)
-@SystemMessage #VANC #VANP Lets add to the number of pictures in there! @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP Let's add to the number of pictures in there! @SetFlag(ChoreActive)
 @SystemMessage #VANC #VANP Write #DomHonorific #DomName @Goto(f1,f2)
 (f1)
 @SystemMessage #VANC #VANP On your #GNMCock with a permanent marker.. @Goto(Donef)

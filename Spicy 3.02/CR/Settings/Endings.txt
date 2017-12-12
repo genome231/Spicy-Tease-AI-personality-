@@ -6,21 +6,25 @@
 @SystemMessage #VANC #VANP Your ruins and orgasms will depend on the game
 (EndingSettingsFirst)
 @SystemMessage #VANC #VANP You are currently active with: 
-@Flag(DenialTraining) @SystemMessage #VANC #VANP Denial Training
-@Flag(BeadsDeep) @SystemMessage #VANC #VANP Beads Deep game
-@Flag(ValleyOfDarkness) @SystemMessage #VANC #VANP Valley of Darkness game
-@Flag(EdgeOfDesperation) @SystemMessage #VANC #VANP Edge of Desperation game
-@Flag(FrequentFlyer) @SystemMessage #VANC #VANP Frequent Flyer game
-@Flag(TrainingMode) @SystemMessage #VANC #VANP Training Mode
-@Flag(OrgasmRoulette) @SystemMessage #VANC #VANP Orgasm Roulette
-@Flag(FinancialDomination) @SystemMessage #VANC #VANP Financial Domination
-@Flag(TreasureHunt) @SystemMessage #VANC #VANP Treasure Hunt
-@Flag(AuthorsGame) @SystemMessage #VANC #VANP Authors Game
-@Flag(Standard) @SystemMessage #VANC #VANP Standard mode
-@SystemMessage #VANC #VANP Do you wish to change? 
-[yes]@SystemMessage #VANC #VANP Initiating clean up
-[no]@NullResponse @Goto(End)
-@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@Flag(DenialTraining) @SystemMessage #VANC #VANP Denial Training @Goto(Change)
+@Flag(BeadsDeep) @SystemMessage #VANC #VANP Beads Deep game @Goto(Change)
+@Flag(ValleyOfDarkness) @SystemMessage #VANC #VANP Valley of Darkness game @Goto(Change)
+@Flag(EdgeOfDesperation) @SystemMessage #VANC #VANP Edge of Desperation game @Goto(Change)
+@Flag(FrequentFlyer) @SystemMessage #VANC #VANP Frequent Flyer game @Goto(Change)
+@Flag(TrainingMode) @SystemMessage #VANC #VANP Training Mode @Goto(Change)
+@Flag(OrgasmRoulette) @SystemMessage #VANC #VANP Orgasm Roulette @Goto(Change)
+@Flag(FinancialDomination) @SystemMessage #VANC #VANP Financial Domination @Goto(Change)
+@Flag(TreasureHunt) @SystemMessage #VANC #VANP Treasure Hunt @Goto(Change)
+@Flag(AuthorsGame) @SystemMessage #VANC #VANP Authors Game @Goto(Change)
+@Flag(Standard) @SystemMessage #VANC #VANP Standard mode @Goto(Change)
+(NoModeFound)
+@NullResponse @SetFlag(Standard)
+(Change)
+@SystemMessage #VANC #VANP Do you wish to change, exit or would you like some info? 
+[change,edit]@SystemMessage #VANC #VANP Initiating clean up
+[exit,quit,leave]@NullResponse @Goto(End)
+[info]@NullResponse @Goto(Info)
+@DifferentAnswer @SystemMessage #VANC #VANP Change, exit or info?
 @NullResponse @RapidCodeOn 
 @NullResponse @DeleteFlag(DenialTraining)
 @NullResponse @DeleteFlag(BeadsDeep)
@@ -40,14 +44,14 @@
 @Flag(EndGame2) @SystemMessage #VANC #VANP Beads Deep
 @Flag(EndGame3) @SystemMessage #VANC #VANP Valley of darkness
 @Flag(EndGame4) @SystemMessage #VANC #VANP Edge of Desperation
-@Flag(EndGame5) @SystemMessage #VANC #VANP FrequentFlyer
+@Flag(EndGame5) @SystemMessage #VANC #VANP Frequent Flyer
 @Flag(EndGame6) @SystemMessage #VANC #VANP Training Mode
 @Flag(EndGame7) @SystemMessage #VANC #VANP Orgasm Roulette
 @Flag(EndGame8) @SystemMessage #VANC #VANP Financial Domination
 @Flag(EndGame9) @SystemMessage #VANC #VANP Treasure Hunt
 @Flag(EndGame10) @SystemMessage #VANC #VANP Authors Game
 @Flag(EndGame11) @SystemMessage #VANC #VANP Window of Opportunity
-@Flag(EndGame12) @SystemMessage #VANC #VANP Standard mode
+@SystemMessage #VANC #VANP Standard mode
 (NewMode)
 @SystemMessage #VANC #VANP What game do you wish to activate?
 [denial]@NullResponse @Goto(1)
@@ -65,15 +69,10 @@
 @DifferentAnswer @SystemMessage #VANC #VANP Come again?
 (1)
 @NotFlag(EndGame1) @SystemMessage #VANC #VANP You need to buy Denial Training in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Activating @SetFlag(DenialTraining) @DeleteFlag(Standard) @Goto(LockPeriod)
+@SystemMessage #VANC #VANP Activating.. @SetFlag(DenialTraining) @DeleteFlag(Standard) @Goto(LockPeriod)
 (2)
 @NotFlag(EndGame2) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Beads deep is game
-@SystemMessage #VANC #VANP After every normal session you draw 1 bead
-@SystemMessage #VANC #VANP The bead can have a variety of different colors each representing different outcomes
-@SystemMessage #VANC #VANP Ultimately you have to draw x number of white beads before you may ejaculate
-@SystemMessage #VANC #VANP This games denial period ranges from medium to long depending on chosen number of white beads required
-@SystemMessage #VANC #VANP Activating..
+@SystemMessage #VANC #VANP Activating....
 @NullResponse @SetFlag(BeadsDeep) @DeleteFlag(Standard)
 @SystemMessage #VANC #VANP How many white beads should you need to collect?
 (NewBeadGame)
@@ -85,16 +84,7 @@
 @NullResponse @Goto(LockPeriod)
 (3)
 @NotFlag(EndGame3) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Valley of Darkness is a mind game
-@SystemMessage #VANC #VANP A timer is set after which you may cum
-@SystemMessage #VANC #VANP The timer could be short or long
-@SystemMessage #VANC #VANP You won't know
-@SystemMessage #VANC #VANP After each session you will be given the chance to say if this is your lucky day or not
-@SystemMessage #VANC #VANP If you are correct you will be allowed to cum
-@SystemMessage #VANC #VANP If the timer hasn't expired yet it will be prolonged by a secret ammount
-@SystemMessage #VANC #VANP This games denial period ranges from short to long
-@SystemMessage #VANC #VANP But is considered a hard game only for those able to handle long term denial
-@SystemMessage #VANC #VANP Activating..
+@SystemMessage #VANC #VANP Activating....
 @NullResponse @SetFlag(ValleyOfDarkness) @DeleteFlag(Standard)
 @SystemMessage #VANC #VANP @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
 (Random1VoD)
@@ -117,27 +107,13 @@
 @NullResponse @ChangeVar[ValleyOfDarknessSet]=[ValleyOfDarknessSet]+[#Random(9,12)] @Goto(LockPeriod)
 (4)
 @NotFlag(EndGame4) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP This is a frustrating mind game
-@SystemMessage #VANC #VANP A secret goal of edges is set
-@SystemMessage #VANC #VANP Everytime you edge it gets counted
-@SystemMessage #VANC #VANP After each session you will be asked if you think you've done enough edges to get your orgasm
-@SystemMessage #VANC #VANP If this is true you will get to cum
-@SystemMessage #VANC #VANP If not a secret number of edges is added to the goal
-@SystemMessage #VANC #VANP The game is considered very hard
-@SystemMessage #VANC #VANP Only for Tease and denial experts
-@SystemMessage #VANC #VANP Activating
+@SystemMessage #VANC #VANP Activating..
 @NullResponse @SetFlag(EdgeOfDesperation) @DeleteFlag(Standard) @SetVar[EoDMagic]=[0]
 @NullResponse @ChangeVar[EoDMagic]=[EoDMagic]+[100,500]
 @NullResponse @Goto(LockPeriod)
 (5) 
 @NotFlag(EndGame5) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP This is a mind game
-@SystemMessage #VANC #VANP Where you have to do X regular sessions
-@SystemMessage #VANC #VANP After each session you are asked if you think you have done enough sessions
-@SystemMessage #VANC #VANP If true you will get to cum
-@SystemMessage #VANC #VANP If false a secret number of sessions is added to the goal
-@SystemMessage #VANC #VANP This game is considered to be medium difficuilty
-@SystemMessage #VANC #VANP Activating
+@SystemMessage #VANC #VANP Activating..
 @NullResponse @SetFlag(FrequentFlyer) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[0]
 @NullResponse @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(4,16)]
 @NullResponse @Goto(LockPeriod)
@@ -146,7 +122,7 @@
 @NullResponse @DeleteFlag(TMSmall)
 @NullResponse @DeleteFlag(TMMedium)
 @NullResponse @DeleteFlag(TMHigh)
-@SystemMessage #VANC #VANP Activating..
+@SystemMessage #VANC #VANP Activating....
 @NullResponse @SetFlag(TrainingMode) @DeleteFlag(Standard)
 (SimpleNumber)
 @SystemMessage #VANC #VANP Select a minimum number of days to begin with @InputVar[DTrainingSessionsMinimum]
@@ -160,68 +136,27 @@
 [medium]@NullResponse @SetFlag(TMMedium)
 [hard]@NullResponse @SetFlag(TMHigh)
 @DifferentAnswer @SystemMessage #VANC #VANP Easy, Medium or Hard?
-@NullResponse @SetVar[FFRequiredSessions]=[0]
-@Flag(TMSmall) @SystemMessage #VANC #VANP Choosing number of rounds.. @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(3,6)]
-@Flag(TMMedium) @SystemMessage #VANC #VANP Choosing number of rounds.. @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(7,10)]
-@Flag(TMHigh) @SystemMessage #VANC #VANP Choosing number of rounds.. @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(11,15)]
-@SystemMessage #VANC #VANP Setting the date for your next orgasm..
-@Flag(TMSmall) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,3)]
-@Flag(TMMedium) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,5)]
-@Flag(TMHigh) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,7)]
+@SystemMessage #VANC #VANP Setting date for your next orgasm and choosing rounds..
+@NullResponse @CallReturn(CR\Settings\Endings\TrainingModeSetup.txt)
 @SystemMessage #VANC #VANP Done.. @Goto(LockPeriod)
 (7)
 @NotFlag(EndGame7) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Orgasm Roulette is a game of chance
-@SystemMessage #VANC #VANP After each session you are allowed to spin the wheel once
-@SystemMessage #VANC #VANP Each spin has multiple outcomes
-@SystemMessage #VANC #VANP The different outcomes are for you to explore
-@SystemMessage #VANC #VANP Activating.. @SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
+@SystemMessage #VANC #VANP Activating.... @SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
 (8)
 @NotFlag(EndGame8) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Financial Domination is a fictional game
-@SystemMessage #VANC #VANP It's designed to bring you the feeling of lacking money and having to pay for an orgasm
-@SystemMessage #VANC #VANP After each session you are given an offer for an ejaculation
-@SystemMessage #VANC #VANP You can take it or continue your denial
-@SystemMessage #VANC #VANP Do notice that this is based on your gold
-@SystemMessage #VANC #VANP Meaning you'll have less gold to spend in the shop
 @SystemMessage #VANC #VANP Activating it.. @SetFlag(FinancialDomination) @DeleteFlag(Standard) @Goto(LockPeriod)
 (9)
 @NotFlag(EndGame9) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Treasure Hunt isn't a game
-@SystemMessage #VANC #VANP But a mode for those who craves extreme denial
-@SystemMessage #VANC #VANP Your only way to get an ejaculation is through the shop
-@SystemMessage #VANC #VANP Chests have a small chance of giving you an ejaculation pass
-@SystemMessage #VANC #VANP These passes are the only way that you'll be allowed to cum
 @SystemMessage #VANC #VANP Activating.. @SetFlag(TreasureHunt) @DeleteFlag(Standard) @Goto(LockPeriod)
 (10) 
 @NotFlag(EndGame10) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Authors game is reserved for those writing scripts for Tease-AI
-@SystemMessage #VANC #VANP After each session you will be asked about the number of hours spent writing scripts
-@SystemMessage #VANC #VANP So on day 1 you report having spent 2 hours
-@SystemMessage #VANC #VANP Between day 1 and 2 you spent 1 hour
-@SystemMessage #VANC #VANP On day 3 you didn't have a session
-@SystemMessage #VANC #VANP Between day 2 and 4 you spent 3 hours
-@SystemMessage #VANC #VANP The #DomHonorific will count your total hours
-@SystemMessage #VANC #VANP When she believes you've spent enough time @SetVar[AGHoursTotal]=[0]
-@SystemMessage #VANC #VANP You will be granted an ejaculation and your total count is reset to 0
-@SystemMessage #VANC #VANP Activating @SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
+@SystemMessage #VANC #VANP Activating.. @SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
 (11)
 @NotFlag(EndGame11) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
-@SystemMessage #VANC #VANP Window of Opportunity is a dice game
-@SystemMessage #VANC #VANP You have a total number of strokes starting at 0
-@SystemMessage #VANC #VANP After each session you will roll two 6 sided dices
-@SystemMessage #VANC #VANP The number rolled gets added to your total number of strokes
-@SystemMessage #VANC #VANP Besides that you have windows of opportunity
-@SystemMessage #VANC #VANP There is a 12 hour interval within an interval of 2 to 5 days
-@SystemMessage #VANC #VANP If you roll the dices in that interval you will be asked if you wish to try your luck
-@SystemMessage #VANC #VANP If you try your luck you will stroke a number of times equal to your total number
-@SystemMessage #VANC #VANP Fail to cum with the given number of strokes and you won't cum
-@SystemMessage #VANC #VANP You may not decide the stroking pace yourself
-@SystemMessage #VANC #VANP If you try your luck you will roll a final die that decies the pace for you
 @FlagOr(Personality1,Personality2) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get tripled
 @Flag(Personality3) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get doubled
 @SystemMessage #VANC #VANP This game is considered VERY hard and NOT recommended for beginners!
-@SystemMessage #VANC #VANP Activating it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
+@SystemMessage #VANC #VANP Activating.. it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
 @NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] 
 @NullResponse @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
 @NullResponse @SetVar[WOOMax]=[0] 
@@ -229,11 +164,7 @@
 @NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
 @NullResponse @Goto(LockPeriod)
 (12) 
-@SystemMessage #VANC #VANP Standard mode is what was set the first time you started Tease-AI
-@SystemMessage #VANC #VANP Standard isn't a game
-@SystemMessage #VANC #VANP The #DomHonorific chooses wether you may ejaculate or not
-@SystemMessage #VANC #VANP Your behaviour, actions, days since last ejaculation and denial experience is all carefully weighted
-@SystemMessage #VANC #VANP Activating it.. @SetFlag(Standard) @DeleteFlag(Standard) @Goto(LockPeriod)
+@SystemMessage #VANC #VANP Activating.. it.. @SetFlag(Standard) @Goto(LockPeriod)
 (LockPeriod)
 @SystemMessage #VANC #VANP Your mode has been activated
 @SystemMessage #VANC #VANP Input the lock duration for your mode
@@ -256,5 +187,35 @@
 [yes]@SystemMessage #VANC #VANP Saving settings.. @Goto(End)
 [no]@SystemMessage #VANC #VANP Resetting input @Goto(LockPeriod)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(Info)
+@SystemMessage #VANC #VANP You have access to the following games:
+@Flag(EndGame1) @SystemMessage #VANC #VANP Denial Training
+@Flag(EndGame2) @SystemMessage #VANC #VANP Beads Deep
+@Flag(EndGame3) @SystemMessage #VANC #VANP Valley of darkness
+@Flag(EndGame4) @SystemMessage #VANC #VANP Edge of Desperation
+@Flag(EndGame5) @SystemMessage #VANC #VANP Frequent Flyer
+@Flag(EndGame6) @SystemMessage #VANC #VANP Training Mode
+@Flag(EndGame7) @SystemMessage #VANC #VANP Orgasm Roulette
+@Flag(EndGame8) @SystemMessage #VANC #VANP Financial Domination
+@Flag(EndGame9) @SystemMessage #VANC #VANP Treasure Hunt
+@Flag(EndGame10) @SystemMessage #VANC #VANP Authors Game
+@Flag(EndGame11) @SystemMessage #VANC #VANP Window of Opportunity
+@SystemMessage #VANC #VANP Standard mode
+(InfoQuestion)
+@SystemMessage #VANC #VANP What game would you like to know more about?
+[denial]@NullResponse @CallReturn()
+[beads deep]@NullResponse @CallReturn(CR\Settings\Endings\BeadsDeepInfo.txt)
+[valley of darkness]@NullResponse @CallReturn(CR\Settings\Endings\ValleyOfDarknessInfo.txt)
+[edge of desperation]@NullResponse @CallReturn(CR\Settings\Endings\EdgeOfDesperationInfo.txt)
+[frequent flyer]@NullResponse @CallReturn(CR\Settings\Endings\FrequentFlyerInfo.txt)
+[training mode] @SystemMessage #VANC #VANP @CallReturn(CR\Settings\Endings\TrainingInfo.txt)
+[orgasm roulette]@NullResponse @CallReturn(CR\Settings\Endings\OrgasmRouletteInfo.txt)
+[financial domination]@NullResponse @CallReturn(CR\Settings\Endings\FinancialDominationInfo.txt)
+[treasure hunt]@NullResponse @CallReturn(CR\Settings\Endings\TreasureHuntInfo.txt)
+[authors]@NullResponse @CallReturn(CR\Settings\Endings\AuthorsGameInfo.txt)
+[window]@NullResponse @CallReturn(CR\Settings\Endings\WindowOfOpportunityInfo.txt)
+[standard]@NullResponse @CallReturn(CR\Settings\Endings\StandardInfo.txt)
+@DifferentAnswer @SystemMessage #VANC #VANP Come again?
+@NullResponse @Goto(InfoQuestion)
 (End)
 @End

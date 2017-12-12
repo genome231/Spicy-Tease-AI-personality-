@@ -7,7 +7,7 @@
 @NullResponse @SetVar[ForgotCap]=[0]
 @NullResponse @UnlockImages
 @NullResponse @CallReturn(CR\SpecialDays\SpecialDayTest.txt)
-@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3] @Timeout(15,NoGreeting)
+@RT(Hi,Greetings,Hello) @RT(#SlaveName,Slave,Slave,Slave,Slave,#Slut,#SubName) #DT @PlayAudio[\GNMSounds\Starts\StartScripts\Hello\*.mp3] @Timeout(25,NoGreeting)
 [hello,greetings,hey,hi] #DT #MeritChangePLow @Goto(Continue)
 @AcceptAnswer #DT @Goto(Continue)
 (NoGreeting)

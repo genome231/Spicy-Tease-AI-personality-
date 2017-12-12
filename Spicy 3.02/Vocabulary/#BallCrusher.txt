@@ -1,1 +1,1 @@
-ballcrusher @ShowImage[GNMImages\Toys\BallCrusher.jpg]
+ball crusher @ShowImage[GNMImages\Toys\BallCrusher.jpg]

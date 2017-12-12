@@ -83,16 +83,16 @@
 @Flag(NoStrokeEdge, MetronomeOn) @ShowImage @RT(Careful you don't reach the edge,Stay off the edge,don't edge), @RT(I want you desperate!,I want you frustrated,I need you filled with lust) - @FollowUp20(Maybe I should just let you edge and never orgasm!) #StrokeNormal
 @Flag(MaybeStrokeEdge, MetronomeOn) @ShowImage @RT(If I was you,Careful..,Calm down..) @RT(I would play it safe and not edge!,You never know the dangers of edging,Edging can be dangerous) Then again I would love @RT(spanking,hurting,torturing) you! #StrokeNormal
 @Flag(YesStrokeEdge, MetronomeOn) @ShowImage @RT(There is something amazing about,I just can't get enough of,I could watch you) @RT(edging all day!,stroking all day,frustration all day) - @RT(glad,happy,thrilled) that I'm not you! #StrokeNormal
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
-@Flag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
 @Flag(MetronomeOn) @NullResponse @ShowImage
 @Flag(MetronomeOn) @NullResponse @ShowImage
 @Flag(MetronomeOn) @NullResponse @ShowImage

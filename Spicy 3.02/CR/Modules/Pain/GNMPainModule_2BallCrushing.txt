@@ -2,7 +2,7 @@
 @NotFlag(BallCrusherPlay) @NullResponse @CallReturn(CR\Modules\Alternative_Chastity\*.txt)
 @NotFlag(BallCrusherPlay) @NullResponse @Goto(End2)
 #SlaveName @RT(I want to have a bit of fun with your #GNMBalls,Lets play a bit with those #GNMBalls) #DT
-#Fetch BallCrusher #DT
+#Fetch ball crusher #DT
 And attach it #GNMGrin #DT
 #GNMReady #DT
 [yes]#GNMGood #DT
@@ -46,11 +46,11 @@ It just shouldn't be painful #GNMGrin #DT
 (Rubber)
 This is going to hurt.. #DT
 I want you to fetch a large rubberband #DT
-Put the rubberband around the BallCrusher #DT
+Put the rubberband around the ball crusher #DT
 At this point it shouldn't add to the pressure #DT
 At least not too much #DT
 Now before we play with the rubberband #DT
-We need to tigthen that ballcrusher #DT
+We need to tigthen that ball crusher #DT
 I'm gonna give you a slideshow #DT
 With every new picture you are to twist the screws once #DT
 I will continue until we reach your highscore.. #DT @SetVar[MaxTwist]=[0] @TempFlag(Busy)
@@ -74,7 +74,7 @@ And release #GNMGrin #DT @SetVar[Strikes]=[0]
 @Variable[SubPain]=[1] @NullResponse @ChangeVar[Strikes]=[Strikes]+[#Random(2,8)] @Goto(Rubber2)
 (ATadMore)
 Just for me! #DT
-Give the BallCrusher @RT(half a twist,a full twist,two full twists) #DT
+Give the ball crusher @RT(half a twist,a full twist,two full twists) #DT
 #GNMGrin #DT
 (Rubber2)
 Once again #SlaveName #DT
@@ -144,11 +144,11 @@ Boobs, butt or hentai? #DT
 (Stop3)
 ... #DT @CustomMode(ModeText, Normal) #MeritChangeNHigh @DeleteFlag(Busy)
 Well I'm not sure what to say right now.. #DT
-Remove the BallCrusher #DT @Wait(25)
+Remove the ball crusher #DT @Wait(25)
 @End
 (End)
 You can relieve the pressure now #DT @DeleteFlag(Busy)
-Remove the BallCrusher #DT @Wait(25)
+Remove the ball crusher #DT @Wait(25)
 This was extremely hot! #DT
 @End
 (End2)
@@ -156,6 +156,6 @@ This was extremely hot! #DT
 @End
 (End3)
 You can relieve the pressure now #DT @DeleteFlag(Busy)
-Remove the BallCrusher #DT @Wait(25)
+Remove the ball crusher #DT @Wait(25)
 @RT(I hope they aren't dead!,I really hope those #GNMBalls aren't dead,You should probably take a look at those #GNMBalls #GNMLol) #DT
 @End

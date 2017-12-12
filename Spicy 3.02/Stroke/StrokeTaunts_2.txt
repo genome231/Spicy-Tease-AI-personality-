@@ -1,5 +1,5 @@
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Guess who's not cumming today!,Guess who won't be orgasming today!,Can you figure out who won't cum today?) @FollowUp20(*Hehe*) #StrokeNormal
-@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(You are right! It's you!,It's you, silly!,Of course it's you!) @RT(I mean who else who it be?,Of course it could had been another one of my slaves) @FollowUp20(*Smiles*)
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(You are right! It's you!,It's you, silly!,Of course it's you!) @RT(I mean who else could it be?,Of course it could had been another one of my slaves) @FollowUp20(*Smiles*)
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(There is something special about humiliation,There is something magical about a spanking,Do you feel the magical thing about ballbusting) @FollowUp20(...) #StrokeNormal
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(It's impossible to explain,I can't really explain it,Maybe I'm a sorceress!) and maybe @RT(you'll feel some of that magic,we'll practice it) today @FollowUp20(*Grin*)
 @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Degradation and humiliation,Pain and suffering,Denial and abstinence) @FollowUp20(*Smiles*) #StrokeNormal
@@ -42,7 +42,7 @@
 @Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(He didn't seem to have a problem with it,It didn't seem to bother him,I don't think it caused him any trouble) @FollowUp10(*Grin*)
 @Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(#F1,#F2,#F3) Was vibrated on intense setting yesterday @FollowUp10(*Buzzing*) #StrokeFast
 @Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(You should have seen her face when I said she was not to cum!,Oh my was she in trouble!,Her face was priceless) @FollowUp10(*Lol)
-@Flag() @NullResponse @ShowImage
+@NullResponse @ShowImage
 @NullResponse @ShowImage
 @NullResponse @ShowImage
 @NullResponse @ShowImage
@@ -83,7 +83,7 @@
 @NullResponse @ShowImage
 @NullResponse @ShowImage
 @Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Guess who's not cumming today!,Guess who won't be orgasming today!,Can you figure out who won't cum today?) @FollowUp20(*Hehe*) 
-@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(You are right! It's you!,It's you silly!,Of course it's you!) @RT(I mean who else who it be?,Of course it could had been another one of my slaves) @FollowUp20(*Smiles*)
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(You are right! It's you!,It's you silly!,Of course it's you!) @RT(I mean who else could it be?,Of course it could had been another one of my slaves) @FollowUp20(*Smiles*)
 @Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(There is something special about humiliation,There is something magical about a spanking,Do you feel the magical thing about ballbusting) @FollowUp20(...) 
 @Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(It's impossible to explain,I can't really explain it,Maybe I'm a sorceress!) and maybe @RT(you'll feel some of that magic,we'll practice it) today @FollowUp20(*Grin*)
 @Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Degradation and humiliation,Pain and suffering,Denial and abstinence) @FollowUp20(*Smiles*) 

@@ -43,7 +43,7 @@
 (a)
 @NotFlag(PrivateHumActive) @NullResponse @Goto(Choose)
 @NullResponse @SetFlag(ChoreAlt2a)
-@SystemMessage #VANC #VANP @RT(Time for some laughs!,Lets make me laugh!) @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP @RT(Time for some laughs!,Let's make me laugh!) @SetFlag(ChoreActive)
 (aContinued)
 @SystemMessage #VANC #VANP @RT(Get naked and on all fours,Hurry up and be naked then get down on all fours)
 @SystemMessage #VANC #VANP I want you to walk on all fours to the kitchen, get a bowl and fill it water
@@ -75,7 +75,7 @@
 @SystemMessage #VANC #VANP Let me reward that #GNMGrin #GoldMedium @Goto(End)
 (cContinued)
 (c)
-@SystemMessage #VANC #VANP @RT(Lets practice one of your positions,Lets have you do one of the positions) @SetFlag(ChoreAlt2c)
+@SystemMessage #VANC #VANP @RT(Let's practice one of your positions,Let's have you do one of the positions) @SetFlag(ChoreAlt2c)
 @SystemMessage #VANC #VANP I'm gonna show you a position and I want you to take and hold it until you hear my bell @SetFlag(ChoreActive) @Goto(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16)
 (c1)
 @SystemMessage #VANC Remember position 1 is called the Bad Bitch @LockImages @ShowImage[\GNMImages\Positions\BadBitch2.jpg] @Goto(cTimer)
@@ -136,7 +136,7 @@
 [no]@SystemMessage #VANC #VANP Well then what I had in mind won't work.. @SetFlag(ChoreAlt2eNoGood)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (ChoreAlt2eGood)
-@SystemMessage #VANC #VANP Lets see if we can come to terms! @Goto(e1,e2,e3,e4,e5,e6)
+@SystemMessage #VANC #VANP Let's see if we can come to terms! @Goto(e1,e2,e3,e4,e5,e6)
 (e1)
 @SystemMessage #VANC #VANP Would you be willing to stand naked in front of your public window for 100 gold?
 [yes]@SystemMessage #VANC #VANP Excellent! @Goto(MirrorNaked100)
@@ -205,7 +205,7 @@
 (fContinued)
 (f)
 @NullResponse @SetFlag(ChoreAlt2f)
-@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Lets make you spend some time on the floor) @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Let's make you spend some time on the floor) @SetFlag(ChoreActive)
 @SystemMessage #VANC In just a moment you'll be in the worship position @ShowImage[\GNMImages\Positions\Worship1.jpg]
 @SystemMessage #VANC While in the worship position I want you to repeat the follow sentence over and over.. @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(f1,f2,f3)
 (f1)
@@ -221,16 +221,16 @@
 (Bellc)
 @SystemMessage #VANC #VANP Get back up #SlaveName @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 (Donec)
-@SystemMessage #VANC #VANP @RT(Moving on,Lets continue).. @DeleteFlag(ChoreAlt2f) #MeritChangePLow
+@SystemMessage #VANC #VANP @RT(Moving on,Let's continue).. @DeleteFlag(ChoreAlt2f) #MeritChangePLow
 @SystemMessage #VANC #VANP Let me reward that #GNMGrin #GoldLow @Goto(End)
 (gContinued)
 (g)
 @NullResponse @SetFlag(ChoreAlt2g)
-@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Lets make you spend some time on the floor) @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Let's make you spend some time on the floor) @SetFlag(ChoreActive)
 @SystemMessage #VANC In just a moment you'll be in the worship position @ShowImage[\GNMImages\Positions\Worship1.jpg]
 @SystemMessage #VANC While in the worship position I want you to repeat the follow sentence over and over.. @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(g1,g2,g3)
 (g1)
-@SystemMessage #VANC "My cock exist to be denied any pleasure in honor of the Divinity" @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(Timeg)
+@SystemMessage #VANC "My cock exists to be denied any pleasure in honor of the Divinity" @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(Timeg)
 (g2)
 @SystemMessage #VANC "My cock is encased in steel to honor the Divinity" @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(Timeg)
 (g3)
@@ -242,12 +242,12 @@
 (Bellg)
 @SystemMessage #VANC #VANP Get back up #SlaveName @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 (Doneg)
-@SystemMessage #VANC #VANP @RT(Moving on,Lets continue).. @DeleteFlag(ChoreAlt2g) #MeritChangePLow
+@SystemMessage #VANC #VANP @RT(Moving on,Let's continue).. @DeleteFlag(ChoreAlt2g) #MeritChangePLow
 @SystemMessage #VANC #VANP Let me reward that #GNMGrin #GoldMedium @Goto(End)
 (hContinued)
 (h)
 @NullResponse @SetFlag(ChoreAlt2h)
-@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Lets make you spend some time on the floor) @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Let's make you spend some time on the floor) @SetFlag(ChoreActive)
 @SystemMessage #VANC In just a moment you'll be in the worship position @ShowImage[\GNMImages\Positions\Worship1.jpg]
 @SystemMessage #VANC While in the worship position I want you to repeat the follow sentence over and over.. @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(h1,h2,h3)
 (h1)
@@ -263,12 +263,12 @@
 (Bellh)
 @SystemMessage #VANC #VANP Get back up #SlaveName @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 (Done6)
-@SystemMessage #VANC #VANP @RT(Moving on,Lets continue).. @DeleteFlag(ChoreAlt2h) #MeritChangePLow
+@SystemMessage #VANC #VANP @RT(Moving on,Let's continue).. @DeleteFlag(ChoreAlt2h) #MeritChangePLow
 @SystemMessage #VANC #VANP Let me reward that #GNMGrin #GoldMedium @Goto(End)
 (iContinued)
 (i)
 @NullResponse @SetFlag(ChoreAlt2i)
-@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Lets make you spend some time on the floor) @SetFlag(ChoreActive)
+@SystemMessage #VANC #VANP @RT(You're gonna spend some time on the floor,Let's make you spend some time on the floor) @SetFlag(ChoreActive)
 @SystemMessage #VANC In just a moment you'll be in the worship position @ShowImage[\GNMImages\Positions\Worship1.jpg]
 @SystemMessage #VANC While in the worship position I want you to repeat the follow sentence over and over.. @ShowImage[\GNMImages\Positions\Worship1.jpg] @Goto(i1,i2,i3)
 (i1)
@@ -285,7 +285,7 @@
 (Belli)
 @SystemMessage #VANC #VANP Get back up #SlaveName @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 (Donei)
-@SystemMessage #VANC #VANP @RT(Moving on,Lets continue).. @DeleteFlag(ChoreAlt2i) #MeritChangePLow
+@SystemMessage #VANC #VANP @RT(Moving on,Let's continue).. @DeleteFlag(ChoreAlt2i) #MeritChangePLow
 @SystemMessage #VANC #VANP Let me reward that #GNMGrin #GoldMedium @Goto(End)
 
 

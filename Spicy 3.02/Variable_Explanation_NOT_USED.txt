@@ -155,6 +155,7 @@ General:
 #TODO: Fix ass level in other files (AnalHumilation)
 #TODO: Report for exercise is unnecessary or should be changed (GNMBackgroundBase)
 #TODO: Fix chores
+#TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 

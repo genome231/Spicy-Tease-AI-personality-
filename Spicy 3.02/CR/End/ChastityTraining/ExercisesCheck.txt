@@ -11,6 +11,7 @@ Tell me #SlaveName, why were you unable to complete the assignment?
 (EndFail)
 Anyhow not completing your @RT(task,assignment) displeases me #DT
 But I guess in the end this means you just don't get to cum #GNMGrin #DT @SetVar[CTasksInARow]=[0] @SetVar[ChastityEXPMultiplier]=[1]
+Complete your task until the next session #DT
 @End
 (Afraid)
 @RT(You must not be afraid of it showing in public,You will have to deal with that) #SlaveName #GNMLol #DT @SetFag(gdChastityAfraid)
@@ -39,7 +40,7 @@ You have completed your chastity @RT(assignments,tasks) for the last 10 days #DT
 Because you have been acting that disciplined I will reward you with three times the chastity exp from now on #DT @SetVar[ChastityEXPMultiplier]=[3] @Goto(End)
 (5)
 You have been following my chastity @RT(assignments,tasks) for 5 days in a row now #DT
-Thus I will multiply your chastity exp by 2 from now on @SetVar[ChastityEXPMultiplier]=[2] @Goto(End)
+Thus I will multiply your chastity exp by 2 from now on #DT @SetVar[ChastityEXPMultiplier]=[2]
 (End)
 @Variable[ChastityLevel]>[25] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(5,15)] @Goto(End2)
 @Variable[ChastityLevel]>[20] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(10,20)] @Goto(End2)
@@ -49,8 +50,9 @@ Thus I will multiply your chastity exp by 2 from now on @SetVar[ChastityEXPMulti
 @Variable[ChastityLevel]>=[1] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(30,40)] @Goto(End2)
 (End2)
 @NullResponse @RapidCodeOn @ChangeVar[ChastityXP]=[ChastityXP]+[ChastityRewardEXP] 
-I updated your exp and points.. #DT @SetFlag(CAssignmentDone) @Flag(gdChastityAfraid,LatestCTTaskAfraid) @Goto(gdChastityAfraid)
-@End
+I updated your exp and points.. #DT @SetFlag(CAssignmentDone)
+@NullResponse @Flag(gdChastityAfraid,LatestCTTaskAfraid) @Goto(gdChastityAfraid)
+@NullResponse @Goto(End3)
 (gdChastityAfraid)
 Tell me, are you still afraid of your cage showing in the public? #DT @DeleteFlag(LatestCTTaskAfraid)
 [yes] @RT(I guess we will need to work on that,Trust me we will work on that,Looks like my job is not done yet) #SlaveName #GNMGrin #DT @Goto(End3)

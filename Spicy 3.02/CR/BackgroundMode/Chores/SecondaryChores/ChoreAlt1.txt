@@ -32,21 +32,21 @@
 @SystemMessage #VANC #VANP You're not getting out of this chore before you complete it! @Goto(fContinued)
 (aContinued)
 (a) 
-@SystemMessage #VANC #VANP @RT(Time to do something important,Lets have you do something important) @SetFlag(ChoreAlt1a)
+@SystemMessage #VANC #VANP @RT(Time to do something important,Let's have you do something important) @SetFlag(ChoreAlt1a)
 @SystemMessage #VANC #VANP @RT(I want you to spend,You must spend) 20 minutes searching and storing new porn, sexy images etc. @SetFlag(ChoreActive)
 @SystemMessage #VANC #VANP @RT(Update #DomName's sweet arsenal of teasing weapons to use against you,Give #DomName new weapons to use against you)
 @SystemMessage #VANC #VANP Starting the timer now, you'll hear a bell when I want you back
 @SystemMessage #VANC #VANP Enjoy! 
 @NullResponse @Wait(1200)
 @SystemMessage #VANC #VANP @RT(Get back here,Time to get back) @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
-@SystemMessage #VANC #VANP @RT(Lets move on..,Moving on,Lets continue) @DeleteFlag(ChoreAlt1a) #MeritChangePLow
+@SystemMessage #VANC #VANP @RT(Let's move on..,Moving on,Let's continue) @DeleteFlag(ChoreAlt1a) #MeritChangePLow
 @SystemMessage Let me reward that #GNMGrin #GoldMedium
 @NullResponse @Goto(End)
 (bContinued)
 (b)
 @SystemMessage #VANC #VANP @RT(Right now I want you to go to Milovana.com,Go to Milovana.com) @SetFlag(ChoreAlt1b)
 @SystemMessage #VANC #VANP @RT(Find a tease and just read it,Find a good tease and just read it) @SetFlag(ChoreActive)
-@SystemMessage #VANC #VANP don't follow any instructions, just read through it.. @Wait(300)
+@SystemMessage #VANC #VANP Don't follow any instructions, just read through it.. @Wait(300)
 @SystemMessage #VANC #VANP Ready to continue?
 [yes]@SystemMessage #VANC #VANP #GNMGood
 [no]@SystemMessage #VANC #VANP A few minutes more then.. @Wait(120)
@@ -56,7 +56,7 @@
 @NullResponse @Goto(End)
 (cContinued)
 (c)
-@SystemMessage #VANC #VANP @RT(Time to be creative,Lets do something fun!) @SetFlag(ChoreAlt1c)
+@SystemMessage #VANC #VANP @RT(Time to be creative,Let's do something fun!) @SetFlag(ChoreAlt1c)
 @SystemMessage #VANC #VANP @RT(I want you to plan,You're gonna plan,You need to plan) a selfbondage scenario! #GNMEmoteHappy @SetFlag(ChoreActive)
 @SystemMessage #VANC #VANP Take the time you need, but spend at least 5 minutes, when you're done save it or share it on Milovana forum @Wait(300)
 @SystemMessage #VANC #VANP Are you ready to continue?
@@ -68,7 +68,7 @@
 @NullResponse @Goto(End)
 (dContinued)
 (d)
-@SystemMessage #VANC #VANP @RT(Lets test your memory,Time for a memory test!,Lets see how sharp that brain of yours is..) @SetFlag(ChoreAlt1d)
+@SystemMessage #VANC #VANP @RT(Let's test your memory,Time for a memory test!,Let's see how sharp that brain of yours is..) @SetFlag(ChoreAlt1d)
 @SystemMessage #VANC #VANP @RT(I expect you to know the house rules by heart,#DomHonorific expects you to know the house rules by heart!) @SetFlag(ChoreActive)
 @SystemMessage #VANC #VANP @RT(Word by word,Letter by letter) @Goto(d1,d2,d3,d4,d5,d6,d7,d8)
 (d1)
@@ -119,7 +119,7 @@
 @NullResponse @DeleteFlag(ChoreAlt1e)
 @NullResponse @Goto(End)
 (f)
-@SystemMessage #VANC #VANP @RT(Lets work on your creative skills,Time to get creative!) 
+@SystemMessage #VANC #VANP @RT(Let's work on your creative skills,Time to get creative!) 
 @SystemMessage #VANC #VANP @RT(You are to write a short story,You're gonna write a shory story)
 @SystemMessage #VANC #VANP When you're done your gonna post it on a thread in milovana.com
 @SystemMessage #VANC #VANP well you don't "have to do it"

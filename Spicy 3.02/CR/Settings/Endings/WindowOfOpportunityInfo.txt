@@ -1,0 +1,12 @@
+@SystemMessage #VANC #VANP Window of Opportunity is a dice game
+@SystemMessage #VANC #VANP You have a total number of strokes starting at 0
+@SystemMessage #VANC #VANP After each session you will roll two 6 sided dices
+@SystemMessage #VANC #VANP The number rolled gets added to your total number of strokes
+@SystemMessage #VANC #VANP Besides that you have windows of opportunity
+@SystemMessage #VANC #VANP There is a 12 hour interval within an interval of 2 to 5 days
+@SystemMessage #VANC #VANP If you roll the dices in that interval you will be asked if you wish to try your luck
+@SystemMessage #VANC #VANP If you try your luck you will stroke a number of times equal to your total number
+@SystemMessage #VANC #VANP Fail to cum with the given number of strokes and you won't cum
+@SystemMessage #VANC #VANP You may not decide the stroking pace yourself
+@SystemMessage #VANC #VANP If you try your luck you will roll a final die that decies the pace for you
+@End

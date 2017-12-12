@@ -63,11 +63,11 @@
 @SystemMessage #VANC Also notice how 3 rooms have the same number because they were added together.. @ShowImage[\GNMImages\Home\*.*]
 (Rooms)
 @SystemMessage #VANC #VANP How many rooms in your #Home are you responsible for cleaning?
-[1]@SystemMessage #VANC #VANP Okay.. @SetFlag(1Room) 
-[2]@SystemMessage #VANC #VANP Okay.. @SetFlag(2Room) 
-[3]@SystemMessage #VANC #VANP Okay.. @SetFlag(3Room)
-[4]@SystemMessage #VANC #VANP Okay.. @SetFlag(4Room) 
-[5]@SystemMessage #VANC #VANP Okay.. @SetFlag(5Room)
+[1]@SystemMessage #VANC #VANP You will find yourself often cleaing that one room @SetFlag(1Room) 
+[2]@SystemMessage #VANC #VANP As a proper slave you should take care of more than two rooms @SetFlag(2Room) 
+[3]@SystemMessage #VANC #VANP Three rooms sounds decent @SetFlag(3Room)
+[4]@SystemMessage #VANC #VANP You will keep them clean from now one @SetFlag(4Room) 
+[5]@SystemMessage #VANC #VANP I love making you clean and I hope you love it too because there is gonna be a lot of it @SetFlag(5Room)
 @DifferentAnswer @SystemMessage #VANC #VANP 1, 2, 3, 4 or 5? It cannot be more than 5 rooms
 @SystemMessage #VANC #VANP Next..
 @SystemMessage #VANC #VANP Do like getting kinky while cleaning?
@@ -80,5 +80,6 @@
 (MoveAlong1)
 @SystemMessage #VANC #VANP Great!
 @SystemMessage #VANC #VANP I think I have all I need for now #GNMGrin
+@NullResponse @SetFlag(FirstChoreRun)
 (End)
 @End
