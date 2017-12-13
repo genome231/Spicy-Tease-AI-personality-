@@ -1,6 +1,6 @@
-@Variable[#DateDifference(TeaseSession,Hours)]>[20] @NullResponse @RapidCodeOn @Goto(TestSession)
+@Variable[#DateDifference(TeaseSession,Hours)]>=[16] @NullResponse @RapidCodeOn @Goto(TestSession)
 @SystemMessage #VANC #VANP Slave you had a session recently 
-@Variable[#DateDifference(TeaseSession,Hours)]>[17] @SystemMessage #VANC #VANP You will be eligible for a session again soon @Goto(End)
+@Variable[#DateDifference(TeaseSession,Hours)]>[14] @SystemMessage #VANC #VANP You will be eligible for a session again soon @Goto(End)
 @NullResponse @Goto(End)
 (TestSession)
 @NullResponse @If[GNMPPoints]>[400]Then(Deny1)
@@ -23,7 +23,7 @@
 @Variable[#DateDifference(TeaseSession, Hours)]>[58] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(6,20)] @Goto(StartSession2)
 @Variable[#DateDifference(TeaseSession, Hours)]>[36] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(StartSession2)
 (StartSession2)
-@NullResponse @SetDate(TeaseSession,0 Hours) @Interrupt(GNMStart)
+@NullResponse @Interrupt(GNMStart)
 (End)
 @End
 
