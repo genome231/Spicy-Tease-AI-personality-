@@ -11,7 +11,7 @@
 [hello,greetings,hey,hi] #DT #MeritChangePLow @Goto(Continue)
 @AcceptAnswer #DT @Goto(Continue)
 (NoGreeting)
-@RT(Not feeling like greeting your domme today,Seems like you are not in the mood to greet me,Being impolite today,Being rude today) #SlaveName? #DT MeritChangeNHigh
+@RT(Not feeling like greeting your domme today,Seems like you are not in the mood to greet me,Being impolite today,Being rude today) #SlaveName? #DT #MeritChangeNHigh
 I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
 (Continue)
 @NotFlag(FirstSessionD) @NullResponse @RapidCodeOn @SetFlag(FirstSessionD) @Goto(Unlock)
