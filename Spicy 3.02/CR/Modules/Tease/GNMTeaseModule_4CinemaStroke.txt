@@ -399,12 +399,12 @@ Lets begin.. #DT @SetVar[Right]=[0]
 (Guess)
 <Font color="orange">Answer?</Font> @InputVar[CardChosen] @Timeout(7, Failed)
 @Variable[CardChosen]=[CardValue] @SystemMessage <Font color="green">Correct!</Font> @ChangeVar[Right]=[Right]+[1] 
-@Variable[CardChosen]=[CardValue] @NullResponse @If[Right]>=[7]Then(Reward) @Wait(5) @Goto(Setup)
-@Variable[CardChosen]<>[CardValue] @SystemMessage <Font color="red">Incorrect!</Font> @ChangeVar[Wrong]=[Wrong]+[1] 
-@Variable[CardChosen]<>[CardValue] @NullResponse @If[Wrong]>=[7]Then(Wrong) @Wait(5) @Goto(Setup)
+@Variable[CardChosen]=[CardValue] @NullResponse @If[Right]>=[7]Then(Reward) @Goto(Setup)
+@Variable[CardChosen]<>[CardValue] <Font color="red">Incorrect!</Font>  <Font color="black">It was the @ShowVar[CardValue], #SlaveName! </Font> @ChangeVar[Wrong]=[Wrong]+[1] 
+@Variable[CardChosen]<>[CardValue] @NullResponse @If[Wrong]>=[7]Then(Wrong) @Goto(Setup)
 (Failed)
-@Variable[CardChosen]<>[CardValue] @SystemMessage <Font color="red">Too slow</Font> @ChangeVar[Wrong]=[Wrong]+[1] 
-@NullResponse @If[Wrong]>=[7]Then(Wrong) @Wait(5) @Goto(Setup)
+@SystemMessage <Font color="red">Too slow</Font> @ChangeVar[Wrong]=[Wrong]+[1] 
+@NullResponse @If[Wrong]>=[7]Then(Wrong) @Goto(Setup)
 (Reward)
 That was 7 right! #DT
 So here is 150 gold #DT @ChangeVar[GNMGold]=[GNMGold]+[150]
