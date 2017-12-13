@@ -1,3 +1,4 @@
+@NullResponse @SetDate(TeaseSession,0 Hours)
 @NullResponse @AFKOn @CallReturn(CR\End\RunEndDayCheck.txt)
 @Variable[#DateDifference(PDenial, Hours)]<[PDenialSet] @NullResponse @Goto(ChastityPunishment)
 @Variable[#DateDifference(TimeSinceO, Days)]>=[HardOTimeLimit] @NullResponse @Goto(HardLimit) 
