@@ -24,13 +24,13 @@
 [info, help] @NullResponse @Goto(Info)
 @AcceptAnswer @NullResponse @Goto(Options)
 (P1)
-@SystemMessage #VANC #VANP You currently have Pain treshhold set at @ShowVar[SubPain]
+@SystemMessage #VANC #VANP You currently have pain treshhold set at @ShowVar[SubPain]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubPain]
 @Variable[SubPain]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubPain]<[1] @SystemMessage #VANC #VANP  The value chosen is lower than 1 @Goto(P1)
 @SystemMessage #VANC #VANP New value accepted.. @Goto(Options)
 (P2)
-@SystemMessage #VANC #VANP You currently have Pain endurance set at @ShowVar[SubPainTolerance]
+@SystemMessage #VANC #VANP You currently have pain endurance set at @ShowVar[SubPainTolerance]
 @SystemMessage #VANC #VANP Input a new value, it must be between 1-10 @InputVar[SubPainTolerance]
 @Variable[SubPainTolerance]>[10] @SystemMessage #VANC #VANP The value chosen is higher than 10 @Goto(P1)
 @Variable[SubPainTolerance]<[1] @SystemMessage #VANC #VANP  The value chosen is lower than 1 @Goto(P1)
@@ -81,7 +81,7 @@
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
 @SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6c)
 (P6d)
-@SystemMessage #VANC #VANP Input a value for  modules @InputVar[SlaveModule]
+@SystemMessage #VANC #VANP Input a value for Slave modules @InputVar[SlaveModule]
 @Variable[SlaveModule]<[100]AND[SlaveModule]>[1] @SystemMessage #VANC #VANP Good, everything is set @NullResponse @Goto(Options)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
 @SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6d)
