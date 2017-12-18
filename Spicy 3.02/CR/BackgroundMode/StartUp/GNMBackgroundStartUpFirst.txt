@@ -272,6 +272,15 @@
 [punishment,punish]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
 [fulltime,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
+(Ass)
+@SystemMessage #VANC #VANP Slave I don't know whether you have any experience when it comes to ass play
+@SystemMessage #VANC #VANP Meaning fucking yourself or wearing butt plugs
+@SystemMessage #VANC #VANP Are you experience and capable of wearing butt plugs on a daily basis..
+@SystemMessage #VANC #VANP And fucking yourself with a huge dildo?
+@SystemMessage #VANC #VANP You should answer this thruthfully for your own good
+[yes]@SystemMessage #VANC #VANP I hope you are ready for that then.. @SetVar[AssLevel]=[30] @Goto(Denial)
+[no]@SystemMessage #VANC #VANP I guess that means #DomHonorific will work on this with you @SetFlag(AssTrainingActive) @SetVar[AssLevel]=[1]
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (Denial)
 @SystemMessage #VANC #VANP Slave I don't know how well you handle denial
 @SystemMessage #VANC #VANP And neither does your #DomHonorific
@@ -325,7 +334,6 @@
 @SystemMessage #VANC #VANP Folder 1 is for @ShowVar[BlackmailName1]
 @SystemMessage #VANC #VANP Folder 2 is for @ShowVar[BlackmailName2]
 @SystemMessage #VANC #VANP Folder 3 is for @ShowVar[BlackmailName3]
-
 @SystemMessage #VANC #VANP Should you ever think of quiting your service to the #DomHonorific
 @SystemMessage #VANC #VANP This will make sure you don't #GNMLol
 @SystemMessage #VANC #VANP Don't worry you'll be reminded to serve properly!
@@ -473,7 +481,7 @@
 [play,punish,punishment,both] @NullResponse @Goto(Toy8*)
 @DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
 (Toy9*)
-@SystemMessage #VANC #VANP Do you want the Vibrator to be used for play, punishment or both?
+@SystemMessage #VANC #VANP Do you want the vibrator to be used for play, punishment or both?
 [play]@NullResponse @SetFlag(VibratorPlay) @DeleteFlag(VibratorPunishment)
 [punishment,punish]@NullResponse @SetFlag(VibratorPunishment) @DeleteFlag(VibratorPlay)
 [both]@NullResponse @SetFlag(VibratorPlay) @SetFlag(VibratorPunishment)
@@ -491,6 +499,16 @@
 [both]@NullResponse @SetFlag(CollarPlay) @SetFlag(CollarPunishment)
 @DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
 (Toy11)
+@SystemMessage #VANC Do you own an enema kit?
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(ToyEnema)
+[no]@SystemMessage #VANC #VANP #GNMEmoteSad @DeleteFlag(ToyEnema) @Goto(Toy12)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+@SystemMessage #VANC #VANP Do you want the enema kit to be used for play, punishment or both?
+[play]@NullResponse @SetFlag(EnemaPlay) @DeleteFlag(EnemaPunishment)
+[punishment,punish]@NullResponse @SetFlag(EnemaPunishment) @DeleteFlag(EnemaPlay)
+[both]@NullResponse @SetFlag(EnemaPlay) @SetFlag(EnemaPunishment)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or both?
+(Toy12)
 @SystemMessage #VANC #VANP The stroking part uses the Tease-AI-metronome and the Spicy-metronome as a standard
 @SystemMessage #VANC #VANP You need to disable one! 
 @SystemMessage #VANC #VANP You can turn the Tease-AI-metronome off when you go Apps(top-left)-> Metronome-> uncheck Enable Metronome

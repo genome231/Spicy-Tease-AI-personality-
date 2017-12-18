@@ -6,17 +6,17 @@
 (Select)
 @Flag(HumiliationUpdate3) @Variable[AssLevel]>[100] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l,Sess1,Sess2,Sess3,Sess4)
 @Flag(HumiliationUpdate3) @Variable[AssLevel]>[90] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l,Sess1,Sess2)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[80] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[70] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[60] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[50] @NullResponse @Goto(a,b,c,d,e,f,g,h,i)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[40] @NullResponse @Goto(a,b,c,d,e,f,g,h)
-@Flag(HumiliationUpdate3) @Variable[AssLevel]>[30] @NullResponse @Goto(a,b,c,d,e,f,g)
-@Variable[AssLevel]>[25] @NullResponse @Goto(a,b,c,d,e,f)
-@Variable[AssLevel]>[20] @NullResponse @Goto(a,b,c,d,e)
-@Variable[AssLevel]>[15] @NullResponse @Goto(a,b,c,d)
-@Variable[AssLevel]>[10] @NullResponse @Goto(a,b,c)
-@Variable[AssLevel]<=[5] @NullResponse @Goto(a,b)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>=[30] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[27] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[24] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[21] @NullResponse @Goto(a,b,c,d,e,f,g,h,i)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[18] @NullResponse @Goto(a,b,c,d,e,f,g,h)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[15] @NullResponse @Goto(a,b,c,d,e,f,g)
+@Variable[AssLevel]>[13] @NullResponse @Goto(a,b,c,d,e,f)
+@Variable[AssLevel]>[10] @NullResponse @Goto(a,b,c,d,e)
+@Variable[AssLevel]>[7] @NullResponse @Goto(a,b,c,d)
+@Variable[AssLevel]>[5] @NullResponse @Goto(a,b,c)
+@Variable[AssLevel]<=[3] @NullResponse @Goto(a,b)
 (a) //Finger
 @RT(You'll simply use a finger,You only have to use your finger) #DT
 @RT(You might want to lube it up a little,You should probably use a bit of lube) #DT @Wait(10)
@@ -195,5 +195,5 @@ You may not rise until the slideshow is over! #DT @SetVar[SlideShow]=[0] @TempFl
 (Sess3) \\Extended session with progressive anal play
 (Sess4) \\Extended session with progressive anal play
 (End)
-@NullResponse @PlayAudio[\GNMSounds\PictureComments\Pussy\NoSound.mp3] @ChangeVar[AssLevel]=[AssLevel]+[1] @DeleteFlag(Busy)
+@NullResponse @DeleteFlag(Busy)
 @End

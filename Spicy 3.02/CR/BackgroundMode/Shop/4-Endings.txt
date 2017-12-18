@@ -16,14 +16,16 @@
 @Flag(EndGame9) @SystemMessage #VANC #VANP Game 9: Treasure Hunt
 @Flag(EndGame10) @SystemMessage #VANC #VANP Game 10: Authors game
 @Flag(EndGame11) @SystemMessage #VANC #VANP Game 11: Window Of Opportunity
+(StartQuestion)
 @SystemMessage #VANC #VANP A new end-game costs 750 gold @RapidTextOff
-@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You don't have enough gold
-@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold @Goto(End)
-@SystemMessage #VANC #VANP Do you wish to make a purchase?
-[yes]@NullResponse @Goto(Buy)
-[no]@NullResponse @Goto(End)
+@SystemMessage #VANC #VANP Do you wish to make a purchase, get some information or exit?
+[buy,purchase,unlock]@NullResponse @Goto(Buy)
+[exit,leave]@NullResponse @Goto(End)
+[info]@NullResponse @Goto(InfoQuestion)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
 (Buy)
+@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You don't have enough gold
+@Variable[GNMGold]<[750] @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold @Goto(End)
 @SystemMessage #VANC #VANP You have the following available for purchase @RapidTextOn
 @NotFlag(EndGame1) @SystemMessage #VANC #VANP Game 1: Denial Training
 @NotFlag(EndGame2) @SystemMessage #VANC #VANP Game 2: Beads Deep
@@ -100,6 +102,23 @@
 @End
 (End)
 @End
+(InfoQuestion)
+@SystemMessage #VANC #VANP What game would you like to know more about?
+[denial] #VANC #VANP This game is not implemented yet @Goto(InfoQuestion)
+[beads deep]@NullResponse @CallReturn(CR\Settings\Endings\BeadsDeepInfo.txt)
+[valley of darkness]@NullResponse @CallReturn(CR\Settings\Endings\ValleyOfDarknessInfo.txt)
+[edge of desperation]@NullResponse @CallReturn(CR\Settings\Endings\EdgeOfDesperationInfo.txt)
+[frequent flyer]@NullResponse @CallReturn(CR\Settings\Endings\FrequentFlyerInfo.txt)
+[training mode] @SystemMessage #VANC #VANP @CallReturn(CR\Settings\Endings\TrainingInfo.txt)
+[orgasm roulette]@NullResponse @CallReturn(CR\Settings\Endings\OrgasmRouletteInfo.txt)
+[financial domination]@NullResponse @CallReturn(CR\Settings\Endings\FinancialDominationInfo.txt)
+[treasure hunt]@NullResponse @CallReturn(CR\Settings\Endings\TreasureHuntInfo.txt)
+[authors]@NullResponse @CallReturn(CR\Settings\Endings\AuthorsGameInfo.txt)
+[window]@NullResponse @CallReturn(CR\Settings\Endings\WindowOfOpportunityInfo.txt)
+[standard]@NullResponse @CallReturn(CR\Settings\Endings\StandardInfo.txt)
+[exit,quit,leave,buy,purchase,unlock]@NullResponse @Goto(StartQuestion)
+@DifferentAnswer @SystemMessage #VANC #VANP Come again?
+@NullResponse @Goto(InfoQuestion)
 (EndGame1) \\Denial Training
 (EndGame2) \\Beads Deep
 (EndGame3) \\Valley of Darkness

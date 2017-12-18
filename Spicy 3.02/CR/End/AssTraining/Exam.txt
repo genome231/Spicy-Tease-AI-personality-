@@ -1,28 +1,43 @@
 @Flag(AssExamActive) @Variable[#DateDifference(AssExam, Days)]>=[7]Then(ExamComplete) @NullResponse @Goto(DuringExam)
-@Flag(AssIsOn) Since you're locked I just need to input a few things.. Just a moment..  #DT
-@NotFlag(AssIsOn) Go ahead and put the #Cage on while I write down a few things..  #DT
+Your ass exam starts now #DT
+(StartExam)
 @NullResponse @SetDate(AssExam, 0 Days) @SetFlag(AssExamActive)
-Your exam starts now #DT
-You are to remain locked for 7 consecutive days! #DT
-Your only release time is if you are permitted in sessions! #DT
+You are to wear your small butt plug for 7 days in a row! #DT
+Your only time when you can remove it is to clean yourself and.. #DT
+Of course if I want to violate your ass in a different way #GNMLol #DT
+@NullResponse @NotFlag(gdAssToMouth) @Goto(Enema)
+@RT(Remember,Don't forget,Keep in mind) to properly lick your toys clean each day #GNMLol #SlaveName #DT
+(Enema)
+@NullResponse @NotFlag(ToyEnema) @Goto(End1)
+@RT(Don't forget,And also do,Remember,In addition do,Also do) your daily #EnemaLitreAmount litre enema #GNMGrin #DT
+(End1)
 Good luck #SlaveName #DT
-@CallReturn(CR\End\AssOn.txt)
+@End
 (ExamComplete)
 The time has come #SlaveName #DT @DeleteFlag(AssExamActive)
-Have you been locked up for the past 7 days? #DT
+Have you been wearing your butt plug for the last 7 days? #DT
 [yes]FANTASTIC! #DT
 [no]Awww thats too bad #GNMEmoteSad #DT @Goto(NotComplete)
 @DifferentAnswer #GNMYesOrNo #DT
-You've completed your exam! #DT
+You've completed your exam! #DT #MeritChangePHigh
 That's really great! #DT
 This means that you're training is over! #DT @DeleteFlag(AssTrainingActive)
-I want you to celebrate #DT #GDRegisterOrgasm
-Orgasm however you like! #DT
-Lock yourself back up afterwards! #GNMMoan #DT @SetFlag(AssIsOn) @AssOn @EndTease
-@CallReturn(CR\End\Farewell.txt)
+Even though I said you won't be rewarded for doing your task.. #DT
+The exam is something different #DT
+I want you to celebrate it #DT #GDRegisterOrgasm
+After this session you are allowed to orgasm however you like! #DT
+But.. #DT
+If I decide to lock you up you'll need to find a way to make you cum inside the #Cage #DT
+Use your vibrator or whatever you want to #DT
+Just don't remove that #Cage #DT
+Enjoy #GNMLol #DT
+@End
 (DuringExam)
-@NotFlag(AssIsOn) Since you're in the middle of your exam I simply want you to lock yourself up #DT
-Calm yourself and stay strong! #DT @SetFlag(AssIsOn) @AssOn
+You are hopefully still wearing that butt plug daily! #DT
+Because your exam hasn't ended yet #SlaveName #DT
+@End
 (NotComplete)
-Well maybe next time #SlaveName #DT
-@CallReturn(CR\End\AssOn.txt)
+You know that disappoints me #SlaveName #DT #MeritChangeNMedium
+Well.. #DT
+Let's restart the exam then #DT @Goto(StartExam)
+@End

@@ -203,7 +203,7 @@
 @SystemMessage #VANC #VANP Standard mode
 (InfoQuestion)
 @SystemMessage #VANC #VANP What game would you like to know more about?
-[denial]@NullResponse @CallReturn()
+[denial] #VANC #VANP This game is not implemented yet @Goto(InfoQuestion)
 [beads deep]@NullResponse @CallReturn(CR\Settings\Endings\BeadsDeepInfo.txt)
 [valley of darkness]@NullResponse @CallReturn(CR\Settings\Endings\ValleyOfDarknessInfo.txt)
 [edge of desperation]@NullResponse @CallReturn(CR\Settings\Endings\EdgeOfDesperationInfo.txt)
@@ -215,6 +215,7 @@
 [authors]@NullResponse @CallReturn(CR\Settings\Endings\AuthorsGameInfo.txt)
 [window]@NullResponse @CallReturn(CR\Settings\Endings\WindowOfOpportunityInfo.txt)
 [standard]@NullResponse @CallReturn(CR\Settings\Endings\StandardInfo.txt)
+[exit,quit,leave,edit,change] @NullResponse @Goto(Change)
 @DifferentAnswer @SystemMessage #VANC #VANP Come again?
 @NullResponse @Goto(InfoQuestion)
 (End)

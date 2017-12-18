@@ -8,6 +8,9 @@
 (ChastityTest)
 @NullResponse @AFKOff
 @NullResponse @CheckFlag(ChastityTrainingActive)
+@NullResponse @NotFlag(AssTrainingActive) @Goto(ChastityTest2)
+@NullResponse @CallReturn(CR\End\AssTraining\AssTrainingBase.txt)
+(ChastityTest2)
 @NullResponse @CheckFlag(ChastityIsOn)
 (SelectGame) //Check for games that are supposed to occur when session is ended
 @Flag(BeadsDeep) @NullResponse @CallReturn(CR\End\Games\BeadsDeep.txt)

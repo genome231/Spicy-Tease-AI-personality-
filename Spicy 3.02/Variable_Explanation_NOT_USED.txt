@@ -94,6 +94,7 @@ Copy paste stuff:
 @UnlockImages
 
 Plans:
+- Don't let domme always undress, ask domme to undress response
 Bugs:
 - BUG: Invalid width/length picture display
 - BUG: Fix halloween bosses
@@ -130,6 +131,8 @@ Modules:
 - Peg play more advanced = ropes etc., attach weights?
 General:
 - Enforcing personality and asking/soft personality. Enforcing is only limited by disabled fetishes
+Pin Board with daily notices
+- What enema and how big etc.
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
@@ -152,10 +155,12 @@ General:
 #TODO: Ask for enema
 #TODO: If update to newer version start specific update script that sets up missing things
 #TODO: Make sure toys are also all properly setup during re"setuping" them
-#TODO: Fix ass level in other files (AnalHumilation)
+#TODO: Add anal sessions as stated in 6anal humilation module
 #TODO: Report for exercise is unnecessary or should be changed (GNMBackgroundBase)
 #TODO: Fix chores
 #TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
+#TODO: Enema kit picture
+#TODO: Daily enema introduction if user decides to skip ass training
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 

@@ -18,6 +18,7 @@
 (HalfFinish)
 @NullResponse @UnlockImages @Call(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt) @info(Tease End after GNMFirstMeeting and delete Flag HalfFinish)
 (SpicyIntro)
+@NullResponse @CallReturn(CR\BackgroundMode\StartUp\Update\UpdateChecker.txt)
 @NullResponse @CheckFlag(GoddessMode)
 @NullResponse @CheckFlag(DivinityMode)
 @NullResponse @CheckFlag(DevilMode) @Goto(1,2,3)

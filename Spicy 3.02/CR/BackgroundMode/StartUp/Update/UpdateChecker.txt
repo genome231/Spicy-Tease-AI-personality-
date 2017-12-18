@@ -1,0 +1,4 @@
+@NullResponse @RapidCodeOn @Variable[InstalledSpicyVersion]<[FileSpicyVersion] @Goto(Update)
+@End
+(Update)
+@End

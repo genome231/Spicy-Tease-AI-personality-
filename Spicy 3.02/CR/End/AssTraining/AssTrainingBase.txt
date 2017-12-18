@@ -1,4 +1,6 @@
 @NullResponse @CheckFlag(FirstTimeAssTraining) 
+@NullResponse @NotFlag(AssTrainingActive) @Goto(End)
+@NullResponse @NotFlag(FirstTimeAssTraining) 
 @NullResponse @SetFlag(FirstTimeAssTraining)
 @NullResponse @CallReturn(CR\End\AssTraining\AssTrainingFirst.txt)
 @NullResponse @Goto(First)
@@ -8,9 +10,13 @@
 @NullResponse @CallReturn(CR\End\AssTraining\AssLevel.txt)
 @Variable[AssLevel]>=[30] @NullResponse @Goto(AssExamActive)
 @NullResponse @CheckFlag(ATAssignmentDone)
+@End
 (First)
 (ATAssignmentDone)
 @NullResponse @DeleteFlag(ATAssignmentDone)
 @NullResponse @CallReturn(CR\End\AssTraining\ExercisesSet.txt)
+@End
 (AssExamActive)
 @NullResponse @CallReturn(CR\End\AssTraining\Exam.txt)
+(End)
+@End
