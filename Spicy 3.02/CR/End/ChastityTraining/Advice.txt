@@ -13,7 +13,7 @@
 @RT(Being too big or too small also contributes to discomfort,Wether it's too big or small can create discomfort) #DT @Goto(End)
 (4)
 @RT(I will recommend you to use a rubber coated lock for your #Cage,I like to recommend a rubber coated padlock) #DT
-@RT(Protects against unwated pinching and noise,Removes the chance of pinching and noise!) #DT @Goto(End)
+@RT(Protects against unwanted pinching and noise,Removes the chance of pinching and noise!) #DT @Goto(End)
 (5)
 @RT(Trim your pubic hair,Make sure to trim those pubic hairs!) #DT
 @RT(don't shave it off completely since this might cause skin irritation,don't necesarrily remove it completely,, but keeping them short is really recommended) #DT
