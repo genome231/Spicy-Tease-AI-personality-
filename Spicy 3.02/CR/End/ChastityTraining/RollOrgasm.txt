@@ -17,7 +17,8 @@ Even if you're mid orgasm.. #DT
 (FirstOrgasmChastityT)
 @RT(Lets get this over with,Lets quickly do this,Lets make this happen fast..,Lets not waste too much of my time,Lets get this over,, I have other stuff to do..) #DT @LockImages
 To be clear this time you are to have a orgasm #DT @CustomMode(#ICame, Goto, Came)
-Timer has been started.. @ShowImage @Wait(#Random(90,300))
+Don't report when you reach the edge!
+@RT(Start! Your time is limited..,Timer has been started..) @ShowImage @Wait(#Random(90,300))
 @NullResponse @UnlockImages
 Stop! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
 Did you orgasm? #DT
