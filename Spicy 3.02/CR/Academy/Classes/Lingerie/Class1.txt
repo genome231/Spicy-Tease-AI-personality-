@@ -3,21 +3,21 @@
 Its called "Quick Thinking" #DT
 I'll show you a picture #DT
 You have to answer wether its a camisole, bodysuit, bustier or a chemise #DT
-But you have to do so within 4 seconds! #GNMGrin #DT @SetVar[LClass6]=[0] @ChangeVar[LClass6]=[LClass6]+[#Random(3, 5)]
+But you have to do so within 6 seconds! #GNMGrin #DT @SetVar[LClass6]=[0] @ChangeVar[LClass6]=[LClass6]+[#Random(3, 5)]
 As soon as you see the image the timer starts #DT
 (Choose)
 @RT(Hmmm..,Let see..,What to choose..,What to pick..,Hehe..) @ChangeVar[LClass6]=[LClass6]-[1] #DT @Goto(1,2,3,4)
 (1)
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Chemise\*.jpg] @CustomMode(chemise, Goto, Right) @Wait(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Chemise\*.jpg] @CustomMode(chemise, Goto, Right) @Wait(6)
 @NullResponse @CustomMode(ModeText, Normal) @Goto(Wrong)
 (2)
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Camisole\*.jpg] @CustomMode(camisole, Goto, Right) @Wait(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Camisole\*.jpg] @CustomMode(camisole, Goto, Right) @Wait(6)
 @NullResponse @CustomMode(ModeText, Normal) @Goto(Wrong)
 (3)
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bodysuit\*.jpg] @CustomMode(bodysuit, Goto, Right) @Wait(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bodysuit\*.jpg] @CustomMode(bodysuit, Goto, Right) @Wait(6)
 @NullResponse @CustomMode(ModeText, Normal) @Goto(Wrong)
 (4)
-@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.jpg] @CustomMode(bustier, Goto, Right) @Wait(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bustier\*.jpg] @CustomMode(bustier, Goto, Right) @Wait(6)
 @NullResponse @CustomMode(ModeText, Normal) @Goto(Wrong)
 (Right)
 @RT(You're Right,That was correct,Correct!,Right on,Good job #SlaveName) #DT @If[LClass6]<=[0]Then(End) @ChangeVar[AcademyScore]=[AcademyScore]+[10] @Goto(Choose)
