@@ -1,0 +1,21 @@
+@NullResponse @CheckFlag(PinboardInstructionDone)
+@SystemMessage #VANC #VANP Welcome #SlaveName to your pinboard @SetFlag(PinboardInstructionDone)
+@SystemMessage #VANC #VANP #DomHonorific #DomName will pin all tasks, reminders and messages to this board
+@SystemMessage #VANC #VANP All of them are of high importance so don't forget to check it daily
+@SystemMessage #VANC #VANP Most of them are just reminders though 
+@SystemMessage #VANC #VANP In case of reminders your domme should've already told you about them during a session @Goto(Confused)
+(PinboardInstructionDone)
+@SystemMessage #VANC #VANP What do you want to do?
+[read,entries,notice,pin] @NullResponse @Goto(Read)
+[return,exit,leave,end] @NullResponse @Goto(End)
+@AcceptAnswer @NullResponse @Goto(Confused)
+(Read)
+@SystemMessage #VANC #VANP Okay, I am gonna read all the entries on the pinboard to you
+@Flag(DailyEnema) @SystemMessage #VANC #VANP @RT(Don't forget,Do,Remember) your daily #EnemaLitreAmount litre enema #SlaveName
+@NullResponse @Goto(PinboardInstructionDone)
+(Confused)
+@SystemMessage #VANC #VANP You have the following options:
+@SystemMessage #VANC #VANP Read all entries
+@SystemMessage #VANC #VANP Return to the main menu @Goto(PinboardInstructionDone)
+(End)
+@End

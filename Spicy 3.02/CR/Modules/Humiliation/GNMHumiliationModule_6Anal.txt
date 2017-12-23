@@ -2,6 +2,7 @@
 @NullResponse @CallReturn(CR\End\AssTraining\AssIntro.txt)
 (HumModule6First)
 @RT(It's time to work that #GNMAss,Time to work on your #GNMAss,Let's have som fun with your #GNMAss) #DT
+@NullResponse @Flag(ToyEnema) @NotFlag(DailyEnema) @NullResponse @CallReturn(CR\End\AssTraining\AssEnemaIntro.txt)
 @RT(For today,Today..,Today) #DT
 (Select)
 @Flag(HumiliationUpdate3) @Variable[AssLevel]>[100] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l,Sess1,Sess2,Sess3,Sess4)

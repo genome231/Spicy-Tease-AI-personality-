@@ -25,6 +25,7 @@ M1R/M?R -> SpankzChoir flag and determines what domme is going to punish you (co
 M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determines what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
 SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted, used at the start of session so stroking starts instead of a random link
 Stroking (temp) -> Is stroking rn?
+ShopUnlockAll -> Unlock most things in the shop by default
 
 Fetish Flags: (Append _No if we asked and he doesn't want to)
 gdAnal
@@ -161,6 +162,7 @@ Pin Board with daily notices
 #TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
 #TODO: Enema kit picture
 #TODO: Daily enema introduction if user decides to skip ass training
+#TODO: Does this work? @Variable[AssLevel]>[20] @Variable[AssLevel]<=[25] 2.5
 
 Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 

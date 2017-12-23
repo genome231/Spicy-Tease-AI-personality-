@@ -5,6 +5,7 @@
 @NullResponse @CallReturn(CR\End\AssTraining\AssTrainingFirst.txt)
 @NullResponse @Goto(First)
 (FirstTimeAssTraining)
+@NullResponse @Flag(ToyEnema) @NotFlag(DailyEnema) @NullResponse @CallReturn(CR\End\AssTraining\AssEnemaIntro.txt)
 @NullResponse @CheckFlag(AssExamActive)
 @NullResponse @CallReturn(CR\End\AssTraining\ExercisesCheck.txt)
 @NullResponse @CallReturn(CR\End\AssTraining\AssLevel.txt)

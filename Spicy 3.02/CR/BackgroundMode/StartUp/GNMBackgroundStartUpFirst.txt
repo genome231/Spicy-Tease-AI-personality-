@@ -577,10 +577,23 @@
 @NullResponse @SetVar[DommeContentVAnnoyed]=[50]
 @NullResponse @SetVar[DommeContentAnnoyed]=[300]
 (MoveOn2)
+@SystemMessage #VANC #VANP Now.. Your domme owns a shop
+@SystemMessage #VANC #VANP I will sell her products to you
+@SystemMessage #VANC #VANP Some products are just one time use or temporary
+@SystemMessage #VANC #VANP However some are permanent and they unlock new modules
+@SystemMessage #VANC #VANP Your domme would be interested in you having to save up gold to buy them
+@SystemMessage #VANC #VANP But she can also understand if you want to go ahead and unlock every module by default
+@SystemMessage #VANC #VANP This way she could torture you using her whole repertoire directly from the beginning on
+@SystemMessage #VANC #VANP So tell me slave..
+@SystemMessage #VANC #VANP Do you want to unlock all extensions now?
+[yes]@SystemMessage #VANC #VANP You might regret this #GNMGrin @SetFlag(ShopUnlockAll)
+[no]@SystemMessage #VANC #VANP Interesting choice.. @DeleteFlag(ShopUnlockAll)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(SessionStarting)
 @SystemMessage #VANC #VANP Well.. @SetFlag(HalfFinish)
 @SystemMessage #VANC #VANP #DomHonorific #DomName just texted me
 @SystemMessage #VANC #VANP She wants to meet you.. 
-@SystemMessage #VANC #VANP ...Transfering Session... @UnlockImages @CallReturn(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt)
+@SystemMessage #VANC #VANP Transferring Session... @UnlockImages @CallReturn(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt)
 (EndTease)
 @NullResponse @Endtease
 @End

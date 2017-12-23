@@ -2,7 +2,7 @@
 Well #SlaveName #DT
 This is your first edge a ton #DT
 It's actually a great way to exercise control over your #GNMCock #DT
-Basicly it consists of you edging over and over again and again #DT
+Basically it consists of you edging over and over again and again #DT
 There are also competitions #DT
 Slaves compete with each other #DT
 The rules are rather simple #DT
@@ -14,7 +14,7 @@ Then at random intervals you will be told after an edge to go completely soft #D
 Once you're completely soft you are to get back on the edge #DT
 Before we begin I need to know your soft length in centimeters #DT
 And it must be rounded up to nearest value #DT
-If your soft penis is 6,4 cm's long I want you to tell me it's 7 centimeters long. #DT
+If your soft penis is 6,4cm long I want you to tell me it's 7 centimeters long. #DT
 So #SlaveName #DT
 (Loop1)
 What is your soft cock length? #DT @InputVar[CockSoftLength]
@@ -30,7 +30,7 @@ or 12 #DT @Goto(Loop1)
 #GNMLol #DT
 @Variable[CockSoftLength]<[7] Wauv that small! For your sake I hope you're a "grower" #DT
 @Variable[CockSoftLength]>[7] Well that seems almost decent #DT
-My lover's cock is 13 cm's when soft and he's a grower #DT
+My lover's cock is 13cm when soft and he's a grower #DT
 Oh my does it grow #GNMGrin #DT
 I bet your friend @ShowVar[BlackmailName1] wouldn't be impressed by your size either #GNMLol #DT
 Every saturday you can enter an edging competition #DT
@@ -92,7 +92,7 @@ You will do @ShowVar[EdgeCountToday] edges for me today. This will set a new rec
 @RT(You will hold it again for 10 seconds,You're gonna hold it for another 10 seconds,Like before you're gonna hold it for 10 seconds) #DT
 @RT(After which you are to get completely soft!,And then I want you get soft as fast as possible,Then you need to get soft as fast as possible) #DT
 @RT(When you're completely soft I want you to simply say 'soft'!,Just say 'soft' when you're soft,Just type 'soft' when you're soft) #DT
-@RT(Use the ruler to determine to when you're there,And use the ruler to determine when you're soft,Use the ruler to meassure when you're soft) #DT @SetVar[SoftCounter]=[0]
+@RT(Use the ruler to determine to when you're there,And use the ruler to determine when you're soft,Use the ruler to measure when you're soft) #DT @SetVar[SoftCounter]=[0]
 @RT(It has to be shorter than,Your cock must be shorter than,Your tiny dick has to be shorter than) @ShowVar[CockSoftLength] centimeters  #DT
 @RT(Breathe..,Relax,Calm yourself) #DT @Wait(#Random(5,15))
 #GNMEdge @EdgeHold(10)
@@ -104,24 +104,24 @@ You will do @ShowVar[EdgeCountToday] edges for me today. This will set a new rec
 It took you @ShowVar[SoftCounter] seconds to get soft #GNMLol #DT
 @Variable[SoftCounterRecord]<=[SoftCounter] @RT(Which isn't a new record I'm afraid..) #GNMEmoteSad #DT
 @Variable[SoftCounterRecord]>[SoftCounter] @RT(Which seems to be a new record!) #DT @SetVar[SoftCounterRecord]=[SoftCounter]
-@RT(Well that was it for your Cocktraining today) #GNMGrin #DT @ChangeVar[EdgeATonLevel]=[EdgeATonLevel]+[1]
+@RT(Well that was it for your cock training today) #GNMGrin #DT @ChangeVar[EdgeATonLevel]=[EdgeATonLevel]+[1]
 @End
 (Competition)
 @RT(Well!,Well well,This is going to get exciting,I have an idea you're gonna like this,Well this should prove to be fun!) #DT
 @RT(Lets see who will be your challenger today..,Lets find out about your challenger today,So who will be your challenger today hmm..) #DT @Wait(#Random(5,15)) @Goto(Will,Marcelo,Lance)
 (Will)
-@RT(Oh my,#GNMGrin,Exellent,Oh my perfect,Fantastic..) it's Will! #DT
+@RT(Oh my,#GNMGrin,Excellent,Oh my perfect,Fantastic..) it's Will! #DT
 So in the left corner we have #SubName #DT
 @RT(With an incredible small cock,The useless fuck,The little slut) #DT
 And in the right corner we have Will #DT
 With #Random(1,30) days and counting without orgasm #DT
-@RT(The rules are simple,The rules are rather simple,The rules aren't difficuilt at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
+@RT(The rules are simple,The rules are rather simple,The rules aren't difficult at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
 You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCountTemp]=[SecretEdgeCount]
 @RT(Once the secret number has been reached,When you reach the secret number,When you're at the end) #DT @SetVar[MxTime]=[#Random(10,20)]
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
 @RT(The first slave to get completely soft,The first slut to get soft,The one getting soft first) wins 200 gold #DT @ChangeVar[PauseMultiplier]=[PauseMultiplier]*[SecretEdgeCount]
 @RT(The loser is awarded with a bit of ball busting,The loser will have his ball busted a bit #GNMGrin,The loser will get a special ball treatment..) #DT @ChangeVar[MxTime]=[MxTime]+[PauseMultiplier]
-@RT(The beautifull thing is that you don't know whether the other one is done or not,You won't know if the other is done,You're not going to know if the other one is done before you are..) #DT
+@RT(The beautiful thing is that you don't know whether the other one is done or not,You won't know if the other is done,You're not going to know if the other one is done before you are..) #DT
 Not until the end at least #GNMLol #DT
 Setting up the secret edge counter.. #DT @RapidCodeOn
 (Count1)
@@ -144,15 +144,15 @@ Get soft! #DT
 @NullResponse @CountVar[Timer, stop] @CustomMode(ModeText, Normal)
 @RT(Well slaves..,Okay then boys..,Boys..,Slaves..,Girls..,Sluts..) #DT
 @RT(It's time to see who won,Lets find out who won,Well lets have a look at who,Time to reveal the winner) #GNMGrin #DT
-@Variable[Timer]<[MxTime] Well Will is getting a ballbusting! #DT @Goto(Won)
+@Variable[Timer]<[MxTime] Well Will is getting a ball busting! #DT @Goto(Won)
 @Variable[Timer]>[MxTime] Well Will won! #DT @Goto(Lose)
 (Marcelo)
-@RT(Oh my,#GNMGrin,Exellent,Oh my perfect,Fantastic..) it's Will! #DT
+@RT(Oh my,#GNMGrin,Excellent,Oh my perfect,Fantastic..) it's Will! #DT
 So in the left corner we have #SubName #DT
 @RT(With an incredible small cock,The useless fuck,The little slut) #DT
 And in the right corner we have Marcelo #DT
 With #Random(1,30) days and counting without orgasm #DT
-@RT(The rules are simple,The rules are rather simple,The rules aren't difficuilt at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
+@RT(The rules are simple,The rules are rather simple,The rules aren't difficult at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
 You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCountTemp]=[SecretEdgeCount]
 @RT(Once the secret number has been reached,When you reach the secret number,When you're at the end) #DT @SetVar[MxTime]=[#Random(10,20)]
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
@@ -181,15 +181,15 @@ Get soft! #DT
 @NullResponse @CountVar[Timer, stop] @CustomMode(ModeText, Normal)
 @RT(Well slaves..,Okay then boys..,Boys..,Slaves..,Girls..,Sluts..) #DT
 @RT(It's time to see who won,Lets find out who won,Well lets have a look at who,Time to reveal the winner) #GNMGrin #DT
-@Variable[Timer]<[MxTime] Well Marcelo is getting a ballbusting! #DT @Goto(Won)
+@Variable[Timer]<[MxTime] Well Marcelo is getting a ball busting! #DT @Goto(Won)
 @Variable[Timer]>[MxTime] Well Marcelo won! #DT @Goto(Lose)
 (Lance)
-@RT(Oh my,#GNMGrin,Exellent,Oh my perfect,Fantastic..) it's Will! #DT
+@RT(Oh my,#GNMGrin,Excellent,Oh my perfect,Fantastic..) it's Lance! #DT
 So in the left corner we have #SubName #DT
 @RT(With an incredible small cock,The useless fuck,The little slut) #DT
 And in the right corner we have Lance #DT
 With #Random(1,30) days and counting without orgasm #DT
-@RT(The rules are simple,The rules are rather simple,The rules aren't difficuilt at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
+@RT(The rules are simple,The rules are rather simple,The rules aren't difficult at all,You should find the rules to be rather simple..) #DT @SetVar[SecretEdgeCount]=[#Random(10,30)]
 You are each to edge an equal secret number of times #DT @SetVar[SecretEdgeCountTemp]=[SecretEdgeCount]
 @RT(Once the secret number has been reached,When you reach the secret number,When you're at the end) #DT @SetVar[MxTime]=[#Random(10,20)]
 @RT(You will be told to get completely soft,You are to get completely soft,You will get completely soft) #DT @SetVar[PauseMultiplier]=[30]
@@ -218,7 +218,7 @@ Get soft! #DT
 @NullResponse @CountVar[Timer, stop] @CustomMode(ModeText, Normal)
 @RT(Well slaves..,Okay then boys..,Boys..,Slaves..,Girls..,Sluts..) #DT
 @RT(It's time to see who won,Lets find out who won,Well lets have a look at who,Time to reveal the winner) #GNMGrin #DT
-@Variable[Timer]<[MxTime] Well Lance is getting a ballbusting! #DT @Goto(Won)
+@Variable[Timer]<[MxTime] Well Lance is getting a ball busting! #DT @Goto(Won)
 @Variable[Timer]>[MxTime] Well Lance won! #DT @Goto(Lose)
 (Won)
 @RT(Because #SubName you won!,All because #SubName won,#SubName you won) #DT
@@ -226,7 +226,7 @@ Which means you've earned 200 gold! #DT @ChangeVar[GNMGold]=[GNMGold]+[200]
 @RT(Moving on..,Time to move on,Well lets move on,Lets move on) #DT
 @End
 (Lose)
-@RT(So you'll get a ballbusting #SubName,Which means that you'll get your #GNMBalls through some workout) #GNMLol #DT
+@RT(So you'll get a ball busting #SubName,Which means that you'll get your #GNMBalls through some workout) #GNMLol #DT
 @NullResponse @CallReturn(CR\Punishment\GNMBallBusting.txt)
 Better luck next time #SlaveName #DT
 @End

@@ -8,6 +8,7 @@
 @NullResponse @RapidCodeOn @Flag(CrazyDommeMode) @CallReturn(CR\BackgroundMode\StartUp\CrazyDommeMode.txt)
 @RapidCodeOn @SystemMessage 80% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 @NullResponse @RapidCodeOn @CallReturn(CR\BackgroundMode\StartUp\GNMSetMood.txt)
+@NullResponse @Flag(ShopUnlockAll) @CallReturn(CR\BackgroundMode\Shop\UnlockAll.txt)
 @RapidCodeOn @SystemMessage 100% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
 (PlayIntro) //First launch? Check below
 @NullResponse @RapidCodeOn @CheckFlag(SpicyIntro)
@@ -53,7 +54,7 @@
 @NullResponse @CheckFlag(FullTime) @Goto(StartUp1)
 (FullTime)
 @NullResponse @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundFullTimeCheckUp.txt)
-(StartUp1) 
+(StartUp1)
 @NullResponse @ShowImage[\GNMImages\Intro\GNMLoading.*] @TempFlag(Assistant)
 @NullResponse @Interrupt(GNMBackgroundBase)
 @End
