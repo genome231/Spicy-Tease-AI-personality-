@@ -15,7 +15,7 @@
 (First)
 (ATAssignmentDone)
 @NullResponse @DeleteFlag(ATAssignmentDone)
-@NullResponse @CallReturn(CR\End\AssTraining\ExercisesSet.txt)
+@NullResponse @CallReturn(CR\End\AssTraining\AssTrainingExercise.txt)
 @End
 (AssExamActive)
 @NullResponse @CallReturn(CR\End\AssTraining\Exam.txt)

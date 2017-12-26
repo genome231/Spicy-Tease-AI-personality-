@@ -9,14 +9,14 @@ Squeeze the shaft @RT(as hard as you can, so hard that your eyes start to tear) 
 You can stop squeezing my #GNMCock now #SlaveName #DT 
 (2)
 I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain]+[0]
-(Loop2)
+(Loop)
 Hit it hard @ShowVar[TempHits] times #DT
 @RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(45, Time)
 [done] #GNMGrin #DT @Goto(Continue2)
 @DifferentAnswer Are you trying to write 'done'? #DT
 (Time)
 @RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
-@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop2)
+@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop)
 (Continue2)
 Hit it another @ShowVar[TempHits] times #SlaveName #DT @Timeout(45, Time)
 [done] #GNMGood #DT
@@ -26,10 +26,10 @@ Hit it another @ShowVar[TempHits] times #SlaveName #DT @Timeout(45, Time)
 I want you to flick the head of your #GNMCock #SlaveName #DT @ChangeVar[TempHits]=[SubPain]*[2]
 (Loop2)
 Flick it @ShowVar[TempHits] times #DT
-@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(60, Time)
+@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(60, Time2)
 [done] #GNMGrin #DT @Goto(Continue3)
 @DifferentAnswer Are you trying to write 'done'? #DT
-(Time)
+(Time2)
 @RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
 @RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop2)
 (Continue3)

@@ -23,7 +23,7 @@
 [yes] @SystemMessage #VANC #VANP Okay
 [no] @SystemMessage #VANC #VANP Understood @Goto(End)
 @DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
-@Variable[ModeLocked2]>[#DateDifference(ModeLocked2, Days)] @SystemMessage #VANC #VANP Your modes are locked @Goto(Locked)
+@Variable[ModeLocked2]>[#DateDifference(ModeLocked, Days)] @SystemMessage #VANC #VANP Your modes are locked @Goto(Locked)
 @SystemMessage #VANC #VANP Do you wish to activate StudyMode?
 [yes] @SystemMessage #VANC #VANP #GNMGood @SetFlag(StudyMode)
 [no] @SystemMessage #VANC #VANP Okay @DeleteFlag(StudyMode) @Goto(Athlete)
@@ -53,11 +53,11 @@
 @SystemMessage #VANC #VANP Input the number of days you wish to lock your settings 
 @SystemMessage #VANC #VANP write 99999 if forever. @InputVar[ModeLocked2]
 @Variable[ModeLocked2]<[1] @SystemMessage #VANC #VANP You have to input a value higher than 0 @Goto(Lock2)
-@SystemMessage #VANC #VANP Locking modes.. @SetDate[ModeLocked2, 0 Days]
+@SystemMessage #VANC #VANP Locking modes.. @SetDate[ModeLocked, 0 Days]
 @SystemMessage #VANC #VANP Modes locked @Goto(End)
 (Locked)
 @NullResponse @SetVar[DaysToGo]=[0]
-@NullResponse @ChangeVar[DaysToGo]=[ModeLocked2]-[#DateDifference(ModeLocked2, Days)]
+@NullResponse @ChangeVar[DaysToGo]=[ModeLocked2]-[#DateDifference(ModeLocked, Days)]
 @SystemMessage #VANC #VANP Your modes are still locked for @ShowVar[DaysToGo] days
 (End)
 @NullResponse

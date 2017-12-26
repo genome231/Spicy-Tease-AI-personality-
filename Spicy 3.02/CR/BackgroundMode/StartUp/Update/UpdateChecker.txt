@@ -1,4 +1,8 @@
 @NullResponse @RapidCodeOn @Variable[InstalledSpicyVersion]<[FileSpicyVersion] @Goto(Update)
 @End
 (Update)
+(2)
+@NullResponse @Variable[InstalledSpicyVersion]<[2] @CallReturn(CR\BackgroundMode\StartUp\Update\2.txt)
+(EndUpdate)
+@NullResponse@ChangeVar[InstalledSpicyVersion]=[FileSpicyVersion]+[0]
 @End

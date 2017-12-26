@@ -28,7 +28,7 @@
 @NullResponse @SetFlag(MetronomeOn)
 @NullResponse @SetVar[TeaseModule]=[60]
 @NullResponse @SetVar[SlaveModule]=[60]
-@NullResponse @SetVar[SissyModuleModule]=[60]
+@NullResponse @SetVar[SissyModule]=[60]
 @NullResponse @SetVar[PainModule]=[60]
 @NullResponse @SetVar[OTime]=[0]
 @NullResponse @SetVar[X]=[0]

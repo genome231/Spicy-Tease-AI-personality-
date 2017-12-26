@@ -3,6 +3,7 @@
 @NullResponse @CheckFlag(gdAnal_No)
 Oh really? #DT
 Let's get this straight, you are asking me to do anal play with you? #DT
+@NullResponse @Goto(not now)
 This should be interesting... #DT @Interrupt(pvIn_WantAnal)
 @End
 (gdAnal)

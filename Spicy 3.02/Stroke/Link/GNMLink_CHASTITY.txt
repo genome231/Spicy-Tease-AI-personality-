@@ -19,7 +19,7 @@
 @Variable[GNMMerits]>[DommeContentVPleased] @NullResponse @ChangeVar[GNMMerits]=[GNMMerits]-[#Random(20,50)]
 @NullResponse @CheckFlag(ChastityIsOn)
 (ChastityIsOn)
-@NullResponse @Flag(SkipLinksOnce) @DeleteFlag(SkipLinksOnce) @Goto(Other)
+@NullResponse @Flag(SkipLinksOnce) @DeleteFlag(SkipLinksOnce) @Goto(Locked)
 @NullResponse @Goto(NeutralLinks)
 @NullResponse @CallReturn(CR\Links\Chastity\*.txt)
 @NullResponse @Goto(Locked)

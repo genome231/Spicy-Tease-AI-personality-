@@ -9,7 +9,7 @@ Do you consider yourself to be a premature ejaculator? #DT
 @DifferentAnswer #GNMYesOrNo #DT
 Let's have some more of that then #DT
 @End
-(pvPMEyes)
+(gdPMEyes)
 You should learn to control yourself when having sex, #SlaveName #DT
 @Flag(gdVirgin) I mean, if you <i>ever</i> get to have sex... #DT
 Because the truth is, to please a girl #DT
@@ -17,7 +17,7 @@ You have to be able to last longer that a minute or two #DT
 Or she's not going to want to stick around #DT
 So let's get back to some endurance practice #GNMEmoteHappy #DT
 @End
-(pvPMEno)
+(gdPMEno)
 @NullResponse
 @End
 (pvLink38A)

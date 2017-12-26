@@ -43,7 +43,7 @@
 @Flag(WExercisesActive,WTeasesActive) @NullResponse @Goto(Select1)
 @Flag(WTeasesActive) @NullResponse @Goto(Select2)
 @Flag(WExercisesActive) @NullResponse @Goto(Select3)
-@NullResponse @Goto(Nothing)
+@NullResponse @Goto(Nothing2)
 (Select1)
 @Flag(WOften) @NullResponse @Wait(#Random(180,300))
 @Flag(WSometimes) @NullResponse @Wait(#Random(300,900))

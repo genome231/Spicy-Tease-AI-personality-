@@ -1,5 +1,5 @@
 @NullResponse @RapidCodeOn @SetVar[gdBegForCEI]=[0]
-@NullResponse @SetVar[FileSpicyVersion]=[1]
+@NullResponse @SetVar[FileSpicyVersion]=[2]
 @NullResponse @Variable[InstalledSpicyVersion]<=[0] @ChangeVar[InstalledSpicyVersion]=[FileSpicyVersion]+[0]
 @NullResponse @Variable[LockedDaysInRowLimit]<=[0] @SetVar[LockedDaysInRowLimit]=[5]
 @NullResponse @SetFlag(gdEnforcingPersonality) @Goto(End)

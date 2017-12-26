@@ -24,7 +24,7 @@ Are you going to wear your butt plug for me, yes or no? #DT
 [no] If that's how it's going to be... #DT
 @DifferentAnswer #GNMYesOrNo
 @RT(I'm giving you punishment points..,You're getting punishment points) #DT #MeritChangeNHigh
-@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300] @Goto(End)
+@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
 @End
 (said yes to plug)
 Then do as I say, #SlaveName #DT @Goto(let me know when plugged)

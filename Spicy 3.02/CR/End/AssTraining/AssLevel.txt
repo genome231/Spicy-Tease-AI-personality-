@@ -30,5 +30,6 @@
 @Variable[AssEXP]>=[100] @NullResponse @SetVar[AssLevel]=[2] @Goto(Inform)
 @Variable[AssEXP]>=[0] @NullResponse @SetVar[AssLevel]=[1] @Goto(Inform)
 (Inform)
+@NullResponse @CallReturn(CR\End\AssTraining\UpdateEnemaLevel.txt)
 Your ass level is currently @ShowVar[AssLevel] #DT
 @End

@@ -28,14 +28,14 @@ Hit my #GNMBalls another @ShowVar[TempHits] times #SlaveName #DT @Timeout(45, Ti
 @Goto(End)
 (3)
 I want you to flick my balls #SlaveName #DT @ChangeVar[TempHits]=[SubPain]*[2]
-(Loop2)
+(Loop3)
 Flick each side @ShowVar[TempHits] times #DT
-@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(60, Time)
+@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(60, Time2)
 [done] #GNMGrin #DT @Goto(Continue3)
 @DifferentAnswer Are you trying to write 'done'? #DT
-(Time)
+(Time2)
 @RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
-@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop2)
+@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop3)
 (Continue3)
 Does it @RT(hurt, burn, ache) yet?
 [yes] #GNMGood #DT

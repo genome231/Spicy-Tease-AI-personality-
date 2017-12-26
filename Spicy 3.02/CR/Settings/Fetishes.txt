@@ -1,0 +1,80 @@
+@NullResponse @CheckFlag(FetishSettingIntro)
+@SystemMessage #VANC #VANP In this menu you are able to set hard limits for #DomHonorific #DomName @SetFlag(FetishSettingIntro)
+@SystemMessage #VANC #VANP She will neither make you do a hard limit nor will she push you
+@SystemMessage #VANC #VANP Thus you should only use this for stuff you are really sure of
+@SystemMessage #VANC #VANP Because she will guide you when it comes to new stuff that you might want to try
+@Flag(gdAskingPersonality) @SystemMessage #VANC #VANP Furthermore #DomHonorific #DomName is a kind person
+@Flag(gdAskingPersonality) @SystemMessage #VANC #VANP As you should know she will ask you for your approval of new things anyway
+@Flag(gdEnforcingPersonality) @SystemMessage #VANC #VANP Although, #DomHonorific #DomName is a strict person
+@Flag(gdAskingPersonality) @SystemMessage #VANC #VANP As you should know she will guide you there but she won't tolerate disobedience
+(FetishSettingIntro)
+@RapidTextOn @SystemMessage #VANC #VANP Your current hard limits are:
+@Flag(gdAnal_Never) @SystemMessage #VANC #VANP Anything involving your #GNMAss #GNMEmoteSad
+@Flag(gdCEI_Never) @SystemMessage #VANC #VANP Cum eating #GNMEmoteSad
+@Flag(gdPain_Never) @SystemMessage #VANC #VANP Anything involving pain #GNMEmoteSad
+@Flag(gdAssToMouth_Never) @SystemMessage #VANC #VANP Ass to mouth #GNMEmoteSad
+@Flag(gdPee_Never) @SystemMessage #VANC #VANP Stuff involving pee #GNMEmoteSad
+@Flag(gdCBT_Never) @SystemMessage #VANC #VANP Cock-ball torture #GNMEmoteSad
+@Flag(gdSissy_Never) @SystemMessage #VANC #VANP Sissyfication #GNMEmoteSad
+(AvailableLimits)
+@SystemMessage #VANC #VANP Available hard limits are: 
+@SystemMessage #VANC #VANP Anal play
+@SystemMessage #VANC #VANP Cum eating
+@SystemMessage #VANC #VANP Pain
+@SystemMessage #VANC #VANP Ass to mouth
+@SystemMessage #VANC #VANP Pee play
+@SystemMessage #VANC #VANP Cock-ball torture
+@SystemMessage #VANC #VANP Sissyfication
+@RapidTextOff @SystemMessage #VANC #VANP Please type one of those limits to toggle it on/off:
+[anal,analplay] @CheckFlag(gdAnal_Never) @Goto(LimitAnal)
+[cum,cumeating] @CheckFlag(gdCEI_Never) @Goto(LimitCEI)
+[pain] @CheckFlag(gdPain_Never) @Goto(LimitPain)
+[asm,ass to mouth] @CheckFlag(gdAssToMouth_Never) @Goto(LimitASM)
+[pee,peeplay] @CheckFlag(gdPee_Never) @Goto(LimitPee)
+[cbt,cock-ball,cock ball] @CheckFlag(gdCBT_Never) @Goto(LimitCBT)
+[sissy] @CheckFlag(gdSissy_Never) @Goto(LimitSissy)
+[exit,leave,save] @NullResponse @Goto(End)
+@DifferentAnswer @NullResponse @Goto(AvailableLimits)
+(gdAnal_Never)
+@SystemMessage #VANC #VANP Anal play is now no longer a hard limit of yours @DeleteFlag(gdAnal_Never) @Goto(Congratulations
+(LimitAnal)
+@SystemMessage #VANC #VANP Anal play is now on your hard limit list #GNMEmoteSad @SetFlag(gdAnal_Never) @Goto(RespectLimits)
+
+(gdCEI_Never)
+@SystemMessage #VANC #VANP Cum eating is now no longer a hard limit of yours @DeleteFlag(gdCEI_Never) @Goto(Congratulations)
+(LimitCEI)
+@SystemMessage #VANC #VANP Cum eating  is now on your hard limit list #GNMEmoteSad @SetFlag(gdCEI_Never) @Goto(RespectLimits)
+
+(gdPain_Never)
+@SystemMessage #VANC #VANP Pain is now no longer a hard limit of yours @DeleteFlag(gdPain_Never) @Goto(Congratulations)
+(LimitPain)
+@SystemMessage #VANC #VANP Pain is now on your hard limit list #GNMEmoteSad @SetFlag(gdPain_Never) @Goto(RespectLimits)
+
+(gdAssToMouth_Never)
+@SystemMessage #VANC #VANP Ass to mouth is now no longer a hard limit of yours @DeleteFlag(gdAssToMouth_Never) @Goto(Congratulations)
+(LimitASM)
+@SystemMessage #VANC #VANP Ass to mouth is now on your hard limit list #GNMEmoteSad @SetFlag(gdAssToMouth_Never) @Goto(RespectLimits)
+
+(gdPee_Never)
+@SystemMessage #VANC #VANP Pee play is now no longer a hard limit of yours @DeleteFlag(gdPee_Never) @Goto(Congratulations)
+(LimitPee)
+@SystemMessage #VANC #VANP Pee play is now on your hard limit list #GNMEmoteSad @SetFlag(gdPee_Never) @Goto(RespectLimits)
+
+(gdCBT_Never)
+@SystemMessage #VANC #VANP Cock-ball is now no longer a hard limit of yours @DeleteFlag(gdCBT_Never) @Goto(Congratulations)
+(LimitCBT)
+@SystemMessage #VANC #VANP Cock-ball is now on your hard limit list #GNMEmoteSad @SetFlag(gdCBT_Never) @Goto(RespectLimits)
+
+(gdSissy_Never)
+@SystemMessage #VANC #VANP Sissyfication is now no longer a hard limit of yours @DeleteFlag(gdSissy_Never) @Goto(Congratulations)
+(LimitSissy)
+@SystemMessage #VANC #VANP Sissyfication is now on your hard limit list #GNMEmoteSad @SetFlag(gdSissy_Never) @Goto(RespectLimits)
+
+(RespectLimits)
+@SystemMessage #VANC #VANP @RT(But this is okay,This is fine though,However this is okay)
+@SystemMessage #VANC #VANP We respect your hard limits #SlaveName @Goto(AvailableLimits)
+(Congratulations)
+@SystemMessage #VANC #VANP Congratulations #GNMEmoteHappy
+@SystemMessage #VANC #VANP #DomHonorific #DomName will be very happy to hear this @Goto(AvailableLimits)
+(End)
+@End

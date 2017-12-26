@@ -206,7 +206,7 @@ Good! #DT #MeritChangePLow
 @RT(I need you to,Right now you have to) measure the amount of water left #DT @Wait(40)
 (Continue4)
 So tell me #SlaveName #DT
-How much water is there left? #DT @InputVar[SumOfWater2]
+How much water is there left in mL? #DT @InputVar[SumOfWater2]
 @NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]*[100]
 @NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]/[SumOfWater]
 @NullResponse @If[SumOfWater2]>=[25] @NullResponse @Goto(Bad1)

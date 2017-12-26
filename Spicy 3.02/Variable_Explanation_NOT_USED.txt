@@ -26,8 +26,14 @@ M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determines what domme 
 SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted, used at the start of session so stroking starts instead of a random link
 Stroking (temp) -> Is stroking rn?
 ShopUnlockAll -> Unlock most things in the shop by default
+DailyEnema -> Daily enema enabled
+PissEnema -> current enema is gonna be like this
+WarmEnema -> current enema is gonna be like this
+ColdEnema -> current enema is gonna be like this
+MilkEnema -> current enema is gonna be like this
+NoEnemaCleanUp -> Not allowed to clean ass afterwards
 
-Fetish Flags: (Append _No if we asked and he doesn't want to)
+Fetish Flags: (Append _No if we asked and he doesn't want to, append _Never if blocked hard limit)
 gdAnal
 gdCEI
 gdPain
@@ -49,6 +55,7 @@ Short/Medium/LongSession -> Determines how dome undresses throughout the tease, 
 gdBegForCEI -> How many times did the slave ask for CEI this day?
 LockedDaysInRow -> Days the sub has been looked in chastity for in a row
 LockedDaysInRowLimit -> Days the sub will be looked in row max
+HoldEnemaDuration -> How long has the enema to be hold
 
 Dates:
 Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
@@ -56,6 +63,7 @@ PDenial -> Date since when sub is denied completely (chastity)
 TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
 TimeSinceO -> Last time slave had an orgasm
 TimeSinceR -> Last time slave had a ruined orgasm
+DailyEnemaSet -> Last time daily enema was set
 
 Vocabulary:
 #Cage -> Vocab for chastity cage
@@ -86,6 +94,7 @@ Vocabulary:
 #MeritChangeNHigh -> Not doing as promised
 #M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
 #SlaveName #Slut #SubName -> Names for slave
+#InAddition -> Additionally, furthermore etc.
 
 Copy paste stuff:
 @NullResponse @CallReturn(CR\GNMChastityOn.txt) -> Chastity on
@@ -125,7 +134,6 @@ Modules:
 - Blowjob: laying on bed with face hanging down -> spit in face, collect spit for later use
 - Sound play
 - Ice Water play
-- Pee/milk enema
 - Cum Modules: On pillow sleep with it, into panties and wear for x, into socks and wear for x, toothbrush
 - More and advanced chastity tasks
 - Set ass and chastity level at start if you already have some experience
@@ -133,13 +141,14 @@ Modules:
 General:
 - Enforcing personality and asking/soft personality. Enforcing is only limited by disabled fetishes
 Pin Board with daily notices
-- What enema and how big etc.
 
 #WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
 #WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
 #WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
-#TODO: Does this work? @Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
-#TODO: Does @RT(#Vocab) work?
+#WORKS: Does this work? @Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
+#WORKS: Does @RT(#Vocab) work?
+#DOES NOT WORK: Does this work? @Variable[AssLevel]>[20] @Variable[AssLevel]<=[25] 2.5 Multiple variable checks in one line never work like this
+#DOES NOT WORK: @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 #TODO: Implement responses properly
 #TODO: Add tasks Custom\Tasks_NOT_USED
 #TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED
@@ -161,10 +170,6 @@ Pin Board with daily notices
 #TODO: Fix chores
 #TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
 #TODO: Enema kit picture
-#TODO: Daily enema introduction if user decides to skip ass training
-#TODO: Does this work? @Variable[AssLevel]>[20] @Variable[AssLevel]<=[25] 2.5
-
-Does it work? @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
 
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
@@ -182,9 +187,12 @@ You can only use ChangeVar when using another variable in the equation (can be u
 You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
 @CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
 @RapidCodeOn works in front of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
-@Variable[Test]=[0] does not work, use <= or >=
+@Variable[Test]=[0] does not work, use <= or >=, seems to work in vocab files
 Getting or comparing an unknow variable will return the value 0 for the variable
 #DateDifference an unknown date will result in the difference always being 0
+You CANNOT generate a random number using variables as min or max range
+@ChangeVar only supports ONE operation not multiple once like @ChangeVar[f]=[f]*[100]-[b]
+Multiple @RT in one line WORK and #Vocab works inside @RT too
 
 Important Setup:
 All tagged sets must contain at least one picture with each tag (fully dressed, halfdressed etc.)

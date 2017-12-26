@@ -1,5 +1,5 @@
 [R20_WantToEatCum]
 [All]
-@Flag(Session) @NullResponse @CallReturn(CR\Responses\R21_WantAnal.tx)
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R21_WantAnal.txt)
 @NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
 [All End]

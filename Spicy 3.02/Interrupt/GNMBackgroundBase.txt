@@ -24,6 +24,7 @@
 [rules,houserules,rule,house,commands,orders] @NullResponse @CallReturn(CR\BackgroundMode\HouseRules.txt)
 [save,end,end tease,stop,leave,close,finish,finished]@SystemMessage #VANC #VANP @RT(Bye,Untile next time,See you,I'm waiting for the next time,Don't leave me alone to long,Good bye,Have a nice day, I saved your process you can close the program) @EndTease @End
 [fast mode, fast answer mode] @NullResponse @CheckFlag(FastAnswerMode) @Goto(FastAnswerModeActivate) 
+[pin,board,notices,news] @NullResponse @CallReturn(CR\BackgroundMode\Pinboard\Pinboard.txt)
 @AcceptAnswer @NullResponse @Goto(Confused)
 @NullResponse
 @NullResponse @Goto(StateCheck)
@@ -38,6 +39,7 @@
 @SystemMessage #VANC #VANP Report for exercise (you can only complete an exercise every 10 hours)
 @SystemMessage #VANC #VANP Work / Study mode
 @SystemMessage #VANC #VANP Request to view the rules 
+@SystemMessage #VANC #VANP View the pinboard
 @SystemMessage #VANC #VANP Enable fast answer mode() (I will respond quicker)
 @SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
 (ReportE)

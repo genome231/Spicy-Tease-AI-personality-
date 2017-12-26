@@ -66,8 +66,8 @@
 @SystemMessage #VANC #VANP It's not recommended to change it from the base 60
 @SystemMessage #VANC #VANP But should you do it, only do it with one category
 (P6a)
-@SystemMessage #VANC #VANP Input a value for Humiliation modules @InputVar[SissyModuleModule]
-@Variable[SissyModuleModule]<[100]AND[SissyModuleModule]>[1] @NullResponse @Goto(P6b)
+@SystemMessage #VANC #VANP Input a value for Humiliation modules @InputVar[SissyModule]
+@Variable[SissyModule]<[100]AND[SissyModule]>[1] @NullResponse @Goto(P6b)
 @SystemMessage #VANC #VANP You must choose a simple value between 1 and 100
 @SystemMessage #VANC #VANP So writing '1' or '60 or '40' is okay @Goto(P6a)
 (P6b)

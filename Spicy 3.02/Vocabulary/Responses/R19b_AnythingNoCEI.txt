@@ -1,5 +1,5 @@
 [R19_AnythingNo]
 [All]
-@Flag(Session) @NullResponse @CallReturn(CR\Responses\R19b_AnythingNoCEI.tx)
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R19b_AnythingNoCEI.txt)
 @NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
 [All End]

@@ -63,7 +63,7 @@
 @SystemMessage --e1-- Chore Packs --- Sold out
 (SpankingPirnt)
 @SystemMessage --f1-- End Games --- @ShowVar[EndGamesPackShopPrice] gold each
-@NotFlag(BoughtSpankingImplement3) @SystemMessage --g1-- Spanking Implement 4 --- @ShowVar[SpankingImplementPackShopPrice] gold @Goto(GlitterPrint)
+@NotFlag(BoughtSpankingImplement4) @SystemMessage --g1-- Spanking Implement 4 --- @ShowVar[SpankingImplementPackShopPrice] gold @Goto(GlitterPrint)
 @NotFlag(BoughtSpankingImplement5) @SystemMessage --g1-- Spanking Implement 5 --- @ShowVar[SpankingImplementPackShopPrice] gold @Goto(GlitterPrint)
 @Variable[#DateDifference(SpankzChoirSubscribtion, Days)]>[30] @SystemMessage --g2-- SpankzChoir Subscribtion --- 250 gold / 30 days
 (GlitterPrint)

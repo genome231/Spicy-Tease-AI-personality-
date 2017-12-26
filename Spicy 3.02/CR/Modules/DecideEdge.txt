@@ -11,7 +11,7 @@
 @End
 (NoStrokeEdge)
 @NullResponse @DeleteFlag(NoStrokeEdge)
-@RT(You well know that unathorized edging is not allowed,You and I both know that you can't edge without permission,I don't like unathorized edging..) #DT #MeritChangeNMedium
+@RT(You well know that unauthorized edging is not allowed,You and I both know that you can't edge without permission,I don't like unauthorized edging..) #DT #MeritChangeNMedium
 @RT(I have assigned you punishment points..,I have given you punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
 @End
 (MaybeStrokeEdge)
@@ -34,7 +34,7 @@
 (Edging)
 @RT(#GNMGrin,#GNMLol) #DT
 @RT(Since you <i>enjoy</i> edging,Since you enjoy it soo much,Since you seem to like it) #DT
-@RT(Then lets make you edge a LOT more,Then I suppose you better do a bit more edging!) #DT @SetVar[EdgesToDo]=[0]
+@RT(Then let's make you edge a LOT more,Then I suppose you better do a bit more edging!) #DT @SetVar[EdgesToDo]=[0]
 @Variable[SubEndurance]>[10] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(10,20)] @Goto(Edging2)
 @Variable[SubEndurance]>[9] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(9,18)] @Goto(Edging2)
 @Variable[SubEndurance]>[8] @NullResponse @ChangeVar[EdgesToDo]=[EdgesToDo]+[#Random(8,16)] @Goto(Edging2)

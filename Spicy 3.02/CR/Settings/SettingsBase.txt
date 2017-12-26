@@ -8,8 +8,9 @@
 [audio,sound,sounds,metronome] @NullResponse @Goto(Audio)
 [update,updates] @NullResponse @Goto(Update)
 [mode,modes] @NullResponse @Goto(Modes)
+[hard limit,limits] @NullResponse @Goto(Limits)
 [none,nothing,return,mistake,error,exit,back] @SystemMessage #VANC #VANP Returning to main menu... @NullResponse
-@DifferentAnswer @SystemMessage #VANC #VANP You have the following options: Chastity, domme, denial, toys, personal, audio, modes, update or exit the settings
+@DifferentAnswer @SystemMessage #VANC #VANP You have the following options: Chastity, domme, denial, toys, personal, audio, modes, hardlimits, update or exit the settings
 @End
 (Chastity)
 @SystemMessage #VANC #VANP Relaunching chastity settings
@@ -38,6 +39,10 @@
 (Modes)
 @SystemMessage #VANC #VANP Accessing Modes
 @NullResponse @CallReturn(CR\Settings\Modes.txt)
+@NullResponse @Goto(Menu)
+(Limits)
+@SystemMessage #VANC #VANP Accessing Hardlimits
+@NullResponse @CallReturn(CR\Settings\Fetishes.txt)
 @NullResponse @Goto(Menu)
 (Update)
 @SystemMessage #VANC #VANP Checking for important updates

@@ -42,7 +42,7 @@
 (End1)
 @Flag(Personality1) @Goto(End)
 Now you'll be using your hand. #DT
-@NullResponse @CustomMode(done, Goto, End) @Goto(a,b,c,d,e)
+@NullResponse @CustomMode(done, Goto, End) @Goto(a,b,c)
 (a)
 Let's give those #GNMBalls another @ShowVar[SubPain] smacks #GNMEmoteHappy #DT @Wait(999999)
 (b)
