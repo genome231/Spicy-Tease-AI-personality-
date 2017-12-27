@@ -1,6 +1,6 @@
 #SlaveName #DT
-Lets play red light green light! #DT
-Stroke when you see the green light #DT @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[#Random(400,1200)]
+Lets play red light green light! #DT @SetVar[Timer]=[0] 
+Stroke when you see the green light #DT @ChangeVar[Timer]=[Timer]+[#Random(400,1200)]
 Stop stroking when you see a red light #DT @SetVar[Warning]=[0]
 NO cumming..  #DT
 NO edging.. #DT

@@ -1,0 +1,12 @@
+@NullResponse @Goto(Hands)
+(Toys)
+@NullResponse @SetVar[RandomValue]=[#Random(1,20)]
+@Variable[ToyUsage]>[RandomValue] @NullResponse @Goto(Hands)
+(UseToy)
+(Hands)
+#GoToCorner #DT
+@NullResponse @Chance50(HandsContinue)
+@RT(Only stand on your left leg,Only stand on your right leg,Stand on your tiptoes) #DT
+(HandsContinue)
+@RT(Hands above your head,Keep your hands down your side,Hands behind your back), stay there until you hear my bell #DT
+@End

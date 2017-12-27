@@ -1,44 +1,41 @@
 #SlaveName #DT
 I have a great activity for us #DT
-Fetch a LOT of pegs! #GNMGrin #DT @Wait(15) 
 @Flag(PainUpdate3) @NullResponse @Goto(a,b)
 @NullResponse @Goto(a)
+(SmallParts)
+@NullResponse @SetVar[PegModules]=[0] @CallReturn(CR\ToysOn\GNMPegsOn.txt)
+(SmallPartSelect)
+@Variable[PegModules]>=[1] @NullResponse @Chance30(EndSmallPart)
+@NullResponse @ChangeVar[PegModules]=[PegModules]+[1]
+@NullResponse @Goto(a,b)
 (a) \\Linewriting with pegs
-@Variable[SubPainTolerance]>=[10] @RT(Apply,Put on) @RT(5,10,15,20,25) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(a1)
-@Variable[SubPainTolerance]>=[7] @RT(Apply,Put on) @RT(5,10,15,20) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(a1)
-@Variable[SubPainTolerance]>=[4] @RT(Apply,Put on) @RT(5,10,15) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(a1)
-@Variable[SubPainTolerance]>=[1] @RT(Apply,Put on) @RT(5,10) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(a1)
-(a1)
 Keep the pegs there while you do a small assignment #DT
 (a2)
 @NullResponse @WritingTask(#WritingTask1)
-@Variable[SubPain]>[7] @NullResponse @Goto(RipOff)
-@NullResponse @Goto(End)
+@NullResponse @Goto(SmallPartSelect)
 (Failed Writing Task)
 ... #DT #MeritChangeNMedium
 Let's try again shall we.. #DT @Goto(a2)
-(b) \\pull off
-@Variable[SubPainTolerance]>=[10] @RT(Apply,Put on) @RT(2,4,6,8,10) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
-@Variable[SubPainTolerance]>=[7] @RT(Apply,Put on) @RT(2,4,6,8) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
-@Variable[SubPainTolerance]>=[4] @RT(Apply,Put on) @RT(2,4,6) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
-@Variable[SubPainTolerance]>=[1] @RT(Apply,Put on) @RT(2,4) pegs @RT(to your face,to your genitalia,to your chest,to your feet,to your legs) #DT @Goto(b1)
-(b1)
-@RT(Pull them a little,Twist them a little,Twist them just a tiny bit,Just twist them lightly,Pull them slightly) #GNMGrin #DT @Wait(#Random(5,15))
-@RT(Now..,Well,Now,Well..,Hmm..,#GNMMoan,Mhmmm,Mhmm..) #DT
-@RT(Rip them off!,Pull them off,Use an object to whip them off) #DT @Wait(10)
-@NullResponse @Chance80(b) @Goto(End2)
-(c) \\Peg session1
+(b)
+@NullResponse @CallReturn(DCR\Modules\LinkModules\GoToCorner.txt)
+@NullResponse @Wait(#Random(240,300))
+Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@NullResponse @Goto(SmallPartSelect)
+(c)
 (d) \\Peg session2
 (e) \\Peg session3
+@End
+(EndSmallPart)
+@Variable[SubPain]<[7] @NullResponse @Goto(End)
 (RipOff)
 #SlaveName #DT
 Rip the pegs off! #DT
 Do it! #DT
 Rip them off! #DT @Wait(15)
-#GNMLol #DT
-@End
+#GNMLol #DT @CallReturn(CR\ToysOn\GNMPegsOn.txt,ResetVars)
+@NullResponse @Goto(End2)
 (End)
-You can remove the pegs now #SlaveName #DT
+You can remove the pegs now #SlaveName #DT @CallReturn(CR\ToysOn\GNMPegsOn.txt,ResetVars)
 @End
 (End2)
 Well I just wanted a tad of fun #GNMLol #DT

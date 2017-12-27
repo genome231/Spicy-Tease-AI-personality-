@@ -34,11 +34,10 @@
 @NullResponse @RemoveDomme
 @RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
 (ModuleRun)
-@NullResponse @SetVar[ModuleChooser]=[0]
+@NullResponse @RapidCodeOn @SetVar[ModuleChooser]=[#Random(0,100)]
 @NullResponse @SetVar[MaxModuleRange]=[0]
-@NullResponse @ChangeVar[ModuleChooser]=[ModuleChooser]+[#Random(0,100)]
 (Mood)
-@NullResponse @ChangeVar[MoodTeaseModule]=[TeaseModule]
+@NullResponse @ChangeVar[MoodTeaseModule]=[TeaseModule]+[0]
 @NullResponse @ChangeVar[MoodTeaseModule2]=[MoodTeaseModule]/[2]
 @NullResponse @ChangeVar[MoodTeaseModule3]=[MoodTeaseModule]/[3]
 @NullResponse @ChangeVar[MoodTeaseModule4]=[MoodTeaseModule]/[4]

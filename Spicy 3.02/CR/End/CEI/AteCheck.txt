@@ -25,7 +25,7 @@ You may remove it in 10 minutes! #GNMLol #DT @Goto(Notify3)
 (6) \\Put it on a dildo and lick it clean
 @NotFlag(DildoPlay) @NullResponse @Goto(Continue1)
 #Slut use your dildo #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
-Dap it in your cum and suck it clean! #GNMMoan #DT @Goto(Notify3)
+Dip it in your cum and suck it clean! #GNMMoan #DT @Goto(Notify3)
 (Notify1)
 @NullResponse @CustomMode(done, Goto, NoThanks2)
 @NullResponse @CustomMode(thank you, Goto, Thanks2)

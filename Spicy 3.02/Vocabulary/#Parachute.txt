@@ -1,1 +1,1 @@
-ballcrusher @ShowImage[GNMImages\Toys\Parachute.jpg]
+parachute @ShowImage[GNMImages\Toys\Parachute.jpg]

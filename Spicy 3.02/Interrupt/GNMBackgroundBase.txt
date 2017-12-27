@@ -24,9 +24,8 @@
 [rules,houserules,rule,house,commands,orders] @NullResponse @CallReturn(CR\BackgroundMode\HouseRules.txt)
 [save,end,end tease,stop,leave,close,finish,finished]@SystemMessage #VANC #VANP @RT(Bye,Untile next time,See you,I'm waiting for the next time,Don't leave me alone to long,Good bye,Have a nice day, I saved your process you can close the program) @EndTease @End
 [fast mode, fast answer mode] @NullResponse @CheckFlag(FastAnswerMode) @Goto(FastAnswerModeActivate) 
-[pin,board,notices,news] @NullResponse @CallReturn(CR\BackgroundMode\Pinboard\Pinboard.txt)
+[pin,board,notices,news,pinboard] @NullResponse @CallReturn(CR\BackgroundMode\Pinboard\Pinboard.txt)
 @AcceptAnswer @NullResponse @Goto(Confused)
-@NullResponse
 @NullResponse @Goto(StateCheck)
 (Confused)
 @SystemMessage #VANC #VANP You have the following options #SlaveName

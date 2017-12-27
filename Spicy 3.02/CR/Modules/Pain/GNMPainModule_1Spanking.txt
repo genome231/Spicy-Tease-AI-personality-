@@ -26,7 +26,7 @@ Proceed to move it up around each buttock.. #DT @Wait(10) @Goto(Count2)
 (c)
 Now I'm gonna show you a spankingvideo #DT
 Whenever you see the sub getting struck #DT
-So will you alternating cheek to cheek #DT
+So will you, alternating cheek to cheek #DT
 Enjoy! #DT
 @NullResponse @PlayVideo[\GNM_Videos\BackgroundMode\Punishment\Spanking\*.mp4]
 @NullResponse @Goto(End)
@@ -71,9 +71,13 @@ Enjoy! #DT
 @Variable[Strikes]>[20] @NullResponse @Goto(C1,C2)
 @Variable[Strikes]>[10] @NullResponse @Goto(C1)
 (C1)
-@RT(Right!,Left!) #DT @PlayAudio[\GNMSounds\Punishment\SpankingTask\10Strikes\Spank10.mp3] @Wait(18) @Goto(Count2)
+@RT(Right!,Left!) #DT @PlayAudio[\GNMSounds\Punishment\SpankingTask\10Strikes\Spank10.mp3] @Wait(18) 
+@NullResponse @ChangeVar[Strikes]=[Strikes]-[18]
+@NullResponse @ChangeVar[SpankingCount]=[SpankingCount]+[18] @Goto(Count2)
 (C2)
-@RT(Right!,Left!) #DT @PlayAudio[\GNMSounds\Punishment\SpankingTask\20Strikes\Spank20.mp3] @Wait(18) @Goto(Count2)
+@RT(Right!,Left!) #DT @PlayAudio[\GNMSounds\Punishment\SpankingTask\20Strikes\Spank20.mp3] @Wait(18)
+@NullResponse @ChangeVar[Strikes]=[Strikes]-[20]
+@NullResponse @ChangeVar[SpankingCount]=[SpankingCount]+[20] @Goto(Count2)
 (Test)
 Now #SlaveName #DT
 How many times were you just spanked? #DT @InputVar[Guess]

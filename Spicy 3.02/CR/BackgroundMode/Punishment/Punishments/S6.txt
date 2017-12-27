@@ -69,6 +69,7 @@ And since you're caged.. #DT4 @TempFlag(S6Complete)
 I think that concludes our business.. #DT4 @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
 @End
 (CageOn)
-@RT(Since you're caged..,Now that you're in the #Cage,Now that you're locked up) #DT4 @TempFlag(S6Complete)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Now that you're in the #Cage,Now that you're locked up) #DT4 @TempFlag(S6Complete)
 @RT(I think that concludes our business..,I believe our business to be concluded,I believe we're done here..) #DT4 @TempFlag(PunishmentComplete) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBaseEnd.txt)
 @End

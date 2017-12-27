@@ -75,7 +75,7 @@
 (TooFast)
 @RT(Whenever I set the pace you better keep it!,You are expected to handle stroking much faster for much longer,I require my slaves to handle fast intense stroking!) #DT #MeritChangeNLow
 @RT(Even if you've been locked up for weeks!,Even if you've been locked for weeks!..,Even if I have been denying you for years!) #DT
-@RT(Rememeber that!,You best remember that..,You really should try to remember that!) #DT
+@RT(Remember that!,You best remember that..,You really should try to remember that!) #DT
 @End
 (TooWeak)
 @Variable[Angry]>[23] @NullResponse #MeritChangeNLow

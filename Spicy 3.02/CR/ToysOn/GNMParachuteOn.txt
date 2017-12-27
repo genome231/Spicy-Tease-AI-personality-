@@ -2,7 +2,7 @@
 @NullResponse @CheckFlag(GNMToyParachute)
 @End
 (GNMToyParachute)
-#Fetch parachute and put it on #DT
+#Fetch #Parachute and put it on #DT
 @Variable[SubPainTolerance]>=[10] Apply @RT(2,2.5,3) kg's to it #DT @Wait(20) @Goto(Ready)
 @Variable[SubPainTolerance]>=[7] Apply @RT(1.5,2,2.5) kg's to it #DT @Wait(20) @Goto(Ready)
 @Variable[SubPainTolerance]>=[4] Apply @RT(1,1.5,2) kg's to it #DT @Wait(20) @Goto(Ready)

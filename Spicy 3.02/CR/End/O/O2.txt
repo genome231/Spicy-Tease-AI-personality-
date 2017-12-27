@@ -1,11 +1,11 @@
 (O2) //Watch a video and cum when the sub does
 @RT(I'm gonna put on a video,I'm gonna show you a video) @RT(#SlaveName,#SubName,Slave) #DT
 @RT(If you see someone orgasm so may you,If you're lucky and someone has an orgasm you may too) #DT
-@NotFlag(CuckMode) @RT(Try to time your stroking to the <i>intensity</i> of the action,This is difficuilt but see if you can time your stroking with the <i>intensity</i> of the video) #DT
+@NotFlag(CuckMode) @RT(Try to time your stroking to the <i>intensity</i> of the action,This is difficult but see if you can time your stroking with the <i>intensity</i> of the video) #DT
 @Flag(CuckMode) Fetch your vibrator #DT @Wait(15)
-@Flag(CuckMode) @RT(Try to match the vibrations to the <i>intensity</i> of the action,This is difficuilt but see if you can match the vibrations with the <i>intensity</i> of the video) #DT
+@Flag(CuckMode) @RT(Try to match the vibrations to the <i>intensity</i> of the action,This is difficult but see if you can match the vibrations with the <i>intensity</i> of the video) #DT
 @NotFlag(CuckMode) @RT(So if its intense stroke fast,So when its intense you stroke fast!) #DT
-@Flag(CuckMode) @RT(If it's intense try to hit the magical vibrator spot,If it's very intense yse that magical vibrator spot) #DT
+@Flag(CuckMode) @RT(If it's intense try to hit the magical vibrator spot,If it's very intense hit that magical vibrator spot) #DT
 @RT(If nothing is really happening keep it slow or not at all,And if the video is going slow then you go slow) #DT
 (Understand)
 @RT(Is that understood?,Are we clear on that?,Do you understand?,Is everything perfectly clear?) #DT

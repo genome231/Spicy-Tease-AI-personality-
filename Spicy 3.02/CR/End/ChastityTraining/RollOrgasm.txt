@@ -16,16 +16,20 @@ If you hear a bell you are to stop all stimulation immediately #DT
 Even if you're mid orgasm.. #DT
 (FirstOrgasmChastityT)
 @RT(Lets get this over with,Lets quickly do this,Lets make this happen fast..,Lets not waste too much of my time,Lets get this over,, I have other stuff to do..) #DT @LockImages
-To be clear this time you are to have a orgasm #DT @CustomMode(#ICame, Goto, Came)
+To be clear this time you are to have a orgasm @CustomMode(#ICame, Goto, SaidCame)
 Don't report when you reach the edge!
 @RT(Start! Your time is limited..,Timer has been started..) @ShowImage @Wait(#Random(90,300))
 @NullResponse @UnlockImages
 Stop! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
 Did you orgasm? #DT
-[yes] Good for you I suppose.. #DT
+[yes] @NullResponse @Goto(Came)
 [no] Too bad you've missed your chance then..
 @DifferentAnswer #GNMYesOrNo #DT
 @End
+(SaidCame)
+@RT(Good for you I suppose,Finally..,About time..,Took you long enough)
 (Came)
-@RT(Good for you I suppose,Finally..,About time..,Took you long enough) #DT @CustomMode(ModeText, Normal)
+@NullResponse @UnlockImages
+#GDRegisterOrgasm #DT @CustomMode(ModeText, Normal)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
 @End

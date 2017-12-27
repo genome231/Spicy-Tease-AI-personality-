@@ -1,38 +1,74 @@
-@NullResponse @CheckFlag(PegsOn)
-@Variable[SubPainTolerance]>=[10] @NullResponse @Goto(p14,p16,p18,p20)
-@Variable[SubPainTolerance]>=[7] @NullResponse @Goto(p10,p12,p14,p16)
-@Variable[SubPainTolerance]>=[4] @NullResponse @Goto(p6,p8,p10,p12)
-@Variable[SubPainTolerance]>=[1] @NullResponse @Goto(p2,p4,p6,p8)
+@NullResponse @RapidCodeOn @DeleteFlag(FirstPegOn) @CheckFlag(PegsOn)
+@NullResponse @Flag(gdPain_Never) @Goto(PegsOn)
+@Variable[SubPainTolerance]>=[10] @NullResponse @SetVar[PegsToPutOn]=[#Random(15,20)] @Goto(PutOn)
+@Variable[SubPainTolerance]>=[7] @NullResponse @SetVar[PegsToPutOn]=[#Random(10,15)] @Goto(PutOn)
+@Variable[SubPainTolerance]>=[4] @NullResponse @SetVar[PegsToPutOn]=[#Random(6,12)] @Goto(PutOn)
+@Variable[SubPainTolerance]>=[1] @NullResponse @SetVar[PegsToPutOn]=[#Random(2,8)] @Goto(PutOn)
+(FetchPegs)
+Go ahead and fetch @ShowVar[PegsToPutOn] pegs for me #GNMGrin #DT @Wait(15)
+(PutOn)
+@NotFlag(FirstPegOn) @RT(Lets see..,Now..) #DT
+@NullResponse @RapidCodeOn @Goto(p1,p2,p3,p4,p5,p6)
+(p1)
+@Variable[PegsTongue]>[0] @NullResponse @Goto(PutOn)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,2)]
+@NullResponse @ChangeVar[PegsTongue]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Put @ShowVar[PegsCurrentOn] pegs on your tongue #SlaveName #DT @Goto(AfterPutPeg)
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) add @ShowVar[PegsCurrentOn] pegs to your tongue #SlaveName #DT @Goto(AfterPutPeg)
 (p2)
-Fetch 2 pegs #DT
-@RT(Put them on your GNMBalls,Apply them to your nipples) #DT @Wait(15) @Goto(Ready)
+@Variable[PegsNipple]>[0] @NullResponse @Goto(PutOn)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,2)]
+@NullResponse @ChangeVar[PegsNipple]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Attach @ShowVar[PegsCurrentOn] pegs to each nipple #DT 
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) add @ShowVar[PegsCurrentOn] pegs to each nipple #DT 
+@NullResponse @ChangeVar[PegsCurrentOn]=[PegsCurrentOn]*[2] @Goto(AfterPutPeg)
+(p3)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,3)]
+@Variable[PegsBalls]>[0] @NullResponse @Goto(NotFirstBalls)
+@NullResponse @ChangeVar[PegsBalls]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Place @ShowVar[PegsCurrentOn] pegs on your #GNMBalls #DT @Goto(AfterPutPeg)
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) attach @ShowVar[PegsCurrentOn] pegs to your #GNMBalls #DT @Goto(AfterPutPeg)
+(NotFirstBalls)
+@NullResponse @ChangeVar[PegsBalls]=[PegsCurrentOn]+[0]
+@RT(Next,Now,Additionally) add @ShowVar[PegsCurrentOn] more pegs to your #GNMBalls #DT @Goto(AfterPutPeg)
 (p4)
-Fetch 4 pegs #DT
-Put 2 on your #GNMBalls and 1 on each nipple #DT @Wait(15) @Goto(Ready)
+@Variable[PegsEyebrow]>[0] @NullResponse @Goto(PutOn)
+@NullResponse @SetVar[PegsCurrentOn]=[1]
+@NullResponse @ChangeVar[PegsEyebrow]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Put @ShowVar[PegsCurrentOn] peg on each eyebrow #GNMEmoteHappy #DT
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) place @ShowVar[PegsCurrentOn] peg on each eyebrow #GNMEmoteHappy #DT
+@NullResponse @ChangeVar[PegsCurrentOn]=[PegsCurrentOn]*[2] @Goto(AfterPutPeg)
+(p5)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,2)]
+@Variable[PegsInnerThigh]>[0] @NullResponse @Goto(NotFirstThighs)
+@NullResponse @ChangeVar[PegsInnerThigh]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Stick @ShowVar[PegsCurrentOn] pegs to each inner thigh #GNMGrin #DT @Goto(EndThighs)
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) put @ShowVar[PegsCurrentOn] pegs on each inner thigh #GNMGrin #DT @Goto(EndThighs)
+(NotFirstThighs)
+@NullResponse @ChangeVar[PegsInnerThigh]=[PegsCurrentOn]+[0]
+@RT(Next,Now,Additionally) add @ShowVar[PegsCurrentOn] more pegs to each inner thigh #DT
+(EndThighs)
+@NullResponse @ChangeVar[PegsCurrentOn]=[PegsCurrentOn]*[2] @Goto(AfterPutPeg)
 (p6)
-Fetch 6 pegs #DT
-Put 4 on your #GNMBalls and 1 on each nipple #DT @Wait(15) @Goto(Ready)
-(p8)
-Fetch 8 pegs #DT
-Put 4 on your #GNMBalls and 2 on each nipple #DT @Wait(15) @Goto(Ready)
-(p10)
-Fetch 10 pegs #DT
-Put 6 on your #GNMBalls and 2 on each nipple #DT @Wait(15) @Goto(Ready)
-(p12)
-Fetch 12 pegs #DT
-Put 6 on your #GNMBalls, 2 on each nipple and 1 to each eyebrow #DT @Wait(15) @Goto(Ready)
-(p14)
-Fetch 14 pegs #DT
-Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 1 to each inner thigh #DT @Wait(15) @Goto(Ready)
-(p16)
-Fetch 16 pegs #DT
-Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 2 to each inner thigh #DT @Wait(15) @Goto(Ready)
-(p18)
-Fetch 18 pegs #DT
-Put 6 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 3 to each inner thigh #DT @Wait(15) @Goto(Ready)
-(p20)
-Fetch 20 pegs #DT
-Put 8 on your #GNMBalls, 2 on each nipple, 1 to each eyebrow, 3 to each inner thigh #DT @Wait(15) @Goto(Ready)
+@Variable[PegsEar]>[0] @NullResponse @Goto(PutOn)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,2)]
+@NullResponse @ChangeVar[PegsEar]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Stick @ShowVar[PegsCurrentOn] pegs to each ear #DT
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) attac @ShowVar[PegsCurrentOn] pegs to each ear #DT
+@NullResponse @ChangeVar[PegsCurrentOn]=[PegsCurrentOn]*[2] @Goto(AfterPutPeg)
+(p7)
+@NullResponse @SetVar[PegsCurrentOn]=[#Random(1,2)]
+@NullResponse @Variable[PegsPenisShaft]>[0] @Goto(NotFirstPeniShaft)
+@NullResponse @ChangeVar[PegsPenisShaft]=[PegsCurrentOn]+[0]
+@NotFlag(FirstPegOn) Place @ShowVar[PegsCurrentOn] pegs on your #GNMCock #GNMGrin #DT @Goto(AfterPutPeg)
+@Flag(FirstPegOn) @RT(Next,Now,Additionally) place @ShowVar[PegsCurrentOn] pegs on your #GNMCock #GNMGrin #DT @Goto(AfterPutPeg)
+(NotFirstPeniShaft)
+@NullResponse @ChangeVar[PegsPenisShaft]=[PegsCurrentOn]+[0]
+@RT(Next,Now,Additionally) add @ShowVar[PegsCurrentOn] more pegs to your #GNMCock #GNMGrin #DT @Goto(AfterPutPeg)
+(AfterPutPeg)
+@NullResponse @ChangeVar[PegsToPutOn]=[PegsToPutOn]-[PegsCurrentOn] @TempFlag(FirstPegOn) @Wait(3)
+@Variable[PegsToPutOn]<=[0] @NullResponse @Goto(Ready)
+@NullResponse @Goto(PutOn)
 (Ready)
 Are you ready to proceed? @TempFlag(PegsOn) #DT
 [yes]#GNMGood #DT
@@ -40,4 +76,13 @@ Are you ready to proceed? @TempFlag(PegsOn) #DT
 @AcceptAnswer Proceeding then #DT
 @End
 (PegsOn)
+@End
+(ResetVars)
+@NullResponse @RapidCodeOn @SetVar[PegsTongue]=[0]
+@NullResponse @SetVar[PegsNipple]=[0]
+@NullResponse @SetVar[PegsEyebrow]=[0]
+@NullResponse @SetVar[PegsInnerThigh]=[0]
+@NullResponse @SetVar[PegsBalls]=[0]
+@NullResponse @SetVar[PegsEar]=[0]
+@NullResponse @SetVar[PegsPenisShaft]=[0]
 @End

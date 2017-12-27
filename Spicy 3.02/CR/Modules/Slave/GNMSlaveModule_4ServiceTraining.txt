@@ -2,7 +2,7 @@
 @RT(It's time for a few service exercises,I have just the thing for your training,I have the perfect plan for some training exercises) #GNMMoan #DT
 @RT(Basicly I want you to get quite a few things ready,First you need to get a lot of things ready) #DT
 @RT(Make sure all your gear is nearby and ready,Have all your gear ready and nearby) #DT
-Including robe, shoeslaces, strings or whatever you can use to tie yourself with #DT @Wait(15)
+Including robe, shoelaces, strings or whatever you can use to tie yourself with #DT @Wait(15)
 #GNMReady #DT @Timeout(30, Slow)
 [yes]#GNMGood #DT @Goto(Continue1)
 [no] ... #DT @Goto(Slow)
@@ -28,8 +28,8 @@ How many mL's of water, in total, did you use to fill the glasses? #DT @InputVar
 @RT(Your non-dominant arms sole focus is to carry the tray,You non-dominant arm may only be used to carry the tray) #DT
 @RT(Before we get to that,But before we go there) #DT
 @Flag(CollarPlay) @RT(You're not a proper slave until you wear your collar,You have to put on your collar) #DT @Wait(15)
-@Flag(GagPlay) @RT(Wear your gag,Remember to wear the gag,Remember to gag yourself) #DT @Wait(15)
-@Variable[#ToyRoll]>[#ToyChance] @Goto(Toys) 
+@Flag(GagPlay) @RT(Wear your gag,Remember to wear the gag,Remember to gag yourself) #DT @Wait(15) 
+@NullResponse @RapidCodeOn @Chance30(Toys)
 @NullResponse @Goto(Continue2)
 (Toys)
 @Flag(ParachutePlay,ElectroPlay,HotSaucePlay) @NullResponse @Goto(Toy1,Toy2,Toy3,Toy4,Toy5) 

@@ -190,9 +190,9 @@ We're doing 1 more position... #DT
 (Complicated3)
 #SlaveName #DT
 @RT(It's time for some real fun!,Time for some fun,Lets have a little fun,I'm gonna make things interesting,This should be quite interesting) #DT
-@RT(A real challenge,A bit of a challenge,A fun challenge,An exciting challenge,Definetly a challenge) #GNMLol #DT @SetVar[RandomValue]=[#Random(1,20)]
-@Variable[ToyUsage]<=[RandomValue] @NullResponse @RapidCodeOn @Goto(UseToy)
-@Variable[ToyUsage]>[RandomValue] @NullResponse @Goto(NoToy)
+@RT(A real challenge,A bit of a challenge,A fun challenge,An exciting challenge,Definitely a challenge) #GNMLol #DT @SetVar[RandomValue]=[#Random(1,20)]
+@NullResponse @RapidCodeOn @Chance75(UseToy)
+@NullResponse @Goto(NoToy)
 (UseToy)
 @NullResponse @Goto(b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12)
 (b1) //Gag + pegs
