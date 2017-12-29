@@ -1,7 +1,7 @@
 @NullResponse @CheckFlag(SlaveModule1FirstRun) @SetFlag(SlaveModule1FirstRun)
 Now #SlaveName #DT @SetVar[PositionLevel]=[1]
 I consider it rather important that you know your positions by heart #DT
-So ofcourse we're gonna spend some time once in a while making sure you know your positions #DT
+So of course we're gonna spend some time once in a while making sure you know your positions #DT
 Pay attention as I walk you through the different positions.. @Goto(PositionWalkThrough) #DT
 (SlaveModule1FirstRun)
 #SlaveName #DT
@@ -15,7 +15,7 @@ Bent over open @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg] @Wait(3)
 Box @ShowImage[\GNMImages\Positions\Box1.jpg] @Wait(3)
 Come fuck me @ShowImage[\GNMImages\Positions\CFM1.jpg] @Wait(3)
 Dog @ShowImage[\GNMImages\Positions\Dog1.jpg] @Wait(3)
-Judgement @ShowImage[\GNMImages\Positions\Judgement1.jpg] @Wait(3)
+Judgment @ShowImage[\GNMImages\Positions\Judgement1.jpg] @Wait(3)
 Kneel @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Wait(3)
 Listen @ShowImage[\GNMImages\Positions\Listen1.jpg] @Wait(3)
 Punishment @ShowImage[\GNMImages\Positions\Punishment1.jpg] @Wait(3)
@@ -70,7 +70,7 @@ This is the Bent over position @ShowImage[\GNMImages\Positions\BentOver1.jpg] @T
 It gives the sub a feeling of submission @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Even though it on this pictures has the heels touching the ground @ShowImage[\GNMImages\Positions\BentOver1.jpg]
 I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\BentOver3.jpg]
-Legs straigth! @ShowImage[\GNMImages\Positions\BentOver2.jpg]
+Legs straight! @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Fingers touching the top of your toes @ShowImage[\GNMImages\Positions\BentOver2.jpg]
 Head down #GNMGrin @ShowImage[\GNMImages\Positions\BentOver1.jpg]
 Take the position. #Timer #DT @Goto(aTimer)
@@ -101,7 +101,7 @@ Notice how the legs and lower arms are pressed together @ShowImage[\GNMImages\Po
 It's not one I use a lot but it still has its merit @ShowImage[\GNMImages\Positions\Dog3.jpg]
 Take the position. #Timer #DT @Goto(aTimer)
 (a8)
-This is the Judgement position @ShowImage[\GNMImages\Positions\Judgement1.jpg] @TempFlag(PTa8)
+This is the Judgment position @ShowImage[\GNMImages\Positions\Judgement1.jpg] @TempFlag(PTa8)
 Its primarily a spanking position @ShowImage[\GNMImages\Positions\Judgement1.jpg]
 Heels off the ground @ShowImage[\GNMImages\Positions\Judgement1.jpg]
 Its excellent for a good spanking #GNMGrin @ShowImage[\GNMImages\Positions\Judgement1.jpg]
@@ -131,7 +131,7 @@ Take the position. #Timer #DT @Goto(aTimer)
 This is the Slut position @ShowImage[\GNMImages\Positions\Slut1.jpg] @TempFlag(PTa12)
 This position is art #GNMEmoteHappy @ShowImage[\GNMImages\Positions\Slut2.jpg]
 Its primarily used for girls @ShowImage[\GNMImages\Positions\Slut1.jpg]
-But thats not gonna keep you from learning #GNMLol @ShowImage[\GNMImages\Positions\Slut2.jpg]
+But that's not gonna keep you from learning #GNMLol @ShowImage[\GNMImages\Positions\Slut2.jpg]
 Take the position. #Timer #DT @Goto(aTimer)
 (a13)
 This is the Spanking position @ShowImage[\GNMImages\Positions\Spanking1.jpg] @TempFlag(PTa13)

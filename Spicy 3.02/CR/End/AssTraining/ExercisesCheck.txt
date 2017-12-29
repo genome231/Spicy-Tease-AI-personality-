@@ -20,7 +20,7 @@ Let me just update your exp.. #DT @ChangeVar[ATasksInARow]=[ATasksInARow]+[1]
 @Variable[ATasksInARow]>=[15] I am very happy #SlaveName #DT @Goto(15)
 @Variable[ATasksInARow]>=[10] You will be pleased to hear this #SlaveName #GNMGrin #DT @Goto(10)
 @Variable[ATasksInARow]>=[5] Looks like the training is working out for you #SlaveName #DT @Goto(5)
-@NullResponse @Goto(End)
+@NullResponse @SetFlag(ATAssignmentDone) @Goto(End)
 (15)
 You have been completing your ass @RT(assignments,tasks) for 15 days in a row #DT
 Thus I will multiply your ass exp by 4 from now on #DT @SetVar[AssEXPMultiplier]=[4] @Goto(End)

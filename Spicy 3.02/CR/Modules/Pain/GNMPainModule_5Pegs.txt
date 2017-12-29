@@ -1,11 +1,9 @@
 #SlaveName #DT
 I have a great activity for us #DT
-@Flag(PainUpdate3) @NullResponse @Goto(a,b)
-@NullResponse @Goto(a)
 (SmallParts)
 @NullResponse @SetVar[PegModules]=[0] @CallReturn(CR\ToysOn\GNMPegsOn.txt)
 (SmallPartSelect)
-@Variable[PegModules]>=[1] @NullResponse @Chance30(EndSmallPart)
+@Variable[PegModules]>=[1] @NullResponse @Goto(EndSmallPart)
 @NullResponse @ChangeVar[PegModules]=[PegModules]+[1]
 @NullResponse @Goto(a,b)
 (a) \\Linewriting with pegs
@@ -17,7 +15,7 @@ Keep the pegs there while you do a small assignment #DT
 ... #DT #MeritChangeNMedium
 Let's try again shall we.. #DT @Goto(a2)
 (b)
-@NullResponse @CallReturn(DCR\Modules\LinkModules\GoToCorner.txt)
+@NullResponse @CallReturn(CR\Modules\LinkModules\GoToCorner.txt)
 @NullResponse @Wait(#Random(240,300))
 Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
 @NullResponse @Goto(SmallPartSelect)
@@ -40,3 +38,4 @@ You can remove the pegs now #SlaveName #DT @CallReturn(CR\ToysOn\GNMPegsOn.txt,R
 (End2)
 Well I just wanted a tad of fun #GNMLol #DT
 @End
+@Flag(PainUpdate3) @NullResponse @Goto(a,b)

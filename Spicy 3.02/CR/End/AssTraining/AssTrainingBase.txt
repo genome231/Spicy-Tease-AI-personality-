@@ -1,6 +1,5 @@
 @NullResponse @CheckFlag(FirstTimeAssTraining) 
 @NullResponse @NotFlag(AssTrainingActive) @Goto(End)
-@NullResponse @NotFlag(FirstTimeAssTraining) 
 @NullResponse @SetFlag(FirstTimeAssTraining)
 @NullResponse @CallReturn(CR\End\AssTraining\AssTrainingFirst.txt)
 @NullResponse @Goto(First)

@@ -167,6 +167,15 @@ Pin Board with daily notices
 #TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
 #TODO: Enema kit picture
 #TODO: Add I came response
+#TODO: Fix smilies with brackets messing up
+#TODO: Fix x wants to take over displaying always the same person
+#TODO: Mistress control toy usage
+#TODO: Start module issue with blank line after responding wit hello mistress
+#TODO: Daily enema litre amount vocab error
+#TODO: Improve peg play (pretty plain) same for hot sauce play
+#TODO: Attach more toys during session like gag, collar etc.
+#TODO: Domme end session sequences
+#TODO: Ass training exercise does not call at new tries
 
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)

@@ -35,8 +35,8 @@ You're going to squat for me.. #DT
 You'll hear 3 commands #DT
 Down - get down into a squat and stay down.. #DT
 Up - you may stand and relax #DT
-And on your toes - Stand on your toes, keep your balance.. #DT @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[#Random(90,150)]
-If you're squating and hear "on your toes", then stand on your toes but stay down in the squat! #DT
+And on your toes - Stand on your toes, keep your balance.. #DT @SetVar[Timer]=[0]
+If you're squating and hear "on your toes", then stand on your toes but stay down in the squat! #DT @ChangeVar[Timer]=[Timer]+[#Random(90,150)]
 Now hands above your head! #DT
 Get ready! #DT
 (Base)

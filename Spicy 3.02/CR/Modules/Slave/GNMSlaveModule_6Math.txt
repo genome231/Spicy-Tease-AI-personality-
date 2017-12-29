@@ -14,19 +14,19 @@ And then I bet it makes sense #GNMGrin #DT
 @NullResponse @ShowImage[\GNMImages\Modules\Math\Dot.jpg]
 @NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg]
 Then a final Sum symbol shows up @ShowImage[\GNMImages\Modules\Math\Sum.jpg]
-When that picture shows up you have 5 seconds to input your answer #GNMEmoteHappy #DT
-Or you will automaticly get that wrong #GNMGrin #DT
+When that picture shows up you have 5 seconds to input your answer @UnlockImages #GNMEmoteHappy #DT
+Or you will automatically get that wrong #GNMGrin #DT
 In this case the full calculation was #DT
 2 + 4 * 2 = 12 #DT
 Notice! #DT
 That in this game we ignore the order of operations! #DT
 Because in the real world this would be equal to 10 #DT
 So you have to be quick with your calculations! #DT
-In this game you have 3 lifes #DT
+In this game you have 3 lives #DT
 @Flag(SlaveUpdate3) For every right calculation you earn 15 gold #DT
 @NotFlag(SlaveUpdate3) For every right calculation you earn 10 gold #DT
 Miscalculate 3 times and you die #GNMLol #DT
-With every calculation the difficuilty increases #DT
+With every calculation the difficulty increases #DT
 Oh and I forgot to say you start with -50 gold #DT
 @Flag(SlaveUpdate3) So you have to get at least 4 of them right #GNMMoan #DT
 @NotFlag(SlaveUpdate3) So you have to get at least 5 of them right #GNMMoan #DT

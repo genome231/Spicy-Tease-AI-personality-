@@ -19,12 +19,12 @@
 #Fetch #ChooseSpankingImplement #DT @Wait(10) @Chance10(c) @Goto(Count)
 (b)
 @NullResponse @ChangeVar[Strikes]=[Strikes]/[3]
-Go and find 2 large rubberbands #DT
+Go and find 2 large rubber bands #DT
 Place 1 around each thigh #DT
 @Variable[SubPain]>=[7] Proceed to move it up around each buttock.. #DT @Wait(10) @Chance10(c) @Goto(Count2)
 Proceed to move it up around each buttock.. #DT @Wait(10) @Goto(Count2)
 (c)
-Now I'm gonna show you a spankingvideo #DT
+Now I'm gonna show you a spanking video #DT
 Whenever you see the sub getting struck #DT
 So will you, alternating cheek to cheek #DT
 Enjoy! #DT

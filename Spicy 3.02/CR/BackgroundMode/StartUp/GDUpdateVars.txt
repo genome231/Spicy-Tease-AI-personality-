@@ -4,6 +4,17 @@
 @NullResponse @Variable[InstalledSpicyVersion]<=[0] @ChangeVar[InstalledSpicyVersion]=[FileSpicyVersion]+[0]
 @NullResponse @Variable[LockedDaysInRowLimit]<=[0] @SetVar[LockedDaysInRowLimit]=[5]
 @NullResponse @SetFlag(gdEnforcingPersonality) @Goto(End)
+@NullResponse @CheckFlag(gdEnforcingPersonality)
+@NullResponse @Goto(End)
+(gdEnforcingPersonality)
+@NullResponse @NotFlag(gdAnal_Never) @SetFlag(gdAnal)
+@NullResponse @NotFlag(gdCEI_Never) @SetFlag(gdCEI)
+@NullResponse @NotFlag(gdPain_Never) @SetFlag(gdPain)
+@NullResponse @NotFlag(gdAssToMouth_Never) @SetFlag(gdAssToMouth)
+@NullResponse @NotFlag(gdPee_Never) @SetFlag(gdPee)
+@NullResponse @NotFlag(gdCBT_Never) @SetFlag(gdCBT)
+@NullResponse @NotFlag(gdSissy_Never) @SetFlag(gdSissy)
+@NullResponse @Goto(End)
 (Currently skipped)
 @NullResponse @CheckFlag(Personality1)
 @NullResponse @CheckFlag(Personality2)

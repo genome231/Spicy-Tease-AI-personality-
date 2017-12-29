@@ -20,7 +20,7 @@
 (Glitter2)
 @NullResponse @SetFlag(Glitter2Active) @DeleteFlag(DommeActive)
 @RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
-@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
+@RT(It seems,It appears,I think,It looks like) #Contact2 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
 @RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
 @NullResponse @AddContact2
 @NullResponse @RemoveDomme
@@ -28,7 +28,7 @@
 (Glitter3)
 @NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive)
 @RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
-@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
+@RT(It seems,It appears,I think,It looks like) #Contact3 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
 @RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
 @NullResponse @AddContact3
 @NullResponse @RemoveDomme
