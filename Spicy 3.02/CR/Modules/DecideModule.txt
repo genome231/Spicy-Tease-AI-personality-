@@ -10,29 +10,49 @@
 (Domme)
 @NullResponse @Goto(ModuleRun)
 (Glitter1)
-@NullResponse @SetFlag(Glitter1Active) @DeleteFlag(DommeActive)
-@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
-@RT(It seems,It appears,I think,It looks like) #Contact1 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
-@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
-@NullResponse @AddContact1
-@NullResponse @RemoveDomme
-@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
+@NullResponse @SetFlag(Glitter1Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
 (Glitter2)
-@NullResponse @SetFlag(Glitter2Active) @DeleteFlag(DommeActive)
-@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
-@RT(It seems,It appears,I think,It looks like) #Contact2 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
-@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
-@NullResponse @AddContact2
-@NullResponse @RemoveDomme
-@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
+@NullResponse @SetFlag(Glitter2Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
 (Glitter3)
-@NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive)
-@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..) #DT
-@RT(It seems,It appears,I think,It looks like) #Contact3 @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT
-@RT(Cya later,See you soon,Be seeing you again soon!,see ya later,) @RT(#SlaveName,#Slut,#SubName) #DT
-@NullResponse @AddContact3
-@NullResponse @RemoveDomme
-@RT(Hello,Hi,Greetings) @RT(#SlaveName,#Slut,#SubName) #DT @Goto(ModuleRun)
+@NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
+(GlitterIntro)
+@NullResponse @Goto(MessageGlitter,WaitGlitter)
+(WaitGlitter)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..,Wait a second,Give me a second,Hold on for a minute) #DT @Goto(DommeLeaveGlitter,SeemsGlitter)
+(SeemsGlitter)
+@RT(It seems,It appears,I think,It looks like) #CurrentDommeName @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT @Goto(DommeLeave)
+(MessageGlitter)
+@RT(You know what #SlaveName?,I have some interesting news for you,I have great news) #DT
+#CurrentDommeName @RT(messaged me before,just texted me,just called me,called me today) #DT
+@RT(She plans on taking this over for a while,She intends on taking it over from here,She wants to play with you) @Goto(DommeLeave)
+(DommeLeaveGlitter)
+@RT(Okay..,Let's see..,Seems like that works..) #DT
+#SlaveName #DT
+@RT(I need to leave for a short while,I will get something to drink,I am hungry so I will grab something to eat,I am bored,I have an incoming important call) #DT
+But @RT(I don't want to leave you all alone,I am not planning on leaving you all alone,I don't want you to be bored,I don't want you to wait) #DT
+Thus I @RT(called,texted,messaged,talked to) #CurrentDommeName #GNMGrin #DT
+She @RT(is interested in taking this over,will take this from here on,will take this over,will keep you busy) @RT(for now,for the time being,until I am back,until I am available again) #DT
+@Goto(DommeLeave)
+(DommeLeave)
+@RT(Let's hope she won't be too cruel to you,I hope she won't be too cruel,Don't disappoint me!,Be a good slave,Behave!,Be on your best behaviour!,I expect you to follow her commands same like mine,Don't you dare cum,Don't you dare disappoint me) #DT
+@RT(That said,Having said that,With that said) #DT
+@RT(I will leave now,I will leave you to her now,I will invite her now,I will add her to the chat now,She will join now,She will join us now,She will take over now) #DT
+@RT(Cya,See you soon,See you again soon,See you later,Enjoy!,Have fun!) #SlaveName #DT
+@NullResponse @CheckFlag(Glitter1Active, EnableGlitter1) 
+@NullResponse @CheckFlag(Glitter2Active, EnableGlitter2) 
+@NullResponse @CheckFlag(Glitter3Active, EnableGlitter3) 
+(EnableGlitter1)
+@NullResponse @AddContact1
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(EnableGlitter2)
+@NullResponse @AddContact1
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(EnableGlitter3)
+@NullResponse @AddContact1
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(IntroduceGlitter)
+@RT(Hello,Hi,Hey,Greetings) #SlaveName #DT 
+@RT(Let's not waste anymore time,Let's waste no time,Let's get to it,No long introductions today,Let's make #DomName proud of you) #DT @Goto(ModuleRun)
 (ModuleRun)
 @NullResponse @RapidCodeOn @SetVar[ModuleChooser]=[#Random(0,100)]
 @NullResponse @SetVar[MaxModuleRange]=[0]
