@@ -168,6 +168,10 @@
 @NullResponse @SetFlag(Day31Bad) 
 @NullResponse @RapidCodeOff
 @SystemMessage 100% complete @ShowImage[\GNMImages\Intro\GNMLoading.*]
+@SystemMessage Have you done this settings before and want me now to respond quicker? @ShowImage[\GNMImages\Intro\GNMLoading.*]
+[yes]@TempFlag(FastAnswerMode) @NullResponse @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(Direct) 
+[no]@SystemMessage Fine @ShowImage[\GNMImages\Intro\GNMLoading.*] @Goto(General)
+@DifferentAnswer @SystemMessage Yes or no? @ShowImage[\GNMImages\Intro\GNMLoading.*]
 (General)
 @NullResponse @ShowImage[\GNMImages\Intro\Disclaimer.*] @Wait(18) 
 @NullResponse @ShowImage[\GNMImages\Intro\Tribute.*] @Wait(13)
@@ -190,6 +194,7 @@
 @SystemMessage #VANC #VANP At the end of the trial there will be a quite extensive report on you
 @SystemMessage #VANC #VANP As well as a final exam
 @SystemMessage #VANC #VANP Pass both and you will be accepted as the property of #DomHonorific #DomName
+(Direct)
 @SystemMessage #VANC #VANP Now there are 2 types of slaves
 @SystemMessage #VANC #VANP Those who serve full time and some who serve part time
 @SystemMessage #VANC #VANP In case you forgot
