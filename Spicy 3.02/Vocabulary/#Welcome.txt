@@ -38,3 +38,4 @@ Happy to see you.
 Tell me what you want.
 Hey, You have @ShowVar[GNMGold] gold. Take a look in the shop what you can buy.
 I will response faster when you type "fast mode"
+Hey, Please only save your progress bye typing save when you don't run in an error since the last save. To get back to the last saved state reset the session.
