@@ -350,6 +350,12 @@
 @SystemMessage #VANC #VANP But #DomHonorific understands if you can't afford all of it..
 @SystemMessage #VANC #VANP In case you aquire something new
 @SystemMessage #VANC #VANP You can always go to settings and I'll help you register your new toy
+@SystemMessage #VANC #VANP First I need to know
+@SystemMessage #VANC #VANP How often do you want to use toys during sessions?
+@SystemMessage #VANC #VANP Either you can input a custom value or you can let the domme decides
+[custom]@SystemMessage #VANC #VANP You decide @SetFlag(ToySub) @Goto(Explain)
+[domme]@SystemMessage #VANC #VANP The domme decides @SetFlag(ToyDomme) @Goto(Toy)
+@DifferentAnswer @SystemMessage #VANC #VANP Domme decides or custom value
 (Explain)
 @SystemMessage #VANC #VANP Now #SlaveName
 @SystemMessage #VANC #VANP I need you to follow my instructions carefully
