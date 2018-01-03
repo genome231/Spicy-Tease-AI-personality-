@@ -28,7 +28,7 @@
 @SystemMessage #VANC #VANP But trust me..
 @SystemMessage #VANC #VANP You're not getting out of this chore before you complete it! @Goto(31,32,33,34,35,36,37,38,39,40)
 (1)
-@NullResponse @WritingTask(#DomHonorific is purphase, #DomHonorific is life.)
+@NullResponse @WritingTask(#DomHonorific is purpose, #DomHonorific is life.)
 @NullResponse @Goto(Complete)
 (2)
 @NullResponse @WritingTask(I will serve #DomName forever.)

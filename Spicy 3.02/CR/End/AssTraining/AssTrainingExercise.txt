@@ -19,7 +19,8 @@ I want you to go a for a #CWalk walk #DT
 @RT(I want you to learn to move around with it,It will be good for your health as well,You should thank me for encouraging you to do a little exercise) #DT @Goto(End)
 (4)
 @NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[40]
-I want you to stick your #Dildo up your #GNMAss and keep it in there for #Random(10,30) minutes #DT @Goto(End)
+@NullResponse @SetVar[RandomNumber]=[#Random(10,30)]
+I want you to stick your #Dildo up your #GNMAss and keep it in there for @ShowVar[RandomNumber] minutes #DT @Goto(End)
 (5)
 @NullResponse @RapidCodeOn @SetVar[AssRewardEXP]=[45]
 I want you to spend the whole night wearing your #ButtPlug #DT @Goto(End)
@@ -44,7 +45,8 @@ Make sure to lick up your ruined mess afterwards #GNMGrin #DT @Goto(End)
 (8)
 (End)
 @NullResponse @Chance75(Cleaning)
-#InAddition I want you to watch #Random(10,30) minutes of porn involving anal. Preferably while completing your @RT(task,assignment) #DT
+@NullResponse @SetVar[RandomNumber]=[#Random(10,30)]
+#InAddition I want you to watch @ShowVar[RandomNumber] minutes of porn involving anal. Preferably while completing your @RT(task,assignment) #DT
 (Cleaning)
 @NullResponse @NotFlag(gdAssToMouth) @Goto(Enema)
 @RT(Remember,Don't forget,Keep in mind) to properly lick your toys clean after using them #GNMLol #SlaveName #DT

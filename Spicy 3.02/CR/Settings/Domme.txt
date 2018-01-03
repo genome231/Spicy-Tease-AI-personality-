@@ -18,7 +18,7 @@
 @NullResponse @SetFlag(DommeTagExplained2)
 @SystemMessage #VANC #VANP Next we have mode settings
 @SystemMessage #VANC #VANP These modes affect certain specific behaviour
-@SystemMessage #VANC #VANP Serving the purphase of further tailoring Spicy to your kink
+@SystemMessage #VANC #VANP Serving the purpose of further tailoring Spicy to your kink
 @SystemMessage #VANC #VANP Notice that multiple modes can be active at once
 @SystemMessage #VANC #VANP Modes can also be locked for a certain number of days
 @SystemMessage #VANC #VANP Leaving you unable to change these until the lock duration has expired
