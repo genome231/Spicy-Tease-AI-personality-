@@ -3,7 +3,7 @@
 #SlaveF1Chat Here is a nice one of #SubName #GNMLol @ShowImage[\GNMImages\SelfHumiliation\*.*]
 #SlaveF1Chat Oh well..
 #SlaveF1Chat You're here because I wanna host a cocksucking competition #GNMGrin
-#SlaveF1Chat If you were in the same room I would ofcourse have you blow each other in a nice 69'er #GNMLol
+#SlaveF1Chat If you were in the same room I would of course have you blow each other in a nice 69'er #GNMLol
 #SlaveF1Chat But I'll guess I have to settle with a dildo
 #SlaveF1Chat So go fetch your dildo's boys.. @Wait(10)
 #SlaveF1Chat Now I'm gonna give you each 1 minute to warm up and suck that cock good
@@ -31,7 +31,7 @@
 (DildoTimer)
 @NullResponse @If[FWF1Dildo]<=[1]Then(DildoStop2) @ChangeVar[FWF1Dildo]=[FWF1Dildo]-[1] @Wait(5) @Goto(DildoTimer)
 (DildoStop1)
-#SlaveF1Chat #SubName surrenders and that means #SlaveM2 is the better Slut! @CustomMode(ModeText, Normal)
+#SlaveF1Chat #SubName surrenders and that means #SlaveM2 is the better slut! @CustomMode(ModeText, Normal)
 #SlaveF1Chat Congratulations #SlaveM2 here is your 100 gold #GNMGrin
 #SlaveM2Chat Thank you Miss.
 #SlaveF1Chat Better luck next time #SubName

@@ -25,7 +25,7 @@ Would you like to play our little game again? #DT
 @Flag(Personality1) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(20,80)] 
 @Flag(Personality2) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(30,100)] 
 @Flag(Personality2) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(50,130)] 
-Lets get going with you ejaculating #GNMEmoteHappy #DT @Goto(Ruined,Orgasm)
+Let's get going with you ejaculating #GNMEmoteHappy #DT @Goto(Ruined,Orgasm)
 (Orgasm)
 @NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
 (Ruined)

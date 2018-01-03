@@ -175,7 +175,7 @@ Pin Board with daily notices
 #TODO: Improve peg play (pretty plain) same for hot sauce play
 #TODO: Attach more toys during session like gag, collar etc.
 #TODO: Domme end session sequences
-#TODO: Ass training exercise does not call at new tries
+#TODO: Not showing how many pegs to fetch
 
 Notes about scripting:
 @Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)

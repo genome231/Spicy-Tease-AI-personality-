@@ -36,6 +36,8 @@
 (DevilMode)
 @NullResponse @ShowImage[GNMImages\Intro\SpicyDevil.gif] @Wait(3) @Goto(SchoolCheck)
 (SchoolCheck)
+@NullResponse @Goto(Continue1)
+(Currently skipped)
 @Day(5) @NullResponse @Goto(Academy)
 @Day(10) @NullResponse @Goto(Academy)
 @Day(15) @NullResponse @Goto(Academy)

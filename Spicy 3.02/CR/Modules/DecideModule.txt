@@ -16,9 +16,9 @@
 (Glitter3)
 @NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
 (GlitterIntro)
-@NullResponse @Goto(MessageGlitter,WaitGlitter)
+@NullResponse @Goto(MessageGlitter,WaitGlitter,DommeLeaveGlitter)
 (WaitGlitter)
-@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..,Wait a second,Give me a second,Hold on for a minute) #DT @Goto(DommeLeaveGlitter,SeemsGlitter)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..,Wait a second,Give me a second,Hold on for a minute) #DT @Goto(SeemsGlitter)
 (SeemsGlitter)
 @RT(It seems,It appears,I think,It looks like) #CurrentDommeName @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT @Goto(DommeLeave)
 (MessageGlitter)
@@ -45,10 +45,10 @@ She @RT(is interested in taking this over,will take this from here on,will take 
 @NullResponse @AddContact1
 @NullResponse @RemoveDomme @Goto(IntroduceGlitter)
 (EnableGlitter2)
-@NullResponse @AddContact1
+@NullResponse @AddContact2
 @NullResponse @RemoveDomme @Goto(IntroduceGlitter)
 (EnableGlitter3)
-@NullResponse @AddContact1
+@NullResponse @AddContact3
 @NullResponse @RemoveDomme @Goto(IntroduceGlitter)
 (IntroduceGlitter)
 @RT(Hello,Hi,Hey,Greetings) #SlaveName #DT 

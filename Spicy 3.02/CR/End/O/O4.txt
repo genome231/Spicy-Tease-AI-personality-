@@ -1,6 +1,6 @@
 (O4) //condom and pillow grinding, hands behind head.
 @Flag(SissyMode) @NullResponse @Goto(Sissy1)
-@RT(Do you have a condom,Are you in possesion of a condom) @RT(#SlaveName,#SubName,#Slut) ? #DT
+@RT(Do you have a condom,Are you in possession of a condom) @RT(#SlaveName,#SubName,#Slut) ? #DT
 [yes]#GNMGood @RT(fetch it and put it on..,Retrieve it and put it on your #GNMCock) #DT @Goto(O4Continue)
 [no]@RT(Well then..,Okay then..) #DT
 @DifferentAnswer #GNMYesOrNo #DT
