@@ -13,12 +13,12 @@ You're going to get a bowl of ice for me #DT
 Not just 2 or three cube, it should be a big bowl filled to the rim
 Can you do that for me?
 [yes] Alright, go get some ice then
-[no] Oh, you're no fun, #Name @Goto(not want ice)
+[no] Oh, you're no fun, #SlaveName @Goto(not want ice)
 @DifferentAnswer #YesOrNo
 Let me know when you're ready...
 [ready,done] I bet you're wondering what that bowl of ice is for...
 @DifferentAnswer Let me know when you're ready
-You're just going to have to wait and see, #Name @TempFlag(pvBowlOfIce)
+You're just going to have to wait and see, #SlaveName @TempFlag(pvBowlOfIce)
 For know, put it to the side - but keep it within reach
 You're should be ready to use that ice however and whenever I say so #Smile @MoodUp
 @End

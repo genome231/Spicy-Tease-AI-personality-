@@ -27,7 +27,7 @@ But like #Contact3 said, it shouldn't even be your choice
 It would be easier for us both if you just agreed to do it
 So let me ask you again: will you swallow you cum for me?
 [yes] Good boy #GNMEmoteHappy @DeleteFlag(pthevCEITraining) @DeleteFlag(pthevCEI_No) @SetFlag(pthevCEI_Yes)
-[no] We'll see, #Name
+[no] We'll see, #SlaveName
 @DifferentAnswer #YesOrNo
 @NullResponse
 @End

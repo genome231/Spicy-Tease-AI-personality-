@@ -29,7 +29,7 @@ Do you promise not to cum unless I say so?
 [no,can't,cannot,won't,will not] Alright forget about it then @Goto(changedmind)
 [i promise] Good
 @DifferentAnswer I want you to type it: I promise #DomHonorific #DomName
-If you break this promise there will be consequences #Name
+If you break this promise there will be consequences #SlaveName
 So better make sure that doesn't happen #Grin
 Of course, this arrangement only works when you are completely honest
 So you should tell me when you've disobeyed me

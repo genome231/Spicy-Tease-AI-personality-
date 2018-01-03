@@ -74,7 +74,7 @@ I suppose it's going to have to come down to bare hand spanking @Goto(SPANKING)
 (CBT)
 @Flag(pthevShoelace) @NullResponse @Goto(go tie up balls)
 @Flag(pthevShoelaceNo) @NullResponse @Goto(move on to cbt)
-I need you to tie up those #Balls for me, #Name
+I need you to tie up those #Balls for me, #SlaveName
 Do you have a shoelace or something like that?
 [yes] Good @SetFlag(pthevShoelace)
 [no] Oh... well we can do this without tying them up @SetFlag(pthevShoelaceNo) @Goto(move on to cbt)
@@ -126,7 +126,7 @@ SEVEN
 EIGHT
 NINE 
 TEN
-That will do for now, #Name
+That will do for now, #SlaveName
 @Flag(pvKneeling) You can stop kneeling now @DeleteFlag(pvKneeling)
 @Flag(pvBallsTied) @NullResponse @CallReturn(Custom/CallReturn/pvCr_UnTieMyBalls.txt)
 @NullResponse
@@ -148,7 +148,7 @@ You're going to spank yourself, so get down on your knees @CustomTask(Spanking)
 Sit back down, #PetName @Goto(punishment ending)
 @End
 (cane)
-@RT(Fetch the,Go get your) cane #Name
+@RT(Fetch the,Go get your) cane #SlaveName
 Let me know when you're ready to continue
 [yes,ready,got it,have it] @NullResponse @Chance50(skip kneeling)
 @DifferentAnswer Ready?
@@ -169,10 +169,10 @@ I want you to bend over your chair, go get one if you need to @Wait(6)
 Place your hands on the seat
 You will match every swish and crack of the cane you hear
 Each time you will hit your ass as hard as you can
-I want red stripes across your skin, #Name @SetFlag(pthevCaneExplained)
+I want red stripes across your skin, #SlaveName @SetFlag(pthevCaneExplained)
 And I want you to count them out loud @Goto(top caning)
 (pthevCaneExplained)
-Get into the position #Name, hands on your chair
+Get into the position #SlaveName, hands on your chair
 Don't forget to count out loud, and don't hold back #SubName
 Remember that you could never strike as hard as I would
 (top caning)
@@ -216,7 +216,7 @@ Get ready... @Wait(8) @RapidTextOn
 @NullResponse @Chance90(another one)
 (caning done)
 That's enough, sit down @RapidTextOff
-How many, #Name?
+How many, #SlaveName?
 [8,eight] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[8]
 [9,nine] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[9]
 [10,ten] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[10]
@@ -245,13 +245,13 @@ Wrong number again
 But I guess you've learned your lesson, so let's move on @Goto(punishment ending)
 @End
 (belt)
-@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) leather belt, #Name
+@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) leather belt, #SlaveName
 Do you have it?
 [yes,got it,ready] Good
 [no] Go get it then, tell me when you're ready @LoopAnswer
 [not possible,impossible,can't] *Sigh* @Goto(CORNER)
 @DifferentAnswer #YesOrNo
-@RT(Lets get this over with,Well now,Alright), #Name
+@RT(Lets get this over with,Well now,Alright), #SlaveName
 @NotFlag(pvKneeling) Get down on your knees  @TempFlag(pvKneeling)
 You're going to give your ass 30 smacks with the belt
 After every 10 smacks, I want you to type "Thank you #DomHonorific"
@@ -262,7 +262,7 @@ Okay #PetName, do it!
 Tell me, #SubName
 [thank you] Okay, 10 more smacks
 @DifferentAnswer What did I tell you to say?
-I'm waiting, #Name
+I'm waiting, #SlaveName
 [thank you] Well done, you can put away the belt for now
 @DifferentAnswer No, try again #SubName
 Your ass must be all red and glowing now #Grin
@@ -270,13 +270,13 @@ Your ass must be all red and glowing now #Grin
 @NullResponse  @Goto(punishment ending)
 @End
 (spoon)
-@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) wooden spoon, #Name
+@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) wooden spoon, #SlaveName
 Do you have it?
 [yes,got it,ready] Good
 [no] Go get it then, tell me when you're ready @LoopAnswer
 [not possible,impossible,can't,don't have,haven't] *Sigh* @Goto(CORNER)
 @DifferentAnswer #YesOrNo
-@RT(Lets get this over with,Well now,Alright), #Name
+@RT(Lets get this over with,Well now,Alright), #SlaveName
 @NotFlag(pvKneeling) Get down on your knees  @TempFlag(pvKneeling)
 You're going to give your ass 30 smacks with the spoon
 After every 10 smacks, I want you to type "Thank you #DomHonorific"
@@ -287,11 +287,11 @@ Okay #PetName, do it!
 Tell me, #SubName
 [thank you] Okay, 10 more smacks
 @DifferentAnswer What did I tell you to say?
-I'm waiting, #Name
+I'm waiting, #SlaveName
 [thank you] Well done, you can put away the spoon for now
 @DifferentAnswer No, try again #SubName
 Your ass must be all red and glowing now #Grin
-@Flag(pvKneeling) You can get off your knees, #Name @DeleteFlag(pvKneeling)
+@Flag(pvKneeling) You can get off your knees, #SlaveName @DeleteFlag(pvKneeling)
 @NullResponse  @Goto(punishment ending)
 @End
 =============================

@@ -97,14 +97,14 @@ You become so eager to please when you're locked up... I love it #GNMEmoteHappy 
 //Stuf left (missing variables):
 //Edging
 But all I want from you right now is to get to the edge @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
-Just edging for me is quite enough for now, #Name @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Just edging for me is quite enough for now, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 Anything? I'll be happy if you edge for me right now #EmoteWink @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 //Holding Edge
 I like that, you better stay on the edge a little longer #Grin @AddEdgeHoldTime @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 //CBT Cock
-Then hurt your #Cock for me, #Name @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Then hurt your #Cock for me, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 //CBT Balls
-Then hurt your #Balls for me, #Name @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Then hurt your #Balls for me, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 //After tease
-We're done for now, #Name @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+We're done for now, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
 Maybe next time we'll find out what that means, exactly #Grin @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
