@@ -34,5 +34,5 @@ Are you done? #DT
 @NullResponse @UnlockImages @Goto(Base)
 
 (ChastityOff)
-@DeleteFlag(ChastityIsOn) @ChastityOff @Info(It will allow to stroke at the next session) @Goto(Base)
+@NullResponse @DeleteFlag(ChastityIsOn) @ChastityOff @Info(It will allow to stroke at the next session) @Goto(Base)
 @End
