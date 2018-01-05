@@ -19,8 +19,7 @@ I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
 @Flag(ChastityIsOn) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
 @NotFlag(ChastityIsOn) @Flag(CPlayActive) @NullResponse @Goto(PlayTest)
 @NotFlag(ChastityIsOn) @NullResponse @Goto(IntroNoChastity)
-@Info(Code now is with ChastityIsOn) 
-@NullResponse @RapidCodeOn
+@Info(Code now is with ChastityIsOn) @NullResponse @RapidCodeOn
 @NullResponse @SetVar[Choice]=[0]
 @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
