@@ -16,9 +16,10 @@ I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
 (Continue)
 @NotFlag(FirstSessionD) @NullResponse @RapidCodeOn @SetFlag(FirstSessionD) @Goto(Unlock)
 @NotFlag(HasChastity) @NullResponse @Goto(Unlock)
-@FlagOr(CPunishmentActive,C247) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
-@Flag(CPlayActive) @NullResponse @Goto(PlayTest)
-@NullResponse @RapidCodeOn
+@Flag(ChastityIsOn) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
+@NotFlag(ChastityIsOn) @Flag(CPlayActive) @NullResponse @Goto(PlayTest)
+@NotFlag(ChastityIsOn) @NullResponse @Goto(IntroNoChastity)
+@Info(Code now is with ChastityIsOn) @NullResponse @RapidCodeOn
 @NullResponse @SetVar[Choice]=[0]
 @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
@@ -110,8 +111,8 @@ I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
 (PlayTest)
 @NullResponse @SetVar[Choice]=[0]
 @Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,150)]
-@Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,120)]
-@Flag(Personality1) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
+@Flag(Personality2) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,120)]
+@Flag(Personality3) @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,100)]
 @Variable[Happy]>[Angry] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
 @Variable[Angry]>[Happy] @NullResponse @ChangeVar[Choice]=[Choice]-[#Random(1,25)]
 @Variable[Horny]>[30] @NullResponse @ChangeVar[Choice]=[Choice]+[#Random(1,25)]
