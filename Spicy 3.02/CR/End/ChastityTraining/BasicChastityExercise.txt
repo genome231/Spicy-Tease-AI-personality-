@@ -1,3 +1,5 @@
+@Variable[ChastityLevel]>=[25] @NullResponse @Chance50(ChastityOn) @Goto(ChastityOff)
+(Base)
 @Variable[ChastityLevel]>=[20] @RT(You are to wear your,You have to wear the,You gotta wear the,You need to wear the) #Cage until next session #DT @Goto(Sleep)
 @Variable[ChastityLevel]>=[18] @NullResponse @SetVar[RandomNumber]=[#Random(6,9)]
 @Variable[ChastityLevel]>=[18] @RT(You are to wear your,You have to wear the,You gotta wear the,You need to wear the) #Cage whenever you are outside and for at least @ShowVar[RandomNumber] hours in total #DT @Goto(Sleep)
@@ -9,8 +11,28 @@
 @Variable[ChastityLevel]>=[5] @RT(You should wear the,You need to wear the) #Cage for at least @ShowVar[RandomNumber] hours #DT @Goto(Sleep)
 @Variable[ChastityLevel]>=[3] @NullResponse @SetVar[RandomNumber]=[#Random(2,5)]
 @Variable[ChastityLevel]>=[3] @RT(You should wear the,You need to wear the) #Cage for at least @ShowVar[RandomNumber] hours #DT @Goto(Sleep)
-@Variable[ChastityLevel]>=[3] @NullResponse @SetVar[RandomNumber]=[#Random(1,3)]
+@Variable[ChastityLevel]>=[1] @NullResponse @SetVar[RandomNumber]=[#Random(1,3)]
 @Variable[ChastityLevel]>=[1] @RT(You should try to wear the,You should really try to wear the) #Cage for at least @ShowVar[RandomNumber] hours #DT @Goto(Sleep)
 (Sleep)
+@Variable[ChastityLevel]<[25] @NullResponse @DeleteFlag(ChastityIsOn) @Info(You can set this Flag by a error over a edge in RollOrgasm)
 @Variable[ChastityLevel]<[20] It's okay if you can't sleep in it #DT
+@End
+
+(ChastityOn)
+@NullResponse @CheckFlag(ChastityIsOn) 
+(Continue)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) #DT @LockImages @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3]  @ShowImage[GNMImages\Chastity\ChastityOn\*.jpg]
+@RT(Put on your #Cage,Get your #Cage on,Put on the #Cage at once,Hurry up and get the #Cage back on,Be quick and get your #Cage back on) #DT 
+(On)
+@NullResponse @Wait(#Random(15,30))
+Are you done? #DT
+[yes] #GNMGood #DT @SetFlag(ChastityIsOn)
+[no] Hurry up! #DT #MeritChangeNLow @Goto(On)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @ChastityOn
+(ChastityIsOn)
+@NullResponse @UnlockImages @Goto(Base)
+
+(ChastityOff)
+@NullResponse @DeleteFlag(ChastityIsOn) @ChastityOff @Info(It will allow to stroke at the next session) @Goto(Base)
 @End
