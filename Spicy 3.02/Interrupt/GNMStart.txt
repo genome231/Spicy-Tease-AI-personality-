@@ -15,7 +15,7 @@
 I won't tolerate @RT(impolite,rude,disrespectful,ignorant) behaviour! #DT
 (Continue)
 @NotFlag(FirstSessionD) @NullResponse @RapidCodeOn @SetFlag(FirstSessionD) @Goto(Unlock)
-@NotFlag(HasChastity) @NullResponse @Goto(IntroNoChastity)
+@NotFlag(HasChastity) @NullResponse @Goto(Unlock)
 @Flag(ChastityIsOn) @Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @NullResponse @Goto(Denial1)
 @NotFlag(ChastityIsOn) @Flag(CPlayActive) @NullResponse @Goto(PlayTest)
 @NotFlag(ChastityIsOn) @NullResponse @Goto(IntroNoChastity)
