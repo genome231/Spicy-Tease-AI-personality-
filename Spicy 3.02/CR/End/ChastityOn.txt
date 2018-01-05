@@ -9,7 +9,7 @@ Are you done? #DT
 [yes] #GNMGood #DT @SetFlag(ChastityIsOn)
 [no] Hurry up! #DT #MeritChangeNLow @Goto(On)
 @DifferentAnswer #GNMYesOrNo #DT
-@NullResponse @ChastityIsOn
+@NullResponse @ChastityOn
 (ChastityIsOn)
 @NullResponse @UnlockImages
 @NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
