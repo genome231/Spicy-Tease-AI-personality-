@@ -1,21 +1,21 @@
 @NullResponse @SetDate(Devotion, 0 Minutes)
 Hello #SubName #DT4
-That was the last time I used your real name #DT4 @SetDate(TeaseSession, 0 Hours)
+This will be the last time I use your real name #DT4 @SetDate(TeaseSession, 0 Hours)
 From now on I will use whatever petname I see fit #DT4
-Wether that is cumlover, cocksucker or slave #DT4
+Whether that is cumlover, cocksucker or slave #DT4
 Because you are a slave #DT4
 My slut, cuck, plaything, chastity boy #DT4
 And a lot of other lovable terms #GNMGrin #DT4
 The point is you're mine! #DT4
 Let that sink in for a moment.. #DT4 @Wait(12)
-Now what is more important for you to understand is that the thing residing in your pants #DT4
+Though it is more important for you to understand that the thing residing in your pants #DT4
 Is not yours anymore #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro1.mp3]
-Is <i>mine</i>!  #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro2.mp3]
-You serve under my rules and terms #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro3.mp3]
+It is <i>mine</i>!  #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro2.mp3]
+You will serve under my rules and terms #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro3.mp3]
 Fail to do so properly #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro4.mp3]
 ..and you will be sold off. #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro5.mp3]
 On another note #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro6.mp3]
-If you for one second thought that my world is centered around you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro7.mp3]
+If you even for one second thought that my world is centered around you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro7.mp3]
 You are dearly mistaken #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro8.mp3]
 This isn't about you #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro9.mp3]
 Not even a little bit #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro10.mp3]
@@ -26,19 +26,19 @@ Never forget.. #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro14.mp3]
 Well #SubName #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro15.mp3]
 If you thought that you are <i>my</i> sole focus #DT4 @PlayAudio[\GNMSounds\Starts\StartScripts\Intro\Intro16.mp3]
 You are once again dearly mistaken #DT4
-Others have signed up through Tease-AI #DT4
+There are others that have signed up through Tease-AI #DT4
 Both men and women.. #DT4
 (F1)
 This is #SlaveF1 @ShowImage[\GNMImages\Slaves\F1 Alice Brookes\1\1.*]
-Oh my can she handle the vibrator *Smiles* #DT4
+Oh my, can she handle the vibrator *Smiles* #DT4
 (F2)
 This is #SlaveF2 @ShowImage[\GNMImages\Slaves\F2 Brook Amelia Wright\1\1.*]
-She's nice and wellbehaved #DT4
+She's nice and well behaved #DT4
 Be like her #DT4
 (F3)
 This is #SlaveF3 @ShowImage[\GNMImages\Slaves\F3 Rosie Danvers\1\1.*]
 Oh my gosh #DT4
-I have done many nasty things to her and she just takes it all #GNMGrin #DT4
+I have done so many nasty things to her and she just takes them all #GNMGrin #DT4
 (M1)
 This is #SlaveM1 @ShowImage[\GNMImages\Slaves\M1 Will Havoc\1.*]
 He is a fine student #DT4
@@ -59,7 +59,7 @@ Well you will get plenty of time to get to know them later #DT4 @CheckFlag(FullT
 (FullTime)
 You've signed up for full time
 Normally this would mean that I expect you to launch Tease-AI at least 6 times per week #DT4
-But I would understand it if your life doesn't allow for that #DT4
+But I would understand if your life doesn't allow for that #DT4
 So #SlaveName 
 (FullTime2)
 How many times a week do you think I should expect you to use Tease-AI? #DT4 @InputVar[WeeklyVisits]
@@ -77,7 +77,7 @@ Just give me a number plain and simple like #DT4
 @NullResponse @SetVar[AskedToFunRequirement]=[2]
 @NullResponse @ChangeVar[AskedToFunRequirement]=[AskedToFunRequirement]*[WeeklyVisits]
 Next I need to know how many chores per week you should complete #DT4
-Right now the number of chores is @ShowVar[ChoresAgreed] #DT4
+Right now the number of chores are @ShowVar[ChoresAgreed] #DT4
 Which I think is fair all considered #DT4
 Since this number will likely cover your cleaning duty #DT4
 All chores beyond those I consider to be voluntary #DT4
@@ -87,7 +87,7 @@ Do you wish to change the number of chores? #DT4
 [no]Very well #DT4 @Goto(Continue1)
 @DifferentAnswer #GNMYesOrNo #DT4
 (Number)
-So many chores should you at the very minimum complete each week? #DT4 @InputVar[ChoresAgreed]
+So how many chores should you at the very minimum complete each week? #DT4 @InputVar[ChoresAgreed]
 @Variable[ChoresAgreed]<=[2] No lower than three! #DT4 @Goto(Number)
 @Variable[ChoresAgreed]>[2] Exellent #DT4 @Goto(Continue1) 
 All I asked you to do was input a simple number..  #DT4
@@ -101,16 +101,16 @@ But for me to be a fair #DomHonorific #DT4
 I require honesty from you #DT4
 And you need to be honest with yourself #DT4
 I've met many men who in a horny moment thought they could handle everything #DT4
-Wether that was 2 months in chastity #DT4
+Whether that was 2 months in chastity #DT4
 Or 200 lashes with my cane #DT4
-But as soon as they tried it for real they all pussied out.. #DT4
+But as soon as they tried it for real, they all pussied out.. #DT4
 So keep that in mind #DT4
 Communicate with me, tell me the truth and this will be a worthwhile experience for the both of us #DT4
 Overestimate yourself and you might as well quit right here and now.. #DT4
 #SlaveName #DT4
 I love being in control #DT4
 Especially of your orgasms #DT4
-But I also know that not everyone handles denial too well #DT4
+But I also know that not everyone handles denial all too well #DT4
 So I need to know your hard limit for denial in days #DT4
 (SetDenial)
 If you don't have one you can just write 99999 #DT4 @InputVar[HardOTimeLimit]
@@ -140,10 +140,10 @@ When I do that #DT4
 I want you to find some porn or whatever #DT4
 And I want you to jerk yourself off #DT4
 But! #DT4
-I have 1 final thing I need to ask.. #DT4
+I have one final thing I need to ask.. #DT4
 it's regarding your orgasms.. #DT4
 Now you get a choice.. #DT4
-I would prefer it if your orgasms was an extremely rare event.. #DT4
+I would prefer it if your orgasms were an extremely rare event.. #DT4
 But I also understand that you might not feel that way.. #DT4
 So now you have a choice #DT4
 Do you want your orgasms to be.. #DT4
