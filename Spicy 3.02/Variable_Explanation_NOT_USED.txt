@@ -148,6 +148,7 @@ Pin Board with daily notices
 #WORKS: Does @RT(#Vocab) work?
 #DOES NOT WORK: Does this work? @Variable[AssLevel]>[20] @Variable[AssLevel]<=[25] 2.5 Multiple variable checks in one line never work like this
 #DOES NOT WORK: @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
+#DOES IT WORK? @NullResponse @ChangeVar[Otime]=[Otime]+[#OFrequency]
 #TODO: Implement responses properly
 #TODO: Add tasks Custom\Tasks_NOT_USED
 #TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED

@@ -14,8 +14,7 @@ You'll just have to wait and see #GNMGrin #DT
 @End
 (TeaseModule3)
 I have a fun game for you #SlaveName #DT 
-@Flag(TeaseUpdate2) @NullResponse @Goto(Game2)
-@NullResponse @Goto(Game1,Game2)
+@Flag(TeaseUpdate2) @NullResponse @Goto(Game1,Game2)
 (Game1)
 I'm gonna show you 2 images at a time #DT
 You previously rated them #DT
