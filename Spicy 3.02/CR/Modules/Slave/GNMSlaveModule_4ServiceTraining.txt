@@ -209,11 +209,11 @@ So tell me #SlaveName #DT
 How much water is there left in mL? #DT @InputVar[SumOfWater2]
 @NullResponse @RapidCodeOn @ChangeVar[SumOfWater2]=[SumOfWater2]*[100]
 @NullResponse @ChangeVar[SumOfWater2]=[SumOfWater2]/[SumOfWater]
-@Variable[SumOfWater2]>=[25] @NullResponse @Goto(Bad1)
+@NullResponse @ChangeVar[SumOfWater2]=[100]-[SumOfWater2]
 You lost @ShowVar[SumOfWater2] % water #DT
+@Variable[SumOfWater2]>=[25] @NullResponse @Goto(Bad1)
 Which I can tolerate.. #DT @Goto(Continue3)
 (Bad1)
-You lost @ShowVar[SumOfWater2] % water #DT
 Which is way above acceptable #SlaveName! #DT #MeritChangeNHigh
 Do. Better. #DT
 (Continue3)
