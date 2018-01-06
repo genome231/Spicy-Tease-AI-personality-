@@ -52,9 +52,9 @@
 (NotStupid)
 @SystemMessage #VANC #VANP I'm not stupid slave.. #MeritChangeNHigh @Goto(Base)
 (FastAnswerMode)
-@SystemMessage #VANC #VANP Fast answer mode is now deactivated. @DeleteFlag(FastAnswerMode)
+@SystemMessage #VANC #VANP Fast answer mode is now deactivated. @DeleteFlag(FastAnswerMode) @Goto(Base)
 (FastAnswerModeActivate)
-@SystemMessage #VANC #VANP Fast answer mode is now activated. @TempFlag(FastAnswerMode)
+@SystemMessage #VANC #VANP Fast answer mode is now activated. @TempFlag(FastAnswerMode) @Goto(Base)
 
 ########################## - Comment - ##########################
 #Main screen that waits for commands
