@@ -2,7 +2,7 @@ This is the first time #SlaveName that you have the chance of eating your own cu
 I understand that a lot of slaves can't actually do this #DT
 So my first question is.. #DT
 Can you eat your own cum without any problems, are you willing to learn it or absolutely no cum eating? #DT
-[can,problems,problem]#GNMGreat! #DT @SetVar[CEILevel]=[10] @Goto(Continue1)
+[can,problems,problem]#GNMGood! #DT @SetVar[CEILevel]=[10] @Goto(Continue1)
 [willing,learn]That is good news! #DT @SetVar[CEILevel]=[1] @Goto(Continue2)
 [not,no,absolutely]Oh well, that is too bad #GNMEmoteSad #DT @SetFlag(NoCEI) @Goto(End)
 @DifferentAnswer Can, willing or not? #DT
