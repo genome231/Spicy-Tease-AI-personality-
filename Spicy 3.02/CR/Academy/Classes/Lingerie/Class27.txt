@@ -1,6 +1,6 @@
 @RT(I'm gonna show you guys a video,I will show you slaves a video,In a moment you'll see a video) #DT 
 @RT(I'll only have 1 question to ask after,You'll get one question afterwards,After that I have 1 question for you) #DT 
-@RT(Better get it right!,You'll want to get it right!) #DT @Goto(3a,3b,3c)
+@RT(Better get it right!,You'll want to get it right!) #DT @Goto(3b,3c)
 (3a)
 @NullResponse @PlayVideo[GNM_Videos\Academy\Lingerie\Class1\Nylon.mp4]
 @NullResponse @Goto(3aa,3ab)
