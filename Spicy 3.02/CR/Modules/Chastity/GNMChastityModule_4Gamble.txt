@@ -141,8 +141,7 @@ Ten @ChangeVar[BlackJackHand]=[BlackJackHand]+[10] @ShowImage[\GNMImages\Deck\a1
 (Or)
 @NullResponse @If[BlackJackHand]>[21]Then(Lose)
 @NullResponse @If[BlackJackHand]=[21]Then(Win)
-You have @ShowVar[BlackJackHand]
-Draw or stay? #DT
+You have @ShowVar[BlackJackHand] Draw or stay?
 [draw]@NullResponse @Goto(Draw)
 [stay]@NullResponse @Goto(DealerFirst)
 @DifferentAnswer Draw or stay? #DT
