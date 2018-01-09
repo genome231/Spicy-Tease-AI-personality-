@@ -14,7 +14,7 @@
 (R2MovieStart)
 @RT(Oh..,And..) You have my permission to ruin it #GNMGrin
 @RT(Enjoy,Have fun!,Watch it all!) #GNMLol #DT
-@NullResponse @ShowVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
+@NullResponse @PlayVideo[\GNM_Videos\BackgroundMode\Punishment\Sissy\*.mp4]
 @RT(Well then..,Excellent!,#GNMGood) #DT
 (Test)
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT

@@ -1,7 +1,7 @@
 (D1) //Watch a video of others fucking
 @RT(To make sure you don't forget what it looks like,I have to make sure you don't forget this,I better refresh your memory) #DT
 @RT(Here's a short video of someone else cumming,Enjoy this video of someone <i>else</i> cumming,So here's a video of someone other orgasming) @RT(#GNMLol,#GNMLol) #DT
-@NullResponse @ShowVideo[\GNM_Videos\Endings\CM1\*.mp4]
+@NullResponse @PlayVideo[\GNM_Videos\Endings\CM1\*.mp4]
 @RT(Now don't be sad,Look happy,don't look like that) #DT
 @RT(Be happy that someone else had <i>fun</i>,Be happy that at least someone else had fun,You should rejoice knowing that <i>other</i> people get to cum) #DT
 @NullResponse @CallReturn(CR\End\ChastityOn.txt)

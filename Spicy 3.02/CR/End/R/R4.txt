@@ -24,7 +24,7 @@ If you manage to do it I will reward you with gold #DT
 [no]Well another time perhaps #DT #MeritChangeNLow @Goto(ChastityCheck)
 @DifferentAnswer #GNMYesOrNo #DT
 @RT(Enjoy #SlaveName,Have fun little one!) #DT
-@NullResponse @ShowVideo[\GNM_Videos\Endings\R4\*.mp4]
+@NullResponse @PlayVideo[\GNM_Videos\Endings\R4\*.mp4]
 @RT(Did you succeed slave?,Now did you make it slave?) #DT
 [yes]@RT(Transferring some gold then,Sending you gold!) #GNMGrin #DT #GDRegisterOrgasm #GoldMedium @Goto(AteCheck)
 [no]Well well.. #DT

@@ -1,8 +1,8 @@
 @NotFlag(DildoPlay,ChastityIsOn) @NullResponse @Goto(NoToy2)
 @NotFlag(DildoPlay) @NullResponse @Goto(NoToy1,NoToy2)
-@Flag(DildoPlay) @NullResponse @CheckFlag(SissyModule1FirstRun) @SetVar[BlowjobLevel]=[1] @SetFlag(SissyModule1FirstRun)
+@Flag(DildoPlay) @NullResponse @CheckFlag(SissyModule1FirstRun) @SetFlag(SissyModule1FirstRun)
 @Variable[BlowjobLevel]>[50] @SetVar[BlowjobLevel]=[50] @NullResponse 
-Hello #SlaveName #DT
+Hello #SlaveName #DT @SetVar[BlowjobLevel]=[1] 
 And welcome to your first blowjob training session #DT
 Today we're gonna practice your cock sucking skills #DT
 If you are ever to serve for real #DT

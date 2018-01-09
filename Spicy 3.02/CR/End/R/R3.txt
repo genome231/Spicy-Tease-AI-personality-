@@ -5,7 +5,7 @@
 @Flag(SissyMode) Of course you may only use your vibrator #DT..
 @RT(When you cross the edge then it's hands behind your head,Right after you cross the edge I want you to sit on your hands!) #DT
 @RT(Enjoy,"Blows a kiss") #GNMLol #DT
-@NullResponse @ShowVideo[\GNM_Videos\Endings\R3\*.mp4]
+@NullResponse @PlayVideo[\GNM_Videos\Endings\R3\*.mp4]
 (Test)
 @RT(Well you desperate fuck,Tell me #SlaveName) #DT
 @RT(Did you ruin?,Did you ruin yourself?) #DT
