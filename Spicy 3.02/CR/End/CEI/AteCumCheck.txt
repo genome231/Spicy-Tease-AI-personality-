@@ -1,0 +1,67 @@
+@NullResponse @CheckFlag(NoCEI)
+@NullResponse @CheckFlag(CEIFirst) 
+@NullResponse @SetFlag(CEIFirst)
+@NullResponse @CallReturn(CR\End\CEI\CEIFirst.txt)
+@NullResponse @Goto(End)
+(CEIFirst)
+@Flag(CEITrainingComplete) @NullResponse @Goto(Continue1)
+@NullResponse @CallReturn(CR\End\CEI\CEITraining.txt)
+@NullResponse @Goto(End)
+(Continue1)
+@Flag(SlutMode) @NullResponse @Goto(1,2,3,4,5,6)
+@NullResponse @If[Horny]<[Happy]Then(NoEating) @Goto(1,2,3,4)
+(1) \\Lick it up
+Slave lick up your cum! @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] #DT @Goto(Notify1)
+(2) \\Poor into a glass of something
+#Slut get as much as you can of your cum and mix it with a liquid of your choice @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] #DT
+And then drink it #GNMGrin #DT @Goto(Notify2)
+(3) \\Use your hands to feed yourself
+#SlaveName use your hands to feed the cum to yourself.. #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Goto(Notify2)
+(4) \\Mix it with something edible like oatmeal
+#SlaveName I want you to mix the cum with something edible like oatmeal or similar #GNMLol #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3] @Goto(Notify3)
+(5) \\Put it on your face
+#Slut smear that cum all over your face! #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+You may remove it in 10 minutes! #GNMLol #DT @Goto(Notify3)
+(6) \\Put it on a dildo and lick it clean
+@NotFlag(DildoPlay) @NullResponse @Goto(Continue1)
+#Slut use your dildo #DT @PlayAudio[\GNMSounds\Endings\EndScripts\CumEat\*.mp3]
+Dip it in your cum and suck it clean! #GNMMoan #DT @Goto(Notify3)
+(Notify1)
+@NullResponse @CustomMode(done, Goto, NoThanks2)
+@NullResponse @CustomMode(thank you, Goto, Thanks2)
+@NullResponse @Wait(45)
+@RT(Either you're taking way to long!,This is taking too long!) #DT @CustomMode(ModeText,Normal)
+@RT(Or you've forgotten to thank me!,Or perhaps you've forgotten your manners!) #DT
+@RT(Neither which is in any way okay!,Both is very bad!) #DT #MeritChangeNHigh
+@RT(I've assigned you punishment point,I've given you some punishment points!) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(End)
+(Notify2)
+@NullResponse @CustomMode(done, Goto, NoThanks2)
+@NullResponse @CustomMode(thank you, Goto, Thanks2)
+@NullResponse @Wait(75)
+@RT(Either you're taking way to long!,This is taking too long!) #DT @CustomMode(ModeText,Normal)
+@RT(Or you've forgotten to thank me!,Or perhaps you've forgotten your manners!) #DT
+@RT(Neither which is in any way okay!,Both is very bad!) #DT #MeritChangeNHigh
+@RT(I've assigned you punishment point,I've given you some punishment points!) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(End)
+(Notify3)
+@NullResponse @CustomMode(done, Goto, NoThanks2)
+@NullResponse @CustomMode(thank you, Goto, Thanks2)
+@NullResponse @Wait(90)
+@RT(Either you're taking way to long!,This is taking too long!) #DT @CustomMode(ModeText,Normal)
+@RT(Or you've forgotten to thank me!,Or perhaps you've forgotten your manners!) #DT
+@RT(Neither which is in any way okay!,Both is very bad!) #DT #MeritChangeNHigh
+@RT(I've assigned you punishment point,I've given you some punishment points!) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(End)
+(NoEating)
+@RT(There will be no cum eating today,No cum eating today) @RT(#SlaveName,#Slut) #DT @CustomMode(ModeText,Normal) @Timeout(10,NoThanks)
+[thank you,thanks] Your welcome #Slut #DT @Goto(End)
+@AcceptAnswer @NullResponse @Goto(End)
+(NoThanks)
+@RT(Why are you not thanking me!,You should be thanking me!) #DT #MeritChangeNHigh @CustomMode(ModeText,Normal)
+@RT(For forgetting to thank your #DomHonorific,Since you've forgotten to thank your #DomHonorific) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@RT(I've assigned you punishment point,I've given you some punishment points!) #DT @Goto(1,2,3,4)
+(NoThanks2)
+@RT(Why are you not thanking me!,You should be thanking me!) #DT #MeritChangeNHigh @CustomMode(ModeText,Normal)
+@RT(For forgetting to thank your #DomHonorific,Since you've forgotten to thank your #DomHonorific) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@RT(I've assigned you punishment point,I've given you some punishment points!) #DT
+(NoCEI)
+(End)
+@End

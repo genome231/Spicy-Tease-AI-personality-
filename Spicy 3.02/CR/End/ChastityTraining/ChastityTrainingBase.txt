@@ -16,7 +16,7 @@
 (CAssignmentDone)
 @NullResponse @DeleteFlag(CAssignmentDone)
 @NullResponse @CallReturn(CR\End\ChastityTraining\ExercisesSet.txt)
-@NullResponse @CallReturn(CR\End\ChastityTraining\Roll.txt)
+@NotFlag(SkipOrgasmRoll) @NullResponse @CallReturn(CR\End\ChastityTraining\Roll.txt)
 @NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
 (ChastityExamActive)
 @NullResponse @CallReturn(CR\End\ChastityTraining\Exam.txt)

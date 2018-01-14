@@ -92,19 +92,19 @@ The look on your face! #GNMEmoteHappy @Goto(End)
 It stays on for 2 days! @SetVar[PDenialSet]=[48] @SetDate(PDenial, 0 Days)
 Enjoy! @Goto(End)
 (GayStop) edge
-@NullResponse @ShowGayImage @RapidCodeOff @ChangeVar[HumModule5Gay]=[HumModule5Gay]+[1] @If[HumModule5Gay]>=[7]Then(GayStop2)!
+@NullResponse @ShowGayImage @RapidCodeOff @ChangeVar[HumModule5Gay]=[HumModule5Gay]+[1] @If[HumModule5Gay]>=[7]Then(GayStop2)
 #GNMEdge @Edge 
 #GNMLetTheEdgeFade @Wait(#Random(2,10))
 @NullResponse @Goto(StartRound)
 (GayStop2) orgasm
 Oh my oh my! @DeleteFlag(Busy)
-You actually got to the faboulous ending! #GNMGrin
+You actually got to the fabulous ending! #GNMGrin
 I hope you're enjoying the view!
-Because you will orgasming to it! #GNMGrin
-I forbid you from looking away!
-If you were ever mine, the only time you would ever be allowed any release
+Because you will cum to it! #GNMGrin
+I forbid you to look away!
+If you were mine, the only time you would ever be allowed any release
 Would be with your cock locked, a dick pumping into your mouth and one in your #GNMAss
-You would be so used to cocks that you eventually would start to question wether you might actually be gay
+You would be so used to cocks that you eventually would start to question whether you might actually be gay
 Pussy, boobs and whatever would simply be a thing of the past
 A faint memory from a time you could barely remember #GNMLol
 Well!
@@ -117,8 +117,9 @@ Cum #SlaveName !!
 Cum!! @Wait(20)
 #GNMGrin
 Little by little I'm tearing you apart!
-Now #SlaveName
-We're stopping here.. @UnlockImages
+Now #SlaveName @TempFlag(SkipOrgasmRoll)
+We will end this here.. @UnlockImages
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCumCheck.txt)
 Cya! #DT @EndTease
 @End
 (End)

@@ -47,8 +47,8 @@
 @SystemMessage [Miss A]: I know your #DomHonorific is disappointed.. #ReceptionChat
 @SystemMessage [Miss A]: Remember to only choose punishments you can handle.. #ReceptionChat @Goto(PunishmentBaseIntro)
 (Fines)
-@SystemMessage [Miss A]: The price to reduce the number of punishment points is 1 gold per 1 point #ReceptionChat
-@SystemMessage [Miss A]: You currently have #Var[GNMPPoints] punishment points #ReceptionChat
+@SystemMessage [Miss A]: You can reduce your punishment points in the shop #ReceptionChat
+@SystemMessage [Miss A]: Check out the shop and select "atonement" #ReceptionChat @Goto(PunishmentBaseIntro)
 (TryAgain1)
 @NullResponse @SetVar[FineReduction2]=[0]
 @SystemMessage [Miss A]: How many of these do you wish to pay for? #ReceptionChat @InputVar[FineReduction]
@@ -59,7 +59,7 @@
 (NoSense)
 @SystemMessage [Miss A]: You didn't choose a number that makes sense.. #ReceptionChat #MeritChangeNLow @Goto(PunishmentBaseIntro)
 (None)
-@SystemMessage [Miss A]: Okay.. #ReceptionChat #MeritChangeNLow @Goto(PunishmentBaseIntro)
+@SystemMessage [Miss A]: Okay.. 0? Seriously?! Don't waste my time #ReceptionChat #MeritChangeNLow @Goto(PunishmentBaseIntro)
 (CheckGold)
 @SystemMessage [Miss A]: Checking if you have enough gold.. #ReceptionChat
 @NullResponse @If[FineReduction2]>[GNMGold]Then(NoGold)

@@ -3,7 +3,7 @@
 @NullResponse @SetVar[PayTributeShopPrice]=[500]
 @NullResponse @SetVar[DoublePayTributeShopPrice]=[1000]
 @NullResponse @SetVar[MoodboosterShopPrice]=[1000]
-@NullResponse @SetVar[AttonementShopPrice]=[2]
+@NullResponse @SetVar[AtonementShopPrice]=[2]
 @NullResponse @SetVar[UnlockDenailShopPrice]=[2000]
 @NullResponse @SetVar[ChastityPackShopPrice]=[500]
 @NullResponse @SetVar[HumilationPackShopPrice]=[500]
@@ -27,7 +27,7 @@
 @SystemMessage --b1-- Pay Tribute --- @ShowVar[PayTributeShopPrice] gold
 @SystemMessage --b2-- Double Pay Tribute --- @ShowVar[DoublePayTributeShopPrice] gold
 @SystemMessage --b3-- Moodbooster --- @ShowVar[MoodboosterShopPrice] gold
-@SystemMessage --b4-- Attonement --- @ShowVar[AttonementShopPrice] gold / PPoint
+@SystemMessage --b4-- Atonement --- @ShowVar[AtonementShopPrice] gold / PPoint
 @Variable[#DateDifference(LockOut1, Days)]>[Lock1Input] @SystemMessage --b5-- Unlock Denial --- @ShowVar[UnlockDenailShopPrice] gold
 @NotFlag(ChastityUpdate1) @SystemMessage --c1-- Chastity Pack 1 -- @ShowVar[ChastityPackShopPrice] gold @Goto(HumiliationPrint)
 @NotFlag(ChastityUpdate2) @SystemMessage --c1-- Chastity Pack 2 -- @ShowVar[ChastityPackShopPrice] gold @Goto(HumiliationPrint)
@@ -83,7 +83,7 @@
 @Variable[PCode]==[b2help] @NullResponse @Goto(b2h)
 @Variable[PCode]==[b3] @NullResponse @If[GNMGold]<[MoodboosterShopPrice]Then(Poor) @Goto(b3)
 @Variable[PCode]==[b3help] @NullResponse @Goto(b3h)
-@Variable[PCode]==[b4] @NullResponse @If[GNMGold]<[100]Then(Poor) @Goto(b4)
+@Variable[PCode]==[b4] @NullResponse @Goto(b4)
 @Variable[PCode]==[b4help] @NullResponse @Goto(b4h)
 @Variable[PCode]==[b5] @NullResponse @If[GNMGold]<[UnlockDenailShopPrice]Then(Poor) @Goto(b5)
 @Variable[PCode]==[b5help] @NullResponse @Goto(b5h)
@@ -159,19 +159,19 @@
 @SystemMessage #VANC #VANP For 7 days the likeliness of your domme to be in a good mood is higher
 @SystemMessage #VANC #VANP Willingly donating gold to her sends a powerfull message about wanting to serve @Goto(EnterCode)
 
-(b4) //Attonement
+(b4) //Atonement
 @SystemMessage #VANC #VANP You have @ShowVar[GNMGold] gold
 @SystemMessage #VANC #VANP How much gold do you wish to buy for? @InputVar[BuyOff]
 @Variable[BuyOff]<[100] @SystemMessage #VANC #VANP The chosen value is too small, choose at least 100 @Goto(b4)
 @Variable[BuyOff]>[GNMGold] @SystemMessage #VANC #VANP You can't spend more gold than you have @Goto(b4)
 @SystemMessage #VANC #VANP Making the purchase.. @ChangeVar[GNMGold]=[GNMGold]-[BuyOff]
-@NullResponse @ChangeVar[BuyOff]=[BuyOff]/[AttonementShopPrice]
+@NullResponse @ChangeVar[BuyOff]=[BuyOff]/[AtonementShopPrice]
 @NullResponse @ChangeVar[GNMPPoints]=[GNMPPoints]-[BuyOff]
 @SystemMessage #VANC #VANP Payment complete! @Goto(EnterCode)
-(b4h) //Attonement
+(b4h) //Atonement
 @SystemMessage #VANC #VANP If you wish to have your punishment points reduced by paying gold
 @SystemMessage #VANC #VANP This is possible
-@SystemMessage #VANC #VANP The price is @ShowVar[AttonementShopPrice] gold per punishment point 
+@SystemMessage #VANC #VANP The price is @ShowVar[AtonementShopPrice] gold per punishment point 
 @SystemMessage #VANC #VANP You must at least spend a minimum of 100 gold @Goto(EnterCode)
 
 (b5) //Unlock denial
@@ -399,7 +399,7 @@
 (Service)
 Attribute 500 and 1000 gold
 MoodBoster 1000 gold / Week
-Attonement 200 gold / 100 points
+Atonement 200 gold / 100 points
 Unlock denial settings
 (Modules)
 New modules 1000 gold
