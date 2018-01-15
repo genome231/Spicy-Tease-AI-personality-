@@ -1,3 +1,4 @@
+@NullResponse @Variable[SoftCounterRecord]<=[0] @SetVar[SoftCounterRecord]=[999999]
 @NullResponse @CheckFlag(TeaseModule2FirstRun) @SetFlag(TeaseModule2FirstRun)
 Well #SlaveName #DT
 This is your first edge a ton #DT
