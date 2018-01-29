@@ -1,0 +1,9 @@
+@NullResponse @RapidCodeOn
+@Variable[AssLevel]>[25] @NullResponse @SetVar[EnemaLitreLevel]=[5] @Goto(End)
+@Variable[AssLevel]>[20] @NullResponse @SetVar[EnemaLitreLevel]=[4] @Goto(End)
+@Variable[AssLevel]>[15] @NullResponse @SetVar[EnemaLitreLevel]=[3] @Goto(End)
+@Variable[AssLevel]>[10] @NullResponse @SetVar[EnemaLitreLevel]=[2] @Goto(End)
+@Variable[AssLevel]>[5] @NullResponse @SetVar[EnemaLitreLevel]=[1] @Goto(End)
+@NullResponse @SetVar[EnemaLitreLevel]=[0] @Goto(End)
+(End)
+@End

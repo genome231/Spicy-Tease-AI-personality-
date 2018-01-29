@@ -1,0 +1,33 @@
+@NullResponse @CheckFlag(FirstOrgasmChastityT)
+@NullResponse @SetFlag(FirstOrgasmChastityT)
+Orgasms and ruins related to your chastity training are gonna be rather simple #DT
+We both know you truely haven't earned a proper orgasm or ruin #DT
+But.. #DT
+I know it's important to properly motivate your chastity training #DT
+Thus you get these .. @Wait(5) #DT
+Releases.. #DT
+So how is this gonna work you might wonder? #DT
+I will show you an image #DT
+You will be given a few minutes to ruin / orgasm  #DT
+I won't tell you how much time #GNMGrin #DT
+If you manage to orgasm / ruin, then simply tell me #DT
+If you hear a bell you are to stop all stimulation immediately #DT
+Even if you're mid orgasm.. #DT
+(FirstOrgasmChastityT)
+@RT(Lets get this over with,Lets quickly do this,Lets make this happen fast..,Lets not waste too much of my time,Lets get this over,, I have other stuff to do..) #DT @LockImages
+To be clear.. this time you are to have a ruined orgasm #DT @CustomMode(#ICame, Goto, SaidCame)
+Timer has been started.. do not report when you are on the Edge @ShowImage @Wait(#Random(90,300))
+@NullResponse @UnlockImages
+Stop! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
+Did you ruin? #DT
+[yes] @NullResponse @Goto(Came)
+[no] Too bad you've missed your chance then..
+@DifferentAnswer #GNMYesOrNo #DT
+@End
+(SaidCame)
+@RT(Good for you I suppose,Finally..,About time..,Took you long enough)
+(Came)
+@NullResponse @UnlockImages
+#GDRegisterRuined #DT @CustomMode(ModeText, Normal)
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
+@End

@@ -1,0 +1,12 @@
+[can't ask that,should not ask that,can't demand that,can't request that,cannot ask that,cannot demand that,can't command that,cannot command that]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\Rebel\R5c.txt)
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Session,Busy) @NullResponse 
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(Ofcouse I can,, now do it!,You will do as told!,don't let me tell you twice!,I won't repeat it again!) #DT @TempFlag(R5cTwice)
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Academy,R5cTwice) @RT(We're stopping here,This is your end of the class today,Bye) #SlaveName #MeritChangeNHigh #DT @Interrupt(GNMBackgroundBase)
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(Okay then,Well Then,Hmm) #MeritChangeNLow @Interrupt(GNMBackgroundBase)
+@Flag(Assistant,Busy) @NullResponse
+[All End]

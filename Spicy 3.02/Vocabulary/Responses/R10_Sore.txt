@@ -1,0 +1,5 @@
+[sore,ache,aches,aching,blue balls]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R10_Sore.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

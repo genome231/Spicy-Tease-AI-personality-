@@ -1,0 +1,43 @@
+@NullResponse @CheckFlag(pvLink12A)
+It's always good to have more porn to tease you with #DT @SetFlag(pvLink12A)
+So let's find some images online #GNMEmoteHappy #DT
+How about this one, do you like it? #DT @LockImages @ShowBlogImage
+[yes] @RT(Good,Great,Awesome,Alright then,Me too,I like it too,So do I,One of my favourites) #GNMEmoteHappy #DT @LikeBlogImage
+[no] @RT(Too bad,Okay,No problem,Moving on then) #DT @DislikeBlogImage
+@DifferentAnswer #GNMYesOrNo #DT
+Let's find another one... #DT
+Do you like this one? #DT @ShowBlogImage
+[yes] @RT(Good,Great,Awesome,Alright then,Me too,I like it too,So do I,One of my favourites) #GNMEmoteHappy #DT @LikeBlogImage
+[no] @RT(Too bad,Okay,No problem,Moving on then) #DT @DislikeBlogImage
+@DifferentAnswer #GNMYesOrNo #DT
+The supply of lewd images on the web is endless #GNMEmoteHappy #DT
+What do you think, should this be in your collection? #DT @ShowBlogImage
+[yes] @RT(Good,Great,Awesome,Alright then,Me too,I like it too,So do I,One of my favourites) #GNMEmoteHappy #DT @LikeBlogImage
+[no] @RT(Too bad,Okay,No problem,Moving on then) #DT @DislikeBlogImage
+@DifferentAnswer #GNMYesOrNo #DT
+Let's see... #DT
+How about this one, hot? #DT @ShowBlogImage
+[yes] @RT(Good,Great,Awesome,Alright then,Me too,I like it too,So do I,One of my favourites) #GNMEmoteHappy #DT @LikeBlogImage
+[no] @RT(Too bad,Okay,No problem,Moving on then) #DT @DislikeBlogImage
+@DifferentAnswer #GNMYesOrNo #DT
+That's about enough for now #DT @CheckFlag(gdPlugged)
+You must be itching for some action #GNMEmoteHappy #DT @UnlockImages
+@End
+(gdPlugged)
+Oh, by the way... #DT @UnlockImages
+How's that plug feeling in your ass? #DT @Chance50(start stroking)
+@NullResponse @CallReturn(Custom/CallReturn/pvCr_PlugOut.txt)
+I hope it wasn't too hard to get out #EmoteRandom #DT
+Have you ever tasted your own ass juices? #DT
+[yes] That's #Disgusting #SlaveName #GNMLol #DT
+[no] Oh good, because that would be #Disgusting #GNMLol #DT
+@DifferentAnswer #GNMYesOrNo #DT
+I don't want that plug to even go near your pretty mouth #DT
+Just put it away #DT
+@End
+(start stroking)
+It should probably stay where it is for now #GNMLol #DT
+@End
+(pvLink12A)
+I want to see you #JerkOff for me some more #DT @DeleteFlag(pvLink12A)
+@End

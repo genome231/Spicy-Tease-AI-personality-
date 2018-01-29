@@ -1,0 +1,26 @@
+I wanted to show you something, #SlaveName #DT
+Is that sexy or what? #GNMGrin @ShowBlogImage
+[yes] I had a suspicion you'd like it #DT
+[no] Oh... really? That's surprising #DT @Goto(Maybe This One Will Turn You On)
+[not, okay, all right, sort of, sorta, alright] Hmm I thought that one would really get you going #DT @Goto(Maybe This One Will Turn You On)
+[hot, sexy, horny, turns me on, turn on] I'm glad you like it, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Because I wanted you to @RT(squirm in you chair,get aroused,feel that aching in your balls) before we even started #DT
+Can you feel the ache grow inside your #GNMBalls yet? #DT
+[yes] Then you must be about ready to begin #DT
+[no] So you're not that turned on yet? #DT @Goto(Maybe This One Will Turn You On)
+@DifferentAnswer #GNMYesOrNo #DT
+So let's not waste any more time, #SlaveName #DT
+@End
+(Maybe This One Will Turn You On)
+@RT(That's okay,no problem,Alright then) #DT
+I'll just find one that <i>will</i> drive you insane #GNMLol #DT
+(Do You Like This One)
+Do you like this one? @ShowBlogImage
+[no,kinda, kind of,sort of sorta,little,somewhat,not,guess,meh] @RT(I'm not giving up,There's plenty more where that came from,Hmmm,Let's find another one then) #DT @Goto(Do You Like This One)
+[yes] I knew I would get you @RT(with a little persistence,eventually,in the end,if I tried long enough) #DT
+@DifferentAnswer #GNMYesOrNo #DT
+It took long enough though #GNMLol #DT
+Let's not waste any more time, #SlaveName #DT
+@End
+@Info start9 was adapted from a script by 1885

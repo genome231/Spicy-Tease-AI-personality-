@@ -1,0 +1,236 @@
+@NullResponse @CheckFlag(SlaveModule6First) @SetFlag(SlaveModule6First)
+I have a new game for us to play #DT
+Being a slave you might be charged with keeping check on the finances #DT
+Meaning that shouldn't be too bad at math and quick calculations #DT
+It's a very simple game! #DT
+First you'll be shown a number #DT
+followed by a +, - or * symbol #DT
+Followed by a number again #DT
+Let me give you an example #DT
+And then I bet it makes sense #GNMGrin #DT
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg]
+@NullResponse @ShowImage[\GNMImages\Modules\Math\+.jpg]
+@NullResponse @ShowImage[\GNMImages\Modules\Math\4.jpg]
+@NullResponse @ShowImage[\GNMImages\Modules\Math\Dot.jpg]
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg]
+Then a final Sum symbol shows up @ShowImage[\GNMImages\Modules\Math\Sum.jpg]
+When that picture shows up you have 5 seconds to input your answer @UnlockImages #GNMEmoteHappy #DT
+Or you will automatically get that wrong #GNMGrin #DT
+In this case the full calculation was #DT
+2 + 4 * 2 = 12 #DT
+Notice! #DT
+That in this game we ignore the order of operations! #DT
+Because in the real world this would be equal to 10 #DT
+So you have to be quick with your calculations! #DT
+In this game you have 3 lives #DT
+@Flag(SlaveUpdate3) For every right calculation you earn 15 gold #DT
+@NotFlag(SlaveUpdate3) For every right calculation you earn 10 gold #DT
+Miscalculate 3 times and you die #GNMLol #DT
+With every calculation the difficulty increases #DT
+Oh and I forgot to say you start with -50 gold #DT
+@Flag(SlaveUpdate3) So you have to get at least 4 of them right #GNMMoan #DT
+@NotFlag(SlaveUpdate3) So you have to get at least 5 of them right #GNMMoan #DT
+Or you will owe <i>me</i> gold #GNMGrin #DT
+(SlaveModule6First)
+@RT(Lets play the math game!,Time for the math game!,I wanna do some math #GNMGrin) #DT 
+@NullResponse @RapidCodeOn @SetVar[GoldPot]=[0] 
+@NullResponse @ChangeVar[GoldPot]=[GoldPot]-[50]
+@NullResponse @SetVar[SModule6Difficuilty]=[2]
+@NullResponse @SetVar[MathSum]=[0]
+@NullResponse @SetVar[Life]=[3]
+(Math)
+@NullResponse @RapidCodeOff @SetVar[MathSum]=[0]
+@NullResponse @SetVar[MathGameDiff]=[0] @Goto(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+(1)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\1.jpg] @ChangeVar[MathSum]=[MathSum]+[1] @Wait(0) @Goto(Operations)
+(2)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg] @ChangeVar[MathSum]=[MathSum]+[2] @Wait(0) @Goto(Operations)
+(3)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\3.jpg] @ChangeVar[MathSum]=[MathSum]+[3] @Wait(0) @Goto(Operations)
+(4)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\4.jpg] @ChangeVar[MathSum]=[MathSum]+[4] @Wait(0) @Goto(Operations)
+(5)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\5.jpg] @ChangeVar[MathSum]=[MathSum]+[5] @Wait(0) @Goto(Operations)
+(6)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\6.jpg] @ChangeVar[MathSum]=[MathSum]+[6] @Wait(0) @Goto(Operations)
+(7)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\7.jpg] @ChangeVar[MathSum]=[MathSum]+[7] @Wait(0) @Goto(Operations)
+(8)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\8.jpg] @ChangeVar[MathSum]=[MathSum]+[8] @Wait(0) @Goto(Operations)
+(9)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\9.jpg] @ChangeVar[MathSum]=[MathSum]+[9] @Wait(0) @Goto(Operations)
+(10)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\10.jpg] @ChangeVar[MathSum]=[MathSum]+[10] @Wait(0) @Goto(Operations)
+(11)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\11.jpg] @ChangeVar[MathSum]=[MathSum]+[11] @Wait(0) @Goto(Operations)
+(12)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\12.jpg] @ChangeVar[MathSum]=[MathSum]+[12] @Wait(0) @Goto(Operations)
+(13)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\13.jpg] @ChangeVar[MathSum]=[MathSum]+[13] @Wait(0) @Goto(Operations)
+(14)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\14.jpg] @ChangeVar[MathSum]=[MathSum]+[14] @Wait(0) @Goto(Operations)
+(15)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\15.jpg] @ChangeVar[MathSum]=[MathSum]+[15] @Wait(0) @Goto(Operations)
+(16)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\16.jpg] @ChangeVar[MathSum]=[MathSum]+[16] @Wait(0) @Goto(Operations)
+(17)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\17.jpg] @ChangeVar[MathSum]=[MathSum]+[17] @Wait(0) @Goto(Operations)
+(18)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\18.jpg] @ChangeVar[MathSum]=[MathSum]+[18] @Wait(0) @Goto(Operations)
+(19)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\19.jpg] @ChangeVar[MathSum]=[MathSum]+[19] @Wait(0) @Goto(Operations)
+(20)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\20.jpg] @ChangeVar[MathSum]=[MathSum]+[20] @Wait(0) @Goto(Operations)
+(Operations)
+@NullResponse @ChangeVar[MathGameDiff]=[MathGameDiff]+[1]
+@NullResponse @If[MathGameDiff]>=[SModule6Difficuilty]Then(Sum) 
+@NullResponse @Variable[MathSum]<[21] @Goto(a,c)
+@NullResponse @Variable[MathSum]>=[21] @Goto(a,b,c)
+(a)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\+.jpg] @Wait(4) @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20)
+(a1)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\1.jpg] @ChangeVar[MathSum]=[MathSum]+[1] @Wait(0) @Goto(Operations)
+(a2)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg] @ChangeVar[MathSum]=[MathSum]+[2] @Wait(0) @Goto(Operations)
+(a3)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\3.jpg] @ChangeVar[MathSum]=[MathSum]+[3] @Wait(0) @Goto(Operations)
+(a4)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\4.jpg] @ChangeVar[MathSum]=[MathSum]+[4] @Wait(0) @Goto(Operations)
+(a5)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\5.jpg] @ChangeVar[MathSum]=[MathSum]+[5] @Wait(0) @Goto(Operations)
+(a6)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\6.jpg] @ChangeVar[MathSum]=[MathSum]+[6] @Wait(0) @Goto(Operations)
+(a7)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\7.jpg] @ChangeVar[MathSum]=[MathSum]+[7] @Wait(0) @Goto(Operations)
+(a8)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\8.jpg] @ChangeVar[MathSum]=[MathSum]+[8] @Wait(0) @Goto(Operations)
+(a9)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\9.jpg] @ChangeVar[MathSum]=[MathSum]+[9] @Wait(0) @Goto(Operations)
+(a10)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\10.jpg] @ChangeVar[MathSum]=[MathSum]+[10] @Wait(0) @Goto(Operations)
+(a11)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\11.jpg] @ChangeVar[MathSum]=[MathSum]+[11] @Wait(0) @Goto(Operations)
+(a12)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\12.jpg] @ChangeVar[MathSum]=[MathSum]+[12] @Wait(0) @Goto(Operations)
+(a13)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\13.jpg] @ChangeVar[MathSum]=[MathSum]+[13] @Wait(0) @Goto(Operations)
+(a14)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\14.jpg] @ChangeVar[MathSum]=[MathSum]+[14] @Wait(0) @Goto(Operations)
+(a15)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\15.jpg] @ChangeVar[MathSum]=[MathSum]+[15] @Wait(0) @Goto(Operations)
+(a16)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\16.jpg] @ChangeVar[MathSum]=[MathSum]+[16] @Wait(0) @Goto(Operations)
+(a17)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\17.jpg] @ChangeVar[MathSum]=[MathSum]+[17] @Wait(0) @Goto(Operations)
+(a18)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\18.jpg] @ChangeVar[MathSum]=[MathSum]+[18] @Wait(0) @Goto(Operations)
+(a19)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\19.jpg] @ChangeVar[MathSum]=[MathSum]+[19] @Wait(0) @Goto(Operations)
+(a20)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\20.jpg] @ChangeVar[MathSum]=[MathSum]+[20] @Wait(0) @Goto(Operations)
+(b)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\-.jpg] @Wait(4) @Goto(b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20)
+(b1)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\1.jpg] @ChangeVar[MathSum]=[MathSum]-[1] @Wait(0) @Goto(Operations)
+(b2)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg] @ChangeVar[MathSum]=[MathSum]-[2] @Wait(0) @Goto(Operations)
+(b3)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\3.jpg] @ChangeVar[MathSum]=[MathSum]-[3] @Wait(0) @Goto(Operations)
+(b4)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\4.jpg] @ChangeVar[MathSum]=[MathSum]-[4] @Wait(0) @Goto(Operations)
+(b5)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\5.jpg] @ChangeVar[MathSum]=[MathSum]-[5] @Wait(0) @Goto(Operations)
+(b6)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\6.jpg] @ChangeVar[MathSum]=[MathSum]-[6] @Wait(0) @Goto(Operations)
+(b7)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\7.jpg] @ChangeVar[MathSum]=[MathSum]-[7] @Wait(0) @Goto(Operations)
+(b8)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\8.jpg] @ChangeVar[MathSum]=[MathSum]-[8] @Wait(0) @Goto(Operations)
+(b9)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\9.jpg] @ChangeVar[MathSum]=[MathSum]-[9] @Wait(0) @Goto(Operations)
+(b10)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\10.jpg] @ChangeVar[MathSum]=[MathSum]-[10] @Wait(0) @Goto(Operations)
+(b11)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\11.jpg] @ChangeVar[MathSum]=[MathSum]-[11] @Wait(0) @Goto(Operations)
+(b12)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\12.jpg] @ChangeVar[MathSum]=[MathSum]-[12] @Wait(0) @Goto(Operations)
+(b13)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\13.jpg] @ChangeVar[MathSum]=[MathSum]-[13] @Wait(0) @Goto(Operations)
+(b14)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\14.jpg] @ChangeVar[MathSum]=[MathSum]-[14] @Wait(0) @Goto(Operations)
+(b15)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\15.jpg] @ChangeVar[MathSum]=[MathSum]-[15] @Wait(0) @Goto(Operations)
+(b16)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\16.jpg] @ChangeVar[MathSum]=[MathSum]-[16] @Wait(0) @Goto(Operations)
+(b17)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\17.jpg] @ChangeVar[MathSum]=[MathSum]-[17] @Wait(0) @Goto(Operations)
+(b18)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\18.jpg] @ChangeVar[MathSum]=[MathSum]-[18] @Wait(0) @Goto(Operations)
+(b19)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\19.jpg] @ChangeVar[MathSum]=[MathSum]-[19] @Wait(0) @Goto(Operations)
+(b20)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\20.jpg] @ChangeVar[MathSum]=[MathSum]-[20] @Wait(0) @Goto(Operations)
+(c)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\Dot.jpg] @Wait(4) @Goto(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20)
+(c1)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\1.jpg] @ChangeVar[MathSum]=[MathSum]*[1] @Wait(0) @Goto(Operations)
+(c2)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\2.jpg] @ChangeVar[MathSum]=[MathSum]*[2] @Wait(0) @Goto(Operations)
+(c3)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\3.jpg] @ChangeVar[MathSum]=[MathSum]*[3] @Wait(0) @Goto(Operations)
+(c4)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\4.jpg] @ChangeVar[MathSum]=[MathSum]*[4] @Wait(0) @Goto(Operations)
+(c5)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\5.jpg] @ChangeVar[MathSum]=[MathSum]*[5] @Wait(0) @Goto(Operations)
+(c6)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\6.jpg] @ChangeVar[MathSum]=[MathSum]*[6] @Wait(0) @Goto(Operations)
+(c7)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\7.jpg] @ChangeVar[MathSum]=[MathSum]*[7] @Wait(0) @Goto(Operations)
+(c8)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\8.jpg] @ChangeVar[MathSum]=[MathSum]*[8] @Wait(0) @Goto(Operations)
+(c9)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\9.jpg] @ChangeVar[MathSum]=[MathSum]*[9] @Wait(0) @Goto(Operations)
+(c10)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\10.jpg] @ChangeVar[MathSum]=[MathSum]*[10] @Wait(0) @Goto(Operations)
+(c11)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\11.jpg] @ChangeVar[MathSum]=[MathSum]*[11] @Wait(0) @Goto(Operations)
+(c12)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\12.jpg] @ChangeVar[MathSum]=[MathSum]*[12] @Wait(0) @Goto(Operations)
+(c13)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\13.jpg] @ChangeVar[MathSum]=[MathSum]*[13] @Wait(0) @Goto(Operations)
+(c14)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\14.jpg] @ChangeVar[MathSum]=[MathSum]*[14] @Wait(0) @Goto(Operations)
+(c15)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\15.jpg] @ChangeVar[MathSum]=[MathSum]*[15] @Wait(0) @Goto(Operations)
+(c16)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\16.jpg] @ChangeVar[MathSum]=[MathSum]*[16] @Wait(0) @Goto(Operations)
+(c17)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\17.jpg] @ChangeVar[MathSum]=[MathSum]*[17] @Wait(0) @Goto(Operations)
+(c18)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\18.jpg] @ChangeVar[MathSum]=[MathSum]*[18] @Wait(0) @Goto(Operations)
+(c19)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\19.jpg] @ChangeVar[MathSum]=[MathSum]*[19] @Wait(0) @Goto(Operations)
+(c20)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\20.jpg] @ChangeVar[MathSum]=[MathSum]*[20] @Wait(0) @Goto(Operations)
+(Sum)
+@NullResponse @ShowImage[\GNMImages\Modules\Math\Sum.jpg] @InputVar[MathAnswer] @Timeout(8, Failed)
+@NullResponse @If[MathAnswer]=[MathSum]Then(Correct)
+@SystemMessage <Font color="red">Incorrect</Font> @ShowImage[\GNMImages\Modules\Math\Wrong.jpg] @ChangeVar[Life]=[Life]-[1] 
+@NullResponse @RapidCodeOn @If[Life]<=[0]Then(GameOver)
+@NullResponse @ChangeVar[SModule6Difficuilty]=[SModule6Difficuilty]+[1] @Goto(Math)
+(Correct)
+@Flag(SlaveUpdate3) @SystemMessage <Font color="green">Correct</Font> @ShowImage[\GNMImages\Modules\Math\Right.jpg] @ChangeVar[GoldPot]=[GoldPot]+[15] 
+@NotFlag(SlaveUpdate3) @SystemMessage <Font color="green">Correct</Font> @ShowImage[\GNMImages\Modules\Math\Right.jpg] @ChangeVar[GoldPot]=[GoldPot]+[10] 
+@NullResponse @RapidCodeOn @ChangeVar[SModule6Difficuilty]=[SModule6Difficuilty]+[1] @Goto(Math)
+(Failed)
+@SystemMessage <Font color="red">Too slow</Font> @ShowImage[\GNMImages\Modules\Math\Timer.jpg] @ChangeVar[Life]=[Life]-[1] @If[Life]<=[0]Then(GameOver)
+@NullResponse @RapidCodeOn @ChangeVar[SModule6Difficuilty]=[SModule6Difficuilty]+[1] @Goto(Math)
+(GameOver)
+It's game over! #DT
+The gold pot is currently at @ShowVar[GoldPot] gold #DT
+@Variable[GoldPot]<[0] So you owe me gold! #DT @ChangeVar[GNMGold]=[GNMGold]-[GoldPot]
+@Variable[GoldPot]=[0] So that's easy to add #GNMLol #DT
+@Variable[GoldPot]>[0] So you've earned some gold! Good job! #DT @ChangeVar[GNMGold]=[GNMGold]+[GoldPot]
+I love this game! #DT
+(End)
+@End

@@ -1,0 +1,43 @@
+@Flag(Busy) @NullResponse @Goto(End)
+@Flag(NoStrokeEdge) @NullResponse @Goto(No)
+@FlagOr(MaybeStrokeEdge,YesStrokeEdge) @NullResponse @Goto(1,2,3)
+@Flag(Session) @NullResponse @Goto(No)
+@NullResponse @Goto(End)
+(1)
+@Flag(ChastityIsOn) @NullResponse @Goto(Chastity)
+@RT(Yes you may,Yes go ahead!,Yes you can!,Yes..) @Edge #DT
+#GNMLetTheEdgeFade #DT @Wait(10)
+@End
+(2)
+@RT(No you may not..,No..,That a no!,No!,no) #DT 
+@End
+(3)
+@RT(Nah I don't think so,No you may not..,Nope don't do it!,no..,no) #DT
+@End
+(No)
+@RT(Nah I don't think so,No you may not..,Nope don't do it!) #DT
+@End
+(Chastity)
+@RT(No you may not..,No..,That a no!,No!,no) #DT 
+@RT(You're in chastity,You are chastized)! #DT
+What kind of question is that? #DT #MeritChangeNHigh @Goto(End)
+(End)
+@NullResponse #MeritChangeNMedium
+@End
+
+
+
+(VPleased)
+(Pleased)
+(Neutral)
+(Annoyed)
+(VAnnoyed)
+[Happy]
+[Lust]
+[Angry]
+@SetDate(Spoken, 0 Minutes)
+@Variable[#DateDifference(Speak, Seconds)]<=[40]
+
+@NullResponse @DeleteFlag(NoStrokeEdge)
+@NullResponse @DeleteFlag(MaybeStrokeEdge)
+@NullResponse @DeleteFlag(YesStrokeEdge)

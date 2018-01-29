@@ -1,0 +1,18 @@
+@Variable[ClothesDomme]=[4] @NullResponse @Goto(1,2,3,4)
+@Variable[ClothesDomme]=[3] @NullResponse @Goto(1,2,3)
+@Variable[ClothesDomme]=[2] @NullResponse @Goto(1,2)
+@Variable[ClothesDomme]=[1] @NullResponse @Goto(1)
+@NullResponse @Goto(NoFit)
+(1)
+@NullResponse @TempFlag(DOutfit1) @Goto(End)
+(2)
+@NullResponse @TempFlag(DOutfit2) @Goto(End)
+(3)
+@NullResponse @TempFlag(DOutfit3) @Goto(End)
+(4)
+@NullResponse @TempFlag(DOutfit4) @Goto(End)
+(End)
+@End
+(NoFit)
+@NullResponse @TempFlag(NoFit)
+@End

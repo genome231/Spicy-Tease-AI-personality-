@@ -1,0 +1,60 @@
+(StateCheck)
+@NullResponse @RapidCodeOn @DeleteFlag(Glitter1Active)
+@NullResponse @DeleteFlag(Glitter2Active)
+@NullResponse @DeleteFlag(Glitter3Active)
+@NullResponse @SetFlag(DommeActive)
+@NullResponse @SetFlag(Assistant)
+@NullResponse @SetFlag(Ready)
+@NullResponse @DeleteFlag(Academy)
+@NullResponse @DeleteFlag(Session)
+@NullResponse @DeleteFlag(Busy)
+@NullResponse @DeleteFlag(SessionEnd)
+@Flag(LotteryTicket) @Variable[#DateDifference(LotteryTicketTimer, Days)]>=[LotteryTicketCount] @NullResponse @CallReturn(CR\BackgroundMode\Shop\LTicket.txt)
+(Base)
+@SystemMessage #VANC #VANP #Welcome
+[session,domme,visit,go to] @NullResponse @CallReturn(CR\BackgroundMode\TestSession.txt)
+[chore,chores,clean,cleaning,dust off,dusting,dust,wipe,wash] @NullResponse @TempFlag(Chore) @CallReturn(CR\BackgroundMode\Chores\ChoreBase.txt)
+[dungeon,spanking,spankzchoir,selfbondage,bad,naugthy,discipline,pain,torture,chamber] @NullResponse @CallReturn(CR\BackgroundMode\Punishment\PunishmentBase.txt)
+[punishment,punish] @NullResponse @TempFlag(Punishment) @CallReturn(CR\BackgroundMode\Punishment\PunishmentBase.txt)
+[setting,settings,calibrate,adjust,setup] @NullResponse @CallReturn(CR\Settings\SettingsBase.txt)
+[shop,buy,purchase,spent,gold,spend,bought,store] @NullResponse @CallReturn(CR\BackgroundMode\Shop\ShopMain.txt)
+[fitness,health] @NullResponse @CallReturn(CR\Exercise\ExerciseBase.txt)
+[report,exercise] @NullResponse @Goto(ReportE)
+[work,study,mode] @NullResponse @CallReturn(CR\BackgroundMode\WorkMode\GNMWorkMode.txt)
+[rules,houserules,rule,house,commands,orders] @NullResponse @CallReturn(CR\BackgroundMode\HouseRules.txt)
+[save,end,end tease,stop,leave,close,finish,finished]@SystemMessage #VANC #VANP @RT(Bye,Untile next time,See you,I'm waiting for the next time,Don't leave me alone to long,Good bye,Have a nice day, I saved your process you can close the program) @EndTease @End
+[fast mode, fast answer mode] @NullResponse @CheckFlag(FastAnswerMode) @Goto(FastAnswerModeActivate) 
+[pin,board,notices,news,pinboard] @NullResponse @CallReturn(CR\BackgroundMode\Pinboard\Pinboard.txt)
+@AcceptAnswer @NullResponse @Goto(Confused)
+@NullResponse @Goto(StateCheck)
+(Confused)
+@SystemMessage #VANC #VANP You have the following options #SlaveName
+@SystemMessage #VANC #VANP Request a session with your #DomHonorific
+@SystemMessage #VANC #VANP Request a chore
+@SystemMessage #VANC #VANP Enter the dungeon
+@SystemMessage #VANC #VANP Check settings
+@SystemMessage #VANC #VANP Enter the shop
+@SystemMessage #VANC #VANP Do some fitness
+@SystemMessage #VANC #VANP Report for exercise (you can only complete an exercise every 10 hours)
+@SystemMessage #VANC #VANP Work / Study mode
+@SystemMessage #VANC #VANP Request to view the rules 
+@SystemMessage #VANC #VANP View the pinboard
+@SystemMessage #VANC #VANP Enable fast answer mode() (I will respond quicker)
+@SystemMessage #VANC #VANP Or save and leave the Programm @Goto(Base)
+(ReportE)
+@NullResponse @Variable[ExerciseTimes]<=[0] @Goto(FirstExercise)
+@Variable[#DateDifference(JustE, Hours)]<[10] @SystemMessage #VANC #VANP You just reported that you completed an exericse.. @Goto(NotStupid)
+(FirstExercise)
+@SystemMessage #VANC #VANP Have you just completed an exericse?
+[yes] @SystemMessage #VANC #VANP #GNMGood @ChangeVar[ExerciseTimes]=[ExerciseTimes]+[1] @SetDate(JustE, 0 Hours) @Goto(Base)
+[no] @SystemMessage #VANC #VANP Then don't waste my time.. #MeritChangeNMedium @Goto(Base)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+(NotStupid)
+@SystemMessage #VANC #VANP I'm not stupid slave.. #MeritChangeNHigh @Goto(Base)
+(FastAnswerMode)
+@SystemMessage #VANC #VANP Fast answer mode is now deactivated. @DeleteFlag(FastAnswerMode) @Goto(Base)
+(FastAnswerModeActivate)
+@SystemMessage #VANC #VANP Fast answer mode is now activated. @TempFlag(FastAnswerMode) @Goto(Base)
+
+########################## - Comment - ##########################
+#Main screen that waits for commands

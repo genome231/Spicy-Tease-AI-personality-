@@ -1,0 +1,11 @@
+@NullResponse @Chance90(Standard) 
+@NullResponse @Goto(D1,D2,D3)
+(Standard)
+@RT(#SlaveName,Slave,#Slut) @RT(There won't be any orgasm today,You won't be cumming today..,There is 0 chance of orgasm today,No orgasm for you,No ejaculation for you..) #DT
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(D1)
+@NullResponse @CallReturn(CR\End\D\D1.txt)
+(D2)
+@NullResponse @CallReturn(CR\End\D\D2.txt)
+(D3)
+@NullResponse @CallReturn(CR\End\D\D3.txt)

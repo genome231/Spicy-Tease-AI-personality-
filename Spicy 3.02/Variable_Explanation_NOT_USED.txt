@@ -1,0 +1,207 @@
+Flags:
+BlockSounds -> Block all other sounds
+ChastityIsOn -> Chastity on or not?
+LatestCTTaskAfraid -> Was the latest chastity training task about being afraid?
+gdBallsTied -> Balls tied?
+gdKneeling -> Kneeling?
+gdEnforcingPersonality -> Personality enforcing stuff
+gdAskingPersonality -> Personality asking about fetishes
+gdVirgin -> Virgin
+gdSingle -> Single
+gdMarried -> Married
+gdPlugged -> Butt plug?
+gdChastityAfraid -> Afraid of it showing in public
+ToyEnema -> Has Enema?
+gdPMEyes/no -> Premature ejaculation
+GNMToySetupGirlFriend -> Girlfriend
+GNMToyButtPlug -> Butt plug
+FirstCrazyDomme -> Not existing if first time running CR\BackgroundMode\StartUp\CrazyDommeMode.txt, otherwise skips setup of crazy domme mode and goes to loading crazy domme mode normally
+FirstMood -> Not existing if first time running CR\BackgroundMode\StartUp\GNMSetMood.txt, otherwise skips first time mood setup
+Day1Good/Day?Good/Bad -> Defines whether a day in the month has been good or bad, switches based on mood if that day occurs. First time setup in CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt
+and updated in CR\End\RunEndDayCheck.txt
+HasChastity -> Has Chastity Device
+Alexis/???...Won -> SpankzChoir flag and determines who will punish you when selling your ass. Used in CR\BackgroundMode\Punishment\SpankzChoir\SpankzChoirBase.txt
+M1R/M?R -> SpankzChoir flag and determines what domme is going to punish you (convert from ???...Won in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt)
+M1aActive/M?aActive/M?(a-d)Active -> SpankzChoir flag and determines what domme pictures are shown when domme is talking. Set in CR\BackgroundMode\Punishment\SpankzChoir\SelectDomme.txt
+SkipLinksOnce (temp)-> Links will be skipped once called and then the flag will be deleted, used at the start of session so stroking starts instead of a random link
+Stroking (temp) -> Is stroking rn?
+ShopUnlockAll -> Unlock most things in the shop by default
+DailyEnema -> Daily enema enabled
+PissEnema -> current enema is gonna be like this
+WarmEnema -> current enema is gonna be like this
+ColdEnema -> current enema is gonna be like this
+MilkEnema -> current enema is gonna be like this
+NoEnemaCleanUp -> Not allowed to clean ass afterwards
+ParachuteOn -> Parachute on
+GagOn -> Gag on
+
+
+Fetish Flags: (Append _No if we asked and he doesn't want to, append _Never if blocked hard limit)
+gdAnal
+gdCEI
+gdPain
+gdAssToMouth
+gdPee
+gdCBT
+gdSissy
+
+Variables:
+CTasksInARow -> How many chastity tasks have been completed in a row?
+ChastityEXPMultiplier -> Chastity exp multiplier
+DevotionSet -> Amount of minutes a session should last
+InstalledSpicyVersion -> Current Version installed
+FileSpicyVersion -> Current version that is loading
+PDenialSet -> Time in hours that the slave is in chastity (depends on PDenial date)
+OTime -> Variable that is compared to OTimeSet in some occassions to cause a definite orgasm/ruin. After that it is reset. 
+OTimeSet -> OTimeSet depends on denial level and is set in Vocabulary/#DenialLevel
+Short/Medium/LongSession -> Determines how dome undresses throughout the tease, explained here: CR\Settings\DevotionSet.txt
+gdBegForCEI -> How many times did the slave ask for CEI this day?
+LockedDaysInRow -> Days the sub has been looked in chastity for in a row
+LockedDaysInRowLimit -> Days the sub will be looked in row max
+HoldEnemaDuration -> How long has the enema to be hold
+
+Dates:
+Devotion -> Date when current session started, set in Interrupt\GNMStart.txt
+PDenial -> Date since when sub is denied completely (chastity)
+TimeSinceE -> Last time slave had an ejaculation (ruined/orgasm)
+TimeSinceO -> Last time slave had an orgasm
+TimeSinceR -> Last time slave had a ruined orgasm
+DailyEnemaSet -> Last time daily enema was set
+
+Vocabulary:
+#Cage -> Vocab for chastity cage
+#DT(?) -> Sets up another picture of the domme based on mood and time of session
+#DTS? -> Special domme picture for special days
+#Disgusting -> Disgusting
+#gdDontWantTo -> Don't want to sentences
+#GNMEmoteHappy -> Happy Emote
+#GNMEmoteSad -> Happy Emote
+#GNMBoobs -> Boobs
+#GNMBalls -> Balls
+#GNMCock -> Cock
+#GNMEdge -> Edge 
+#GNMGood -> Good behaviour
+#GNMLol -> Laughing
+#GNMMoan -> Moaning
+#GNMLetTheEdgeFade -> Let the edge fade
+#StopStroking -> Stop stroking
+#GNMStartStroking -> Start stroking
+#GNMYesOrNo -> Yes or no question
+#Grin -> Just some grin expression
+#Horny -> Horny
+#Hurt -> Hurt
+#JerkOff -> jerk off
+#JerkingOff -> jerking off
+#MeritChangeNLow -> Forgetting something etc.
+#MeritChangeNMedium  -> Moving to early/not doing as instructed (Combination with PPoints: @RT(I'm assigning you a series portion of punishment points!,I've added a healthy dose of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[250])
+#MeritChangeNHigh -> Not doing as promised
+#M1Chat/#M?Chat -> Called when one of the spankzchoir dommes are talking to show an image of them from the set
+#SlaveName #Slut #SubName -> Names for slave
+#InAddition -> Additionally, furthermore etc.
+
+Copy paste stuff:
+@NullResponse @CallReturn(CR\GNMChastityOn.txt) -> Chastity on
+@CallReturn(CR\Punishment\GDSmallBallBusting.txt) -> Ball torture
+@CallReturn(CR\Punishment\GDSmallPenisBusting.txt) -> Cock torture
+@LockImages
+@UnlockImages
+
+Plans:
+- Don't let domme always undress, ask domme to undress response
+Bugs:
+- BUG: Invalid width/length picture display
+- BUG: Fix halloween bosses
+Code:
+- Start Stroking file instead of vocab to not have every line duplicated just for the sake of the metronome
+Dialogue:
+- Start dialogues
+- Chastity Links
+- End dialogues
+- More Taunts
+- More interactive stuff such as bind balls/penis, ice water, butt plug, kneel, stand, other position, colar, icy hot, pegs
+- Ask to buy stuff, for example I'd do anything script
+Planning:
+- Tell her what days/nights you need to sleep well / are busy
+Tasks:
+- Night Tasks
+ - No peeing (otherwise pee in bottle, consume?), cuff hands/feet, bind to bed/bondage, butt plug, vibrator, sleep on ground, sleep without pillow
+- Daily Tasks/Weekly tasks
+ - Wear panties, wear a max of x clothes, wear butt plug, wear vibrator, stinging nettle play, be always naked/lingerie when doing x
+Settings for fetishes:
+- CEI, CBT, Assplay, Ass to mouth, pain (clamps etc.), pee (missing is that it does not yet really apply)
+Modules:
+- Blowjob: laying on bed with face hanging down -> spit in face, collect spit for later use
+- Sound play
+- Ice Water play
+- Cum Modules: On pillow sleep with it, into panties and wear for x, into socks and wear for x, toothbrush
+- More and advanced chastity tasks
+- Set ass and chastity level at start if you already have some experience
+- Peg play more advanced = ropes etc., attach weights?
+General:
+- Enforcing personality and asking/soft personality. Enforcing is only limited by disabled fetishes
+Pin Board with daily notices
+
+#WORKS: Does calling variables like #MeritChangeNHigh really executed the whole script?
+#WORKS: Does this work? "@NullResponse #DenialLevel @CallReturn(CR\End\Decide\DecideORStandard.txt)"
+#WORKS: @Variable[#DateDifference(TeaseSession, Seconds)]>[1] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(test)
+#WORKS: Does this work? @Variable[MaxTwist]>[-4] @NullResponse @Goto(Close)
+#WORKS: Does @RT(#Vocab) work?
+#DOES NOT WORK: Does this work? @Variable[AssLevel]>[20] @Variable[AssLevel]<=[25] 2.5 Multiple variable checks in one line never work like this
+#DOES NOT WORK: @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
+#DOES IT WORK? @NullResponse @ChangeVar[Otime]=[Otime]+[#OFrequency]
+#DOES IT WORK? #GNMLetTheEdgeFade #DT @ChangeVar[EdgesToGo]=[EdgesToGo]-[1] @If[EdgesToGo]<=[0]Then(Continue1) @Wait(#Random(3,15)) @Goto(Edge)
+#TODO: Implement responses properly
+#TODO: Add tasks Custom\Tasks_NOT_USED
+#TODO: Add challenges Custom\Miniscripts\Challenge_NOT_USED
+#TODO: Finish sub birthday Interrupt\SpecialDays\SubBirthday.txt
+#TODO: More tease modules/port from Miss Blue
+#TODO: Different dildo sizes (missing is setup like pictures and stuff, also support for glas dildo)
+#TODO: Add the fixed you aren't allowed to talk thing
+#TODO: Fix vocab error (locked images)
+#TODO: Fix play sound keep stroking stopping the stroking metronome
+#TODO: Small punishment (more hits and variety)
+#TODO: No edge sound and vocab error where #StopStrokingEdge is called CR\Stroking\QuickEdge.txt, #HoldTheEdge vocab error too
+#TODO: Move other stroke taunt files to own file too same as start stroking.
+#TODO: Make sure toys are also all properly setup during re"setuping" them
+#TODO: Add anal sessions as stated in 6anal humilation module
+#TODO: Report for exercise is unnecessary or should be changed (GNMBackgroundBase)
+#TODO: Fix chores
+#TODO: Games Training Mode and Denial Mode are the same/one is missing (and training mode should reset date on orgasm and also probably reset sessions needed, why not based on denial level of slave?)
+#TODO: Enema kit picture
+#TODO: Add I came response
+#TODO: Fix smilies with brackets messing up
+#TODO: Fix x wants to take over displaying always the same person
+#TODO: Mistress control toy usage
+#TODO: Start module issue with blank line after responding wit hello mistress
+#TODO: Daily enema litre amount vocab error
+#TODO: Improve peg play (pretty plain) same for hot sauce play
+#TODO: Attach more toys during session like gag, collar etc.
+#TODO: Domme end session sequences
+#TODO: Not showing how many pegs to fetch
+
+Notes about scripting:
+@Flag / @NotFlag checks for a flag and supports multiple flags at once @Flag(test, test2) @Goto(flagsAreTrue)
+@FlagOr continues of one of the flags exist @FlagOr(test1, test2, test3)
+@SetFlag/@DeleteFlag Supports multiple flags at once
+Behaviour with vocab files: Picked randomly between all lines that are "true"/valid (flag checks etc.)
+@SetDate can be in one line multiple times
+#DateDifference(Date, Seconds) can only be once in a line otherwise vocab error
+@NullResponse @Variable[GNMMerits]>[1000] @SetVar[GNMMerits]=[1000] works. No need for @Variable[GNMMerits]>[1000] @NullResponse @SetVar[GNMMerits]=[1000]
+@ShowVar[#DateDifference(TeaseSession, Seconds)] does not work! Just use #DateDifference(TeaseSession, Seconds)
+#Vocab can also be used after nullresponse and does not require any output
+@SetVar is not required, @ChangeVar can also create a variable, @Flag(Personality1) @NullResponse @SetVar[BJTraining]=[0] @ChangeVar[BJTraining]=[BJTraining]+[#Random(20,45)] does not work! Sets variable to 0 but no change
+You can use vocabs in vocabfiles
+You can only use ChangeVar when using another variable in the equation (can be used to create new vars though) Example: @ChangeVar[Test]=[Test1]*[2]
+You can only use SetVar when assigning just a value and no equation is present Example: @SetVar[Test]=[0]
+@CustomMode(done, Goto, Continue2) @Wait(999999) goes to when a message contains done is written. "Done Mistress", or just "done" for example.
+@RapidCodeOn works in front of normal messages to make them display instantly. However it does NOT work with answers: [slut] @RapidCodeOn okay @Goto(test)
+@Variable[Test]=[0] does not work, use <= or >=, seems to work in vocab files
+Getting or comparing an unknow variable will return the value 0 for the variable
+#DateDifference an unknown date will result in the difference always being 0
+You CANNOT generate a random number using variables as min or max range
+@ChangeVar only supports ONE operation not multiple once like @ChangeVar[f]=[f]*[100]-[b]
+Multiple @RT in one line WORK and #Vocab works inside @RT too
+
+Important Setup:
+All tagged sets must contain at least one picture with each tag (fully dressed, halfdressed etc.)
+Session length from 600 - 1200 and no domme decide based on level! Restart tease ai every 600 minutes!

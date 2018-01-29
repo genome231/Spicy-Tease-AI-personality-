@@ -1,0 +1,50 @@
+(Menu)
+@SystemMessage #VANC #VANP What settings do you wish to access slave?
+[Chastity,key] @NullResponse @Goto(Chastity)
+[domme,mistress,dominatrix,goddess] @NullResponse @Goto(Domme)
+[denial,endings] @NullResponse @Goto(Denial)
+[toys,toy] @NullResponse @Goto(Toys)
+[sub,personal,slave] @NullResponse @Goto(Sub)
+[audio,sound,sounds,metronome] @NullResponse @Goto(Audio)
+[update,updates] @NullResponse @Goto(Update)
+[mode,modes] @NullResponse @Goto(Modes)
+[hard limit,limits] @NullResponse @Goto(Limits)
+[none,nothing,return,mistake,error,exit,back] @SystemMessage #VANC #VANP Returning to main menu... @NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP You have the following options: Chastity, domme, denial, toys, personal, audio, modes, hardlimits, update or exit the settings
+@End
+(Chastity)
+@SystemMessage #VANC #VANP Relaunching chastity settings
+@NullResponse @CallReturn(CR\Settings\Chastity.txt)
+@NullResponse @Goto(Menu)
+(Domme)
+@SystemMessage #VANC #VANP Accessing domme settings
+@NullResponse @CallReturn(CR\Settings\Domme.txt)
+@NullResponse @Goto(Menu)
+(Denial)
+@SystemMessage #VANC #VANP Accessing denial settings
+@NullResponse @CallReturn(CR\Settings\Endings.txt)
+@NullResponse @Goto(Menu)
+(Toys)
+@SystemMessage #VANC #VANP Accessing toy settings
+@NullResponse @CallReturn(CR\Settings\Toys.txt)
+@NullResponse @Goto(Menu)
+(Sub)
+@SystemMessage #VANC #VANP Accessing personal settings
+@NullResponse @CallReturn(CR\Settings\Personal.txt)
+@NullResponse @Goto(Menu)
+(Audio)
+@SystemMessage #VANC #VANP Accessing Audio settings
+@NullResponse @CallReturn(CR\Settings\Audio.txt)
+@NullResponse @Goto(Menu)
+(Modes)
+@SystemMessage #VANC #VANP Accessing Modes
+@NullResponse @CallReturn(CR\Settings\Modes.txt)
+@NullResponse @Goto(Menu)
+(Limits)
+@SystemMessage #VANC #VANP Accessing Hardlimits
+@NullResponse @CallReturn(CR\Settings\Fetishes.txt)
+@NullResponse @Goto(Menu)
+(Update)
+@SystemMessage #VANC #VANP Checking for important updates
+@NullResponse @CallReturn(CR\Settings\Update.txt)
+@NullResponse @Goto(Menu)

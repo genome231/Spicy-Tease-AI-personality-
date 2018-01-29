@@ -1,0 +1,11 @@
+[i feel,feel great,feel sad,feel bad, feel horrible,feel sexy,feel happy,feel anxious,feel alive]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\WellBeing\R7e.txt)
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Session,Busy) @NullResponse
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(#SlaveName This is not the place right now..,Not right now..,I don't care about that right now..,This is not the place..)
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @SystemMessage #VANC #VANP @RT(I don't really care about that #SlaveName,Why would you bother telling me that?,Do I look like I care?,I couldn't really care less..)
+@Flag(Assistant,Busy) @NullResponse
+[All End]

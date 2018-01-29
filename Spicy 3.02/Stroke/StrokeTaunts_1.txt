@@ -1,0 +1,586 @@
+@FirstRound @Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Stroke it to the beat,Stick to the beat,Keep up with the beat,don't miss a beat!,Stroke to the sounds!,Follow the rhytme) #StrokeNormal
+@FirstRound @Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(Stroke it to the beat,Stick to the beat,Keep up with the beat,don't miss a beat!,Stroke to the sounds!,Follow the rhytme) #StrokeSlow
+@FirstRound @Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Stroke it to the beat,Stick to the beat,Keep up with the beat,don't miss a beat!,Stroke to the sounds!,Follow the rhytme) #StrokeFast
+@FirstRound @Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Stroke it to the beat,Stick to the beat,Keep up with the beat,don't miss a beat!,Stroke to the sounds!,Follow the rhytme) #StrokeSlow
+@FirstRound @Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Stroke it a good medium pace,Stick with a nice medium pace,Stick to a nice medium stroke pace) @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@FirstRound @Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Stroke as slow as you can!,Keep the strokes super slow!,I want crazy slow strokes!) @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@FirstRound @Flag(FastStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Really fast strokes!,Stroke it fast!,Fast strokes #SlaveName!) @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@FirstRound @Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Slow strokes,Keep the strokes slow,Stay with a nice slow stroking!) @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(God I love,There is nothing better than,I adore) @RT(you sitting there,just to watch you,oogling at you) @RT(stroking,touching that #GNMCock,beating that small piece of meat) @FollowUp30(*Smiling*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Sometimes,Often,Once in a while) @RT(I think about,I dream about,I'm considering) @RT(just tossing the chastity key away,selling you to a man,auctioning you off) @FollowUp30(LOL!) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(It happens that I dream of,Sometimes I can't stop myself from,I often feel like) @RT(making out with,fucking,spanking) @RT(#Contact1,#Contact2,#Contact3) @FollowUp30(*Bites Lip*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I bet you love,I just love,Nobody can resist) @RT(#Contact1's,#Contact2's,#Contact3's) @RT(tits,ass,body,face,smile) @FollowUp30(*Drooling*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(You should really consider,I feel like you should be,A true slave wouldn't mind) @RT(sucking a cock,eating semen,selling out blowjobs), @RT(I guess you still have much to learn,But don't worry you will learn it,No worries it will come) @FollowUp30(*Nasty Smile*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I need a good fuck!,I wouldn't mind an orgasm right now!,I'm desperate for an orgasm), @RT(Its sad that,Too bad that,I guess its bad luck that) @RT(you're useless,that your cock is too small,that you're a hopeless lover) @FollowUp30(*Sigh*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Keep stroking,Keep pleasuring,Keep touching) that @RT(#GNMCock,desperate tiny worm,unstabile cock) @RT(I suppose its all your good for,I guess you're worthless in any other regard,I bet its all you know) @FollowUp30(*Kiss*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(There should be an island,I wish there was some land,I would love nothing else but an island) where @RT(women ruled,men are slaves,women were gods) - @RT(just imagine that,sounds perfect!,I would be so happy!) @FollowUp(*Dreamy*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Imagine,Just think of,Try to imagine) never having an @RT(sweet explosive,delicious,strong) orgasm @RT(again,ever again,and just be locked up) @FollowUp20(*Sly Smile*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Maybe,I don't think,I'm not sure) you should be @RT(stroking,touching yourself,beating your worm) right now, @RT(maybe a caning,perhaps a whipping,maybe a beating) would do you better? @FollowUp15(*Evil Look*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Remember,don't forget,I want you to remember) that @RT(stroking,touching yourself,pleasuring yourself) is a @RT(privelege,reward,treat) @FollowUp20(remember to enjoy it..) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Enjoy stroking,Savor the feeling of touching yourself,enjoy this) @RT(who knows,because maybe,just in case) @RT(it never happens again,you won't get to do it again,its the last time) @FollowUp10(*Touches Herself*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I love it,It's hot,Its soo sexy) @RT(When you beat that #GNMCock,stroke your dick,move your hand up and down) @RT(hard and fast,swift and merciless,fast,hard) @FollowUp15(*mmhhmmm..*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I bet you love,I think you like,I bet you don't mind) it when I let you @RT(stroke fast,stroke hard,stroke quickly) - @FollowUp15(But maybe you should slow down hehe) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I love,I can't get enough of,I really enjoy) @RT(the agony,the desperation,the wild lust) in your eyes, @RT(soo hot,soo sexy,it makes me hot!) @FollowUp15(*Moans*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Lets keep it,Lets go back to,I love it) @RT(nice and slow,slow and steady,slow) - @RT(I love what it does to you,while you seem to hate it!,even though you might not like it) @FollowUp10(*Smiling*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Keep that cock steady,Calm yourself,Relax) @RT(we're far from done!,we still got some way to go,you probably won't come today anyway) @FollowUp20(*Flicks Tounge*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Blessed be cock torture,blessed be the edge,blessed be cockcages) for it @RT(dominates the mind,destroyes the will,terrorizes the soul) of men - @RT(binds them!,Enslaves them!,Weakens them!) @FollowUp15(*Evil Laugh*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Gosh I just love,Its so hot,There is better than) to look at @RT(sexy images,images of sensuality,dirty pictures), I could do it @RT(all day long!,every waking moment,always!) @FollowUp50(*Purs*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Look at these girls!,Have a look at those women,feast your eyes on these wonderful creatures) @RT(girls are definetly the better sex!,nothing is more erotic than 2 women!,it doesn't get any better than 2 women) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Blessed be femdom images!,Worship this image!,Enjoy the view!) @RT(Pictures of submission are sooo hot!,Images of domination are the best,I just can't enough of erotic photos!) @FollowUp10(*Evil Eyes*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(I could look at pictures all day,I could stare at these images all day,I can never get enough erotic photos) it @RT(frustrates,tortures,excites) you but (soothes,relaxes,calms) me @FollowUp20(hehe) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Imagine being part of these images,I bet you wish you was part of the action,This looks hot), I just want to @RT(jump right in!,be part of it as well,make you frustrated) @FollowUp30(*Blows a Kiss*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Maybe you should,It might be a better idea,Perhaps you should) @RT(just be looking at pictures,just watch these images) @RT(instead,in favor, as a replacement) of stroking @FollowUp15(*Small Moaning*) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage Buying @RT(a chastity cage,a cane,slaves) was @RT(the best thing I ever did,my wisest decision,a really good idea) @RT(I haven't been happier since,I've never been this pleased,and it makes me happy!) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(LOL!,ROFL!,OMG!) @RT(Remember this?,Recall this?,Who's that on the picture?), @RT(You look ridiculous,the definition of NOT sexy..,there's just so much wrong with this image) @FollowUp10(#NotAlpha) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(My fingers itches,I got a feeling,I had a funny idea), @RT(imagine if I sent this picture to,I want to share this picture with,maybe I should show it to) @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) #StrokeNormal
+@Flag(RegularStrokeMode, MetronomeOn) @ShowImage @RT(Its a lot of fun,I love,#Contact2 loves me for) making you @RT(stroke,touch,pleasure) yourself @RT(to this "Sexy" you,to these humiliating pictures,to your own perversions) @FollowUp30(*Lol*) #StrokeNormal
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage Use a @RT(firm grip,loose grip,tight grip), @RT(up and down,keep the pace,stay on beat) and @RT(focus on your pleasure,enjoy the stroking) @FollowUp15(*Blows a Kiss*) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(Make sure,Be certain,Remember) to @RT(enjoy,savor,love) every @RT(stroke,touch,sensation) you get.. @FollowUp15(It won't last forever) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(Gosh,OMG,LOL), you look @RT("hot","Sexy","lame") @RT(slut,slave,worm).. @FollowUp15(Pray I don't share these images) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(#Contact1,#Contact2,#Contact3) @RT(keeps telling,constantly tells,often point out to) me @RT(that your legs should be shaven,that your lock should be sealed) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(Imagine,just think about,fantasize) @RT(sucking,pleasuring,stroking) @RT(another mans,my boyfriends) @RT(huge cock,beautiful dick) @FollowUp15(I bet you wouldn't mind!) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(My boyfriend,my lover,my fucktoy) @RT(said,tells me,suggested) that you should @RT(suck his cock,become his cumbucket,eat his ass) @FollowUp15(I would looove to see that! LOL) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage #Contact1 @RT(thinks,believes,said) that you @RT(edge,stroke,exercise) too little, @RT(I don't know..,maybe you do?) @FollowUp15(hmm..) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage #Contact2 @RT(can't wait to,really want to,begge med to) let her @RT(dress you up,make you sexy) @RT(in some lingerie,with a pair of stockings,with some high heels) @FollowUp15() #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage #Contact3 @RT(wants me,asked me to,begged me to) lock you up in her dungeon @RT(inside a cage,with the humblr on,on her spanking bench) @FollowUp15(.. Told her I'd think about it) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(I have a plan,I'm planning) to make you addicted to @RT(cock,dick,a fat cock), @RT(I want to humiliate you!,I want you to feel worthless) @FollowUp15(- That would make me so happy!) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage I have a @RT(cane,whip,riding crop) in my hand.. @RT(beg,ask,plead) me to use it on your @RT(ass,cock,balls) @FollowUp15(- Beg me out loud!) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage I had a dream about your @RT(ass,cock,balls) and my @RT(cane,high heels,spatula), @RT(do I need to tell more?,need I say more?) @FollowUp15(*Grin*) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(Keep,hold,stay on) the pace, if you @RT(edge,reach the edge,get close to the edge) remember to @RT(tell,inform) me.. @FollowUp15(But try not to edge..) #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(No mercy,No rest,No stopping), prove to me that you @RT(have stamina,isn't worthless,isn't a premature ejaculator), but remember to tell me if you edge.. #StrokeSlow
+@Flag(TortureStrokeMode, MetronomeOn) @ShowImage @RT(NO cumming,NO ejaculation,No orgasm) without @RT(permission,my say so,my authorization) you will regret it! @FollowUp15(By the devil you will regret it..) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Gosh I love,Its so hot with,Mhmm) @RT(all these frustration strokes,slow stroking,barely stroking) @RT(It makes me wet,It gets me going,I can't get enough) @FollowUp15(*Mhmm*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Aww,Mhmm,Yees) @RT(you look so adorable,soo cute,soo not a man) I just a few of these to @RT(#Contact1,#Contact2,#Contact3) @FollowUp15(And she loves them!) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage There is more @RT(action,sex,love) in this @RT(image,photo,picture) than a @RT(slave,slut,caged cuck) ever deserves @FollowUp15(*Gasps*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Orgasms,Ejaculations,Released) aren't proper for a @RT(slave,slut,cuck) its reserved for their @RT(mistress,domme,misses) @FollowUp15(thats how it should be) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Lets imagine,Just picture,Just dream for a moment) that you werent a @RT(slave,slut,pig), no wait.. @RT(thats impossible,its not possible,its just a fantasy) @FollowUp15(*LoL*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Keep the strokes,Remember to stroke,keep the pace) @RT(frustratingly,desperately,painfully) slow, @RT(lets build some blue balls,time for blue balls) @FollowUp15(*Smirking*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Slow,tempoless,sweet) and @RT(agonizing,at a minimum strokes,craving), @RT(thats how you may,thats how you should,thats a sluts way to) stroke @FollowUp15(*Purs*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage Stop! and count to @RT(5,10,15), @RT(then and only then,then slave,then slut) may you @RT(continue,resume,start) stroking @FollowUp15(*Wink*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage I want @RT(firm strokes,your hand barely touching,you to only stroke the shaft) - Thats a good @RT(slut,pet,slave) @FollowUp15(- Just how I like it) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Keep this slow pace,stay on pace,keep the beat) and @RT(worship,honor,pay tribute) to your @RT(#DommeHonorific,Divinity,Goddess) @FollowUp15(*Smile*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(I love,its perfect,Excellent) to see you @RT(squirm,frustrated,desperate) for a more.. @RT("Firm" touch,faster tempo,speed) @FollowUp15(But nooo! *Grin*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Small,Tiny,Microscopic) @RT(dicks,cucks,worms) @RT(don't deserve,shouldn't,don't get to) stroke faster.. @FollowUp15(*Laughs*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Stroke,Pleasure,Touch) only your @RT(shaft,head,sweetspot) with a @RT(minimum of touching,a few fingers) @FollowUp15(.. Thats the way *Smiles*) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Stroke with,Touch yourself with,pleasure yourself with) @RT(non-dominant hand,only index finger and thumb,only a few fingers) @FollowUp15(barely touching) #StrokeSlow
+@Flag(SlowStrokeMode, MetronomeOn) @ShowImage @RT(Slow strokes,Barely stroking) can be @RT(pure torture,a nasty torment,a severe punishment) for a denied @RT(cuck,cock,dick) @FollowUp15(*Evil Laugh*) #StrokeSlow
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Your stroking,your pumping,Your selfpleasuring) is just like @RT(fast and the furious,a teenage boy's,a desperate slut's), but @RT(keep the pace!,follow the pace..,remain on pace!) @FollowUp20(*Wide Smile*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage You @RT(touch,stroke,pleasure) yourself like a @RT(hungry slut!,depraved boy!,uncontrolled slave!) - And I @RT(love,adore,enjoys) it @FollowUp20(Stay on beat!) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage Maybe you would @RT(prefer the cage,rather be locked,stay in steel) rather than this @RT(fury stroking,crazy pleasure,insane touching) - But no.. @RT(Keep it up!,Stay on beat,Stroke properly) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage Stroke and @RT(enjoy,behold,watch) yourself @RT(in all your glory,perverted,slutty) @RT(what a sight for a desperate boy,such sluttyness,so sad to watch) @FollowUp25(*Grin*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage I @RT(bet,hope,think) your @RT(small cock,tiny dick,useless cock) is @RT(in agony,about to burst,trembling) - @FollowUp15(*Grin*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(#Contact1,#Contact2,#Contact3) @RT(thinks,believes,says) that a lover should be able to keep this pace for extended periods @FollowUp15(- Prove yourself!) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Keep calm,Focus,Relax) we don't want any @RT(accidents,spillage,unauthorized ejaculations) @RT(slave,bitch,slut) @FollowUp15(*Stirres at You*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Stroke,Pump,Please) it and watch! So @RT(sexy,dirty,filthy), you just wanna jump right in the @RT(picture,photo,image) @FollowUp15(*Mhmm*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage don't @RT(cum,ejaculate,orgasm), I @RT(swear,tell you,promise you) that you'll be back in that @RT(cage,prison,steel) @FollowUp15() #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Uhhh,Hehe,Oh my).. I just want to @RT(squash,crush,paddle) your @RT(balls,nuts,grapes) @FollowUp15(*Smack Smack*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(I feel like,I would love,Maybe I should) @RT(kick,slap,paddle) your @RT(ass,balls,cock) @FollowUp15(*Smile*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Looking through,looking at,browsing) you @RT(pictures,porn collection,"gay" pictures), its.. @RT(disturbing?,hot?,juicy?) @FollowUp15(*surprised look*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Faster,quicker,swifter) @RT(stronger,migthier) better harder @FollowUp30(*Lol*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(To chastity or not to chastity,to spank or not to spank,to deny or not to deny) that is the question @FollowUp15(*Grin*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(Have a look,watch,look) and see @RT(whats beyond your reach,what you'll never have,what a slave never gets).. @RT(Loser..,Wanker..,Cuck..) @FollowUp15(*Evil Smile*) #StrokeFast
+@Flag(FastStrokeMode, MetronomeOn) @ShowImage @RT(I would never have sex with you,I will never touch you,I'll never give you what you want) @RT(nor would anyone else,probably for the best,Gosh.. Just the thought!) #StrokeFast
+@Flag(NoStrokeEdge, MetronomeOn) @ShowImage @RT(Careful you don't reach the edge,Stay off the edge,don't edge), @RT(I want you desperate!,I want you frustrated,I need you filled with lust) - @FollowUp20(Maybe I should just let you edge and never orgasm!) #StrokeNormal
+@Flag(MaybeStrokeEdge, MetronomeOn) @ShowImage @RT(If I was you,Careful..,Calm down..) @RT(I would play it safe and not edge!,You never know the dangers of edging,Edging can be dangerous) Then again I would love @RT(spanking,hurting,torturing) you! #StrokeNormal
+@Flag(YesStrokeEdge, MetronomeOn) @ShowImage @RT(There is something amazing about,I just can't get enough of,I could watch you) @RT(edging all day!,stroking all day,frustration all day) - @RT(glad,happy,thrilled) that I'm not you! #StrokeNormal
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn) @NullResponse @ShowImage
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, RegularStrokeMode) @NullResponse @ShowImage #StrokeNormal
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, TortureStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, SlowStrokeMode) @NullResponse @ShowImage #StrokeSlow
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@Flag(MetronomeOn, FastStrokeMode) @NullResponse @ShowImage #StrokeFast
+@NullResponse @CallReturn(CR\Stroking\QuickEdge.txt)
+@NullResponse @CallReturn(CR\Stroking\QuickHumi.txt)
+@NullResponse @CallReturn(CR\Stroking\QuickPause.txt)
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@NotFlag(MetronomeOn) @NullResponse @ShowImage
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(God I love,There is nothing better than,I adore) @RT(you sitting there,just to watch you,oogling at you) @RT(stroking,touching that #GNMCock,beating that small piece of meat) @FollowUp30(*Smiling*)
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Sometimes,Often,Once in a while) @RT(I think about,I dream about,I'm considering) @RT(just tossing the chastity key away,selling you to a man,auctioning you off) @FollowUp30(LOL!) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(It happens that I dream of,Sometimes I can't stop myself from,I often feel like) @RT(making out with,fucking,spanking) @RT(#Contact1,#Contact2,#Contact3) @FollowUp30(*Bites Lip*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I bet you love,I just love,Nobody can resist) @RT(#Contact1's,#Contact2's,#Contact3's) @RT(tits,ass,body,face,smile) @FollowUp30(*Drooling*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(You should really consider,I feel like you should be,A true slave wouldn't mind) @RT(sucking a cock,eating semen,selling out blowjobs), @RT(I guess you still have much to learn,But don't worry you will learn it,No worries it will come) @FollowUp30(*Nasty Smile*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I need a good fuck!,I wouldn't mind an orgasm right now!,I'm desperate for an orgasm), @RT(Its sad that,Too bad that,I guess its bad luck that) @RT(you're useless,that your cock is too small,that you're a hopeless lover) @FollowUp30(*Sigh*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Keep stroking,Keep pleasuring,Keep touching) that @RT(#GNMCock,desperate tiny worm,unstabile cock) @RT(I suppose its all your good for,I guess you're worthless in any other regard,I bet its all you know) @FollowUp30(*Kiss*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(There should be an island,I wish there was some land,I would love nothing else but an island) where @RT(women ruled,men are slaves,women were gods) - @RT(just imagine that,sounds perfect!,I would be so happy!) @FollowUp(*Dreamy*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Imagine,Just think of,Try to imagine) never having an @RT(sweet explosive,delicious,strong) orgasm @RT(again,ever again,and just be locked up) @FollowUp20(*Sly Smile*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Maybe,I don't think,I'm not sure) you should be @RT(stroking,touching yourself,beating your worm) right now, @RT(maybe a caning,perhaps a whipping,maybe a beating) would do you better? @FollowUp15(*Evil Look*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Remember,don't forget,I want you to remember) that @RT(stroking,touching yourself,pleasuring yourself) is a @RT(privelege,reward,treat) @FollowUp20(remember to enjoy it..) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Enjoy stroking,Savor the feeling of touching yourself,enjoy this) @RT(who knows,because maybe,just in case) @RT(it never happens again,you won't get to do it again,its the last time) @FollowUp10(*Touches Herself*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I love it,It's hot,Its soo sexy) @RT(When you beat that #GNMCock,stroke your dick,move your hand up and down) @RT(hard and fast,swift and merciless,fast,hard) @FollowUp15(*mmhhmmm..*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I bet you love,I think you like,I bet you don't mind) it when I let you @RT(stroke fast,stroke hard,stroke quickly) - @FollowUp15(But maybe you should slow down hehe) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I love,I can't get enough of,I really enjoy) @RT(the agony,the desperation,the wild lust) in your eyes, @RT(soo hot,soo sexy,it makes me hot!) @FollowUp15(*Moans*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Lets keep it,Lets go back to,I love it) @RT(nice and slow,slow and steady,slow) - @RT(I love what it does to you,while you seem to hate it!,even though you might not like it) @FollowUp10(*Smiling*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Keep that cock steady,Calm yourself,Relax) @RT(we're far from done!,we still got some way to go,you probably won't come today anyway) @FollowUp20(*Flicks Tounge*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Blessed be cock torture,blessed be the edge,blessed be cockcages) for it @RT(dominates the mind,destroyes the will,terrorizes the soul) of men - @RT(binds them!,Enslaves them!,Weakens them!) @FollowUp15(*Evil Laugh*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Gosh I just love,Its so hot,There is better than) to look at @RT(sexy images,images of sensuality,dirty pictures), I could do it @RT(all day long!,every waking moment,always!) @FollowUp50(*Purs*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Look at these girls!,Have a look at those women,feast your eyes on these wonderful creatures) @RT(girls are definetly the better sex!,nothing is more erotic than 2 women!,it doesn't get any better than 2 women) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Blessed be femdom images!,Worship this image!,Enjoy the view!) @RT(Pictures of submission are sooo hot!,Images of domination are the best,I just can't enough of erotic photos!) @FollowUp10(*Evil Eyes*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(I could look at pictures all day,I could stare at these images all day,I can never get enough erotic photos) it @RT(frustrates,tortures,excites) you but (soothes,relaxes,calms) me @FollowUp20(hehe) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Imagine being part of these images,I bet you wish you was part of the action,This looks hot), I just want to @RT(jump right in!,be part of it as well,make you frustrated) @FollowUp30(*Blows a Kiss*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Maybe you should,It might be a better idea,Perhaps you should) @RT(just be looking at pictures,just watch these images) @RT(instead,in favor, as a replacement) of stroking @FollowUp15(*Small Moaning*) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage Buying @RT(a chastity cage,a cane,slaves) was @RT(the best thing I ever did,my wisest decision,a really good idea) @RT(I haven't been happier since,I've never been this pleased,and it makes me happy!) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(LOL!,ROFL!,OMG!) @RT(Remember this?,Recall this?,Who's that on the picture?), @RT(You look ridiculous,the definition of NOT sexy..,there's just so much wrong with this image) @FollowUp10(#NotAlpha) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(My fingers itches,I got a feeling,I had a funny idea), @RT(imagine if I sent this picture to,I want to share this picture with,maybe I should show it to) @RT(@ShowVar[BlackmailName1],@ShowVar[BlackmailName2],@ShowVar[BlackmailName3]) 
+@Flag(RegularStrokeMode) @NotFlag(MetronomeOn) @ShowImage @RT(Its a lot of fun,I love,#Contact2 loves me for) making you @RT(stroke,touch,pleasure) yourself @RT(to this "Sexy" you,to these humiliating pictures,to your own perversions) @FollowUp30(*Lol*) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower Use a @RT(firm grip,loose grip,tight grip), @RT(up and down,keep the pace,stay on beat) and @RT(focus on your pleasure,enjoy the stroking) @FollowUp15(*Blows a Kiss*) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(Make sure,Be certain,Remember) to @RT(enjoy,savor,love) every @RT(stroke,touch,sensation) you get.. @FollowUp15(It won't last forever) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(Gosh,OMG,LOL), you look @RT("hot","Sexy","lame") @RT(slut,slave,worm).. @FollowUp15(Pray I don't share these images) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(#Contact1,#Contact2,#Contact3) @RT(keeps telling,constantly tells,often point out to) me @RT(that your legs should be shaven,that your lock should be sealed) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(Imagine,just think about,fantasize) @RT(sucking,pleasuring,stroking) @RT(another mans,my boyfriends) @RT(huge cock,beautiful dick) @FollowUp15(I bet you wouldn't mind!) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(My boyfriend,my lover,my fucktoy) @RT(said,tells me,suggested) that you should @RT(suck his cock,become his cumbucket,eat his ass) @FollowUp15(I would looove to see that! LOL) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower #Contact1 @RT(thinks,believes,said) that you @RT(edge,stroke,exercise) too little, @RT(I don't know..,maybe you do?) @FollowUp15(hmm..) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower #Contact2 @RT(can't wait to,really want to,begge med to) let her @RT(dress you up,make you sexy) @RT(in some lingerie,with a pair of stockings,with some high heels) @FollowUp15() 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower #Contact3 @RT(wants me,asked me to,begged me to) lock you up in her dungeon @RT(inside a cage,with the humblr on,on her spanking bench) @FollowUp15(.. Told her I'd think about it) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(I have a plan,I'm planning) to make you addicted to @RT(cock,dick,a fat cock), @RT(I want to humiliate you!,I want you to feel worthless) @FollowUp15(- That would make me so happy!) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower I have a @RT(cane,whip,riding crop) in my hand.. @RT(beg,ask,plead) me to use it on your @RT(ass,cock,balls) @FollowUp15(- Beg me out loud!) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower I had a dream about your @RT(ass,cock,balls) and my @RT(cane,high heels,spatula), @RT(do I need to tell more?,need I say more?) @FollowUp15(*Grin*) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(Keep,hold,stay on) the pace, if you @RT(edge,reach the edge,get close to the edge) remember to @RT(tell,inform) me.. @FollowUp15(But try not to edge..) 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(No mercy,No rest,No stopping), prove to me that you @RT(have stamina,isn't worthless,isn't a premature ejaculator), but remember to tell me if you edge.. 
+@Flag(TortureStrokeMode) @NotFlag(MetronomeOn) @ShowImage @StrokeSlower @StrokeSlower @RT(NO cumming,NO ejaculation,No orgasm) without @RT(permission,my say so,my authorization) you will regret it! @FollowUp15(By the devil you will regret it..) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Gosh I love,Its so hot with,Mhmm) @RT(all these frustration strokes,slow stroking,barely stroking) @RT(It makes me wet,It gets me going,I can't get enough) @FollowUp15(*Mhmm*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Aww,Mhmm,Yees) @RT(you look so adorable,soo cute,soo not a man) I just a few of these to @RT(#Contact1,#Contact2,#Contact3) @FollowUp15(And she loves them!) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage There is more @RT(action,sex,love) in this @RT(image,photo,picture) than a @RT(slave,slut,caged cuck) ever deserves @FollowUp15(*Gasps*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Orgasms,Ejaculations,Released) aren't proper for a @RT(slave,slut,cuck) its reserved for their @RT(mistress,domme,misses) @FollowUp15(thats how it should be) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Lets imagine,Just picture,Just dream for a moment) that you werent a @RT(slave,slut,pig), no wait.. @RT(thats impossible,its not possible,its just a fantasy) @FollowUp15(*LoL*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Keep the strokes,Remember to stroke,keep the pace) @RT(frustratingly,desperately,painfully) slow, @RT(lets build some blue balls,time for blue balls) @FollowUp15(*Smirking*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Slow,tempoless,sweet) and @RT(agonizing,at a minimum strokes,craving), @RT(thats how you may,thats how you should,thats a sluts way to) stroke @FollowUp15(*Purs*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage Stop! and count to @RT(5,10,15), @RT(then and only then,then slave,then slut) may you @RT(continue,resume,start) stroking @FollowUp15(*Wink*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage I want @RT(firm strokes,your hand barely touching,you to only stroke the shaft) - Thats a good @RT(slut,pet,slave) @FollowUp15(- Just how I like it) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Keep this slow pace,stay on pace,keep the beat) and @RT(worship,honor,pay tribute) to your @RT(#DommeHonorific,Divinity,Goddess) @FollowUp15(*Smile*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(I love,its perfect,Excellent) to see you @RT(squirm,frustrated,desperate) for a more.. @RT("Firm" touch,faster tempo,speed) @FollowUp15(But nooo! *Grin*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Small,Tiny,Microscopic) @RT(dicks,cucks,worms) @RT(don't deserve,shouldn't,don't get to) stroke faster.. @FollowUp15(*Laughs*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Stroke,Pleasure,Touch) only your @RT(shaft,head,sweetspot) with a @RT(minimum of touching,a few fingers) @FollowUp15(.. Thats the way *Smiles*) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Stroke with,Touch yourself with,pleasure yourself with) @RT(non-dominant hand,only index finger and thumb,only a few fingers) @FollowUp15(barely touching) 
+@Flag(SlowStrokeMode) @NotFlag(MetronomeOn) @StrokeSlower @ShowImage @RT(Slow strokes,Barely stroking) can be @RT(pure torture,a nasty torment,a severe punishment) for a denied @RT(cuck,cock,dick) @FollowUp15(*Evil Laugh*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Your stroking,your pumping,Your selfpleasuring) is just like @RT(fast and the furious,a teenage boy's,a desperate slut's), but @RT(keep the pace!,follow the pace..,remain on pace!) @FollowUp20(*Wide Smile*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage You @RT(touch,stroke,pleasure) yourself like a @RT(hungry slut!,depraved boy!,uncontrolled slave!) - And I @RT(love,adore,enjoys) it @FollowUp20(Stay on beat!) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage Maybe you would @RT(prefer the cage,rather be locked,stay in steel) rather than this @RT(fury stroking,crazy pleasure,insane touching) - But no.. @RT(Keep it up!,Stay on beat,Stroke properly) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage Stroke and @RT(enjoy,behold,watch) yourself @RT(in all your glory,perverted,slutty) @RT(what a sight for a desperate boy,such sluttyness,so sad to watch) @FollowUp25(*Grin*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage I @RT(bet,hope,think) your @RT(small cock,tiny dick,useless cock) is @RT(in agony,about to burst,trembling) - @FollowUp15(*Grin*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(#Contact1,#Contact2,#Contact3) @RT(thinks,believes,says) that a lover should be able to keep this pace for extended periods @FollowUp15(- Prove yourself!) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Keep calm,Focus,Relax) we don't want any @RT(accidents,spillage,unauthorized ejaculations) @RT(slave,bitch,slut) @FollowUp15(*Stirres at You*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Stroke,Pump,Please) it and watch! So @RT(sexy,dirty,filthy), you just wanna jump right in the @RT(picture,photo,image) @FollowUp15(*Mhmm*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage don't @RT(cum,ejaculate,orgasm), I @RT(swear,tell you,promise you) that you'll be back in that @RT(cage,prison,steel) @FollowUp15() 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Uhhh,Hehe,Oh my).. I just want to @RT(squash,crush,paddle) your @RT(balls,nuts,grapes) @FollowUp15(*Smack Smack*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(I feel like,I would love,Maybe I should) @RT(kick,slap,paddle) your @RT(ass,balls,cock) @FollowUp15(*Smile*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Looking through,looking at,browsing) you @RT(pictures,porn collection,"gay" pictures), its.. @RT(disturbing?,hot?,juicy?) @FollowUp15(*surprised look*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Faster,quicker,swifter) @RT(stronger,migthier) better harder @FollowUp30(*Lol*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(To chastity or not to chastity,to spank or not to spank,to deny or not to deny) that is the question @FollowUp15(*Grin*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(Have a look,watch,look) and see @RT(whats beyond your reach,what you'll never have,what a slave never gets).. @RT(Loser..,Wanker..,Cuck..) @FollowUp15(*Evil Smile*) 
+@Flag(FastStrokeMode) @NotFlag(MetronomeOn) @StrokeFaster @ShowImage @RT(I would never have sex with you,I will never touch you,I'll never give you what you want) @RT(nor would anyone else,probably for the best,Gosh.. Just the thought!) 
+@Flag(NoStrokeEdge) @NotFlag(MetronomeOn) @ShowImage @RT(Careful you don't reach the edge,Stay off the edge,don't edge), @RT(I want you desperate!,I want you frustrated,I need you filled with lust) - @FollowUp20(Maybe I should just let you edge and never orgasm!) 
+@Flag(MaybeStrokeEdge) @NotFlag(MetronomeOn) @ShowImage @RT(If I was you,Careful..,Calm down..) @RT(I would play it safe and not edge!,You never know the dangers of edging,Edging can be dangerous) Then again I would love @RT(spanking,hurting,torturing) you! 
+@Flag(YesStrokeEdge) @NotFlag(MetronomeOn) @ShowImage @RT(There is something amazing about,I just can't get enough of,I could watch you) @RT(edging all day!,stroking all day,frustration all day) - @RT(glad,happy,thrilled) that I'm not you! 
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeTaunts\*.mp3]
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeSlower\*.mp3] @StrokeSlower
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster
+@NotFlag(MetronomeOn) @NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\StrokeFaster\*.mp3] @StrokeFaster

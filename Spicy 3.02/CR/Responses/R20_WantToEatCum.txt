@@ -1,0 +1,66 @@
+@NullResponse @RapidCodeOn @CheckFlag(gdCEI)
+@NullResponse @RapidCodeOn @CheckFlag(gdCEI_No)
+You want to eat your cum? #DT
+[yes] So that's something you're into... #DT
+[no] Then don't waste my time talking about it #DT @Goto(waste my time)
+@NullResponse #GNMYesOrNo
+I'll keep it in mind #SlaveName #DT MeritChangePLow @SetFlag(gdCEI)
+(maybe today)
+Maybe I'll let you lick it up #GeneralTime #DT
+@Goto(Answers)
+(waste my time)
+Think before you type, #SlaveName #MeritChangeNLow
+@End
+(gdCEI)
+@NullResponse  @ChangeVar[pthevBegForCEI]=[pthevBegForCEI]+[1]
+@NullResponse @If[gdBegForCEI]=[1]Then(Yes First)
+@NullResponse @If[gdBegForCEI]=[2]Then(Yes Second)
+@NullResponse @If[gdBegForCEI]=[3]Then(Yes Third)
+@NullResponse @If[gdBegForCEI]>[3]Then(Yes Fourth)
+(Yes First)
+I know #SlaveName #DT
+You'll just have to wait and see #GNMEmoteHappy #DT
+@End
+(Yes Second)
+You already said so #SlaveName stop bothering me #DT
+I'll decide when we get there #DT
+It certainly doesn't improve your chances to nag about it #DT 
+@End
+(Yes Third)
+You think if you keep asking you'll get what you want? #DT
+[yes] That's not how it works #SlaveName #DT
+[no] You're right about that #GNMLol #DT
+@DifferentAnswer #GNMYesOrNo #DT
+So you can just stop asking #DT #MeritChangeNLow
+@End
+(Yes Fourth)
+Shut up #SlaveName #DT #MeritChangeNMedium
+I told you to stop nagging about it #DT
+When I want you to eat it I'll let you know #DT #
+@End
+(gdCEI_No)
+I thought you didn't like that #SlaveName #DT
+Did you change your mind? #DT
+[yes] That's interesting, I'll keep it in mind #DT @DeleteFlag(gdCEI_No) @SetFlag(gdCEI) @Goto(maybe today)
+[no] Then don't waste my time talking about it #DT @Goto(waste my time)
+@DifferentAnswer Do you want to eat your own cum, yes or no? #DT
+(Answers)
+@Chance77(SkipProblem)
+That would at least solve the problem of cleaning up #DT
+(SkipProblem)
+@NullResponse @Goto(Answer_1, Answer_2, Answer_3, Answer_4)
+(Answer_1)
+Although that would mean you get to cum #DT
+And we both know that's not going to happen #DT
+@End
+(Answer_2)
+Although that would mean you get to cum, which is pretty unlikely #DT
+But you never know, stranger things have happened #GNMEmoteHappy #DT
+@End
+(Answer_3)
+You have to cum first of course #DT
+And I haven't made my mind up about that yet, #SlaveName #GNMGrin #DT
+@End
+(Answer_4)
+In case you get to cum today #DT
+@End

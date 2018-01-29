@@ -1,0 +1,14 @@
+@RT(Go to the corner immediately,Go to the corner right now,The corner right now) and wait for my bell #DT
+@Variable[SubStrictness]>=[10] @NullResponse @Wait(#Random(1200,1500))
+@Variable[SubStrictness]=[9] @NullResponse @Wait(#Random(1100,1400))
+@Variable[SubStrictness]=[8] @NullResponse @Wait(#Random(1000,1300))
+@Variable[SubStrictness]=[7] @NullResponse @Wait(#Random(900,1200))
+@Variable[SubStrictness]=[6] @NullResponse @Wait(#Random(800,1100))
+@Variable[SubStrictness]=[5] @NullResponse @Wait(#Random(700,1000))
+@Variable[SubStrictness]=[4] @NullResponse @Wait(#Random(600,900))
+@Variable[SubStrictness]=[3] @NullResponse @Wait(#Random(500,800))
+@Variable[SubStrictness]=[2] @NullResponse @Wait(#Random(400,700))
+@Variable[SubStrictness]=[1] @NullResponse @Wait(#Random(300,600))
+@RT(Come back here!,Get back here!,Come back to me) #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@RT(I hope you enjoyed that small break..,I hope you enjoyed a small pause) #DT
+@End

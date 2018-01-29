@@ -1,0 +1,37 @@
+@SystemMessage #VANC #VANP You have 2 choices
+@SystemMessage #VANC #VANP Here you can buy pictures that Spicy 3.0 will use
+@SystemMessage #VANC #VANP On the Milovana.com Spicy forum there are half links
+@SystemMessage #VANC #VANP You need the other half before you can start the download and add the new images to your collection
+@SystemMessage #VANC #VANP When making a purchase here you'll get the other half
+@SystemMessage #VANC #VANP You can at any point revisit here to get the link
+@Variable[GNMGold]<[1000] @SystemMessage #VANC #VANP Buying a picture pack costs 1000 gold 
+@Variable[GNMGold]<[1000] @SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] @Goto(End)
+@SystemMessage #VANC #VANP Buying a picture pack costs 1000 gold 
+@SystemMessage #VANC #VANP Do you wish to proceed?
+[yes]@NullResponse
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP You now have 3 options
+@SystemMessage #VANC #VANP <Font color="red">1) Buy extra virtual assistant pictures</Font> <Font color="yellow">2) Buy Chastity pictures</Font> <Font color="black">3) Look at previously bought links</Font>
+[one,1]@NullResponse @Goto(1)
+[two,2]@NullResponse @Goto(2)
+[three,3]@NullResponse @Goto(3)
+@DifferentAnswer @SystemMessage #VANC #VANP 1, 2 or x
+(1)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[1000]
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(PictureBought2)
+@SystemMessage #VANC #VANP This is the other half of the link: 
+@End
+(2)
+@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[1000]
+@SystemMessage #VANC #VANP Transaction Complete @SetFlag(PictureBought2)
+@SystemMessage #VANC #VANP This is the other half of the link: 
+@End
+(3)
+@Flag(PictureBought1) Virtual Assistant Picture: 
+@Flag(PictureBought2) Chastity Related Pictures:
+@NullResponse @Goto(End)
+(End)
+@End
+1 \\Virtual assistant update 1000 gold
+2 \\Chastity off on pictures

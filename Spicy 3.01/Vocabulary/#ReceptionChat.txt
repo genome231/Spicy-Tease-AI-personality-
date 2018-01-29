@@ -1,5 +1,0 @@
-@Flag(Reception1) @ShowImage[\GNMImages\Punishment\Reception\Chat\1\*.jpg]
-@Flag(Reception2) @ShowImage[\GNMImages\Punishment\Reception\Chat\2\*.jpg]
-@Flag(Reception3) @ShowImage[\GNMImages\Punishment\Reception\Chat\3\*.jpg]
-@Flag(Reception4) @ShowImage[\GNMImages\Punishment\Reception\Chat\4\*.jpg]
-@Flag(Reception5) @ShowImage[\GNMImages\Punishment\Reception\Chat\5\*.jpg]

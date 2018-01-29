@@ -1,0 +1,62 @@
+Have you completed the last assignment I gave you? #DT
+[yes]#GNMGood #DT #MeritChangePLow @Goto(Check)
+[no]I expect more from you #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Tell me #SlaveName, why were you unable to complete the assignment?
+[forgot,forget] You should know it does not make me happy if you forget stuff #SlaveName! #MeritChangeNHigh #DT @Goto(EndFail)
+[no time,missing time,out of time] @RT(You should always find the time to wear your,You should always have time to wear your) #Cage #MeritChangeNMedium #DT @Goto(EndFail)
+[afraid] My poor #SlaveName is afraid? #GNMLol #MeritChangeNLow #DT @Goto(Afraid)
+[pain,too much,couldn't handle,uncomfortable] You should be able to handle pain #SlaveName #MeritChangeNMedium #DT @Goto(Pain) 
+@AcceptAnswer You have to complete your tasks #SlaveName. You want to become a proper slave, don't you? #DT @Goto(EndFail)
+(EndFail)
+Anyhow not completing your @RT(task,assignment) displeases me #DT
+But I guess in the end this means you just don't get to cum #GNMGrin #DT @SetVar[CTasksInARow]=[0] @SetVar[ChastityEXPMultiplier]=[1]
+Complete your task until the next session #DT
+@End
+(Afraid)
+@RT(You must not be afraid of it showing in public,You will have to deal with that) #SlaveName #GNMLol #DT @SetFag(gdChastityAfraid)
+As a proper slave of mine you don't care about other people #DT
+Because @RT(your solely purpose is to please me,your only interest should be to please me,you should only be interested in following my commands)! #DT
+@Goto(EndFail)
+(Pain)
+@NullResponse @Chance50(SkipCageFlags)
+@Flag(CSpikesOn) @RT(If it hurts you should prevent yourself from being aroused with all those spikes in your cage,No wonder it hurts with all those spikes in the cage) #GNMLol #DT @Goto(EndFail)
+@Flag(CPiercing) @RT(If the piercing is uncomfortable,If the piercing hurts) you should consider rearranging it or getting another cage #SlaveName #DT @Goto(EndFail)
+(SkipCageFlags)
+If it @RT(hurts too much,cuts into your flesh,is really uncomfortable,pinches your skin) you should consider getting a new cage or trying different ring sizes #DT
+Sometimes it might help to wrap something @RT(soft,smooth) around parts of the cage to make it more comfortable #DT
+@Goto(EndFail)
+(Check)
+Let me just update your exp and reward you with lock up points.. #DT @ChangeVar[CTasksInARow]=[CTasksInARow]+[1]
+@Variable[CTasksInARow]>=[15] I am very happy #SlaveName #DT @Goto(15)
+@Variable[CTasksInARow]>=[10] You will be pleased to hear this #SlaveName #GNMGrin #DT @Goto(10)
+@Variable[CTasksInARow]>=[5] Looks like the training is working out for you #SlaveName #DT @Goto(5)
+@NullResponse @Goto(End)
+(15)
+You have been completing your chastity @RT(assignments,tasks) for 15 days in a row #DT
+Thus I will multiply your chastity exp by 4 from now on #DT @SetVar[ChastityEXPMultiplier]=[4] @Goto(End)
+(10)
+You have completed your chastity @RT(assignments,tasks) for the last 10 days #DT #GNMGrin
+Because you have been acting that disciplined I will reward you with three times the chastity exp from now on #DT @SetVar[ChastityEXPMultiplier]=[3] @Goto(End)
+(5)
+You have been following my chastity @RT(assignments,tasks) for 5 days in a row now #DT
+Thus I will multiply your chastity exp by 2 from now on #DT @SetVar[ChastityEXPMultiplier]=[2]
+(End)
+@Variable[ChastityLevel]>[25] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(5,15)] @Goto(End2)
+@Variable[ChastityLevel]>[20] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(10,20)] @Goto(End2)
+@Variable[ChastityLevel]>[15] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(15,25)] @Goto(End2)
+@Variable[ChastityLevel]>[10] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(20,30)] @Goto(End2)
+@Variable[ChastityLevel]>[5] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(25,35)] @Goto(End2)
+@Variable[ChastityLevel]>=[1] @NullResponse @ChangeVar[LockUpPoints]=[LockUpPoints]+[#Random(30,40)] @Goto(End2)
+(End2)
+@NullResponse @RapidCodeOn @ChangeVar[ChastityXP]=[ChastityXP]+[ChastityRewardEXP] 
+I updated your exp and points.. #DT @SetFlag(CAssignmentDone)
+@NullResponse @Flag(gdChastityAfraid,LatestCTTaskAfraid) @Goto(gdChastityAfraid)
+@NullResponse @Goto(End3)
+(gdChastityAfraid)
+Tell me, are you still afraid of your cage showing in the public? #DT @DeleteFlag(LatestCTTaskAfraid)
+[yes] @RT(I guess we will need to work on that,Trust me we will work on that,Looks like my job is not done yet) #SlaveName #GNMGrin #DT @Goto(End3)
+[no] #GNMGood . @RT(I am happy that you have overcome your fear,Looks like my training was successful,This means we can focus on working on wearing it 24/7) #MeritChangePLow #DT @Goto(End3)
+@DifferentAnswer #GNMYesOrNo #DT
+(End3)
+@End

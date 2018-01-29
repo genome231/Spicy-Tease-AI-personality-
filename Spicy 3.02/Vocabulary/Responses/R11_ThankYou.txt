@@ -1,0 +1,5 @@
+[thank you,thanks]
+[All]
+@Flag(Session) @RT(Your welcome #SlaveName,My pleasure #SlaveName,#GNMGrin my pleasure #SlaveName,Oh I'm the one saying thank you #SlaveName,Your welcome,My pleasure) #DT
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

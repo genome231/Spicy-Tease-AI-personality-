@@ -1,0 +1,3 @@
+@NullResponse @CallReturn(CR\Stroking\StopStroking.txt)
+@End
+@info(we could add some stuff specially for stoping while edging here)

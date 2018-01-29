@@ -1,0 +1,31 @@
+(HardLimit)
+@RT(#SlaveName,#SubName,Slave) #DT
+@RT(We've crossed your hard limit of,It seems we're at your hard limit of) @ShowVar[HardOTimeLimit] days #DT
+@RT(I do respect your limits,Despite what you might think I care about your limits..,I fully respect your limits) #DT
+@RT(Though I like to encourage you to push them,Still I like to push them a little,But I'll never stop trying to push them a little) #DT
+@RT(Now,Meaning..,Well) #DT
+Do you absolutely need to cum? #DT
+[yes]@RT(Okay then,Well then) #DT
+[no]#GNMGood #DT @Goto(PushLimit2)
+@DifferentAnswer #GNMYesOrNo #DT
+(PushLimit1)
+@RT(Before we get to the point of letting you cum,Before I decide wether to let you cum or not) #DT
+@RT(Would it be alright for me to increase your hard limit a little?,Would you be okay with increasing your hard limit?) #DT
+[yes]#GNMGood #DT @Goto(IncreaseLimit)
+[no]@RT(Thats perfectly fine,Okay then) #GNMEmoteHappy #DT @Goto(End)
+@DifferentAnswer #GNMYesOrNo #DT
+(PushLimit2)
+@RT(You make me proud!,That makes me happy!,You make me very proud!) #MeritChangePHigh #DT
+@RT(This brings about the logical question,This begs the question) #DT
+@RT(Would you be okay with me increasing your hard limit?,Would it be alright if we took a look at your hard limit?) #DT
+[yes]#GNMGood #DT
+[no]Thats perfectly fine! #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@End
+(IncreaseLimit)
+@RT(So currently your hard limit is,At this moment your hard limit is) @ShowVar[HardOTimeLimit] days #DT
+@RT(I promise I'm only changing it a little,I'm only increasing it a teeny tiny bit) #DT @ChangeVar[HardOTimeLimit]=[HardOTimeLimit]+[#Random(1,2)]
+Done! #DT 
+I'm so proud of you! #MeritChangePMedium @Goto(End)
+(End)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)

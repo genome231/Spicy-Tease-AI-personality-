@@ -1,0 +1,36 @@
+#SlaveName #DT
+Lets play red light green light! #DT @SetVar[Timer]=[0] 
+Stroke when you see the green light #DT @ChangeVar[Timer]=[Timer]+[#Random(400,1200)]
+Stop stroking when you see a red light #DT @SetVar[Warning]=[0]
+NO cumming..  #DT
+NO edging.. #DT
+If you are about to edge just type "stop" #DT 
+@NotFlag(TeaseUpdate3) If you get close more than 3 times I'll have to punish you #DT
+@Flag(TeaseUpdate3) If you get close more than 5 times I'll have to punish you #DT
+@NullResponse @CountVar[Timer, down] @CustomMode(stop, Goto, Edge) @Goto(GreenLight,RedLight)
+(GreenLight)
+@SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\Stroking\Metronome\*.mp3] 
+@NullResponse @If[Timer]<=[0]Then(End) @Wait(#Random(1,7)) @Goto(RedLight,GreenLight)
+(RedLight)
+@SystemMessage <Font color="red">Red Light</Font> @ShowImage @PlayAudio[\GNMSounds\Stroking\NoSound.mp3] 
+@NullResponse @If[Timer]<=[0]Then(End) @Wait(#Random(1,7)) @Goto(RedLight,GreenLight)
+(Edge)
+@SystemMessage <Font color="red">Red Light</Font> @ShowImage @PlayAudio[\GNMSounds\Stroking\NoSound.mp3] @ChangeVar[Warning]=[Warning]+[1]
+@Variable[Warning]=[1] @SystemMessage <Font color="red">First Warning</Font> @ShowImage @Wait(#Random(20,40)) @Goto(GreenLight)
+@Flag(TeaseUpdate3) @Variable[Warning]=[2] @SystemMessage <Font color="red">Second Warning</Font> @ShowImage @Wait(#Random(20,40)) @Goto(GreenLight)
+@NotFlag(TeaseUpdate3) @Variable[Warning]=[2] @SystemMessage <Font color="red">Second and Final Warning</Font> @ShowImage @Wait(#Random(20,40)) @Goto(GreenLight)
+@Flag(TeaseUpdate3) @Variable[Warning]=[3] @SystemMessage <Font color="red">Third Warning</Font> @ShowImage @Wait(10) @Goto(Punishment)
+@NotFlag(TeaseUpdate3)@Variable[Warning]=[3] @SystemMessage <Font color="red">Punishment Initiating</Font> @ShowImage @Wait(10) @Goto(Punishment)
+@Flag(TeaseUpdate3) @Variable[Warning]=[4] @SystemMessage <Font color="red">Fourth and Final Warning</Font> @ShowImage @Wait(10) @Goto(Punishment)
+@Flag(TeaseUpdate3) @Variable[Warning]=[5] @SystemMessage <Font color="red">Punishment Initiating</Font> @ShowImage @Wait(10) @Goto(Punishment)
+@NullResponse @Goto(Punishment)
+(End)
+@NullResponse @CustomMode(ModeText, Normal)
+You survived the session! #DT
+Good job slave! #DT
+@End
+(Punishment)
+@NullResponse @CustomMode(ModeText, Normal)
+@SystemMessage <Font color="red">You have been awarded a number of punishment points</Font> @ShowImage[\GNMImages\BlackScreen.jpg] @ChangeVar[GNMPPoints]=[GNMPPoints]+[150]
+@SystemMessage <Font color="red">Reason: Weak Stamina</Font> @ShowImage[\GNMImages\BlackScreen.jpg]
+@End

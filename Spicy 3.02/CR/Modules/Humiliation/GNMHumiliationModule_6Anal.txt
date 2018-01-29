@@ -1,0 +1,200 @@
+#SlaveName #DT @CheckFlag(HumModule6First) @SetFlag(HumModule6First)
+@NullResponse @CallReturn(CR\End\AssTraining\AssIntro.txt)
+(HumModule6First)
+@RT(It's time to work that #GNMAss,Time to work on your #GNMAss,Let's have som fun with your #GNMAss) #DT
+@NullResponse @Flag(ToyEnema) @NotFlag(DailyEnema) @NullResponse @CallReturn(CR\End\AssTraining\AssEnemaIntro.txt)
+@RT(For today,Today..,Today) #DT
+(Select)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[100] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l,Sess1,Sess2,Sess3,Sess4)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[90] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l,Sess1,Sess2)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>=[30] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k,l)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[27] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j,k)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[24] @NullResponse @Goto(a,b,c,d,e,f,g,h,i,j)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[21] @NullResponse @Goto(a,b,c,d,e,f,g,h,i)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[18] @NullResponse @Goto(a,b,c,d,e,f,g,h)
+@Flag(HumiliationUpdate3) @Variable[AssLevel]>[15] @NullResponse @Goto(a,b,c,d,e,f,g)
+@Variable[AssLevel]>[13] @NullResponse @Goto(a,b,c,d,e,f)
+@Variable[AssLevel]>[10] @NullResponse @Goto(a,b,c,d,e)
+@Variable[AssLevel]>[7] @NullResponse @Goto(a,b,c,d)
+@Variable[AssLevel]>[5] @NullResponse @Goto(a,b,c)
+@Variable[AssLevel]<=[3] @NullResponse @Goto(a,b)
+(a) //Finger
+@RT(You'll simply use a finger,You only have to use your finger) #DT
+@RT(You might want to lube it up a little,You should probably use a bit of lube) #DT @Wait(10)
+#SlaveName #DT
+@RT(I want you to put your finger i your ass,Put that finger in your ass) #DT
+@RT(Enjoy it,You know you like it!) #DT @Wait(6)
+@RT(I want you to find your prostate,Locate your prostate) #DT @Wait(9)
+@RT(Move your fingertip in a circular motion,slowly start massaging your prostate) #DT @Wait(7)
+@RT(It should feel good,Enjoy the sensations) #GNMGrin #DT @Wait(5)
+@RT(Now I'm gonna put on a small slideshow,I'm gonna give you a slideshow) #DT @SetVar[SlideShow]=[0]
+You can either move your finger slowly in and out or massage your prostate #DT @ChangeVar[SlideShow]=[SlideShow]+[#Random(45,90)]
+Enjoy #DT @TempFlag(Busy)
+(SlideShow)
+@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]-[1] @If[SlideShow]<=[0]Then(End) @Wait(5) 
+@NullResponse @Goto(SlideShow)
+(b) //Cock slow
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+@RT(You'll probably want to lube it up a little,You might consider giving it some lube) #GNMEmoteHappy #DT
+Now!
+@RT(You're going to fuck yourself!,In a moment you'll start fucking yourself) #GNMLol #DT
+You will hear a beat just like when you're stroking #DT
+But this time you'll not be stroking your #GNMCock #DT
+Instead you'll be fucking yourself to the beat! #DT
+Enjoy! #DT @SetVar[Fucking]=[0] @TempFlag(Busy)
+(Fucking1)
+@NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\MetronomeFucking\Slow\*.mp3] @ChangeVar[Fucking]=[Fucking]+[1] @If[Fucking]>=[15]Then(End) @Wait(#Random(30,60))
+@NullResponse @Goto(Fucking1)
+(c) //Small plug
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(Select)
+@RT(You need a,You'll need your,You have to go and get a) small buttplug #DT
+@RT(This is an exercise for your sphincter muscle,We're going to give your sphincter muscle a workout) #DT
+@RT(In a moment,Soon) #DT
+@RT(You'll insert the buttplug,You must insert the buttplug) #DT
+@RT(You may use lube,You have my permission to use lube) #DT
+@RT(After that I want you to go to the corner,After which you are to go to the corner) #DT
+@RT(You may not use your hands to keep the plug in,You are not to use your hands to keep the plug in) #DT
+@RT(You have to stay in the corner,You must stay in the corner) until you hear my bell #DT
+Now.. #DT @TempFlag(Busy)
+Insert the plug and go to the corner hands above your head! #DT @Wait(#Random(180,240))
+Get back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @DeleteFlag(Busy)
+Go ahead and remove the plug #GNMGrin #DT
+You did well! #DT @Goto(End)
+(d) //Vibrator to scrotum
+@NotFlag(VibratorPlay) @NullResponse @Goto(Select)
+@RT(Go ahead and fetch your vibrator,Fetch your vibrator!) #DT
+@RT(Place it behind your scrotum,Put it behind your scrotum) #DT @Wait(10)
+It should be pushing against the space between your balls and asshole #DT
+@RT(Feel the vibrations,enjoy the vibrations) #DT @Wait(10)
+@RT(It's a great spot to place a vibrator while having some up your arse,It's a good spot while being penetrated) #GNMGrin #DT
+Close your eyes and try to find the best spot #DT
+When you feel like you have it, just relax for a moment #DT @TempFlag(Busy)
+You'll hear my bell when I want you to open them #GNMEmoteHappy #DT @Wait(#Random(120,240))
+Open your eyes #SlaveName #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @DeleteFlag(Busy)
+Hope you enjoyed that #GNMGrin #DT @Goto(End)
+(e) //Cock Medium
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+@RT(You'll probably want to lube it up a little,You might consider giving it some lube) #GNMEmoteHappy #DT
+Now! #DT
+@RT(You're going to fuck yourself!,In a moment you'll start fucking yourself) #GNMLol #DT
+You will hear a beat just like when you're stroking #DT
+But this time you'll not be stroking your #GNMCock #DT
+Instead you'll be fucking yourself to the beat! #DT
+Enjoy! #DT @SetVar[Fucking]=[0] @TempFlag(Busy)
+(Fucking2)
+@NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\MetronomeFucking\Medium\*.mp3] @ChangeVar[Fucking]=[Fucking]+[1] @If[Fucking]>=[15]Then(End) @Wait(#Random(30,60))
+@NullResponse @Goto(Fucking2)
+(f) //Medium plug
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(Select)
+@RT(You need a,You'll need your,You have to go and get a) medium buttplug #DT
+@RT(This is an exercise for your sphincter muscle,We're going to give your sphincter muscle a workout) #DT
+@RT(In a moment,Soon) #DT
+@RT(You'll insert the buttplug,You must insert the buttplug) #DT
+@RT(You may use lube,You have my permission to use lube) #DT
+@RT(After that I want you to go to the corner,After which you are to go to the corner) #DT
+@RT(You may not use your hands to keep the plug in,You are not to use your hands to keep the plug in) #DT
+@RT(You have to stay in the corner,You must stay in the corner) until you hear my bell #DT
+Now.. #DT
+Insert the plug and go to the corner hands above your head! #DT @TempFlag(Busy) @Wait(#Random(180,240))
+Get back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Go ahead and remove the plug #GNMGrin #DT @DeleteFlag(Busy)
+You did well! #DT @Goto(End)
+(g) //Cucumber/carrot
+Do you have a cucumber or carrot? #DT
+[yes]#GNMGood #DT #MeritChangePMedium
+[no]You should always have at least one of these close! #DT #MeritChangeNMedium @Goto(Select)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Fetch one,Go ahead and fetch one) #DT @Wait(30)
+#GNMLol #DT
+Lube up the veggie! #DT @Wait(15)
+You're going to fuck yourself with it.. #DT
+Enjoy #SlaveName #DT @SetVar[Fucking]=[0] @TempFlag(Busy)
+(Fucking4)
+@NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\MetronomeFucking\Medium\*.mp3] @ChangeVar[Fucking]=[Fucking]+[1] @If[Fucking]>=[15]Then(End) @Wait(#Random(30,60))
+@NullResponse @Goto(Fucking4)
+(h) //Chair fuck
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+I want you to secure it to a chair #DT
+You're going to be fucking that dildo, but it will be hands free! #DT @Wait(30)
+Are you ready to proceed? #DT
+[yes]#GNMGood #DT
+[no]Hurry up then! #DT @Wait(15) #MeritChangeNLow
+@DifferentAnswer #GNMYesOrNo #DT
+Now #GNMLol #DT
+I want you fucking yourself! #DT @SetVar[SlideShow]=[0]
+Enjoy! #DT @ChangeVar[SlideShow]=[SlideShow]+[#Random(45,90)] @TempFlag(Busy)
+(SlideShow2)
+@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]-[1] @If[SlideShow]<=[0]Then(End) @Wait(5) 
+@NullResponse @Goto(SlideShow2)
+(i) //Cock fast
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+@RT(You'll probably want to lube it up a little,You might consider giving it some lube) #GNMEmoteHappy #DT
+Now! #DT
+@RT(You're going to fuck yourself!,In a moment you'll start fucking yourself) #GNMLol #DT
+You will hear a beat just like when you're stroking #DT
+But this time you'll not be stroking your #GNMCock #DT
+Instead you'll be fucking yourself to the beat! #DT
+Enjoy! #DT @SetVar[Fucking]=[0] @TempFlag(Busy)
+(Fucking3)
+@NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\MetronomeFucking\Fast\*.mp3] @ChangeVar[Fucking]=[Fucking]+[1] @If[Fucking]>=[15]Then(End) @Wait(#Random(30,60))
+@NullResponse @Goto(Fucking3)
+(j) //Large plug
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(Select)
+@RT(You need a,You'll need your,You have to go and get a) medium and large buttplug #DT
+@RT(This is an exercise for your sphincter muscle,We're going to give your sphincter muscle a workout) #DT
+@RT(In a moment,Soon) #DT
+@RT(You'll insert the medium sized buttplug,You must insert the medium sized buttplug) #DT
+@RT(You may use lube,You have my permission to use lube) #DT
+@RT(After that I want you to go to the corner,After which you are to go to the corner) #DT
+@RT(You may not use your hands to keep the plug in,You are not to use your hands to keep the plug in) #DT
+@RT(You have to stay in the corner,You must stay in the corner) until you hear my bell #DT
+Now.. #DT
+Insert the plug and go to the corner hands above your head! #DT @Wait(#Random(180,240))
+Get back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Go ahead and remove the plug #GNMGrin #DT
+@RT(Next you are to insert the big buttplug,Next I want you to insert the large buttplug) #DT
+@RT(After that I want you to go to the corner,After which you are to go to the corner) #DT
+@RT(You may not use your hands to keep the plug in,You are not to use your hands to keep the plug in) #DT
+@RT(You have to stay in the corner,You must stay in the corner) until you hear my bell #DT
+Now.. #DT
+Insert the plug and go to the corner hands above your head! #DT @TempFlag(Busy) @Wait(#Random(180,240))
+Get back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+Go ahead and remove the plug #GNMGrin #DT @DeleteFlag(Busy)
+You did well! #DT @Goto(End)
+(k) //Wall fuck
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+@RT(I want you to mount that dildo to a wall,Mount it to a wall) #DT
+@RT(You're going to get down on all fours,You will get down on all fours) #DT
+@RT(And then you're going to fuck that dildo!,And then you will fuck that dildo!) #DT
+To the beat! #DT
+Enjoy! #DT @SetVar[Fucking]=[0] @TempFlag(Busy)
+(Fucking5)
+@NullResponse @ShowImage @PlayAudio[\GNMSounds\Stroking\MetronomeFucking\Slow\*.mp3] @ChangeVar[Fucking]=[Fucking]+[1] @If[Fucking]>=[15]Then(End) @Wait(#Random(30,60))
+@NullResponse @Goto(Fucking5)
+(l) //Squat on dildo
+@NotFlag(DildoPlay) @NullResponse @Goto(Select)
+@RT(You need a dildo,You need your dildo,You have to go and get your dildo) #DT @Wait(20)
+@RT(Secure the dildo to the floor,You must secure the dildo to the floor) #DT
+@RT(You're going to squat down on it,You will be squatting down on it) #DT
+@RT(I guess you could consider it an exercise,consider it exercise!) #GNMLol #DT @Wait(15)
+Is the dildo secured to the floor? #DT
+[yes]#GNMGood #DT
+[no]Hurry up then! #DT @Wait(15) #MeritChangeNLow
+@DifferentAnswer #GNMYesOrNo #DT
+Now go ahead and squat down on it! #DT
+You may not rise until the slideshow is over! #DT @SetVar[SlideShow]=[0] @TempFlag(Busy)
+(SlideShow3)
+@NullResponse @ShowImage @ChangeVar[SlideShow]=[SlideShow]+[1] @If[SlideShow]<=[15]Then(End) @Wait(5) 
+@NullResponse @Goto(SlideShow3)
+(Sess1) \\Extended session with progressive anal play
+(Sess2) \\Extended session with progressive anal play
+(Sess3) \\Extended session with progressive anal play
+(Sess4) \\Extended session with progressive anal play
+(End)
+@NullResponse @DeleteFlag(Busy)
+@End

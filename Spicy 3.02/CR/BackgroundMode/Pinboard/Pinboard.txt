@@ -1,0 +1,34 @@
+@NullResponse @CheckFlag(PinboardInstructionDone)
+@SystemMessage #VANC #VANP Welcome #SlaveName to your pinboard @SetFlag(PinboardInstructionDone)
+@SystemMessage #VANC #VANP #DomHonorific #DomName will pin all tasks, reminders and messages to this board
+@SystemMessage #VANC #VANP All of them are of high importance so don't forget to check it daily
+@SystemMessage #VANC #VANP Most of them are just reminders though 
+@SystemMessage #VANC #VANP In case of reminders your domme should've already told you about them during a session @Goto(Confused)
+(PinboardInstructionDone)
+@SystemMessage #VANC #VANP What do you want to do?
+[read,entries,notice,pin] @NullResponse @Goto(Read)
+[return,exit,leave,end] @NullResponse @Goto(End)
+@AcceptAnswer @NullResponse @Goto(Confused)
+(Read)
+@SystemMessage #VANC #VANP Okay, I am gonna read all the entries on the pinboard to you
+@NotFlag(DailyEnema) @NullResponse @Goto(EndRead)
+(DailyEnema)
+@NullResponse @CallReturn(CR\BackgroundMode\Pinboard\DailyEnema.txt)
+@SystemMessage #VANC #VANP @RT(Don't forget,Do,Remember) your daily #EnemaLitreAmount litre enema #SlaveName
+@Flag(PissEnema) @SystemMessage #VANC #VANP @RT(I decided to make you use,I want you to use,I think you should use) your own piss as the fluid today though #GNMEmoteHappy
+@Flag(PissEnema) @SystemMessage #VANC #VANP Use warm water to fill up the rest and to compensate any missing millilitre 
+@Flag(MilkEnema) @SystemMessage #VANC #VANP @RT(I decided to make you use,I want you to use,I think you should use) milk as the fluid today #GNMEmoteHappy
+@Flag(ColdEnema) @SystemMessage #VANC #VANP @RT(I decided to make you use,I want you to use,I think you should use) cold water today #GNMEmoteHappy
+@Flag(WarmEnema) @SystemMessage #VANC #VANP @RT(I decided to make you use,I want you to use,I think you should use) hot water today #GNMEmoteHappy
+@Flag(WarmEnema) @SystemMessage #VANC #VANP Make sure to stay safe and not burn yourself but it should be uncomfortable #SlaveName
+@Flag(NoEnemaCleanUp) @SystemMessage #VANC #VANP #InAddition you are not allowed to wash or clean your ass afterwards
+@Variable[HoldEnemaDuration]>[0] @SystemMessage #VANC #VANP Hold the enema for @ShowVar[HoldEnemaDuration] minutes before releasing it
+(EndRead)
+@SystemMessage #VANC #VANP That's all of the entries
+@NullResponse @Goto(PinboardInstructionDone)
+(Confused)
+@SystemMessage #VANC #VANP You have the following options:
+@SystemMessage #VANC #VANP Read all entries
+@SystemMessage #VANC #VANP Return to the main menu @Goto(PinboardInstructionDone)
+(End)
+@End

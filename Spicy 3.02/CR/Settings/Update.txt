@@ -1,0 +1,5 @@
+(Update)
+@SystemMessage #VANC #VANP You are up to date
+@SystemMessage #VANC #VANP CURRENT VERSION: 
+@SystemMessage #VANC #VANP *** Spicy Version 3.02 by Genome231 *** 
+@End

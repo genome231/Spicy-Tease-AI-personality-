@@ -1,0 +1,6 @@
+@Variable[EnemaLitreLevel]=[5] 30
+@Variable[EnemaLitreLevel]=[4] 25
+@Variable[EnemaLitreLevel]=[3] 20
+@Variable[EnemaLitreLevel]=[2] 15
+@Variable[EnemaLitreLevel]=[1]  10
+@Variable[EnemaLitreLevel]<=[0] 5

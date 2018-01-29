@@ -1,0 +1,11 @@
+[won't eat cum,will not eat cum,not eat cum,never eat cum,never eat my cum,i don't want to eat cum]
+[All]
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]<=[40] @NullResponse @CallReturn(CR\Responses\Rebel\R5e.txt)
+@Flag(Session) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Session,Busy) @NullResponse 
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]<=[40] @RT(Suck it up and get it over with,Just get it over with..) #DT
+@Flag(Academy) @Variable[#DateDifference(Speak, Seconds)]>[40] @RT(You need to ask permission before you speak,You have to ask permission before you talk,No talking without permission!) #DT #MeritChangeNLow
+@Flag(Academy,Busy) @NullResponse
+@Flag(Assistant) @NullResponse
+@Flag(Assistant,Busy) @NullResponse
+[All End]

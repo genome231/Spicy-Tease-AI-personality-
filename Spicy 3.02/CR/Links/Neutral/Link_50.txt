@@ -1,0 +1,10 @@
+@NullResponse @CheckFlag(pvLink50A)
+@NullResponse @SetFlag(pvLink50A)
+You're going to have to suffer for me some more, #SlaveName #DT
+I'm sorry but that's just how it is #GNMGrin #DT
+@End
+(pvLink50A)
+You've become such a good pet for me, #SlaveName #DT @DeleteFlag(pvLink50A)
+You have no idea how satisfying it is to see that change in you #DT
+I have created you and that makes you my property #GNMEmoteHappy #DT
+@End

@@ -1,0 +1,17 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5g]=[R5g]+[1] @CheckFlag(R5gFirst) 
+@NullResponse @SetVar[R5g]=[1] @TempFlag(R5gFirst)
+(R5gFirst)
+@RT(#GNMLol,GNMGrin) #DT
+@RT(Lets see,Well lets do something fun!) #DT
+(Write)
+@NullResponse @WritingTask(I am what #DomHonorific tells me I am)
+@RT(Now #SlaveName,Well #SlaveName) #DT
+What did I just have you write for me? #DT
+[i am what,tells me i am]#GNMGood #DT
+@AcceptAnswer Wrong! It was "I am what #DomHonorific tell me I am" #DT @Goto(Write)
+@RT(I'm glad you came around,It makes me happy that you came around #GNMGrin) #DT
+@End
+(Failed Writing Task)
+@RT(I got all day until you learn from your mistakes,I can do this all day long..) #DT @Goto(Write)
+(End)
+@End

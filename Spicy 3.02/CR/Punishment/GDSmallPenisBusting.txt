@@ -1,0 +1,73 @@
+@NullResponse @SetVar[CBTLoops]=[0] @RapidCodeOn @CheckFlag(ChastityIsOn)
+@NullResponse @Goto(1,2,3)
+(1)
+Grab my #GNMCock and squeeze it #DT @Wait(10)
+Squeeze the shaft @RT(as hard as you can, so hard that your eyes start to tear) until I tell you to release your grip @RT(#SlaveName,#Slut,#SubName) #DT
+@Flag(Personality1) @Wait(5)
+@Flag(Personality2) @Wait(10)
+@Flag(Personality3) @Wait(20)
+You can stop squeezing my #GNMCock now #SlaveName #DT 
+(2)
+I want you to to be ready to hit the #GNMCock of yours hard #SlaveName #DT @ChangeVar[TempHits]=[SubPain]+[0]
+(Loop)
+Hit it hard @ShowVar[TempHits] times #DT
+@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(45, Time)
+[done] #GNMGrin #DT @Goto(Continue2)
+@DifferentAnswer Are you trying to write 'done'? #DT
+(Time)
+@RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
+@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop)
+(Continue2)
+Hit it another @ShowVar[TempHits] times #SlaveName #DT @Timeout(45, Time)
+[done] #GNMGood #DT
+@DifferentAnswer Are you trying to write 'done'? #DT
+@Goto(End)
+(3)
+I want you to flick the head of your #GNMCock #SlaveName #DT @ChangeVar[TempHits]=[SubPain]*[2]
+(Loop2)
+Flick it @ShowVar[TempHits] times #DT
+@RT(Let me know when you're done,Inform me when you're done) #SlaveName #DT @Timeout(60, Time2)
+[done] #GNMGrin #DT @Goto(Continue3)
+@DifferentAnswer Are you trying to write 'done'? #DT
+(Time2)
+@RT(This is taking too long, You are taking way too much time, How is this taking so long?) #DT #MeritChangeNLow
+@RT(I guess we have to try this again, Let's try this again shall we?) #DT @Goto(Loop2)
+(Continue3)
+@RT(Is it throbbing yet, Does it hurt yet, Is it aching yet, Are you in pain, Is it hurting yet)? #DT
+[yes] #GNMGood #DT
+[no] I am sure I can do something about that #SlaveName #DT @Goto(1,3)
+@DifferentAnswer #GNMYesOrNo #DT
+@End
+(ChastityIsOn)
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+@End
+(End)
+@NullResponse @RapidCodeOn @ChangeVar[CBTLoops]=[CBTLoops]+[1]
+@NullResponse @ChangeVar[TempHits]=[SubPain]*[2]
+@NullResponse @CustomMode(done, Goto, End1) @Goto(a,b,c,d,e,f,g,h,i,j)
+(a)
+Let's give that #GNMCock another @ShowVar[TempHits] smacks #GNMEmoteHappy #DT @Wait(999999)
+(b)
+I want your #GNMCock to really hurt. Give it another hard slap #DT @Wait(999999)
+(c)
+Punch your #GNMCock @ShowVar[TempHits] times for me #DT @Wait(999999)
+(d)
+Now smack that #GNMCock @ShowVar[SubPain] times as hard as you can #DT @Wait(999999)
+(e)
+Smack that tip of your cock as hard as you can #DT @Wait(999999)
+(f)
+Give yourself @ShowVar[TempHits] good #GNMCock smacks #DT @Wait(999999)
+(g)
+Slap that #GNMCock @ShowVar[TempHits] times in a row #DT
+(h)
+@ShowVar[TempHits] more slaps #DT @Wait(999999)
+(i)
+I want @ShowVar[TempHits] more smacks #DT @Wait(999999)
+(j)
+Swat that #GNMCock with your palm @ShowVar[TempHits] times #DT #DT @Wait(999999)
+(End1)
+@NullResponse @RapidCodeOn @CustomMode(ModeText, Normal)
+@NullResponse @Variable[CBTLoops]>[4] @Goto(FinalEnd)
+@NullResponse @Chance65(End)
+(FinalEnd)
+@End

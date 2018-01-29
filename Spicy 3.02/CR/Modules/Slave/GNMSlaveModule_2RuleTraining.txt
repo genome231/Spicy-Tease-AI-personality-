@@ -1,0 +1,78 @@
+@NullResponse @CheckFlag(SlaveModule2) @SetFlag(SlaveModule2)
+The house rules are important @SetVar[RuleTraining]=[0] #DT
+They are so important you are expected to know them by heart! #DT 
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule1.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule2.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule3.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule4.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule5.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule6.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule7.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule8.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule9.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule10.jpg] @Wait(10)
+(SlaveModule2)
+Lets repeat the rules #DT @ChangeVar[RuleTraining]=[RuleTraining]+[1]
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule1.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule2.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule3.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule4.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule5.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule6.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule7.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule8.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule9.jpg] @Wait(10)
+@NullResponse @ShowImage[\GNMImages\HouseRules\HouseRule10.jpg] @Wait(10)
+@Flag(SlaveUpdate1) @Variable[RuleTraining]>=[35] @NullResponse @Chance20(b) @Goto(a)
+@Flag(SlaveUpdate1) @Variable[RuleTraining]<[35] @NullResponse @Goto(a)
+@Variable[RuleTraining]>=[35] @NullResponse @Goto(a)
+@Variable[RuleTraining]<[35] @NullResponse @Goto(a)
+(a) \\LineWriting
+@RT(Lets drill one of the rules into your skull!,Lets repeat a rule,I think some line writing might be effective..) #DT
+(a1)
+@NullResponse @WritingTask(#WritingTask2)
+@NullResponse @Goto(End)
+(Failed Writing Task)
+... #DT
+I can do this all day #SlaveName #DT #MeritChangeNMedium @Goto(a1)
+(b) \\Recite
+Quiet often you have been writing lines about the rules #DT
+Lets turn up the difficuilty just a little bit #GNMLol #DT
+You are to write all the different rules back to me #DT
+But there won't be any help! #DT
+A small test of sorts #DT
+Rule nr. 1? #DT
+[commands are laws and must be obeyed.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 2? #DT
+[the correct response to most things is "yes mistress."] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 3? #DT
+[when spanked for being naugthy, count.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 4? #DT
+[always say please and thank you.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 5? #DT
+[the proper position is on your knees.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 6? #DT
+[ask for permission before you come.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 7? #DT
+[remember who you belong to.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 8? #DT
+[swallow every single drop.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 9? #DT
+[wear your marks with pride.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Rule nr. 10? #DT
+[no sexual stimulation of the genitals without permission.] @RT(That is correct,Correct,Right,Right on,Correct,, good job,Yes that is correct,that is actually correct,Well that was correct,Right on!,Yes that is correct!) #DT
+@AcceptAnswer @RT(Wrong,Nope,Not correct,Incorrect,Wrong wrong wrong..,Wrong..,Thats very wrong..,Absolutely incorrect) #DT #MeritChangeNLow
+Well that was it #DT
+Never forget your house rules! #DT
+They will help you evoid punishment and help you earn rewards #DT @Goto(End)
+(End)
+@End

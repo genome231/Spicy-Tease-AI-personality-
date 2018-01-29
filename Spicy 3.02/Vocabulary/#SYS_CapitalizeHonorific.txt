@@ -1,0 +1,10 @@
+@Flag(Personality1) @Variable[ForgotCap]>=[3] @NullResponse @CallReturn(CR\Honorific\ForgotCap.txt)
+@Flag(Personality2) @Variable[ForgotCap]>=[2] @NullResponse @CallReturn(CR\Honorific\ForgotCap.txt)
+@Flag(Personality3) @Variable[ForgotCap]>=[1] @NullResponse @CallReturn(CR\Honorific\ForgotCap.txt)
+@Flag(DommeActive,Personality1) @Variable[ForgotCap]<[3] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(DommeActive,Personality2) @Variable[ForgotCap]<[2] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(DommeActive,Personality3) @Variable[ForgotCap]<[1] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(Glitter1Active) @Variable[ForgotCap]<[4] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(Glitter2Active) @Variable[ForgotCap]<[3] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(Glitter3Active) @Variable[ForgotCap]<[2] @RT(Remember your manners,don't forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT @ChangeVar[ForgotCap]=[ForgotCap]+[1]
+@Flag(Assistant) @NullResponse

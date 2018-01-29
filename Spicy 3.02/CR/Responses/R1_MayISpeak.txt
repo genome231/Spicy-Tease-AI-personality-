@@ -1,0 +1,27 @@
+@Flag(Busy) @NullResponse @Goto(Denied2)
+@Flag(MaySpeakFake) @NullResponse @Goto(Denied2)
+@Variable[#DateDifference(Spoken, Minutes)]>=[5] @NullResponse @Goto(Next)
+@Variable[#DateDifference(Spoken, Minutes)]<[5] @RT(I just gave you permission,You just had permission,Not right now,Not at this moment,Not so soon again,Not already again) #SlaveName #MeritChangeNLow #DT 
+@End
+(Next)
+@Flag(VAnnoyed) @Variable[Happy]>=[25] @NullResponse @Chance70(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)         
+@Flag(VAnnoyed) @Variable[Happy]<[25] @NullResponse @Chance50(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)   
+@Flag(Annoyed) @Variable[Happy]>=[23] @NullResponse @Chance75(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied) 
+@Flag(Annoyed) @Variable[Happy]<[23] @NullResponse @Chance55(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)  
+@Flag(Neutral) @Variable[Happy]>=[21] @NullResponse @Chance80(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied) 
+@Flag(Neutral) @Variable[Happy]<[21] @NullResponse @Chance60(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)  
+@Flag(Pleased) @Variable[Happy]>=[19] @NullResponse @Chance90(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied) 
+@Flag(Pleased) @Variable[Happy]<[19] @NullResponse @Chance70(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)  
+@Flag(VPleased) @Variable[Happy]>=[18] @NullResponse @SetDate(Spoken, 0 Minutes) @Goto(Granted) 
+@Flag(VPleased) @Variable[Happy]<[18] @NullResponse @Chance90(Granted) @SetDate(Spoken, 0 Minutes) @Goto(Denied)  
+(Granted)
+@RT(Yes you may speak,Permission granted,Permission granted,Permission granted,Permission granted,Yes. Speak.,Go ahead,Yes go ahead,Speak) #DT @SetDate(Speak, 0 Seconds)
+@End
+(Denied)
+@RT(Permission denied,No you may not,No,Absolutely not,Nope,Not right now,No not right now,Later maybe,Later perhaps,Permission denied,Permission denied,Permission denied) #DT
+@End
+(Denied2)
+@RT(Permission denied,No you may not,No,Absolutely not,Nope,Not right now,No not right now,Later maybe,Later perhaps,Permission denied,Permission denied,Permission denied) #DT #MeritChangeNLow @DeleteFlag(MaySpeakFake)
+@End
+(End)
+@End

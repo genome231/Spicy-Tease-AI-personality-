@@ -1,0 +1,57 @@
+@NullResponse @CheckFlag(pvLink21A)
+Think about cumming for a moment #DT @SetFlag(pvLink21A)
+It's an amazing feeling, sure #DT
+I have amazing orgasms all the time, so believe me, I know #GNMSexy #DT
+But you know that after that short moment of bliss... #DT
+You feel empty #DT
+And you might find that it's not just the arousal you miss #DT
+Because when that arousal is gone #DT
+Much of your obedience to me is gone as well #DT
+That's what you really miss #DT
+Come to think of it... #DT
+Maybe you should never ever have an orgasm again #DT
+That way you'll always feel blissfully aroused #DT
+And deeply obedient to me #GNMEmoteHappy
+Think about that #SlaveName #DT
+In your heart you know what it is you <i>really</i> want... #DT
+@End
+(pvLink21A)
+My poor #SlaveName #DT @DeleteFlag(pvLink21A)
+The things you do for me... #DT
+It's pretty incredible once you stop to think about it #DT
+I make you suffer and somehow that gives you pleasure #DT
+I make you ache and you just ask for more... #DT
+Do you want to ache more, #SlaveName? #DT
+[yes] Yes, you do #GNMEmoteHappy #DT
+[no] Oh really... @Goto(oh really) #DT
+@DifferentAnswer #GNMYesOrNo
+You always want to ache more #MeritChangePLow #DT
+@End
+(oh really)
+That's not the answer I wanted from you, #SlaveName #DT #MeritChangeNLow
+But you knew that didn't you? #DT
+Maybe you wanted to see what happens when you talk back to me #DT
+Is that it? #DT
+[yes] So you're testing me... #DT #MeritChangeNHigh
+[no] Well, you're going to find out anyway #DT
+@DifferentAnswer #GNMYesOrNo
+What do you think happens now, that I will punish you? #DT
+[yes] You're right about that, #SlaveName #DT
+[no] I <i>am</i> going to punish you, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+(what you wanted)
+But maybe it's what you wanted all along #DT
+Because I'm going to punish you by making you ache even more #DT
+And the more I make you suffer, the better you feel #DT
+#GNMEdge #DT @EdgeHold
+#GNMLetTheEdgeFade #DT 
+Maybe you think holding an edge isn't much of a punishment #DT
+Let's see how you feel about five more... #DT @SetVar[EdgesToDo]=[5]
+(edge)
+@NullResponse @If[EdgesToDo]<=[0]Then(End)
+#GNMEdge #DT @Edge
+#GNMLetTheEdgeFade #DT @Wait(#Random(3,10)) @ChangeVar[EdgesToDo]=[EdgesToDo]-[1] @Goto(edge)
+(End)
+And don't think you'll get much time to recuperate, #SlaveName #DT
+@End

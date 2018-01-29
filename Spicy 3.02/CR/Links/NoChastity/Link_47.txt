@@ -1,0 +1,42 @@
+@NullResponse @CheckFlag(pvLink47A)
+@NullResponse @SetFlag(pvLink47A)
+Do you @RT(enjoy,like) @RT(suffering for,being tormented by,aching for) me #SlaveName? #DT
+[no] @RT(Aww,Oh,I see,Well,Hm,Ah)... #DT @Goto(But I Like It)
+[yes] I'm @RT(happy,glad) @RT(you feel that way,to hear that)  #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Because I was @RT(kind of,actually,almost) @RT(about to start feeling,starting to feel) @RT(bad,sorry) for you #DT
+But @RT(now I know,clearly,I guess,it seems) I don't have to #GNMGrin #DT @Goto(Start Stroking) 
+(But I Like It)
+But I @RT(love,like,enjoy) making you suffer @RT(a lot,so much,more than anything) #DT #GNMGrin
+And since you know it @RT(turns me on,pleases me) so much... #DT
+And I know you want to make me happy... #DT
+You can take it for me, right? #DT
+[no, can't, don't think, don't know] @RT(This might be a little fucked up,this might sound crazy)... #DT
+[yes,can,try,best] That makes me so happy, #SlaveName #GNMEmoteHappy #DT @Goto(Start Stroking)
+@DifferentAnswer Can you take it, yes or no? #DT
+But that turns me on even more @RT(somehow,for some reason) #DT #GNMGrin
+(Start Stroking)
+@NullResponse
+@End
+(pvLink47A)
+I love that you don't know what @RT(I will do,will happen) next #DT @DeleteFlag(pvLink47A)
+That you're just sitting there now, waiting... #DT @Wait(12)
+Is your #GNMCock still hard? #DT
+[yes] Good #DT
+[no] Not having enough fun hm...? #GNMLol #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Now... #DT
+You're probably expecting a <i>start stroking</i> command from me #DT
+It's coming, #SlaveName, don't worry #DT
+But in the meantime... anything could happen #DT
+Does that scare you a little bit? #DT
+[yes] I love it when you're a little scared #GNMEmoteHappy #DT
+[no] Maybe you feel like you know me too well already... #DT
+@DifferentAnswer #GNMYesOrNo #DT
+You're probably @RT(expecting me to,thinking I will) do something cruel #DT @Chance50(this time she will)
+Not this time, #SlaveName #DT
+@End
+(this time she will)
+Maybe I should... #DT #GNMGrin @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
+That's so much fun to do #GNMLol #DT
+@End

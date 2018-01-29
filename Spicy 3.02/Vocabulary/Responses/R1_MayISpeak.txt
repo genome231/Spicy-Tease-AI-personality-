@@ -1,0 +1,5 @@
+[permission to talk please,permission to speak please,may i talk please,may i speak please,can i please speak,can i please talk,may i please ask something,may i please say something]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R1_MayISpeak.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

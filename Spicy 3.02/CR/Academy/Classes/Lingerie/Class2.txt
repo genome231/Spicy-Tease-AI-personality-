@@ -1,0 +1,9 @@
+I have a short video to show you #GNMEmoteHappy #DT
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\Class7\*.mp4]
+Now Slaves #DT
+I want you to study Corselet, Corsage, French maid outfits, garterbelts and Kimono's #DT
+You may use the lingerie guide, google or whatever you like #DT
+You may begin studying #DT
+Return when you hear the bell #DT @Wait(#Random(180,300))
+@RT(Come back,Return to me,Hurry back) #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@End

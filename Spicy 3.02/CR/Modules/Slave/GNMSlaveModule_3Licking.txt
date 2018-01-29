@@ -1,0 +1,107 @@
+@NullResponse @CheckFlag(SlaveModule3First) @SetFlag(SlaveModule3First)
+Lets get on with some pussy licking! #DT
+This is your first time so we better do a quick runthrough #DT
+If you have a fake pussy or something else that can be used I recommend using that #DT
+You can choose to simply lick the air #DT
+Or maybe you could even use a pair of dirty shoes #GNMGrin #DT
+Now pay attention! #DT
+It's rather simple #DT
+First we have 3 different colors #DT
+Red means that you are to move your tounge fast @ShowImage[\GNMImages\Modules\LickExercises\Down\DownFast.jpg] @Wait(5)
+Yellow means a medium steady pace @ShowImage[\GNMImages\Modules\LickExercises\Down\DownMedium.jpg] @Wait(5)
+Green means slow and sensual @ShowImage[\GNMImages\Modules\LickExercises\Down\DownSlow.jpg] @Wait(5)
+Arrow up means to lick "up" the pussy @ShowImage[\GNMImages\Modules\LickExercises\Up\*.jpg] @Wait(5)
+Then there is ofcourse down @ShowImage[\GNMImages\Modules\LickExercises\Down\*.jpg] @Wait(5)
+Left @ShowImage[\GNMImages\Modules\LickExercises\Left\*.jpg] @Wait(5)
+And right @ShowImage[\GNMImages\Modules\LickExercises\Right\*.jpg] @Wait(5)
+Then we have circular right @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\*.jpg] @Wait(5)
+Which means moving your tounge in circular motion right @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\*.jpg] @Wait(5)
+And the opposite left @ShowImage[\GNMImages\Modules\LickExercises\CircleLeft\*.jpg] @Wait(5)
+Finaly we have the alphabet @ShowImage[\GNMImages\Modules\LickExercises\ABC\*.jpg] @Wait(5)
+When you see this sign you simply lick the alphabet starting with a, b, c etc. until the sign changes @ShowImage[\GNMImages\Modules\LickExercises\ABC\*.jpg] @Wait(5)
+There is nothing more to it #DT
+So lets start! #GNMGrin #DT @Goto(Start1)
+(SlaveModule3First) //Implement to lick shoes or similar
+It's time to train your ability to lick pussy #SlaveName #DT
+@RT(It's the biggest reward a slave can earn,I can't imagine a better reward for a slave,The ultimate reward) #DT
+@RT(So you better not suck at it,So it's best to not suck at it,So you better not be completely awful!) #DT
+@RT(Or it might become extremely rare,Or who knows how often you be given it #GNMLol,Or it might happen rarely #GNMGrin) #DT
+A quick repetition #DT
+Red = fast, Yellow = medium, Green = Slow #DT
+There is up, down, left and right #DT
+There is circle right and circle left #DT
+And finally we have lick the alphabet #DT @Goto(Start1)
+(Start1)
+@NullResponse @SetVar[TimerLimit]=[0]
+@Flag(VPleased) @NullResponse @ChangeVar[TimerLimit]=[TimerLimit]+[#Random(100,120)]
+@Flag(Pleased) @NullResponse @ChangeVar[TimerLimit]=[TimerLimit]+[#Random(80,100)]
+@Flag(Neutral) @NullResponse @ChangeVar[TimerLimit]=[TimerLimit]+[#Random(60,80)]
+@Flag(Annoyed) @NullResponse @ChangeVar[TimerLimit]=[TimerLimit]+[#Random(30,50)]
+@Flag(VAnnoyed) @NullResponse @ChangeVar[TimerLimit]=[TimerLimit]+[#Random(20,40)]
+@NullResponse @SetVar[Timer]=[0]
+@Flag(SlaveUpdate2) @NullResponse @Goto(Start3)
+(Start2)
+@NullResponse @ChangeVar[Timer]=[Timer]+[1] @If[TimerLimit]<=[Timer]Then(End) @Goto(1,2,3,4,5,6,7)
+(1)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Up\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(2)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Down\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(3)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Left\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(4)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Right\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(5)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(6)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleLeft\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(7)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\ABC\*.jpg] @Wait(#Random(2,9)) @Goto(Start2)
+(Start3)
+@NullResponse @ChangeVar[Timer]=[Timer]+[1] @If[TimerLimit]<=[Timer]Then(End) @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21)
+(a1)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Up\UpSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a2)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Up\UpMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a3)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Up\UpFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a4)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Down\DownSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a5)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Down\DownMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a6)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Down\DownFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a7)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Right\RightArrowSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a8)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Right\RightArrowMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a9)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Right\RightArrowFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a10)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Left\LeftArrowSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a11)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Left\LeftArrowMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a12)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\Left\LeftArrowFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastSimple\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a13)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleLeft\CircleLeftSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a14)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleLeft\CircleLeftMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a15)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleLeft\CircleLeftFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a16)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\CircleRightSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a17)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\CircleRightMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a18)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\CircleRight\CircleRightFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastCircle\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a19)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\ABC\ABCSlow.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\SlowABC\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a20)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\ABC\ABCMedium.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\MediumABC\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(a21)
+@NullResponse @ShowImage[\GNMImages\Modules\LickExercises\ABC\ABCFast.jpg] @PlayAudio[\GNMSounds\Stroking\MetronomeLick\FastABC\*.mp3] @Wait(#Random(2,9)) @Goto(Start3)
+(End)
+Stop! #DT @PlayAudio[\GNMSounds\NoSound.mp3]
+I hope your tounge isn't too sore #GNMGrin #DT
+Practice makes perfect, remember that #DT
+@End

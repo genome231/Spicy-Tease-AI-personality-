@@ -1,0 +1,10 @@
+@NullResponse @RapidCodeOn
+@Flag(Assistant,Busy) @NullResponse @Goto(End)
+@NullResponse @SetFlag(Assistant)
+@NullResponse @SetFlag(Busy)
+@NullResponse @DeleteFlag(Academy)
+@NullResponse @DeleteFlag(Session)
+@NullResponse @DeleteFlag(Ready)
+(End)
+@NullResponse @RapidCodeOff
+@End

@@ -1,0 +1,22 @@
+@NullResponse @RapidCodeOn @ChangeVar[R3a]=[R3a]+[1] @CheckFlag(R3aFirst) 
+@NullResponse @SetVar[R3a]=[1] @TempFlag(R3aFirst)
+(R3aFirst)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@Variable[Angry]>=[Happy] 
+@Variable[Angry]<[Happy] 
+(Neutral)
+@Variable[Angry]>=[Lust] 
+@Variable[Angry]<[Lust] 
+(Pleased)
+(VPleased)
+@Variable[Angry]<[Happy] 
+@Variable[Angry]>=[Happy]
+(End)
+@End

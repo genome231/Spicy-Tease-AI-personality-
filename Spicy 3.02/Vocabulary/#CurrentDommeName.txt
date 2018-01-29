@@ -1,0 +1,4 @@
+@Flag(Glitter1Active) #Contact1
+@Flag(Glitter2Active) #Contact2
+@Flag(Glitter3Active) #Contact3
+@NotFlag(Glitter1Active,Glitter2Active,Glitter3Active) #DomName

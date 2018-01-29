@@ -1,0 +1,9 @@
+@NullResponse @RapidCodeOn @SetVar[TrainingModeSessionsToGo]=[0]
+@Flag(TMSmall) @NullResponse @ChangeVar[TrainingModeSessionsToGo]=[TrainingModeSessionsToGo]+[#Random(3,6)]
+@Flag(TMMedium) @NullResponse @ChangeVar[TrainingModeSessionsToGo]=[TrainingModeSessionsToGo]+[#Random(7,10)]
+@Flag(TMHigh) @NullResponse @ChangeVar[TrainingModeSessionsToGo]=[TrainingModeSessionsToGo]+[#Random(11,15)]
+@Flag(TMSmall) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,3)]
+@Flag(TMMedium) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,5)]
+@Flag(TMHigh) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,7)]
+@NullResponse @SetDate(TMDays, 0 Days)
+@End

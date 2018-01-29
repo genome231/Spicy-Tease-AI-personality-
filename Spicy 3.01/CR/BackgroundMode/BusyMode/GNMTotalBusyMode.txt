@@ -1,7 +1,0 @@
-@SystemMessage #VANC #VANP This is total sleep mode
-@SystemMessage #VANC #VANP Write 'exit' when you wish to return to tease @CustomMode(exit, Goto, End)
-(SlideShow)
-@NullResponse @ShowImage @Wait(20) @Goto(SlideShow)
-(End)
-@NullResponse @RapidCodeOn @CustomMode(ModeText, Normal)
-@NullResponse @Interrupt(GNMBackgroundBase)

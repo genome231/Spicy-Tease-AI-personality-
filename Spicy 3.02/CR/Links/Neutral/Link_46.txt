@@ -1,0 +1,11 @@
+@NullResponse @CheckFlag(pvLink46A)
+Is your #GNMCock throbbing for me? #DT @SetFlag(pvLink46A)
+[yes] It's not throbbing enough, #SlaveName #DT
+[no] Then let's make sure it is, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo
+I want more from you and from that toy between your legs #DT
+More throbbing, more aching, more precum leaking madness #DT
+@End
+(pvLink46A)
+@NullResponse @DeleteFlag(pvLink46A)
+@End

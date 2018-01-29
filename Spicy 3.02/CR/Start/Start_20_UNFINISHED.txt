@@ -1,0 +1,47 @@
+I bet you're aching to start #JerkingOff again #DT
+But you have to wait for my permission #DT
+Don't start #JerkingOff yet, #SlaveName @CheckFlag(pvWaxNo)
+@NullResponse @CheckFlag(pvStart20A)
+@NullResponse @SetFlag(pvStart20A)
+(pvWaxNo)
+Maybe I'm going to make you wait a long time #GeneralTime
+We could just talk and let the minutes pass
+Just chit chatting about whatever while you're sitting there with your raging boner #Lol
+And all the time you're thinking, when do I finally get to #JerkOff?
+And then, at last...
+Sorry, time's up, I gotta go #Laugh
+But you know what?
+I can never let a good hard erection go to waste
+It might be an addiction me me as much as it is for you, #SubName
+@End
+(pvStart20A)
+@NullResponse @CheckFlag(pvWaxYes)
+I want to ask you something first @DeleteFlag(pvStart20A)
+You know I love torturing your poor #Cock and #Balls
+And I love trying new ways of doing it
+So...
+Would you like to do wax play?
+[yes] Awesome! #EmoteHappy @SetFlag(pvWaxYes)
+[no] Aww too bad #EmoteSad @Goto(no wax)
+[what,don't know,explain,how,you mean,understand,not sure] You know, pour molten wax from a burning candle on your skin, would you do that? @LoopAnswer
+@DifferentAnswer #YesOrNo
+That's so hot, pun intended #EmoteWink @MoodUp
+(pvWaxYes)
+I want you to go light a candle, #PetName @DeleteFlag(pvStart20A)
+Preferably a think one, so there's going to me a lot of molten wax on top #Grin
+Do you have one?
+[yes] #EmoteHappy
+[no] Hmm... @Goto(not today)
+@DifferentAnswer #YesOrNo
+Alright, go light it then
+Let me know when you're ready
+[ready,done,finished] Good
+@DifferentAnswer Let me know when you're ready
+Just let it burn for now, #SlaveName @TempFlag(pvCandleBurning)
+@End
+(no wax)
+It's okay though, that's not everyone's cup of tea @MoodDown @SetFlag(pvWaxNo)
+@End
+(not today)
+Make sure you have one ready from now on, #PetName @MoodDown
+@End

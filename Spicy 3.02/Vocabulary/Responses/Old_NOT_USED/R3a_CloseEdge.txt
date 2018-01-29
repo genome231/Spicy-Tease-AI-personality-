@@ -1,0 +1,6 @@
+[close to edge,close to the edge,close,nearly edging,almost edging,i'm close,i'm very close,near the brink]
+[Stroking]
+(NoStrokeEdge) @RT(Carefull,Try to calm yourself,Try to relax,Relax your mind) #DT
+(MaybeStrokeEdge) @RT(Carefull,Try to calm yourself,Try to relax,Relax your mind) #DT
+(YesStrokeEdge) @RT(Carefull,Try to calm yourself,Try to relax,Relax your mind) #DT
+[Stroking End]

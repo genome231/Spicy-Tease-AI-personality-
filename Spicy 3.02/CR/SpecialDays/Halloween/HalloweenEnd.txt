@@ -1,0 +1,54 @@
+@Variable[HBoss]>=[5] You made it all the way through! #DT @Goto(5Win)
+@Variable[HBoss]>=[4] 4 out of 5 bosses! #DT @Goto(4Win)
+@Variable[HBoss]>=[3] 3 out of 5 bosses is okay I suppose.. #DT @Goto(3Win)
+@Variable[HBoss]>=[2] You only defeated two bosses.. #DT @Goto(2Win)
+@Variable[HBoss]>=[1] 1 Boss is all you could defeat #DT @Goto(1Win)
+@Variable[HBoss]>=[0] Well dead on the first boss #DT @Goto(0Win)
+(5Win)
+I'm impressed #SlaveName #DT
+Not many have made it all the way through! #DT 
+You've definetly earned a reward! #DT
+A big one too #DT
+I just transfered 1000 gold to you! #DT @ChangeVar[GNMGold]=[GNMGold]+[1000]
+Congratulations! #DT
+@NullResponse @Interrupt(GNMBackgroundBase)
+(4Win)
+4 wins is actually rather impressive slave.. #DT 
+It's not 5 wins, so let me tell you what #DT 
+I'm sending you gold #DT 
+But also giving you punishment points #GNMGrin #DT @ChangeVar[GNMGold]=[GNMGold]+[750]
+It is Halloween afterall #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]
+It's suppose to be scary #GNMGrin #DT 
+@NullResponse @Interrupt(GNMBackgroundBase)
+(3Win)
+3 wins <i>is</i> something #DT 
+It's not 5 wins, so let me tell you what #DT 
+I'm sending you gold #DT 
+But also giving you punishment points #GNMGrin #DT @ChangeVar[GNMGold]=[GNMGold]+[500]
+It is Halloween afterall #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+It's suppose to be scary #GNMLol #DT 
+@NullResponse @Interrupt(GNMBackgroundBase)
+(2Win)
+2 wins.. #DT 
+Not sure what to think about it.. #DT 
+I'm sending you <i>some</i> gold #DT 
+But also giving you punishment points #GNMGrin #DT @ChangeVar[GNMGold]=[GNMGold]+[250]
+It is Halloween afterall #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[400]
+It's suppose to be scary #GNMLol #DT 
+@NullResponse @Interrupt(GNMBackgroundBase)
+(1Win)
+1 win #DT 
+Pathetic.. #DT 
+To honor the spirit of Halloween
+I'm giving you punishment points #GNMGrin #DT
+It is Halloween afterall #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[500]
+It's suppose to be scary #GNMLol #DT 
+@NullResponse @Interrupt(GNMBackgroundBase)
+(0Win)
+0 wins #DT 
+Super pathetic.. #DT 
+To honor the spirit of Halloween
+I'm giving you a lot of punishment points! #GNMGrin #DT
+It is Halloween afterall #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[650]
+It's suppose to be scary #GNMLol #DT 
+@NullResponse @Interrupt(GNMBackgroundBase)

@@ -1,0 +1,1 @@
+gag @ShowImage[GNMImages\Toys\Gag.jpg]

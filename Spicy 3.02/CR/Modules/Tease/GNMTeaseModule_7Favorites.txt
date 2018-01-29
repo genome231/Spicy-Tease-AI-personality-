@@ -1,0 +1,108 @@
+@NullResponse @CheckFlag(TeaseModule7)
+@NullResponse @SetFlag(TeaseModule7)
+Slave I have a new game for us #GNMGrin #DT
+First though #DT
+You have a bit of legwork to do #DT
+Inside GNMImages you'll find 2 folders #DT
+FavoriteModels #DT
+And #DT
+FavoritePictures #DT
+Also inside GNM_Videos you'll find this folder: #DT
+FavoriteMovies #DT
+I want you to fill these folders #DT
+Not right now #DT
+But before our next session #DT
+FavoriteModels has 10 subfolders which each needs to contain pictures of the same model you really like #DT
+So choose 10 different models and place them inside the folders #DT
+Do not rename the folders. #DT
+FavoritePictures is just 1 folder #DT
+I want this folder filled with at least 50 pictures that absolutely drive you crazy! #DT
+Pictures that gives you an instant hard on whenever you see them #GNMGrin #DT
+Oh and make sure that all the images are jpg's..
+FavoriteMovies is basicly the same, it needs to contain videos that drive you insane with lust #GNMGrin #DT
+Also they can only be mp4! #DT
+Well that is for you to do after this session! #DT
+@End
+(TeaseModule7)
+@RT(Lets work on that #GNMCock a bit more #GNMGrin,Lets see if I can drive that #GNMCock mad! #GNMLol) #DT
+@Flag(TeaseUpdate4) @NullResponse @Goto(FavoriteModels,FavoriteMovies,FavoritePictures)
+@NullResponse @Goto(FavoriteModels,FavoriteMovies)
+(FavoriteModels)
+@RT(It's actually rather simple,This is a simple but hard task #GNMEmoteHappy) #DT @SetVar[TeaseModule7]=[0]
+@RT(I'm gonna cycle through some of your models and their images,I'm gonna look through your model images)  #DT
+@Flag(Personality2) @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(2,4)]
+@Flag(Personality2) @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(8,12)]
+@Variable[SubEndurance]>=[9] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(11,26)] @Goto(Game1)
+@Variable[SubEndurance]>=[7] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(9,22)] @Goto(Game1)
+@Variable[SubEndurance]>=[5] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(7,18)] @Goto(Game1)
+@Variable[SubEndurance]>=[3] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(5,14)] @Goto(Game1)
+@Variable[SubEndurance]>=[1] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(3,10)] @Goto(Game1)
+(Game1)
+@RT(When I find a picture I like,As soon as I find a picture I like) #DT
+@RT(I'm gonna stop and have you edge to it,You're going to give it an edge!) #DT
+@RT(We're gonna continue with this until I'm happy #GNMGrin,We'll continue to do this until I think you've had enough!) #DT @LockImages
+(Cycle)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\1\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\2\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\3\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\4\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\5\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\6\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\7\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\8\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\9\*.jpg] @Chance10(Edge1)
+@NullResponse @ShowImage[\GNMImages\FavoriteModels\10\*.jpg] @Chance10(Edge1) @Goto(Cycle)
+(Edge1)
+@RT(This one!,This should do,This will do perfectly!,This should do the trick!,I want this one!,This is good!,This one,This one,This one)
+#GNMEdge @Edge
+#GNMLetTheEdgeFade @Wait(#Random(5,20))
+@NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]-[1]
+@NullResponse @If[TeaseModule7]<=[0]Then(End)
+@NullResponse @Goto(Cycle)
+(FavoriteMovies)
+@RT(This is gonna be good!,I have just the right thing!,I've got the perfect idea) #DT @Goto(Movie1,Movie2,Movie3)
+(Movie1)
+I'm gonna show you a video #DT
+And all you'll be doing is sitting on those hands #GNMLol #DT
+Enjoy! #DT @Goto(MovieX)
+(Movie2)
+I'm gonna show you a video #DT
+And you may stroke however you like #DT
+But don't edge or anything #DT
+I don't wanna any accidents! #DT
+Enjoy!  #DT @Goto(MovieX)
+(Movie3)
+I want you to stroke #DT
+But you may only stroke the shaft #DT
+I want that cockhead of yours to be untouched through the full movie! #DT
+Enjoy! #DT @Goto(MovieX)
+(MovieX)
+@NullResponse @PlayVideo[\GNM_Videos\FavoriteMovies\*.mp4]
+@NullResponse @Goto(End)
+(FavoritePictures)
+@RT(It's actually rather simple,This is a simple but hard task #GNMEmoteHappy) #DT @SetVar[TeaseModule7]=[0]
+@RT(I'm gonna cycle through some of your favorite picutures,I'm gonna look through your favorite images) #DT
+@Flag(Personality2) @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(2,4)]
+@Flag(Personality2) @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(8,12)]
+@Variable[SubEndurance]>=[9] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(11,26)] @Goto(Game2)
+@Variable[SubEndurance]>=[7] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(9,22)] @Goto(Game2)
+@Variable[SubEndurance]>=[5] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(7,18)] @Goto(Game2)
+@Variable[SubEndurance]>=[3] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(5,14)] @Goto(Game2)
+@Variable[SubEndurance]>=[1] @NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]+[#Random(3,10)] @Goto(Game2)
+(Game2)
+@RT(When I find a picture I like,As soon as I find a picture I like) #DT
+@RT(I'm gonna stop and have you edge to it,You're going to give it an edge!) #DT
+@RT(We're gonna continue with this until I'm happy #GNMGrin,We'll continue to do this until I think you've had enough!) #DT @LockImages
+(Cycle2)
+@NullResponse @ShowImage[\GNMImages\FavoritePictures\*.jpg] @Chance15(Edge2) @Goto(Cycle2)
+(Edge2)
+@RT(This one!,This should do,This will do perfectly!,This should do the trick!,I want this one!,This is good!,This one,This one,This one)
+#GNMEdge @Edge
+#GNMLetTheEdgeFade @Wait(#Random(5,20))
+@NullResponse @ChangeVar[TeaseModule7]=[TeaseModule7]-[1]
+@NullResponse @If[TeaseModule7]<=[0]Then(End)
+@NullResponse @Goto(Cycle2)
+(End)
+Lets put this game to an end #GNMGrin @UnlockImages #DT
+I'm sure your cock will appreciate that! #GNMLol #DT
+@End

@@ -1,0 +1,9 @@
+(CM3) //watch a single picture of cuckolding
+@RT(Well I suppose owe you something?,Well I do owe you a little treat,You might deserve a small treat..) #DT
+@RT(Since I'm not letting you cum,Because I'm denying you release,Since you won't be releasing any tension today) #DT
+@RT(Rejoice in the sight of someone else getting what you're not!,Then I'm gonna show you you're not alone,Then I have a great photo to show you!) #DT
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @Wait(5)
+@RT(I bet that makes you a little happy,I bet that makes you smile #SlaveName) #GNMLol #DT
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

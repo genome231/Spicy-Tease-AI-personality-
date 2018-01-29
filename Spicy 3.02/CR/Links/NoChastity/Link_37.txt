@@ -1,0 +1,21 @@
+@NullResponse @CheckFlag(pvLink37A)
+Hold on a minute, I've got to take a call #DT @SetFlag(pvLink37A) @AFKOn
+Here, watch a video in the meantime... but NO stroking #GNMEmoteHappy #DT @PlayVideo(#Random(40,120)) @JumpVideo
+I'm back! #DT
+I hope you enjoyed the video #DT @AFKOff
+And I hope you enjoyed <i>not</i> stroking to it #DT #GNMLol
+@End
+(pvLink37A)
+@NullResponse @PlayVideo(#Random(12,25)) @JumpVideo
+Do you like that video? #DT
+[yes] You wouldn't have saved it if you didn't #DT
+[no] It's from you own collection, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Maybe we should get rid of that porn collection of yours #DT @DeleteFlag(pvLink37A)
+You have me to look at don't you? #DT
+Then why would you need that extensive collection of porn... #DT
+If you didn't have any porn to look at, I bet you'd be even more eager to submit to me #DT
+But I does seem a bit too drastic a measure #DT
+Who knows, maybe at some point you'll willingly give up your porn #DT
+We'll see #GNMEmoteHappy #DT
+@End

@@ -1,0 +1,60 @@
+@Variable[LockUpPoints]<[100] @NullResponse @Goto(Poor)
+You have enough lock up points to roll the die! #DT
+Good job #SlaveName #DT @ChangeVar[LockUpPoints]=[LockUpPoints]-[100] @Wait(10)
+Well.. #DT
+@Flag(Personality3) Rolling the die to determine your outcome of today! #SlaveName #DT @Chance33(1) @Goto(1,2,3,4,5,6,7,8,9,10)
+Rolling the die to determine your outcome of today! #SlaveName #DT @Goto(1,2,3,4,5,6,7,8,9,10)
+(1)
+@RT(1!,One!,One..) #DT
+Meaning you get absolutely nothing! #DT
+Better luck next time slave! #DT @Goto(End)
+(2)
+@RT(2!,Two!,Two..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(3)
+@RT(3!,Three!,Three..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(4)
+@RT(4!,Four!,Four..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(5)
+@RT(5!,Five!,Five..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(6)
+@RT(6!,Six!,Six..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(7)
+@RT(7!,Seven!,Seven..) #DT
+@RT(So it's a ruin for you!,So you'll get to ruin,So you can ruin today!,Meaning you get to ruin!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollRuin.txt)
+@NullResponse @Goto(End)
+(8)
+@RT(8!,Eight!,Eight..) #DT
+@RT(So it's an orgasm!,Meaning you get to orgasm!,So you'll be getting an orgasm!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollOrgasm.txt)
+@NullResponse @Goto(End)
+(9)
+@RT(9!,Nine!,Nine..) #DT
+@RT(So it's an orgasm!,Meaning you get to orgasm!,So you'll be getting an orgasm!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollOrgasm.txt)
+@NullResponse @Goto(End)
+(10)
+@RT(10!,Ten!,Ten..) #DT
+@RT(So it's an orgasm!,Meaning you get to orgasm!,So you'll be getting an orgasm!) #DT
+@NullResponse @CallReturn(CR\End\ChastityTraining\RollOrgasm.txt)
+@NullResponse @Goto(End)
+(Poor)
+You don't have enough lock up points to roll the die #GNMEmoteSad #DT
+Maybe next time #SlaveName! #DT
+(End)
+@NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)

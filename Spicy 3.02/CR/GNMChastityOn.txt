@@ -1,0 +1,69 @@
+@NullResponse @RapidCodeOn
+@NullResponse @LockImages
+@NotFlag(HasChastity) @NullResponse @Goto(End2) //If no chastity
+@NullResponse @ChastityOn
+@Flag(ChastityIsOn) @NullResponse @Goto(End) //If already wearing the cage
+@NullResponse @Goto(PutOnCage)
+(PutOnCage)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3] @ShowImage[\GNMImages\Chastity\ChastityOn\*]
+@RT(Put on your #Cage,Get your #Cage on,Put on the #Cage at once,Hurry up and get the #Cage back on,Be quick and get your #Cage back on)
+@RT(Let me know when you're done..,Report to me when it's on,Remember to tell me when it's on) @CustomMode(#CageOn, Goto, Done)
+@Flag(Personality1) @NullResponse @Wait(#Random(30,60))
+@Flag(Personality2) @NullResponse @Wait(#Random(25,50))
+@Flag(Personality3) @NullResponse @Wait(#Random(20,40))
+@RT(Quicker!,Faster,Be faster,Hurry up!,Be quick,Come on!,Be quick..,Be faster will you?,Be faster!) #MeritChangeNMedium @CustomMode(#CageOn, Goto, Done2)
+@Flag(Personality1) @NullResponse @Wait(#Random(30,60))
+@Flag(Personality2) @NullResponse @Wait(#Random(25,50))
+@Flag(Personality3) @NullResponse @Wait(#Random(20,40))
+@RT(You've taken way too long to get that #Cage on..,You we're way to long to get that #Cage on,It took you too long to get that cage on..) @CustomMode(#CageOn, Normal) #MeritChangeNMedium
+@RT(I don't like it when you make me wait,I don't like to wait,I care about my time) 
+@Flag(ChastityTrainingActive) @Variable[ChastityLevel]<[25] @RT(But since you're in training,But due to you being in training,But because of your chastity training) I won't punish you.. @Goto(End)
+@Flag(CPlayActive) @NullResponse @Goto(End)
+@Variable[#DateDifference(PDenial,Hours)]>[PDenialSet] So as a punishment I'm placing you in the #Cage for the next 24 hours.. #DT @SetDate(PDenial, 0 Days) @SetVar[PDenialSet]=[24]
+@Variable[#DateDifference(PDenial,Hours)]<=[PDenialSet] So as a punishment I'm increasing your denial period by 24 hours.. #DT @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+@NullResponse @Goto(End)
+(Done)
+#GNMGood @CustomMode(#CageOn, Normal)
+@NullResponse @Goto(End)
+(Done2)
+@RT(Finally,About time..,Took you long enough,Be faster next time,don't waste my time again..) @CustomMode(#CageOn, Normal)
+@NullResponse @Goto(End)
+(End)
+@NullResponse @SetFlag(ChastityIsOn)
+@NullResponse @UnlockImages
+@End
+(End2)
+@NullResponse @UnlockImages
+@End
+
+(VPleased)
+(Pleased)
+(Neutral)
+(Annoyed)
+(VAnnoyed)
+[Angry]
+[Happy]
+[Horny]
+
+(HasChastity)
+
+(CLongTermActive)
+
+[ChastityLevel]=[30]
+
+(ChastityTrainingActive)
+
+(CPunishmentActive) <--Only as a means of punishment
+(CPlayActive) <-- Only used in play, meaning it should launch prior to session
+(C247) <-- Aims towards full time wear
+
+(CPlastic)
+(Metal)
+(FullBelt)
+(BallTrap)
+(CPiercing)
+(CMetalLock)
+(CPlasticLock)
+(CTimedLockBoxActive)
+(CSpikesActive)
+

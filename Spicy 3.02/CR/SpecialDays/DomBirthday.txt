@@ -1,0 +1,139 @@
+@NullResponse
+It's my birthday Slave!! #DT @TimeOut(10, Bad1)
+[happy birthday] Thank you #SlaveName #DT @Goto(Continue)
+@AcceptAnswer @NullResponse #MeritChangeNHigh
+(Happy)
+When I tell you it's my birthday I expect a "happy birthday"! #DT @TimeOut(10, Bad1)
+[happy birthday] About time.. #DT @Goto(Continue)
+@AcceptAnswer @NullResponse #MeritChangeNHigh @Goto(Happy)
+(Bad1)
+I expected a happy birthday from you! #MeritChangeNHigh
+(Bad2)
+I'm not happy about this #SlaveName #MeritChangeNHigh
+You just got yourself uninvited from my birthday party! #MeritChangeNHigh
+@RT(Maybe,Perhaps) @RT(#M1,#M2,#M3) would like to have your place @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+Goodbye!
+@NullResponse @Interrupt(GNMBackgroundBase)
+(Continue)
+Let me change clothes really fast #DT
+I have an outfit perfect for today's occasion #GNMGrin #DT
+Go to the corner #DT
+Return when you hear my bell #DT
+Hands above your head! #DT
+Go! #DT
+@NullResponse @CallReturn(CR\SpecificPictures\ClotheChangeDomme.txt)
+@NullResponse @Wait(120)
+Tadaa! #DTS1 @PlayAudio[GNMSounds\Specialsounds\Bell.mp3]
+I'm giving myself a treat today #GNMGrin #DTS1
+Lucky for you, you're involved! #DTS1
+But maybe not in a way you wanted #GNMLol #DTS1
+I want to spank you #SubName #DTS1
+I want to spank you over and over #DTS1
+Hard #DTS1
+Very hard! #DTS1
+I wanna hear you cry #DTS1
+I wanna see tears #DTS1
+You would do that for me right? #DTS1
+[yes] I knew you would! #DTS1 #MeritChangePHigh
+[no] @NullResponse @Goto(Bad2)
+@DifferentAnswer #GNMYesOrNo #DTS1
+#Fetch #ChooseSpankingImplement #DTS1
+Say stop if it gets too much #DTS1 @CustomMode(stop, Goto, Bad2)
+But I warn you #DTS1
+That would seriously displease me.. #DTS1
+Now #SlaveName prepare yourself! #DTS1
+Follow the beats #DTS1
+Strike hard #DTS1 @SetVar[Rounds2]=[5]
+Alternate cheecks #DTS1 @SetVar[Rounds]=[20]
+Count them loud #DTS1
+At the end I will ask you about how many it was total! #DTS1 @SetVar[Count]=[0]
+(Prep)
+@NullResponse @SetVar[Rounds2]=[5]
+(Prep2)
+@NullResponse @SetVar[Rounds]=[#Random(10,20)]
+(Spanking)
+@NullResponse @If[Rounds]<=[0]Then(End)
+@NullResponse @If[Rounds]<=[0]Then(Pause)
+@NullResponse @Goto(1,2,3,4,5,6,7,8,9,10)
+(1)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\10Strikes\Spank10.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[10] @Wait(17)
+@NullResponse @Goto(Spanking)
+(2)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\10Strikes\Spank10Fast.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[10] @Wait(9)
+@NullResponse @Goto(Spanking)
+(3)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\20Strikes\Spank20.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[20] @Wait(34)
+@NullResponse @Goto(Spanking)
+(4)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\20Strikes\Spank20Fast.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[20] @Wait(17)
+@NullResponse @Goto(Spanking)
+(5)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\30Strikes\Spank30.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[30] @Wait(50)
+@NullResponse @Goto(Spanking)
+(6)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\30Strikes\Spank30Fast.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[30] @Wait(25)
+@NullResponse @Goto(Spanking)
+(7)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\40Strikes\Spank40.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[40] @Wait(67)
+@NullResponse @Goto(Spanking)
+(8)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\40Strikes\Spank40Fast.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[40] @Wait(33)
+@NullResponse @Goto(Spanking)
+(9)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\50Strikes\Spank50.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[50] @Wait(83)
+@NullResponse @Goto(Spanking)
+(10)
+@NullResponse @PlayAudio[GNMSounds\Punishment\SpankingTask\50Strikes\Spank50Fast.mp3]
+@NullResponse @ChangeVar[Rounds]=[Rounds]-[1]
+@NullResponse @ChangeVar[Count]=[Count]+[50] @Wait(40)
+@NullResponse @Goto(Spanking)
+(Pause)
+@RT(God I love this,Perfect ass #GNMGrin,Mhhmmm this is soo hot,Oh my god I'm so turned on right now..,Oh my this is fantastic,Gosh I could spank you forever!,Gosh I love hearing you moan #GNMGrin)  #DTS2
+Go to the corner #SlaveName #DTS2
+Return when you hear my bell #DTS2 @ChangeVar[Rounds2]=[Rounds2]-[1]
+Hands above your head! #DTS2 @Wait(#Random(100,200))
+Come back! #DTS2 @PlayAudio[GNMSounds\Specialsounds\Bell.mp3]
+Get ready for a new round! #GNMEmoteHappy #DTS2
+@NullResponse @Goto(Prep2)
+(End)
+We've reached the end of your spanking #SlaveName! #DTS2
+Tell me #GNMGrin #DTS2
+How many times did I spank you in total? #DTS2 @InputVar[Guess]
+@Variable[Guess]>[Count] It wasn't that much #SlaveName.. #DTS2 #MeritChangeNHigh
+@Variable[Guess]<[Count] The number is higher #SlaveName.. #DTS2 #MeritChangeNHigh
+@Variable[Guess]=[Count] Exactly! #GNMGrin #DTS2 #MeritChangePHigh
+Mhhmmm #DTS2
+I'm feeling horny! #DTS2
+Go to the corner #SlaveName #DTS2
+Hands above your head #DTS3
+No matter what you hear stay there facing the wall! #DTS3
+Now go! #DTS3
+@NullResponse @PlayAudio[\GNMSounds\ScriptSpecific\DommeBirthday\Orgasm.mp3]
+@NullResponse @Wait(360)
+Come back! #DTS3 @PlayAudio[GNMSounds\Specialsounds\Bell.mp3]
+Mhhmm I think I'm ready now for a good fucking #DTS3
+Sadly for you your tiny cock has little use to me #DTS3
+Lucky for me, my well endoved boyfriend should arrive any moment! #DTS3
+See you slave #DTS3
+I <i>won't</i> be thinking about you today #DTS3
+But everytime you sit down <i>you will</i> think about me #GNMLol #DTS3
+Ciao! #DTS3
+@NullResponse @Interrupt(GNMBackgroundBase)

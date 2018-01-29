@@ -1,0 +1,74 @@
+@NullResponse @RapidCodeOn @DeleteFlag(HasChastity)
+@NullResponse @DeleteFlag(CPlastic)
+@NullResponse @DeleteFlag(Metal)
+@NullResponse @DeleteFlag(FullBelt)
+@NullResponse @DeleteFlag(BallTrap)
+@NullResponse @DeleteFlag(CPiercing)
+@NullResponse @DeleteFlag(CMetalLock)
+@NullResponse @DeleteFlag(CPlasticLock)
+@NullResponse @DeleteFlag(CTimedLockBoxActive)
+@NullResponse @DeleteFlag(CSpikesActive)
+@NullResponse @DeleteFlag(CLongTermActive)
+@NullResponse @DeleteFlag(ChastityTrainingActive)
+@NullResponse @DeleteFlag(C247)
+@NullResponse @DeleteFlag(CPunishmentActive)
+@NullResponse @DeleteFlag(CPlayActive)
+@SystemMessage #VANC #VANP Do you own a chastity device?
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetFlag(HasChastity)
+[no]@SystemMessage #VANC #VANP You should consider buying one for the full experience @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no slave?
+@SystemMessage #VANC #VANP Is it made of plastic or metal?
+[plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlastic)
+[metal]@SystemMessage #VANC #VANP Noted.. @SetFlag(Metal)
+@DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
+@SystemMessage #VANC #VANP Is it a full belt or a ball trap device?
+[full,belt]@SystemMessage #VANC #VANP Full belt.. @SetFlag(FullBelt)
+[ball trap,ball,trap]@SystemMessage #VANC #VANP Ball trap.. @SetFlag(BallTrap)
+@DifferentAnswer @SystemMessage #VANC #VANP full or ball trap?
+@SystemMessage #VANC #VANP Are you pierced as a mean to secure the device?
+[yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CPiercing)
+[no]@SystemMessage #VANC #VANP Too bad.. 
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Do you use a metal lock or plastic numbered lock to lock it?
+[metal]@SystemMessage #VANC #VANP Noted.. @SetFlag(CMetalLock)
+[plastic]@SystemMessage #VANC #VANP Noted.. @SetFlag(CPlasticLock)
+@DifferentAnswer @SystemMessage #VANC #VANP Metal or plastic?
+@SystemMessage #VANC #VANP Do you own a timed lockbox?
+[yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CTimedLockBoxActive)
+[no]@SystemMessage #VANC #VANP Noted..
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP If you have it, I might consider using spikes as a means of punishment..
+@SystemMessage #VANC #VANP Do you have a set of spike attachments to your belt?
+[yes]@SystemMessage #VANC #VANP Noted.. @SetFlag(CSpikesActive)
+[no]@SystemMessage #VANC #VANP Noted..
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Ideally #DomHonorific prefers that you are locked whenever you're not playing
+@SystemMessage #VANC #VANP Meaning you wear it 24/7
+@SystemMessage #VANC #VANP And that you will only be released when told so through Tease-AI
+@SystemMessage #VANC #VANP Are you capable or wearing it 24/7? I suggest you answer truthfully for your own sake..
+[yes]@SystemMessage #VANC #VANP This should be fun.. @SetFlag(CLongTermActive) @SetVar[ChastityLevel]=[30] @Goto(CRecord)
+[no]@SystemMessage #VANC #VANP don't be ashamed, we can always work on this.
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Well since you can't wear it 24/7
+@SystemMessage #VANC #VANP I'm curious to find out how much you can handle
+@SystemMessage #VANC #VANP Are you willing to work towards learning how to wear it 24/7?
+[yes]@SystemMessage #VANC #VANP #GNMGood @SetVar[ChastityLevel]=[1] @SetFlag(ChastityTrainingActive)
+[no]@SystemMessage #VANC #VANP It's alright @Goto(CRecord)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Slave I don't care if you sleep with your cage
+@SystemMessage #VANC #VANP I think you should since it would constantly remind you who you belong to
+@SystemMessage #VANC #VANP But you won't be forced to
+@SystemMessage #VANC #VANP When it comes to exercise I understand that performing it while caged isn't easy
+@SystemMessage #VANC #VANP So I'm not gonna force this on you either
+@SystemMessage #VANC #VANP But again it would make me and your #DomHonorific happy if you did
+(CRecord)
+@SystemMessage #VANC #VANP And a final question about chastity
+@SystemMessage #VANC #VANP Do you consider chastity to be something used occacionally as a plaything?
+@SystemMessage #VANC #VANP Only as a punishment?
+@SystemMessage #VANC #VANP Or something one you should try to wear full time 24/7?
+[play,plaything]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPlayActive)
+[punishment]@SystemMessage #VANC #VANP Okay then! @SetFlag(CPunishmentActive)
+[full time,full,time]@SystemMessage #VANC #VANP Okay then! @SetFlag(C247)
+@DifferentAnswer @SystemMessage #VANC #VANP Play, punishment or full time?
+(End)
+@End

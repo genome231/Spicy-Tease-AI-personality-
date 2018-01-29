@@ -1,0 +1,50 @@
+@SystemMessage #GNMVA #SubName @CheckFlag(NeverParachute) @CheckFlag(GNMAskedToBuyParachute) @SetVar[GNMAskedToBuyParachute2]=[1]
+@SystemMessage #GNMVA Do you own a parachute?
+@SystemMessage #GNMVA And by parachute I mean a device to hang from your #GNMBalls
+@SystemMessage #GNMVA Preferably with spikes
+@SystemMessage #GNMVA Do you own such a device?
+[yes]@SystemMessage #GNMVA Fantastic! @Goto(SetFlag)
+[no]@SystemMessage #GNMVA Well..
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Would you be willing to buy one?
+[yes]@SystemMessage #GNMVA #GNMGood
+[no]@SystemMessage #GNMVA I see.. @Goto(Convince)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Then I'll look forward to next time we'll need a parachute!
+@End
+(GNMAskedToBuyParachute)
+@SystemMessage #GNMVA Remember I asked you to buy a parachute?
+[yes]@SystemMessage #GNMVA #GNMGood
+[no]@SystemMessage #GNMVA Well I did..
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Now have you done so?
+[yes]@SystemMessage #GNMVA Fantastic! @Goto(SetFlag)
+[no]@SystemMessage #GNMVA I see
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Then I guess you're not willing yet.. @Goto(Convince)
+(SetFlag)
+@NullResponse @SetFlag(GNMToyParachute)
+@SystemMessage #GNMVA This makes me very happy! #GNMEmoteHappy
+@End
+(Convince)
+@NullResponse @IfVar[GNMAskedToBuyParachute2]==[3]Then(FinalQ) @ChangeVar[GNMAskedToBuyParachute2]=[GNMAskedToBuyParachute2]+[1]
+@SystemMessage #GNMVA This might help your willingness! @SetFlag(GNMAskedToBuyParachute)
+@SystemMessage #GNMVA @Edge #GNMEdge
+@SystemMessage #GNMVA #GNMLetTheEdgeFade
+@SystemMessage #GNMVA It's a start..
+@SystemMessage #GNMVA But..
+@SystemMessage #GNMVA @Edge #GNMEdge
+@SystemMessage #GNMVA #GNMLetTheEdgeFade
+@SystemMessage #GNMVA #GNMMoan
+@SystemMessage #GNMVA I really think you should consider buying it! #GNMLol
+@End
+(FinalQ)
+@SystemMessage #GNMVA Are you abosulutely sure you don't want to buy a parachute?
+[yes]@SystemMessage #GNMVA I see @Goto(NoMore)
+[no]@SystemMessage #GNMVA Good! @ChangeVar[GNMAskedToBuyParachute2]=[GNMAskedToBuyParachute2]-[3]
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(NoMore)
+@SystemMessage #GNMVA Then I'll stop asking you for it @SetFlag(NeverParachute)
+@End
+(NeverParachute)
+@End

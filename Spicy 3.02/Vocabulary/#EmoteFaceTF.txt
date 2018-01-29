@@ -1,0 +1,6 @@
+#EmoteLaugh
+#EmoteSmile
+#EmoteMoan
+#EmoteWhimper
+#EmoteFlustered
+#EmoteFaceTF

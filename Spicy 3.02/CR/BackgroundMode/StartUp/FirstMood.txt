@@ -1,0 +1,63 @@
+@NullResponse @RapidCodeOn @SetDate(Season, 0 Days)
+@NullResponse @SetDate(Monday, 0 Days)
+@NullResponse @SetDate(Tuesday, 0 Days)
+@NullResponse @SetDate(Wednesay, 0 Days)
+@NullResponse @SetDate(Thursday, 0 Days)
+@NullResponse @SetDate(Friday, 0 Days)
+@NullResponse @SetDate(Saturday, 0 Days)
+@NullResponse @SetDate(Sunday, 0 Days)
+@Flag(Personality1) @NullResponse @SetVar[Happy]=[0]
+@Flag(Personality1) @NullResponse @SetVar[Angry]=[0]
+@Flag(Personality1) @NullResponse @SetVar[Lust]=[0]
+@Flag(Personality2) @NullResponse @SetVar[Happy]=[-1]
+@Flag(Personality2) @NullResponse @SetVar[Angry]=[1]
+@Flag(Personality2) @NullResponse @SetVar[Lust]=[0]
+@Flag(Personality3) @NullResponse @SetVar[Happy]=[-3]
+@Flag(Personality3) @NullResponse @SetVar[Angry]=[2]
+@Flag(Personality3) @NullResponse @SetVar[Lust]=[-1]
+@NullResponse @SetVar[MondayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[MondayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[MondayLust]=[#Random(0,4)]
+@NullResponse @SetVar[TuesdayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[TuesdayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[TuesdayLust]=[#Random(0,4)]
+@NullResponse @SetVar[WednesdayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[WednesdayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[WednesdayLust]=[#Random(0,4)]
+@NullResponse @SetVar[ThursdayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[ThursdayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[ThursdayLust]=[#Random(0,4)]
+@NullResponse @SetVar[FridayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[FridayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[FridayLust]=[#Random(0,4)]
+@NullResponse @SetVar[SaturdayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[SaturdayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[SaturdayLust]=[#Random(0,4)]
+@NullResponse @SetVar[SundayHappy]=[#Random(0,4)]
+@NullResponse @SetVar[SundayAngry]=[#Random(0,4)]
+@NullResponse @SetVar[SundayLust]=[#Random(0,4)]
+@NullResponse @ChangeVar[Happy]=[Happy]+[MondayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[MondayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[MondayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[TuesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[TuesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[TuesdayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[WednesdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[WednesdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[WednesdayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[ThursdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[ThursdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[ThursdayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[FridayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[FridayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[FridayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SaturdayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SaturdayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SaturdayLust]
+@NullResponse @ChangeVar[Happy]=[Happy]+[SundayHappy]
+@NullResponse @ChangeVar[Angry]=[Angry]+[SundayAngry]
+@NullResponse @ChangeVar[Lust]=[Lust]+[SundayLust]
+@End
+
+########################## - Comment - ##########################
+#Sets up all variables

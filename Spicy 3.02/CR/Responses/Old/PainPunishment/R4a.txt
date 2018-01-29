@@ -1,0 +1,21 @@
+@NullResponse @RapidCodeOn @ChangeVar[R4a]=[R4a]+[1] @CheckFlag(R4aFirst) 
+@NullResponse @SetVar[R4a]=[1] @TempFlag(R4aFirst)
+(R4aFirst)
+@Variable[R4a]>[2] @RT(I'm stopping our session..,I'm ending our session) #DT @Goto(EndBad)
+@RT(Breathe,Relax for a moment,Calm down) #DT @Wait(#Random(10,15))
+@RT(Are you ready to continue,Can you proceed?) #DT
+[yes]#GNMGood #DT @Goto(End)
+[no]@RT(I'm stopping our session..,I'm ending our session) #DT @Goto(EndBad)
+@DifferentAnswer #GNMYesOrNo #DT
+(End)
+@End
+(EndBad)
+@RT(Clearly you can't handle me today,Clearly I'm too much for you) #DT @Interrupt(GNMBackgroundBase)
+(VAnnoyed)
+(Annoyed)
+(Neutral)
+(Pleased)
+(VPleased)
+[Lust]
+[Happy]
+[Angry]

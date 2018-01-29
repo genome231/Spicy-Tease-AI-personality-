@@ -1,0 +1,122 @@
+@NullResponse @RapidCodeOn @ChangeVar[R7a]=[R7a]+[1] @CheckFlag(R7aFirst) 
+@NullResponse @SetVar[R7a]=[1] @TempFlag(R7aFirst)
+(R7aFirst)
+@Variable[R7a]>=[3] @RT(Stop asking me that,Stop asking that..,Stop that..) #DT #MeritChangeNLow @Goto(End)
+@Variable[R7a]=[2] @RT(You've already asked that?,We've already had this conversation,didn't we just talk about that?) #DT @Goto(End)
+@Variable[Happy]>[Angry] @NullResponse @Goto(HappyVSLust)
+@Variable[Happy]<=[Angry] @NullResponse @Goto(AngryVSLust)
+(AngryVSLust)
+@Variable[Angry]>[Lust] @NullResponse @Goto(Angry)
+@Variable[Angry]<=[Lust] @NullResponse @Goto(Lust)
+(HappyVSLust)
+@Variable[Happy]>[Lust] @NullResponse @Goto(Happy)
+@Variable[Happy]<=[Lust] @NullResponse @Goto(Lust)
+(Angry)
+@NullResponse #MeritChangeNLow @CheckFlag(MS105)
+@NullResponse @CheckFlag(MS106)
+@NullResponse @CheckFlag(MS107)
+@NullResponse @CheckFlag(MS108)
+@NullResponse @CheckFlag(MS109)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
+(MS105)Had a bad workout
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
+@RT(Did a workout yesterday,I was doing a workout yesterday,I was working out yesterday) #DT
+@RT(But I was a bad workout,But it wasn't properly,But it wasn't good - lets just leave it at that..)  #DT
+@End
+(MS106)Gained a bit of weight
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
+@RT(I've a bit of weight..,I haven't been kind to my body lately,I've gained some fat..) #DT
+@RT(Lets just leave it at that..,End of conversation..) #DT
+@End
+(MS107)Had an argument with a glitter friend
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
+Had an argument with @RT(#Contact1,#Contact2,#Contact3) recently #DT
+@RT(We're good now,While we're good now) #DT
+@RT(But it still bothers me a little,But I still think about it..) #DT
+@End
+(MS108)Had an argument with a family member
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
+Had an argument with @RT(a friend,my mother,my father,my sister) recently #DT
+@RT(We're good now,While we're good now) #DT
+@RT(But it still bothers me a little,But I still think about it..) #DT
+@End
+(MS109)Had an argument with lover
+@RT(I'm not doing too great,Not too well actually,Could be a bit better,Well not as good you might hope,can't say I'm doing great) #DT
+Had an argument with @RT(lover,boyfriend) recently #DT
+@RT(We're good now,While we're good now) #DT
+@RT(But it still bothers me a little,But I still think about it..) #DT
+@End
+(Happy)
+@NullResponse #MeritChangePLow @CheckFlag(MS5)
+@NullResponse @CheckFlag(MS6)
+@NullResponse @CheckFlag(MS7)
+@NullResponse @CheckFlag(MS8)
+@NullResponse @CheckFlag(MS9)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
+(MS5)//Went to the hairdresser
+@RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
+@RT(Went to my hairdresser,Been at the hairdresser) #DT
+@RT(She always get me in a good mood,Great hair always helps the mood #GNMEmoteHappy) #DT
+@End
+(MS6)Slept great
+@RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
+@RT(I had the best night of sleep in a long time!,I had a great nights sleep!) #DT
+@End
+(MS7)Reading a great book
+@RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
+@RT(Currently I'm reading a really great book!,I'm in the middle of this fantastic book) #DT
+@RT(You should thank me that I even take time with you #GNMGrin,You should thank me for not reading reading and just keeping you denied) #DT
+@End
+(MS8)Given a compliment today from lower
+@RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
+My @RT(boyfriend,lover) gave me the best compliment recently #DT
+@RT(I've been glowing ever since,Only a real man knows how to treat a woman #GNMGrin) #DT
+@End
+(MS9)Watching a really good tv series
+@RT(I'm doing great,Actually its good right now,Not bad,Quite well) #DT
+@RT(I'm watching greys anatomy I really like that show,Watching a great tv-series right now!) #DT
+@RT(But might not be up your alley,But I'm not sure it's 100% your thing) #DT
+@End
+(Lust)
+@NullResponse @CheckFlag(MS51)
+@NullResponse @CheckFlag(MS52)
+@NullResponse @CheckFlag(MS53)
+@NullResponse @CheckFlag(MS54)
+@NullResponse @CheckFlag(MS55)
+@RT(Not sure I want to discuss that right now,Not today #SlaveName,I don't have time for that today,I don't have time to answer that) #DT @Goto(End)
+(MS51)Bought new lingerie,
+@RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
+@RT(I bought a new set of lingerie!,I just ordered a new set of lingerie) #DT
+@RT(Not that you'll ever see it #GNMGrin,Not that You'll see it) #DT
+@RT(It's reserved for my real man,It's eyes only for my lover) #DT
+@End
+(MS52)Got new lingerie as a gift
+@RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
+@RT(My boyfriend,My lover) @RT(Gave me the sexiest set of lingerie I've ever seen,Gave me a really hot set of lingerie!) #DT
+@RT(But he made me promise not to show it to you,But he made me promise not to show) #GNMLol #DT
+@End
+(MS53)Got a new spanking instrument
+@RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
+@RT(I bought a new whip,I just got a new cane) #DT
+@RT(Thinking about which of my slaves to use it on first,Trying to see which slave deserves to <i>break</i> it in #GNMGrin) #DT
+@End
+(MS54)Got a new vibrator
+@RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
+@RT(Got an awesome new vibrator!,Got a really great vibrator!) #DT
+@RT(I can't seem to keep my hands off it,I can't seem to leave it alone) #GNMLol #DT
+@End
+(MS55)Got a pair of high heels
+@RT(Better than you #GNMGrin,A bit better than you I suspect,Rather good,Rather well,I'm good,I'm well) #DT
+@RT(Bought,Got) A new pair of high heels #DT
+@RT(They are sexy as fuck!,And gosh they do all kind of good things for my legs!) #DT
+@End
+(End)
+@End
+(VAnnoyed)
+(Annoyed)
+(Neutral)
+(Pleased)
+(VPleased)
+[Lus]
+[Happy]
+[Angry]

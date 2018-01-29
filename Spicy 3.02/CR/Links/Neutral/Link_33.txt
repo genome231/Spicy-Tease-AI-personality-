@@ -1,0 +1,8 @@
+@NullResponse @CheckFlag(pvLink33A)
+Alright, #SlaveName #DT @SetFlag(pvLink33A)
+Let's see if we can make those #GNMBalls as big as melons #GNMLol #DT
+@End
+(pvLink33A)
+You've got some work to do, #SlaveName #DT
+Those #GNMBalls aren't going to fill up themselves... #DT @DeleteFlag(pvLink33A)
+@End

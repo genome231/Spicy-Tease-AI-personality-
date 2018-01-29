@@ -1,0 +1,35 @@
+@NullResponse @CheckFlag(pvLink06A)
+@NullResponse @CheckFlag(pvLink06B)
+Remember making water balloons in the summer when you were a kid? #DT @SetFlag(pvLink06A)
+I sure do... #DT
+Holding a balloon under a faucet to fill it #DT
+How it would slowly expand and grow heavier and heavier #DT
+Holding the balloon between my index finger and thumb #DT
+Cupping it with my other hand so it wouldn't slip and fall #DT
+I always tried to make the biggest water balloon of all #DT
+Filling them up until they felt like they were going to burst #DT
+Kind of like what I'm doing to your #GNMBalls right now #GNMLol #DT
+@End
+(pvLink06A)
+Grab that hard #GNMCock and squeeze it tight #DT @SetFlag(pvLink06B) @DeleteFlag(pvLink06A)
+Squeeze harder, #SlaveName #DT @Wait(6)
+Let go #DT
+Feels good to hold it so tightly, doesn't it? #DT
+[yes] So big right now... god I wish I could hold that hard #GNMCock in my hand #DT
+[no] I guess I teased it pretty good so far today then... #Grin #DT
+@DifferentAnswer #GNMYesOrNo #DT
+#GNMMoan I <i>love</i> hard cocks... #DT
+Grab and squeeze it again #DT
+Tighter... keep squeezing, #SlaveName #DT @Wait(10)
+And let go... #DT
+Fuck I want a hard #GNMCock inside me right now #DT
+@Flag(DommeIsDatingStud) I guess I'm gonna have to wait until my boyfriend comes over #DT
+@Flag(DommeIsDatingRegular) I guess I'm gonna have to wait until my boyfriend comes over #DT
+All I can do is slide my fingers between my legs #DT
+#GNMMoan #DT
+@NullResponse @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
+I want to make that #GNMCock even harder now #DT
+@End
+(pvLink06B)
+@NullResponse @DeleteFlag(pvLink06B)
+@End

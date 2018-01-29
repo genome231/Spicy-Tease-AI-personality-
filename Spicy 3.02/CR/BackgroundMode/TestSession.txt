@@ -1,0 +1,33 @@
+@Variable[#DateDifference(TeaseSession,Hours)]>=[16] @NullResponse @RapidCodeOn @Goto(TestSession)
+@SystemMessage #VANC #VANP Slave you had a session recently 
+@Variable[#DateDifference(TeaseSession,Hours)]>[14] @SystemMessage #VANC #VANP You will be eligible for a session again soon @Goto(End)
+@NullResponse @Goto(End)
+(TestSession)
+@NullResponse @If[GNMPPoints]>[400]Then(Deny1)
+@Flag(VAnnoyed) @NullResponse @Goto(Deny2)
+@NullResponse @Goto(StartSession)
+(Deny1)
+@SystemMessage #VANC #VANP Session denied #SlaveName
+@SystemMessage #VANC #VANP You have too many punishment points
+@SystemMessage #VANC #VANP Report for punishment @Goto(End)
+(Deny2)
+@SystemMessage #VANC #VANP Session denied #SlaveName
+@SystemMessage #VANC #VANP Due to recent poor behaviour
+@Variable[GNMPPoints]>=[200] @SystemMessage #VANC #VANP You should either report for chores or punishment @Goto(End)
+@Variable[GNMPPoints]<[200] @SystemMessage #VANC #VANP I recommend reporting for chores @Goto(End)
+(StartSession)
+@SystemMessage #VANC #VANP @RT(Launching,Initiating,Starting,Establishing) session with #DomHonorific
+@Variable[#DateDifference(TeaseSession, Hours)]>[124] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(21,50)] @Goto(StartSession2)
+@Variable[#DateDifference(TeaseSession, Hours)]>[102] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(16,40)] @Goto(StartSession2)
+@Variable[#DateDifference(TeaseSession, Hours)]>[80] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(11,30)] @Goto(StartSession2)
+@Variable[#DateDifference(TeaseSession, Hours)]>[58] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(6,20)] @Goto(StartSession2)
+@Variable[#DateDifference(TeaseSession, Hours)]>[36] @NullResponse @ChangeVar[OTime]=[OTime]+[#Random(1,10)] @Goto(StartSession2)
+(StartSession2)
+@NullResponse @Interrupt(GNMStart)
+(End)
+@End
+
+
+########################## - Comment - ##########################
+#This checks whether a session can be started
+#Called in Interrupt/GNMBackgroundBase (main screen)

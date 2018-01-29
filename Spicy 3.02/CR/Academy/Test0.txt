@@ -1,0 +1,166 @@
+@SystemMessage Hello and welcome @LockImages @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @SetVar[Percentage]=[5]
+@SystemMessage You will be asked 20 questions @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You have 10 seconds to answer each question @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You gotta get 18 questions right @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage At the end you will be told wether you passed or failed @SetVar[Right]=[0] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You will not be told which questions were right and which were wrong @SetVar[Wrong]=[0] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Should you pass you will be refunded 100 gold @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+(Setup)
+@SystemMessage Setting up the test.. @Wait(10) @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Test starting in @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 5 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 4 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 3 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 2 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 1 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+(Question1)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question1a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question2)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question2)
+(Question1a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question2)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question2a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question3)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question3)
+(Question2a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question3)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question3a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question4)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question4)
+(Question3a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question4)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question4a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question5)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question5)
+(Question4a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question5)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question5a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question6)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question6)
+(Question5a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question6)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question6a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question7)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question7)
+(Question6a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question7)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question7a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question8)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question8)
+(Question7a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question8)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question8a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question9)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question9)
+(Question8a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question9)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question9a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question10)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question10)
+(Question9a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question10)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question10a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question11)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question11)
+(Question10a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question11)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question11a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question12)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question12)
+(Question11a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question12)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question12a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question13)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question13)
+(Question12a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question13)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question13a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question14)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question14)
+(Question13a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question14)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question14a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question15)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question15)
+(Question14a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question15)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question15a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question16)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question16)
+(Question15a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question16)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question16a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question17)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question17)
+(Question16a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question17)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question17a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question18)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question18)
+(Question17a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question18)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question18a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question19)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question19)
+(Question18a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question19)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question19a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question20)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question20)
+(Question19a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(Question20)
+@SystemMessage  @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question20a)
+[]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(End)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(End)
+(Question20a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+
+(End)
+@NullResponse @UnlockImages
+@Variable[Right]>=[18] @SystemMessage You passed @SetFlag(ExamL1Passed) @ChangeVar[GNMGold]=[GNMGold]+[100] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@Variable[Right]<[18] @SystemMessage You failed @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Goto(QuickEnd) 
+@Variable[Right]>=[20] @SystemMessage Your score was 100% @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@Variable[Right]>=[20] @SystemMessage As a reward I've transfered 100 gold + fee to you @ChangeVar[GNMGold]=[GNMGold]+[100] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Sending you home @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Interrupt(GNMBackgroundBase)
+(QuickEnd)
+@SystemMessage You had @ShowVar[Right] correct answers @ChangeVar[Percentage]=[Percentage]*[Right] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Giving you a score of @ShowVar[Percentage] % where 85 % were required @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Better luck next time @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Interrupt(GNMBackgroundBase)

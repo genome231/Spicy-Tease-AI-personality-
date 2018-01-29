@@ -1,0 +1,38 @@
+(FinancialDomination)
+So #SlaveName #DT
+You have @ShowVar[GNMGold] gold #DT @If[GNMGold]<[200](FDRange)
+Let see what a price for your release is at today #GNMGrin #DT @RapidCodeOn
+@Flag(Personality1, VPleased) @NullResponse @SetVar[FDOffer]=[#Random(200, 300)]
+@Flag(Personality1, Pleased) @NullResponse @SetVar[FDOffer]=[#Random(200, 400)]
+@Flag(Personality1, Neutral) @NullResponse @SetVar[FDOffer]=[#Random(250, 450)]
+@Flag(Personality1, Annoyed) @NullResponse @SetVar[FDOffer]=[#Random(350, 650)]
+@Flag(Personality1, VAnnoyed) @NullResponse @SetVar[FDOffer]=[#Random(400, 750)]
+@Flag(Personality2, VPleased) @NullResponse @SetVar[FDOffer]=[#Random(250, 350)]
+@Flag(Personality2, Pleased) @NullResponse @SetVar[FDOffer]=[#Random(250, 450)]
+@Flag(Personality2, Neutral) @NullResponse @SetVar[FDOffer]=[#Random(300, 500)]
+@Flag(Personality2, Annoyed) @NullResponse @SetVar[FDOffer]=[#Random(400, 700)]
+@Flag(Personality2, VAnnoyed) @NullResponse @SetVar[FDOffer]=[#Random(450, 800)]
+@Flag(Personality3, VPleased) @NullResponse @SetVar[FDOffer]=[#Random(350, 450)]
+@Flag(Personality3, Pleased) @NullResponse @SetVar[FDOffer]=[#Random(350, 550)]
+@Flag(Personality3, Neutral) @NullResponse @SetVar[FDOffer]=[#Random(400, 600)]
+@Flag(Personality3, Annoyed) @NullResponse @SetVar[FDOffer]=[#Random(500, 800)]
+@Flag(Personality3, VAnnoyed) @NullResponse @SetVar[FDOffer]=[#Random(550, 900)]
+According to the market #DT
+An ejaculation will cost you @ShowVar[FDOffer] gold #DT @If[GNMGold]<[FDOffer]Then(FDRange2)
+deal? #DT
+[yes]Okay then! #DT @ChangeVar[GNMGold]=[GNMGold]-[FDOffer]
+[no]Well I can't blame you for that #GNMGrin #DT @Goto(Deny)
+@DifferentAnswer #GNMYesOrNo #DT
+I've transfered the gold #DT
+Now lets see about that ejaculation #DT @Goto(Ruined,Orgasm)
+(FDRange)
+Which is below the pricerange of any offer related to you ejaculating #GNMGrin #DT @Goto(Deny)
+(FDRange2)
+Which is less than you have.. #DT
+So I guess there won't be any deal today #GNMGrin #DT @Goto(Deny)
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

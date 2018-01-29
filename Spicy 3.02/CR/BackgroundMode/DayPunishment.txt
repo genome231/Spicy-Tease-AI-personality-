@@ -1,0 +1,38 @@
+@NullResponse @CheckFlag(FirstPDay)
+@NullResponse @SetFlag(FirstPDay)
+#VANC #VANP Today it's thursday
+#VANC #VANP Thursdays are special
+#VANC #VANP Thursdays are confession days
+#VANC #VANP Since you're full time it is required that you at least launch Tease-AI for a weekly punishment check up
+#VANC #VANP It's expected that you've brought your level of punishment points sufficiently low
+#VANC #VANP If you haven't I'm adding more
+#VANC #VANP A lot more!
+@NullResponse @SetDate(RecentPDay, 0 Hours)
+@NullResponse @Goto(Continue)
+(FirstPDay)
+@Variable[#DateDifference(RecentPDay, Hours)]<[20] @NullResponse @Goto(End)
+@Variable[#DateDifference(RecentPDay, Hours)]>[168] @NullResponse @Goto(Skipped)
+@Variable[#DateDifference(RecentConfession, Hours)]>[100] @NullResponse @Goto(Skipped2)
+@NullResponse @SetDate(RecentConfession, 0 Hours)
+(Continue)
+#VANC #VANP #SlaveName it's thursday
+#VANC #VANP You have @ShowVar[GNMPPoints] punishment points
+@Variable[GNMPPoints]<[100] #VANC #VANP Which is to my satisfaction! Good job! @Goto(End)
+#VANC #VANP Which isn't good enough! @ChangeVar[GNMPPoints]=[GNMPPoints]+[250]
+#VANC #VANP So I'm adding more!
+#VANC #VANP Make sure you report for punishment! @Goto(End)
+(Skipped)
+#VANC #VANP You've been skipping punishment day #SlaveName! @SetDate(RecentPDay, 0 Hours)
+#VANC #VANP I've added a healthy dose of punishment points for that! @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+#VANC #VANP You are expected to report on thursdays!
+#VANC #VANP Make sure you report next thursday! @Goto(End)
+(Skipped2)
+#VANC #VANP You've been skipping confession day #SlaveName! @SetDate(RecentConfession, 0 Hours)
+#VANC #VANP I've added a healthy dose of punishment points for that! @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+#VANC #VANP You are expected to report on tuesdays!
+#VANC #VANP Make sure you report next tuesday! @Goto(End)
+(End)
+@End
+
+########################## - Comment - ##########################
+#Called from CR\BackgroundMode\StartUp\GNMBackgroundFullTimeCheckUp.txt (Full Time only, Thursdays only)

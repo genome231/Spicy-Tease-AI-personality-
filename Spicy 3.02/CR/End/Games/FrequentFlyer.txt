@@ -1,0 +1,26 @@
+(FrequentFlyer)
+#SlaveName #DT @ChangeVar[FFSessions]=[FFSessions]+[1]
+@RT(Its time for our little mind game,To for our game,Time to play a little game,It's time for our game,Lets get going with our game) #GNMGrin #DT
+@RT(You know how this goes!,You know the game,You know this game,As you know it's rather simple,It's quite simple) #DT
+@RT(Do you think you've been through enough sessions,Do you think you've had enough sessions?,Do you believe you've had enough sessions?,Have you had enough sessions?) #DT
+@RT(Do you think its time for you to cum?,Is it time for your ejaculation,Is the stars in your favour?,Is today your day?) #DT
+[yes]@RT(Oh you do huh?,Oh my you think it is,Well well,Interesting) #DT
+[no]@RT(Well then I guess we wait a little longer,Then we'll just wait some more,Then lets wait a bit more,Then I guess we're waiting) #GNMLol #DT @Goto(Deny)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Lets check then!,Lets check,Lets check it out,Lets find out,Lets see if it is) #DT @If[FFSessions]>=[FFRequiredSessions]Then(FFGo)
+@RT(Oh noo!,Oh my..,Oh..,Well..,Hmm..) #DT
+@RT(It seems you weren't right afterall!,It's not,I'm afraid its not,I'm sorry to say its not,It's not your day today) #GNMEmoteSad #DT @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(2,5)]
+@RT(Well I guess your <i>release</i> will have to wait a little longer,I suppose your release will have to wait a bit,I guess we'll just have to wait a bit,Then we're just waiting a bit) #GNMGrin #DT @Goto(Deny)
+(FFGo)
+@RT(It is your lucky day!,It really is your day!,Today is really the day!) #DT
+But first #DT
+Do you want to play again or go back to standard? #DT
+[yes]#GNMGood #DT @SetVar[FFRequiredSessions]=[#Random(4,16)] @Goto(Ruined,Orgasm)
+[no]Another time perhaps #GNMGrin #DT @DeleteFlag(FrequentFlyer) @SetFlag(Standard) @Goto(Ruined,Orgasm)
+@DifferentAnswer #GNMYesOrNo #DT
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

@@ -1,0 +1,26 @@
+Welcome to detention @RT(#SubName,slave,#SlaveName) #DT4
+@RT(Lets see how to best punish you..,Just in time for some line writing,Time for you to do some line writing!) #DT4
+(FindTask)
+@NullResponse @CheckFlag(AcademyDetentionLevel3)
+@NullResponse @CheckFlag(AcademyDetentionLevel2)
+@NullResponse @CheckFlag(AcademyDetentionLevel1)
+(AcademyDetentionLevel3)
+@RT(Since you've been very a naughty boy,Due to poor performance,Because of poor performance,Since you haven't performed well) #DT4
+@RT(I'm gonna have you write some lines..,You'll be doing a bit of line writing,You're going to write lines) #DT4 @WritingTask(Naughty nasty sluts get punished, I want to be on my best behaviour and only do as commanded by Miss.)
+#GNMGood #DT4
+@RT(I hope you learned your lesson..,I do hope you caught something today,I hope you've picked something up today) #DT4
+@End
+(AcademyDetentionLevel2)
+@RT(Since you've been very a naughty boy,Due to poor performance,Because of poor performance,Since you haven't performed well) #DT4
+@RT(I'm gonna have you write some lines..,You'll be doing a bit of line writing,You're going to write lines) #DT4 @WritingTask(Naughty nasty slaves get punished, I want to behave and be a good boy for Miss.)
+#GNMGood #DT4
+@RT(I hope you learned your lesson..,I do hope you caught something today,I hope you've picked something up today) #DT4
+@End
+(AcademyDetentionLevel1)
+@RT(Since you've been very a naughty boy,Due to poor performance,Because of poor performance,Since you haven't performed well) #DT4
+@RT(I'm gonna have you write some lines..,You'll be doing a bit of line writing,You're going to write lines) #DT4 @WritingTask(Naughty boys get punished, I want to be a good boy.)
+#GNMGood #DT4
+@RT(I hope you learned your lesson..,I do hope you caught something today,I hope you've picked something up today) #DT4
+@End
+(Failed Writing Task)
+This punishment doesn't end until you do it correctly.. #DT4 @Goto(FindTask)

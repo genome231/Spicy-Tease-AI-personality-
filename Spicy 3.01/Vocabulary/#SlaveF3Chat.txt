@@ -1,3 +1,0 @@
-@Flag(F3Pic1) @SystemMessage[#SlaveF3]: @ShowImage[\GNMImages\Slaves\F3 Rosie Danvers\1\*.jpg]
-@Flag(F3Pic2) @SystemMessage[#SlaveF3]: @ShowImage[\GNMImages\Slaves\F3 Rosie Danvers\2\*.jpg]
-@Flag(F3Pic3) @SystemMessage[#SlaveF3]: @ShowImage[\GNMImages\Slaves\F3 Rosie Danvers\3\*.jpg]

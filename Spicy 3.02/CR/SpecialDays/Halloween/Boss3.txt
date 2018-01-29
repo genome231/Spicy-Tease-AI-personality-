@@ -1,0 +1,40 @@
+@NullResponse @SetVar[DemonHP]=[1]
+@NullResponse @LockImages
+@SystemMessage Having defeated the second boss you continue your journey @ShowImage[\GNMImages\SpecialDays\Halloween\Cave.jpg]
+@SystemMessage You find yourself walking through ruins and caves
+@SystemMessage Suddenly a beautifull demon appears @ShowImage[\GNMImages\SpecialDays\Halloween\3.jpg]
+@SystemMessage You raise your shield and sword
+@SystemMessage But soon you find yourself being assaulted by chains
+@SystemMessage Gripping you they pull out over the edge
+@SystemMessage Holding you only by your feet
+@SystemMessage She smiles and laughs
+@SystemMessage "Slave.."
+@SystemMessage "This is simple"
+@SystemMessage "Answer my riddle and you shall pass"
+@SystemMessage "Fail and you will fall to your death" 
+@SystemMessage Fear fills you up, you realize there is no escape
+@SystemMessage You have to play her game
+@SystemMessage "Now listen.."
+@SystemMessage "Two men are walking in a graveyard"
+@SystemMessage "The first man walks to a grave"
+@SystemMessage "The second man says"
+@SystemMessage "Who is in that grave?"
+@SystemMessage "The first man points to the grave and says:"
+@SystemMessage "Brothers and sisters I have none, but that man's father, is my father's son"
+@SystemMessage "Who is in the grave?" @Timeout(20, Time)
+[speaker,himself,self,first man,first] @SystemMessage "Sadly you are correct.." @Goto(Victory1)
+@AcceptAnswer @SystemMessage "Incorrect.. It was the first man!" @Goto(Dead)
+(Time)
+@SystemMessage "Time's up.."
+@SystemMessage "Goodbye..." @Goto(Dead)
+(Victory1)
+@SystemMessage Answering correct, the demon allows you to pass @SetVar[HBoss]=[3] 
+@NullResponse @Goto(Boss4)
+(Boss4)
+@NullResponse @CallReturn(CR\SpecialDays\Halloween\Boss4.txt)
+@End
+(Dead)
+@SystemMessage You fall to the ground
+@SystemMessage You die upon hitting the ground
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)

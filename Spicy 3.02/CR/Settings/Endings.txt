@@ -1,0 +1,222 @@
+@Variable[#DateDifference(LockOut1, Days)]<[Lock1Input] @SystemMessage #VANC #VANP These settings are locked to you @Goto(End)
+@NullResponse @CheckFlag(EndingSettingsFirst)
+@NullResponse @SetFlag(EndingSettingsFirst)
+@SystemMessage #VANC #VANP In here you have the option to enable different game endings
+@SystemMessage #VANC #VANP Instead of domme making a choice
+@SystemMessage #VANC #VANP Your ruins and orgasms will depend on the game
+(EndingSettingsFirst)
+@SystemMessage #VANC #VANP You are currently active with: 
+@Flag(DenialTraining) @SystemMessage #VANC #VANP Denial Training @Goto(Change)
+@Flag(BeadsDeep) @SystemMessage #VANC #VANP Beads Deep game @Goto(Change)
+@Flag(ValleyOfDarkness) @SystemMessage #VANC #VANP Valley of Darkness game @Goto(Change)
+@Flag(EdgeOfDesperation) @SystemMessage #VANC #VANP Edge of Desperation game @Goto(Change)
+@Flag(FrequentFlyer) @SystemMessage #VANC #VANP Frequent Flyer game @Goto(Change)
+@Flag(TrainingMode) @SystemMessage #VANC #VANP Training Mode @Goto(Change)
+@Flag(OrgasmRoulette) @SystemMessage #VANC #VANP Orgasm Roulette @Goto(Change)
+@Flag(FinancialDomination) @SystemMessage #VANC #VANP Financial Domination @Goto(Change)
+@Flag(TreasureHunt) @SystemMessage #VANC #VANP Treasure Hunt @Goto(Change)
+@Flag(AuthorsGame) @SystemMessage #VANC #VANP Authors Game @Goto(Change)
+@Flag(Standard) @SystemMessage #VANC #VANP Standard mode @Goto(Change)
+(NoModeFound)
+@NullResponse @SetFlag(Standard)
+(Change)
+@SystemMessage #VANC #VANP Do you wish to change, exit or would you like some info? 
+[change,edit]@SystemMessage #VANC #VANP Initiating clean up
+[exit,quit,leave]@NullResponse @Goto(End)
+[info]@NullResponse @Goto(Info)
+@DifferentAnswer @SystemMessage #VANC #VANP Change, exit or info?
+@NullResponse @RapidCodeOn 
+@NullResponse @DeleteFlag(DenialTraining)
+@NullResponse @DeleteFlag(BeadsDeep)
+@NullResponse @DeleteFlag(ValleyOfDarkness)
+@NullResponse @DeleteFlag(EdgeOfDesperation)
+@NullResponse @DeleteFlag(FrequentFlyer)
+@NullResponse @DeleteFlag(TrainingMode)
+@NullResponse @DeleteFlag(OrgasmRoulette)
+@NullResponse @DeleteFlag(FinancialDomination)
+@NullResponse @DeleteFlag(TreasureHunt)
+@NullResponse @DeleteFlag(AuthorsGame)
+@NullResponse @DeleteFlag(WindowOfOpportunity)
+@NullResponse @SetFlag(Standard)
+@SystemMessage #VANC #VANP Notice all games have to be bought from the shop
+@SystemMessage #VANC #VANP You have access to the following games:
+@Flag(EndGame1) @SystemMessage #VANC #VANP Denial Training
+@Flag(EndGame2) @SystemMessage #VANC #VANP Beads Deep
+@Flag(EndGame3) @SystemMessage #VANC #VANP Valley of darkness
+@Flag(EndGame4) @SystemMessage #VANC #VANP Edge of Desperation
+@Flag(EndGame5) @SystemMessage #VANC #VANP Frequent Flyer
+@Flag(EndGame6) @SystemMessage #VANC #VANP Training Mode
+@Flag(EndGame7) @SystemMessage #VANC #VANP Orgasm Roulette
+@Flag(EndGame8) @SystemMessage #VANC #VANP Financial Domination
+@Flag(EndGame9) @SystemMessage #VANC #VANP Treasure Hunt
+@Flag(EndGame10) @SystemMessage #VANC #VANP Authors Game
+@Flag(EndGame11) @SystemMessage #VANC #VANP Window of Opportunity
+@SystemMessage #VANC #VANP Standard mode
+(NewMode)
+@SystemMessage #VANC #VANP What game do you wish to activate?
+[denial]@NullResponse @Goto(1)
+[beads deep]@NullResponse @Goto(2)
+[valley of darkness]@NullResponse @Goto(3)
+[edge of desperation]@NullResponse @Goto(4)
+[frequent flyer]@NullResponse @Goto(5)
+[training mode]@NullResponse @Goto(6)
+[orgasm roulette]@NullResponse @Goto(7)
+[financial domination]@NullResponse @Goto(8)
+[treasure hunt]@NullResponse @Goto(9)
+[authors]@NullResponse @Goto(10)
+[window]@NullResponse @Goto(11)
+[standard]@NullResponse @Goto(12)
+@DifferentAnswer @SystemMessage #VANC #VANP Come again?
+(1)
+@NotFlag(EndGame1) @SystemMessage #VANC #VANP You need to buy Denial Training in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating.. @SetFlag(DenialTraining) @DeleteFlag(Standard) @Goto(LockPeriod)
+(2)
+@NotFlag(EndGame2) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating....
+@NullResponse @SetFlag(BeadsDeep) @DeleteFlag(Standard)
+@SystemMessage #VANC #VANP How many white beads should you need to collect?
+(NewBeadGame)
+@SystemMessage #VANC #VANP Choose between 5 and 15 @InputVar[RequiredBeads]
+@Variable[RequiredBeads]>[15] @SystemMessage #VANC #VANP That number is too high, you can't choose more than 15.. @Goto(NewBeadGame)
+@Variable[RequiredBeads]<[5] @SystemMessage #VANC #VANP That number is too low, you must choose a number higher than 4.. @Goto(NewBeadGame)
+@Variable[RequiredBeads]>[9] @SystemMessage #VANC #VANP Wow going with a high number huh.. Nice! #MeritChangePMedium
+@SystemMessage #VANC #VANP Perfect! @SetVar[WhiteBeads]=[0]
+@NullResponse @Goto(LockPeriod)
+(3)
+@NotFlag(EndGame3) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating....
+@NullResponse @SetFlag(ValleyOfDarkness) @DeleteFlag(Standard)
+@SystemMessage #VANC #VANP @RT(Setting a new date for you,Setting a brand new date for,Setting an even harder date for you!,Writing down a new date) @Goto(Random1VoD,Random2VoD,Random3VoD)
+(Random1VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) 
+@NullResponse @SetVar[ValleyOfDarknessSessions]=[0] 
+@NullResponse @ChangeVar[ValleyOfDarknessSessions]=[ValleyOfDarknessSessions]+[#Random(11,14)] 
+@NullResponse @SetVar[ValleyOfDarknessSet]=[0]
+@NullResponse @ChangeVar[ValleyOfDarknessSet]=[ValleyOfDarknessSet]+[#Random(15,18)] @Goto(LockPeriod)
+(Random2VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) 
+@NullResponse @SetVar[ValleyOfDarknessSessions]=[0] 
+@NullResponse @ChangeVar[ValleyOfDarknessSessions]=[ValleyOfDarknessSessions]+[#Random(8,11)] 
+@NullResponse @SetVar[ValleyOfDarknessSet]=[0]
+@NullResponse @ChangeVar[ValleyOfDarknessSet]=[ValleyOfDarknessSet]+[#Random(12,15)] @Goto(LockPeriod)
+(Random3VoD)
+@NullResponse @SetDate(ValleyOfDarkness, 0 Days) 
+@NullResponse @SetVar[ValleyOfDarknessSessions]=[0] 
+@NullResponse @ChangeVar[ValleyOfDarknessSessions]=[ValleyOfDarknessSessions]+[#Random(5,8)] 
+@NullResponse @SetVar[ValleyOfDarknessSet]=[0]
+@NullResponse @ChangeVar[ValleyOfDarknessSet]=[ValleyOfDarknessSet]+[#Random(9,12)] @Goto(LockPeriod)
+(4)
+@NotFlag(EndGame4) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating..
+@NullResponse @SetFlag(EdgeOfDesperation) @DeleteFlag(Standard) @SetVar[EoDMagic]=[0]
+@NullResponse @ChangeVar[EoDMagic]=[EoDMagic]+[100,500]
+@NullResponse @Goto(LockPeriod)
+(5) 
+@NotFlag(EndGame5) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating..
+@NullResponse @SetFlag(FrequentFlyer) @DeleteFlag(Standard) @SetVar[FFRequiredSessions]=[0]
+@NullResponse @ChangeVar[FFRequiredSessions]=[FFRequiredSessions]+[#Random(4,16)]
+@NullResponse @Goto(LockPeriod)
+(6) 
+@NotFlag(EndGame6) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@NullResponse @DeleteFlag(TMSmall)
+@NullResponse @DeleteFlag(TMMedium)
+@NullResponse @DeleteFlag(TMHigh)
+@SystemMessage #VANC #VANP Activating....
+@NullResponse @SetFlag(TrainingMode) @DeleteFlag(Standard)
+(SimpleNumber)
+@SystemMessage #VANC #VANP Select a minimum number of days to begin with @InputVar[DTrainingSessionsMinimum]
+@Variable[DTrainingSessionsMinimum]>[0] @NullResponse @Goto(6a)
+@SystemMessage #VANC #VANP You need to choose a simple number higher than 0
+@SystemMessage #VANC #VANP You cannot type 2 days
+@SystemMessage #VANC #VANP Simply type 2 @Goto(SimpleNumber)
+(6a)
+@SystemMessage #VANC #VANP Choose between easy, medium or hard challenge
+[easy]@NullResponse @SetFlag(TMSmall)
+[medium]@NullResponse @SetFlag(TMMedium)
+[hard]@NullResponse @SetFlag(TMHigh)
+@DifferentAnswer @SystemMessage #VANC #VANP Easy, Medium or Hard?
+@SystemMessage #VANC #VANP Setting date for your next orgasm and choosing rounds..
+@NullResponse @CallReturn(CR\Settings\Endings\TrainingModeSetup.txt)
+@SystemMessage #VANC #VANP Done.. @Goto(LockPeriod)
+(7)
+@NotFlag(EndGame7) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating.... @SetFlag(OrgasmRoulette) @DeleteFlag(Standard) @Goto(LockPeriod)
+(8)
+@NotFlag(EndGame8) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating it.. @SetFlag(FinancialDomination) @DeleteFlag(Standard) @Goto(LockPeriod)
+(9)
+@NotFlag(EndGame9) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating.. @SetFlag(TreasureHunt) @DeleteFlag(Standard) @Goto(LockPeriod)
+(10) 
+@NotFlag(EndGame10) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@SystemMessage #VANC #VANP Activating.. @SetFlag(AuthorsGame) @DeleteFlag(Standard) @Goto(LockPeriod)
+(11)
+@NotFlag(EndGame11) @SystemMessage #VANC #VANP You need to buy this game in the shop before you can activate it @Goto(NewMode)
+@FlagOr(Personality1,Personality2) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get tripled
+@Flag(Personality3) @SystemMessage #VANC #VANP Fridays are special days, the number you roll with the dices on fridays will get doubled
+@SystemMessage #VANC #VANP This game is considered VERY hard and NOT recommended for beginners!
+@SystemMessage #VANC #VANP Activating.. it.. @SetFlag(WindowOfOpportunity) @DeleteFlag(Standard) @SetVar[WOOStrokes]=[0] 
+@NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] 
+@NullResponse @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
+@NullResponse @SetVar[WOOMax]=[0] 
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
+@NullResponse @Goto(LockPeriod)
+(12) 
+@SystemMessage #VANC #VANP Activating.. it.. @SetFlag(Standard) @Goto(LockPeriod)
+(LockPeriod)
+@SystemMessage #VANC #VANP Your mode has been activated
+@SystemMessage #VANC #VANP Input the lock duration for your mode
+@SystemMessage #VANC #VANP Input 0 if you don't wish to lock your mode
+@SystemMessage #VANC #VANP Input 99999 if you wish to permanently lock your mode
+@SystemMessage #VANC #VANP You cannot write '10 Days'
+@SystemMessage #VANC #VANP You cannot write '-5'
+@SystemMessage #VANC #VANP You cannot write '5,5' or '10.6'
+@SystemMessage #VANC #VANP You can write '6' or '10' or '99999'
+@SystemMessage #VANC #VANP Input your choice @InputVar[Lock1Input]
+@Variable[Lock1Input]<[0] @SystemMessage #VANC #VANP You cannot go lower than 0.. @Goto(LockPeriod)
+@Variable[Lock1Input]>[99999] @SystemMessage #VANC #VANP You cannot go higher than 99999 @Goto(LockPeriod)
+@Variable[Lock1Input]>=[0] @SystemMessage #VANC #VANP Input accepted.. @Goto(Check)
+@SystemMessage #VANC #VANP You chose a value out of index
+@SystemMessage #VANC #VANP You cannot input "5 days"
+@SystemMessage #VANC #VANP Instead simply type 5 @Goto(LockPeriod)
+(Check)
+@SystemMessage #VANC #VANP You have chosen @ShowVar[Lock1Input] days
+@SystemMessage #VANC #VANP Are you sure?
+[yes]@SystemMessage #VANC #VANP Saving settings.. @Goto(End)
+[no]@SystemMessage #VANC #VANP Resetting input @Goto(LockPeriod)
+@DifferentAnswer @SystemMessage #VANC #VANP #GNMYesOrNo
+(Info)
+@SystemMessage #VANC #VANP You have access to the following games:
+@Flag(EndGame1) @SystemMessage #VANC #VANP Denial Training
+@Flag(EndGame2) @SystemMessage #VANC #VANP Beads Deep
+@Flag(EndGame3) @SystemMessage #VANC #VANP Valley of darkness
+@Flag(EndGame4) @SystemMessage #VANC #VANP Edge of Desperation
+@Flag(EndGame5) @SystemMessage #VANC #VANP Frequent Flyer
+@Flag(EndGame6) @SystemMessage #VANC #VANP Training Mode
+@Flag(EndGame7) @SystemMessage #VANC #VANP Orgasm Roulette
+@Flag(EndGame8) @SystemMessage #VANC #VANP Financial Domination
+@Flag(EndGame9) @SystemMessage #VANC #VANP Treasure Hunt
+@Flag(EndGame10) @SystemMessage #VANC #VANP Authors Game
+@Flag(EndGame11) @SystemMessage #VANC #VANP Window of Opportunity
+@SystemMessage #VANC #VANP Standard mode
+(InfoQuestion)
+@SystemMessage #VANC #VANP What game would you like to know more about?
+[denial] #VANC #VANP This game is not implemented yet @Goto(InfoQuestion)
+[beads deep]@NullResponse @CallReturn(CR\Settings\Endings\BeadsDeepInfo.txt)
+[valley of darkness]@NullResponse @CallReturn(CR\Settings\Endings\ValleyOfDarknessInfo.txt)
+[edge of desperation]@NullResponse @CallReturn(CR\Settings\Endings\EdgeOfDesperationInfo.txt)
+[frequent flyer]@NullResponse @CallReturn(CR\Settings\Endings\FrequentFlyerInfo.txt)
+[training mode] @SystemMessage #VANC #VANP @CallReturn(CR\Settings\Endings\TrainingInfo.txt)
+[orgasm roulette]@NullResponse @CallReturn(CR\Settings\Endings\OrgasmRouletteInfo.txt)
+[financial domination]@NullResponse @CallReturn(CR\Settings\Endings\FinancialDominationInfo.txt)
+[treasure hunt]@NullResponse @CallReturn(CR\Settings\Endings\TreasureHuntInfo.txt)
+[authors]@NullResponse @CallReturn(CR\Settings\Endings\AuthorsGameInfo.txt)
+[window]@NullResponse @CallReturn(CR\Settings\Endings\WindowOfOpportunityInfo.txt)
+[standard]@NullResponse @CallReturn(CR\Settings\Endings\StandardInfo.txt)
+[exit,quit,leave,edit,change] @NullResponse @Goto(Change)
+@DifferentAnswer @SystemMessage #VANC #VANP Come again?
+@NullResponse @Goto(InfoQuestion)
+(End)
+@End

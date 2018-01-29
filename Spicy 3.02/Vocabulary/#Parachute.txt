@@ -1,0 +1,1 @@
+parachute @ShowImage[GNMImages\Toys\Parachute.jpg]

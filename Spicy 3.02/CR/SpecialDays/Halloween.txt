@@ -1,0 +1,44 @@
+Hi #SlaveName #DT
+It's Halloween! #DT
+And instead of our regular session #DT
+I have a small game planned for you #GNMGrin #DT
+I'm not gonna lie! #DT
+It's super difficuilt! #DT
+I want you scared #GNMLol #DT
+Trust me #DT
+You will be scared! #DT
+Now listen #DT
+You'll facing 5 bosses and they are rather different each of them #DT
+Think of this like a pen & paper dungeons and dragons #DT
+Well somewhat like that #DT
+Not <i>quite</i> .. #DT
+If you defeat at least 3 you will be heavily rewarded #DT
+No matter how many you defeat #DT
+You will earn punishment points #DT
+Even if you defeat all 5 #GNMGrin #DT
+But the more bosses you defeat you'll be given less and less #DT
+Trust me! #DT
+You don't wanna die at the first boss #DT
+Nor the second #GNMGrin #DT
+You won't believe how many punishment points that will earn you! #GNMLol #DT
+Feeling scared? #DT
+I hope so #GNMGrin #DT
+Now this works through written actions #DT
+For instance you will be given some info #DT
+Then you will be asked #DT
+"What do you do" #DT
+Here you can try replying with different stuff #DT
+You might say block, attack, cast spell or something else entirely #DT
+It's all for you to discover #DT
+Now you have health #DT
+And you have mana #DT
+Lose all health and you die #DT
+Lose all mana and you can't cast spells #DT
+Some stuff will kill you directly no matter your health pool #DT
+So thread lightly #DT
+And use that horny slow brain of yours #GNMLol #DT
+@NullResponse @SetVar[HalloweenHP]=[10]
+@NullResponse @SetVar[HalloweenMana]=[10]
+Enjoy #DT
+@NullResponse @CallReturn(CR\SpecialDays\Halloween\Boss1.txt)
+@End

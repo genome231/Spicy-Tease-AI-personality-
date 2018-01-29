@@ -1,0 +1,39 @@
+(R4) //agree to stroke while sub gets pleasure not stopping
+@RT(I have a fun proposal,I have the perfect idea!,You'll love this!) #GNMGrin #DT
+@RT(Instead of you ruining it like I planned,Instead of a simple ruined orgasm) #DT
+@RT(I have an idea that might like or hate,I have an idea that might find interesting) #DT
+@RT(But it will require all of your willpower,But its also a difficult thing I'm asking!) #GNMGrin #DT
+@RT(I want to give you a full orgasm instead or ruining it,The good news are you will get a full orgasm) #DT
+@RT(But it comes with a price,But there is a 'but') #GNMEmoteHappy #DT
+@RT(And I don't guarantee anything,And there isn't any guaranties either) #DT
+@RT(I will show you a video involving a fucking machine,You'll see a video involving a fucking machine) #DT
+@RT(Whenever the machine pushes forward you stroke up,When the machine pushes forward you stroke up) #DT
+@RT(When it pushes backwards you stroke down,Backwards = down) #DT
+@RT(So you will time your stroking to the pace of the machine,So you and the machine will be in sync) #DT
+@RT(You may cum whenever you feel like,You may absolute cum whenever you can) #DT
+@RT(But you may <i>not</i> stop whenever you like,But you may not stop stroking as long as the machine moves) #DT
+@RT(#GNMGrin,#GNMEmoteHappy,#GNMLol) #DT
+@Flag(SissyMode) Now normally you would only use your vibrator #DT
+@Flag(SissyMode) But for this you have my rare permission to stroke #GNMGrin #DT
+@RT(I bet you know where this is going..,You just went a little pale) #DT
+@RT(Now I have a little incentive,Now this needs an incentive) #DT
+If you fail to stroke when suppose to I will award you punishment points #DT
+If you manage to do it I will reward you with gold #DT
+@RT(Are you up for the challenge?,Wanna do it?) #DT
+[yes]#GNMGood ! #GNMEmoteHappy #DT #MeritChangePLow
+[no]Well another time perhaps #DT #MeritChangeNLow @Goto(ChastityCheck)
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Enjoy #SlaveName,Have fun little one!) #DT
+@NullResponse @PlayVideo[\GNM_Videos\Endings\R4\*.mp4]
+@RT(Did you succeed slave?,Now did you make it slave?) #DT
+[yes]@RT(Transferring some gold then,Sending you gold!) #GNMGrin #DT #GDRegisterOrgasm #GoldMedium @Goto(AteCheck)
+[no]Well well.. #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@RT(Did you simply not cum or did you stop after cumming?) #DT
+[stopped, stop]@RT(I have to admit I'm disappointed in you..,I'm quite disappointed) #DT #GDRegisterOrgasm @ChangeVar[GNMPPoints]=[GNMPPoints]+[100] @Goto(AteCheck)
+[not cum, no cum, no orgasm] That is quite unfortunate for you. More luck next time #DT @Goto(AteCheck)
+@DifferentAnswer Just tell me, did you not cum or did you stop?
+(AteCheck)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

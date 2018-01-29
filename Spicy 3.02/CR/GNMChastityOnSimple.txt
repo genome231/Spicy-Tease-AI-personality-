@@ -1,0 +1,12 @@
+@NullResponse @CheckFlag(ChastityIsOn) @Goto(Continue)
+(ChastityIsOn)
+@NullResponse @UnlockImages
+@End
+(Continue)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) @LockImages @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3] @SetVar[PatienceTest]=[0] @ShowImage[\GNMImages\Chastity\ChastityOn\*]
+@RT(Put on your #Cage,Get your #Cage on,Put on the #Cage at once,Hurry up and get the #Cage back on,Be quick and get your #Cage back on)
+@RT(Let me know when you're done..,Report to me when it's on,Remember to tell me when it's on) 
+[done,its on,on,it's on,back on,caged,i'm caged,cage] #GNMGood @SetFlag(ChastityIsOn) @ChastityOn @UnlockImages
+@DifferentAnswer Is it on?
+@NullResponse @UnlockImages
+@End

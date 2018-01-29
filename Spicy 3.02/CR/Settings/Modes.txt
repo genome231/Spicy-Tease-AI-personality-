@@ -1,0 +1,64 @@
+@NotFlag(FullTime) @SystemMessage #VANC #VANP You aren't a full time slave
+@NotFlag(FullTime) @SystemMessage #VANC #VANP So you can't access the different modes. @Goto(End)
+(Base)
+@Flag(StudentMode) @SystemMessage #VANC #VANP You have StudentMode on
+@NotFlag(StudentMode) @SystemMessage #VANC #VANP You have StudentMode off
+@Flag(AthleteMode) @SystemMessage #VANC #VANP You have AthleteMode on
+@NotFlag(AthleteMode) @SystemMessage #VANC #VANP You have AthleteMode off
+@SystemMessage #VANC #VANP Info, change modes or return?
+[info] @NullResponse @Goto(Info)
+[switch,change,mode,modes] @NullResponse @Goto(ChangeModes)
+[return] @NullResponse
+@DifferentAnswer @SystemMessage #VANC #VANP Info, change modes or return?
+@End
+(Info)
+@SystemMessage #VANC #VANP StudentMode adds the requirement of you studying x hours per week
+@SystemMessage #VANC #VANP AthleteMode adds the requirement of you reporting completed exercise x times per week
+@SystemMessage #VANC #VANP At the weekly full time checkup 
+@SystemMessage #VANC #VANP you will either be punished or rewarded based on your effort with either mode @Goto(Base)
+(ChangeModes)
+@SystemMessage #VANC #VANP It is highly recommended
+@SystemMessage #VANC #VANP That you only activate any modes on the same day as full time check up
+@SystemMessage #VANC #VANP Are you sure you wish to continue?
+[yes] @SystemMessage #VANC #VANP Okay
+[no] @SystemMessage #VANC #VANP Understood @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@Variable[ModeLocked2]>[#DateDifference(ModeLocked, Days)] @SystemMessage #VANC #VANP Your modes are locked @Goto(Locked)
+@SystemMessage #VANC #VANP Do you wish to activate StudyMode?
+[yes] @SystemMessage #VANC #VANP #GNMGood @SetFlag(StudyMode)
+[no] @SystemMessage #VANC #VANP Okay @DeleteFlag(StudyMode) @Goto(Athlete)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+(Study)
+@SystemMessage #VANC #VANP How many hours should you at least spend studying per week? @InputVar[StudyHoursReq]
+@Variable[StudyHoursReq]<[10] @SystemMessage #VANC #VANP You have to input at least 10 @Goto(Study)
+@NullResponse @ChangeVar[StudyHoursReq]=[StudyHoursReq]*[3600]
+@SystemMessage #VANC #VANP Noted @SetVar[StudyHours]=[0]
+
+(Athlete)
+@SystemMessage #VANC #VANP Do you wish to activate AthleteMode?
+[yes] @SystemMessage #VANC #VANP #GNMGood @SetFlag(AthleteMode) 
+[no] @SystemMessage #VANC #VANP Okay @DeleteFlag(AthleteMode) @Goto(Lock)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+(Athlete2)
+@SystemMessage #VANC #VANP How many times per week should you at least exercise? @InputVar[ExerciseTimesReq]
+@Variable[ExerciseTimesReq]<[3] @SystemMessage #VANC #VANP You have to input at least 3 @Goto(Athlete2)
+@SystemMessage #VANC #VANP Noted @SetVar[ExerciseTimes]=[0]
+
+(Lock)
+@SystemMessage #VANC #VANP Do you wish to lock your modes?
+[yes] @SystemMessage #VANC #VANP okay 
+[no] @SystemMessage #VANC #VANP Okay @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+(Lock2)
+@SystemMessage #VANC #VANP Input the number of days you wish to lock your settings 
+@SystemMessage #VANC #VANP write 99999 if forever. @InputVar[ModeLocked2]
+@Variable[ModeLocked2]<[1] @SystemMessage #VANC #VANP You have to input a value higher than 0 @Goto(Lock2)
+@SystemMessage #VANC #VANP Locking modes.. @SetDate[ModeLocked, 0 Days]
+@SystemMessage #VANC #VANP Modes locked @Goto(End)
+(Locked)
+@NullResponse @SetVar[DaysToGo]=[0]
+@NullResponse @ChangeVar[DaysToGo]=[ModeLocked2]-[#DateDifference(ModeLocked, Days)]
+@SystemMessage #VANC #VANP Your modes are still locked for @ShowVar[DaysToGo] days
+(End)
+@NullResponse
+@End

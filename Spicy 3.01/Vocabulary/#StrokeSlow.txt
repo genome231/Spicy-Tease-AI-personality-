@@ -1,2 +1,0 @@
-@Flag(TortureStrokeMode) @PlayAudio[\GNMSounds\Stroking\MetronomeTorture\*.mp3]
-@Flag(SlowStrokeMode) @PlayAudio[\GNMSounds\Stroking\MetronomeSlow\*.mp3]

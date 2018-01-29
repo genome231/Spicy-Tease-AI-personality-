@@ -1,0 +1,3 @@
+@RT(Since you don't really have much more use for that #GNMCock,Since you can't use your #GNMCock) #DT
+@RT(The remaining part of this session should be fun!,This session might actually get fun!) #DT
+@End

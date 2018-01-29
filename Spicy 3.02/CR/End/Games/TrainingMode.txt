@@ -1,0 +1,61 @@
+(TrainingMode)
+#SlaveName  #DT
+@RT(I hope you're still <i>comfortable</i> in your state of denial,I hope that you're still doing well in denial,I hov you're holding on) #GNMGrin #DT
+@RT(Well well,Hmm,Lets see..,Now..,)  #DT
+@Variable[#DateDifference(TMDays, Days)]<[DTrainingSessionsMinimum] @NullResponse @Goto(TMGo)
+@RT(You know how this goes,You know the drill,You know what happens now,You should know what happens now) #DT
+@RT(Since it's not time for your orgasm yet,It's not time for your ejaculation yet so..,Because it isn't time for your orgasm just yet,Since it's not time for your orgasm yet)  #DT
+@Flag(HasChastity) @RT(It's just straight back in that,You gotta go straight back in the,You have to get into the) #Cage #DT #GNMLol @Goto(Deny)
+@NotFlag(HasChastity) It's now forbidden for you to touch that #GNMCock #DT @Goto(Deny)
+(TMGo)
+@RT(It seems its your lucky day!,Today is your day,The magical day has come,The amazing day has come) #DT @ChangeVar[TrainingModeSessionsToGo]=[TrainingModeSessionsToGo]-[1] @If[TrainingModeSessionsToGo]<=[0]Then(TMNoMore)
+Before we let you have an ejaculation I'm just gonna set a new date for your release #GNMGrin #DT
+(TMNewSession)
+@NullResponse @RapidCodeOn
+@Flag(TMSmall) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(0,3)]
+@Flag(TMMedium) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(1,5)]
+@Flag(TMHigh) @NullResponse @ChangeVar[DTrainingSessionsMinimum]=[DTrainingSessionsMinimum]+[#Random(1,7)]
+Okay then! #DT
+I've just set a new date for you #GNMGrin #DT
+@Flag(TMKnow) @Variable[DTrainingSessionsMinimum]<[14] I promise that your next ejaculation is less than 14 sessions away #GNMLol #DT @Goto(TMGo2)
+@Flag(TMKnow) @Variable[DTrainingSessionsMinimum]>[28] I promise that your next ejaculation is at least 28 sessions away from now #GNMLol #DT @Goto(TMGo2)
+@Flag(TMKnow) I promise that your next ejaculation is at least 14 sessions, but no more than 28 sessions away from now #GNMLol #DT @Goto(TMGo2)
+(TMGo2)
+Well lets see about that ejaculation shall we #GNMGrin #DT @Goto(Ruined,Orgasm)
+(TMNoMore)
+And we're at the end of your denial training  #DT
+Do you wish to start another session? #DT
+[yes]#GNMGood #DT
+[no]@RT(Next time perhaps,Another time maybe,Another time perhaps,Well maybe later,I hope you'll be willing to later) #DT @DeleteFlag(TrainingMode) @SetFlag(Standard) @Goto(TrainingModeEnd)
+@DifferentAnswer #GNMYesOrNo #DT
+Well #SlaveName #DT @DeleteFlag(TMSmall,TMMedium,TMHigh)
+I just need to know the details again #DT
+(TrainingModeSet1)
+How many days do you wish to be your minimum? #DT @InputVar[DTrainingSessionsMinimum]
+@Variable[DTrainingSessionsMinimum]>[0]@NullResponse @Goto(TrainingModeSet2)
+You have to choose a value higher than 0 #DT
+Remember you can't write '3 days' or '1 week' #DT
+Simply input a number like #DT
+5 #DT
+or #DT
+3 #DT @Goto(TrainingModeSet1)
+(TrainingModeSet2)
+Next I need to know if you want use a small, medium or large increment? #DT
+[small]#GNMGood #DT @SetFlag(TMSmall)
+[medium]#GNMGood #DT @SetFlag(TMMedium)
+[large]#GNMGood #DT @SetFlag(TMHigh)
+@DifferentAnswer Small, Medium or Large? #DT
+Let me quickly set the date of your next orgasm and the number of rounds #DT
+@NullResponse @CallReturn(CR\Settings\Endings\TrainingModeSetup.txt)
+(TrainingModeSet4)
+That was it! #GNMEmoteHappy #MeritChangePMedium #DT
+But now it's time for you to enjoy a release! #DT @Goto(Ruined,Orgasm)
+(TrainingModeEnd)
+I hope that you enjoyed it  #DT
+But now it's time for you to enjoy a release! #DT @Goto(Ruined,Orgasm)
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

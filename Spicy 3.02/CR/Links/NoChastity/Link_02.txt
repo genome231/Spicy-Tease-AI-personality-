@@ -1,0 +1,18 @@
+@NullResponse @CheckFlag(pvLink02A)
+@NullResponse @CheckFlag(pvLink02B)
+Do you @RT(want,need) @RT(a break,to take a break) #SlaveName? #DT @SetFlag(pvLink02A)
+[yes] Too bad, you're not getting one #GNMLol #DT
+[no] #GNMGood #DT
+@DifferentAnswer #YesOrNo
+I want to make you ache for so fucking bad #Grin #DT
+@End
+(pvLink02A)
+Remember when you used to #JerkOff whenever you wanted to? #DT @DeleteFlag(pvLink02A) @SetFlag(pvLink02B)
+That's not your life anymore, is it...? #DT
+Now you only jerk that #GNMCock because I said so #DT
+And your gonna do it some more right now #DT
+Because it turns you into a mindless toy, just the way I want you #DT
+@End
+(pvLink02B)
+@NullResponse @DeleteFlag(pvLink02B)
+@End

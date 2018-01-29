@@ -1,0 +1,12 @@
+@Flag(Busy) @NullResponse @Goto(End2)
+@Variable[#DateDifference(Spoken, Minutes)]>=[3] @NullResponse @Goto(NoPermission)
+@RT(#GNMLol,#GNMGrin,Well well,Well) #DT
+@RT(Get used to it,It can't really suprise you..,I don't blame you for that #GNMGrin) #DT
+@End
+(NoPermission)
+You need permission before you speak #DT #MeritChangeNMedium
+Transfering punishment points to you #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@End
+(End2)
+@NullResponse #MeritChangeNLow
+@End

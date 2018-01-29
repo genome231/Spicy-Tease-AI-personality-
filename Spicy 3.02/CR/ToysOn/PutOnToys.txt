@@ -1,0 +1,53 @@
+(UpdateToyAmount)
+@NullResponse @RapidCodeOn @SetVar[ToysOn]=[0]
+@FlagOr(ParachuteOn,FetchParachute) @NullResponse @ChangeVar[ToysOn]=[ToysOn]+[1]
+@FlagOr(gdPlugged,FetchButtplug) @NullResponse @ChangeVar[ToysOn]=[ToysOn]+[1]
+@FlagOr(GagOn,FetchGag) @NullResponse @ChangeVar[ToysOn]=[ToysOn]+[1]
+@FlagOr(CollarOn,FetchCollar) @NullResponse @ChangeVar[ToysOn]=[ToysOn]+[1]
+(AddToys)
+@Variable[ToysOn]>=[1] @NullResponse @Chance50(Fetch)
+@NullResponse @Goto(Gag,Buttplug,Parachute,Collar)
+(Gag)
+@NotFlag(GagPlay) @NullResponse @Goto(AddToys)
+@FlagOr(FetchGag,GagOn) @NullResponse @Goto(AddToys)
+@NullResponse @TempFlag(FetchGag) @Goto(UpdateToyAmount)
+(Buttplug)
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(AddToys)
+@FlagOr(gdPlugged,FetchButtplug) @NullResponse @Goto(AddToys)
+@NullResponse @TempFlag(FetchButtplug) @Goto(UpdateToyAmount)
+(Parachute)
+@NotFlag(ParachutePlay) @NullResponse @Goto(AddToys) 
+@Variable[PegsBalls]>[0] @NullResponse @Goto(AddToys)
+@FlagOr(FetchParachute,ParachuteOn) @NullResponse @Goto(AddToys)
+@NullResponse @TempFlag(FetchParachute) @Goto(UpdateToyAmount)
+(Collar)
+@NotFlag(CollarPlay) @NullResponse @Goto(AddToys) 
+@FlagOr(FetchCollar,CollarOn) @NullResponse @Goto(AddToys)
+@NullResponse @TempFlag(FetchCollar) @Goto(UpdateToyAmount)
+(Fetch)
+Slave I want you to fetch some things for me #DT
+@Flag(FetchGag) #Fetch #Gag
+@Flag(FetchButtplug) #Fetch #ButtPlug
+@Flag(FetchParachute) #Fetch #Parachute
+@Flag(FetchColoar) #Fetch #Collar
+@NullResponse @Wait(20)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(ApplyToys)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(ApplyToys)
+Now.. #DT
+@Flag(FetchGag) @NotFlag(FetchButtplug) @RT(Put the gag in your mouth,Gag yourself) #DT
+@Flag(FetchButtplug) @NotFlag(FetchGag) @RT(Stick,Put) the plug @RT(into,up) your #GNMAss #DT
+@Flag(FetchGag,FetchButtplug) Put both the gag and the plug in #GNMGrin #DT
+@Flag(FetchCollar) Put on the collar
+@Flag(FetchParachute) The parachute goes on your #GNMBalls #DT
+@Flag(FetchParachute) I want you to attach #Random(1,3) kg's to it #GNMLol #DT
+@NullResponse @Wait(20)
+Are you done? #DT
+[yes]#GNMGood #DT @Goto(Finish)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(Finish)
+@Flag(FetchGag) @NullResponse @Flag(GagOn)
+@Flag(FetchButtplug) @NullResponse @Flag(gdPlugged)
+@Flag(FetchParachute) @NullResponse @Flag(ParachuteOn)
+@End

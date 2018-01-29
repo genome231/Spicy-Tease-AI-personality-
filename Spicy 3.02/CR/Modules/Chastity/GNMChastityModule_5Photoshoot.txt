@@ -1,0 +1,96 @@
+@NullResponse @CheckFlag(GNMToyLingerieAdvanced)
+@NullResponse @CheckFlag(GNMToyLingerieBasic)
+It's a shame you don't have any lingerie #GNMGrin #DT
+I had an idea I think you would absolutely love! #DT
+Well we can still do it #DT
+You'll just look a little less lovely #GNMLol #DT @Goto(Photoshoot)
+(GNMToyLingerieBasic)
+(GNMToyLingerieAdvanced)
+@NullResponse @CallReturn(CR\ToysOn\GNMLingerieOn.txt)
+(Photoshoot)
+@RT(It's time for a photoshoot!,Lets do a photoshoot!,I want to do a photoshoot!) #DT
+#GNMEmoteHappy  #DT
+@RT(Before we begin,Before we start) #DT @Goto(1,2,3)
+(1) \\Catwalk
+@RT(I want you to refresh your memory about the catwalk,You need to refresh what you know about the catwalk) #DT
+@RT(Use youtube to watch a video about it,Go ahead,, google it and read about it) #DT
+@RT(Return when you hear my bell,Come back when you hear my bell) #DT @Wait(#Random(120,180))
+Get back here! #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@RT(Now,Well) #SlaveName #DT
+@RT(It's time for you to set up a recording device!,You need to set up your recording device now) #DT
+@RT(You're going to do the catwalk for me!,You will do a lovely catwalk!) #DT
+@RT(I want you to walk back and fourth 10 times,You are to do the catwalk 15 times) #DT
+@RT(Shake those hips,Move your hips,Make that ass look good,Work those legs) #DT
+@RT(Put on music as well!,Put on a song as well!) #GNMGrin #DT
+When you're done transfer the video to your humiliation folder #DT
+@RT(Who knows ) #DT
+@RT(Maybe,Perhaps) @ShowVar[BlackmailName1] @RT(would like to see it as well?,wouldn't mind seeing them as well,would enjoy watching them!) GNMLol #DT @Goto(Done)
+(2) \\Lying on bed
+@RT(I want you to,You need to) find, think of, imagine as best as you can - different poses #DT
+@RT(Poses you can use while lying on your bed,Poses for to take while shooting different images) #GNMGrin #DT
+@RT(It's really quite simple,It's rather simple,It's not complicated) #DT
+@RT(I want you to snap a few image,You're going to snap some pictures) #DT
+@RT(In different lovely poses,While taking some really good poses) #DT
+@RT(On your bed,And posing them on your bed) #DT
+When You're done I want you to transfer those images to your self humiliation folder #DT
+@RT(We're going to have a blast with them!,We should be able to put them to good use!) #DT
+@RT(Snap at least 10,Take at least 15 pictures) #DT
+@RT(But feel free to do many many more!,But don't shy away from taking a lot more!) #GNMLol #DT @Goto(Done)
+(3) \\Position
+@RT(You need to choose) #Random(3,7) positions #DT
+Your slave positions that is #GNMGrin #DT
+@RT(Take 1 or 2 pictures of you in each position,Snap once or twice) #DT
+Then place those images inside your self humiliation folder #DT
+@RT(They will prove to be invaluable,We can have all the fun in the world with those!) #GNMEmoteHappy #DT @Goto(Done)
+(Done)
+Now #SlaveName #DT
+Get to work! #DT
+Write 'done' when you're done! #DT @CustomMode(done, Goto, Fun) @Wait(9999999)
+(Fun)
+#GNMGood #DT @CustomMode(ModeText, Normal)
+I love watching all these images and movies #DT @Goto(a,b,c)
+(a)
+Does this number ring a bell? @ShowVar[BlackmailPhone1] #DT
+It should #DT
+It belongs to @ShowVar[BlackmailName1] #FF1 @Goto(Continue1)
+(b)
+Does this number ring a bell? @ShowVar[BlackmailPhone2] #DT
+It should #DT
+It belongs to @ShowVar[BlackmailName2] #FF2 @Goto(Continue1)
+(c)
+Does this number ring a bell? @ShowVar[BlackmailPhone3] #DT
+It should #DT
+It belongs to @ShowVar[BlackmailName3] #FF3 @Goto(Continue1)
+(Continue1)
+Imagine me calling her #DT
+@RT(Telling her all about you,Spilling all I have about you) #DT
+@RT(Think she would be,Do you believe she would be) @RT(disgusted?,excited?,interested?) #DT
+@RT(Maybe she would be turned on?,Perhaps she would be calling all of her friends,Maybe she would never talk to you again!) #DT
+@RT(Imagine her face as she receives my text messages,Can you imagine her reaction as she sees all those ugly images of you) #DT
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Wait(5)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Wait(5)
+@RT(Quite nice,Lovely pictures right) #DT
+@RT(Aren't they?,Right?) #DT @Timeout(7,Continue2)
+[yes]@RT(I knew you would,Ofcourse you would,#GNMLol why wouldn't you!) #DT #MeritChangePLow
+[no]@RT(Buhuu be glad I'm not sending them today!,Be thankful that I haven't send them yet) #DT #MeritChangeNLow
+@AcceptAnswer @NullResponse
+(Continue2)
+@Flag(ChastityUpdate3) @Variable[Lust]>[20] @NullResponse @SetVar[CModule5]=[0] @Goto(Video,Slideshow2)
+@RT(Well we better end here,I believe we ought to stop here) #DT
+@End
+(Video)
+I want to show you a video! #DT
+Enjoy! #DT
+@NullResponse @PlayVideo[\GNM_Videos\SelfHumiliation\*.mp4]
+@RT(This is the funniest thing ever!,I can't imagine anything less sexy xD) #DT
+@End
+(Slideshow2)
+@NullResponse @ShowImage[\GNMImages\SelfHumiliation\*.jpg] @Wait(2) @ChangeVar[CModule5]=[CModule5]+[1] @If[CModule5]>=[60]Then(Humiliate) @Goto(Slideshow2)
+(Humiliate)
+@RT(I think I might invite,Perhaps I should invite,I bet you wouldn't mind if I were to invite) @ShowVar[BlackmailName1], @ShowVar[BlackmailName2] and @ShowVar[BlackmailName3] over #DT
+@RT(I'm thinking video night!,Maybe we'll take a good look at your images) #DT
+@RT(You might even get to serve tea,Perhaps you could make us dinner) #DT
+@RT(Soo many possibilities!,I can't decide!) #DT
+#GNMLol #DT
+@End

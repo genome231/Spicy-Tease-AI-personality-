@@ -1,0 +1,6 @@
+Hold the edge! @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]
+Hold the edge @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]
+Stay on the edge.. @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]
+Stay close @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]
+Stay close until I say you can stop @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]
+Ride the edge @PlayAudio[/GNMSounds/Stroking/EdgeHold/*.mp3]

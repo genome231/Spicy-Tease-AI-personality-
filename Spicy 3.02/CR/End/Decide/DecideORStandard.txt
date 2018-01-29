@@ -1,0 +1,41 @@
+(RuinOCheck)
+@RT(I can't decide if I should have you dripple it out,I don't know wether to ruin or let you orgasm,Ruin or orgasm..,What to do.. What to do..,Hmm,This is a hard decision) #DT @RapidCodeOn
+@NullResponse @RapidCodeOn
+@NullResponse @SetVar[Decide]=[0]
+@Flag(Personality1, VPleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(100,170)]
+@Flag(Personality1, Pleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(90,160)]
+@Flag(Personality1, Neutral) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(80,150)]
+@Flag(Personality1, Annoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(70,140)]
+@Flag(Personality1, VAnnoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(60,130)]
+@Flag(Personality2, VPleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(90,150)]
+@Flag(Personality2, Pleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(80,140)]
+@Flag(Personality2, Neutral) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(70,130)]
+@Flag(Personality2, Annoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(60,120)]
+@Flag(Personality2, VAnnoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(50,110)]
+@Flag(Personality3, VPleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(80,130)]
+@Flag(Personality3, Pleased) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(70,120)]
+@Flag(Personality3, Neutral) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(60,110)]
+@Flag(Personality3, Annoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(50,100)]
+@Flag(Personality3, VAnnoyed) @NullResponse @ChangeVar[Decide]=[Decide]+[#Random(40,90)]
+@Variable[GoodDays]<=[BadDays] @NullResponse @ChangeVar[Decide]=[Decide]-[BadDays]
+@Variable[Angry]>=[Happy] @NullResponse @ChangeVar[Decide]=[Decide]-[Angry]
+@Variable[Horny]>=[27] @NullResponse @ChangeVar[Decide]=[Decide]-[Horny]
+@Variable[Decide]>=[100] @NullResponse @If[RORatio]>=[#Random(1,100)]Then(Orgasm)
+@Variable[Decide]>=[80] @NullResponse @Goto(Ruined)
+@Variable[Decide]<=[80] @NullResponse @Goto(ChangedMind)
+(Orgasm)
+@NullResponse #GDRegisterOrgasm
+@Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]-[25]
+@Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]-[65]
+@Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]-[100]
+@Flag(SlaveMode) @NullResponse @ChangeVar[RORatio]=[RORatio]-[45]
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse #GDRegisterRuined
+@Flag(Personality1) @NullResponse @ChangeVar[RORatio]=[RORatio]+[9]
+@Flag(Personality2) @NullResponse @ChangeVar[RORatio]=[RORatio]+[8]
+@Flag(Personality3) @NullResponse @ChangeVar[RORatio]=[RORatio]+[6]
+@Flag(SlaveMode) @NullResponse @ChangeVar[RORatio]=[RORatio]-[4]
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(ChangedMind)
+@NullResponse @CallReturn(CR\End\Decide\DecideCM.txt)

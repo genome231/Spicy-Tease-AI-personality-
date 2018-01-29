@@ -1,0 +1,1 @@
+@SystemMessage [#SlaveM3]: @ShowImage[\GNMImages\Slaves\M2 Marcelo\*.jpg]

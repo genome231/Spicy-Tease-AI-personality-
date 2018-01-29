@@ -1,0 +1,106 @@
+@NullResponse @SetVar[DemonHP]=[1]
+@NullResponse @LockImages
+@SystemMessage Having defeated the third boss you continue your journey @ShowImage[\GNMImages\SpecialDays\Halloween\Cave.jpg]
+@SystemMessage You find yourself walking through ruins and caves @SetVar[Number]=[0]
+@SystemMessage Suddenly a beautifull demon appears @ShowImage[\GNMImages\SpecialDays\Halloween\4.jpg]
+@SystemMessage "Hello #SubName"
+@SystemMessage "My name is Alaria"
+@SystemMessage "I am the product of you"
+@SystemMessage "Everything good"
+@SystemMessage "And everything bad"
+@SystemMessage "I am your salvation"
+@SystemMessage "And I am your doom"
+@SystemMessage "You will provide me with 3 words important for a slave"
+@SystemMessage "One word at a time"
+@SystemMessage "If I deem your word to be important for a slave"
+@SystemMessage "I will heal you for 1 health and give you a clue about your final challenge"
+@SystemMessage "If your question is bad I will drain your life and make sure the next challenge is harder"
+(Question)
+@NullResponse @If[Number]>=[3]Then(Boss5)
+@NullResponse @ChangeVar[Number]=[Number]+[1]
+@SystemMessage "Ask me and earn my favor"
+[punishment] @NullResponse @CheckFlag(HalloweenQ1) @Goto(Q1)
+[service] @NullResponse @CheckFlag(HalloweenQ2) @Goto(Q2)
+[selfless] @NullResponse @CheckFlag(HalloweenQ3) @Goto(Q3)
+[denial] @NullResponse @CheckFlag(HalloweenQ4) @Goto(Q4)
+[humility] @NullResponse @CheckFlag(HalloweenQ5) @Goto(Q5)
+[thankful] @NullResponse @CheckFlag(HalloweenQ6) @Goto(Q6)
+@AcceptAnswer @SystemMessage "Your word holds no truth or sense" @Goto(Pay)
+(Q1)
+@NullResponse @SetFlag(HalloweenQ1)
+@NullResponse @Goto(Earn)
+(Q2)
+@NullResponse @SetFlag(HalloweenQ2)
+@NullResponse @Goto(Earn)
+(Q3)
+@NullResponse @SetFlag(HalloweenQ3)
+@NullResponse @Goto(Earn)
+(Q4)
+@NullResponse @SetFlag(HalloweenQ4)
+@NullResponse @Goto(Earn)
+(Q5)
+@NullResponse @SetFlag(HalloweenQ5)
+@NullResponse @Goto(Earn)
+(Q6)
+@NullResponse @SetFlag(HalloweenQ6)
+@NullResponse @Goto(Earn)
+(Earn)
+@NullResponse @CheckFlag(GoodQ1)
+@NullResponse @CheckFlag(GoodQ2)
+@SystemMessage "Stay close and warmth will guide you" @SetFlag(GoodQ1)
+@SystemMessage "Enjoy life filling you!"
+@SystemMessage Peace fills your body as you feel healed
+@SystemMessage You've gained 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]+[1]
+@NullResponse @Goto(Question)
+(GoodQ1)
+@SystemMessage "Patience will be victorious" @SetFlag(GoodQ2)
+@SystemMessage "Enjoy life filling you!"
+@SystemMessage Peace fills your body as you feel healed
+@SystemMessage You've gained 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]+[1]
+@NullResponse @Goto(Question)
+(GoodQ2)
+@SystemMessage "Only a heart can hurt" @SetFlag(GoodQ3)
+@SystemMessage "Enjoy life filling you!"
+@SystemMessage Peace fills your body as you feel healed
+@SystemMessage You've gained 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]+[1]
+@NullResponse @Goto(Question)
+(Pay)
+@NullResponse @CheckFlag(BadQ1)
+@NullResponse @CheckFlag(BadQ2)
+@SystemMessage "You will now pay with your blood!" @SetFlag(BadQ1)
+@SystemMessage Agony fills you
+@SystemMessage You've lost 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead) @Goto(Question)
+(BadQ1)
+@SystemMessage "You will now pay with your blood again!" @SetFlag(BadQ2)
+@SystemMessage Agony fills you
+@SystemMessage You've lost 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead) @Goto(Question)
+(BadQ2)
+@SystemMessage "You will now pay with your blood for the third time!" @SetFlag(BadQ3)
+@SystemMessage Agony fills you
+@SystemMessage You've lost 1 HP
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead) @Goto(Boss5)
+(HalloweenQ1)
+(HalloweenQ2)
+(HalloweenQ3)
+(HalloweenQ4)
+(HalloweenQ5)
+(HalloweenQ6)
+@SystemMessage "You've already said that word.." @Goto(Pay)
+(Dead)
+@SystemMessage You fall to the floor
+@SystemMessage Conciousness fading
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)
+(Boss5)
+@SystemMessage "Move along slave" @SetVar[HBoss]=[4] 
+@SystemMessage "Your final challenge awaits you!"
+@NullResponse @CallReturn(CR\SpecialDays\Halloween\Boss5.txt)
+@End

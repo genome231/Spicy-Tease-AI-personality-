@@ -1,0 +1,5 @@
+[you are nice,you're nice,you're kind,you're great,you're awesome,you are awesome,you are kind,you are sweet,you're sweet]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R15_YouAre_Good.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

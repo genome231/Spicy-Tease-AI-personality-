@@ -1,0 +1,100 @@
+@NullResponse @SetVar[DemonHP]=[#Random(3,5)]
+@NullResponse @LockImages
+(DarkRoom)
+@SystemMessage You find yourself in a dark room @ShowImage[\GNMImages\SpecialDays\Halloween\Dark.jpg]
+@SystemMessage You have a bad feeling within yourself
+@SystemMessage A sense telling you that something is wrong!
+(Action1)
+@SystemMessage What do you do? @Timeout(15,StabDark)
+[attack] @SystemMessage You jab your sword forward blindly @Goto(StabDark)
+[block] @SystemMessage You raise your shield and suddenly feel something hitting at it hard! @Goto(Action1)
+[cast spell,cast,spell,magic] @SystemMessage You are about to enter a trance when.. @Goto(StabDark)
+[run,flee] @SystemMessage You suddenly run over a cliff and yourself freefalling @Goto(Dead)
+[light,fire] @SystemMessage You murmur a few magical words and suddenly a demon appears before you! @Goto(Phase1)
+@AcceptAnswer @SystemMessage Your action has no effect @Goto(StabDark)
+(StabDark)
+@SystemMessage You feel a sudden pain in your chest
+@SystemMessage You've lost 1 health @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@Variable[HalloweenHP]<[7] @SystemMessage You are in desperate need of a light..
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+@NullResponse @Goto(Action1)
+(Phase1)
+@SystemMessage You find yourself standing on a high plateau
+@SystemMessage There seems to be nowhere for you to go
+@SystemMessage Around you flies a winged demon
+@SystemMessage Wielding a massive axe tipped at the end
+@Variable[HalloweenHP]<[10] @SystemMessage There is no doubt that the tip of the spear is what jabbed you
+@SystemMessage The demon women laughs and looks at you with an evil grin.
+(Action2)
+@SystemMessage What do you do? @Timeout(10,FliesClose2) @ShowImage[\GNMImages\SpecialDays\Halloween\1.jpg]
+[attack] @SystemMessage You swing your sword at the wind @Goto(FliesCloseFast)
+[block] @SystemMessage You raise your shield @Goto(FliesClose1)
+[cast spell,cast,spell,magic] @SystemMessage You are about to enter a trance when.. @(FliesCloseFast)
+[wait] @SystemMessage You remain patient for a moment @Goto(FliesClose2)
+@AcceptAnswer @SystemMessage Your action has no effect @Goto(FliesCloseFast)
+(FliesClose1)
+@SystemMessage Suddenly the demon flies towards you!
+@SystemMessage With all her force she strikes her weapon at you
+@SystemMessage There is so much force behind her strike that you fall off the cliff @Goto(Dead)
+(FliesCloseFast)
+@SystemMessage Within a blink of eye the demon flies close to you
+@SystemMessage Unable to react in time you take stab from the weapon to your guts
+@SystemMessage You've lost 1 health @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@Variable[HalloweenHP]<[5] @SystemMessage You need to be patient you think to yourself..
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+@NullResponse @Goto(Action2)
+(StabDark2)
+@SystemMessage You feel a great pain in your chest
+@SystemMessage You've lost 1 health @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@Variable[HalloweenHP]<[7] @SystemMessage You are in desperate need of a light..
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+@NullResponse @Goto(Action2)
+(FliesClose2)
+@SystemMessage Suddenly the demon flies towards you!
+@SystemMessage What do you do? @Timeout(10,)
+[attack] @SystemMessage You try a swift attacking her as comes close enough @Goto(BothSuffer)
+[block] @SystemMessage You block her attack just in time @Goto(PossibleCounter)
+[cast spell,cast,spell,magic] @SystemMessage You are about to enter a trance when.. @(FliesCloseFast)
+[grab her,jump to her,onto her,to her] @SystemMessage You suddenly leap onto her @Goto(Victory1)
+@AcceptAnswer @SystemMessage Your action has no effect and you got stabbed again @Goto(StabDark2)
+(BothSuffer)
+@SystemMessage You manage to stab her in the stomach @ChangeVar[DemonHP]=[DemonHP]-[1]
+@SystemMessage But you also suffer a jab to the blow losing 1 hp @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+@NullResponse @If[DemonHP]<=[0]Then(Victory2)
+@SystemMessage Both wounded
+@SystemMessage The demon retreats to safe distance
+@SystemMessage For now.. @Goto(Action2)
+(PossibleCounter)
+@NullResponse @Timeout(10,DemonPasses)
+[attack] @SystemMessage After blocking you lunges forward with a quick counterstrike @Goto(Stab)
+[grab her,jump to her,onto her,to her] @SystemMessage You suddenly leap onto her @Goto(Victory1)
+@AcceptAnswer @SystemMessage Your action has no effect
+@SystemMessage The demon manages to put space between the two of you @Goto(Action2)
+(Stab)
+@SystemMessage Successfully you stab the demon @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[DemonHP]<=[0]Then(Victory2)
+@SystemMessage She shrieks in pain and flies away from you 
+@SystemMessage Visibly wounded @Goto(Action2)
+(DemonPasses)
+@SystemMessage The demon turns around and flies a bit away from you @Goto(Action2)
+(Victory1)
+@SystemMessage Completely surprised by your insane stunt @SetVar[HBoss]=[1]
+@SystemMessage The demon tries to fight you off
+@SystemMessage But too late..
+@SystemMessage You jab your sword through her throat
+@SystemMessage She drops her axe and starts falling to the floor
+@SystemMessage Wings flapping just enough to provide you with a soft landing.. @Goto(Boss2)
+(Victory2)
+@SystemMessage Having taken enough damage @SetVar[HBoss]=[1]
+@SystemMessage The demon falls to the floor far below
+@SystemMessage You start climbing down 
+@SystemMessage Slowly.. @Goto(Boss2)
+(Boss2)
+@NullResponse @CallReturn(CR\SpecialDays\Halloween\Boss2.txt)
+@End
+(Dead)
+@SystemMessage You fall to the floor
+@SystemMessage Conciousness fading
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)

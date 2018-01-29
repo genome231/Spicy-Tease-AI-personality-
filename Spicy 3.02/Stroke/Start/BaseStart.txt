@@ -1,0 +1,67 @@
+@RapidCodeOn @SystemMessage Launching Spicy @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @CallReturn(CR\BackgroundMode\StartUp\GDUpdateVars.txt)
+@RapidCodeOn @SystemMessage 20% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @CallReturn(CR\StateCheck.txt)
+@RapidCodeOn @SystemMessage 40% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @LockImages @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundAssistantPictureSet.txt)
+@RapidCodeOn @SystemMessage 60% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @Flag(CrazyDommeMode) @CallReturn(CR\BackgroundMode\StartUp\CrazyDommeMode.txt)
+@RapidCodeOn @SystemMessage 80% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@NullResponse @RapidCodeOn @CallReturn(CR\BackgroundMode\StartUp\GNMSetMood.txt)
+@NullResponse @Flag(ShopUnlockAll) @CallReturn(CR\BackgroundMode\Shop\UnlockAll.txt)
+@RapidCodeOn @SystemMessage 100% loaded @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+(PlayIntro) //First launch? Check below
+@NullResponse @RapidCodeOn
+@NullResponse @CheckFlag(SpicyIntro)
+@NullResponse @TempFlag(Assistant)
+@NullResponse @TempFlag(Busy)
+@NullResponse @CheckFlag(HalfFinish)
+@NullResponse @Call(CR\BackgroundMode\StartUp\GNMBackgroundStartUpFirst.txt) @info(at the end of GNMBackgroundStartUpFirst Flag HalfFinish is set)
+(HalfFinish)
+@NullResponse @UnlockImages @Call(CR\BackgroundMode\StartUp\GNMFirstMeeting.txt) @info(Tease End after GNMFirstMeeting and delete Flag HalfFinish)
+(SpicyIntro)
+@NullResponse @CallReturn(CR\BackgroundMode\StartUp\Update\UpdateChecker.txt)
+@NullResponse @CheckFlag(GoddessMode)
+@NullResponse @CheckFlag(DivinityMode)
+@NullResponse @CheckFlag(DevilMode) @Goto(1,2,3)
+(1)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyGif1.gif] @Wait(3) @Goto(SchoolCheck)
+(2)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyGif2.gif] @Wait(3) @Goto(SchoolCheck)
+(3)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyGif3.gif] @Wait(3) @Goto(SchoolCheck)
+(GoddessMode)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyGoddess.gif] @Wait(3) @Goto(SchoolCheck)
+(DivinityMode)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyDivinity.gif] @Wait(3) @Goto(SchoolCheck)
+(DevilMode)
+@NullResponse @ShowImage[GNMImages\Intro\SpicyDevil.gif] @Wait(3) @Goto(SchoolCheck)
+(SchoolCheck)
+@NullResponse @Goto(Continue1)
+(Currently skipped)
+@Day(5) @NullResponse @Goto(Academy)
+@Day(10) @NullResponse @Goto(Academy)
+@Day(15) @NullResponse @Goto(Academy)
+@Day(20) @NullResponse @Goto(Academy)
+@Day(25) @NullResponse @Goto(Academy)
+@Day(30) @NullResponse @Goto(Academy)
+@NullResponse @Goto(Continue1)
+(Academy)
+@NullResponse @CheckDate(AcademyTime, AcademyTime)
+@NullResponse @TempFlag(Assistant) @Goto(Continue1)
+(AcademyTime)
+@NullResponse @SetDate(AcademyTime, 2 Days)
+@NullResponse @SetDate(TeaseSession, 0 Hours) @TempFlag(Academy)
+@NullResponse @CallReturn(CR\Academy\AcademyBase.txt)
+(Continue1)
+@NullResponse @CheckFlag(FullTime) @Goto(StartUp1)
+(FullTime)
+@NullResponse @CallReturn(CR\BackgroundMode\StartUp\GNMBackgroundFullTimeCheckUp.txt)
+(StartUp1)
+@NullResponse @ShowImage[\GNMImages\Intro\GNMLoading.*] @TempFlag(Assistant)
+@NullResponse @Interrupt(GNMBackgroundBase)
+@End
+
+########################## - Comment - ##########################
+#Called on launch of Tease AI Personality
+#If flag "SpicyIntro" exists/is true it means that this has been run before

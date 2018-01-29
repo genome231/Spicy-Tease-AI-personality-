@@ -1,0 +1,23 @@
+@NullResponse @Chance50(RBase) 
+@NullResponse @Goto(R1,R2,R3,R4,R5,R6)
+(RBase)
+@NullResponse @CallReturn(CR\End\R\RBase.txt)
+(R1)
+@NullResponse @CallReturn(CR\End\R\R1.txt)
+(R2)
+@NullResponse @CallReturn(CR\End\R\R2.txt)
+(R3)
+@NullResponse @CallReturn(CR\End\R\R3.txt)
+(R4)
+@NullResponse @CallReturn(CR\End\R\R4.txt)
+(R5)
+@NullResponse @CallReturn(CR\End\R\R5.txt)
+(R6)
+@NullResponse @CallReturn(CR\End\R\R6.txt)
+(1)
+1. 10 images --> Ruin
+2. Watch sissy movie
+3. Watch video and cum when the sub does
+4. Orgasm torture with video of fucking machine
+5. 10 images --> Ruin + non dominant hand
+6. Cow position + mirror

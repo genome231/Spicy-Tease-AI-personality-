@@ -1,0 +1,16 @@
+@NullResponse @CheckFlag(DommeActive)
+@NullResponse @CheckFlag(Glitter1Active)
+@NullResponse @CheckFlag(Glitter2Active)
+@NullResponse @CheckFlag(Glitter3Active)
+@NullResponse @CheckFlag(Assistant)
+@End
+(DommeActive)
+(Glitter1Active)
+(Glitter2Active)
+(Glitter3Active)
+@RT(Forgetting to show respect,Never disrespect me #SlaveName,Do not forget I am your #DomHonorific) #DT
+@RT(Because you forgot to use my Domme Honorific,Since you've forgotten to use my Domme Honorific) #DT
+@RT(I've assigned you,I've given you) 300 punishment points #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+@RT(That should teach you a lesson,That should teach you,I hope it will help you remember,Might jock your memory..) #DT
+(Assistant)
+@End

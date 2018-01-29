@@ -1,0 +1,25 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5a]=[R5a]+[1] @CheckFlag(R5aFirst) 
+@NullResponse @SetVar[R5a]=[1] @TempFlag(R5aFirst)
+(R5aFirst)
+@Variable[R5a]>=[2] @NullResponse @Goto(Second)
+@RT(Unacceptable,What?,You will regret that,Oh my,Oooh you didn't just say that..,Bloody..,By the Devil..) #DT #MeritChangeNHigh
+@RT(My mind is racing about what to do with you right!,The darkest part of my mind is trying to figure out what to do with you..) #DT
+@NullResponse @CheckFlag(Personality1)
+@NullResponse @CheckFlag(Personality2)
+@NullResponse @CheckFlag(Personality3)
+(Personality1)
+@RT(I'm giving you punishment points..,You're getting punishment points) #DT #MeritChangeNLow
+@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[150] @Goto(End)
+(Personality2)
+@RT(I'm giving you punishment points..,You're getting punishment points) #DT #MeritChangeNMedium
+@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[200] @Goto(End)
+(Personality3)
+@RT(I'm giving you punishment points..,You're getting punishment points) #DT #MeritChangeNHigh
+@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300] @Goto(End)
+(Second)
+... #MeritChangeNHigh
+You're not helping yourself #MeritChangeNHigh
+Trust me! #MeritChangeNHigh
+Our session ends here.. @Interrupt(GNMBackgroundBase)
+(End)
+@End

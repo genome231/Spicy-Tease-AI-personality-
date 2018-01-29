@@ -1,0 +1,33 @@
+@Night @NullResponse @Goto(12night)
+@Morning @NullResponse @Goto(12morning)
+@Afternoon @NullResponse @Goto(12afternoon)
+(12afternoon)
+Are you having a good day so far? #DT
+[yes] Let's make it even better #GNMEmoteHappy #DT
+[no] Then it's probably good you took a moment to visit me #GNMEmoteHappy #DT
+@DifferentAnswer #GNMYesOrNo #DT
+I know what you need, #SlaveName #DT
+And I'm going to give you lots of it #GeneralTime #GNMGrin #DT
+@End
+(12night)
+Did you have a good day today? #DT
+[yes] I'm glad to hear that, #SlaveName @Goto(12glad to hear)
+[no] I'm sorry to hear that, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+But I know just what you need to cheer you up #DT
+And it involves you, me and a barrel of sensual frustration #GNMEmoteHappy #DT
+@End
+(12glad to hear)
+And I know just how to make a good day even better #DT
+You can probably guess what it is... #DT
+It involves my words, your cock #DT
+And turning something into a nice shade of blue #GNMGrin #DT
+@End
+(12morning)
+You're here early, #SlaveName #DT
+Looking to start the day right, hm? #DT
+Seems like I've gotten under your skin #DT
+I'm the first thing on your mind in the morning #DT
+And after I'm done with you #GeneralTime #DT
+I bet I'll be the last thing you think of when you go to sleep tonight #GNMGrin #DT
+@End

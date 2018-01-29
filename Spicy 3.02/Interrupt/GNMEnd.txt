@@ -1,0 +1,53 @@
+#TimeToEnd #DT
+@NullResponse @SetDate(TeaseSession,0 Hours)
+@NullResponse @AFKOn @CallReturn(CR\End\RunEndDayCheck.txt)
+@Variable[#DateDifference(PDenial, Hours)]<[PDenialSet] @NullResponse @Goto(ChastityPunishment)
+@Variable[#DateDifference(TimeSinceO, Days)]>=[HardOTimeLimit] @NullResponse @Goto(HardLimit) 
+@NullResponse @Goto(ChastityTest)
+(HardLimit)
+@NullResponse @CallReturn(CR\End\HardLimit.txt)
+(ChastityTest)
+@NullResponse @AFKOff
+@NullResponse @CheckFlag(ChastityTrainingActive)
+@NullResponse @NotFlag(AssTrainingActive) @Goto(ChastityTest2)
+@NullResponse @CallReturn(CR\End\AssTraining\AssTrainingBase.txt)
+(ChastityTest2)
+@NullResponse @CheckFlag(ChastityIsOn)
+(SelectGame) //Check for games that are supposed to occur when session is ended
+@NullResponse @CheckFlag(SkipOrgasmRoll)
+@Flag(BeadsDeep) @NullResponse @CallReturn(CR\End\Games\BeadsDeep.txt)
+@Flag(ValleyOfDarkness) @NullResponse @CallReturn(CR\End\Games\ValleyOfDarkness.txt)
+@Flag(EdgeOfDesperation) @NullResponse @CallReturn(CR\End\Games\EdgeOfDesperation.txt)
+@Flag(FrequentFlyer) @NullResponse @CallReturn(CR\End\Games\FrequentFlyer.txt)
+@Flag(TrainingMode) @NullResponse @CallReturn(CR\End\Games\TrainingMode.txt)
+@Flag(OrgasmRoulette) @NullResponse @CallReturn(CR\End\Games\OrgasmRoulette.txt)
+@Flag(FinancialDomination) @NullResponse @CallReturn(CR\End\Games\FinancialDomination.txt)
+@Flag(TreasureHunt) @NullResponse @CallReturn(CR\End\Games\TreasureHunt.txt)
+@Flag(AuthorsGame) @NullResponse @CallReturn(CR\End\Games\AuthorsGame.txt)
+@Flag(WindowOfOpportunity) @NullResponse @CallReturn(CR\End\Games\WindowOfOpportunity.txt)
+@Flag(Standard) @NullResponse @CallReturn(CR\End\Games\Standard.txt)
+(ChastityTrainingActive)
+@NullResponse @CallReturn(CR\End\ChastityTraining\ChastityTrainingBase.txt)
+(ChastityIsOn)
+@Flag(CPlayActive) @NullResponse @Goto(ChastityIsOn2)
+@RT(Well since you're locked #SlaveName,Now that you're under lock and key,That you're safely locked down,I'm happy that you're locked!) #DT
+@RT(We're stopping now!,We're going to stop now #GNMGrin,We're at the end!) #DT @Got(Farewell)
+(ChastityIsOn2)
+@RT(Since you've had a session in chastity,Because this session was in chastity,Due to your chastity today) #DT
+@RT(There won't any chance of any release,You won't get to to enjoy any kind of release,You can bet there won't be any form of release today!) #DT
+@NullResponse @CallReturn(CR\End\ChastityOff.txt)
+(ChastityPunishment)
+@RT(As you well know #SlaveName,As you should well know,As is well known,Well) #DT
+@RT(You're currently serving a chastity sentence,You are right now being punished) #DT
+@RT(So there won't be any funny business today!,So there is absolutely no chance of you cumming!) #DT @Goto(ChastityCheck)
+**********************************************Chastity*************************************************** //If chastity is active
+(SkipOrgasmRoll)
+(ChastityCheck)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(DenialLevel)
+@NullResponse @CallReturn(CR\End\ChastityTraining\DenialLevel.txt)
+(Farewell)
+@NullResponse @CallReturn(CR\End\Farewell.txt)
+
+########################## - Comment - ##########################
+#Called when the tease is ended

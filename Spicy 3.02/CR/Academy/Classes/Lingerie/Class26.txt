@@ -1,0 +1,182 @@
+@NullResponse @SetVar[LingerieC1Correct]=[0]
+@NullResponse @SetVar[LingerieC1Wrong]=[0]
+@RT(Lets do a little popquiz,Lets have some fun,I have a little quiz for you) #DT @SetVar[LingerieC1Q]=[#Random(3,4)]
+(QuizChoose)
+@NullResponse @If[LingerieC1Q]=[0]Then(Status) @ChangeVar[LingerieC1Q]=[LingerieC1Q]-[1]
+@NullResponse @Goto(2a,2b,2c,2d,2e,2f,2g,2h,2i,2j,2k,2l,2m,2n,2o)
+(2a)
+Why does Satin has a higher luster? #DT
+Is it because of 1: Thin threads - 2: A high number of floats - 3: Because its partly silk #DT @Timeout(10,2aLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2aLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 2 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2b)
+What is silk made of? #DT
+1: Fibroin - 2: Fibroen or 3: Fibronines? #DT @Timeout(10,2aLate)
+[1]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2bLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 1 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2c)
+What does PVC stands for? #DT
+1: Poly vinyl chloressense or 2: Plastic Vinyl Chloressense or 3: Polyvinyl chloride #DT @Timeout(10,2cLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2cLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2d)
+Which country is the biggest producer of cotton? #DT
+1: China or 2: America or 3: South America? #DT @Timeout(10,2dLate)
+[1]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2dLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 1 Miss.
+Correct! #DT @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] @Goto(QuizChoose)
+(2e)
+What is the oldest found of cotton? #DT
+1: 4000 BC or 2: 5000 BC or 3: 6000 BC #DT @Timeout(10,2eLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2eLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2f)
+Nylon is which of the following? #DT
+1: synthetic polymer or 2: Synthetic Cotton or 3: Synthetic silk #DT @Timeout(10,2fLate)
+[1]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2fLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 1 Miss. #DT
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2g)
+Mesh has a lot of uses, which of these uses doesn't it have? #DT
+1: Camping Tents or 2: bandages or 3: Rain Coats #DT @Timeout(10,2gLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2gLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2h)
+Sheer fabric has a loveable quality #DT
+What quality is that? #DT
+1: Its perfect for adding blondes or 2: It can become transparent when wet or 3: It is easily colored #DT @Timeout(10,2hLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2hLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 2 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2i)
+What technique is used to make leather? #DT
+1: Skinning or 2: Tanning or 3: Cresending #DT @Timeout(10,2iLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2iLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 2 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2j)
+How is synthetic latex made? #DT
+1: Ethelization or 2: Emulsification or 3: Polymerizing? #DT @Timeout(10,2jLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2jLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2k)
+Lycra was invented what year? #DT
+1: 1958 or 2: 1960 or 3: 1962 #DT @Timeout(10,2kLate)
+[1]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1]  #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1]  #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1]  #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2kLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 1 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2l)
+How many steps are used to make Lycra? #DT
+1: 2 or 2: 3 or 3: 4 #DT @Timeout(10,2lLate)
+[1]Wrong.. #DT @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1]
+[2]Correct.. #DT @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1]
+[3]Wrong.. #DT @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1]
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2lLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 2 Miss. #DT
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2m)
+What kind of material is polyester? #DT
+1: A Polymer or 2: A Plastic or 3: Rubber #DT @Timeout(10,2mLate)
+[1]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2mLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 1 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(2n)
+How long has sheer stockings been popular? #DT
+1: 1900's or 2: 1910's or 3: 1920's? #DT @Timeout(10,2nLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2nLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss. #DT
+Correct! #DT @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] @Goto(QuizChoose)
+(2o)
+When was the first example of nylon produced? #DT
+1: 1930 or 2: 1933 or 3: 1935? #DT @Timeout(10,2oLate)
+[1]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[2]Wrong.. @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT
+[3]Correct.. @ChangeVar[LingerieC1Correct]=[LingerieC1Correct]+[1] #DT
+@DifferentAnswer 1, 2 or 3? #DT
+@NullResponse @Goto(QuizChoose)
+(2oLate)
+@RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) Nr 3 Miss.
+Correct! @ChangeVar[LingerieC1Wrong]=[LingerieC1Wrong]+[1] #DT @Goto(QuizChoose)
+(Status)
+@NullResponse @If[LingerieC1Correct]>=[LingerieC1Wrong]Then(GoodBoy)
+(BadBoy)
+@RT(You didn't do well #SlaveName,You performed poorly slut) @ChangeVar[AcademyScore]=[AcademyScore]-[50] #DT
+@RT(I will have to report this to #DomName..,#DomName will hear of this..) #MeritChangeNLow #DT
+@End
+(GoodBoy)
+@RT(Good boy,Such a good boy,You're a good boy) #SlaveName @ChangeVar[AcademyScore]=[AcademyScore]+[50] #DT 
+@RT(#F1,#F2,#F3) and @RT(#M1,#M2,#M3) I expected more from you.. #MeritChangePLow #DT
+@End

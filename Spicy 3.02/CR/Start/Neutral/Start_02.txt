@@ -1,0 +1,31 @@
+#SlaveName... #DT
+Are you completely naked? #DT
+[yes] Good, I like it when you're all exposed and vulnerable #GNMEmoteHappy #DT #MeritChangePLow @Goto(start2 exposed and)
+[no] That's no good #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+I want you naked from head to toe #DT
+Can you do that for me? #DT
+[yes] Good #DT
+[no] Hm so that's how it's going to be huh... #DT #MeritChangeNMedium @Goto(start2 not naked)
+@DifferentAnswer #GNMYesOrNo #DT
+Go ahead and take everything off #DT
+I'll show you some pictures in the meantime @ShowLesbianImage @LockImages
+Just to get you in the mood #GNMEmoteHappy @ShowHardcoreImage
+To make sure your #GNMCock gets hard @ShowBlowjobImage
+To get your blood pumping @ShowHardcoreImage
+Put all your clothes in a neat pile beside you @UnlockImages
+Or just throw them on the floor, what do I care #GNMLol #DT
+(start2 exposed and)
+If I were with you right now #DT
+I'd walk around you #DT
+Checking out your naked body #DT
+Every flaw and every quality #DT
+I would point out the good...#DT
+And scold you for the bad #GNMLol #DT
+Not just your #GNMCock is mine #SlaveName #DT
+Your whole body belongs to me #DT
+Don't forget that #DT
+@End
+(start2 not naked)
+Suit yourself #SlaveName #DT
+@End

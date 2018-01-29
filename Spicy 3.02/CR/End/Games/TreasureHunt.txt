@@ -1,0 +1,16 @@
+(TreasureHunt)
+@Variable[EjaculationPass]>[0] Well it seems you have a pass! #DT @Goto(THGo)
+Well since you haven't aquired any passes yet #DT
+There isn't much more to do right now #GNMGrin #DT @Goto(Deny)
+(THGo)
+@Variable[EjaculationPass]>[1] In fact you have more than 1! #DT
+Well do you wish to use one of your precious passes? #DT
+[yes]Well well! #GNMGrin #DT @ChangeVar[EjaculationPass]=[EjaculationPass]-[1] @Goto(Orgasm,Ruined)
+[no]Saving them for a special occasion huh? #DT @Goto(Deny)
+@DifferentAnswer #GNMYesOrNo #DT
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

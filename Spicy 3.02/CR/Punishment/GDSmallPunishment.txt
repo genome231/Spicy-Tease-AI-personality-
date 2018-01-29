@@ -1,0 +1,11 @@
+@NullResponse @RapidCodeOn @CheckFlag(ChastityIsOn)
+@NullResponse @Goto(1,2)
+(1)
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+@End
+(2)
+@NullResponse @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
+@End
+(ChastityIsOn)
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+@End

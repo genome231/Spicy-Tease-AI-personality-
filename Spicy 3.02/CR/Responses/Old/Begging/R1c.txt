@@ -1,0 +1,43 @@
+@NullResponse @RapidCodeOn @ChangeVar[R1c]=[R1c]+[1] @CheckFlag(R1cFirst) 
+@NullResponse @SetVar[R1c]=[1] @TempFlag(R1cFirst)
+(R1cFirst)
+@NullResponse @CheckFlag(VAnnoyed)
+@NullResponse @CheckFlag(Annoyed)
+@NullResponse @CheckFlag(Neutral)
+@NullResponse @CheckFlag(Pleased)
+@NullResponse @CheckFlag(VPleased)
+@NullResponse @Goto(End)
+(VAnnoyed)
+(Annoyed)
+@Variable[Angry]>=[Happy] @RT(I don't really care about that #SlaveName,Not my problem #SlaveName,Do I look like I care?,I don't care #SlaveName) #MeritChangeNMedium #DT @Goto(Relax1,Relax2,Relax3)
+@Variable[Angry]<[Happy] @RT(Do you think this is bad..,So you think this is bad..,Well well,Oh my it can get so much worse) #DT @Goto(MadDick,Torment,Blistering)
+(Neutral)
+@Variable[Angry]>=[Lust] @RT(I'm not in the mood for this!,Not right now #SlaveName,Stop bothering me with your excuses) #MeritChangeNLow #DT @Goto(Relax1,Relax2,Relax3)
+@Variable[Angry]<[Lust] @RT(Well if you think this is bad,Well well I might have something else!,#GNMLol,Uhhh) #DT @Goto(MadDick,Torment,Blistering)
+(Pleased)
+(VPleased)
+@Variable[Angry]<[Happy] @RT(This is not the time to be a whiny bitch!,Stop being a cocksucker!,Stop with excuses!,You wanted to be a slave!) #DT @Goto(QuietTime)
+@Variable[Angry]>=[Happy] #GNMLol #MeritChangeNLow #DT @Goto(Relax1,Relax2,Relax3)
+(Relax1) //CornerTime
+@NullResponse @CallReturn(CR\Punishment\QuickCorner.txt)
+@End
+(Relax2) //Sit on hands
+@NullResponse @CallReturn(CR\Punishment\SitOnHandsSlide.txt)
+@End
+(Relax3) //Do 60 push ups or be put in chastity
+@NullResponse @CallReturn(CR\Punishment\PushUpsOrChastity.txt)
+@End
+(MadDick) //Edging or increase chastity
+@NullResponse @CallReturn(CR\Punishment\EdgingOrChastity.txt)
+@End
+(Torment) //Parachute or ball busting
+@NullResponse @CallReturn(CR\Punishment\ParachuteOrBallBusting.txt)
+@End
+(Blistering) //take gold
+@NullResponse @CallReturn(CR\Punishment\StealGold.txt)
+@End
+(QuietTime) //Sit on hands and watch a black screen
+@NullResponse @CallReturn(CR\Punishment\SitOnHandsBlack.txt)
+@End
+(End)
+@End

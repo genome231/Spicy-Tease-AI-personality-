@@ -1,2 +1,0 @@
-@RT(But we're stopping the game here..,But the game is stopping here..) #DT
-@End

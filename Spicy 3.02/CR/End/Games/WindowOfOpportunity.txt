@@ -1,0 +1,205 @@
+(WindowOfOppertunity)
+@FlagOr(Personality1,Personality2) It's friday meaning you'll get triple strokes today! #DT
+@Flag(Personality3) It's friday meaning you'll get double strokes today! #DT
+Rolling the dices.. #DT @SetVar[DiceRoll]=[0] @ChangeVar[DiceRoll]=[DiceRoll]+[#Random(1,36)]
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[36] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[36] @Goto(12)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[34] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[33] @Goto(11)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[31] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[30] @Goto(10)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[27] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[27] @Goto(9)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[22] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[24] @Goto(8)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[16] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[21] @Goto(7)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[11] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[18] @Goto(6)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[7] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[15] @Goto(5)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[4] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[12] @Goto(4)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[2] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[9] @Goto(3)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) @Variable[DiceRoll]>=[1] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[6] @Goto(2)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[36] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[24] @Goto(12)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[34] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[22] @Goto(11)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[31] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[20] @Goto(10)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[27] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[18] @Goto(9)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[22] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[16] @Goto(8)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[16] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[14] @Goto(7)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[11] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[12] @Goto(6)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[7] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[10] @Goto(5)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[4] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[8] @Goto(4)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[2] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[6] @Goto(3)
+@DayOfWeek(Friday) @Flag(Personality3) @Variable[DiceRoll]>=[1] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[4] @Goto(2)
+@Variable[DiceRoll]>=[36] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[12] @Goto(12)
+@Variable[DiceRoll]>=[34] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[11] @Goto(11)
+@Variable[DiceRoll]>=[31] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[10] @Goto(10)
+@Variable[DiceRoll]>=[27] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[9] @Goto(9)
+@Variable[DiceRoll]>=[22] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[8] @Goto(8)
+@Variable[DiceRoll]>=[16] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[7] @Goto(7)
+@Variable[DiceRoll]>=[11] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[6] @Goto(6)
+@Variable[DiceRoll]>=[7] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[5] @Goto(5)
+@Variable[DiceRoll]>=[4] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[4] @Goto(4)
+@Variable[DiceRoll]>=[2] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[3] @Goto(3)
+@Variable[DiceRoll]>=[1] @NullResponse @ChangeVar[WOOStrokes]=[WOOStrokes]+[2] @Goto(2)
+(12)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 12 giving you 36 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 12 giving you 24 strokes! #DT @Goto(TestWindow)
+12! #DT @Goto(TestWindow)
+(11)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 11 giving you 33 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 11 giving you 22 strokes! #DT @Goto(TestWindow)
+11! #DT @Goto(TestWindow)
+(10)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 10 giving you 30 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 10 giving you 20 strokes! #DT @Goto(TestWindow)
+10! #DT @Goto(TestWindow)
+(9)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 9 giving you 27 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 9 giving you 18 strokes! #DT @Goto(TestWindow)
+9! #DT @Goto(TestWindow)
+(8)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 8 giving you 24 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 8 giving you 16 strokes! #DT @Goto(TestWindow)
+8 #DT @Goto(TestWindow)
+(7)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 7 giving you 21 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 7 giving you 14 strokes! #DT @Goto(TestWindow)
+7 #DT @Goto(TestWindow)
+(6)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 6 giving you 18 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 6 giving you 12 strokes! #DT @Goto(TestWindow)
+6 #DT @Goto(TestWindow)
+(5)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 5 giving you 15 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 5 giving you 10 strokes! #DT @Goto(TestWindow)
+5.. #DT @Goto(TestWindow)
+(4)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 4 giving you 12 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 4 giving you 8 strokes! #DT @Goto(TestWindow)
+4.. #DT @Goto(TestWindow)
+(3)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 3 giving you 9 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 3 giving you 6 strokes! #DT @Goto(TestWindow)
+3.. #DT @Goto(TestWindow)
+(2)
+@DayOfWeek(Friday) @FlagOr(Personality1,Personality2) 2 giving you 6 strokes! #DT @Goto(TestWindow)
+@DayOfWeek(Friday) @Flag(Personality3) 2 giving you 4 strokes! #DT @Goto(TestWindow)
+2.. #DT @Goto(TestWindow)
+(TestWindow)
+Lets see if the window of opportunity has occured! #GNMLol #DT
+@NullResponse @Variable[#DateDifference(WOOTimer, Hours)]>[WooMin] @Goto(CheckMax)
+@NullResponse @Goto(CheckTimer)
+(CheckMax)
+@NullResponse @If[#DateDifference(WOOTimer, Hours)]<=[WOOMax]Then(Window)
+(CheckTimer)
+@Variable[#DateDifference(WOOTimer, Hours)]>[121] I'm afraid you must have missed your chance? #DT @Goto(NewWindow)
+Well it's not right now #GNMGrin #DT
+Maybe you've missed it? #DT
+We'll know once the timer has run out completely #GNMGrin #DT @Goto(Deny)
+(Window)
+You're in the window! #GNMLol #DT
+You have a total sum of @ShowVar[WOOStrokes] strokes #DT
+Do you wish to use them or skip this window? #DT
+[use]#GNMGrin #DT @Goto(Use)
+[skip]Okay then! #DT @Goto(NewWindow)
+@DifferentAnswer Use or skip? #DT
+(Use)
+Rolling a die #SlaveName #DT
+1-6, higher number higher pace! #DT @SetVar[DiceRoll]=[0] @ChangeVar[DiceRoll]=[DiceRoll]+[#Random(1,6)]
+@Variable[DiceRoll]=[1] Awww one #DT @Goto(a)
+@Variable[DiceRoll]=[2] Aww two #DT @Goto(b)
+@Variable[DiceRoll]=[3] Three.. #DT @Goto(c)
+@Variable[DiceRoll]=[4] Four.. #DT @Goto(d)
+@Variable[DiceRoll]=[5] Oh wauv! its a five! #DT @Goto(e)
+@Variable[DiceRoll]=[6] Oh my! Six! #DT @Goto(f)
+(a)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[10]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\60 bpm.mp3] @ShowImage @Goto(Timer)
+(b)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[15]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\90 bpm.mp3] @ShowImage @Goto(Timer)
+(c)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[20]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\120 bpm.mp3] @ShowImage @Goto(Timer)
+(d)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[25]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\60 bpm.mp3] @ShowImage @Goto(Timer)
+(e)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[30]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\150 bpm.mp3] @ShowImage @Goto(Timer)
+(f)
+@NullResponse @SetVar[Timer]=[0] @ChangeVar[Timer]=[Timer]+[WOOStrokes]
+@NullResponse @ChangeVar[Timer]=[Timer]*[10]
+@NullResponse @ChangeVar[Timer]=[Timer]/[35]
+I'm starting the timer setting a stroking beat and I will show you an image #DT
+When the beat stops, you stop stroking! #DT
+I don't care if you didn't come, when the beat stops you're out of strokes #GNMGrin #DT
+Get ready! #DT @Wait(10)
+@NullResponse @PlayAudio[\GNMSounds\Stroking\Metronome\180 bpm.mp3] @ShowImage @Goto(Timer)
+(Timer)
+@NullResponse @CountVar[Timer, down]
+(Timer2)
+@NullResponse @If[Timer]<=[0]Then(Timer3) @Goto(Timer2)
+(Timer3)
+Stop stroking! #DT @PlayAudio[\GNMSounds\Stroking\Metronome\210 bpm.mp3] @CountVar[Timer, stop] @SetVar[WOOStrokes]=[0]
+Did you orgasm, ruin or nothing? #DT
+[orgasm]Good for you! #GNMGrin #DT #GDRegisterOrgasm
+[ruin]It's something I suppose #GNMLol #DT #GDRegisterRuined
+[nothing]Aww poor boy! #DT @Goto(Continue1)
+@DifferentAnswer Orgasm, ruin or nothing? #DT
+Do you wish to play again? #DT
+[yes]#GNMGood #DT
+[no]Oh well another time perhaps #DT @Goto(NoMore)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
+@NullResponse @SetVar[WOOMax]=[0] @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
+A new window has been set #DT
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(Continue1)
+Do you wish to play again? #DT
+[yes]#GNMGood #DT
+[no]Oh well another time perhaps #DT @Goto(NoMore2)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
+@NullResponse @SetVar[WOOMax]=[0] @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
+A new window has been set #DT
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(NoMore)
+Reverting back to standard then.. #DT @DeleteFlag(WindowOfOpportunity) @SetFlag(Standard)
+@NullResponse @CallReturn(CR\End\CEI\AteCheck.txt)
+(NoMore2)
+Reverting back to standard then.. #DT @DeleteFlag(WindowOfOpportunity) @SetFlag(Standard)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)
+(NewWindow)
+@NullResponse @SetDate(WOOTimer, 0 Hours) @SetVar[WOOMin]=[0] @ChangeVar[WOOMin]=[WOOMin]+[#Random(32,104)]
+@NullResponse @SetVar[WOOMax]=[0] @ChangeVar[WOOMax]=[WOOMax]+[WOOMin]
+@NullResponse @ChangeVar[WOOMax]=[WOOMax]+[12]
+A new window has been set #DT
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

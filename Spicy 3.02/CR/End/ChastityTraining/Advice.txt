@@ -1,0 +1,23 @@
+@NullResponse @Goto(1,2,3,4,5)
+(1)
+@RT(Remember it's a good idea to use moisterizer cream,I strongly recommend using a moisterizer,don't forget using moisterizer!) #DT
+@RT(It protects against chafing/friction and overall provides with a better experience,It protects against chafing,It will greatly enhance your lock up time #GNMGrin) #DT
+@RT(Make sure to at least use it around your scrotum,At least use it around your scrotum!,Keep your scrotum from getting irritated) #DT
+@RT(It can easily make all the difference during sleep,It might even improve your sleep!) #DT
+@RT(It even makes it easier to put on the,It also makes it easier to put the #Cage on) #Cage @Goto(End)
+(2)
+@RT(A great advice is Q-tips,Q-tips are your best friends!) #GNMGrin #DT
+@RT(They are excellent for hygienic purposes during long term chastity,Really great for the overall hygiene!) #DT @Goto(End)
+(3)
+@RT(Make sure you're using the right sizing ring for your,don't use the wrong size O-ring! #Cage) #DT
+@RT(Being too big or too small also contributes to discomfort,Wether it's too big or small can create discomfort) #DT @Goto(End)
+(4)
+@RT(I will recommend you to use a rubber coated lock for your #Cage,I like to recommend a rubber coated padlock) #DT
+@RT(Protects against unwanted pinching and noise,Removes the chance of pinching and noise!) #DT @Goto(End)
+(5)
+@RT(Trim your pubic hair,Make sure to trim those pubic hairs!) #DT
+@RT(don't shave it off completely since this might cause skin irritation,don't necesarrily remove it completely,, but keeping them short is really recommended) #DT
+@RT(But don't let it grow too long either since this puts you in the risk of pubic hair getting caught,Do not let them grow to long!) #DT
+@RT(Again causing pain or discomfort,Again to enhance your comfort!) #DT @Goto(End)
+(End)
+@End

@@ -1,0 +1,54 @@
+@NullResponse @CheckFlag(pthevLink11C)
+@NullResponse @CheckFlag(pthevLink11B)
+Hey, #SlaveName #DT
+I heard this story the other day about a friend of a friend #DT
+She found out her husband had been cheating on her #DT @CheckFlag(pthevLink11A)
+There was a big scene and he left her for his girlfriend #DT
+(but apparently)
+But apparently he'd forgotten that <i>she</i> had made <i>him</i> sign a pre-nup #DT
+Turns out she gets pretty much everything and he gets nothing #DT
+And then the guy's girlfriend leaves him because she thought he was rich #GNMLol #DT
+Now all he has is a low paying job and a small apartment #DT
+And she's still living in her big-ass house, very much enjoying her new-found freedom #DT
+Good story, right? #DT
+[yes] Any story where the women gets out on top is a good story #GNMLol #DT
+[no] Sorry #SubName, I just think that's a great story #GNMLol #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Anyhow... #DT @SetFlag(pthevLink11A)
+@End
+(pthevLink11A)
+Wait, haven't I already told you this story before? #DT
+[yes] Sorry #SlaveName #GNMLol #DT
+[no] Oh, okay, so there was this big scene and he left her for his girlfriend #DT @Goto(but apparently)
+@DifferentAnswer #GNMYesOrNo #DT
+There's a twist to the story though #DT
+She's now dating her husband's ex-girlfriend! #DT
+Oh, the irony #GNMLol #DT @SetFlag(pthevLink11B) @DeleteFlag(pthevLink11A)
+@Flag(gdMarried) What if @ShowVar[gdNamePartner] and I got together #Grin #DT
+@Flag(GNMToySetupGirlFriend) What if your girlfriend and I got together #Grin #DT
+@Flag(gdExGF) What if @ShowVar[gdNamePartner] and I got together #Grin #DT
+@Flag(gdVirgin) No chance of something like that happening to you I suppose... #DT
+@NullResponse
+@End
+(pthevLink11B)
+I don't think you're quite #Horny enough, #SlaveName #DT @DeleteFlag(pthevLink11B)
+We're going to have to fix that #DT @SetFlag(pthevLink11C)
+@End
+(pthevLink11C)
+@NullResponse @CheckFlag(pvLink31GoSoft,already did soft)
+I wonder... if I don't allow you to #JerkOff now... #DT @DeleteFlag(pthevLink11C)
+How long would it take for your #GNMCock to get soft? #DT
+A long time I bet #GNMLol #DT
+I'm not going to wait for it, #SlaveName #DT
+@End
+(already did soft)
+Maybe I should make your #GNMCock go soft again... #DT
+I wonder how many times you can do that in a row #DT
+Go soft, get hard, go soft, get hard #DT
+Does it become impossible to get it up again after a while? #DT
+A cock is such a funny thing #DT
+The way it has a life of its own #DT
+You have to admit, #SlaveName, it controls you #DT
+If it wants something, you want it too #DT
+Like right now, it wants your hand to grab it #DT
+@End

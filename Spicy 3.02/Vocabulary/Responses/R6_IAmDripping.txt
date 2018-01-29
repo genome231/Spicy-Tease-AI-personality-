@@ -1,0 +1,5 @@
+[horny,dripping,desperate]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R6_IAmDripping.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

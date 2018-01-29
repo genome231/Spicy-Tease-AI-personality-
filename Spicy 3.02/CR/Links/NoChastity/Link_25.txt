@@ -1,0 +1,50 @@
+@NullResponse @CheckFlag(pvLink25A)
+Are you almost ready to cum for me, #SlaveName? #DT
+[yes] That's too bad... #DT
+[no] That's good to hear #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Because I'm not done with you yet #DT @SetFlag(pvLink25A)
+@End
+(pvLink25A)
+Are you wondering @RT(how I will,in what way I'm going,what I will do) to @RT(torment,torture) that #GNMCock next? #DT @DeleteFlag(pvLink25A) @Chance20(Not Have To Wonder)
+Well let me think... #DT
+I could tease you some more #DT @Chance40(Edge For Me)
+Maybe @RT(make you,instruct you to) @RT(smack it around,make you hurt it) a little bit #GNMGrin #DT @Chance40(Smack It Around)
+I could always show you some more @RT(hot,sexy) @RT(images,pictures) to @RT(make it even harder,frustrate it even more) #DT @Chance40(Blog Pictures)
+Or @RT(maybe I will,I could) @RT(ignore that cock completely,shift my attention,leave that cock be for now) and @RT(focus on,turn to) those #GNMBalls of yours #DT @Chance40(Focus On Balls)
+But then again #DT
+@RT(I think you need to,Maybe you should,You should probably) spend less time @RT(imagining,thinking of) all the things I could put you through #DT
+And more time actually going through them #GNMGrin #DT @Goto(Start Stroking)
+(Edge For Me)
+@RT(You know what,In fact,Actually) I think I will #GNMGrin #DT
+#GNMEdge #DT @Edge
+#GNMLetTheEdgeFade #DT 
+@NullResponse @Chance60(Edge Again)
+No point in letting your teasing stop there #DT @Goto(Start Stroking)
+(Edge Again)
+#GNMEdge #DT @Edge 
+#GNMLetTheEdgeFade #DT 
+@NullResponse @Chance30(Edge Again)
+No point in letting your teasing stop there #DT @Goto(Start Stroking)
+(Smack It Around)
+@RT(Not a bad idea,That sounds like fun,Maybe I should do that) actually #DT @CallReturn(CR\Punishment\GDSmallPenisBusting.txt)
+So many ways to make that #GNMCock suffer #DT
+Let's @RT(return to,get back to) @RT(my favorite way,the way I like best) of all though #GNMGrin #DT @Goto(Start Stroking)
+(Blog Pictures)
+Like this one @NewBlogImage
+Or this one @NewBlogImage
+Or @RT(what about,even,maybe) this one @NewBlogImage
+There's just @RT(so many,an endless supply,so much hotness online)! #DT
+I'll have to find some @RT(even better,really hot,astonishingly hot) @RT(ones,pictures,pics,images) #DT
+But in the meantime #DT @Goto(Start Stroking)
+(Focus On Balls)
+Yeah, let's #Hurt those #GNMBalls @RT(of yours,for a little while) #GNMLol #DT
+@NullResponse @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+I @RT(do enjoy,love,always have so much fun) making those #GNMBalls suffer #DT
+But now that #GNMCock @RT(needs some attention,is feeling left out,is starting to feel lonely) #GNMEmoteHappy #DT @Goto(Start Stroking)
+(Not Have To Wonder)
+You don't have to wonder #SlaveName #DT
+(Start Stroking)
+@NullResponse
+@End
+@Info Part four: Written by 1885, adapted for MissBlue by PtheV.

@@ -1,0 +1,5 @@
+[stroke,touch]
+[All]
+@Flag(Session) @RT(You'll stroke when I say you do,Shhh,Quiet,Only when I say so..,Not before I say so,You'll do it when I say you do it..) #DT #MeritChangeNLow
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

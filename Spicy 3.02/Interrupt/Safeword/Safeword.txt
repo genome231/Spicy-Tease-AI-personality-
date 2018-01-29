@@ -1,0 +1,4 @@
+@SystemMessage Usage of safeword registered @ShowImage[\GNMImages\BlackScreen.jpg]
+@SystemMessage All activity is now ending @ShowImage[\GNMImages\BlackScreen.jpg]
+@SystemMessage Shutting down Tease-AI @ShowImage[\GNMImages\BlackScreen.jpg] @EndTease
+@End

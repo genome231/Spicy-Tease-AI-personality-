@@ -1,0 +1,66 @@
+@NullResponse @RapidCodeOn
+@NullResponse @LockImages
+@NotFlag(HasChastity) @NullResponse @Goto(End2) //If no chastity
+@NullResponse @ChastityOff
+@NotFlag(ChastityIsOn) @NullResponse @Goto(End) 
+@NullResponse @Goto(PutOffCage)
+(PutOffCage)
+@RT(#SlaveName,#Slut,#SubName,Slave,Slave,Slave,Slave) @PlayAudio[\GNMSounds\Chastity\PutChastityOn\*.mp3] @ShowImage[\GNMImages\Chastity\ChastityOff\*]
+@RT(Remove your #Cage,Get your #Cage off,Remove the #Cage at once,Hurry up and remove the #Cage,Be quick and get your #Cage off)
+@RT(Let me know when you're done..,Report to me when it's off,Remember to tell me when it's off) @CustomMode(#CageOff, Goto, Done)
+@Flag(Personality1) @NullResponse @Wait(#Random(20,50))
+@Flag(Personality2) @NullResponse @Wait(#Random(15,40))
+@Flag(Personality3) @NullResponse @Wait(#Random(10,30))
+@RT(Quicker!,Faster,Be faster,Hurry up!,Be quick,Come on!,Be quick..,Be faster will you?,Be faster!) #MeritChangeNMedium @CustomMode(#CageOn, Goto, Done2)
+@Flag(Personality1) @NullResponse @Wait(#Random(20,50))
+@Flag(Personality2) @NullResponse @Wait(#Random(15,40))
+@Flag(Personality3) @NullResponse @Wait(#Random(10,30))
+@RT(You've taken way too long to get that #Cage off..,You we're way to long to get that #Cage off,It took you too long to get that cage off..) @CustomMode(#CageOff, Normal) #MeritChangeNMedium
+@RT(I don't like when you make me wait,I don't like to wait,I don't care about waiting) 
+@RT(I'm giving you punishment points,I've assigned you some punishment points,I've increased your number of punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[100]
+@NullResponse @Goto(End)
+(Done)
+#GNMGood @CustomMode(#CageOff, Normal)
+@NullResponse @Goto(End)
+(Done2)
+@RT(Finally,About time..,Took you long enough,Be faster next time,don't waste my time again..) @CustomMode(#CageOff, Normal)
+@NullResponse @Goto(End)
+(End)
+@NullResponse @DeleteFlag(ChastityIsOn)
+@NullResponse @UnlockImages
+@End
+(End2)
+@NullResponse @UnlockImages
+@End
+
+(VPleased)
+(Pleased)
+(Neutral)
+(Annoyed)
+(VAnnoyed)
+[Angry]
+[Happy]
+[Horny]
+
+(HasChastity)
+
+(CLongTermActive)
+
+[ChastityLevel]=[30]
+
+(ChastityTrainingActive)
+
+(CPunishmentActive) <--Only as a means of punishment
+(CPlayActive) <-- Only used in play, meaning it should launch prior to session
+(C247) <-- Aims towards full time wear
+
+(CPlastic)
+(Metal)
+(FullBelt)
+(BallTrap)
+(CPiercing)
+(CMetalLock)
+(CPlasticLock)
+(CTimedLockBoxActive)
+(CSpikesActive)
+

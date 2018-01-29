@@ -1,0 +1,26 @@
+@NullResponse @CheckFlag(pvLink22A)
+Do you find me @RT(attractive,sexy,hot,pretty), #SlaveName? #DT
+[yes,of course,amazing,great,incredible] #GNMEmoteHappy #DT #MeritChangePLow
+[no] Sure you do #DT #MeritChangeNMedium
+@DifferentAnswer #GNMYesOrNo #DT
+I want you to type it, #SlaveName #DT @SetFlag(pvLink22A)
+Tell me how you feel about me.. #DT.
+[attractive,sexy,hot,pretty,amazing,great,incredible,beautiful,love,adore] Hehe *blush* #DT #MeritChangePLow
+@AcceptAnswer #GNMEmoteHappy #DT
+I love to hear how much you @RT(adore,admire,worship) me #DT
+@End
+(pvLink22A)
+Orgasm denial is so hot #DT @DeleteFlag(pvLink22A)
+A friend told me she does it with her partner #DT
+She has quite an ingenious system, I would love to try it someday #DT
+What she does is, she rates her own orgasms on a scale of 1 to 10 #DT
+When they get to 250 points, her partner gets 1 orgasm #DT
+Then they add 100 points so the next goal is 350 #DT
+That way it's all about <i>her</i> orgasms #DT
+It's a perfect system, really #GNMEmoteHappy #DT
+If only we could find a way for you to give me orgasms... #DT
+But you're pretty useless to me in that department #DT
+Although making you squirm does make me wet #DT
+I still have to rely on my own fingers to get me off #DT
+Oh well... #DT
+@End

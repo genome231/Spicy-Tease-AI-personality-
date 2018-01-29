@@ -1,0 +1,144 @@
+@NotFlag(Glitter1Active) @AddContact1 @SetFlag(Glitter1Active)
+@NotFlag(Glitter2Active) @AddContact2 @SetFlag(Glitter2Active)
+@NotFlag(Glitter3Active) @AddContact3 @SetFlag(Glitter3Active)
+@Flag(DommeActive) @RemoveDomme @DeleteFlag(DommeActive)
+@NullResponse @CheckFlag(FirstTimeTeachersLounge) @SetFlag(FirstTimeTeachersLounge)
+@RandomContact @RT(Welcome #SubName to the teacher lounge!,Hi and welcome to our breakroom..)  #DT4
+@RandomContact Normally we don't welcome students in here  #DT4
+@RandomContact But due to your good behaviour today  #DT4
+@RandomContact We're making an exception #GNMGrin  #DT4
+(FirstTimeTeachersLounge)
+@NullResponse @CallReturn(CR\GNMChastityOff.txt)
+@RandomContact @RT(Start stroking it slowly,Start off with some slow stroking..) #DT4 @Wait(30)
+@RandomContact @RT(It's been,It has been,It is) #DateDifference(DaysSinceE,Days) days @RT(since you last came,Since you last relieve some pressure) #DT4
+@Variable[#DateDifference(DaysSinceO,Days)]<[5] @NullResponse @Goto(NoChance)
+@RandomContact @RT(Would you like to cum #SlaveName?,Do you want to orgasm #SubName?) #DT4
+@RandomContact @RT(Right here in front of us?,Right here with us?) #DT4
+[yes]@RandomContact #GNMGrin @RT(ofcourse you would,I bet you would..) #DT4 @Goto(Chance)
+[no]@RandomContact @RT(Oh you're one of those,Oh my you're messed up..) #DT4 #MeritChangePMedium
+@DifferentAnswer @RandomContact #GNMYesOrNo #DT4
+@RandomContact @RT(I bet you feel more at home locked, horny and frustrated,I bet you'd rather be locked away) #DT4
+@RandomContact @RT(Than you do free,, satisfied and relaxed,Than feeling the sweet sensation of orgasm!) #DT4
+@RandomContact @RT(Interesting,Arousing really..) #DT4
+@RandomContact @RT(Pick up the stroking pace a little bit,Stroke just a tad faster) #DT4 #SlaveName
+@RandomContact @RT(Well since you don't really want to orgasm,Well we do have something else you can do!) #DT4
+@RandomContact @RT(Then I think we'll just reward you with some edges,Edging!) #DT4 #GNMGrin
+@MultipleEdges(4,#Random(5,10))
+@RandomContact #GNMGrin #DT4
+@RandomContact I hope you're alright #SlaveName #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Well this fun #DT4
+@RandomContact Cya #SubName #DT4
+@End
+(Chance)
+@RandomContact @RT(But we haven't made up our mind yet,But we haven't made our mind yet) #GNMGrin #DT4
+@RandomContact @RT(If you were to orgasm looking at only one of us,Imagine you could only orgasm looking at one of us) #DT4
+@RandomContact @RT(Who would you choose?,Who would it be?) #DT4
+@Contact1 Me? #DT4
+@Contact2 Me? #DT4
+@Contact3 Or me? #DT4
+[first] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
+[second] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
+[third] @RandomContact Interesting Choice.. #DT4 @Goto(NoChance2)
+[can't choose,won't choose,won't choose,can't choose]@RandomContact @RT(Aww aren't you sweet,Such a sweet heart!) #DT4 @Goto(Chance2)
+[you are all beautiful,you all look fantastic,you are all so beautiful]@RandomContact @RT(Aren't you adorable!,#GNMGrin) #DT4 @Goto(Chance2)
+@DifferentAnswer @RandomContact First, second or third? #DT4
+(Chance2)
+@RandomContact #GNMLol @RT(I have the perfect idea!,I have a great idea!) #DT4 @Goto(Cum1,Cum2,Cum3)
+(Cum1)
+@NotFlag(GNMToyLingerieBasic) @NullResponse @Goto(Cum2,Cum3)
+@RandomContact #SlaveName  #DT4
+@RandomContact @RT(I think we're gonna let you cum,I believe you're going to cum..) #DT4
+@RandomContact @RT(But only if you're willing to do so in a pair of panties or underwear,But only if you'll do it in a pair of underwear) #DT4
+@RandomContact @RT(And then put it in your mouth,Which then has to be sucked clean!) #GNMGrin #DT4
+@RandomContact @RT(Would you be willing to do that?,Are you that desperate for an orgasm?) #DT4
+[yes]@RandomContact #GNMGood #DT4 #MeritChangePLow
+[no]@RandomContact Then I suppose you're not desperate enough #GNMGrin #DT4 @Goto(NoChance)
+@DifferentAnswer @RandomContact #GNMYesOrNo #DT4
+@RandomContact @RT(Fetch a pair of panties,Go ahead and get us a pair of panties) #DT4 @Wait(10)
+@RandomContact @RT(We're gonna make you edge,You're gonna do an edge) #DT4
+@RandomContact You're gonna cum #DT4
+@RandomContact Once you're done you put those panties into your mouth #DT4
+@RandomContact It's that simple! #DT4
+@RandomContact @RT(Now slave!,Well slave..,Hmm slave..) #DT4
+@RandomContact #GNMEdge #DT4 @Edge
+@RandomContact @RT(Cum!,Orgasm!) #DT4 #GDRegisterOrgasm
+@RandomContact Cum into those panties! #DT4 @Wait(10)
+@RandomContact @RT(In your mouth!,Now put them in your mouth!) #DT4
+@RandomContact @RT(don't think,don't look) just do it #DT4
+@RandomContact @RT(Keep them in there!,They stay inside your mouth!) #DT4 @Wait(5)
+@RandomContact #GNMGrin #DT4
+@RandomContact @RT(You look funny,You look a little funny) #SlaveName #DT4
+@RandomContact Keep them in a little longer #DT4 @Wait(10)
+@RandomContact There.. #DT4
+@RandomContact You may remove them #GNMGrin #DT4
+@RandomContact This was fun! #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Cya #SubName #DT4
+@End
+(Cum2)
+@RandomContact #SlaveName #DT4
+@RandomContact @RT(There is a small price though,But its gonna be that simple) #GNMEmoteHappy #DT4
+@RandomContact @RT(We want you to cum all over your bed,We want you to cum over your bed) #DT4
+@RandomContact @RT(That way you'll think of us while sleeping tonight,This way you'll think of us when you sleep tonight) #GNMGrin #DT4
+@RandomContact @RT(Would you be willing to do that?,Are you willing to do that?) #DT4
+[yes]@RandomContact #GNMGood #DT4 #MeritChangePLow
+[no]@RandomContact Then I suppose you're not desperate enough #GNMGrin #DT4 @Goto(NoChance)
+@DifferentAnswer @RandomContact #GNMYesOrNo #DT4
+@RandomContact Read carefully
+@RandomContact @RT(Go over to your bed and get on edge,First you are to go to your bed and get to the edge) #DT4
+@RandomContact @RT(Stay on the edge,When at the edge stay on the edge!) #DT4
+@RandomContact @RT(Make sure the speakers are turned on,Make sure your speakers are turned on) #DT4
+@RandomContact @RT(You'll definetly know when you have my permission,Listen for when I give you the permission to cum) #DT4
+@RandomContact @RT(Try to really scatter your cum all over the bed!,Try to shoot that cum all over the bed) #DT4
+@RandomContact @RT(Now go and get edging!,Now go ahead and edge over at your bed!) #DT4 @Wait(20,30)
+@NullResponse @PlayAudio[\GNMSounds\Endings\EndScripts\CumForMe\cum.mp3] #GDRegisterOrgasm @Wait(26)
+@RandomContact Come back to me #GNMGrin #DT4
+@RandomContact I hope it was worth it #DT4
+@RandomContact At least you'll think of us tonight #GNMGrin #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Cya #SubName #DT4
+@End
+(Cum3)
+@RandomContact #SlaveName #DT4
+@RandomContact @RT(If you want to cum today,If you want to ejaculate today) #DT4
+@RandomContact @RT(It won't be an orgasm,It won't be while orgasming) #DT4
+@RandomContact @RT(It will be ruined,But rather a ruined one) #DT4
+@RandomContact @RT(Empty,Pointless) #DT4
+@RandomContact @RT(Ejaculation) #DT4
+@RandomContact @RT(Slaves shouldn't enjoy orgasms too frequently,It's important that slave don't enjoy orgasms) #GNMGrin #DT4
+@RandomContact @RT(Would you be willing to do that?,Are you willing to do that?) #DT4
+[yes]@RandomContact #GNMGood #MeritChangePLow #DT4
+[no]@RandomContact Then I suppose you're not desperate enough #GNMGrin #DT4 @Goto(NoChance)
+@DifferentAnswer @RandomContact #GNMYesOrNo #DT4
+@RandomContact @RT(Lets not make a fuzz of this,Lets not turn this into a fuzz) #DT4
+@RandomContact @RT(You'll be told to edge,You'll be instructed to edge) #DT4
+@RandomContact @RT(Then cross the edge,Then you will simply cross that edge) #DT4
+@RandomContact @RT(And simply let it dripple out..,Let go and make it dripple out) #DT4
+@RandomContact #GNMEdge #DT4 @Edge
+@NullResponse @Wait(3)
+@RandomContact @RT(Now let the cum dripple out!,Make it drip!) #DT4 #GDRegisterRuined
+@RandomContact @RT(No stroking,Absolutely no stroking!) #DT4
+@RandomContact @RT(No pleasure,No sweet pleasure) #DT4
+@RandomContact #GNMGrin #DT4
+@RandomContact Well that was it #SlaveName #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Cya #SubName #DT4
+@End
+(NoChance)
+@RandomContact @RT(Which ofcourse means that you have 0 chance of cumming today,no cumming today) #DT4
+@RandomContact @RT(But we can still have fun,But lets have some fun) #GNMGrin #DT4
+@RandomContact Pick up the stroking pace a little bit #SlaveName #DT4
+@RandomContact I think we'll just reward you with some edges #GNMGrin #DT4
+@MultipleEdges(4,#Random(5,10))
+@RandomContact #GNMGrin #DT4
+@RandomContact @RT(I hope you're alright,I do hope you're okay) #SlaveName #DT4
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RandomContact Well this fun #DT4
+@RandomContact Cya #SubName #DT4
+@End
+(NoChance2)
+@RandomContact @RT(I bet you've never been a great charmer,Lacking charm are we..) #DT4
+@RandomContact @RT(Well this was a short session...,Well this was a rather short session..) #DT4
+@RandomContact @RT(Lol!,#GNMLol) #DT4
+@End

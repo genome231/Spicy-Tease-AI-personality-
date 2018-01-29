@@ -1,0 +1,22 @@
+@NullResponse @CheckFlag(pvLink08A)
+@NullResponse @CheckFlag(pvLink08B)
+At least all this stroking and edging is good for your sexual endurance #DT @SetFlag(pvLink08A)
+I'd hope so anyway #GNMEmoteHappy #DT
+So the next time you actually have sex #DT
+@Flag(gdVirgin) If that's <i>ever</i> going to happen... #DT
+@Flag(gdSingle) Whenever that might be #EmoteWink #DT
+@Flag(gdMarried) Which I hope for your wife's sake will be soon #DT
+@Flag(GNMToySetupGirlFriend) Which I hope for your girlfriend's sake will be soon #DT
+You have the stamina to please your partner #DT
+Just remember that you have me to thank for that, in part at least #DT
+You're welcome, #SlaveName #DT
+@End
+(pvLink08A)
+Are you ready for some more, #SlaveName? #DT @DeleteFlag(pvLink08A)
+Well, it doesn't really matter if you're ready or not #DT @SetFlag(pvLink08B)
+Because when I want more, I just take it #DT
+And you're just going to have to deal with that #DT
+@End
+(pvLink08B)
+@NullResponse @DeleteFlag(pvLink08B)
+@End

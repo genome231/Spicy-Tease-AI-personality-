@@ -1,0 +1,219 @@
+I have a present for you #SlaveName #GNMGrin #DTS1
+I have a specially sexy outfit for today!
+Let me just change really quick! #GNMGrin
+@NullResponse @CallReturn(CR\SpecificPictures\ClotheChangeSexy.txt)
+Tadaa! #DTS1
+Do you like it?
+[yes] #GNMGood 
+[no] That wasn't very nice slave.. #MeritChangeNHigh
+@DifferentAnswer #GNMYesOrNo
+Well lets continue..
+I'm wondering if you have any special requests / wishes? #DT
+[spank,spanking,whip,whipping] Spanking #GNMGrin #DT @Goto(WantsSpanking)
+[orgasm,cum,cumming] Orgasm.. Well.. #DT @If[GNMMerits]>[800]Then(Good) @Goto(Maybe)
+[ruin,ruining,ruined] You want to be ruined? #GNMGrin #DT @Goto(RuinO)
+[cbt] CBT #GNMLol #DT @Goto(CBT)
+[denial,deny] Denial wauv you're comitted! #DT @Goto(Denial)
+[stroking,pleasure,stroke,touch,edge,edging] Why am I not surprised? #GNMGrin #DT @Goto(stroking)
+@AcceptAnswer I'm sorry but I wong fulfill that.. #GNMEmoteSad #DT
+@NullResponse @Goto(Spanking2,Stroking2)
+(Maybe)
+I will seriously consider it slave!
+But first lets have a bit of fun! @Goto(Stroking2,Spanking2)
+(Good)
+You've been a really good boy recently #SlaveName @TempFlag(OGranted)
+So I dare promise that you will orgasm today! @Goto(Stroking2,Spanking2) 
+(RuinO)
+If a ruined orgasm is all you want I don't see why not #GNMGrin @TempFlag(RGranted)
+So I dare promise that you will ruin today! @Goto(Stroking2,Spanking2) 
+(Denial)
+It makes me soo happy that you wannna stay denied on your birthday! #DT @TempFlag(DGranted) #MeritChangePHigh
+I'm so proud you wouldn't understand it! #MeritChangePHigh @Goto(Stroking2,Spanking2) 
+(Stroking)
+I feel a bit of stroking is only fair since it's your birthday! #DT @Goto(Stroking2)
+(CBT)
+It will be my absolute pleasure torturing your nuts!
+Go fetch a wooden spoon #SlaveName @Wait(20)
+(NutCrack)
+@RT(Hit your balls) @RT(once,twice,5 times,10 times,20 times) @RT(hard,hard and fast,soft but fast,with medium power fast,with medium power)
+[done,ready] @NullResponse
+@AcceptAnswer @NullResponse
+@NullResponse @Chance90(NutCrack)
+@NullResponse @Chance90(NutCrack)
+That was fun! #GNMGrin @Goto(Spanking2,Stroking2)
+(WantsSpanking)
+I won't mind spanking your #GNMAss !!
+Suddenly I feel like it's my birthday! #GNMGrin @Goto(Spanking2)
+(Stroking2)
+
+
+(Spanking2)
+
+(Stroking3)
+
+(Present)
+I have a present for slave
+But #GNMGrin
+I have a proposition first ;)
+Either you can choose to get whatever is in my present
+Or!
+You can choose a number between 1 and 50
+Determining your present #GNMGrin
+@Flag(HasChastity) Worst case from choosing a number is 5 days in chastity and punishment points!
+@NotFlag(HasChastity) Worst case from choose a number is 5 no-touch days
+Best case is a fair bit of gold and an orgasm!
+The odds will be in your favour I promise that!
+@Flag(OGranted) Note that you forfeit your garantied orgasm if you choose to gamble!
+@Flag(RGranted) Note that you forfeit your garantied ruin if you choose to gamble!
+So do you want my present or do you wish to choose a number?
+[number] A gambling man! I like that a lot! #MeritChangePHigh @Goto(Number)
+[present] #GNMGrin I don't blame you for that! @Goto(Present1,Present2,Present3)
+@DifferentAnswer Number or present?
+
+(Number)
+Choose a number then between 1 and 50 @InputVar[Number]
+@Variable[Number]<[50]AND[Number]>[1] @NullResponse @Goto(Test)
+You must choose a number between 1 and 50... @Goto(Number)
+(Test)
+@Variable[Number]=[1] @NullResponse @SetVar[Present]=[50] @Goto(Orgasm)
+@Variable[Number]=[2] @NullResponse @SetVar[Present]=[100] @Goto(Ruin)
+@Variable[Number]=[3] @NullResponse @SetVar[Present]=[450] @Goto(Orgasm)
+@Variable[Number]=[4] @NullResponse @SetVar[Present]=[600] @Goto(Ruin)
+@Variable[Number]=[5] @NullResponse @SetVar[Present]=[750] @Goto(Orgasm)
+@Variable[Number]=[6] @NullResponse @SetVar[Present]=[100] @Goto(Chastity)
+@Variable[Number]=[7] @NullResponse @SetVar[Present]=[100] @Goto(Orgasm)
+@Variable[Number]=[8] @NullResponse @SetVar[Present]=[200] @Goto(Chastity)
+@Variable[Number]=[9] @NullResponse @SetVar[Present]=[500] @Goto(Orgasm)
+@Variable[Number]=[10] @NullResponse @SetVar[Present]=[200] @Goto(Ruin)
+@Variable[Number]=[11] @NullResponse @SetVar[Present]=[800] @Goto(Orgasm)
+@Variable[Number]=[12] @NullResponse @SetVar[Present]=[450] @Goto(Chastity)
+@Variable[Number]=[13] @NullResponse @SetVar[Present]=[600] @Goto(Ruin)
+@Variable[Number]=[14] @NullResponse @SetVar[Present]=[150] @Goto(Orgasm)
+@Variable[Number]=[15] @NullResponse @SetVar[Present]=[200] @Goto(Spanking)
+@Variable[Number]=[16] @NullResponse @SetVar[Present]=[300] @Goto(Chastity)
+@Variable[Number]=[17] @NullResponse @SetVar[Present]=[550] @Goto(Orgasm)
+@Variable[Number]=[18] @NullResponse @SetVar[Present]=[700] @Goto(Spanking)
+@Variable[Number]=[19] @NullResponse @SetVar[Present]=[300] @Goto(Ruin)
+@Variable[Number]=[20] @NullResponse @SetVar[Present]=[200] @Goto(Orgasm)
+@Variable[Number]=[21] @NullResponse @SetVar[Present]=[400] @Goto(Chastity)
+@Variable[Number]=[22] @NullResponse @SetVar[Present]=[700] @Goto(Ruin)
+@Variable[Number]=[23] @NullResponse @SetVar[Present]=[900] @Goto(Orgasm)
+@Variable[Number]=[24] @NullResponse @SetVar[Present]=[600] @Goto(Spanking)
+@Variable[Number]=[25] @NullResponse @SetVar[Present]=[500] @Goto(Chastity)
+@Variable[Number]=[26] @NullResponse @SetVar[Present]=[600] @Goto(Orgasm)
+@Variable[Number]=[27] @NullResponse @SetVar[Present]=[1000] @Goto(Ruin)
+@Variable[Number]=[28] @NullResponse @SetVar[Present]=[300] @Goto(Spanking)
+@Variable[Number]=[29] @NullResponse @SetVar[Present]=[250] @Goto(Orgasm)
+@Variable[Number]=[30] @NullResponse @SetVar[Present]=[800] @Goto(Ruin)
+@Variable[Number]=[31] @NullResponse @SetVar[Present]=[800] @Goto(Spanking)
+@Variable[Number]=[32] @NullResponse @SetVar[Present]=[650] @Goto(Orgasm)
+@Variable[Number]=[33] @NullResponse @SetVar[Present]=[400] @Goto(Ruin)
+@Variable[Number]=[34] @NullResponse @SetVar[Present]=[1100] @Goto(Ruin)
+@Variable[Number]=[35] @NullResponse @SetVar[Present]=[100] @Goto(Orgasm)
+@Variable[Number]=[36] @NullResponse @SetVar[Present]=[350] @Goto(Chastity)
+@Variable[Number]=[37] @NullResponse @SetVar[Present]=[500] @Goto(Spanking)
+@Variable[Number]=[38] @NullResponse @SetVar[Present]=[300] @Goto(Orgasm)
+@Variable[Number]=[39] @NullResponse @SetVar[Present]=[900] @Goto(Ruin)
+@Variable[Number]=[40] @NullResponse @SetVar[Present]=[900] @Goto(Spanking)
+@Variable[Number]=[41] @NullResponse @SetVar[Present]=[700] @Goto(Orgasm)
+@Variable[Number]=[42] @NullResponse @SetVar[Present]=[250] @Goto(Chastity)
+@Variable[Number]=[43] @NullResponse @SetVar[Present]=[500] @Goto(Ruin)
+@Variable[Number]=[44] @NullResponse @SetVar[Present]=[1000] @Goto(Spanking)
+@Variable[Number]=[45] @NullResponse @SetVar[Present]=[1200] @Goto(Ruin)
+@Variable[Number]=[46] @NullResponse @SetVar[Present]=[350] @Goto(Orgasm)
+@Variable[Number]=[47] @NullResponse @SetVar[Present]=[150] @Goto(Chastity)
+@Variable[Number]=[48] @NullResponse @SetVar[Present]=[1000] @Goto(Ruin)
+@Variable[Number]=[49] @NullResponse @SetVar[Present]=[400] @Goto(Orgasm)
+@Variable[Number]=[50] @NullResponse @SetVar[Present]=[400] @Goto(Spanking)
+
+(Orgasm)
+Well Slave the number you choose means..
+Orgasm!
+And gold! @ChangeVar[GNMGold]=[GNMGold]+[Present]
+I just transfered @ShowVar[Present] gold to you!
+@Flag(DGranted) @NullResponse @Goto(Denial)
+(Ruin)
+@NullResponse @Goto(Ruin1, Ruin2, Ruin3)
+(Ruin1)
+Well Slave the number you choose means..
+A ruined orgasm!
+And gold! @ChangeVar[GNMGold]=[GNMGold]+[Present]
+I just transfered @ShowVar[Present] gold to you!
+@Flag(DGranted) @NullResponse @Goto(Denial)
+
+(Chastity)
+Well Slave the number you choose means..
+Means chastity..
+And punishment points! #GNMEmoteSad @ChangeVar[GNMPPoints]=[GNMPPoints]+[Present]
+I just gave you @ShowVar[Present] punishment points
+
+(Spanking)
+Well Slave the number you choose means..
+Spanking!
+And gold! @ChangeVar[GNMGold]=[GNMGold]+[Present]
+I just transfered @ShowVar[Present] gold to you!
+
+
+
+(Decide)
+@Flag(OGranted) @NullResponse @Goto(OGranted)
+@Flag(RGranted) @NullResponse @Goto(RGranted)
+@Flag(DGranted) @NullResponse @Goto(Denial)
+
+(OGranted)
+I promised that you would orgasm and I stick to my promises! @Goto(Orgasm1,Orgasm2)
+
+(Orgasm1)
+I'm putting up a video
+When the sub orgasms
+So may you
+When you're done simply tell me
+Enjoy!
+@NullResponse @PlayVideo[]
+
+(Orgasm2)
+#SlaveName you'll be orgasming to me #GNMGrin
+This is rather unusual so make sure you enjoy it!
+You have 5 minutes to orgasm
+Let me know when you've reached orgasm!
+Timer is starting now!
+Did you manage to orgasm?
+[yes] #GNMGood
+[no] Well better luck next year #GNMLol #GNMEmoteHappy
+@DifferentAnswer #GNMYesOrNo
+
+(Ruin2)
+I'm gonna show you a video of a ruined orgasm
+When you see the ruined orgasm
+You are to ruin yours as well #GNMGrin
+Enjoy!
+
+
+
+(Ruin3)
+You will be ruining that orgasm to me!
+A rare honor I know
+You have 5 minutes
+Let me know when you're done
+Timer is starting now! @Wait(300)
+Stop #SlaveName
+Did you manage to ruin?
+[yes] #GNMGood
+[no] Well better luck next year #GNMLol #GNMEmoteHappy
+@DifferentAnswer #GNMYesOrNo
+
+
+(Deny)
+I'm sorry #SlaveName
+But I'm gonna deny you despite it being your birthday! #GNMEmoteSad
+Better luck next year!
+Cya! @Goto(End)
+(Denial)
+Remember slave that you asked for denial
+I even made a promise!
+And I stick to my promises! #GNMEmoteHappy
+(End)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@NullResponse @Interrupt(GNMBackgroundBase.txt)
+
+

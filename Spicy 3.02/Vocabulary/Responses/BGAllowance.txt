@@ -1,0 +1,5 @@
+[allowance,money this month,how much may i spend,what is my monthly allowance]
+[All]
+@Flag(BGBase) @NullResponse @CallReturn(\CR\BackgroundMode\Chores\BGAllowance.txt)
+@NotFlag(BGBase) @NullResponse 
+[All End]

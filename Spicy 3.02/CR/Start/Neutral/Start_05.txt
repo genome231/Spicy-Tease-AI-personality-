@@ -1,0 +1,37 @@
+@NullResponse @Chance50(Really Happy)
+Are you as happy to see me as I am to see you? #DT
+[no,i'm not,am not] No? #DT @Goto(you must know)
+[yes,am happy, i'm happy] I'm glad to hear that #SlaveName #DT
+[I am happy, I'm happy] I'm glad to hear that #SlaveName #DT
+[not sure,don't know] Aww, do I scare you that much? #GNMLol #DT
+@DifferentAnswer Are you happy to see me or not? #GNMGrin #DT
+I've been thinking about all these fun ways to #Hurt that #GNMCock #GeneralTime #DT
+And there's not a lot of guys who can handle that #DT
+That's why I'm always glad to see you here, so @RT(eager, willing) to please me #DT
+And willing to suffer #GNMGrin #DT @Goto(and how much)
+(you must know)
+You must know what I'm about to do to that #GNMCock then #GNMGrin #DT
+But since you knew and logged on anyway #DT
+I don't have to feel guilty about it #GNMLol #DT @Goto(and how much)
+(Really Happy)
+I'm really happy to see you #GeneralTime #DT @Timeout(9,been sitting)
+[why, how come, really, yeah] Because I've been thinking about your #GNMCock #DT @Goto(want it to suffer)
+[too, as wel, also] Aww that's so sweet #DT  @Goto(But I Get The Feeling)
+[thank, gracias, merci, nice, sweet, kind, means] You're welcome #SlaveName #DT @Goto(if you should thank me)
+@AcceptAnswer The thing is... #DT
+(been sitting)
+I've just been sitting here thinking of all these fun ways to make a #GNMCock suffer #DT
+And we both know how much fun yours is to play with #DT @Goto(and how much)
+(want it to suffer)
+And how much I want it to suffer #GNMGrin #DT @Goto(and how much)
+(But I Get The Feeling)
+But I get the feeling your #GNMCock isn't as glad to see me as you are #DT
+Especially considering what I'm about to do to it #GNMGrin #DT @Goto(and how much)
+(if you should thank me)
+But I don't know if you should really be thanking me #DT
+Considering that the reason I'm so happy to see you #DT
+Is that I finally get to #Hurt that #GNMCock of yours some more #GNMGrin #DT
+(and how much)
+@NullResponse
+@End
+@Info Domme greets you by asking if you're happy to see her. Written by 1885

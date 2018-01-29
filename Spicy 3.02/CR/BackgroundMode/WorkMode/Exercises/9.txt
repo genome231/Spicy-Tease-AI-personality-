@@ -1,0 +1,5 @@
+@SystemMessage #VANC #VANP #SlaveName just spend a few minutes reading a series newsarticle
+@SystemMessage #VANC #VANP No gossip or anything similar
+@SystemMessage #VANC #VANP A series news article from a series news publisher
+@SystemMessage #VANC #VANP When you're done just return to whatever you were doing.. @Wait(180) 
+@End

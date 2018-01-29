@@ -1,0 +1,5 @@
+[sorry]
+[All]
+@Flag(Session) @RT(don't do it again,just make sure you don't do it again,remember to behave,Just make sure you behave,I expected more #SlaveName,Fix your behaviour..) #DT
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

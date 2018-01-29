@@ -1,0 +1,5 @@
+[this was bad,this wasn't fun,this was not fun,i don't liked this,i hated this]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R12_ThisWas_Bad.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

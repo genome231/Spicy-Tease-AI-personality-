@@ -1,0 +1,32 @@
+@NullResponse @CheckFlag(ChastityIsOn)
+@RT(You now have a choice #SlaveName,You got a choice #SlaveName,It's time for you to make a choice #SlaveName) #DT
+@RT(Go into chastity,Go into your #Cage,Put on your #Cage) #DT
+Or #DT
+@Flag(Personality1) @Variable[SubEndurance]>=[6] @RT(Suffer,Endure) 30 edges #DT @SetVar[EdgesToDo]=[30]
+@Flag(Personality1) @Variable[SubEndurance]<[6] @RT(Suffer,Endure) 20 edges #DT @SetVar[EdgesToDo]=[20]
+@Flag(Personality2) @Variable[SubEndurance]>=[6] @RT(Suffer,Endure) 50 edges #DT @SetVar[EdgesToDo]=[50]
+@Flag(Personality2) @Variable[SubEndurance]<[6] @RT(Suffer,Endure) 35 edges #DT @SetVar[EdgesToDo]=[35]
+@Flag(Personality3) @Variable[SubEndurance]>=[6] @RT(Suffer,Endure) 70 edges #DT @SetVar[EdgesToDo]=[70]
+@Flag(Personality3) @Variable[SubEndurance]<[6] @RT(Suffer,Endure) 50 edges #DT @SetVar[EdgesToDo]=[50]
+Edges or denial? #DT
+[edges,edging,edge]#GNMGood  #DT
+[denial,chastity,lock up]@RT(Your choice!,Smart choice probably!) #DT @Goto(ChastityIsOn)
+@DifferentAnswer Edges or denial? #DT
+@RT(Lets get to it then!,Well lets get on with it then!) #DT #GNMEmoteHappy
+(Edge)
+@NullResponse @If[EdgesToDo]<=[0]Then(End) @ChangeVar[EdgesToDo]=[EdgesToDo]-[1]
+@Edge #GNMEdge @ShowImage
+#GNMLetTheEdgeFade #DT @Wait(5) @Goto(Edge)
+(End)
+@RT(I bet that #GNMCock is feeling a little tense,Horny are we?,Frustrated I hope xD) #GNMLol #DT
+@End
+(ChastityIsOn)
+#SlaveName #DT
+@Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @RT(Since you're already serving a chastity sentence,Because you're already serving a chastity sentence) #DT @Goto(1)
+@RT(I'm putting you under lock and key,I'm locking that #Cock away..,I think it's best to lock that #GNMCock up..) #DT
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Enjoy!,Have fun!) #DT @SetVar[PDenialSet]=[24] @SetDate(PDenial, 0 Days)
+@NullResponse @Interrupt(LockedAway)
+(1)
+@RT(I'm just gonna prolong it #GNMGrin,I'm increasing it's length..) #DT @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+@End

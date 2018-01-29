@@ -1,4 +1,0 @@
-Wait for my bell @ShowImage[\GNMImages\Timer.jpg]
-Wait for the bell @ShowImage[\GNMImages\Timer.jpg]
-#SlaveName wait for my bell @ShowImage[\GNMImages\Timer.jpg]
-#SlaveName wait for the bell @ShowImage[\GNMImages\Timer.jpg]

@@ -1,0 +1,48 @@
+@Flag(LotteryTicketActive) @Variable[#DateDifference(LotteryTicketTimer, Days)]>=[LotteryTicketCount] @NullResponse @Goto(NumberDrawn)
+@Flag(LotteryTicketActive) @SystemMessage #VANC #VANP You have a ticket, wait until the next lucky number is drawn @Goto(End)
+@SystemMessage #VANC #VANP This is the lottery
+@SystemMessage #VANC #VANP Every friday one number between 1 and 100 is drawn
+@SystemMessage #VANC #VANP Have a ticket with the correct number and you win a prize
+@SystemMessage #VANC #VANP The price for a ticket is 50 gold
+@Variable[GNMGold]<[50]Then(EndPoor)
+@SystemMessage #VANC #VANP Do you wish to purchase a ticket?
+[yes]@SystemMessage #VANC #VANP Making the transaction @ChangeVar[GNMGold]=[GNMGold]-[50]
+[no]@NullResponse @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Transaction Complete @SetVar[LotteryTicket]=[0] @ChangeVar[LotteryTicket]=[LotteryTicket]+[#Random(1,100)]
+@SystemMessage #VANC #VANP Your ticket has the number @ShowVar[LotteryTicket]
+@DayOfWeek(Monday,Montag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[4]
+@DayOfWeek(Tuesday,Dienstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[3]
+@DayOfWeek(Wednesday,Mittwoch) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[2]
+@DayOfWeek(Thursday,Donnerstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[1]
+@DayOfWeek(Friday,Freitag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[7]
+@DayOfWeek(Saturday,Samstag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[6]
+@DayOfWeek(Sunday,Sonntag) @NullResponse @SetDate(LotteryTicketTimer, 0 Days) @SetVar[LotteryTicketCount]=[5]
+@End
+(NumberDrawn)
+@SystemMessage #VANC #VANP Lets check if your ticket worked out for you! #GNMLol @SetVar[LuckyLotteryNumber]=[0] @ChangeVar[LuckyLotteryNumber]=[LuckyLotteryNumber]+[#Random(1,100)]
+@SystemMessage #VANC #VANP The number drawn is.. @DeleteFlag(LotteryTicketActive) @Wait(5)
+@SystemMessage #VANC #VANP @ShowVar[LuckyLotteryNumber] ! @If[LotteryTicket]=[LuckyLotteryNumber]Then(Won)
+@SystemMessage #VANC #VANP Awww which means you weren't lucky Slave!
+@SystemMessage #VANC #VANP Better luck next time!
+@End
+(Won)
+@SystemMessage #VANC #VANP Lets see what you won!
+@SystemMessage #VANC #VANP So your prizes are:
+@SystemMessage #VANC #VANP 2500 gold! @ChangeVar[GNMGold]=[GNMGold]+[2500]
+@SystemMessage #VANC #VANP An orgasm pass! @ChangeVar[OrgasmPass]=[OrgasmPass]+[1]
+@SystemMessage #VANC #VANP A treasure chest! @ChangeVar[TreasureChests]=[TreasureChests]+[1]
+@SystemMessage #VANC #VANP And finaly you win a clean slade
+@SystemMessage #VANC #VANP Meaning however many punishment points you had are now removed @SetVar[GNMPPoints]=[0]
+@SystemMessage #VANC #VANP Congratulations Slave!
+@End
+(EndPoor)
+@SystemMessage #VANC #VANP You don't have the 50 gold needed
+@SystemMessage #VANC #VANP You only have @ShowVar[GNMGold] gold
+@End
+(End)
+@End
+Every friday a random number between 1 and 100 is chosen
+If you have the correct number you get a prize
+Prices: Orgasm, 2000 gold
+Ticket price 50 gold

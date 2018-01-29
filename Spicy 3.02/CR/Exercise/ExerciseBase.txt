@@ -1,0 +1,60 @@
+@NullResponse @CheckFlag(ExerciseFirst)
+@NullResponse @SetFlag(ExerciseFirst)
+@SystemMessage #VANC #VANP Welcome to your first exercise with me @SetVar[ExerciseTimes]=[0]
+@SystemMessage #VANC #VANP This is very simple  @SetVar[ExerciseLevelOld]=[1]
+@SystemMessage #VANC #VANP I will show you pictures and guide you through  @SetVar[ExerciseXP]=[0]
+@SystemMessage #VANC #VANP You will do as instructed 
+@SystemMessage #VANC #VANP After each exercise session I will ask you about how many exercises you managed to do
+@SystemMessage #VANC #VANP Answer truthfully 
+@SystemMessage #VANC #VANP I won't punish you for failing 
+@SystemMessage #VANC #VANP Depending on your answer you earn points
+@SystemMessage #VANC #VANP I use these points to set the exercise difficuilty to a level suiting you 
+@SystemMessage #VANC #VANP So don't worry if you feel like its too easy the first few times
+@SystemMessage #VANC #VANP Difficuilty will quickly rise 
+@SystemMessage #VANC #VANP Maybe not today, but as we go 
+@SystemMessage #VANC #VANP Completing exercise also gets you rewarded 
+@SystemMessage #VANC #VANP I track how many times you complete exercise for each 7 days  @SetDate(ExercisePeriod, 0 Hours)
+@DayOfWeek(Monday,Montag) @SystemMessage #VANC #VANP Today it is Monday meaning your exercise cycle runs from Monday to Sunday 
+@DayOfWeek(Tuesday,Dienstag) @SystemMessage #VANC #VANP Today it is Tuesday meaning your exercise cycle runs from Tuesday to Monday 
+@DayOfWeek(Wednesday,Mittwoch) @SystemMessage #VANC #VANP Today it is Wednesday meaning your exercise cycle runs from Wednesday to Tuesday 
+@DayOfWeek(Thursday,Donnerstag) @SystemMessage #VANC #VANP Today it is Thursday meaning your exercise cycle runs from Thursday to Wednesday 
+@DayOfWeek(Friday,Freitag) @SystemMessage #VANC #VANP Today it is Friday meaning your exercise cycle runs from Friday to Thursday 
+@DayOfWeek(Saturday,Samstag) @SystemMessage #VANC #VANP Today it is Saturday meaning your exercise cycle runs from Saturday to Friday 
+@DayOfWeek(Sunday,Sonntag) @SystemMessage #VANC #VANP Today it is Sunday meaning your exercise cycle runs from Sunday to Saturday 
+@SystemMessage #VANC #VANP You can only report for exercise every 20 hours 
+@SystemMessage #VANC #VANP The more visits you have per 7 day cycle the more I will reward you
+@NullResponse @SetVar[ExerciseLevel]=[1]
+@NullResponse @Goto(StartExercise)
+(ExerciseFirst)
+@NullResponse @CallReturn(CR\Exercise\ExerciseLevel.txt)
+@Variable[#DateDifference(LastExercise, Hours)]<[20] @NullResponse @Goto(Recent)
+@Variable[#DateDifference(ExercisePeriod, Hours)]>=[160] @NullResponse @Goto(NewCycle)
+(StartExercise)
+@SystemMessage #VANC #VANP @RT(Lets get started,Lets begin your exercise!,Lets start the exercise,Let the exercise commence..)  @SetDate(LastExercise, 0 Hours)
+@NullResponse @CallReturn(CR\Exercise\ExerciseProgram.txt)
+@NullResponse
+@NullResponse @Interrupt(GNMBackgroundBase)
+(Recent)
+@SystemMessage #VANC #VANP You had an exercise #DateDifference(LastExercise, Hours) hours ago 
+@SystemMessage #VANC #VANP Which is too recent 
+@SystemMessage #VANC #VANP You need to wait at least 20 hours..  @Interrupt(GNMBackgroundBase)
+(NewCycle)
+@SystemMessage #VANC #VANP A seven day cycle has ended 
+@SystemMessage #VANC #VANP This past week you've spent @ShowVar[ExerciseTimes] times exercising with me 
+@Variable[ExerciseTimes]>=[6] @SystemMessage #VANC #VANP Which is Excellent!! And it earns you 450 gold  @ChangeVar[GNMGold]=[GNMGold]+[450] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[5] @SystemMessage #VANC #VANP Which is great and it have earned you 300 gold  @ChangeVar[GNMGold]=[GNMGold]+[300] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[4] @SystemMessage #VANC #VANP Which is quite good and earns you 200 gold  @ChangeVar[GNMGold]=[GNMGold]+[200] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[3] @SystemMessage #VANC #VANP Which is good and earns you 100 gold  @ChangeVar[GNMGold]=[GNMGold]+[100] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[2] @SystemMessage #VANC #VANP Which is okay.. but it earns you 50 gold  @ChangeVar[GNMGold]=[GNMGold]+[50] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[1] @SystemMessage #VANC #VANP Which is something and earns you 20 gold  @ChangeVar[GNMGold]=[GNMGold]+[20] @Goto(Continue1)
+@Variable[ExerciseTimes]>=[0] @SystemMessage #VANC #VANP Which is bad and also earning you 0 gold  @Goto(Continue1)
+(Continue1)
+@NullResponse @SetVar[ExerciseTimes]=[0]
+@NullResponse @SetDate(ExercisePeriod, 0 Hours)
+@SystemMessage #VANC #VANP Your current fitness level is @ShowVar[ExerciseLevel]  
+@SystemMessage #VANC #VANP Last week it was @ShowVar[ExerciseLevelOld] 
+@Variable[ExerciseLevel]>[ExerciseLevelOld] @SystemMessage #VANC #VANP Which is an improvement! #GNMEmoteHappy 
+@Variable[ExerciseLevel]=[ExerciseLevelOld] @SystemMessage #VANC #VANP Which is a stay still :/ 
+@Variable[ExerciseLevel]<[ExerciseLevelOld] @SystemMessage #VANC #VANP Which is sadly a decline! #GNMEmoteSad 
+@NullResponse @SetVar[ExerciseLevelOld]=[ExerciseLevel]
+@NullResponse @Goto(StartExercise)

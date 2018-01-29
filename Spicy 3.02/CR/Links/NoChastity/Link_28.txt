@@ -1,0 +1,37 @@
+@NullResponse @CheckFlag(pvLink28A)
+It's about time you get some stroking in, don't you think? #DT @SetFlag(pvLink28A)
+Not that what you think matters one bit, of course... #DT
+@End
+(pvLink28A)
+Alright stroke for me, #SlaveName #DT @DeleteFlag(pvLink28A)
+I'm going to give you a countdown and at the end, I will let you cum #DT @CustomMode(#gdDontWantTo,Goto,do not want)
+Yes you read that right, I'm going to let you cum right now #GNMEmoteHappy #DT
+But only when I reach ZERO and not a second sooner #DT
+Here we go... #DT
+10 #DT @Wait(7)
+9 #DT @Wait(9)
+8 #DT
+If you edge, just ride it until I reach zero #DT @Wait(6)
+7 #DT @Wait(10)
+6 #DT @Wait(8)
+5 #DT @Wait(6)
+4 #DT @Wait(4)
+3... #DT @Wait(3)
+2... #DT @Wait(10)
+Stop! Hands. Off. Now. #DT @CustomMode(#pvDontWantTo,Normal)
+You didn't really think I was going to let you cum just now did you? #DT #GNMLol
+Poor thing... #DT
+Was that cruel of me, to give you false hope like that? #DT
+[yes] Good #GNMGrin #DT
+[no] You've gotten used to this kind of treatment I guess #DT
+@AcceptAnswer I guess I just like being cruel to you #GNMGrin
+Anyway, you haven't suffered anywhere near enough to have earned an orgasm #DT
+@End
+(do not want)
+You don't want to cum?? #GNMLol #DT
+Okay hands off, #SlaveName #DT
+You're right... #DT
+You haven't suffered anywhere near enough to have earned an orgasm #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+You know I wasn't going to let you cum anyway right? #DT
+I was just messing with you, #SlaveName #GNMGrin #DT
+@End

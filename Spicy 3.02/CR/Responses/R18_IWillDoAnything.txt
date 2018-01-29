@@ -1,0 +1,110 @@
+@NullResponse @RapidCodeOn @Flag(gdEnforcingPersonality) @Goto(SkipFetish)
+@NullResponse @Flag(gdCEI, gdAnal, gdPain, gdAssToMouth, gdPee, gdCBT, gdSissy) @Goto(SkipFetish)
+@NullResponse @Flag(ChastityIsOn) @Chance50(Chastity)
+@NullResponse @Chance50(AskFetishes)
+(SkipFetish)
+@NullResponse @Goto(a, b, c, d, e, f, g, h, i)
+(a)
+I'm not sure you understand the implications of 'anything', #SlaveName #DT
+@End
+(b)
+Let's see if you still say that later #GeneralTime #SlaveName #DT
+@End
+(c)
+Anything? Let's take things one step at a time, just #JerkingOff is fine for now #GNMEmoteHappy #DT
+@End
+(d)
+Really? Maybe I'll put it to the test... #Grin #DT
+@End
+(e)
+Anything is a lot, #SlaveName... I'm not sure you're ready for it #DT
+@End
+(f)
+Easy now, #SlaveName #GNMLol #DT
+@End
+(g)
+I love it when you're desperate like that #DT
+@End
+(h)
+Careful what you promise - I might put that to the test, #SlaveName #GNMGrin #DT
+@End
+(i)
+We'll see how far that promise takes us, #SlaveName #DT
+@End
+(AskFetishes)
+@NullResponse @Goto(CEI, Anal, Pain, AssToMouth, Pee, CBT, Sissy)
+(CEI)
+@NullResponse @Flag(gdCEI) @Goto(AskFetishes)
+@NullResponse @Goto(CEI_1, CEI_2)
+(CEI_1)
+Anything, huh? Would you eat your cum for me? #DT @ResponseYes(R20_WantToEatCum) @ResponseNo(R19b_AnythingNoCEI)
+@End
+(CEI_2)
+When you say you'll do anything, does that mean you'll eat your cum for me? #DT @ResponseYes(R20_WantToEatCum) @ResponseNo(R19b_AnythingNoCEI)
+@End
+(Anal)
+@NullResponse @Flag(gdAnal) @Goto(AskFetishes)
+@NullResponse @Goto(Anal_1, Anal_2)
+(Anal_1)
+Is that so... would take a dildo up your ass for me? #DT @ResponseYes(R21_WantAnal) @ResponseNo(R19a_AnythingNoAnal)
+@End
+(Anal_2)
+Anything.. does that include anal stuff? #DT @ResponseYes(R21_WantAnal) @ResponseNo(R19a_AnythingNoAnal)
+@End
+(Pain)
+@NullResponse @Flag(gdPain) @Goto(AskFetishes)
+@NullResponse @Goto(Pain_1, Pain_2)
+(Pain_1)
+So would you spank your ass if I told you to? #DT @ResponseYes(R23_WantPain) @ResponseNo(R19_AnythingNo)
+@End
+(Pain_2)
+Anything, right? That means you would inflict pain to yourself for me? #DT @ResponseYes(R23_WantPain) @ResponseNo(R19_AnythingNo)
+@End
+(AssToMouth)
+@NullResponse @Flag(gdAssToMouth) @Goto(AskFetishes)
+Anything includes licking clean toys that have been in your ass before. Still convinced you'd do that for me? #DT @ResponseYes(R24_WantATM) @ResponseNo(R19_AnythingNo)
+@End
+(Pee)
+@NullResponse @Flag(gdPee) @Goto(AskFetishes)
+You are aware that anything also includes playing with your pee and even drinking it, #SlaveName? #DT @ResponseYes(R24_WantPeePlay) @ResponseNo(R19_AnythingNo)
+@End
+(CBT)
+@NullResponse @Flag(gdCBT) @Goto(AskFetishes)
+Mmm would you hurt your #GNMBalls if I told you to? #DT @ResponseYes(R25_WantCBT) @ResponseNo(R19_AnythingNo)
+(Sissy)
+@NullResponse @Flag(gdSissy) @Goto(AskFetishes)
+Does that include dressing up like a girl and wearing makeup? #DT @ResponseYes(R22_WantSissy) @ResponseNo(R19_AnythingNo)
+@End
+(Chastity)
+@NullResponse @CheckFlag(HasChastity)
+(NoChastity)
+@NullResponse @Goto(NoChastity_1, NoChastity_2)
+(NoChastity_1)
+You just say that because you're desperate to start #JerkingOff again #DT
+@End
+(NoChastity_2)
+Then maybe you should go buy a chastity device... I'd love to lock your #GNMCock up #DT
+@End
+(HasChastity)
+@NullResponse @Goto(Chastity_1, Chastity_2)
+(Chastity_1)
+Yes, that's what being in chastity will do to a guy #GNMLol #DT
+@End
+(Chastity_2)
+You become so eager to please when you're locked up... I love it #GNMEmoteHappy #DT
+@End
+
+//Stuf left (missing variables):
+//Edging
+But all I want from you right now is to get to the edge @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Just edging for me is quite enough for now, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Anything? I'll be happy if you edge for me right now #EmoteWink @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+//Holding Edge
+I like that, you better stay on the edge a little longer #Grin @AddEdgeHoldTime @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+//CBT Cock
+Then hurt your #Cock for me, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+//CBT Balls
+Then hurt your #Balls for me, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+//After tease
+We're done for now, #SlaveName @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]
+Maybe next time we'll find out what that means, exactly #Grin @ChangeVar[pvInfluencePos]=[pvInfluencePos]+[1]

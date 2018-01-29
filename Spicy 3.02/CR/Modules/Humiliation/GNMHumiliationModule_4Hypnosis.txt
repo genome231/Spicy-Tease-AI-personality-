@@ -1,0 +1,7 @@
+@RT(Time for a bit of brainwash!,It's time for a dosis of brainwash) #DT @CheckFlag(ChastityIsOn)
+@Flag(HumiliationUpdate2) @RT(You have my permission to stroke slowly..,You may stroke slowly..) #DT
+(ChastityIsOn)
+@RT(Enjoy!,Have fun!) #DT
+@NullResponse @PlayVideo[\GNM_Videos\Modules\Sissy\BrainWash\*.mp4]
+@RT(I hope you're feeling more submissive,If you were here you would stuff like this daily) #DT
+@End

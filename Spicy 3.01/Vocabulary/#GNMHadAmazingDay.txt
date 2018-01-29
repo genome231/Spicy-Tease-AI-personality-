@@ -1,4 +1,0 @@
-#SlaveName I had an amazing day today @PlayAudio[/GNMSounds/CallName/MistressHappy/*.mp3]
-#SubName I had an amazing day today @PlayAudio[/GNMSounds/CallName/MistressHappy/*.mp3]
-I had a lovely day today! @PlayAudio[/GNMSounds/CallName/MistressHappy/*.mp3]
-Thank you #SubName for giving me a lovely time today! @PlayAudio[/GNMSounds/CallName/MistressHappy/*.mp3]

@@ -1,0 +1,31 @@
+@NullResponse @CheckFlag(ChastityIsOn)
+@RT(You now have a choice #SlaveName,You got a choice #SlaveName,It's time for you to make a choice #SlaveName) #DT
+@RT(Go into chastity,Go into your #Cage,Put on your #Cage) #DT
+Or #DT
+@Flag(Personality1) @Variable[SubEndurance]>=[6] @RT(Complete,Do full) 50 Push ups #DT @SetVar[PushUpToDo]=[50]
+@Flag(Personality2) @Variable[SubEndurance]>=[6] @RT(Complete,Do full) 75 Push ups #DT @SetVar[PushUpToDo]=[75]
+@Flag(Personality3) @Variable[SubEndurance]>=[6] @RT(Complete,Do full) 100 Push ups #DT @SetVar[PushUpToDo]=[100]
+Within 180 seconds..
+Push ups or denial? #DT
+[Push up,push ups]#GNMGood  #DT
+[denial,chastity,lock up]@RT(Your choice!,Smart choice probably!) #DT @Goto(ChastityIsOn)
+@DifferentAnswer Push up or denial? #DT
+@RT(Start the push ups!,Begin with the push ups!) #DT #GNMEmoteHappy
+Write 'done' when you're done.. #DT @Timeout(180, Time)
+[done]#GNMGrin  #DT
+@DifferentAnswer Are you trying to write 'done'? #DT
+@RT(You made it..,You actually made it!) #DT
+@RT(I didn't think you would,I thought you wouldn't) #DT
+@End
+(Time)
+Time's up! #DT
+(ChastityIsOn)
+#SlaveName #DT
+@Variable[#DateDifference(PDenial, Hours)]<=[PDenialSet] @RT(Since you're already serving a chastity sentence,Because you're already serving a chastity sentence) #DT @Goto(1)
+@RT(I'm putting you under lock and key,I'm locking that #Cock away..,I think it's best to lock that #GNMCock up..) #DT
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Enjoy!,Have fun!) #DT @SetVar[PDenialSet]=[24] @SetDate(PDenial, 0 Days)
+@NullResponse @Interrupt(LockedAway)
+(1)
+@RT(I'm just gonna prolong it #GNMGrin,I'm increasing it's length..) #DT @ChangeVar[PDenialSet]=[PDenialSet]+[24]
+@End

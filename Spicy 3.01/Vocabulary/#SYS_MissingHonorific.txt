@@ -1,7 +1,0 @@
-@Flag(DommeActive,Personality1) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNMedium
-@Flag(DommeActive,Personality2) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNMedium
-@Flag(DommeActive,Personality3) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNHigh
-@Flag(Glitter1Active) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNMedium
-@Flag(Glitter2Active) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNMedium
-@Flag(Glitter3Active) @RT(Remember your manners,Dont forget to show respect,Show some respect..,Carefull now..,Carefull #SlaveName..,Be cautious #SlaveName) #DT #MeritChangeNHigh
-@Flag(Assistant) @NullResponse

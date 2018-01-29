@@ -1,0 +1,15 @@
+Lets look into #DT
+Bikini's, hosiery, bedjackets and bodices #DT
+Note that bikini's and hosiery @RT(obviously steals the focus,has to steal the focus,are very important!) #DT
+@RT(Get to work,Get back to work,Go ahead and start studying,Get busy..) #DT @Goto(1a1,1a2,1a3)
+(1a1)
+@NullResponse @Wait(#Random(120,240))
+Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(7) @Goto(End)
+(1a2)
+@NullResponse @Wait(#Random(120,240))
+Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(7) @Goto(End)
+(1a3)
+@NullResponse @Wait(#Random(120,240))
+Get back here.. #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3] @Wait(7) @Goto(End)
+(End)
+@End

@@ -1,0 +1,28 @@
+@NullResponse @RapidCodeOn @ChangeVar[R5c]=[R5c]+[1] @CheckFlag(R5cFirst) 
+@NullResponse @SetVar[R5c]=[1] @TempFlag(R5cFirst)
+(R5cFirst)
+@Variable[R5c]>=[2] @RT(Shut up!,Shut your mouth!,Quiet!,Silence!) #DT #MeritChangeNHigh @Goto(End)
+@RT(I can ask whatever I want,You serve <i>me</i>,I think you've forgotten something) #DT
+@RT(YOU serve ME!,It is YOU who serve ME!) #DT @Goto(1,2,3,4)
+(1)
+@NullResponse @CallReturn(CR\Punishment\EdgingOrChastity.txt)
+@NullResponse @Goto(Ready)
+(2)
+@NullResponse @CallReturn(CR\Punishment\SitOnHandsBlack.txt)
+@NullResponse @Goto(Ready)
+(3)
+@NullResponse @CallReturn(CR\Punishment\ParachuteOrBallBusting.txt)
+@NullResponse @Goto(Ready)
+(4)
+@NullResponse @CallReturn(CR\Punishment\QuickCorner.txt)
+@NullResponse @Goto(Ready)
+(Ready)
+@RT(Are you ready to continue?,Now are you ready to proceed and do what I command?,Ready to do as told?) #DT
+[yes]#GNMGood #DT @Goto(End)
+[no]Well then #DT @Goto(EndBad)
+@DifferentAnswer #GNMYesOrNo #DT
+(End)
+@End
+(EndBad)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+@RT(Enjoy..,Have fun) #DT @Interrupt(GNMBackgroundBase)

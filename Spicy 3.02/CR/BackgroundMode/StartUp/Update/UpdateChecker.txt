@@ -1,0 +1,11 @@
+@NullResponse @RapidCodeOn @Variable[InstalledSpicyVersion]<[FileSpicyVersion] @Goto(Update)
+@End
+(Update)
+@RapidCodeOn @SystemMessage Found update. Updating... @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@RapidCodeOn @SystemMessage This might require user input @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+(2)
+@NullResponse @Variable[InstalledSpicyVersion]<[2] @CallReturn(CR\BackgroundMode\StartUp\Update\2.txt)
+(EndUpdate)
+@NullResponse@ChangeVar[InstalledSpicyVersion]=[FileSpicyVersion]+[0]
+@RapidCodeOn @SystemMessage Update finished @ShowImage[\GNMImages\Punishment\Grounding\BlackBase.*]
+@End

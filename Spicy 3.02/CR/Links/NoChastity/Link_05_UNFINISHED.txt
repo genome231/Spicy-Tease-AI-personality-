@@ -1,0 +1,27 @@
+@NullResponse @CheckFlag(gdBallsTied)
+@NullResponse @CheckFlag(pvLink05A)
+@NullResponse @CheckFlag(pvLink05B)
+I think that #GNMCock needs some more attention... #DT @SetFlag(pvLink05A)
+@End
+(gdBallsTied)
+Those #GNMBalls look like we should probably untie them, right? #DT  @Timeout(9,untie them)
+[yes] I thought so #GNMLol #DT
+[no] Aww my little pain slut wants to stay tied up #Grin #DT 
+@DifferentAnswer #GNMYesOrNo #DT 
+(untie them)
+Let's give them some room to move around #DT 
+How else are they going to fill up with all that cum we're making #DT @CallReturn(Custom/CallReturn/pvCr_UnTieMyBalls.txt)
+We should probably loosen them up a little, too #Grin #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+That should do it #GNMEmoteHappy #DT 
+@NullResponse
+@End
+(pvLink05A)
+You know, I used to think blue balls were a myth #DT @DeleteFlag(pvLink05A) @SetFlag(pvLink05B)
+That it was like a metaphor and that they wouldn't actually turn blue #DT 
+But then I started denying guys their orgasms and found out it isn't a myth #DT 
+That @RT(testicles,balls) can actually be made to turn blue #DT 
+I've been on a quest to find the fastest way to do so ever since #Grin #DT
+@End
+(pvLink05B)
+@NullResponse @DeleteFlag(pvLink05B)
+@End

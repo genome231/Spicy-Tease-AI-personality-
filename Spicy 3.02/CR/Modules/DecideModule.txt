@@ -1,0 +1,258 @@
+@Variable[#DateDifference(Devotion, Minutes)]>[DevotionSet] @NullResponse @Goto(EndSession)
+@NullResponse @RapidCodeOn
+@NullResponse @DeleteFlag(NoStrokeEdge)
+@NullResponse @DeleteFlag(MaybeStrokeEdge)
+@NullResponse @DeleteFlag(YesStrokeEdge)
+@Flag(Glitter1Bought,Glitter2Bought,Glitter3Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1,Glitter2,Glitter3)
+@Flag(Glitter1Bought,Glitter2Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1,Glitter2)
+@Flag(Glitter1Bought) @NullResponse @Chance90(Domme) @Goto(Glitter1)
+@NullResponse @Goto(Domme)
+(Domme)
+@NullResponse @Goto(ModuleRun)
+(Glitter1)
+@NullResponse @SetFlag(Glitter1Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
+(Glitter2)
+@NullResponse @SetFlag(Glitter2Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
+(Glitter3)
+@NullResponse @SetFlag(Glitter3Active) @DeleteFlag(DommeActive) @Goto(GlitterIntro)
+(GlitterIntro)
+@NullResponse @Goto(MessageGlitter,WaitGlitter,DommeLeaveGlitter)
+(WaitGlitter)
+@RT(Just a moment,Before we continue,Before me move on,Just before we continue,Oh wait a moment,Hold on..,Wait a second,Give me a second,Hold on for a minute) #DT @Goto(SeemsGlitter)
+(SeemsGlitter)
+@RT(It seems,It appears,I think,It looks like) #CurrentDommeName @RT(wishes,wants,was hoping,desires) to @RT(handle this one,take lead on this one,have some fun,enjoy herself) #DT @Goto(DommeLeave)
+(MessageGlitter)
+@RT(You know what #SlaveName?,I have some interesting news for you,I have great news) #DT
+#CurrentDommeName @RT(messaged me before,just texted me,just called me,called me today) #DT
+@RT(She plans on taking this over for a while,She intends on taking it over from here,She wants to play with you) @Goto(DommeLeave)
+(DommeLeaveGlitter)
+@RT(Okay..,Let's see..,Seems like that works..) #DT
+#SlaveName #DT
+@RT(I need to leave for a short while,I will get something to drink,I am hungry so I will grab something to eat,I am bored,I have an incoming important call) #DT
+But @RT(I don't want to leave you all alone,I am not planning on leaving you all alone,I don't want you to be bored,I don't want you to wait) #DT
+Thus I @RT(called,texted,messaged,talked to) #CurrentDommeName #GNMGrin #DT
+She @RT(is interested in taking this over,will take this from here on,will take this over,will keep you busy) @RT(for now,for the time being,until I am back,until I am available again) #DT
+@Goto(DommeLeave)
+(DommeLeave)
+@RT(Let's hope she won't be too cruel to you,I hope she won't be too cruel,Don't disappoint me!,Be a good slave,Behave!,Be on your best behaviour!,I expect you to follow her commands same like mine,Don't you dare cum,Don't you dare disappoint me) #DT
+@RT(That said,Having said that,With that said) #DT
+@RT(I will leave now,I will leave you to her now,I will invite her now,I will add her to the chat now,She will join now,She will join us now,She will take over now) #DT
+@RT(Cya,See you soon,See you again soon,See you later,Enjoy!,Have fun!) #SlaveName #DT
+@NullResponse @CheckFlag(Glitter1Active, EnableGlitter1) 
+@NullResponse @CheckFlag(Glitter2Active, EnableGlitter2) 
+@NullResponse @CheckFlag(Glitter3Active, EnableGlitter3) 
+(EnableGlitter1)
+@NullResponse @AddContact1
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(EnableGlitter2)
+@NullResponse @AddContact2
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(EnableGlitter3)
+@NullResponse @AddContact3
+@NullResponse @RemoveDomme @Goto(IntroduceGlitter)
+(IntroduceGlitter)
+@RT(Hello,Hi,Hey,Greetings) #SlaveName #DT 
+@RT(Let's not waste anymore time,Let's waste no time,Let's get to it,No long introductions today,Let's make #DomName proud of you) #DT @Goto(ModuleRun)
+(ModuleRun)
+@NullResponse @RapidCodeOn @SetVar[ModuleChooser]=[#Random(0,100)]
+@NullResponse @SetVar[MaxModuleRange]=[0]
+(Mood)
+@NullResponse @ChangeVar[MoodTeaseModule]=[TeaseModule]+[0]
+@NullResponse @ChangeVar[MoodTeaseModule2]=[MoodTeaseModule]/[2]
+@NullResponse @ChangeVar[MoodTeaseModule3]=[MoodTeaseModule]/[3]
+@NullResponse @ChangeVar[MoodTeaseModule4]=[MoodTeaseModule]/[4]
+@NullResponse @ChangeVar[MoodTeaseModule5]=[MoodTeaseModule]/[5]
+@Flag(Personality1,VPleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule2] @Goto(CheckP)
+@Flag(Personality1,Pleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule3] @Goto(CheckP)
+@Flag(Personality1,Neutral) @NullResponse @Goto(CheckP)
+@Flag(Personality1,Annoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[MoodTeaseModule4] @Goto(CheckP)
+@Flag(Personality1,VAnnoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[MoodTeaseModule3] @Goto(CheckP)
+@Flag(Personality2,VPleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule3] @Goto(CheckP)
+@Flag(Personality2,Pleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule4] @Goto(CheckP)
+@Flag(Personality2,Neutral) @NullResponse @Goto(CheckP)
+@Flag(Personality2,Annoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[MoodTeaseModule3] @Goto(CheckP)
+@Flag(Personality2,VAnnoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[MoodTeaseModule2] @Goto(CheckP)
+@Flag(Personality3,VPleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule4] @Goto(CheckP)
+@Flag(Personality3,Pleased) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]+[MoodTeaseModule5] @Goto(CheckP)
+@Flag(Personality3,Neutral) @NullResponse @Goto(CheckP)
+@Flag(Personality3,Annoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule4]+[0] @Goto(CheckP)
+@Flag(Personality3,VAnnoyed) @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule5]+[0] @Goto(CheckP)
+(CheckP)
+@Variable[GNMPPoints]>=[250] @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[10]
+@Variable[Angry]>[25] @NullResponse @ChangeVar[MoodTeaseModule]=[MoodTeaseModule]-[10]
+(CalculateMax)
+@NullResponse @ChangeVar[MaxModuleRange]=[MaxModuleRange]+[MoodTeaseModule]
+@NullResponse @ChangeVar[MaxModuleRange]=[MaxModuleRange]+[SlaveModule]
+@NullResponse @ChangeVar[MaxModuleRange]=[MaxModuleRange]+[SissyModule]
+@NullResponse @ChangeVar[MaxModuleRange]=[MaxModuleRange]+[PainModule]
+(NormPercentage)
+@NullResponse @ChangeVar[NormedTeaseModule]=[MoodTeaseModule]*[100]
+@NullResponse @ChangeVar[NormedTeaseModule]=[NormedTeaseModule]/[MaxModuleRange]
+@NullResponse @ChangeVar[NormedSlaveModule]=[SlaveModule]*[100]
+@NullResponse @ChangeVar[NormedSlaveModule]=[NormedSlaveModule]/[MaxModuleRange]
+@NullResponse @ChangeVar[NormedSissyModuel]=[SissyModule]*[100]
+@NullResponse @ChangeVar[NormedSissyModuel]=[NormedSissyModuel]/[MaxModuleRange]
+@NullResponse @ChangeVar[NormedPainModule]=[PainModule]*[100]
+@NullResponse @ChangeVar[NormedPainModule]=[NormedPainModule]/[MaxModuleRange]
+@NullResponse @ChangeVar[TeaseModuleRange]=[NormedTeaseModule]+[0]
+@NullResponse @ChangeVar[SlaveModuleRange]=[TeaseModuleRange]+[NormedSlaveModule]
+@NullResponse @ChangeVar[SissyModuleRange]=[SlaveModuleRange]+[NormedSissyModuel]
+@NullResponse @ChangeVar[PainModuleRange]=[SissyModuleRange]+[NormedPainModule]
+(Select)
+@Variable[TeaseModuleRange]>=[ModuleChooser] @NullResponse @Goto(TeaseModules)
+@Variable[SlaveModuleRange]>=[ModuleChooser] @NullResponse @Goto(SlaveModules)
+@Variable[SissyModuleRange]>=[ModuleChooser] @NullResponse @Goto(SissyModules)
+@Variable[PainModuleRange]>=[ModuleChooser] @NullResponse @Goto(PainModules)
+(TeaseModules)
+@NullResponse @Flag(ChastityIsOn) @Goto(Chastity1,Chastity2,Chastity3,Chastity4,Chastity5,Chastity6)
+@NullResponse @Goto(a1,a2,a3,a4,a5,a6)
+(SlaveModules)
+@NullResponse @Flag(ChastityIsOn) @Goto(b1,b2,b3,b4,b6)
+@NullResponse @Goto(b1,b2,b3,b4,b5,b6)
+(SissyModules)
+@NullResponse @Flag(ChastityIsOn) @Goto(c1,c2,c3,c4,c6)
+@NullResponse @Goto(c1,c2,c3,c4,c5,c6)
+(PainModules)
+@NullResponse @Flag(ChastityIsOn) @Goto(d1)
+@NullResponse @Goto(d1,d2,d3,d4,d5,d6)
+(a1)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_1CockTraining.txt)
+@NullResponse @Goto(End)
+(a2)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_2EdgeATon.txt)
+@NullResponse @Goto(End)
+(a3)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_3ModelRating.txt)
+@NullResponse @Goto(End)
+(a4)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_4CinemaStroke.txt)
+@NullResponse @Goto(End)
+(a5)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_5RedGreenLight.txt)
+@NullResponse @Goto(End)
+(a6)
+@NullResponse @CallReturn(CR\Modules\Tease\GNMTeaseModule_6AvoidTheEdge.txt)
+@NullResponse @Goto(End)
+(a7)
+(a8)
+(a9)
+(a10)
+(b1)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_1PositionTraining.txt)
+@NullResponse @Goto(End)
+(b2)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_2RuleTraining.txt)
+@NullResponse @Goto(End)
+(b3)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_3Licking.txt)
+@NullResponse @Goto(End)
+(b4)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_4ServiceTraining.txt)
+@NullResponse @Goto(End)
+(b5)
+@NullResponse @Flag(ChastityIsOn) @Goto(b1,b2,b3,b4,b6)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_5Assignment.txt)
+@NullResponse @Goto(End)
+(b6)
+@NullResponse @CallReturn(CR\Modules\Slave\GNMSlaveModule_6Math.txt)
+@NullResponse @Goto(End)
+(b7)
+(b8)
+(b9)
+(b10)
+(c1)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_1BJTraining.txt)
+@NullResponse @Goto(End)
+(c2)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_2AudioTease.txt)
+@NullResponse @Goto(End)
+(c3)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_3Cuckold.txt)
+@NullResponse @Goto(End)
+(c4)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_4Hypnosis.txt)
+@NullResponse @Goto(End)
+(c5)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_5Gay.txt)
+@NullResponse @Goto(End)
+(c6)
+@NullResponse @CallReturn(CR\Modules\Humiliation\GNMHumiliationModule_6Anal.txt)
+@NullResponse @Goto(End)
+(c7)
+(c8)
+(c9)
+(c10)
+(d1)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_1Spanking.txt)
+@NullResponse @Goto(End)
+(d2)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_2BallCrushing.txt)
+@NullResponse @Goto(End)
+(d3)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_3Parachute.txt)
+@NullResponse @Goto(End)
+(d4)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_4Electro.txt)
+@NullResponse @Goto(End)
+(d5)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_5Pegs.txt)
+@NullResponse @Goto(End)
+(d6)
+@NullResponse @CallReturn(CR\Modules\Pain\GNMPainModule_6HotSauce.txt)
+@NullResponse @Goto(End)
+(d7)
+(d8)
+(d9)
+(d10)
+(Chastity1)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_1Cinema.txt)
+@NullResponse @Goto(End)
+(Chastity2)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_2LineWriting.txt)
+@NullResponse @Goto(End)
+(Chastity3)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_3Slideshow.txt)
+@NullResponse @Goto(End)
+(Chastity4)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_4Gamble.txt)
+@NullResponse @Goto(End)
+(Chastity5)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_5Photoshoot.txt)
+@NullResponse @Goto(End)
+(Chastity6)
+@NullResponse @CallReturn(CR\Modules\Chastity\GNMChastityModule_6Story.txt)
+@NullResponse @Goto(End)
+(End)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter1Active)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter2Active)
+@NullResponse @RapidCodeOn @CheckFlag(Glitter3Active)
+@End
+(Glitter1Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter1Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact1
+@End
+(Glitter2Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter2Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact2
+@End
+(Glitter3Active)
+@RT(Cya,Cya later,See you soon I hope,Bye,Farewell) @RT(#SlaveName,#Slut,#SubName) #DT @SetFlag(DommeActive) @DeleteFlag(Glitter3Active)
+@NullResponse @AddDomme
+@NullResponse @RemoveContact3
+@End
+(EndSession)
+@NullResponse @Interrupt(GNMEnd)
+@Info Categories
+@Info Tease: 		(edging, stroking, other forms of stimulation).
+@Info Pain:  		(Anything).
+@Info Sissy: 		(crossdressing, bj training, cuckolding).
+@Info Slave:  	(Position training, servicing exercising)
+@Info Humiliation: 
+@Info 
+@Info 
+@Info Category is currently chosen due 
+@Info 
+@Info 
+@Info 

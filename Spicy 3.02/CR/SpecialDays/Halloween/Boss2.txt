@@ -1,0 +1,193 @@
+@NullResponse @SetVar[DemonHP]=[1]
+@NullResponse @LockImages
+(Cave)
+@SystemMessage Having defeated the first boss you descend down @ShowImage[\GNMImages\SpecialDays\Halloween\Cave.jpg]
+@SystemMessage You find yourself walking through ruins and caves
+@SystemMessage Suddenly you hear an evil laugther and dread fills your soul
+@SystemMessage Before appears a woman with horns sprouting from her head
+@SystemMessage Large batlike wings with daggers at the end of them emerges from her back
+@SystemMessage With demonic eyes she sends you an selfassure smile
+@SystemMessage "Welcome" #SubName"
+@SystemMessage "My name is Xi'nu"
+@SystemMessage "And you arrived just in time for my pets feeding time"
+@SystemMessage She laughs again and giant worm like creatures born from nightmaire
+@SystemMessage Suddenly starts burrows beneat the ground
+@SystemMessage What do you do? @Timeout(15, WormFood)
+[Attack] @SystemMessage Your action has no effect @Goto(WormFood)
+[block] @SystemMessage Your action has no effect @Goto(WormFood)
+[cast spell,cast,spell,magic] @SystemMessage You enter a trance @Goto(Spell1)
+[run,flee,hide] @SystemMessage You try to get away @Goto(WormFood)
+@AcceptAnswer @SystemMessage Your action has no effect @Goto(WormFood)
+(Spell1)
+@NullResponse @If[HalloweenMana]<=[0]Then(NoMana1)
+@SystemMessage You remember all your spells @ChangeVar[HalloweenMana]=[HalloweenMana]-[1]
+@SystemMessage Searching your mind you recall three 3 spells that might help you here
+@SystemMessage Mind reach
+@SystemMessage Etheral form
+@SystemMessage Black rest
+@SystemMessage But which to choose?
+[mind reach] @SystemMessage You murmur a few words of power @Goto(MindReach)
+[etheral form] @SystemMessage You murmur a few words of power @Goto(EtheralForm)
+[black rest] @SystemMessage You murmur a few words of power @Goto(BlackRest)
+@DifferentAnswer @SystemMessage Mind reach, Etheral form or black rest?
+(MindReach)
+@SystemMessage You reach out with your mind to the creatures
+@SystemMessage You feel their fast approach beneath ground
+@SystemMessage Concentrating harder you take control of their mind
+@SystemMessage Turning them around towards Xi'nu
+@SystemMessage You feel her smile gone and suddenly all you can sense is death..
+@SystemMessage She killed her own worms.. @Goto(Phase2)
+(BlackRest)
+@SystemMessage Dark shadow tendrils shoots from your hands and into the ground
+@SystemMessage Soon after you have a feeling that the beasts are sound a sleep @Goto(Phase2)
+(EtheralForm)
+@SystemMessage You enter an etheral form
+@SystemMessage You leave the physical world and find yourself balancing between death and the void
+@SystemMessage The worms no longer able to sense you emerge from the ground
+@SystemMessage Some seem to look right at you but unable to <i>see</i> you
+@SystemMessage You look towards Xi'nu who clearly see's you
+@SystemMessage Angrily she also enters the etheral world @Goto(EtheralBattle)
+(EtheralBattle)
+@SystemMessage "Fool!" Xi'nu says
+@SystemMessage "You have entered my realm.. My world!"
+@SystemMessage She floats towards you, her wings in position to strike you
+@SystemMessage What do you do? @Timeout(15, Drain)
+[Attack] @SystemMessage Metal unable to cross the barrier, you find that you have no weapon to attack with @Goto(Drain)
+[block] @SystemMessage Metal unable to cross the barrier, you find that you have no shield to block with @Goto(Drain)
+[cast spell,cast,spell,magic] @SystemMessage You enter a trance @Goto(Spell2)
+[run,flee,hide] @SystemMessage You try to get away, but you can't move @Goto(Drain)
+@AcceptAnswer @SystemMessage Your action has no effect @Goto(Drain)
+(Drain)
+@SystemMessage Xi'nu stabs you with her winged blades 
+@SystemMessage Leaving them in your body you her starting to drain your life
+@SystemMessage You've lost 1 health @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+(Drain1a)
+@SystemMessage What do you do? @Timeout(15, Drain2)
+[cast spell,cast,spell,magic] @SystemMessage You enter a trance @Goto(Spell2)
+@AcceptAnswer @SystemMessage Your action has no effect @Goto(Drain2)
+(Drain2)
+@SystemMessage You feel life leaving your body as she seems to drain your life essence
+@SystemMessage You've lost 1 health @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead) @Goto(Drain1a)
+(Spell2)
+@NullResponse @If[HalloweenMana]<=[0]Then(NoMana2)
+@SystemMessage You remember all your spells @ChangeVar[HalloweenMana]=[HalloweenMana]-[1]
+@SystemMessage Searching your mind you recall three 2 spells that might help you here
+@SystemMessage Psychic destruction
+@SystemMessage Power word: Suffer
+(SpellCast1)
+@SystemMessage But which to choose?
+[psychic destruction] @SystemMessage You murmur a few words of power @Goto(PsychicDestruction)
+[suffer] @SystemMessage You murmur a few words of power @Goto(Suffer)
+@DifferentAnswer @SystemMessage suffer or psychic destruction?
+(PsychicDestruction)
+@SystemMessage You and Xi'nu enter a final battle of mental power 
+@SystemMessage Weakening both of you know that your odds are about 50/50 to win
+@SystemMessage You make a final effort to kill her @Chance50(Victory)
+@SystemMessage You feel her mind overwhelming your own @Goto(Dead)
+(Suffer)
+@SystemMessage You murmur the words of power and Xi'nu falls to the floor screaming in pain @ChangeVar[DemonHP]=[DemonHP]-[1]
+@NullResponse @If[DemonHP]<=[0]Then(Victory2)
+@SystemMessage Xi'nu stares at you soon after
+@SystemMessage You feel her drawing you into her mind..
+@SystemMessage You find yourself chained to wall
+@SystemMessage Xi'nu moves closer 
+@SystemMessage You feel a chain creeping around your neck
+@SystemMessage Slowly it begins to tigthen its grip choking you
+(Choking)
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[2]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead)
+@SystemMessage What do you do? @Timeout(15, Dead)
+[break free,free,test,chains] @SystemMessage You test the chains with all your strength pulling free
+[cast spell,cast,spell,magic] @SystemMessage You try to enter a trance, but a great pain in your body prevents you @Goto(Choking)
+@AcceptAnswer @SystemMessage Your action is futile, you feel your life slowly slipping @Goto(Choking)
+(Choking2)
+@SystemMessage Xi'nu lunges at you with her winged knives
+@SystemMessage What do you do?
+[Attack] @SystemMessage Realizing you have no weapon she stabs you with all her knives @Goto(Dead)
+[block] @SystemMessage Realizing you have no shield she stabs you with all her knives @Goto(Dead)
+[cast spell,cast,spell,magic] @SystemMessage Before you can enter a trance she stabs you with all her knives @Goto(Dead)
+[dodge,step aside,step away] @SystemMessage You dodge her attack, left vulnerable you quickly kick her @Goto(Kick)
+@AcceptAnswer @SystemMessage Your action has no effect and she stabs you with all her knives @Goto(Dead)
+(Kick)
+@NullResponse @ChangeVar[DemonHP]=[DemonHP]-[2]
+@NullResponse @If[DemonHP]<=[0]Then(Victory2)
+@SystemMessage Clearly hurt she rises, eyes mad with rage
+@SystemMessage You suddenly run towards her
+@SystemMessage Just the moment before giving her another kick
+@SystemMessage You wonder if you should aim for head, body or legs?
+[head] @SystemMessage Clearly expecting you to aim for the head, her knives catches you in the air @Goto(Dead)
+[body] @SystemMessage Surprised that you go for her body, you land a kick in her center chest @Goto(Victory2)
+[legs] @SystemMessage Clearly expecting you to aim for her legs, her knives catches you before you can land your kick @Goto(Dead)
+@DifferentAnswer @SystemMessage Head, body or legs?
+(Phase2)
+@SystemMessage Xi'nu laughs
+@SystemMessage "I clearly underestimated your powers" @Goto(Battle1,Battle2,Battle3)
+(Battle1)
+@SystemMessage @RT(Using her wings to launch her into the air,With her wings she launches into the air,She launches into the air)
+@SystemMessage @RT(She hurls towards you with amazing speed,Descending with amazing speed she comes at you,From the air she descends upon you) - daggers first
+@SystemMessage How do you stand your ground? @Timeout(10, HPYLoss)
+[Shield raised,raise shield,block] @SystemMessage She falls hard on you, her wings attacking you from the sides @Goto(HPYLoss)
+[weapon raised,sword raised,attack] @SystemMessage She falls hard on you, her wings attacking you from the sides @Goto(HPYLoss)
+[dodge,step aside,move aside,tumble] @SystemMessage Stepping aside you quickly launch an attack at her @Goto(HPDLoss)
+[cast spell,cast,spell,magic] @SystemMessage Falling to quick for you to spell cast she stabs you @Goto(HPYLoss)
+@AcceptAnswer @SystemMessage Your action has no effect and she stabs you @Goto(HPYLoss)
+(Battle2)
+@SystemMessage @RT(Running towards you,Sprinting towards you)
+@SystemMessage @RT(She raises her wings in attack position,Her wings getting into attack position)
+@SystemMessage How do you stand your ground? @Timeout(10, HPYLoss)
+[Shield raised,raise shield,block] @SystemMessage You block her attack and she retreats a bit @Goto(Battle1,Battle2,Battle3)
+[weapon raised,sword raised,attack] @SystemMessage Having better reach than you she stabs you @Goto(HPYLoss)
+[dodge,step aside,move aside,tumble] @SystemMessage Unable to escape her attack @Goto(HPYLoss)
+[cast spell,cast,spell,magic] @SystemMessage You speak words of power and a small fireball strikes Xi'nu @Goto(HPDLoss)
+@AcceptAnswer @SystemMessage Your action has no effect and she stabs you @Goto(HPYLoss)
+(Battle3)
+@SystemMessage @RT(Slowly she approaches you,Carefully she approaches you)
+@SystemMessage @RT(Being close enough she suddenly strikes you,Getting close she uses the full extend of her wings)
+@SystemMessage How do you stand your ground? @Timeout(10, HPYLoss)
+[Shield raised,raise shield,block] @SystemMessage You block her attack and she retreats a bit @Goto(Battle1,Battle2,Battle3)
+[weapon raised,sword raised,attack] @SystemMessage Striking to fast for to react @Goto(HPYLoss)
+[dodge,step aside,move aside,tumble] @SystemMessage Striking to fast for to react @Goto(HPYLoss)
+[cast spell,cast,spell,magic] @SystemMessage @Goto(Battle1,Battle2,Battle3)
+@AcceptAnswer @SystemMessage Your action has no effect and she stabs you @Goto(HPYLoss)
+(HPYLoss)
+@SystemMessage Agony fills you
+@SystemMessage You've lost 1 HP
+@SystemMessage She returns to safe distance 
+@NullResponse @ChangeVar[HalloweenHP]=[HalloweenHP]-[1]
+@NullResponse @If[HalloweenHP]<=[0]Then(Dead) @Goto(Battle1,Battle2,Battle3)
+(HPDLoss)
+@SystemMessage She shrieks in pain
+@SystemMessage Clearly hurt
+@NullResponse @ChangeVar[DemonHP]=[DemonHP]-[2]
+@NullResponse @If[DemonHP]<=[0]Then(Victory2)
+@SystemMessage She returns to safe distance @Goto(Battle1,Battle2,Battle3)
+(NoMana2)
+@SystemMessage You have no mana left
+@SystemMessage You realize all is lost @Goto(Dead)
+(NoMana1)
+@SystemMessage You have no mana left
+@SystemMessage And cannot enter trance..
+(WormFood)
+@SystemMessage But before you even realize it
+@SystemMessage One of her pets emerges from beneath you
+@SystemMessage Eating you in one piece
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)
+(Dead)
+@SystemMessage You fall to the floor
+@SystemMessage Conciousness fading
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)
+(Victory2)
+@SystemMessage Xi'nu falls to the ground @SetVar[HBoss]=[2]
+@SystemMessage Dead..
+@SystemMessage You can't help but feel relief and a bit of pleasure stealing her life @Goto(Boss3)
+(Victory1)
+@SystemMessage Succesfull you feel her life fading @SetVar[HBoss]=[2]
+@SystemMessage Xi'nu falls to the floor
+@SystemMessage You reenter the physical world @Goto(Boss3)
+(Boss3)
+@NullResponse @CallReturn(CR\SpecialDays\Halloween\Boss3.txt)
+@End

@@ -1,0 +1,10 @@
+@SystemMessage #VANC #VANP Authors game is reserved for those writing scripts for Tease-AI
+@SystemMessage #VANC #VANP After each session you will be asked about the number of hours spent writing scripts
+@SystemMessage #VANC #VANP So on day 1 you report having spent 2 hours
+@SystemMessage #VANC #VANP Between day 1 and 2 you spent 1 hour
+@SystemMessage #VANC #VANP On day 3 you didn't have a session
+@SystemMessage #VANC #VANP Between day 2 and 4 you spent 3 hours
+@SystemMessage #VANC #VANP The #DomHonorific will count your total hours
+@SystemMessage #VANC #VANP When she believes you've spent enough time @SetVar[AGHoursTotal]=[0]
+@SystemMessage #VANC #VANP You will be granted an ejaculation and your total count is reset to 0
+@End

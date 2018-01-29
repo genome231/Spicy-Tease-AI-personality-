@@ -1,0 +1,36 @@
+Have you completed the last ass assignment I gave you? #DT
+[yes]#GNMGood #DT #MeritChangePLow @Goto(Check)
+[no]I expect more from you #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Tell me #SlaveName, why were you unable to complete the assignment?
+[forgot,forget] You should know it does not make me happy if you forget stuff #SlaveName! #MeritChangeNHigh #DT @Goto(EndFail)
+[no time,missing time,out of time] Even though might sometimes run short on time you still need to follow my orders #MeritChangeNMedium #DT @Goto(EndFail)
+[pain,too much,couldn't handle,uncomfortable] You should be able to handle pain #SlaveName #MeritChangeNMedium #DT @Goto(Pain) 
+@AcceptAnswer You have to complete your tasks #SlaveName. You want to become a proper slave, don't you? #DT @Goto(EndFail)
+(EndFail)
+Anyhow not completing your @RT(task,assignment) displeases me #DT @SetVar[ATasksInARow]=[0] @SetVar[AssEXPMultiplier]=[1]
+But I guess in the end this means you just don't get to cum #GNMGrin #DT @SetVar[ATasksInARow]=[0] @SetVar[AssEXPMultiplier]=[1]
+@End
+(Pain)
+If it @RT(hurts too much,is really uncomfortable) you should consider getting lube or using more lube #DT
+You can also try to carefully stretch your #GNMAss before you start #DT
+You can do that by only entering the tip over and over again or by starting with smaller toys #DT @Goto(EndFail)
+(Check)
+Let me just update your exp.. #DT @ChangeVar[ATasksInARow]=[ATasksInARow]+[1]
+@Variable[ATasksInARow]=[15] I am very happy #SlaveName #DT @Goto(15)
+@Variable[ATasksInARow]=[10] You will be pleased to hear this #SlaveName #GNMGrin #DT @Goto(10)
+@Variable[ATasksInARow]=[5] Looks like the training is working out for you #SlaveName #DT @Goto(5)
+@NullResponse @SetFlag(ATAssignmentDone) @Goto(End)
+(15)
+You have been completing your ass @RT(assignments,tasks) for 15 days in a row #DT
+Thus I will multiply your ass exp by 4 from now on #DT @SetVar[AssEXPMultiplier]=[4] @Goto(End)
+(10)
+You have completed your ass @RT(assignments,tasks) for the last 10 days #DT #GNMGrin
+Because you have been acting that disciplined I will reward you with three times the ass exp from now on #DT @SetVar[AssEXPMultiplier]=[3] @Goto(End)
+(5)
+You have been following my ass @RT(assignments,tasks) for 5 days in a row now #DT
+Thus I will multiply your ass exp by 2 from now on @SetVar[AssEXPMultiplier]=[2] @Goto(End)
+(End)
+@NullResponse @RapidCodeOn @ChangeVar[AssXP]=[AssXP]+[AssRewardEXP] 
+I updated your exp.. #DT @SetFlag(ATAssignmentDone)
+@End

@@ -1,0 +1,136 @@
+@NullResponse @RapidCodeOn @CheckFlag(DommeTagExplained)
+@NullResponse @SetFlag(DommeTagExplained)
+@SystemMessage #VANC #VANP Let me explain a bit about the tagging system.
+@SystemMessage #VANC #VANP By now you should have read the installation instructions
+@SystemMessage #VANC #VANP And if so tagged the images of the domme accordingly
+@SystemMessage #VANC #VANP Remember that Spicy uses 4 tags, each representing stages of nudity
+@SystemMessage #VANC #VANP Fully dressed
+@SystemMessage #VANC #VANP Half dressed
+@SystemMessage #VANC #VANP Garments covering
+@SystemMessage #VANC #VANP Boobs
+@SystemMessage #VANC #VANP By default there is no naked tag
+@SystemMessage #VANC #VANP Being a slave you don't deserve to gaze upon your #DomHonorific's naked body
+@SystemMessage #VANC #VANP You should consider it a great honor even seeing her boobs
+@SystemMessage #VANC #VANP That being said you do have the option to activate the tag pussy
+@SystemMessage #VANC #VANP Serving as a naked tag
+(DommeTagExplained)
+@NullResponse @RapidCodeOn @CheckFlag(DommeTagExplained2)
+@NullResponse @SetFlag(DommeTagExplained2)
+@SystemMessage #VANC #VANP Next we have mode settings
+@SystemMessage #VANC #VANP These modes affect certain specific behaviour
+@SystemMessage #VANC #VANP Serving the purpose of further tailoring Spicy to your kink
+@SystemMessage #VANC #VANP Notice that multiple modes can be active at once
+@SystemMessage #VANC #VANP Modes can also be locked for a certain number of days
+@SystemMessage #VANC #VANP Leaving you unable to change these until the lock duration has expired
+(DommeTagExplained2)
+@NullResponse @RapidCodeOn
+@SystemMessage #VANC #VANP You have the following options:
+@SystemMessage #VANC #VANP Pussy tag, mode info, sissy mode, slut mode, slave mode, cuck mode, lover mode, chastity mode, crazy domme mode, lock, exit
+[pussy] @NullResponse @Goto(Pussy)
+[sissy] @NullResponse @Goto(Sissy)
+[slut] @NullResponse @Goto(Slut)
+[slave] @NullResponse @Goto(Slave)
+[cuck] @NullResponse @Goto(Cuck)
+[lover] @NullResponse @Goto(Lover)
+[chastity] @NullResponse @Goto(Chastity)
+[crazy] @NullResponse @Goto(Crazy)
+[lock] @NullResponse @Goto(Lock)
+[save,end,end tease,stop,leave,close,finish,finished,exit] @SystemMessage #VANC #VANP Returning to settings menu... @Goto(End)
+[info] @NullResponse @Goto(ModeInfo)
+@AcceptAnswer @NullResponse @Goto(DommeTagExplained2)
+(Pussy)
+@SystemMessage #VANC #VANP Do you wish to have the pussy tag added as a fifth tag?
+[yes]@SystemMessage #VANC #VANP Adding tag... @SetFlag(Naked)
+[no]@SystemMessage #VANC #VANP Deleting tag... @DeleteFlag(Naked)
+@DifferentAnswer @SystemMessage #VANC #VANP Yes or no?
+@SystemMessage #VANC #VANP Done. @Goto(DommeTagExplained2)
+(ModeInfo)
+@SystemMessage #VANC #VANP Here are the different modes
+@SystemMessage #VANC #VANP Sissy Mode: You will never Ruin/Orgasm by stroking your cock
+@SystemMessage #VANC #VANP Sissy Mode: This mode can only be activated if you own a vibrator
+@SystemMessage #VANC #VANP Slut Mode: You are expected to swallow whenever you cum
+@SystemMessage #VANC #VANP Slave Mode: The ratio between ruins and orgasms will increase
+@SystemMessage #VANC #VANP Slave Mode: Notice this mode only applies if you're not active with a game
+@SystemMessage #VANC #VANP Cuck Mode: Gives your ruins and orgasms an element of cuckold
+@SystemMessage #VANC #VANP Lover Mode: Increases the dommes willingness towards giving you an ejaculation
+@SystemMessage #VANC #VANP Lover Mode: Notice this mode only applies if you're not active with a game
+@SystemMessage #VANC #VANP Chastity Mode: You will spend more sessions locked up
+@SystemMessage #VANC #VANP Crazy Domme Mode: With crazy domme mode you never know
+@SystemMessage #VANC #VANP Each 5 - 10 days the domme will choose a random mode of the above mentioned
+@SystemMessage #VANC #VANP She might choose none, a single mode or none at all
+@SystemMessage #VANC #VANP The following modes are active:
+@Flag(SissyMode) @SystemMessage #VANC #VANP Sissy Mode
+@Flag(SlutMode) @SystemMessage #VANC #VANP Slut Mode
+@Flag(SlaveMode) @SystemMessage #VANC #VANP Slave Mode
+@Flag(CuckMode) @SystemMessage #VANC #VANP Cuck Mode
+@Flag(LoverMode) @SystemMessage #VANC #VANP Lover Mode
+@Flag(ChastityMode) @SystemMessage #VANC #VANP Chastity Mode
+@Flag(CrazyDommeMode) @SystemMessage #VANC #VANP Crazy Domme Mode
+@NullResponse @Goto(DommeTagExplained2)
+(Sissy)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Sissy mode: on or off?
+[on]@NullResponse @SetFlag(SissyMode)
+[off]@NullResponse @DeleteFlag(SissyMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Slut)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Slut mode: on or off?
+[on]@NullResponse @SetFlag(SlutMode)
+[off]@NullResponse @DeleteFlag(SlutMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Slave)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Slave mode: on or off?
+[on]@NullResponse @SetFlag(SlaveMode)
+[off]@NullResponse @DeleteFlag(SlaveMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Cuck)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Cuck mode: on or off?
+[on]@NullResponse @SetFlag(CuckMode)
+[off]@NullResponse @DeleteFlag(CuckMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Lover)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Lover mode: on or off?
+[on]@NullResponse @SetFlag(LoverMode)
+[off]@NullResponse @DeleteFlag(LoverMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Chastity)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Chastity mode: on or off?
+[on]@NullResponse @SetFlag(ChastityMode)
+[off]@NullResponse @DeleteFlag(ChastityMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Crazy)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Crazy domme mode: on or off?
+[on]@NullResponse @SetFlag(CrazyDommeMode)
+[off]@NullResponse @DeleteFlag(CrazyDommeMode)
+@DifferentAnswer @SystemMessage #VANC #VANP On or off?
+@NullResponse @Goto(DommeTagExplained2)
+(Lock)
+@NullResponse @Variable[#DateDifference(ModeLocked, Days)]<[ModeLockedSet] @Goto(Locked)
+@SystemMessage #VANC #VANP Input a number of DAYS to have your mode settings locked
+@SystemMessage #VANC #VANP Input "0" if you don't want to have them locked
+@SystemMessage #VANC #VANP Input "99999" For permanently locked
+@SystemMessage #VANC #VANP Input your choice __ @InputVar[ModeLockedSet]
+@Variable[ModeLockedSet]>=[0] @SystemMessage Locking mode settings.. @SetDate(ModeLocked, 0 Days) @NullResponse @Goto(DommeTagExplained2)
+@SystemMessage #VANC #VANP You chose a value out of index
+@SystemMessage #VANC #VANP You cannot input "5 Days" or "10 Hours"
+@SystemMessage #VANC #VANP Input a simple number like
+@SystemMessage #VANC #VANP 5
+@SystemMessage #VANC #VANP 0
+@SystemMessage #VANC #VANP 30 @Goto(Lock)
+(Locked)
+@SystemMessage #VANC #VANP Your mode settings are currently locked 
+@SystemMessage #VANC #VANP They have been locked for #DateDifference(ModeLocked, Days) days and will remain locked for @ShowVar[ModeLockedSet] @Goto(DommeTagExplained2)
+(End)
+@End

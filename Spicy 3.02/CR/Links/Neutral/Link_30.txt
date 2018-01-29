@@ -1,0 +1,28 @@
+@NullResponse @CheckFlag(pvLink30A)
+@NullResponse @SetFlag(pvLink30A)
+@Morning You know how I would like to wake up every morning? #DT @Goto(in the morning)
+@Night You know what I could really use right now? #DT @Goto(at night)
+Look at yourself, #SlaveName #DT
+It's the middle of the day and you're #JerkingOff #DT
+Not a bad way to spend your time #GNMEmoteHappy #DT
+@End
+(in the morning)
+I would like to wake up with your face between my thighs #DT
+Eating my #Pussy #DT @DommeTag(Pussy)
+An orgasm a day keeps the doctor away, #SlaveName #DT
+Of course, that doesn't necessarily apply to you #GNMLol #DT
+@End
+(at night)
+A foot massage #DT
+Walking on high heels all day is killing my feet #GNMEmoteSad #DT
+They're sweaty, they hurt #DT
+And there's nobody here to care for them #GNMEmoteSad #DT
+Oh well... #DT
+@End
+(pvLink30A)
+Grab your #GNMBalls tightly #DT @DeleteFlag(pvLink30A)
+Feel how full of cum they are... #DT
+All of that cum is mine, #SlaveName #DT @CallReturn(CR\Punishment\GDSmallBallBusting.txt)
+You #GNMBalls and your #GNMCock and your cum are all mine #DT
+I can do with them as I please, don't forget that #DT
+@End

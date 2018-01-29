@@ -1,0 +1,4 @@
+#StopStrokingEdge #DT @StopStroking @TempFlag(Edged)
+@NullResponse @CallReturn(CR\Modules\DecideEdge.txt)
+@NullResponse @CallReturn(CR\Modules\DecideModule.txt)
+@End

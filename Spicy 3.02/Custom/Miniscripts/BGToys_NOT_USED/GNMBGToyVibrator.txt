@@ -1,0 +1,47 @@
+@SystemMessage #GNMVA #SubName @CheckFlag(NeverVibrator) @CheckFlag(GNMAskedToBuyVibrator) @SetVar[GNMAskedToBuyVibrator2]=[1]
+@SystemMessage #GNMVA Do you own a vibrator?
+[yes]@SystemMessage #GNMVA Fantastic! @Goto(SetFlag)
+[no]@SystemMessage #GNMVA Well..
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Would you be willing to buy one?
+[yes]@SystemMessage #GNMVA #GNMGood
+[no]@SystemMessage #GNMVA I see.. @Goto(Convince)
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Then I'll look forward to the next time we'll need a vibrator @SetFlag(GNMAskedToBuyVibrator)
+@End
+(GNMAskedToBuyVibrator)
+@SystemMessage #GNMVA Remember I asked you to buy a vibrator?
+[yes]@SystemMessage #GNMVA #GNMGood
+[no]@SystemMessage #GNMVA Well I did..
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Have you done so?
+[yes]@SystemMessage #GNMVA Fantastic! @Goto(SetFlag)
+[no]@SystemMessage #GNMVA I see
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+@SystemMessage #GNMVA Then I guess you're not willing yet.. @Goto(Convince)
+(SetFlag)
+@NullResponse @SetFlag(GNMToyVibrator)
+@SystemMessage #GNMVA This makes me very happy! #GNMEmoteHappy
+@End
+(Convince)
+@NullResponse @IfVar[GNMAskedToBuyVibrator2]==[3]Then(FinalQ) @ChangeVar[GNMAskedToBuyVibrator2]=[GNMAskedToBuyVibrator2]+[1]
+@SystemMessage #GNMVA This might help your willingness! @SetFlag(GNMAskedToBuyVibrator)
+@SystemMessage #GNMVA @Edge #GNMEdge
+@SystemMessage #GNMVA #GNMLetTheEdgeFade
+@SystemMessage #GNMVA It's a start..
+@SystemMessage #GNMVA But..
+@SystemMessage #GNMVA @Edge #GNMEdge
+@SystemMessage #GNMVA #GNMLetTheEdgeFade
+@SystemMessage #GNMVA #GNMMoan
+@SystemMessage #GNMVA I really think you should consider buying it! #GNMLol
+@End
+(FinalQ)
+@SystemMessage #GNMVA Are you abosulutely sure you don't want to buy a vibrator?
+[yes]@SystemMessage #GNMVA I see @Goto(NoMore)
+[no]@SystemMessage #GNMVA Good! @ChangeVar[GNMAskedToBuyVibrator2]=[GNMAskedToBuyVibrator2]-[3]
+@DifferentAnswer @SystemMessage #GNMVA #GNMYesOrNo
+(NoMore)
+@SystemMessage #GNMVA Then I'll stop asking you for it @SetFlag(NeverVibrator)
+@End
+(NeverVibrator)
+@End

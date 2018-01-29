@@ -1,0 +1,100 @@
+Happy Birthday Slave!! #DT
+I have some neat stuff planned for you today! #GNMGrin #DT
+Let me change clothes really fast #DT
+I have an outfit perfect for today's occasion #GNMGrin #DT
+Go to the corner #DT
+Return when you hear my bell #DT
+Hands above your head! #DT
+Go! #DT
+@NullResponse @CallReturn(CR\SpecificPictures\ClotheChangeDomme.txt)
+@NullResponse @Wait(120)
+Tadaa! #DTS1 @PlayAudio[GNMSounds\Specialsounds\Bell.mp3]
+I think you will enjoy this #DTS1
+At least I hope so #GNMEmoteHappy #DTS1
+We're gonna play a bit with selfbondage! #DTS1
+This scenario should last about 1 hour #DTS1
+Would you be okay with that? #DTS1
+[yes] #GNMGood #DTS1
+[no] Awww #DTS1 @Goto(PresentAtLeast)
+@DifferentAnswer #GNMYesOrNo #DTS1
+Okay so lets not waste too much time! #GNMLol #DTS1
+First do you have about 8 pegs and thin string to tie them together? #DTS1
+[yes] #GNMGood #DTS1
+[no] Awww #DTS1 @Goto(NeedGear)
+@DifferentAnswer #GNMYesOrNo #DTS1
+Next you'll need 2 shoelaces or similar, a pair of handcuffs and a somewhat long rope or string or similar #DTS1
+Do you have this? #DTS1
+[yes] #GNMGood #DTS1
+[no] Awww #DTS1 @Goto(NeedGear)
+@DifferentAnswer #GNMYesOrNo #DTS1
+It seems you have everything you need #GNMGrin #DTS1
+Read this very carefully. #DTS1
+don't do anything yet, just read and look at this while you read @ShowImage[\GNMImages\SpecialDays\SubBirthday\Scenario.jpg] @LockImages
+This is the scenario seen from the side
+You'll need a table
+You'll need the 2 shoelaces, use 1 to tie each of your feet to the table legs
+Next
+Put the thin string through the hole in the pegs connecting all of them
+Next you'll need to meassure
+You'll need to connect the string through the pegs with your handcuffs using a rope or string
+Make sure the length is measured
+You should be forced to be bended forward or pull on your balls
+The handcuff keys should just be placed close to your stomach
+Now the trick of this selfbondage scenario is that you can easily get free
+All you have to do is pull the pegs of your #GNMBalls #GNMLol @UnlockImages
+Now you might have other gear that you think will be perfect in this scenario #DTS1
+Mark also added some electro stuff and a gag #DTS1
+And oh my, if I remember correct he used about 50 pegs #DTS1
+Some of them on his balls, cock and legs #DTS1
+Well.. #DTS1
+The way this is gonna play out is that you're gonna do the setup #DTS1
+Report when you're ready #DTS1
+I will then tell you, you have 3 minutes to get into the selfbondage #DTS1
+Then I'll show you a video #DTS1
+When the video is over you have my permission to get free #DTS1
+Not before #GNMGrin #DTS1
+Now #SlaveName #DTS1
+Set the whole thing up, tell me when you're done #DTS1
+[done] #GNMGood #DTS1
+@AcceptAnswer #GNMGood #DTS1
+I'm starting the timer! #DTS1
+Your video begins in 3 minutes! #DTS1
+Get into the bondage! #GNMEmoteHappy #DTS1 @Wait(200)
+@NullResponse @PlayVideo[\GNM_Videos\ScriptSpecific\SubBirthday\1.mp4]
+#GNMGrin #SlaveName #DTS1
+It's time to get out! #DTS1
+Enjoy! #DTS1 @Wait(20)
+Are you free? #DTS1
+[yes] #GNMGood #DTS1
+@AcceptAnswer #GNMGood #DTS1
+I hope you enjoyed that! #DTS1
+Give me just a moment #DTS1
+I have something for you #DTS1 @Wait(20) 
+@NullResponse @Goto(Present)
+(NeedGear)
+Well we can't play without it.. #GNMEmoteSad #DTS1 @Goto(PresentAtLeast)
+(PresentAtLeast)
+Well at least I have a present for you #GNMEmoteHappy #DTS1 
+(Present)
+Doesn't it look nice? @ShowImage[\GNMImages\SpecialDays\SubBirthday\Present.jpg]
+[yes] #GNMGrin #DTS1
+[no] Well then you can be without #DTS1 @Goto(Bye)
+@DifferentAnswer #GNMYesOrNo #DTS1
+I know you would love it #DTS1
+Well lets open it! #DTS1 @Wait(15) @ChangeVar[GNMGold]=[GNMGold]+[1000]
+It's 1000 gold! #DTS1 @Timeout(12, Ungrateful)
+[thanks,thank] Your welcome #SlaveName #DTS1
+@AcceptAnswer Your welcome #SlaveName #DTS1
+Well slave I had a lot of fun today! #GNMGrin #DTS1
+I hope you did too! #DTS1 @Goto(Bye)
+(Ungrateful)
+You're not gonna thank me!? #DTS1
+I just gave you a present and you don't thank me!? #DTS1
+You little spoiled brat! #DTS1
+You know what? #DTS1
+I'm taking the 1000 gold back! #DTS1 @ChangeVar[GNMGold]=[GNMGold]-[1000]
+Oh and here's a healthy dose of punishment points! #DTS1 @ChangeVar[GNMPPoints]=[GNMPPoints]-[1000]
+You little fucker! #DTS1
+(Bye)
+Bye! #DTS1
+@NullResponse @Interrupt(GNMBackgroundBase)

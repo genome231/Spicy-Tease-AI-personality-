@@ -1,0 +1,4 @@
+@SetVar[MinutesIn]=[#DateDifference(Devotion, Minutes)] @Variable[MinutesIn]<=[ShortSession] #DT4
+@SetVar[MinutesIn]=[#DateDifference(Devotion, Minutes)] @Variable[MinutesIn]>[ShortSession] @Variable[MinutesIn]<=[MediumSession] #DT3
+@SetVar[MinutesIn]=[#DateDifference(Devotion, Minutes)] @Variable[MinutesIn]>[MediumSession] @Variable[MinutesIn]<=[LongSession] #DT2
+@SetVar[MinutesIn]=[#DateDifference(Devotion, Minutes)] @Variable[MinutesIn]>[LongSession] #DT1

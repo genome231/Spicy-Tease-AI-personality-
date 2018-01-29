@@ -1,0 +1,21 @@
+(D3) //You will be show 5 random pictures, if the light is green you may stroke and cum, if read its hands behind head.
+@RT(I have a short game for you,I have 1 final short game,Now there is still 1 final short game) @RT(#GNMGrin,#GNMLol) #DT
+@RT(You will be shown 5 pictures,I will show you 5 pictures,I'm gonna go through 5 pictures) #DT
+In the bottum right corner you see either a red light or a green light #DT
+If it's a red light I want your hands, fingers folded, behind your head #DT
+@RT(If its a green light you may try and stroke until you cum,If the light is green you may try to cum) #DT
+@RT(But!,But remember!) 
+@RT(as soon as the pictures disappears or you are shown a red light,If the pictures stop or you are shown a red light!) #DT
+@RT(Then its back to fingers folded behind your head,Then your hands goes behind your head!) @RT(#GNMGrin,#GNMLol) #DT
+@NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
+@NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
+@NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
+@NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
+@NullResponse @ShowImage[\GNMImages\Ends\GreenRed\*.jpg] @Wait(#Random(2,5))
+Well did you cum #SlaveName ? #DT
+[yes]Oh wauv well good for you! #DT #GDRegisterOrgasm
+[no]#GNMGrin I did't expect you to #GNMEmoteHappy #DT @Goto(QuickEnd)
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse #GDRegisterOrgasm @CallReturn(CR\End\CEI\AteCheck.txt)
+(QuickEnd)
+@NullResponse @CallReturn(CR\End\ChastityOn.txt)

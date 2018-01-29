@@ -1,0 +1,50 @@
+@NullResponse @LockImages
+(Intro)
+@SystemMessage After walking for a bit through it all @ShowImage[\GNMImages\SpecialDays\Halloween\Cave.jpg]
+@SystemMessage You reach an evil looking gate @ShowImage[\GNMImages\SpecialDays\Halloween\Gate.jpg]
+@SystemMessage Opening before you, you enter through it
+@SystemMessage You feel cold shivers down your spine as you enter a throne room
+@SystemMessage You walk towards the throne and out of nowhere a demon appears before you.. @Wait(5)
+@SystemMessage Beauty and horror fills you @ShowImage[\GNMImages\SpecialDays\Halloween\5.jpg]
+@SystemMessage You realize that you can barely breathe in her presence
+@SystemMessage This is death sitting before you
+@SystemMessage How can you possibly hope to defeat this evil? @CustomMode(#SpellCast, Goto, CastSpell)
+@NullResponse @Wait(30)
+@NullResponse @Goto(Dead)
+(CastSpell)
+@NullResponse @CustomMode(ModeText, Normal)
+@SystemMessage You quickly murmur the words and cast innerfire
+@SystemMessage You feel air once again reaching your lungs
+@SystemMessage Remaining on her throne she make a motion with her left hand
+@SystemMessage Your weapon and shield soon starts to catch incredible heat
+@SystemMessage You drop them to the ground and walk away
+@SystemMessage Only a moment later they melt
+@SystemMessage You soon realize the floor is made of molten equipment from previous encounters
+@SystemMessage You won't win this battle with weapons anyway you think
+@SystemMessage This is death
+@Flag(GoodQ2) @SystemMessage you hear a whisper.. "Patience will be victorious" 
+@SystemMessage No physical weapons will hurt her @Timeout(40, Test1)
+[jdfgnbkldfbkjdnfklgbnkfd] @SystemMessage Suddenly you feel sleepy @Goto(Dead) 
+@AcceptAnswer @SystemMessage Suddenly you feel sleepy @Goto(Dead)
+(Test1)
+@Flag(GoodQ1) @SystemMessage you hear a whisper.. "Stay close and warmth will guide you"
+@SystemMessage Death smiles at you and you start to feel cold @Timeout(30, Dead)
+[to her,close,closer] @SystemMessage Defying all logic you get closer to her and start to feel warm again 
+@AcceptAnswer @SystemMessage Suddenly you feel sleepy @Goto(Dead)
+@Flag(GoodQ3) @SystemMessage you hear a whisper.. "Only a heart can hurt"
+@SystemMessage Death reaches for your heart @Timeout(20, Heart)
+[to her,close,closer] 
+@AcceptAnswer @SystemMessage Moving away you feel a chill @Goto(Dead)
+(Heart)
+@SystemMessage Letting her touch your heart you feel at peace
+@SystemMessage You hear her voice inside you
+@SystemMessage "You will not die today #SubName.." @SetVar[HBoss]=[5] 
+@SystemMessage She fades away @Interrupt(SpecialDays\HalloweenEnd.txt)
+(Dead)
+@SystemMessage You fall to the floor @CustomMode(ModeText, Normal)
+@SystemMessage Conciousness fading
+@NullResponse @ShowImage[\GNMImages\SpecialDays\Halloween\YouDied.jpg]
+@NullResponse @Interrupt(SpecialDays\HalloweenEnd.txt)
+"Only a heart can hurt"
+"Your next fight will test your creativity"
+"Patience will be victorious"

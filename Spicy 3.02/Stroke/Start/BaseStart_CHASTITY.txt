@@ -1,0 +1,5 @@
+@NullResponse @Call(Stroke\Start\BaseStart.txt)
+@End
+
+########################## - Comment - ##########################
+#Just redirects user to Stroke/Start/BaseStart because there is no difference in procedure

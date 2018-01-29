@@ -1,5 +1,0 @@
-Sending you your homework #SlaveName #DT4
-Make sure you do it before the next academy.. #DT4 @SetFlag(HomeWorkLingerie)
-@NullResponse @SendDailyTasks @SetFlag(HomeWorkActive)
-@NullResponse @DeleteFlag(HomeWorkLingerie)
-@End

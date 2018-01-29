@@ -1,0 +1,159 @@
+@SystemMessage Hello and welcome @LockImages @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @SetVar[Percentage]=[5]
+@SystemMessage You will be asked 20 questions @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You have 10 seconds to answer each question @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You gotta get 18 questions right @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage At the end you will be told wether you passed or failed @SetVar[Right]=[0] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You will not be told which questions were right and which were wrong @SetVar[Wrong]=[0] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Should you pass you will be refunded 100 gold @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You'll see that there are 3 types of questions @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 1) A statement @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage These aren't followed by a question mark @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You have to answer these with 'true' or 'false' @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 2) A question @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage A simple question ending with a question mark '?' @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage These has to be answered @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 3) Picture identification @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You will be shown a picture @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage As accurately as possible you have to identify the item @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage But remember you only have 10 seconds @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage You might be shown a bra @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Simply answering bra wouldn't be correct since there are many types of bra's @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+(Setup)
+@SystemMessage Setting up the test.. @Wait(10) @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Test starting in @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 5 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 4 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 3 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 2 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage 1 @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+(Question1)
+@SystemMessage Compression stockings guards against edema, phlebitis and thrombosis @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question1a)
+[true]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question2)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question2)
+(Question1a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question2)
+@SystemMessage Nightgowns are fashioned in a number of fabrics @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question2a)
+[true]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question3)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question3)
+(Question2a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question3)
+@SystemMessage The thong has a vertical string in the back, which connects the crotch to the waistband @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question3a)
+[false]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question4)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question4)
+(Question3a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question4)
+@SystemMessage The most expensive silk comes from what animal/insect? @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question4a)
+[spider,spiders]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question5)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question5)
+(Question4a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question5)
+@SystemMessage Lycra has 4 production stages @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question5a)
+[false]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question6)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question6)
+(Question5a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question6)
+@SystemMessage Wonderbra has a special connection to the US @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question6a)
+[false]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question7)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question7)
+(Question6a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question7)
+@SystemMessage Woldford specializes in hosiery @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question7a)
+[true]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question8)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question8)
+(Question7a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question8)
+@SystemMessage A bodice originally indicated the upper part of a dress @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Timeout(10, Question8a)
+[true]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question9)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question9)
+(Question8a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question9)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Balconette\*.*] @Timeout(10, Question9a)
+[balconette]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question10)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question10)
+(Question9a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question10)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\SheerBra\*.*] @Timeout(10, Question10a)
+[sheer]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question11)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question11)
+(Question10a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question11)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\LeisureBra\*.*] @Timeout(10, Question11a)
+[leisure]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question12)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question12)
+(Question11a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question12)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\ShelfBra\*.*] @Timeout(10, Question12a)
+[shelf,shelf bra]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question13)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question13)
+(Question12a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question13)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\FullCupBra\*.*] @Timeout(10, Question13a)
+[full cup,full cup bra]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question14)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question14)
+(Question13a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question14)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\FrontClosureBra\*.*] @Timeout(10, Question14a)
+[front closure bra,front closure]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question15)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question15)
+(Question14a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question15)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\PushUpBra\*.*] @Timeout(10, Question15a)
+[pushup bra,push up bra,push up]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question16)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question16)
+(Question15a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question16)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\MinimizerBra\*.*] @Timeout(10, Question16a)
+[minimizer bra]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question17)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question17)
+(Question16a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question17)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Chemise\*.*] @Timeout(10, Question17a)
+[chemise]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question18)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question18)
+(Question17a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question18)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Corselet\*.*] @Timeout(10, Question18a)
+[corselet]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question19)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question19)
+(Question18a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question19)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Negligee\*.*] @Timeout(10, Question19a)
+[negligee]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(Question20)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(Question20)
+(Question19a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(Question20)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Slip\*.*] @Timeout(10, Question20a)
+[slip]@NullResponse @ChangeVar[Right]=[Right]+[1] @Goto(End)
+@AcceptAnswer @NullResponse @ChangeVar[Wrong]=[Wrong]+[1] @Goto(End)
+(Question20a)
+@NullResponse @ChangeVar[Wrong]=[Wrong]+[1]
+(End)
+@NullResponse @UnlockImages
+@Variable[Right]>=[18] @SystemMessage You passed @SetFlag(ExamL1Passed) @ChangeVar[GNMGold]=[GNMGold]+[100] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@Variable[Right]<[18] @SystemMessage You failed @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Goto(QuickEnd) 
+@Variable[Right]>=[20] @SystemMessage Your score was 100% @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@Variable[Right]>=[20] @SystemMessage As a reward I've transfered 100 gold + fee to you @ChangeVar[GNMGold]=[GNMGold]+[100] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Sending you home @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Interrupt(GNMBackgroundBase)
+(QuickEnd)
+@SystemMessage You had @ShowVar[Right] correct answers @ChangeVar[Percentage]=[Percentage]*[Right] @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Giving you a score of @ShowVar[Percentage] % where 85 % were required @ShowImage[\GNMImages\Academy\General\QuestionMark.*]
+@SystemMessage Better luck next time @ShowImage[\GNMImages\Academy\General\QuestionMark.*] @Interrupt(GNMBackgroundBase)

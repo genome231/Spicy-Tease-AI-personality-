@@ -1,0 +1,118 @@
+@NullResponse @CheckFlag(GNMToyButtPlug,plug script)
+@NullResponse @CheckFlag(pvLink27A)
+Let's make that #GNMCock ache some more shall we? #GNMEmoteHappy #DT @SetFlag(pvLink27A)
+@End
+(plug script)
+@NullResponse @CustomMode(#gdDontWantTo,Goto,talking about plug) #DT
+@RT(Go get your #ButtPlug,Bring out your #ButtPlug,Get your #ButtPlug for me) #DT
+@RT(Lube it up as much as you need to,Make it nice and slippery,Lube up good if you need it,Use as much lube as you need) #DT
+@RT(Put it in your ass,Shove that plug up your ass,Push that plug into your tight butt) #DT @Wait(6)
+@RT(Your ass belongs to me,I can use your ass however I want,Your ass is mine to use,I own your ass) #Grin #DT
+(let me know when plugged)
+Let me know when you're ready #DT
+[done,did,ready,finished] @RT(Good,Alright,There you go,That's much better) #GNMEmoteHappy #DT @TempFlag(gdPlugged)
+[don't want to,do not want to,don't want that,do not want that,don't make me,do not make me] What are you talking about #DT @Goto(talking about plug)
+@DifferentAnswer Just say 'ready' when you are, #SlaveName #DT
+I love it when you wear a plug for me, #SlaveName #DT @CustomMode(#gdDontWantTo,Normal)
+If only because it allows me to say... #DT
+Your <i>ass</i> is mine #GNMLol #DT
+@End
+(talking about plug)
+I don't like it when you say 'no' to me, #SlaveName #DT #MeritChangeNMedium @CustomMode(#gdDontWantTo,Normal)
+Are you going to wear your butt plug for me, yes or no? #DT
+[yes] Good #DT @Goto(said yes to plug)
+[no] If that's how it's going to be... #DT
+@DifferentAnswer #GNMYesOrNo
+@RT(I'm giving you punishment points..,You're getting punishment points) #DT #MeritChangeNHigh
+@RT(A LOT of them!,A LOT of punishment points..) #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[300]
+@End
+(said yes to plug)
+Then do as I say, #SlaveName #DT @Goto(let me know when plugged)
+@End
+(pvLink27A)
+Should I @RT(let you,allow you to,tell you to) #JerkOff or @RT(leave you denied,deny you,not)... #DT
+I can't seem to @RT(make up my mind,decide), #SlaveName #DT @DeleteFlag(pvLink27A)
+Both options @RT(are fun in their own way,have merit,have their advantages) #DT
+When you #JerkOff, your arousal grows and you become more #DT @RT(submissive,obedient)
+When you are denied, you become more and more frustrated #DT
+Which is just so much fun to see #GNMEmoteHappy #DT
+@HasChastity I could put you in chastity of course... #DT @Chance50(chooses chastity)
+@DoesNotHaveChastity I would really enjoy seeing you squirm... #DT @Chance50(chooses denial without cage)
+But then again... #DT
+Maybe I should grow that arousal some more first #DT
+So that when I do deny you access to my #GNMCock
+You'll be begging me for mercy #GNMGrin #DT
+@End
+(chooses chastity)
+@NullResponse @CheckFlag(pvLink31GoSoft,already did soft)
+Let your #GNMCock go soft now, #SlaveName #DT @TempFlag(pvLink31GoSoft)
+I don't care how you do it #DT
+As long as you do it right now #DT @Wait(8)
+Slap it, pinch it, put cold water on it.. #DT.
+That's probably the best way, right? #DT
+Dunking your #GNMBalls in ice water, sounds fun #DT #GNMLol
+Is my #GNMCock soft and ready for its #Cage? #DT
+[yes] Good #DT @Goto(soft now)
+[no] Do whatever it takes, #DT #SlaveName
+@DifferentAnswer #GNMYesOrNo
+And don't tell me you can't do it #DT
+I don't care #DT
+If I want it, you <i>will</i> do it  #DT
+Do some summersaults, run up and down the stairs #DT
+Whatever it takes, get it soft and limp #DT
+Ready? #DT
+[yes,ready,done,soft,limp] Okay #DT
+[no] Let me know when you are ready #DT @LoopAnswer
+@DifferentAnswer Is your #GNMCock soft? #DT
+I know it's not always easy to do, #SlaveName #DT
+(soft now)
+It's kind of impressive that you could get it down at all... #DT
+Now... #DT @Chance33(put the cage on)
+Get that erection back for me, #SlaveName
+I changed my mind #GNMEmoteHappy #DT
+Make your #GNMCock nice and hard again #DT
+It shouldn't be too difficult #DT
+After all, it was rock hard only a moment ago #GNMEmoteHappy #DT
+@End
+(put the cage on)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+Let's see how much frustration we can build up in those #GNMBalls #GNMGrin #DT
+@End
+(chooses denial without cage)
+Put your hands behind your back, #SlaveName #DT
+You won't be touching that #GNMCock now #DT
+But I can still tease it #GNMGrin #DT
+With @RT(hot,sexy) pictures @ShowLocalImage @LockImages
+Pictures of things you want, but can't have @ShowBlowjobImage
+Of #GNMBoobs you'd like to touch @ShowBoobsImage
+If only your hands weren't tied behind your back..
+You can barely feel it, but there is a rope around your wrists
+It's wound tight, keeping your hands in place behind your back
+#GNMMoan @ShowButtImage
+If only you could reach out and touch it...
+But your hands are tied #GNMEmoteHappy @UnlockImages #DT
+You can look, but you can't touch @PlayVideo(45) @JumpVideo
+Do you want to #JerkOff again? #DT
+[yes] I'm glad to hear that, #SlaveName #DT @Chance50(not going to stroke)
+[no] That's unfortunate, #SlaveName #DT
+@DifferentAnswer #GNMYesOrNo
+Because you're going to do it anyway #GNMLol #DT
+Your hands are no longer tied #DT
+@End
+(not going to stroke)
+Because there is nothing I enjoy more #DT
+(check cage)
+@NullResponse @CallReturn(CR\GNMChastityOn.txt)
+Than denying you the thing you crave most #GNMGrin #DT
+@End
+(already did soft)
+Maybe I should make your #GNMCock go soft again... #DT
+I wonder how many times you can do that in a row #DT
+Go soft, get hard, go soft, get hard #DT
+Does it become impossible to get it up again after a while? #DT
+A cock is such a funny thing #DT
+The way it has a life of its own #DT
+You have to admit, #SlaveName, it controls you #DT
+If it wants something, you want it too #DT
+Like right now, it wants you hand to grab it #DT
+@End

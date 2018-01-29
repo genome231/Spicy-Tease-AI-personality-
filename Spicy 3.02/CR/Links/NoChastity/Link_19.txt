@@ -1,0 +1,19 @@
+@NullResponse @CheckFlag(pvLink19A)
+With all this tease and denial... #DT @SetFlag(pvLink19A)
+@RT(You must,You probably,I bet you) have days where the arousal just won't @RT(go away,subside) #DT
+Days when every even somewhat @RT(sexy,hot,attractive) woman you see #DT
+Triggers @RT(an erotic fantasy,a wet daydream) on the spot #DT
+You must walk around with a @RT(never ending,permanent,persistant) @RT(erection,boner,hard on) some days #DT
+I'm right, aren't I? #DT
+[yes] Yeah, I can see right through you, #SlaveName #DT
+[no] Yeah, right #GNMLol #DT
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse
+@End
+(pvLink19A)
+I @RT(just adore,love) @RT(watching your frustration,watching you suffer,watching you squirm,denying you,teasing you,torturing you,controlling you) #DT
+To get you so close... #DT @DeleteFlag(pvLink19A)
+Close to @RT(orgasm,cumming) #DT
+Close to your breaking point #DT
+It feels <i>so</i> good, #SlaveName #DT
+@End

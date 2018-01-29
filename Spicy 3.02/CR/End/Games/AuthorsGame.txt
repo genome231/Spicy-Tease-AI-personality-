@@ -1,0 +1,34 @@
+(AuthorsGame)
+So slave! #DT
+I hope you've been creative this week #GNMLol #DT
+Well as usual I need you to tell me in hours rounded down #DT
+(AGNumber)
+How many hours did you spend, since our last time together, on writing for Tease-AI? #DT @InputVar[AGHoursSpent]
+@NullResponse @If[AGHoursSpent]>=[0]Then(AGCorrect) #DT
+You didn't input a number that makes sense #DT
+Lets say you spent 9,2 hours this week on writing #DT
+Then you round it <i>down</i> to nearest whole number which is 9 #DT
+And you simply input "9" #DT @Goto(AGNumber)
+(AGCorrect)
+Well well #DT @ChangeVar[AGHoursTotal]=[AGHoursTotal]+[AGHoursSpent]
+So in total you've spent @ShowVar[AGHoursTotal] hours writing since your last ejaculation #GNMGrin #DT @If[AGHoursTotal]>[AGHoursSet]Then(AGGo)
+Well I have some bad news.. #DT
+It's not enough... #DT
+Well next time maybe #GNMGrin #DT @Goto(Deny)
+(AGGo)
+Well its time for your ejaculation! #DT @SetVar[AGHoursTotal]=[0]
+But first.. #DT
+Would you like to play our little game again? #DT
+[yes]Great! #DT
+[no]Well then #DT @SetFlag(Standard) @DeleteFlag(AuthorsGame) @Goto(Orgasm,Ruined)
+@DifferentAnswer #GNMYesOrNo #DT
+@Flag(Personality1) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(20,80)] 
+@Flag(Personality2) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(30,100)] 
+@Flag(Personality2) Setting a new score for you #GNMGrin #DT @SetVar[AGHoursSet]=[#Random(50,130)] 
+Let's get going with you ejaculating #GNMEmoteHappy #DT @Goto(Ruined,Orgasm)
+(Orgasm)
+@NullResponse @CallReturn(CR\End\Decide\DecideO.txt)
+(Ruined)
+@NullResponse @CallReturn(CR\End\Decide\DecideR.txt)
+(Deny)
+@NullResponse @CallReturn(CR\End\Decide\DecideD.txt)

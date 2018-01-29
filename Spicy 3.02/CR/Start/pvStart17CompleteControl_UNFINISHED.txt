@@ -1,0 +1,104 @@
+@NullResponse @CheckFlag(pthevGlitterIntroduced,continue with cc script)
+@NullResponse @Goto(not ready for CC)
+(continue with cc script)
+@NullResponse @CheckFlag(pthevCompleteControlYES) 
+@NullResponse @CheckFlag(pthevCompleteControlNO)
+I was talking to #Contact1 the other day
+About guys and their masturbation habits...
+And I realised I don't know all that much about yours
+Do you masturbate outside of our time together?
+[yes] Well, that's not really a surprise I guess
+[no] This might be easier than I expected then... #Smile
+@DifferentAnswer #YesOrNo
+I would love it if you´d let me control when you masturbate
+Not only during our sessions but in between as well
+You will not be allowed to watch porn unless I allow it
+And no #JerkingOff unless I give you explicit permission
+But the most important rule is this:
+You will only cum when I say you can cum 
+What do you think #SubName, will you do that for me?
+[yes] #Yay
+[no] That's okay #PetName I now it's not easy @Goto(noteasy)
+@DifferentAnswer #YesOrNo
+(theconsequences)
+@NullResponse @Glitter(pthevGlitterCC01)
+(repeatmyself)
+I need to know that you are serious about this, #SubName
+Do you promise not to cum unless I say so?
+[yes] Say it, #PetName @LoopAnswer
+[no,can't,cannot,won't,will not] Alright forget about it then @Goto(changedmind)
+[i promise] Good
+@DifferentAnswer I want you to type it: I promise #DomHonorific #DomName
+If you break this promise there will be consequences #SlaveName
+So better make sure that doesn't happen #Grin
+Of course, this arrangement only works when you are completely honest
+So you should tell me when you've disobeyed me
+Is that clear?
+[yes,okay,alright,agreed,understood,understand,clear] Great #Smile
+[no] #pthevCoCo-1 @LoopAnswer
+[don't want,changed my mind] Alright forget about it then @Goto(changedmind)
+@DifferentAnswer #YesOrNo
+I love knowing you'll <i>only</i> stroke to <i>my</i> commands
+It will make you ache for me even more
+You'll be counting the minutes until I let you #JerkOff again
+It won't be easy #PetName
+But you'll do it for me #Smile
+@NullResponse @SetFlag(pthevCompleteControlYES) @Glitter(pthevGlitterCC02)
+@NullResponse
+@End
+(changedmind)
+You might regret it though 
+Stroking your #Cock will feel so much better when you have to wait for it
+Are you sure you don't want give me control over how much you #JerkOff?
+[yes] okay no problem #Smile
+[no] Okay let's go over it again: you may not #JerkOff without my permission @Goto(repeatmyself)
+@DifferentAnswer #YesOrNo
+(noteasy)
+@NullResponse @Glitter(pthevGlitterCC03)
+At least I can still tell you what to do right now @SetFlag(pthevCompleteControlNO)
+@End
+(pthevCompleteControlYES)
+@RT(Take a look at,Check out) this picture I @RT(found,came across,found online) earlier #GeneralTime
+That's @RT(fucking hot,amazing,really hot,so sexy), @RT(don't you think,isn't it)? #Grin @ShowBlogImage
+[yes] I'm glad you @RT(agree,think so,think so too,and I are on the same page on this one) @LikeBlogImage
+[no] Wow I @RT(really thought,figured,was sure,was certain) you'd like this one @DislikeBlogImage @Goto(Cc maybe this will)
+[not, okay, all right, sort of, sorta, alright] Wow I @RT(thought,figured,was sure,was certain) you'd @RT(love,really like) this one @Goto(Cc maybe this will)
+[hot, sexy, horny, turns me on, turn on] I'm glad you @RT(agree,think so,think so too)
+@DifferentAnswer Yes or no #PetName, is it hot or not?
+Because I wanted to get you squirming in that chair before we even started #EmoteRandom
+Are you squirming yet?
+[yes] Mmmmm you know what that means
+[no] So you're not that @RT(horny,turned on,aroused) yet? @Goto(Cc maybe this will)
+@DifferentAnswer Yes or no #PetName?
+It means we're about ready to get started #Grin
+@End
+(Cc maybe this will)
+That's okay
+I'll just find one that <i>will</i> drive you insane #Lol
+(Cc do you like it)
+Do you like this one? @ShowBlogImage
+[no] I'm not giving up  @DislikeBlogImage @Goto(Cc do you like it)
+[not, okay, all right, sort of, sorta, alright] I'm not giving up @DislikeBlogImage @Goto(Cc do you like it)
+[yes] I knew I would get you with a little persistence #Grin @LikeBlogImage
+@DifferentAnswer Yes or no #PetName?
+And since you <i>did</i> make me have to persist in finding a sexy picture
+I'm going to make <i>you</i> persist in stroking that #Cock until you're begging me for mercy #EmoteRandom
+@End
+(pthevCompleteControlNO)
+Did you #JerkOff since last time?
+[yes] You are such an addict #Laugh
+[no] It's just so much better when I tell you to isn't it #Smile
+@DifferentAnswer #YesOrNo
+I know I've asked you this before
+But I'd really love it if you gave me control over when you #JerkOff
+So that you are only allowed to #JerkOff with my permission
+Do you want to give me that kind of control?
+[yes] I'm glad you changed your mind about that #Smile  @SetFlag(pthevCompleteControlYES) @Goto(theconsequences)
+[no] Well you can't blame a girl for asking #Smile @Goto(noteasy)
+@DifferentAnswer #YesOrNo
+@NullResponse
+@End
+(not ready for CC)
+#GetYourCockOut
+#LetsGetToIt
+@End

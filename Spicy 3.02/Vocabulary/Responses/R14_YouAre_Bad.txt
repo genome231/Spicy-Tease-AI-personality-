@@ -1,0 +1,5 @@
+[bitch,slut,idiot,fucker,monster,you are nasty,you're nasty,you are evil,you're evil,you are awfull,you're awfull]
+[All]
+@Flag(Session) @NullResponse @CallReturn(CR\Responses\R14_YouAre_Bad.txt)
+@NotFlag(Session) @NullResponse @ShowImage[\GNMImages\ChatOffline.jpg]
+[All End]

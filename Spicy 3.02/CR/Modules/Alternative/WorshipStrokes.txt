@@ -1,0 +1,61 @@
+#SlaveName #DT
+@RT(I believe it's time for you to worship my perfect body,I kinda want you to worship my absolutely divine body right now) #GNMGrin #DT
+@RT(And is there any better way than..,And how could it be done any better than by..,And I can't think of anything better than..,And what could be better than..) #DT @Goto(a,b,c)
+(a)
+Edging! #DT @SetVar[EdgesToGo]=[0]
+@RT(While adoring my perfection!,While looking at my lovely body!,While enjoying me!,And at the same time having your eyes resting on me!) #DT @ChangeVar[EdgesToGo]=[EdgesToGo]+[#Random(10,30)]
+You'll be edging over and over again! #DT
+(Edge)
+@Edge #GNMEdge #DT
+#GNMLetTheEdgeFade #DT @ChangeVar[EdgesToGo]=[EdgesToGo]-[1] @If[EdgesToGo]<=[0]Then(Continue1) @Wait(#Random(3,15)) @Goto(Edge)
+(Continue1)
+You're done! #GNMLol #DT
+Compose yourself #SlaveName #DT
+It wasn't that hard! #GNMGrin #DT @Goto(End)
+(b)
+Stroking! #DT
+@RT(While adoring my perfection!,While looking at my lovely body!,While enjoying me!,And at the same time having your eyes resting on me!) #D
+If you need to stop stroking to prevent yourself from edging #DT
+Then do it #DT
+Count to 30 and begin stroking again #GNMLol #DT @TempFlag(Busy, BlockSounds) @SetVar[StrokingIterations]=[25]
+@RT(Let the frustration begin,Let's commence the torture!,Time for some build-up!,Let's see if we can make you desperate!) #DT @PlayAudio[\GNMSounds\Stroking\Metronome\*.mp3] @Wait(#Random(30,180))
+(RepeatStroking)
+@Variable[StrokingIterations]<=[0] @NullResponse @Goto(StopStroking)
+@RT(Make sure you enjoy it!,This is fun!,#GNMMoan,#GNMLol,#GNMGrin,#GNMEmoteHappy,Gosh I could watch you do this all day!,Imagine doing this for hours!,I can never watch enough suffering!,Make sure you build some ache into that #GNMCock,Look at that throbbing desperate #GNMCock,Your face seems a bit on edge!,I wish you could see yourself!,You look absolute pathethic,Gosh this is sooo hot!,Mhmmmm,Ahhhh Mhmmm,Oh my..,Stay on pace!) #DT @PlayAudio[\GNMSounds\Stroking\Metronome\*.mp3] 
+@NullResponse @Goto(StrokingWaitA,StrokingWaitB,StrokingWaitC)
+(StrokingWaitA)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[1] @Wait(#Random(30,50))
+@Goto(RepeatStroking)
+(StrokingWaitB)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[2] @Wait(#Random(50,90))
+@Goto(RepeatStroking)
+(StrokingWaitC)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[3] @Wait(#Random(90,140))
+@NullResponse @Goto(RepeatStroking)
+(StopStroking)
+Stop! #DT @PlayAudio[\GNMSounds\Stroking\NoSound.mp3] @DeleteFlag(Busy, BlockSounds)
+I really enjoyed this! #DT
+I hope that #GNMCock did too #GNMLol #DT @Goto(End)
+(c)
+Worship strokes! #DT
+@RT(While adoring my perfection!,While looking at my lovely body!,While enjoying me!,And at the same time having your eyes resting on me!) #D @SetVar[StrokingIterations]=[20]
+@RT(Let the frustration begin,Let's commence the torture!,Time for some build-up!,Let's see if we can make you desperate!) #DT @TempFlag(Busy, BlockSounds) @PlayAudio[\GNMSounds\Stroking\MetronomeSlow\*.mp3] @Wait(#Random(30,60))
+(RepeatWorshipStroking)
+@Variable[StrokingIterations]<=[0] @NullResponse @Goto(StopWorshipStroking)
+@RT(Mhhmmmm,Gosh I love this,Hah! This is perfect!,Don't you dare stroke any faster!,No fast stroking for you!,Mhmm,#GNMGrin,#GNMLol,I could watch you like this all day!,I will never ever get tired from this!,Oh my I could simply watch you all day,I bet that slow torturous stroking is slowly killing you,Let that #GNMCock ache!,Time for a solid portion of ache!,I hope this makes your #GNMCock ache!) #DT @PlayAudio[\GNMSounds\Stroking\MetronomeSlow\*.mp3]
+@NullResponse @Goto(StrokingWorshipWaitA,StrokingWorshipWaitB,StrokingWorshipWaitC)
+(StrokingWorshipWaitA)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[1] @Wait(#Random(30,50))
+@Goto(RepeatWorshipStroking)
+(StrokingWorshipWaitB)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[2] @Wait(#Random(50,90))
+@Goto(RepeatWorshipStroking)
+(StrokingWorshipWaitC)
+@NullResponse @ChangeVar[StrokingIterations]=[StrokingIterations]-[3] @Wait(#Random(90,140))
+@NullResponse @Goto(RepeatWorshipStroking)
+(StopWorshipStroking)
+Stop! #DT @PlayAudio[\GNMSounds\Stroking\NoSound.mp3] @DeleteFlag(Busy, BlockSounds)
+Your face says it all! xD #DT
+I hope that #GNMCock is throbbing and aching for me! #DT
+(End)
+@End

@@ -1,0 +1,112 @@
+@NullResponse @RapidCodeOn
+@NullResponse @CheckFlag(FirstCheckUp)
+@NullResponse @SetFlag(FirstCheckUp)
+@NullResponse @SetDate(WeekCheck, 0 Hours)
+@NullResponse @SetDate(RoutineCheck, 0 Hours)
+(FirstCheckUp)
+@Variable[#DateDifference(RoutineCheck, Hours)]>=[20] @NullResponse @ChangeVar[SlaveVisit]=[SlaveVisit]+[1]
+@NullResponse @CheckFlag(SlaveVacation)
+@NullResponse @CheckFlag(SlaveLeave)
+@NullResponse @Goto(Continue1)
+**************************************************************************** Vacation / Leave **************************************************
+(SlaveLeave)
+@NullResponse @DeleteFlag(SlaveLeave) 
+@Variable[#DateDifference(SlaveLeave, Hours)]>[LeaveAgreed] @NullResponse @Goto(Back1)
+@Variable[#DateDifference(SlaveLeave, Hours)]<=[LeaveAgreed] @NullResponse @Goto(Back2)
+(SlaveVacation)
+@NullResponse @DeleteFlag(SlaveVacation) 
+@Variable[#DateDifference(SlaveVacation, Hours)]>[VacationAgreed] @NullResponse @Goto(Back1V)
+@Variable[#DateDifference(SlaveVacation, Hours)]<=[VacationAgreed] @NullResponse @Goto(Back2)
+(Back1)
+@SystemMessage #VANC #VANP @RT(You're late!,You're late #SlaveName,You haven't returned in due time,I expected you sooner!)
+@SystemMessage #VANC #VANP @RT(I don't allow for you to be gone longer than permitted!,You aren't allowed to be gone without proper agreement,You know the rules!)
+@SystemMessage #VANC #VANP @RT(I'm giving you punishment points,I'm assigning you punishment point,I have to give you punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[150] @Goto(Continue1)
+(Back2)
+@SystemMessage #VANC #VANP @RT(You're back!,Welcome back,Welcome back #SlaveName,Welcome back #SubName)
+@SystemMessage #VANC #VANP @RT(Good to see you again,It's great to see you again,I'm happy to see you back) @Goto(Continue1)
+(Back1V)
+@SystemMessage #VANC #VANP @RT(You're back from your vacation,You're back from your holiday,You're back!)
+@SystemMessage #VANC #VANP @RT(I hope you enjoyed it because its right back to service now!,I thoroughly hope you enjoyed it and are ready to return to service) @Goto(Continue1)
+***********************************************************************************************************************************************************
+(Continue1)
+@DayOfWeek(Tuesday) @NullResponse @CallReturn(CR\BackgroundMode\DayConfession.txt)
+@NullResponse
+@DayOfWeek(Thursday) @NullResponse @CallReturn(CR\BackgroundMode\DayPunishment.txt)
+@NullResponse
+(Continue1a)
+@NullResponse @If[#DateDifference(WeekCheck, Hours)]>[160]Then(CheckUp)
+@NullResponse @CheckFlag(FullTimeTrial) 
+@NullResponse @Goto(End)
+************************************************************************** Full Time check up *********************************************************************************
+(CheckUp)
+@NullResponse @SetDate(WeekCheck, 0 Hours)
+@NullResponse @If[SlaveVisit]<[WeeklyVisits]Then(Skipping) 
+@NullResponse @SetVar[SlaveVisit]=[0] 
+@NullResponse @Goto(Continue2)
+(Skipping)
+@SystemMessage #VANC #VANP @RT(You have been skipping days,You have been skulking,I think you missed a few sessions) @RT(#GNMSlut,#SlaveName,Slave,Slave,Slave) @SetVar[SlaveVisit]=[0]
+@SystemMessage #VANC #VANP @RT(I don't accept that!,Which is not accepted,Which isn't tolerated)
+@SystemMessage #VANC #VANP @RT(You are the property of,You belong to,You gave yourself to) #DomHonorific #DomName
+@SystemMessage #VANC #VANP @RT(And are thus expected to serve!,So you have to serve,So it is demanded that you serve her)
+@SystemMessage #VANC #VANP @RT(I'm giving you punishment points,I'm assigning you punishment point,I have to give you punishment points) @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]
+(Continue2)
+@SystemMessage #VANC #VANP Lets see if you've been doing your chores like a good slave!
+@NullResponse @If[ChoresComplete]>=[ChoresAgreed]Then(GoodBehaviour)
+@NullResponse @If[ChoresComplete]<[ChoresAgreed]Then(BadBehaviour) @Goto(BadBehaviour)
+(GoodBehaviour)
+@SystemMessage #VANC #VANP @RT(Good boy!,You have!,Good little slut,Good girl,Good sissy,Good slave)
+@SystemMessage #VANC #VANP Good behaviour gets rewarded! @SetVar[ChoresComplete]=[0]
+@SystemMessage #VANC #VANP Transfering gold.. @ChangeVar[GNMGold]=[GNMGold]+[#Random(50,200)] 
+@NullResponse @CheckFlag(StudyMode)
+@NullResponse @CheckFlag(AthleteMode)
+@NullResponse @Goto(End)
+(BadBehaviour)
+@SystemMessage #VANC #VANP @RT(Bad boy!,Bad girl!,Bad slut!,Bad dog!,Bad slave!) @SetVar[ChoresComplete]=[0]
+@SystemMessage #VANC #VANP Bad behaviour gets punished! @ChangeVar[GNMPPoints]=[GNMPPoints]+[200]
+@SystemMessage #VANC #VANP I just assigned you punishment points!
+@SystemMessage #VANC #VANP Do your chores! 
+@NullResponse @CheckFlag(StudyMode)
+@NullResponse @CheckFlag(AthleteMode)
+@NullResponse @Goto(End)
+(StudyMode)
+@SystemMessage #VANC #VANP Lets see if you've studied enough this week..
+@Variable[StudyHoursReq]>[StudyHours] @SystemMessage #VANC #VANP You haven't... @Goto(StudyMode1)
+@Variable[StudyHoursReq]<=[StudyHours] @SystemMessage #VANC #VANP You have! @Goto(StudyMode2)
+(StudyMode1)
+@SystemMessage #VANC #VANP Transfering punishments points to you.. #MeritChangeNHigh
+@SystemMessage #VANC #VANP Done.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150] @Goto(StudyMode3)
+(StudyMode2)
+@SystemMessage #VANC #VANP Transfering gold to you.. #MeritChangePHigh
+@SystemMessage #VANC #VANP Done.. @ChangeVar[GNMGold]=[GNMGold]+[150] @Goto(StudyMode3)
+(StudyMode3)
+@NullResponse @SetVar[StudyHours]=[0]
+@NullResponse @CheckFlag(AthleteMode)
+@NullResponse @Goto(End)
+(AthleteMode)
+@SystemMessage #VANC #VANP Lets see if you've exercised enough times this week..
+@Variable[ExerciseTimesReq]>[ExerciseTimes] @SystemMessage #VANC #VANP You haven't... @Goto(AthleteMode1)
+@Variable[ExerciseTimesReq]<=[ExerciseTimes] @SystemMessage #VANC #VANP You have! @Goto(AthleteMode2)
+(AthleteMode1)
+@SystemMessage #VANC #VANP Transfering punishments points to you.. #MeritChangeNHigh
+@SystemMessage #VANC #VANP Done.. @ChangeVar[GNMPPoints]=[GNMPPoints]+[150] @Goto(StudyMode3)
+(AthleteMode2)
+@SystemMessage #VANC #VANP Transfering gold to you.. #MeritChangePHigh
+@SystemMessage #VANC #VANP Done.. @ChangeVar[GNMGold]=[GNMGold]+[150] @Goto(StudyMode3)
+(AthleteMode3)
+@NullResponse @SetVar[ExerciseTimes]=[0]
+@NullResponse @Goto(End)
+(FullTimeTrial)
+@Variable[#DateDifference(TrialPeriod, Days)]<[10] @NullResponse @Goto(End)
+@SystemMessage #VANC #VANP Slave
+@SystemMessage #VANC #VANP Your trial period has expired @DeleteFlag(FullTimeTrial)
+@SystemMessage #VANC #VANP Meaning you now have a choice @DeleteFlag(FullTime)
+@SystemMessage #VANC #VANP Stay full time or go back to part time
+@SystemMessage #VANC #VANP Which is it?
+[part]@SystemMessage #VANC #VANP Back to part time then @SetFlag(PartTime) @Goto(End)
+[full]@SystemMessage #VANC #VANP Exellent choice! @SetFlag(FullTime) @Goto(End)
+@DifferentAnswer @SystemMessage #VANC #VANP Part time or full time?
+(End)
+@End
+@Info System that checks wether the slave has return after short absence/vacation
+@Info System that checks why you haven't asked to have any fun
+@Info System that checks when you we're last here..

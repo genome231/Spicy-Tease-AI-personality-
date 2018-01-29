@@ -1,0 +1,30 @@
+@NullResponse @CheckFlag(TeaseModule3) @SetFlag(TeaseModule3)
+I have a fun new game for you #SlaveName #DT
+In a moment I'm gonna show you 100 pictures #DT
+You will rate each picture from 1 to 10 #DT
+I will simply show you the image #DT
+And you will simply write a number from 1 to 10 #DT
+10 meaning that the image is incredible hot #DT
+1 being not so hot #GNMLol #DT
+@NullResponse @CallReturn(CR\Modules\Tease\ModuleParts\ModelRatingPart1.txt)
+We're gonna stop here #DT
+Now that I have all this lovely info #DT
+I will have a great new game for us to play #DT
+You'll just have to wait and see #GNMGrin #DT
+@End
+(TeaseModule3)
+I have a fun game for you #SlaveName #DT 
+@Flag(TeaseUpdate2) @NullResponse @Goto(Game1,Game2)
+(Game1)
+I'm gonna show you 2 images at a time #DT
+You previously rated them #DT
+You will simply tell me which of the images you gave the highest rating #DT
+<i>If</i> you can remember #GNMLol #DT
+@NullResponse @CallReturn(CR\Modules\Tease\ModuleParts\ModelRatingPart2.txt)
+@End
+(Game2)
+I'm gonna show you some of the images you've rated 1 to 10 #DT
+We're going to test your memory and see if you're able to correctly guess exactly what rating you gave it #DT
+#GNMLol #DT
+@NullResponse @CallReturn(CR\Modules\Tease\ModuleParts\ModelRatingPart3.txt)
+@End

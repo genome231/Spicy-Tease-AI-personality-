@@ -1,0 +1,374 @@
+@NullResponse @CheckStrokingState
+(Sub Stroking)
+#StopStroking #DT @StopStroking
+(Sub Not Stroking)
+@NullResponse @CheckFlag(gdPunNotFirst)
+It was inevitable, wasn't it? #DT @SetFlag(gdPunNotFirst)
+Eventually it would get to the point where I have to punish you, and here we are #DT
+So what should we do... #DT @CheckFlag(pvSpankingYes,yes to spanking)
+I feel like I should be able to spank your ass, do you agree? #DT
+[yes] Good #DT @SetFlag(pvSpankingYes) @Goto(yes to spanking)
+[no] Oh, that really limits my options #GNMEmoteSad #DT @SetFlag(pvSpankingNo)
+@DifferentAnswer #GNMYesOrNo
+But I will respect your limits, as always
+@BallTorture @NullResponse @Goto(CBT,CORNER)
+@NullResponse @Goto(CORNER)
+(yes to spanking)
+I can't actually bend you over my knee and spank you from here, obviously
+So you're going to have to do the spanking yourself
+@Flag(pthevCaneNo) Now, you've already told me you don't have a cane, which is unfortunate @Goto(do not have cane)
+@Flag(pthevCane) I already know that you have a cane @Goto(already have cane)
+It would please me a lot if you had a cane to smack your ass with, do you have one?
+[yes] Good #Smile @SetFlag(pthevCane)
+[no] That's too bad @SetFlag(pthevCaneNo) @Goto(do not have cane)
+@DifferentAnswer #YesOrNo
+(already have cane)
+@Flag(pvSpoonNo) It would be nice if you had a wooden spoon as well, but okay... @Goto(do not have spoon or cane)
+@Flag(pvSpoon) Together with the wooden spoon that gives me options already #Grin @Goto(already have cane and spoon)
+@NullResponse @Goto(question spoon)
+(do not have cane)
+But we're going to have to make it work somehow
+@Flag(pvSpoonNo) A solution would be if you agreed to use a wooden spoon... @Goto(do not have spoon or cane)
+@Flag(pvSpoon) At least you have a wooden spoon, that's a good alternative @Goto(already have cane and spoon)
+(question spoon)
+What about a wooden spoon?
+[yes] Great #GNMGrin @SetFlag(pvSpoon) @Goto(already have cane and spoon)
+[no] Hm #GNMEmoteSad @SetFlag(pvSpoonNo)
+@DifferentAnswer #GNMYesOrNo
+(do not have spoon or cane)
+As always, I will respect your limits
+@Flag(pthevLeatherBeltNo) And since you won't use a leather belt either... @Goto(only hand spanking left) 
+@Flag(pthevLeatherBelt) There's always the leather belt, I guess #Grin @Goto(SPANKING)
+@NullResponse @Goto(question belt)
+(already have cane and spoon)
+@Flag(pthevLeatherBeltNo) It's not so bad then that you won't use a belt for spanking @Goto(SPANKING)
+@Flag(pthevLeatherBelt) And then there's the leather belt... I've got all I need to keep you in line @Goto(SPANKING)
+(question belt)
+Do you have a leather belt you can use for spanking?
+[yes] Awesome #Smile @SetFlag(pthevLeatherBelt)
+[no] Oh alright then @SetFlag(pthevLeatherBeltNo)
+@DifferentAnswer #YesOrNo
+It's about time we get to your punishment @Goto(SPANKING)
+(only hand spanking left)
+I suppose it's going to have to come down to bare hand spanking @Goto(SPANKING)
+@End
+=================================
+---------------------------------
+----- NOT FIRST PUNISHMENT ------
+---------------------------------
+=================================
+(pvPunNotFirst)
+@BallTorture @NullResponse @Goto(with CBT)
+@Flag(pvSpankingYes) @NullResponse @Goto(SPANKING,CORNER)
+@NullResponse @Goto(CORNER)
+@End
+(with CBT)
+@Flag(pvSpankingYes) @NullResponse @Goto(CBT,SPANKING,CORNER)
+@NullResponse @Goto(CBT,CORNER)
+@End
+========================
+------------------------
+--- CBT PUNISHMENT -----
+------------------------
+========================
+(CBT)
+@Flag(pthevShoelace) @NullResponse @Goto(go tie up balls)
+@Flag(pthevShoelaceNo) @NullResponse @Goto(move on to cbt)
+I need you to tie up those #Balls for me, #SlaveName
+Do you have a shoelace or something like that?
+[yes] Good @SetFlag(pthevShoelace)
+[no] Oh... well we can do this without tying them up @SetFlag(pthevShoelaceNo) @Goto(move on to cbt)
+@DifferentAnswer #YesOrNo
+Go get it for me, because I want your #Balls tied up nice and tight
+Do you need me to tell you how to do this?
+[yes] Alright then...
+[no] Alright then @Goto(go tie up balls)
+@DifferentAnswer #YesOrNo
+You should start with the string underneath you cock and balls
+Your #Balls should be in the middle of the string
+Now pull up both ends of the string and wrap it around both cock and balls
+Loop around one more time and pull it tight
+Not too tight, though: you don't want to restrict the blood flow too much!
+Now loop it around just your #Balls and tie a simple knot
+Finally, loop it twice around just the base of your #Cock and tie a simple knot on top
+The knots should be tight, but easy to loosen in case it start to feel uncomfortable
+Safety first, #SubName #Smile
+Are you ready to continue?
+[yes,ready,done,did,finished] Good #PetName @TempFlag(pvBallsTied)
+[no] Let me know when you are ready @LoopAnswer
+@DifferentAnswer #YesOrNo
+@NullResponse @Goto(move on to cbt)
+@End
+(go tie up balls)
+@NullResponse @CallReturn(Custom/CallReturn/pvCr_TieMyBalls.txt)
+(move on to cbt)
+@Flag(pthevSpoon) @NullResponse @Goto(cbt1,cbt2)
+(cbt1)
+@NotFlag(pvKneeling) On your knees @DommeLevelUp @TempFlag(pvKneeling)
+@NullResponse @CBTBalls
+@NullResponse @DommeLevelDown
+@Flag(pvKneeling) You can stop kneeling now, #PetName @DeleteFlag(pvKneeling)
+@End
+(cbt2)
+Go get your wooden spoon for me, #PetName
+Your #Balls are going to be so sore when I'm done with you #Grin
+@NotFlag(pvKneeling) On your knees @TempFlag(pvKneeling)
+You will smack your #Balls to my count, #PetName
+And you will not hold back, this is supposed to hurt
+Get ready @Wait(#Random(5,15))
+ONE
+TWO 
+THREE
+FOUR
+FIVE
+SIX
+SEVEN
+EIGHT
+NINE 
+TEN
+That will do for now, #SlaveName
+@Flag(pvKneeling) You can stop kneeling now @DeleteFlag(pvKneeling)
+@Flag(pvBallsTied) @NullResponse @CallReturn(Custom/CallReturn/pvCr_UnTieMyBalls.txt)
+@NullResponse
+@End
+===========================
+---------------------------
+--- SPANKING PUNISHMENT ---
+---------------------------
+===========================
+(SPANKING)
+@Flag(pthevCane,pthevLeatherBelt,pthevSpoon) @NullResponse @Goto(cane,belt,spoon)
+@Flag(pthevCane,pthevLeatherBelt) @NullResponse @Goto(cane,belt)
+@Flag(pthevCane,pthevSpoon) @NullResponse @Goto(cane,spoon)
+@Flag(pthevSpoon,pthevLeatherBelt) @NullResponse @Goto(spoon,belt)
+@Flag(pthevCane) @NullResponse @Goto(cane)
+@Flag(pthevLeatherBelt) @NullResponse @Goto(belt)
+@Flag(pthevSpoon) @NullResponse @Goto(spoon)
+You're going to spank yourself, so get down on your knees @CustomTask(Spanking)
+Sit back down, #PetName @Goto(punishment ending)
+@End
+(cane)
+@RT(Fetch the,Go get your) cane #SlaveName
+Let me know when you're ready to continue
+[yes,ready,got it,have it] @NullResponse @Chance50(skip kneeling)
+@DifferentAnswer Ready?
+@NotFlag(pvKneeling) Down on your knees
+I want you to hold the cane between your teeth
+Hands behind your back @Timeout(18,hands behind back)
+[anything] I said hands behind your back #SubName
+@AcceptAnswer I said hands behind your back #SubName
+You really have it learn to listen to me @Wait(12) 
+(hands behind back)
+I think you're ready for your @RT(caning,punishment) now
+Take the cane out of your mouth 
+Oh, and wipe it clean in case you drooled all over it
+(skip kneeling)
+@NullResponse @CheckFlag(pthevCaneExplained)
+@Flag(pvKneeling) Get off your knees @DeleteFlag(pvKneeling)
+I want you to bend over your chair, go get one if you need to @Wait(6)
+Place your hands on the seat
+You will match every swish and crack of the cane you hear
+Each time you will hit your ass as hard as you can
+I want red stripes across your skin, #SlaveName @SetFlag(pthevCaneExplained)
+And I want you to count them out loud @Goto(top caning)
+(pthevCaneExplained)
+Get into the position #SlaveName, hands on your chair
+Don't forget to count out loud, and don't hold back #SubName
+Remember that you could never strike as hard as I would
+(top caning)
+Get ready... @Wait(8) @RapidTextOn
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @SetVar[PtheVCaneCount]=[1]
+@NullResponse
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+@NullResponse
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+@NullResponse
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+#pthevCaningTaunts
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+#pthevCaningTaunts
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+#pthevCaningTaunts
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+#pthevCaningTaunts
+@NullResponse
+@NullResponse @PlayAudio[MissBlue\cane.mp3]
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+#pthevCaningTaunts
+@NullResponse
+(another one)
+@NullResponse @PlayAudio[MissBlue\cane.mp3] 
+@NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]+[1]
+@NullResponse @If[PtheVCaneCount]=[20]Then(caning done)
+@NullResponse @Chance90(another one)
+(caning done)
+That's enough, sit down @RapidTextOff
+How many, #SlaveName?
+[8,eight] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[8]
+[9,nine] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[9]
+[10,ten] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[10]
+[11,eleven] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[11]
+[12,twelve] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[12]
+[13,thirteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[13]
+[14,fourteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[14]
+[15,fifteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[15]
+[16,sixteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[16]
+[17,seventeen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[17]
+[18,eighteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[18]
+[19,nineteen] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[19]
+[20,twenty] @NullResponse @ChangeVar[PtheVCaneCount]=[PtheVCaneCount]-[20]
+[don't know,lost count] @NullResponse @Goto(wrong number)
+@AcceptAnswer Nope @Goto(wrong number)
+@NullResponse @If[PtheVCaneCount]=[0]Then(right number)
+(wrong number)
+@NullResponse @CheckFlag(pthevPunish01NotAgain)
+I guess we're going to have to do that again @TempFlag(pthevPunish01NotAgain)
+Get back into the position @Goto(top caning)
+(right number)
+Good, then we can move on #Smile @Goto(punishment ending)
+@End
+(pthevPunish01NotAgain)
+Wrong number again
+But I guess you've learned your lesson, so let's move on @Goto(punishment ending)
+@End
+(belt)
+@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) leather belt, #SlaveName
+Do you have it?
+[yes,got it,ready] Good
+[no] Go get it then, tell me when you're ready @LoopAnswer
+[not possible,impossible,can't] *Sigh* @Goto(CORNER)
+@DifferentAnswer #YesOrNo
+@RT(Lets get this over with,Well now,Alright), #SlaveName
+@NotFlag(pvKneeling) Get down on your knees  @TempFlag(pvKneeling)
+You're going to give your ass 30 smacks with the belt
+After every 10 smacks, I want you to type "Thank you #DomHonorific"
+And I want your #Ass to look nice and red, so do it HARD
+Okay #PetName, do it!
+[thank you] Good, the next 10 now
+@DifferentAnswer What did I tell you to say?
+Tell me, #SubName
+[thank you] Okay, 10 more smacks
+@DifferentAnswer What did I tell you to say?
+I'm waiting, #SlaveName
+[thank you] Well done, you can put away the belt for now
+@DifferentAnswer No, try again #SubName
+Your ass must be all red and glowing now #Grin
+@Flag(pvKneeling) You can get off your knees now @DeleteFlag(pvKneeling)
+@NullResponse  @Goto(punishment ending)
+@End
+(spoon)
+@RT(Go get,Go fetch,You should fetch,I want you to get,You are going to need) @RT(the,your) wooden spoon, #SlaveName
+Do you have it?
+[yes,got it,ready] Good
+[no] Go get it then, tell me when you're ready @LoopAnswer
+[not possible,impossible,can't,don't have,haven't] *Sigh* @Goto(CORNER)
+@DifferentAnswer #YesOrNo
+@RT(Lets get this over with,Well now,Alright), #SlaveName
+@NotFlag(pvKneeling) Get down on your knees  @TempFlag(pvKneeling)
+You're going to give your ass 30 smacks with the spoon
+After every 10 smacks, I want you to type "Thank you #DomHonorific"
+And I want your #Ass to look nice and red, so do it HARD
+Okay #PetName, do it!
+[thank you] Good, the next 10 now
+@DifferentAnswer What did I tell you to say?
+Tell me, #SubName
+[thank you] Okay, 10 more smacks
+@DifferentAnswer What did I tell you to say?
+I'm waiting, #SlaveName
+[thank you] Well done, you can put away the spoon for now
+@DifferentAnswer No, try again #SubName
+Your ass must be all red and glowing now #Grin
+@Flag(pvKneeling) You can get off your knees, #SlaveName @DeleteFlag(pvKneeling)
+@NullResponse  @Goto(punishment ending)
+@End
+=============================
+-----------------------------
+--- CORNER PUNISHMENT -------
+-----------------------------
+=============================
+(CORNER)
+@Flag(pvHasCollar) @NullResponse @Chance50(corner with collar)
+@Flag(pthevButtPlug) @NullResponse @Chance50(corner with plug)
+@NullResponse @Goto(corner move on)
+(corner with plug)
+@Flag(pthevPlugged) @NullResponse @Goto(corner move on)
+@NullResponse @CallReturn(Custom/CallReturn/pvCr_PlugIn.txt)
+@NullResponse @Goto(corner move on)
+(corner with collar)
+@Flag(pvCollared) @NullResponse @Goto(corner move on)
+@NullResponse @CallReturn(Custom/CallReturn/pvCr_CollarOn.txt)
+(corner move on)
+@NotFlag(pvKneeling) Down on your knees, right now #PetName @TempFlag(pvKneeling)
+In a moment @RT(you will crawl,I want you go) @RT(to the farthest wall,to a corner) of your room
+@RT(You back should be,Make sure your back is) turned to your computer
+Your nose should almost touch the wall
+And no @RT(touching,stroking), @RT(keep your greedy paws,hands) off your #Cock
+When I think it's enough I'm going to ring this bell
+@NullResponse @PlayAudio[MissBlue\bell.mp3]
+So make sure you can hear me
+Understood?
+[yes] Good @Goto(go now)
+[no] It's very simple #PetName
+@DifferentAnswer #YesOrNo
+You are going to kneel with your nose to the wall
+You can come back when you here this bell @PlayAudio[MissBlue\bell.mp3]
+(go now)
+Go now #PetName
+@NullResponse @Wait(30)
+You're still there aren't you? @Timeout(30,still there)
+[yes] Oh no no no, #PetName
+@AcceptAnswer @NullResponse
+@BallTorture Your #Balls @RT(will,are going to) @RT(be punished,pay the price,get a beating) for @RT(your disobedience,that) @CBTBalls
+I'm not kidding around #SubName
+Kneel down with your face to the wall, now!
+@NullResponse @Wait(30)
+You better not be reading this @Timeout(30,still there)
+[yes] @NullResponse
+@AcceptAnswer @NullResponse
+Well congratulations #SubName 
+See you next time @EndTease
+@End
+(still there)
+I guess you're not #Smile
+@NullResponse @Wait(120)
+@NullResponse @Chance10(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance20(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance30(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance40(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance50(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance50(saved by the bell)
+@NullResponse @Wait(10)
+@NullResponse @Chance50(saved by the bell)
+@NullResponse @Wait(10)
+(saved by the bell)
+@NullResponse  @PlayAudio[MissBlue\bell.mp3]
+Are you there?
+[yes] Good
+@AcceptAnswer @NullResponse
+I hope you learned your lesson #PetName @Goto(punishment ending)
+@End
+================================
+--------------------------------
+--- PUNISHMENT ENDING ----------
+--------------------------------
+================================
+(punishment ending)
+@End

@@ -1,6 +1,0 @@
-[may i edge,can i edge,let me edge,i want to edge,i need to edge]
-[Stroking]
-(NoStrokeEdge) @RT(Absolutely not,Dont you dare edge!,Stay away from that edge,Dont you dare edge!,No!,No..) #DT
-(MaybeStrokeEdge) @RT(Maybe..,Try your luck,Perhaps,Well maybe) #DT
-(YesStrokeEdge) @RT(Yes go ahead and edge,Yes,Yes you may edge,Yes you can edge,Yes feel free to edge) #DT
-[Stroking End]

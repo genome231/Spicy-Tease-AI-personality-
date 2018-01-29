@@ -1,0 +1,966 @@
+@NullResponse @CheckFlag(SlaveModule1FirstRun) @SetFlag(SlaveModule1FirstRun)
+Now #SlaveName #DT @SetVar[PositionLevel]=[1]
+I consider it rather important that you know your positions by heart #DT
+So of course we're gonna spend some time once in a while making sure you know your positions #DT
+Pay attention as I walk you through the different positions.. @Goto(PositionWalkThrough) #DT
+(SlaveModule1FirstRun)
+#SlaveName #DT
+@Variable[PositionLevel]>[20] @NullResponse @Chance50(Continue1)
+A quick reminder of all the positions.. #DT
+(PositionWalkThrough)
+Attention @ShowImage[\GNMImages\Positions\Attention1.jpg] @Wait(3)
+Bad bitch @ShowImage[\GNMImages\Positions\BadBitch2.jpg] @Wait(3)
+Bent over @ShowImage[\GNMImages\Positions\BentOver1.jpg] @Wait(3)
+Bent over open @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg] @Wait(3)
+Box @ShowImage[\GNMImages\Positions\Box1.jpg] @Wait(3)
+Come fuck me @ShowImage[\GNMImages\Positions\CFM1.jpg] @Wait(3)
+Dog @ShowImage[\GNMImages\Positions\Dog1.jpg] @Wait(3)
+Judgment @ShowImage[\GNMImages\Positions\Judgement1.jpg] @Wait(3)
+Kneel @ShowImage[\GNMImages\Positions\Kneel1.jpg] @Wait(3)
+Listen @ShowImage[\GNMImages\Positions\Listen1.jpg] @Wait(3)
+Punishment @ShowImage[\GNMImages\Positions\Punishment1.jpg] @Wait(3)
+Slut @ShowImage[\GNMImages\Positions\Slut1.jpg] @Wait(3)
+Spanking @ShowImage[\GNMImages\Positions\Spanking1.jpg] @Wait(3)
+Stand @ShowImage[\GNMImages\Positions\Stand1.jpg] @Wait(3)
+Stand open @ShowImage[\GNMImages\Positions\StandOpen1.jpg] @Wait(3)
+Worship @ShowImage[\GNMImages\Positions\Worship1.jpg] @Wait(3)
+(Continue1)
+@Flag(SlaveUpdate1) @Variable[PositionLevel]<=[15] @NullResponse @Goto(Simple1)
+@Flag(SlaveUpdate1) @Variable[PositionLevel]>=[30] @NullResponse @Chance05(Complicated3) @Goto(Simple1,Simple2,Test1,Test2,Complicated1,Complicated2)
+@Flag(SlaveUpdate1) @NullResponse @Chance05(Complicated2) @Goto(Simple1,Simple2,Test1,Test2,Complicated1)
+@Variable[PositionLevel]<=[15] @NullResponse @Goto(Simple1)
+@Variable[PositionLevel]>=[30] @NullResponse @Goto(Simple1,Simple2,Complicated1)
+@NullResponse @Goto(Simple1,Simple2)
+(Simple1)
+(Simple2)
+@RT(We're keeping it simple today,We're gonna do something simple,I'm gonna make you do something simple,This should be easy,This shouldn't be too hard) #DT
+@RT(I'm gonna show you a position,I'll show you a position,In a moment you'll see a position,In just a second I'm showing you a position,I'm showing you a position in a little moment) #DT
+@RT(I'll explain it in as much detail as needed,I'll tell you as much as possible,I'll go into a few details about it) #DT
+@RT(To make sure you understand it fully,So I'm sure you won't have any excuses,So we both know you understand it completely!,This way you won't have any excuses..) #DT
+@RT(When I'm done explaining,Once I've finished explaining,After I've explained it properly,Once it has been explained properly) #DT
+@RT(You're going to take the position,Your gonna take the position,You will take the position) #DT
+@RT(And you won't break it until you hear my bell,And you'll keep the position until the sound of my bell,And only once you hear my bell may you break it..) #DT
+Understood? #DT @Timeout(10,Passed1)
+[yes]#GNMGood #DT #MeritChangePLow @Goto(Continue2)
+[no]don't take me for a fool #DT! #MeritChangeNMedium @Goto(Continue2)
+@DifferentAnswer #GNMYesOrNo #DT
+(Passed1)
+Not being answered is a sign of disrespect #DT #MeritChangeNMedium
+I don't like being disrespected #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[25]
+Moving on #SlaveName #DT @Goto(Continue2)
+(Continue2)
+@NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+(a1)
+This is the attention position @ShowImage[\GNMImages\Positions\Attention1.jpg] @TempFlag(PTa1)
+It is one of two positions I could ask you to take if I want you to listen carefully #DT
+Notice the hands with the fingers folded @ShowImage[\GNMImages\Positions\Attention2.jpg]
+Her feet with the top of them faced down @ShowImage[\GNMImages\Positions\Attention2.jpg]
+The back lightly arched @ShowImage[\GNMImages\Positions\Attention1.jpg]
+Eyes looking straigt @ShowImage[\GNMImages\Positions\Attention1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a2)
+This is the Bad bitch position @ShowImage[\GNMImages\Positions\BadBitch2.jpg] @TempFlag(PTa2)
+Notice the arched back @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
+Top of the feet facing down @ShowImage[\GNMImages\Positions\BadBitch2.jpg]
+Head down or up @ShowImage[\GNMImages\Positions\BadBitch3.jpg]
+Legs somewhat apart allowing access @ShowImage[\GNMImages\Positions\BadBitch1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a3)
+This is the Bent over position @ShowImage[\GNMImages\Positions\BentOver1.jpg] @TempFlag(PTa3)
+It gives the sub a feeling of submission @ShowImage[\GNMImages\Positions\BentOver2.jpg]
+Even though it on this pictures has the heels touching the ground @ShowImage[\GNMImages\Positions\BentOver1.jpg]
+I want you to raise your heels from ground @ShowImage[\GNMImages\Positions\BentOver3.jpg]
+Legs straight! @ShowImage[\GNMImages\Positions\BentOver2.jpg]
+Fingers touching the top of your toes @ShowImage[\GNMImages\Positions\BentOver2.jpg]
+Head down #GNMGrin @ShowImage[\GNMImages\Positions\BentOver1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a4)
+This is the Bent over open position @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg] @TempFlag(PTa4)
+It's a lot like the bent over with the obvious exception of the legs spread @ShowImage[\GNMImages\Positions\BentOverOpen2.jpg]
+Heels lifted from the ground, head down @ShowImage[\GNMImages\Positions\BentOverOpen3.jpg]
+It's a nice position for humiliation, punishment or both @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
+Balance is quite a 'bitch' #GNMGrin @ShowImage[\GNMImages\Positions\BentOverOpen1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a5)
+This is the Box position @ShowImage[\GNMImages\Positions\Box1.jpg] @TempFlag(PTa5)
+The box is an excellent position @ShowImage[\GNMImages\Positions\Box1.jpg]
+Its tougher than it looks @ShowImage[\GNMImages\Positions\BoxCloseup1.jpg]
+Some might prefer a pillow, but I trust you don't @ShowImage[\GNMImages\Positions\Box1.jpg]
+Other than that the position speaks for itself.. @ShowImage[\GNMImages\Positions\Box1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a6)
+This is the Come fuck me position @ShowImage[\GNMImages\Positions\CFM1.jpg] @TempFlag(PTa6)
+Excellent for fucking someone @ShowImage[\GNMImages\Positions\CFM2.jpg]
+Back arched @ShowImage[\GNMImages\Positions\CFM3.jpg]
+Humiliation in a lovely way #GNMGrin @ShowImage[\GNMImages\Positions\CFM4.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a7)
+This is the Dog position @ShowImage[\GNMImages\Positions\Dog1.jpg] @TempFlag(PTa7)
+The dog is actually excellent as a spanking position @ShowImage[\GNMImages\Positions\Dog1.jpg]
+Notice how the legs and lower arms are pressed together @ShowImage[\GNMImages\Positions\Dog2.jpg]
+It's not one I use a lot but it still has its merit @ShowImage[\GNMImages\Positions\Dog3.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a8)
+This is the Judgment position @ShowImage[\GNMImages\Positions\Judgement1.jpg] @TempFlag(PTa8)
+Its primarily a spanking position @ShowImage[\GNMImages\Positions\Judgement1.jpg]
+Heels off the ground @ShowImage[\GNMImages\Positions\Judgement1.jpg]
+Its excellent for a good spanking #GNMGrin @ShowImage[\GNMImages\Positions\Judgement1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a9)
+This is the Kneel position @ShowImage[\GNMImages\Positions\Kneel1.jpg] @TempFlag(PTa9)
+The kneel is great, notice the hands ready to be tied @ShowImage[\GNMImages\Positions\Kneel1.jpg]
+This is great as a waiting or 'pay attention' position @ShowImage[\GNMImages\Positions\Kneel1.jpg]
+With rice though its a completely different position #GNMLol @ShowImage[\GNMImages\Positions\Kneel1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a10)
+This is the Listen position @ShowImage[\GNMImages\Positions\Listen1.jpg] @TempFlag(PTa10)
+Great for when I need you to listen to what I'm telling you @ShowImage[\GNMImages\Positions\Listen1.jpg]
+Hands by the knees @ShowImage[\GNMImages\Positions\Listen1.jpg]
+Forehead touching the ground @ShowImage[\GNMImages\Positions\Listen1.jpg]
+Eyes closed @ShowImage[\GNMImages\Positions\Listen1.jpg]
+Just listening.. @ShowImage[\GNMImages\Positions\Listen1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a11)
+This is the Punishment position @ShowImage[\GNMImages\Positions\Punishment1.jpg] @TempFlag(PTa11)
+Excellent for spanking @ShowImage[\GNMImages\Positions\Punishment2.jpg]
+Tied the right way and your #GNMBalls become very vulnerable @ShowImage[\GNMImages\Positions\Punishment3.jpg]
+It's better than it looks #GNMGrin @ShowImage[\GNMImages\Positions\Punishment4.jpg]
+Mhmm.. @ShowImage[\GNMImages\Positions\Punishment5.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a12)
+This is the Slut position @ShowImage[\GNMImages\Positions\Slut1.jpg] @TempFlag(PTa12)
+This position is art #GNMEmoteHappy @ShowImage[\GNMImages\Positions\Slut2.jpg]
+Its primarily used for girls @ShowImage[\GNMImages\Positions\Slut1.jpg]
+But that's not gonna keep you from learning #GNMLol @ShowImage[\GNMImages\Positions\Slut2.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a13)
+This is the Spanking position @ShowImage[\GNMImages\Positions\Spanking1.jpg] @TempFlag(PTa13)
+Absolutely fantastic for spanking @ShowImage[\GNMImages\Positions\Spanking2.jpg]
+Even better for a caning @ShowImage[\GNMImages\Positions\Spanking1.jpg]
+Imagine being told that movement awards extra hits! #GNMGrin @ShowImage[\GNMImages\Positions\Spanking2.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a14)
+This is the Stand position @ShowImage[\GNMImages\Positions\Stand1.jpg] @TempFlag(PTa14)
+This shouldn't be hard to learn! @ShowImage[\GNMImages\Positions\Stand1.jpg]
+Stand on your toes @ShowImage[\GNMImages\Positions\Stand3.jpg]
+Arms down @ShowImage[\GNMImages\Positions\Stand2.jpg]
+Eyes looking down.. @ShowImage[\GNMImages\Positions\Stand2.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a15)
+This is the Stand open position @ShowImage[\GNMImages\Positions\StandOpen1.jpg] @TempFlag(PTa15)
+Imagine being ballbusted in this @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
+Told that if your heels touch the ground we're starting over.. @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
+Hands behind head @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
+Legs apart nicely @ShowImage[\GNMImages\Positions\StandOpen1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(a16)
+This is the Worship position @ShowImage[\GNMImages\Positions\Worship1.jpg] @TempFlag(PTa16)
+Worship @ShowImage[\GNMImages\Positions\Worship1.jpg]
+I don't think much explaining is needed here.. @ShowImage[\GNMImages\Positions\Worship1.jpg]
+Take the position. #Timer #DT @Goto(aTimer)
+(aTimer)
+@Variable[PositionLevel]<=[15] @NullResponse @Wait(#Random(120,240)) @Goto(aTimerOver)
+@Variable[PositionLevel]>=[30] @NullResponse @Wait(#Random(240,360)) @Goto(aTimerOver)
+@NullResponse @Wait(#Random(180,300)) @Goto(aTimerOver)
+(aTimerOver)
+@RT(Come back,Get back,Come back to me,Get your #GNMAss over here..) #SlaveName #DT @PlayAudio[\GNMSounds\SpecialSounds\Bell.mp3]
+@NullResponse @CheckFlag(PT2Done) 
+@NullResponse @TempFlag(PT2Done)
+We're doing 1 more position... #DT
+(NoToy)
+@Flag(PTa1) @NullResponse @Goto(a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa2) @NullResponse @Goto(a1,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa3) @NullResponse @Goto(a1,a2,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa4) @NullResponse @Goto(a1,a2,a3,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa5) @NullResponse @Goto(a1,a2,a3,a4,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa6) @NullResponse @Goto(a1,a2,a3,a4,a5,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa7) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa8) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a9,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa9) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a10,a11,a12,a13,a14,a15,a16)
+@Flag(PTa10) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a11,a12,a13,a14,a15,a16)
+@Flag(PTa11) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a12,a13,a14,a15,a16)
+@Flag(PTa12) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a13,a14,a15,a16)
+@Flag(PTa13) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a14,a15,a16)
+@Flag(PTa14) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a15,a16)
+@Flag(PTa15) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a16)
+@Flag(PTa16) @NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15)
+@NullResponse @Goto(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16)
+(Complicated1)
+(Complicated2)
+(Complicated3)
+#SlaveName #DT
+@RT(It's time for some real fun!,Time for some fun,Lets have a little fun,I'm gonna make things interesting,This should be quite interesting) #DT
+@RT(A real challenge,A bit of a challenge,A fun challenge,An exciting challenge,Definitely a challenge) #GNMLol #DT @SetVar[RandomValue]=[#Random(1,20)]
+@NullResponse @RapidCodeOn @Chance75(UseToy)
+@NullResponse @Goto(NoToy)
+(UseToy)
+@NullResponse @Goto(b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12)
+(b1) //Gag + pegs
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+#Fetch #Gag
+Then #Fetch #Random(4,8) pegs #DT @Wait(5)
+Put the pegs on your nipples and the gag in your mouth #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c3)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b2)//buttplug + gag
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(UseToy) 
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+#Fetch #ButtPlug #DT
+Also #Fetch #Gag #DT @Wait(5)
+Put them put in #GNMGrin #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c2,c6)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b3)//buttplug + gag + peg
+@NotFlag(ButtPlugPlay) @NullResponse @Goto(UseToy) 
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+#Fetch #ButtPlug #DT
+#Fetch #Gag #DT
+Put both of them in #DT
+And finally #Fetch #Random(4,8) pegs #DT @Wait(5)
+I wanted placed on your nipples #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c1)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b4)//gag + peg
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+#Fetch #Gag #DT
+#Fetch #Random(4,8) pegs #DT @Wait(5)
+Gag yourself #DT
+And put the pegs on your nipples #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c8)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b5)//gag + peg + parachute
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+@NotFlag(ParachutePlay) @NullResponse @Goto(UseToy) 
+#Fetch #Gag #DT
+#Fetch #Parachute #DT
+Gag yourself #DT
+The parachute goes on your #GNMBalls #DT
+I want you to hang #Random(1,3) kg's from it #GNMLol #DT
+#Fetch #Random(4,8) pegs #DT @Wait(5)
+Place the pegs on your nipples #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c4)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b6)//gag + rice
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+#Fetch #Gag and some rice #DT @Wait(5)
+Gag yourself and place the rice where you will do the position.. #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c10)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b7)//gag + parachute
+@NotFlag(GagPlay) @NullResponse @Goto(UseToy) 
+@NotFlag(ParachutePlay) @NullResponse @Goto(UseToy) 
+#Fetch #Gag #DT
+#Fetch #Parachute #DT @Wait(5)
+Gag yourself #DT
+And put on the parachute, attach #Random(1,3) kg's to it #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c11)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b8)//parachute + pegs
+@NotFlag(ParachutePlay) @NullResponse @Goto(UseToy) 
+#Fetch #Parachute #DT @Wait(5)
+And put on the parachute, attach #Random(1,3) kg's to it  #DT
+#Fetch #Random(4,8) pegs and put them on your nipples #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c15)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b9)//rice
+Go ahead and find some rice #DT @Wait(5)
+Place them where you will do the position.. #DT
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c9,c16)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b10)//rice + peg
+#Fetch #Random(4,8) pegs and some rice #DT @Wait(5)
+Put the pegs on your nipples and place the rice where you will do the position.. #DT @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c5)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b11)//lingerie
+@Flag(GNMToyLingerieAdvanced) @NullResponse @Goto(LingerieAdvanced) 
+@Flag(GNMToyLingerieBasic) @NullResponse @Goto(LingerieBasic) 
+@NullResponse @Goto(UseToy)
+(LingerieAdvanced) 
+Go ahead and put on #DT
+A pair of stockings @ShowImage[\GNMImages\Toys\Lingerie\Stockings\*.jpg]
+This garterbelt @ShowImage[\GNMImages\Toys\Lingerie\GarterBelt\*.jpg]
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
+And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c12)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(LingerieBasic) 
+Go ahead and put on #DT
+These panties @ShowImage[\GNMImages\Toys\Lingerie\Panties\*.jpg]
+And this bra #GNMGrin @ShowImage[\GNMImages\Toys\Lingerie\Bra\*.jpg] @Wait(15)
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c12)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(b12)//Extended time
+This should prove fun #GNMGrin #DT
+#GNMReady #DT
+[yes]#GNMGood #DT @Goto(c13)
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+(c1) //Attention /ButtPlug + gag + nipple +
+With all your gear I want you to take the attention position @ShowImage[GNMImages\Positions\Attention1.jpg]
+Do not change position until I tell you otherwise @ShowImage[GNMImages\Positions\Attention1.jpg]
+I know that this can get tough on the knees but make me proud! @ShowImage[GNMImages\Positions\Attention1.jpg]
+If you absolutely can't handle anymore just say 'stop' #DT @CustomMode(stop, Goto, NoMore)
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Attention1.jpg]
+#Timer #DT @Goto(cTimer)
+(c2) //Bad Bitch /Buttplug + gag +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the bad bitch position @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+Head down @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\BadBitch2.jpg]
+#Timer #DT @Goto(cTimer)
+(c3) //Bent Over /Gag + pegs + balance +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Bent over position @ShowImage[GNMImages\Positions\BentOver2.jpg]
+Head down @ShowImage[GNMImages\Positions\BentOver2.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\BentOver2.jpg]
+I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\BentOver2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOver2.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOver2.jpg]
+#Timer #DT @TempFlag(cBalance) @Goto(cTimer)
+(c4) //Bent over Open /PArachute + gag + pegs +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Bent over open position #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+Head down #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+Stay there until you hear my bell #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+I want you to count everytime you lose your balance #DT @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\BentOverOpen2.jpg]
+#Timer #DT @TempFlag(cBalance) @Goto(cTimer)
+(c5) //box /rice + pegs +
+#GNMGrin  #DT
+This should prove fun to watch! #DT
+I want you in the box position @ShowImage[GNMImages\Positions\Box1.jpg]
+Head high and on your knees @ShowImage[GNMImages\Positions\Box1.jpg]
+Stay there until you hear my bell  @ShowImage[GNMImages\Positions\Box1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Box1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Box1.jpg]
+#Timer #DT @Goto(cTimer)
+(c6) //come fuck me /buttplug + gag +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the come fuck me position @ShowImage[GNMImages\Positions\CFM3.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\CFM3.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\CFM3.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\CFM3.jpg]
+#Timer #DT @Goto(cTimer)
+(c7) //Dog / Legs and hands tied together 
+Now #SlaveName #DT
+Find a few shoelaces or similar #DT @Wait(10)
+I want you to tie your ankles together as well as.. #DT
+Your knees and your hands #DT
+#GNMReady #DT
+[yes]#GNMGood #DT
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+Now.. #DT
+I want 5 items that you can carry in your mouth placed as far away from your computer #DT
+Place them on the floor #DT
+We're gonna have you play fetch.. #DT
+While you're tied like a dog @ShowImage[GNMImages\Positions\Dog1.jpg]
+I want you to retrieve the objects 1 at a time #GNMGrin @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(10)
+#GNMReady #DT
+[yes]#GNMGood #DT
+@DifferentAnswer Just say yes when you're ready.. #DT #MeritChangeNLow
+You may begin.. @ShowImage[GNMImages\Positions\Dog1.jpg] @Wait(30)
+Done? #DT
+[yes]#GNMGood #DT @Goto(End)
+@DifferentAnswer Just say yes when you've finished fetching.. #DT #MeritChangeNLow
+(c8) //Judgement /gag + pegs + balance +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Judgement position @ShowImage[GNMImages\Positions\Judgement1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Judgement1.jpg]
+Just so we're clear your heels may not touch the ground.. @ShowImage[GNMImages\Positions\Judgement1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Judgement1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Judgement1.jpg]
+#Timer #DT @Goto(cTimer)
+(c9) //Kneel /Rice +
+(c10) //Listen /gag + rice +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Listen position @ShowImage[GNMImages\Positions\Listen1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Listen1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Listen1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Listen1.jpg]
+#Timer #DT @Goto(cTimer)
+(c11) //Punishment /parachute + gag +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Punishment position @ShowImage[GNMImages\Positions\Punishment4.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Punishment4.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Punishment4.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Punishment4.jpg]
+#Timer #DT @Goto(cTimer)
+(c12) //Slut /Lingerie +
+#GNMLol #DT
+What a sight! #DT
+This should prove fun to watch! #DT
+Ofcourse I want you in the Slut position @ShowImage[GNMImages\Positions\Slut2.jpg]
+If you really want to please me then you should film yourself @ShowImage[GNMImages\Positions\Slut2.jpg]
+I think I would fit perfectly inside your selfhumiliation video folder #GNMGrin @ShowImage[GNMImages\Positions\Slut2.jpg]
+Will you be a doll and film yourself? @ShowImage[GNMImages\Positions\Slut2.jpg]
+[yes]Fantastic! #DT #MeritChangePLow
+[no]Aww #GNMEmoteSad #DT
+@DifferentAnswer #GNMYesOrNo  #DT
+Get your camera ready then.. #DT @Wait(40)
+Get into position! @ShowImage[GNMImages\Positions\Slut2.jpg]
+Stay there until you hear my bell.. @ShowImage[GNMImages\Positions\Slut2.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Slut2.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Slut2.jpg]
+#Timer #DT @Goto(cTimer)
+(c13) //Spanking /Extended time +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Spanking position! @ShowImage[GNMImages\Positions\Spanking1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Spanking1.jpg]
+I warn you that I might keep you there a little longer @ShowImage[GNMImages\Positions\Spanking1.jpg]
+Imagine being brutally caned! @ShowImage[GNMImages\Positions\Spanking1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Spanking1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Spanking1.jpg]
+#Timer #DT @Wait(#Random(10,200)) @Goto(cTimer)
+(c14) //Stand /Balance +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Stand position @ShowImage[GNMImages\Positions\Stand1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Stand1.jpg]
+I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\Stand1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Stand1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Stand1.jpg]
+#Timer #DT @TempFlag(cBalance) @Goto(cTimer)
+(c15) //Stand Open /Pegs, parachute, balance +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the stand open position @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+I want you to count everytime you lose your balance @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\StandOpen1.jpg]
+#Timer #DT @TempFlag(cBalance) @Goto(cTimer)
+(c16) //Worship /Rice +
+#GNMGrin #DT
+This should prove fun to watch! #DT
+I want you in the Worship position @ShowImage[GNMImages\Positions\Worship1.jpg]
+I want there rice spread out where you're worshipping #GNMLol @ShowImage[GNMImages\Positions\Worship1.jpg]
+Stay there until you hear my bell @ShowImage[GNMImages\Positions\Worship1.jpg]
+If you absolutely can't handle anymore just say 'stop' @CustomMode(stop, Goto, NoMore) @ShowImage[GNMImages\Positions\Worship1.jpg]
+Get into position #SlaveName @ShowImage[GNMImages\Positions\Worship1.jpg]
+#Timer #DT @Goto(cTimer)
+(cTimer)
+@Flag(Personality1) @Variable[PositionLevel]<[15] @NullResponse @Wait(#Random(200,300)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality2) @Variable[PositionLevel]<[15] @NullResponse @Wait(#Random(300,400)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality3) @Variable[PositionLevel]<[15] @NullResponse @Wait(#Random(300,500)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality1) @Variable[PositionLevel]>[30] @NullResponse @Wait(#Random(400,500)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality2) @Variable[PositionLevel]>[30] @NullResponse @Wait(#Random(500,600)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality3) @Variable[PositionLevel]>[30] @NullResponse @Wait(#Random(500,700)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality1) @NullResponse @Wait(#Random(300,400)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality2) @NullResponse @Wait(#Random(400,500)) @CheckFlag(cBalance) @Goto(End)
+@Flag(Personality3) @NullResponse @Wait(#Random(400,600)) @CheckFlag(cBalance) @Goto(End)
+(cBalance)
+So #SlaveName #DT
+How many times did you lose your balance? #DT @InputVar[BalanceLostTemp]
+@NullResponse @If[BalanceLostTemp]>[5]Then(cHigh)
+Well I suppose that wasn't too bad then #DT
+Good job! #MeritChangePMedium #DT @Goto(End)
+(cHigh)
+That many! #DT
+Not good enough #SlaveName #DT @ChangeVar[PositionLevel]=[PositionLevel]-[1]
+I'm disappointed.. #MeritChangeNMedium #DT @Goto(End)
+(NoMore)
+@NullResponse @CustomMode(ModeText, Normal)
+No more huh? #DT
+I must admit I'm disappointed #DT
+I don't believe you really tried #DT
+Perhaps some denial would help with your motivation? #DT
+Perhaps not.. #MeritChangeNMedium  #DT
+Well anyway we're stopping here.. #DT @ChangeVar[PositionLevel]=[PositionLevel]-[1]
+@End
+(Test1)
+(Test2)
+I think its time for a little test #DT @SetVar[PositionTestRight]=[0]
+I think its important for a #SlaveName #DT @SetVar[PositionTestWrong]=[0]
+To sometimes be tested #DT
+To ensure that you keep improving yourself #DT
+I will ask you some questions. #DT
+Get 6 right and I will reward you #DT
+Get 3 wrong and you will awarded with punishment points #DT
+So lets get to it.. #DT
+(ChoosePosition)
+@NullResponse @If[PositionTestWrong]>=[3]Then(Wrong)
+@NullResponse @If[PositionTestRight]>=[6]Then(Right)
+@NullResponse @Goto(Position1,Position2,Position3,Position4,Position5,Position6,Position7,Position8,Position9,Position10,Position11,Position12,Position13,Position14,Position15,Position16)
+(Position1)
+@NullResponse @Goto(Position1a,Position1b,Position1c,Position1d)
+(Position1a)
+Which position is number 1? #DT
+[attention]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position1b)
+Which number belongs to position attention? #DT
+[1]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position1c)
+Take position nr 1 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Attention1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position1d)
+Take Attention #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Attention1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position2)
+@NullResponse @Goto(Position2a,Position2b,Position2c,Position2d)
+(Position2a)
+Which position is number 2? #DT
+[bad bitch]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position2b)
+Which number belongs to position bad bitch? #DT
+[2]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position2c)
+Take position nr 2 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BadBitch2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position2d)
+Take bad bitch position over #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BadBitch2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position3)
+@NullResponse @Goto(Position3a,Position3b,Position3c,Position3d)
+(Position3a)
+Which position is number 3? #DT
+[bent over]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position3b)
+Which number belongs to position bent over? #DT
+[3]Correct @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position3c)
+Take position nr. 3 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/bentOver2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position3d)
+Take position bent over #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/bentOver2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position4)
+@NullResponse @Goto(Position4a,Position4b,Position4c,Position4d)
+(Position4a)
+Which position is number 4? #DT
+[bent over open]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position4b)
+Which number belongs to the bent over open #DT
+[4]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position4c)
+Take position nr. 4 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BentOverOpen1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position4d)
+Take the bent over open position #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/BentOverOpen2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position5)
+@NullResponse @Goto(Position5a,Position5b,Position5c,Position5d)
+(Position5a)
+Which position is number 5? #DT
+[box]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position5b)
+Which number belongs to the box position #DT
+[5]Correct  #DT@ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position5c)
+Take position nr. 5 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Box1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position5d)
+Take the box position #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Box1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position6)
+@NullResponse @Goto(Position6a,Position6b,Position6c,Position6d)
+(Position6a)
+Which position is number 6? #DT
+[come fuck me]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position6b)
+Which number belongs to the come fuck me position? #DT
+[6]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position6c)
+Take position nr 6 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/CFM1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position6d)
+Take the come fuck me position #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/CFM1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position7)
+@NullResponse @Goto(Position7a,Position7b,Position7c,Position7d)
+(Position7a)
+Which position is number 7? #DT
+[dog]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position7b)
+Which number belongs to the dog position #DT
+[7]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position7c)
+Take position nr. 7 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Dog1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo
+@NullResponse @Goto(ChoosePosition)
+(Position7d)
+Take the dog position #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Dog1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position8)
+@NullResponse @Goto(Position8a,Position8b,Position8c,Position8d)
+(Position8a)
+Which position is number 8? #DT
+[judgement]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position8b)
+Which number belongs to the judgement position #DT
+[8]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position8c)
+Take position nr. 8 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Judgement1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position8d)
+Take the judgement position #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Judgement1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position9)
+@NullResponse @Goto(Position9a,Position9b,Position9c,Position9d)
+(Position9a)
+Which position is number 9? #DT
+[kneel]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position9b)
+Which number belongs to position kneel #DT
+[9]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position9c)
+Take position nr 9 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Kneel1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position9d)
+Take the kneel position #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Kneel1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position10)
+@NullResponse @Goto(Position10a,Position10b,Position10c,Position10d)
+(Position10a)
+Which position is number 10? #DT
+[listen]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position10b)
+Which number belongs to the listen position #DT
+[10]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position10c)
+Take position nr 10 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Listen1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position10d)
+Take the listen position #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Listen1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position11)
+@NullResponse @Goto(Position11a,Position11b,Position11c,Position11d)
+(Position11a)
+Which position is number 11? #DT
+[punishment]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position11b)
+Which number belongs to the punishment position #DT
+[11]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position11c)
+Take position nr. 11 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Punishment4.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position11d)
+Take the punishment position #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Punishment4.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position12)
+@NullResponse @Goto(Position12a,Position12b,Position12c,Position12d)
+(Position12a)
+Which position is number 12? #DT
+[slut]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position12b)
+Which number belongs to the slut position #DT
+[12]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position12c)
+Take position nr 12 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Slut2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo
+@NullResponse @Goto(ChoosePosition)
+(Position12d)
+Take the slut position #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Slut2.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position13)
+@NullResponse @Goto(Position13a,Position13b,Position13c,Position13d)
+(Position13a)
+Which position is number 13? #DT
+[spanking]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position13b)
+Which number belongs to the spanking position #DT
+[13]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position13c)
+Take position nr. 13 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Spanking1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position13d)
+Take the spanking position #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Spanking1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position14)
+@NullResponse @Goto(Position14a,Position14b,Position14c,Position14d)
+(Position14a)
+Which position is number 14? #DT
+[stand]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position14b)
+Which number belongs to position stand #DT
+[14]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position14c)
+Take position nr 14 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Stand1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position14d)
+Take position stand #DT @Wait(5)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/Stand1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position15)
+@NullResponse @Goto(Position15a,Position15b,Position15c,Position15d)
+(Position15a)
+Which position is number 15? #DT
+[stand open]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position15b)
+Which number belongs to stand open #DT
+[15]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position15c)
+Take position nr 15 #DT @Wait(10)
+Take a good look, are you in this exact position? @ShowImage[GNMImages/Positions/StandOpen1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo
+@NullResponse @Goto(ChoosePosition)
+(Position15d)
+Take position stand open #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/StandOpen1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position16)
+@NullResponse @Goto(Position16a,Position16b,Position16c,Position16d)
+(Position16a)
+Which position is number 16? #DT
+[worship]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position16b)
+Which number belongs worship? #DT
+[16]Correct #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1] 
+@AcceptAnswer Wrong! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@NullResponse @Goto(ChoosePosition)
+(Position16c)
+Take position nr. 16 #DT @Wait(10)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Worship1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Position16d)
+Take position worship #DT @Wait(5)
+Take a good look, are you in this exact position? #DT @ShowImage[GNMImages/Positions/Worship1.jpg]
+[yes]#GNMGood #DT @ChangeVar[PositionTestRight]=[PositionTestRight]+[1]
+[no]Bad! #DT @ChangeVar[PositionTestWrong]=[PositionTestWrong]+[1]
+@DifferentAnswer #GNMYesOrNo #DT
+@NullResponse @Goto(ChoosePosition)
+(Wrong)
+I'm sorry #SlaveName but that was your third wrong #DT
+I've awarded you punishment points.. #DT @ChangeVar[GNMPPoints]=[GNMPPoints]+[#Random(50,150)]
+Next time I expect more from you! #DT @ChangeVar[PositionLevel]=[PositionLevel]-[1]
+@End
+(Right)
+Well done #SlaveName #DT
+That was 6 right and @ShowVar[PositionTestWrong] wrong! #DT
+@Variable[PositionTestWrong]=[0] You've impressed me by having 0 mistakes so I feel generous #GNMGrin #DT #GoldHigh
+@Variable[PositionTestWrong]=[1] Onle one mistake! Well done! #DT #GoldMedium
+@Variable[PositionTestWrong]=[2] Since you had 2 mistakes afterall I'm not giving you too much gold #DT #GoldLow
+I've transfered the gold #DT @ChangeVar[PositionLevel]=[PositionLevel]+[1]
+And you now have #DT @ShowVar[GNMGold] gold
+Bravo #GNMEmoteHappy #DT
+@End
+(PT2Done)
+(End)
+@RT(We're at the end of your position training,That was it,We're at the end,Well that was it,Oh my we're finally at the end #GNMGrin) #SlaveName #DT @PlayAudo[\GNMSounds\SpecialSounds\Bell.mp3] @CustomMode(ModeText, Normal)
+@RT(It was fun!,I had a lot of fun,I enjoyed it,Well this was fun!,I had a blast,I really enjoyed this!,Oh my was this fun) #DT #MeritChangePMedium
+@Variable[PositionLevel]<[50] @NullResponse @ChangeVar[PositionLevel]=[PositionLevel]+[1]
+@End
+@Info Testing consists of keeping a balance for a certain period
+@Info Simple: You are shown a position after which you will hold it for a time period
+@Info Test1: You will be shown a picture, what position is it
+@Info Test2: You will be told to take a position, after few seconds the picture is displayed - report if your holding that specific position
+@Info Complicated: Exercises are made complicated:
+@Info Attention: Buttplug + nipple pegs + gag
+@Info Bad bitch: buttplug + gag
+@Info Bent over: Gag + nipple pegs - orders keep balance and forbid heels from touching
+@Info Bent over open: Parachute with a lot of weight + gag + nipple - balance and heel touch
+@Info Box: Rice + nipple
+@Info Come fuck me: Buttplug + gag
+@Info Dog: legs and hands tied together, Balls tied to your around hands and back to legs walk back and fourth
+@Info Judgement: gag + pegs - heel touch
+@Info Kneel: Rice
+@Info Listen: Gag + rice
+@Info Punishment: Parachute, gag
+@Info Slut: Lingerie
+@Info Spanking1: Extended time period
+@Info Stand: -balance
+@Info Stand open: pegs, parachute, -balance
+@Info Worship: Rice
+@Info 
+@Info 

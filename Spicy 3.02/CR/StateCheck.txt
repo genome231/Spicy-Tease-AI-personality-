@@ -1,0 +1,22 @@
+@NullResponse @RapidCodeOn @DeleteFlag(VPleased)
+@NullResponse @DeleteFlag(Pleased)
+@NullResponse @DeleteFlag(Neutral)
+@NullResponse @DeleteFlag(Annoyed)
+@NullResponse @DeleteFlag(VAnnoyed)
+@NullResponse @Variable[GNMMerits]>[1000] @SetVar[GNMMerits]=[1000]
+@NullResponse @Variable[GNMMerits]<[1] @SetVar[GNMMerits]=[1]
+@NullResponse @Variable[GNMMerits]>=[DommeContentVPleased] @SetFlag(VPleased) @Goto(Continue1)
+@NullResponse @Variable[GNMMerits]>=[DommeContentPleased] @SetFlag(Pleased) @Goto(Continue1)
+@NullResponse @Variable[GNMMerits]<=[DommeContentVAnnoyed] @SetFlag(VAnnoyed) @Goto(Continue1)
+@NullResponse @Variable[GNMMerits]<=[DommeContentAnnoyed] @SetFlag(Annoyed) @Goto(Continue1)
+@NullResponse @SetFlag(Neutral)
+(Continue1)
+@NullResponse @Variable[GNMMerits]<[DommeContentVAnnoyed] @ChangeVar[GNMMerits]=[GNMMerits]+[30]
+@NullResponse @Variable[GNMMerits]>[DommeContentVPleased] @ChangeVar[GNMMerits]=[GNMMerits]-[30]
+(End)
+@End
+
+########################## - Comment - ##########################
+#This file handles the mood of the domme based on the merit points.
+#Called in Stroke/Start/BaseStart at the launch of the personality
+#Variables are set in GNMBackgroundStartUpFirst

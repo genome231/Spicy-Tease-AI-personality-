@@ -1,0 +1,22 @@
+You'll be watching a short video #DT
+Enjoy #DT @Goto(2a,2b,2c,2d,2e)
+(2a)
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\AgentProvocateur\*.mp4]
+Recess! #DT
+@End
+(2b)
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\AnnSummers\*.mp4]
+Recess! #DT
+@End
+(2c)
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\Change\*.mp4]
+Recess! #DT
+@End
+(2d)
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\VictoriasSecret\*.mp4]
+Recess! #DT
+@End
+(2e)
+@NullResponse @PlayVideo[\GNM_Videos\Academy\Lingerie\Wonderbra\*.mp4]
+Recess! #DT
+@End

@@ -1,0 +1,40 @@
+@NullResponse @CheckFlag(pvLink16A)
+Put your stroking hand on your thigh #DT @SetFlag(pvLink16A)
+You want to #JerkOff don't you? #DT
+[yes] Wait for my command, #SlaveName #DT
+[no] Sometimes we all have to do things we don't want to #Grin #DT
+@DifferentAnswer #GNMYesOrNo #DT
+Run you fingers up and down your upper thigh #DT
+Gently now, pretend it's <i>my</i> thigh #DT
+Touch yourself the way you would touch <i>me</i> #DT
+Caress the inside of your thigh, feel how sensitive your skin is there #DT
+Well, my skin is sensitive down there, anyway #GNMEmoteHappy #DT
+Now put your hand on your knee #DT
+And slowly walk it back up the inside of your leg #DT
+Until you reach you #GNMBalls #DT
+Massage those #GNMBalls #DT
+Grab your #GNMCock at the base an squeeze it #DT
+@End
+(pvLink16A)
+@NullResponse @ShowBlogImage
+@NullResponse @ShowBlogImage
+Don't mind me, I'm just going through some pictures #GNMEmoteHappy #DT @DeleteFlag(pvLink16A)
+@NullResponse @ShowBlogImage
+@NullResponse @ShowBlogImage @LockImages
+Do you think this is hot?
+[yes] It's okay, I guess...
+[no] Me neither
+@DifferentAnswer #GNMYesOrNo
+(another pic)
+@RT(What do you think of,How about,And) this one, @RT(sexy,hot,turn on,does it make you hard)? @ShowBlogImage
+[yes] I like it too @LikeBlogImage
+[no] @NullResponse @Goto(another pic)
+@DifferentAnswer #GNMYesOrNo
+Would you like to stroke to this picture?
+[yes] Well, you can't #GNMLol
+[no] Yeah right... #GNMLol 
+@DifferentAnswer #GNMYesOrNo
+You're not going to #JerkOff to that picture @UnlockImages  #DT 
+There's only one person you need to worship, #SlaveName #DT 
+And that person is me #GNMEmoteHappy #DT 
+@End

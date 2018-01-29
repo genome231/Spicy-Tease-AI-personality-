@@ -1,0 +1,50 @@
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @NullResponse @ShowImage
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red) 
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Green) @SystemMessage <Font color="green">Green Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green) @SetFlag(O5Red)
+@Flag(O5Red) @NullResponse @ShowImage
+@Flag(O5Red) @NullResponse @ShowImage
+@Flag(O5Red) @NullResponse @ShowImage
+@Flag(O5Red) @SystemMessage <Font color="red">Red Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Red\*.mp3] @DeleteFlag(O5Red) @SetFlag(O5Green)
+@Flag(O5Red) @SystemMessage <Font color="red">Red Light</Font> @ShowImage @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Red\*.mp3] @DeleteFlag(O5Red) @SetFlag(O5Green)
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red) 
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Green,CuckMode) @SystemMessage <Font color="green">Green Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Green\*.mp3] @DeleteFlag(O5Green,CuckMode) @SetFlag(O5Red)
+@Flag(O5Red) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Red) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Red) @NullResponse @ShowImage[\GNMImages\Ends\CuckOld\*.jpg]
+@Flag(O5Red) @SystemMessage <Font color="red">Red Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Red\*.mp3] @DeleteFlag(O5Red) @SetFlag(O5Green,CuckMode)
+@Flag(O5Red) @SystemMessage <Font color="red">Red Light</Font> @ShowImage[\GNMImages\Ends\CuckOld\*.jpg] @PlayAudio[\GNMSounds\ScriptSpecific\RedLightGreenLight\Red\*.mp3] @DeleteFlag(O5Red) @SetFlag(O5Green)

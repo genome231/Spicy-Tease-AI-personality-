@@ -1,0 +1,128 @@
+(Quiz)
+Now class #DT @SetVar[QuizLength]=[0] @ChangeVar[QuizLength]=[QuizLength]+[#Random(15,20)]
+You'll see a few pictures of different bra's  #DT
+I expect that you're all able to identify the different types #DT @Goto(Route1)
+(Route1)
+@NullResponse @RapidCodeOn @SetVar[LingerieClass2Count]=[0]
+@NullResponse @Chance20(Choose) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1]
+@NullResponse @Chance25(Choose) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1]
+@NullResponse @Chance30(Choose) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @Goto(Choose)
+(Choose)
+@NullResponse @Goto(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24)
+(1)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\AdhesiveBra\*.*] @SetVar[LClass2ArtNr]=[1] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @Goto(Route1a)
+(2)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\BacklessBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[2] @Goto(Route1a)
+(3)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Balconette\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[3] @Goto(Route1a)
+(4)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Bandeau\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[4] @Goto(Route1a)
+(5)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Bralette\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[5] @Goto(Route1a)
+(6)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\BuiltInBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[6] @Goto(Route1a)
+(7)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\BulletBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[7] @Goto(Route1a)
+(8)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Contour\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[8] @Goto(Route1a)
+(9)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\Convertible\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[9] @Goto(Route1a)
+(10)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\DemiCup\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[10] @Goto(Route1a)
+(11)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\FrontClosureBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[11] @Goto(Route1a)
+(12)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\FullCupBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[12] @Goto(Route1a)
+(13)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\FullSupportBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[13] @Goto(Route1a)
+(14)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\LeisureBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[14] @Goto(Route1a)
+(15)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\LongLineBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[15] @Goto(Route1a)
+(16)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\MaternityBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[16] @Goto(Route1a)
+(17)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\MinimizerBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[17] @Goto(Route1a)
+(18)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\PlungeBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[18] @Goto(Route1a)
+(19)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\PushUpBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[19] @Goto(Route1a)
+(20)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\RacerbackBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[20] @Goto(Route1a)
+(21)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\SheerBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[21] @Goto(Route1a)
+(22)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\ShelfBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[22] @Goto(Route1a)
+(23)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\SportsBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[23] @Goto(Route1a)
+(24)
+@NullResponse @ShowImage[\GNMImages\Academy\Lingerie\Bra\StraplessBra\*.*] @ChangeVar[LingerieClass2Count]=[LingerieClass2Count]+[1] @SetVar[LClass2ArtNr]=[24] @Goto(Route1a)
+(Route1a)
+@NullResponse @Chance20(QuizAEnd) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*]
+@NullResponse @Chance25(QuizAEnd) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*]
+@NullResponse @Chance30(QuizAEnd) @ShowImage[\GNMImages\Academy\Lingerie\Bra\*.*] @Goto(QuizAEnd)
+(QuizAEnd)
+So what kind of bra was picture number #DT @ShowVar[LingerieClass2Count]? @TimeOut(7,Late)
+[adhesive]An adhesive bra? #DT @If[LClass2ArtNr]==[1]Then(Correct) @Goto(Wrong)
+[backless]A backless bra? #DT @If[LClass2ArtNr]==[2]Then(Correct) @Goto(Wrong)
+[balconette]A balconette bra? #DT @If[LClass2ArtNr]==[3]Then(Correct) @Goto(Wrong)
+[bandeau]A bandeau bra? #DT @If[LClass2ArtNr]==[4]Then(Correct) @Goto(Wrong)
+[bralette]A bralette? #DT @If[LClass2ArtNr]==[5]Then(Correct) @Goto(Wrong)
+[built,in]A built in bra? #DT @If[LClass2ArtNr]==[6]Then(Correct) @Goto(Wrong)
+[bullet]A bullet bra? #DT @If[LClass2ArtNr]==[7]Then(Correct) @Goto(Wrong)
+[contour]A contour bra? #DT @If[LClass2ArtNr]==[8]Then(Correct) @Goto(Wrong)
+[convertible]A convertible bra? #DT @If[LClass2ArtNr]==[9]Then(Correct) @Goto(Wrong)
+[demi,cup,demicup]A demicup bra? #DT @If[LClass2ArtNr]==[10]Then(Correct) @Goto(Wrong)
+[front,closure]A front closure bra? #DT @If[LClass2ArtNr]==[11]Then(Correct) @Goto(Wrong)
+[full]A full cup bra? #DT @If[LClass2ArtNr]==[12]Then(Correct) @Goto(Wrong)
+[full,support]A full support bra? #DT @If[LClass2ArtNr]==[13]Then(Correct) @Goto(Wrong)
+[leisure]A leisure bra? #DT @If[LClass2ArtNr]==[14]Then(Correct) @Goto(Wrong)
+[long,line]A long line bra? #DT @If[LClass2ArtNr]==[15]Then(Correct) @Goto(Wrong)
+[maternity]A maternity bra? #DT @If[LClass2ArtNr]==[16]Then(Correct) @Goto(Wrong)
+[minimizer]A minimizer bra? #DT @If[LClass2ArtNr]==[17]Then(Correct) @Goto(Wrong)
+[plunge]A plunge bra? #DT @If[LClass2ArtNr]==[18]Then(Correct) @Goto(Wrong)
+[push,up]A push up bra? #DT @If[LClass2ArtNr]==[19]Then(Correct) @Goto(Wrong)
+[racerback]A racerback bra? #DT @If[LClass2ArtNr]==[20]Then(Correct) @Goto(Wrong)
+[sheer]A sheer bra? #DT @If[LClass2ArtNr]==[21]Then(Correct) @Goto(Wrong)
+[shelf]A shelf bra? #DT @If[LClass2ArtNr]==[22]Then(Correct) @Goto(Wrong)
+[sport,sports]A sports bra? #DT @If[LClass2ArtNr]==[23]Then(Correct) @Goto(Wrong)
+[strapless]A strapless bra? #DT @If[LClass2ArtNr]==[24]Then(Correct) @Goto(Wrong)
+@DifferentAnswer Thats not a name for any bra.. Try again.. #DT
+(Late)
+@Variable[LClass2ArtNr]=[1] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) An adhessive bra Miss?
+@Variable[LClass2ArtNr]=[2] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A backless bra Miss?
+@Variable[LClass2ArtNr]=[3] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) An balconette bra Miss?
+@Variable[LClass2ArtNr]=[4] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) An bandeau bra Miss?
+@Variable[LClass2ArtNr]=[5] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A bralette bra Miss?
+@Variable[LClass2ArtNr]=[6] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) An built in bra Miss?
+@Variable[LClass2ArtNr]=[7] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A bullet bra Miss?
+@Variable[LClass2ArtNr]=[8] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A contour bra Miss?
+@Variable[LClass2ArtNr]=[9] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A convertible bra Miss?
+@Variable[LClass2ArtNr]=[10] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A demi cup bra Miss?
+@Variable[LClass2ArtNr]=[11] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A front closure bra Miss?
+@Variable[LClass2ArtNr]=[12] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A full cup bra Miss?
+@Variable[LClass2ArtNr]=[13] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A full support bra Miss?
+@Variable[LClass2ArtNr]=[14] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A leisure bra Miss?
+@Variable[LClass2ArtNr]=[15] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A long line bra Miss?
+@Variable[LClass2ArtNr]=[16] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A maternity bra Miss?
+@Variable[LClass2ArtNr]=[17] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A minimizer bra Miss?
+@Variable[LClass2ArtNr]=[18] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A plunge bra Miss?
+@Variable[LClass2ArtNr]=[19] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A push up bra Miss?
+@Variable[LClass2ArtNr]=[20] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A racerback bra Miss?
+@Variable[LClass2ArtNr]=[21] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A sheer bra Miss?
+@Variable[LClass2ArtNr]=[22] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A shelf bra Miss?
+@Variable[LClass2ArtNr]=[23] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A sports bra Miss?
+@Variable[LClass2ArtNr]=[24] @RT(#SlaveF1Chat,#SlaveF2Chat,#SlaveF3Chat,#SlaveM1Chat,#SlaveM2Chat,#SlaveM3ChatPC) A strapless bra Miss?
+Correct! #DT @ChangeVar[AcademyScore]=[AcademyScore]+[1] @ChangeVar[QuizLength]=[QuizLength]-[1] @If[QuizLength]<=[0]Then(End) @Goto(Another)
+(Correct)
+@RT(You are correct!,Correct!,You are right!,Thats correct,Oh wow you got it right,You was actually right..) #DT @ChangeVar[AcademyScore]=[AcademyScore]+[10]
+@RT(Lucky for you,Good boy,I'm impressed,It makes me happy when you're right) #DT #GNMEmoteHappy @Goto(Another)
+(Wrong)
+@RT(Wrong..,Incorrect,You're wrong,Its wrong,Well ofcourse you're wrong,Its doesn't surprise me that you're wrong) #DT @ChangeVar[AcademyScore]=[AcademyScore]-[10] @Goto(Another)
+(Another)
+@NullResponse @ChangeVar[QuizLength]=[QuizLength]-[1] @If[QuizLength]<=[0]Then(End)
+@RT(Lets try again,Again..,Another,Lets try another,Time to try again,Lets give it another try) #DT @Goto(Route1)
+(End)
+I believe it's time for a short recess #DT
+Cya again after #DT
+@End
